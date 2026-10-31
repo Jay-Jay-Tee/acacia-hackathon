@@ -64,10 +64,17 @@ def corpus():
     return engine.corpus_stats()
 
 
-def status_notices(blocks):
-    """Deterministic reminders based on the status of the documents actually cited."""
+def status_notices(blocks, model=None):
+    """Deterministic reminders based on the documents actually cited."""
     cited = {c["status"] for b in blocks for c in b["citations"]}
     notices = []
+    families = {engine.aircraft_family(engine.all_ads()[c["ad_id"]]) for b in blocks for c in b["citations"]}
+    # a record with no model list is labelled by make alone; don't count it separately from that make's models
+    families = sorted(f for f in families if not any(o != f and o.startswith(f + " ") for o in families))
+    if not model and len(families) > 1:
+        shown = ", ".join(families[:4]) + (" and others" if len(families) > 4 else "")
+        notices.append(f"This answer draws on notices for different aircraft types ({shown}). Requirements for one "
+                       "type do not apply to another; set your aircraft to see only the notices for it.")
     if "proposed" in cited:
         notices.append("Cited documents include proposed rules (NPRMs). They are not in effect until the FAA "
                        "issues a final AD.")
@@ -100,6 +107,6 @@ def ask(body: Ask):
         if mode == "no_answer":
             out.update(status="refused", mode=mode, refusal_reason=note)
         else:
-            out.update(status="answered", mode=mode, answer_blocks=blocks, note=note, notices=status_notices(blocks))
+            out.update(status="answered", mode=mode, answer_blocks=blocks, note=note, notices=status_notices(blocks, body.model))
     out["total_ms"] = round((time.perf_counter() - t0) * 1000, 1)
     return out
