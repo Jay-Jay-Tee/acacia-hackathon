@@ -10,6 +10,8 @@
     "answer_blocks": [],
     "mode": null,
     "note": "",
+    "notices": [],
+    "candidates": [],
     "documents": [],
     "retrieval_ms": 0.0,
     "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",

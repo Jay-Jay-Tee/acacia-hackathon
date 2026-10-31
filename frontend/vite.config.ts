@@ -9,6 +9,6 @@ const API = "http://127.0.0.1:8000";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    proxy: { "/ask": API, "/ad": API, "/search": API, "/fleet": API },
+    proxy: { "/ask": API, "/ad": API, "/search": API, "/fleet": API, "/corpus": API },
   },
 });
