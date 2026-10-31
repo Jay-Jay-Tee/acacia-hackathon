@@ -1,4 +1,4 @@
-# Applicable frontend (P1)
+# AirFrame frontend (P1)
 
 Vite + React + TypeScript + Tailwind v4.
 
