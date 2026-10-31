@@ -91,6 +91,18 @@ For **169 rows**, the `federal_register_link` in `challenge4_ad_index.xlsx` poin
 - **NPRM-290:** a 14 CFR Part 61 pilot-training rule, not an AD. It has status `not_ad` and is never treated as a directive. The CFR part is read from each document's header.
 - **169 index links** point to a different notice than the row cites (see above).
 
+## Answer model (measured)
+The same 16 gated questions (8 hand-written answerable + held-out paraphrases), answer cache off:
+
+| Model, effort | Expected AD cited | NPRM status stated | Sentences dropped by the citation check | Latency avg / p90 |
+|---|---|---|---|---|
+| **`claude-opus-5-5`, low (default)** | 14/15 | 15/16 | 5 | **5.2 s** / 6.5 s |
+| `claude-opus-5-5`, medium | 14/15 | 15/16 | 7 | 6.7 s / 10.0 s |
+| `claude-opus-5-5`, high | 14/15 | 15/16 | 23 | 9.2 s / 11.3 s |
+| `claude-fable-5-1`, low | 14/15 | 15/16 | 6 | 7.0 s / 8.8 s |
+
+The answer step only phrases retrieved passages, so a larger model or more effort adds no measured accuracy. Higher effort writes longer answers with more claims the citation check has to remove, and takes longer. Override with `ADF_MODEL` / `ADF_EFFORT` in `.env`.
+
 ## Known limits
 - 42 of 431 rows still have no model list, even after inheriting from other versions in the docket; applicability there is UNKNOWN.
 - Serial rules are parsed from the applicability paragraph only. Rules expressed in tables, service bulletins or foreign ADs stay UNKNOWN.
