@@ -1,0 +1,112 @@
+{
+  "request": {
+    "query": "fuel starvation uncommanded in-flight engine shutdown",
+    "model": "P.68",
+    "serial": "100"
+  },
+  "response": {
+    "status": "answered",
+    "refusal_reason": "",
+    "answer_blocks": [
+      {
+        "text": "(e) Unsafe Condition This AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. The FAA is issuing this AD to prevent fuel starvation. The unsafe condition, if not addressed, could result in engine power loss, engine shutdown in flight, and reduced control of the airplane.",
+        "citations": [
+          {
+            "docket": "FAA-2026-11794",
+            "ad_number": "",
+            "revision_date": "2026-09-25",
+            "section": "(e) Unsafe Condition",
+            "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "page": 61798,
+            "url": "https://www.federalregister.gov/d/2026-19972",
+            "cited_text": "(e) Unsafe Condition This AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. The FAA is issuing this AD to prevent fuel starvation. The unsafe condition, if not addressed, could result in engine power loss, engine shutdown in flight, and reduced control of the airplane.",
+            "ad_id": 17,
+            "chunk_id": 520
+          }
+        ]
+      },
+      {
+        "text": "The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsafe condit...",
+        "citations": [
+          {
+            "docket": "FAA-2026-11794",
+            "ad_number": "",
+            "revision_date": "2026-09-25",
+            "section": "Summary",
+            "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "page": 61797,
+            "url": "https://www.federalregister.gov/d/2026-19972",
+            "cited_text": "The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsafe condit...",
+            "ad_id": 17,
+            "chunk_id": 502
+          }
+        ]
+      },
+      {
+        "text": "SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsa...",
+        "citations": [
+          {
+            "docket": "FAA-2026-11794",
+            "ad_number": "",
+            "revision_date": "2026-09-25",
+            "section": "Summary",
+            "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "page": 61797,
+            "url": "https://www.federalregister.gov/d/2026-19972",
+            "cited_text": "SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsa...",
+            "ad_id": 17,
+            "chunk_id": 506
+          }
+        ]
+      }
+    ],
+    "mode": "extractive",
+    "note": "No API key configured; showing source passages only.",
+    "documents": [
+      {
+        "ad_id": 17,
+        "docket": "FAA-2026-11794",
+        "subject": "Airworthiness Directives; Vulcanair S.p.A. Airplanes",
+        "ad_number": "",
+        "status": "proposed",
+        "issue_date": "2026-09-25",
+        "make": "Vulcanair S.p.A.",
+        "models": [
+          "P.68",
+          "P.68B"
+        ],
+        "models_source": "sheet",
+        "citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+        "url": "https://www.federalregister.gov/d/2026-19972",
+        "supersedes": [],
+        "fulltext": true,
+        "revision": {
+          "count": 1,
+          "is_latest": true,
+          "latest_id": 17,
+          "versions": [
+            {
+              "id": 17,
+              "issue_date": "2026-09-25",
+              "status": "proposed",
+              "citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+              "url": "https://www.federalregister.gov/d/2026-19972"
+            }
+          ]
+        },
+        "applicability": {
+          "result": "APPLIES",
+          "trace": [
+            "Model P.68 is listed: P.68, P.68B.",
+            "Applicability text: \"(c) Applicability This AD applies to Vulcanair S.p.A. Model P.68 and P.68B airplanes, certificated in any category, serial numbers 1 through 182.\"",
+            "Rule: serial numbers 1 to 182.",
+            "S/N 100 is covered."
+          ]
+        }
+      }
+    ],
+    "retrieval_ms": 39.4,
+    "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
+    "total_ms": 64.3
+  }
+}

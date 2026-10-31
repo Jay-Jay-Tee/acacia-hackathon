@@ -4,6 +4,7 @@ from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 import engine
@@ -20,9 +21,15 @@ class Ask(BaseModel):
     serial: str | None = Field(default=None, max_length=40)
 
 
+DIST = Path(__file__).parent / "frontend" / "dist"  # built by `npm run build` in frontend/
+if (DIST / "assets").is_dir():
+    app.mount("/assets", StaticFiles(directory=DIST / "assets"), name="assets")
+
+
 @app.get("/")
 def index():
-    return FileResponse(Path(__file__).parent / "index.html")
+    built = DIST / "index.html"
+    return FileResponse(built if built.is_file() else Path(__file__).parent / "index.html")
 
 
 @app.get("/search")
