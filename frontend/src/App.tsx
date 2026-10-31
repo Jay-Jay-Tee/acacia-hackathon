@@ -1,17 +1,21 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ask, getCorpus } from "./api/client";
 import { mocks } from "./api/mocks";
-import type { Citation, CorpusStats } from "./api/types";
+import type { Citation, CorpusStats, Filters } from "./api/types";
 import { ChatHistory } from "./components/ChatHistory";
 import { Composer } from "./components/Composer";
+import { DocumentsRail } from "./components/DocumentsRail";
 import { EmptyState, type Example } from "./components/EmptyState";
+import { Logo } from "./components/Logo";
 import { SidePanel, SidePanelProvider, useSidePanel } from "./components/SidePanel";
 import { Thread, type Turn } from "./components/Thread";
 import { features } from "./features";
+import { FilterBar, activeCount, useFilters } from "./features/FilterBar";
 import { maxTurnId, useChatHistory } from "./lib/history";
 import { useProfile, type Profile } from "./lib/profile";
 import { safeUrl } from "./lib/safeUrl";
 import { useTheme, type Theme } from "./lib/theme";
+import { useMediaQuery } from "./lib/useMediaQuery";
 
 export default function App() {
   return (
@@ -26,6 +30,7 @@ function Chat() {
   const history = useChatHistory();
   const turns = history.active?.turns ?? [];
   const [profile, setProfile] = useProfile();
+  const [filters, setFilters] = useFilters();
   const [corpus, setCorpus] = useState<CorpusStats | null>(null);
   const [theme, cycleTheme] = useTheme();
   const [drawer, setDrawer] = useState(false);
@@ -33,6 +38,12 @@ function Chat() {
   const input = useRef<HTMLTextAreaElement>(null);
   const panel = useSidePanel();
   const busy = turns.some((t) => t.state === "loading");
+  // Documents rail: on wide screens it shows the answer picked in the thread, else the latest one with a response.
+  const railShown = useMediaQuery("(min-width: 1280px)");
+  const [railTurnId, setRailTurnId] = useState<number | null>(null);
+  const answered = turns.filter((t) => t.response);
+  const railTurn = answered.find((t) => t.id === railTurnId) ?? answered[answered.length - 1];
+  const openTimeline = features.openRevisionTimeline && ((adId: number) => features.openRevisionTimeline?.(adId, panel));
   const { updateTurns, startChat } = history;
 
   useEffect(() => {
@@ -41,11 +52,23 @@ function Chat() {
     return () => ctl.abort();
   }, []);
 
+  // Cmd+K (Mac) / Ctrl+K anywhere focuses the question box.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && !e.altKey && !e.shiftKey && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        input.current?.focus();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
   const run = useCallback(
-    async (chatId: string, id: number, query: string, p: Profile) => {
+    async (chatId: string, id: number, query: string, p: Profile, f?: Filters) => {
       const patch = (t: Partial<Turn>) => updateTurns(chatId, (ts) => ts.map((x) => (x.id === id ? { ...x, ...t } : x)));
       try {
-        patch({ state: "done", response: await ask({ query, model: p.model, serial: p.serial }) });
+        patch({ state: "done", response: await ask({ query, model: p.model, serial: p.serial, filters: f }) });
       } catch (err) {
         patch({ state: "error", error: err instanceof Error ? err.message : String(err) });
       }
@@ -57,20 +80,22 @@ function Chat() {
     (query: string, p: Profile = profile) => {
       const chatId = history.activeId ?? startChat(query);
       const id = nextId.current++;
-      updateTurns(chatId, (ts) => [...ts, { id, query, profile: p, state: "loading" }]);
-      void run(chatId, id, query, p);
+      setRailTurnId(null); // a new question takes over the rail
+      const f = activeCount(filters) ? filters : undefined;
+      updateTurns(chatId, (ts) => [...ts, { id, query, profile: p, filters: f, state: "loading" }]);
+      void run(chatId, id, query, p, f);
     },
-    [profile, run, history.activeId, startChat, updateTurns],
+    [profile, filters, run, history.activeId, startChat, updateTurns],
   );
 
   function retry(t: Turn) {
     const chatId = history.activeId;
     if (!chatId) return;
     updateTurns(chatId, (ts) => ts.map((x) => (x.id === t.id ? { ...x, state: "loading", error: undefined } : x)));
-    void run(chatId, t.id, t.query, t.profile);
+    void run(chatId, t.id, t.query, t.profile, t.filters);
   }
 
-  function clarify(t: Turn, model: string) {
+  function pickModel(t: Turn, model: string) {
     const p = { ...t.profile, model };
     setProfile(p);
     send(t.query, p);
@@ -126,11 +151,11 @@ function Chat() {
                   <path d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
               </button>
-              <Mark />
+              <Logo />
               <div className="min-w-0">
-                <h1 className="text-[15px] leading-tight font-semibold tracking-tight">AD Finder</h1>
+                <h1 className="text-[16px] leading-tight font-semibold tracking-tight">Applicable</h1>
                 <p className="truncate text-xs text-stone-500 dark:text-stone-400">
-                  Airworthiness-directive search for maintenance planners
+                  Does this directive apply to your aircraft? Cited, rule-checked answers.
                 </p>
               </div>
             </div>
@@ -170,29 +195,36 @@ function Chat() {
             {turns.length === 0 ? (
               <EmptyState corpus={corpus} onExample={runExample} />
             ) : (
-              <Thread turns={turns} onCitationClick={openCitation} onRetry={retry} onClarify={clarify} />
+              <Thread
+                turns={turns}
+                onCitationClick={openCitation}
+                onRetry={retry}
+                onPickModel={pickModel}
+                passages={corpus?.passages}
+                railShown={railShown}
+                railTurnId={railTurn?.id}
+                onShowDocuments={(t) => setRailTurnId(t.id)}
+                onOpenTimeline={openTimeline}
+              />
             )}
           </div>
         </main>
 
         <footer className="bg-linear-to-t from-stone-50 from-60% to-transparent pt-2 dark:from-stone-950">
           <div className="mx-auto max-w-3xl px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
-            <Composer profile={profile} onProfileChange={setProfile} onSend={(q) => send(q)} busy={busy} inputRef={input} />
+            <FilterBar filters={filters} onChange={setFilters} />
+            <Composer profile={profile} onProfileChange={setProfile} onSend={(q) => send(q)} busy={busy} inputRef={input} hasHistory={turns.length > 0} />
           </div>
         </footer>
       </div>
-    </div>
-  );
-}
 
-/** Brand mark: an aircraft over a document fold. */
-function Mark() {
-  return (
-    <span aria-hidden className="grid size-8 shrink-0 place-items-center rounded-lg bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900">
-      <svg viewBox="0 0 24 24" className="size-4.5" fill="currentColor">
-        <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z" />
-      </svg>
-    </span>
+      {/* desktop documents rail */}
+      {railShown && turns.length > 0 && (
+        <div className="w-[22rem] shrink-0 border-l border-stone-200 bg-stone-100/40 dark:border-stone-800 dark:bg-stone-900/30">
+          <DocumentsRail turn={railTurn} onOpenTimeline={openTimeline} />
+        </div>
+      )}
+    </div>
   );
 }
 

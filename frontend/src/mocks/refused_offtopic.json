@@ -34,6 +34,7 @@
           "2000-23-01"
         ],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 3,
           "is_latest": true,
@@ -93,6 +94,7 @@
           "2000-23-01"
         ],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 3,
           "is_latest": false,
@@ -156,6 +158,7 @@
         "url": "https://www.federalregister.gov/d/03-25089",
         "supersedes": [],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 3,
           "is_latest": true,
@@ -219,6 +222,7 @@
         "url": "https://www.federalregister.gov/d/03-12113",
         "supersedes": [],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 3,
           "is_latest": false,
@@ -278,6 +282,7 @@
           "2000-23-01"
         ],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 3,
           "is_latest": false,
@@ -338,6 +343,7 @@
         "url": "https://www.federalregister.gov/d/05-18209",
         "supersedes": [],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 1,
           "is_latest": true,
@@ -381,6 +387,7 @@
         "url": "https://www.federalregister.gov/d/2026-08154",
         "supersedes": [],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 1,
           "is_latest": true,
@@ -419,6 +426,7 @@
         "url": "https://www.federalregister.gov/d/2026-08322",
         "supersedes": [],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 1,
           "is_latest": true,
@@ -438,8 +446,8 @@
         "applicability": null
       }
     ],
-    "retrieval_ms": 6.0,
+    "retrieval_ms": 16.2,
     "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
-    "total_ms": 6.6
+    "total_ms": 17.4
   }
 }

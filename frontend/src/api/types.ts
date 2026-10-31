@@ -7,6 +7,24 @@ export interface AskRequest {
   query: string; // required, <= 500 chars
   model?: string | null; // <= 40 chars
   serial?: string | null; // <= 40 chars
+  filters?: Filters | null; // v1.5
+}
+
+/** v1.5: optional pre-filters on the corpus (all keys optional; omit = no filtering). */
+export interface Filters {
+  status?: DocStatus[];
+  make?: string; // case-insensitive substring
+  product_type?: string;
+  published_from?: string; // YYYY-MM-DD, inclusive
+  published_to?: string;
+}
+
+/** GET /facets: values for the filter bar. */
+export interface Facets {
+  status: Record<DocStatus, number>;
+  makes: string[];
+  product_types: string[];
+  published: { min: string | null; max: string | null };
 }
 
 export type AskStatus = "answered" | "refused" | "needs_clarification";
@@ -22,6 +40,7 @@ export interface Citation {
   revision_date: string; // FR publish date of this version
   section: string;
   fr_citation: string;
+  fr_cite: string; // v1.4: standard FR citation of the cited page, e.g. "91 FR 61797"
   pages: string; // v1.2: page range of the whole notice
   page: number; // page of the cited passage
   url: string;
@@ -82,6 +101,7 @@ export interface DocumentCard {
   fulltext: boolean;
   url: string;
   citation: string;
+  fr_cite?: string; // v1.4: notice citation, e.g. "91 FR 61796-61799"
   ad_number: string;
   revision: Revision;
   applicability: Applicability | null;

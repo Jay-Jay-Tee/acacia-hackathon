@@ -1,0 +1,107 @@
+{"id": "H001", "category": "answerable", "query": "nut on the top of a main rotor servo rod end losing its clamp-up torque", "model": "AS350B3", "expect": "answered", "docket": "FAA-2026-11814"}
+{"id": "H002", "category": "answerable", "query": "cargo hook beam on the BK 117 D-2 that might leak fuel", "model": "MBB-BK 117 D-2", "expect": "answered", "docket": "FAA-2026-11812"}
+{"id": "H003", "category": "answerable", "query": "cracking around fastener heads on the doublers under the Avanti's lower wing skin", "model": "P-180", "expect": "answered", "docket": "FAA-2026-11809"}
+{"id": "H004", "category": "answerable", "query": "emergency slides not inflating because a hose fitting fractures", "model": "A318-111", "expect": "answered", "docket": "FAA-2026-11810"}
+{"id": "H005", "category": "answerable", "query": "pilot window that can't be jettisoned because the release linkage is jammed", "model": "H160-B", "expect": "answered", "docket": "FAA-2026-11806"}
+{"id": "H006", "category": "answerable", "query": "slotted nuts rusting badly where the wing meets the engine pylon spigots", "model": "A318-112", "expect": "answered", "docket": "FAA-2026-11803"}
+{"id": "H007", "category": "answerable", "query": "cargo loading bar fitting hook stuck in the up position", "model": "A350-941", "expect": "answered", "docket": "FAA-2026-11802"}
+{"id": "H008", "category": "answerable", "query": "life raft cylinder valve fitted with the wrong safety pin", "model": "AW189", "expect": "answered", "docket": "FAA-2026-11788"}
+{"id": "H009", "category": "answerable", "query": "gaps between seals and the engine cowling found during an engine fire investigation", "model": "AS 365 N3", "expect": "answered", "docket": "FAA-2026-11787"}
+{"id": "H010", "category": "answerable", "query": "main landing gear cages cracking because they were machined incorrectly", "model": "A300 B4-103", "expect": "answered", "docket": "FAA-2026-8809"}
+{"id": "H011", "category": "answerable", "query": "rear sliding door jams shut when you try to open it from inside", "model": "429", "expect": "answered", "docket": "FAA-2026-11783"}
+{"id": "H012", "category": "answerable", "query": "hydromechanical units being swapped out early because of engine health monitor messages", "model": "A350-941", "expect": "answered", "docket": "FAA-2026-8807"}
+{"id": "H013", "category": "answerable", "query": "compressor rotor stages rubbing against the case on geared turbofans", "model": "PW1519G", "expect": "answered", "docket": "FAA-2026-8816"}
+{"id": "H014", "category": "answerable", "query": "elevator control bearings assembled wrongly on the 737 MAX", "model": "737-8", "expect": "answered", "docket": "FAA-2026-8811"}
+{"id": "H015", "category": "answerable", "query": "nose wheel leg retracts on its own on the ATR 42", "model": "ATR42-200", "expect": "answered", "docket": "FAA-2026-8813"}
+{"id": "H016", "category": "answerable", "query": "sealant missing on a bracket's faying surfaces on the Dash 8-400", "model": "DHC-8-401", "expect": "answered", "docket": "FAA-2026-8810"}
+{"id": "H017", "category": "answerable", "query": "rust on the rudder actuator of the Bo 209", "model": "BO-209-150 FF", "expect": "answered", "docket": "FAA-2026-8802"}
+{"id": "H018", "category": "answerable", "query": "honeycomb material peeling off the turbine inner seal on CFM56-5B engines", "model": "CFM56-5B1", "expect": "answered", "docket": "FAA-2026-8803"}
+{"id": "H019", "category": "answerable", "query": "aircraft pitches suddenly when autopilot drops out after an engine crew alert", "model": "BD-100-1A10", "expect": "answered", "docket": "FAA-2026-8808"}
+{"id": "H020", "category": "answerable", "query": "severe up-and-down shaking on a 206L that has an aftermarket STC fitted", "model": "206L", "expect": "answered", "docket": "FAA-2026-8796"}
+{"id": "H021", "category": "answerable", "query": "defective rear fuselage cone on the Bell 505", "model": "505", "expect": "answered", "docket": "FAA-2026-8798"}
+{"id": "H022", "category": "answerable", "query": "engine-driven hydraulic pumps failing on the A350", "model": "A350-941", "expect": "answered", "docket": "FAA-2026-8800"}
+{"id": "H023", "category": "answerable", "query": "fuel weeping near rib 6 because holes were drilled too big", "model": "BD-700-2A12", "expect": "answered", "docket": "FAA-2026-8797"}
+{"id": "H024", "category": "answerable", "query": "ram air turbine hatch seal could peel and foul the turbine", "model": "EMB-550", "expect": "answered", "docket": "FAA-2026-8791"}
+{"id": "H025", "category": "answerable", "query": "front cargo door frames built from non-conforming material on the Dreamliner", "model": "787-8", "expect": "answered", "docket": "FAA-2026-8784"}
+{"id": "H026", "category": "answerable", "query": "three flight-control computer faults displayed right at touchdown", "model": "A330-941", "expect": "answered", "docket": "FAA-2026-8782"}
+{"id": "H027", "category": "answerable", "query": "nose gear slider tube overheated with cracks", "model": "A318-111", "expect": "answered", "docket": "FAA-2026-8779"}
+{"id": "H028", "category": "answerable", "query": "stick shaker firing for no reason while climbing to cruise", "model": "737-300 Series", "expect": "answered", "docket": "FAA-2026-7237"}
+{"id": "H029", "category": "answerable", "query": "fuel bulkhead area of the baggage hold lacks fire sealant on the H160", "model": "H160-B", "expect": "answered", "docket": "FAA-2026-7239"}
+{"id": "H030", "category": "answerable", "query": "passenger seats not seated properly in their tracks on the 737-8", "model": "737-8", "expect": "answered", "docket": "FAA-2026-7228"}
+{"id": "H031", "category": "answerable", "query": "weak latches on the left sliding door of the EC130", "model": "EC130B4", "expect": "answered", "docket": "FAA-2026-7226"}
+{"id": "H032", "category": "answerable", "query": "plastic cover left on a power distribution unit on the Bombardier BD-700", "model": "BD-700-2A12", "expect": "answered", "docket": "FAA-2026-7221"}
+{"id": "H033", "category": "answerable", "query": "yaw actuator rod break leading to loss of anti-torque control on EC135", "model": "EC135P2", "expect": "answered", "docket": "FAA-2026-11792"}
+{"id": "H034", "category": "answerable", "query": "which AD would require me to change the airworthiness limits for the Bell 505", "model": "505", "expect": "answered", "docket": "FAA-2026-11791"}
+{"id": "H035", "category": "answerable", "query": "fuel leaking low pressure shutoff valves on A330 and A340 aircraft", "expect": "answered", "docket": "FAA-2026-8780"}
+{"id": "H036", "category": "answerable", "query": "what has to be inspected on the CH-47D forward transmission support beam fitting", "expect": "answered", "docket": "FAA-2025-5394"}
+{"id": "H037", "category": "answerable", "query": "do anything about the Trent 700 low-pressure compressor blade removal", "expect": "answered", "docket": "FAA-2025-2541"}
+{"id": "H038", "category": "answerable", "query": "Falcon passenger seats that slide on the track on their own", "model": "Falcon 6X", "expect": "answered", "docket": "FAA-2026-8805"}
+{"id": "H039", "category": "answerable", "query": "seat track lock jamming during taxi and takeoff and landing on Falcon 2000", "model": "FALCON 2000", "expect": "answered", "docket": "FAA-2026-8801"}
+{"id": "H040", "category": "out_of_scope", "query": "What's the best way to cook basmati rice?", "expect": "refused"}
+{"id": "H041", "category": "out_of_scope", "query": "Summarise the EASA AD on ATR 72 propeller blades", "expect": "refused"}
+{"id": "H042", "category": "out_of_scope", "query": "What is the minimum crew rest period under Part 117?", "expect": "refused"}
+{"id": "H043", "category": "out_of_scope", "query": "How do I get a private pilot licence?", "expect": "refused"}
+{"id": "H044", "category": "out_of_scope", "query": "Which airline had the best safety record last year?", "expect": "refused"}
+{"id": "H045", "category": "out_of_scope", "query": "Explain how a turbofan engine produces thrust", "expect": "refused"}
+{"id": "H046", "category": "out_of_scope", "query": "Write a Python function that sorts a list of tail numbers", "expect": "refused"}
+{"id": "H047", "category": "out_of_scope", "query": "What's the price of Jet A at Heathrow today?", "expect": "refused"}
+{"id": "H048", "category": "out_of_scope", "query": "Translate 'airworthiness directive' into German", "expect": "refused"}
+{"id": "H049", "category": "out_of_scope", "query": "What are the symptoms of a heart attack?", "expect": "refused"}
+{"id": "H050", "category": "out_of_scope", "query": "Is there an AD on the Cirrus SR22 parachute system?", "expect": "refused"}
+{"id": "H051", "category": "out_of_scope", "query": "Tell me the current stock price of Boeing", "expect": "refused"}
+{"id": "H052", "category": "ambiguous", "query": "tail rotor control rod broke on the yaw actuator", "model": "EC135", "expect": "needs_clarification"}
+{"id": "H053", "category": "ambiguous", "query": "door evacuation slide failing to inflate", "model": "A318", "expect": "needs_clarification"}
+{"id": "H054", "category": "ambiguous", "query": "front cargo door frame material", "model": "787", "expect": "needs_clarification"}
+{"id": "H055", "category": "ambiguous", "query": "main rotor servo nut torque", "model": "AS350", "expect": "needs_clarification"}
+{"id": "H056", "category": "ambiguous", "query": "seats sliding on the track", "model": "Falcon", "expect": "needs_clarification"}
+{"id": "H057", "category": "ambiguous", "query": "wing spar inspection service hours", "model": "PA-28", "expect": "needs_clarification"}
+{"id": "H058", "category": "ambiguous", "query": "fuel shut-off valve leaks", "model": "A330", "expect": "needs_clarification"}
+{"id": "H059", "category": "ambiguous", "query": "turbine seal honeycomb", "model": "CFM56", "expect": "needs_clarification"}
+{"id": "H060", "category": "contradicting", "query": "fuel starvation engine shutdown on my Vulcanair", "model": "P.68", "serial": "183", "expect": "refused"}
+{"id": "H061", "category": "contradicting", "query": "emergency locator antenna position on the Cabri", "model": "Cabri G2", "serial": "1383", "expect": "refused"}
+{"id": "H062", "category": "contradicting", "query": "stabilizer spar detailed inspection", "model": "408", "serial": "-0100", "expect": "refused"}
+{"id": "H063", "category": "contradicting", "query": "tail rotor control rod yaw actuator inspection", "model": "EC135P2", "serial": "2100", "expect": "refused"}
+{"id": "H064", "category": "contradicting", "query": "Can we just ignore the main rotor servo nut torque inspection on our AS350B3", "model": "AS350B3", "expect": "refused"}
+{"id": "H065", "category": "contradicting", "query": "We would like to postpone the elevator bearing inspection on a 737-8 past the compliance time", "model": "737-8", "expect": "refused"}
+{"id": "H066", "category": "contradicting", "query": "Is it OK to not do the fire switch check on the A318 if the crew reports nothing", "model": "A318-111", "expect": "refused"}
+{"id": "H067", "category": "contradicting", "query": "Can the operator waive the ATR 42 nose gear leak test", "model": "ATR42-200", "expect": "refused"}
+{"id": "H068", "category": "revision", "query": "what's the latest version of FAA-2026-1338?", "expect": "answered", "docket": "FAA-2026-1338", "latest_publish": "2026-10-07", "latest_status": "proposed"}
+{"id": "H069", "category": "revision", "query": "Give me the newest revision of the Airbus A330 NPRM replacing ADs 2014-16-22 and 2017-25-13", "expect": "answered", "docket": "FAA-2026-1338", "latest_publish": "2026-10-07", "latest_status": "proposed"}
+{"id": "H070", "category": "revision", "query": "which is the current notice for docket FAA-2025-2277", "expect": "answered", "docket": "FAA-2025-2277", "latest_publish": "2026-09-24", "latest_status": "proposed"}
+{"id": "H071", "category": "revision", "query": "Has the BD-700-2A12 airworthiness limitations NPRM been revised?", "model": "BD-700-2A12", "expect": "answered", "docket": "FAA-2025-2277", "latest_publish": "2026-09-24", "latest_status": "proposed"}
+{"id": "H072", "category": "revision", "query": "Was the CH-47D transmission beam fitting proposal revised, and which one is current?", "expect": "answered", "docket": "FAA-2025-5394", "latest_publish": "2026-07-08", "latest_status": "proposed"}
+{"id": "H073", "category": "revision", "query": "latest notice on FAA-2025-5394", "expect": "answered", "docket": "FAA-2025-5394", "latest_publish": "2026-07-08", "latest_status": "proposed"}
+{"id": "H074", "category": "revision", "query": "Piper PA-28 wing spar factored service hours proposal, which notice is newest", "expect": "answered", "docket": "FAA-2024-2142", "latest_publish": "2024-11-07", "latest_status": "proposed"}
+{"id": "H075", "category": "revision", "query": "what is the most recent version of 2002-NM-12-AD", "expect": "answered", "docket": "2002-NM-12-AD", "latest_publish": "2009-01-11", "latest_status": "proposed"}
+{"id": "H076", "category": "revision", "query": "newest notice in the 737-300 to -500 rulemaking filed as 2002-NM-12-AD", "expect": "answered", "docket": "2002-NM-12-AD", "latest_publish": "2009-01-11", "latest_status": "proposed"}
+{"id": "H077", "category": "revision", "query": "FAA-2007-27715 A330 and A340 rulemaking: current status and latest version", "expect": "answered", "docket": "FAA-2007-27715", "latest_publish": "2011-05-17", "latest_status": "withdrawn"}
+{"id": "H078", "category": "withdrawn", "query": "Is the 787 VHF tuning control panel NPRM still active?", "model": "787-8", "expect": "answered", "docket": "FAA-2025-0204", "latest_publish": "2026-10-14", "latest_status": "withdrawn"}
+{"id": "H079", "category": "withdrawn", "query": "is the Trent 700 low-pressure compressor blade proposal still alive", "expect": "answered", "docket": "FAA-2025-2541", "latest_publish": "2026-05-29", "latest_status": "withdrawn"}
+{"id": "H080", "category": "withdrawn", "query": "Did the FAA drop the Arrius 2F high-pressure turbine blade porosity proposal?", "expect": "answered", "docket": "FAA-2025-0341", "latest_publish": "2025-06-25", "latest_status": "withdrawn"}
+{"id": "H081", "category": "withdrawn", "query": "is the 787 water pressure clamshell coupling NPRM in force", "model": "787-8", "expect": "answered", "docket": "FAA-2024-1884", "latest_publish": "2025-02-04", "latest_status": "withdrawn"}
+{"id": "H082", "category": "withdrawn", "query": "Do I still need to comply with the proposed A319 AD that was published in 2024?", "model": "A319-111", "expect": "answered", "docket": "FAA-2024-1475", "latest_publish": "2024-09-26", "latest_status": "withdrawn"}
+{"id": "H083", "category": "withdrawn", "query": "Are the loose 787 door assist handles still subject to a proposed AD?", "model": "787-8", "expect": "answered", "docket": "FAA-2022-0876", "latest_publish": "2024-03-22", "latest_status": "withdrawn"}
+{"id": "H084", "category": "withdrawn", "query": "What happened to the PW1100G NPRM that would supersede ADs 2022-19-15 and 2023-16-07?", "model": "PW1100G", "expect": "answered", "docket": "FAA-2023-2237", "latest_publish": "2023-12-28", "latest_status": "withdrawn"}
+{"id": "H085", "category": "withdrawn", "query": "BR700-715 booster rotor front flange penetrant inspection NPRM, still open?", "expect": "answered", "docket": "FAA-2023-1211", "latest_publish": "2023-11-28", "latest_status": "withdrawn"}
+{"id": "H086", "category": "withdrawn", "query": "Piper PA-23 fuel tank water draining proposal, is it still pending", "model": "PA-23-150", "expect": "answered", "docket": "FAA Rules 95-CE-35-AD", "latest_publish": "2022-10-31", "latest_status": "withdrawn"}
+{"id": "H087", "category": "withdrawn", "query": "Southwest Florida Aviation UH-1 helicopter proposal superseding AD 2002-20-01: withdrawn?", "expect": "answered", "docket": "FAA-2010-0427", "latest_publish": "2021-09-29", "latest_status": "withdrawn"}
+{"id": "H088", "category": "multi_document", "query": "seats sliding without input on Falcon airplanes", "model": "Falcon 7X", "expect": "answered", "dockets": ["FAA-2026-8805", "FAA-2026-8801"]}
+{"id": "H089", "category": "multi_document", "query": "EC135 yaw actuator control rod ball pivot inspection", "model": "EC135P2", "expect": "answered", "dockets": ["FAA-2026-11792", "FAA-2026-11790"]}
+{"id": "H090", "category": "multi_document", "query": "airworthiness limitations revision for the A300-600", "model": "A300 B4-603", "expect": "answered", "dockets": ["FAA-2026-8812", "FAA-2026-8806"]}
+{"id": "H091", "category": "multi_document", "query": "787 VHF radio frequency swapping on the tuning panel, all notices", "model": "787-8", "expect": "answered", "dockets": ["FAA-2021-0255", "FAA-2025-0204"]}
+{"id": "H092", "category": "multi_document", "query": "every open rule for the Bell 505", "model": "505", "expect": "answered", "dockets": ["FAA-2026-11791", "FAA-2026-8798"]}
+{"id": "H093", "category": "multi_document", "query": "Bombardier BD-700-2A12 fuel leak, protective film and limitations notices", "model": "BD-700-2A12", "expect": "answered", "dockets": ["FAA-2026-8797", "FAA-2026-7221", "FAA-2025-2277"]}
+{"id": "H094", "category": "serial_edge", "query": "fuel starvation uncommanded engine stop", "model": "P.68", "serial": "182", "docket": "FAA-2026-11794", "expect_applicability": "APPLIES"}
+{"id": "H095", "category": "serial_edge", "query": "fuel starvation uncommanded engine stop", "model": "P.68", "serial": "1", "docket": "FAA-2026-11794", "expect_applicability": "APPLIES"}
+{"id": "H096", "category": "serial_edge", "query": "fuel starvation uncommanded engine stop", "model": "P.68", "serial": "00150", "docket": "FAA-2026-11794", "expect_applicability": "APPLIES"}
+{"id": "H097", "category": "serial_edge", "query": "emergency locator transmitter antenna placement", "model": "Cabri G2", "serial": "1003", "docket": "FAA-2026-4630", "expect_applicability": "APPLIES"}
+{"id": "H098", "category": "serial_edge", "query": "emergency locator transmitter antenna placement", "model": "Cabri G2", "serial": "1388", "docket": "FAA-2026-4630", "expect_applicability": "DOES_NOT_APPLY"}
+{"id": "H099", "category": "serial_edge", "query": "emergency locator transmitter antenna placement", "model": "Cabri G2", "serial": "1002", "docket": "FAA-2026-4630", "expect_applicability": "DOES_NOT_APPLY"}
+{"id": "H100", "category": "serial_edge", "query": "horizontal stabilizer spar detailed inspection", "model": "408", "serial": "-0030", "docket": "FAA-2026-3870", "expect_applicability": "APPLIES"}
+{"id": "H101", "category": "serial_edge", "query": "horizontal stabilizer spar detailed inspection", "model": "408", "serial": "-0052", "docket": "FAA-2026-3870", "expect_applicability": "DOES_NOT_APPLY"}
+{"id": "H102", "category": "serial_edge", "query": "tail rotor control rod yaw actuator ball pivot", "model": "EC135P2", "serial": "1276", "docket": "FAA-2026-11792", "expect_applicability": "APPLIES"}
+{"id": "H103", "category": "serial_edge", "query": "tail rotor control rod yaw actuator ball pivot", "model": "EC135P2", "serial": "1277", "docket": "FAA-2026-11792", "expect_applicability": "DOES_NOT_APPLY"}
+{"id": "H104", "category": "serial_edge", "query": "tail rotor control rod yaw actuator ball pivot", "model": "EC135P2", "serial": "1999", "docket": "FAA-2026-11790", "expect_applicability": "APPLIES"}
+{"id": "H105", "category": "serial_edge", "query": "wing lower skin reinforcement doubler fastener cracks", "model": "P-180", "serial": "1065", "docket": "FAA-2026-11809", "expect_applicability": "APPLIES"}
+{"id": "H106", "category": "serial_edge", "query": "wing lower skin reinforcement doubler fastener cracks", "model": "P-180", "serial": "1066", "docket": "FAA-2026-11809", "expect_applicability": "DOES_NOT_APPLY"}
+{"id": "H107", "category": "serial_edge", "query": "engine restart test after case corrosion hit the variable geometry system", "model": "CF34-3A1", "serial": "807500", "docket": "FAA-2026-3875", "expect_applicability": "APPLIES"}

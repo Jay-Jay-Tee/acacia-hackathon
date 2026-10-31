@@ -1,13 +1,15 @@
-# API contract (v1.3)
+# API contract (v1.5)
 
 Owned jointly by **P1 (UI)** and **P2 (Logic)**. Any change needs a PR reviewed by both. The frontend renders only these fields.
 
 ## `POST /ask`
 Request:
 ```json
-{"query": "fuel starvation engine shutdown", "model": "P.68", "serial": "100"}
+{"query": "fuel starvation engine shutdown", "model": "P.68", "serial": "100",
+ "filters": {"status": ["proposed"], "make": "vulcan", "product_type": "Aircraft",
+             "published_from": "2020-01-01", "published_to": "2026-12-31"}}
 ```
-`query` is required (≤ 500 chars). `model` and `serial` are optional (≤ 40 chars each).
+`query` is required (≤ 500 chars). `model` and `serial` are optional (≤ 40 chars each). `filters` (v1.5) is optional; every key in it is optional (status: any of proposed/final/withdrawn/not_ad; make: case-insensitive substring; product_type; published_from/to: YYYY-MM-DD, inclusive). With active filters, answers carry a `Filtered: …` notice and a filter-caused refusal names the filters.
 
 Response:
 ```jsonc
@@ -34,6 +36,7 @@ Response:
           "section": "(c) Applicability",
           "fr_citation": "Federal Register, Volume 91 ...",
           "pages": "61796-61799",        // v1.2: page range of the whole notice
+          "fr_cite": "91 FR 61797",      // v1.4: standard FR citation of the cited page (volume = publish year - 1935)
           "page": 61797,                 // page of the cited passage
           "url": "https://www.federalregister.gov/d/2026-xxxxx",
           "cited_text": "exact quoted source text",
@@ -54,7 +57,7 @@ Response:
       "models_source": "sheet" | "applicability" | "summary" | null,   // v1.1 (P2): where the model list came from
       "supersedes": ["2021-12-10"], "fulltext": true,
       "url": "https://www.federalregister.gov/d/...",
-      "citation": "string", "ad_number": "",
+      "citation": "string", "fr_cite": "91 FR 61796-61799", "ad_number": "",   // fr_cite v1.4
       "revision": {
         "count": 2, "is_latest": true, "latest_id": 12,
         // newest first; the current version is the one with the latest publish date
@@ -74,8 +77,9 @@ Response:
 ## Other endpoints
 | Endpoint | Owner | Status |
 |---|---|---|
-| `GET /search?q=&model=` | P2 | exists |
+| `GET /search?q=&model=&status=&make=&product_type=&published_from=&published_to=` | P2 | exists; filters v1.5 |
 | `GET /ad/{ad_id}` | P2 | exists (card plus summary and applicability_text) |
+| `GET /facets` | P2 | exists (v1.5): `{status: {proposed: n, …}, makes: [...], product_types: [...], published: {min, max}}` for the filter bar |
 | `GET /corpus` | P2 | exists: corpus size to display (records, full-text records, FR pages, passages, status counts) |
 | `GET /ad/{ad_id}/text` | P4 | exists: `{ad_id, record_id, docket, subject, status, status_label, pages, citation, url, chunks: [{chunk_id, section, page, anchor, text}], anchors: [{section, page, chunk_id, anchor}]}`. `page` is where the chunk starts; draw a page marker when it changes. Extractive `cited_text` is cut at 600 chars plus `...`, so match on the prefix. |
 | `POST /note` | P4 | exists: body `{query, model?, serial?, status, mode?, refusal_reason?, answer_blocks: [{text, citations: [{ad_id, chunk_id, cited_text}]}]}` → `{markdown, filename, generated_at}`. Builds the compliance note: question, answer, every citation (docket, revision, section, page, URL, quote with a source check), applicability trace, UTC timestamp and "For review by certifying staff: decision support only." Document details, verdicts and source checks are recomputed server-side from `ad_id`/`chunk_id`, so only the question and answer text come from the client. Unknown `ad_id` returns 422. |
