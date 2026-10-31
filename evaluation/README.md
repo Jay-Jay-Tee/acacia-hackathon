@@ -13,6 +13,8 @@ Scripts and question sets for measuring retrieval, applicability and refusal beh
 | `dev_paraphrases_holdout.jsonl` | 10 held-out paraphrases, written before the synonym list. |
 | `dev_negatives.jsonl` | 12 off-topic questions for the refusal gate. |
 | `eval_human.py` | Scores `human_questions.jsonl`: recall@5 (with and without the model), gate status, revision/withdrawn, serial verdicts. `-v` lists every miss. |
+| `bench_latency.py` | Retrieval p50/p95/p99 on the real index and a copy scaled N× (`--scale 5`), cache cleared per query. `--bm25-only` skips vector scoring. |
+| `timed_study.py`, `timed_study_tasks.jsonl` | Stopwatch harness and 5 tasks for the manual-vs-tool study (`run --arm manual|tool --who NAME`, `report`). Holds no results until a person runs it. |
 | `human_questions.jsonl` | 107 hand-written questions (answerable, out-of-scope, ambiguous, contradicting, revision, withdrawn, multi-document, serial edge cases). Reported separately from the synthetic recall. |
 
 ## Run

@@ -24,6 +24,14 @@ Run the baseline with `python evaluation/baseline.py run` then `python evaluatio
 
 Checks behind this table: `pytest` 138 passed, 1 skipped.
 
+## Timed manual-vs-tool study (n=5)
+
+**Status: harness and tasks committed; timings not yet taken.** The manual arm needs a person using federalregister.gov with a stopwatch, so no time or speed-up is reported until someone has run it. Tasks are in `evaluation/timed_study_tasks.jsonl` (each ground truth checked against the quoted (c) Applicability text); protocol and results go through `evaluation/timed_study.py` (`run --arm manual|tool --who NAME`, then `report`). Report the result as "n=5 measured", with these caveats:
+
+- All five tasks are serial-range cases (list, `except`, dash serial, ESN) taken from the human-written set the tool was already checked on, so they favour the tool. None is an `UNKNOWN` case, where the tool hands the reading back to the person.
+- The same person does both arms, so the second arm benefits from having read the notice already. Record which arm went first, or use two people.
+- For T2 and T3 the tool's verdict is a refusal ("none of the matching documents apply to this serial"), not an "APPLIES/DOES NOT APPLY" badge.
+
 ## Where does this fail, and how would the user know?
 
 Each failure below is one the tool surfaces in the interface. Nothing fails silently.
@@ -129,6 +137,19 @@ Caveats: the questions were written with the corpus open, then run once. Nothing
 | Retrieval p50 / p95 over 1,295 pages | ~13–16 ms / ~23–29 ms across runs (target < 3,000 ms) |
 | Full answer with Claude | ~4–5 s |
 | Cached answer | ~0 s |
+
+#### Headroom: real corpus vs 5× duplicated corpus (`evaluation/bench_latency.py`, 31 Oct 2026)
+
+155 distinct questions from every evaluation set, 3 rounds (465 timings), LRU cache cleared before each so every timing is a real retrieval. Apple M-series laptop, macOS, Python 3.14, one process. The relevance-gate vector scoring is included in the "hybrid" rows (the shipped configuration); "BM25 only" skips it.
+
+| Corpus | Passages | Config | p50 | p95 | p99 |
+|---|---:|---|---:|---:|---:|
+| Real (431 records) | 8,584 | hybrid | 6.8 ms | 10.3 ms | 12.4 ms |
+| 5× duplicated | 42,920 | hybrid | 28.9 ms | 38.7 ms | 41.0 ms |
+| Real | 8,584 | BM25 only | 3.6 ms | 5.9 ms | 6.7 ms |
+| 5× duplicated | 42,920 | BM25 only | 24.6 ms | 33.8 ms | 36.5 ms |
+
+Latency grows roughly linearly with passage count (p95 ×3.7 hybrid, ×5.7 BM25-only for 5× the data), and the 5× p95 is about 1.3% of the 3,000 ms target. Read this as headroom, not accuracy. The copy repeats the same text, models and dockets (SQLite FTS and the vector matrix do 5× the scan work, but the extra rows are not new content), and one machine was used. These timings are lower than the 13–16 ms above; the query mix differs and the cause of the gap was not investigated, so do not compare the two runs directly. Retrieval is not the bottleneck: the Claude call (~4–5 s) is.
 
 ## Reading these numbers honestly
 
