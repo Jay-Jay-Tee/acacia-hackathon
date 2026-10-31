@@ -2,9 +2,12 @@ import type { ComponentType } from "react";
 import type { Citation } from "../api/types";
 import type { SidePanelApi } from "../components/SidePanel";
 import { CopyNoteButton, type CopyNoteProps } from "./CopyNoteButton";
+import { openWhatChanged } from "./openChanges";
 import { openFleetCheck } from "./openFleet";
 import { openSource } from "./openSource";
 import { openUploads } from "./openUploads";
+import { openWatchlist } from "./openWatchlist";
+import { WatchButton, type WatchButtonProps } from "./WatchButton";
 import { openRevisionTimeline } from "./openTimeline";
 
 // P4's single entry point into the UI. P1's components call these hooks; P4 fills them in
@@ -22,6 +25,12 @@ export interface FeatureHooks {
   CopyNote?: ComponentType<CopyNoteProps>;
   /** Open the PDF upload and cited Q&A panel. P1 wires a button to this; no button renders while undefined. */
   openUploads?: (panel: SidePanelApi) => void;
+  /** "What changed" between a notice and the previous one in its docket (or `oldAdId`). P1 wires this to a revision badge. */
+  openWhatChanged?: (newAdId: number, panel: SidePanelApi, oldAdId?: number) => void;
+  /** Open the watchlist of dockets. P1 wires a header button to this. */
+  openWatchlist?: (panel: SidePanelApi) => void;
+  /** "Watch docket" toggle for a document card: `<features.WatchButton docket recordId />`. */
+  WatchButton?: ComponentType<WatchButtonProps>;
 }
 
 export const features: FeatureHooks = {
@@ -30,4 +39,7 @@ export const features: FeatureHooks = {
   openRevisionTimeline,
   CopyNote: CopyNoteButton,
   openUploads,
+  openWhatChanged,
+  openWatchlist,
+  WatchButton,
 };
