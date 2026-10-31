@@ -340,7 +340,7 @@ def model_candidates(model):
 
 
 MIN_COVERAGE = 0.6  # short queries (<= 2 content words) need every word present
-MIN_SIM = 0.70      # cosine similarity that counts as on-topic when words differ (tuned in eval_retrieval.py)
+MIN_SIM = 0.70      # cosine similarity that counts as on-topic when words differ (tuned in evaluation/eval_retrieval.py)
 
 
 def relevant(res, top=3):

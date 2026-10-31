@@ -35,8 +35,7 @@ export interface AnswerBlock {
   citations: Citation[];
 }
 
-/** not_ad (v1.3): a non-AD rule in the sheet, e.g. 14 CFR Part 61. */
-export type DocStatus = "proposed" | "final" | "withdrawn" | "not_ad";
+export type DocStatus = "proposed" | "final" | "withdrawn" | "not_ad"; // not_ad added in v1.3
 
 export type ModelsSource = "sheet" | "applicability" | "summary" | null;
 
@@ -72,7 +71,7 @@ export interface DocumentCard {
   subject: string;
   status: DocStatus;
   status_label: string; // v1.2: display text for the status
-  data_warning?: string | null; // v1.3: a known problem with this record's source data; show it
+  data_warning: string | null; // v1.3: known source-data problem; show it on the card
   issue_date: string;
   publish_date: string; // v1.2
   pages: string; // v1.2
@@ -124,7 +123,7 @@ export interface CorpusStats {
   records_with_full_text: number;
   federal_register_pages: number;
   passages: number;
-  status: Partial<Record<DocStatus, number>>;
+  status: Record<DocStatus, number>;
   embeddings: boolean;
 }
 

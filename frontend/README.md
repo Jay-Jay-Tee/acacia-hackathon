@@ -9,7 +9,7 @@ npm run dev      # http://localhost:5173, proxies /ask /ad /search /fleet to 127
 npm run build    # typecheck + build to frontend/dist, which FastAPI then serves at /
 ```
 
-The backend must be running for live requests (`uvicorn app:app --port 8000` from the repo root). If `frontend/dist` doesn't exist, FastAPI falls back to the legacy `index.html`.
+The backend must be running for live requests (`uvicorn app:app --port 8000` from the repo root). If `frontend/dist` doesn't exist, FastAPI falls back to the plain-HTML `legacy/index.html`.
 
 ## Building without the backend
 Add `?mock=<name>` to the dev URL (the dev page lists the links):

@@ -104,20 +104,26 @@ export function AnswerBubble({ response: r, onCitationClick, onPickModel }: Prop
       {r.answer_blocks.length > 0 && (
         <div className="mt-3 space-y-2.5 wrap-break-word">
           {extractive && <p className="text-xs text-stone-500 dark:text-stone-400">Matching source passages, quoted verbatim:</p>}
-          {r.answer_blocks.map((b, i) => {
-            const chips = b.citations.map((c, j) => <CitationChip key={j} n={numberOf(c)} citation={c} onOpen={onCitationClick} />);
-            return extractive ? (
+          {extractive ? (
+            r.answer_blocks.map((b, i) => (
               <blockquote key={i} className="border-l-2 border-stone-300 pl-3 leading-relaxed whitespace-pre-line text-stone-800 dark:border-stone-600 dark:text-stone-200">
                 {b.text}
-                {chips}
+                {b.citations.map((c, j) => <CitationChip key={j} n={numberOf(c)} citation={c} onOpen={onCitationClick} />)}
               </blockquote>
-            ) : (
-              <p key={i} className="leading-relaxed">
-                {b.text}
-                {chips}
-              </p>
-            );
-          })}
+            ))
+          ) : (
+            // Citations can split one sentence into several blocks, so generated blocks flow as one text
+            // with each chip right after the words it supports.
+            <p className="leading-relaxed">
+              {r.answer_blocks.map((b, i) => (
+                <span key={i}>
+                  {i > 0 && !/^[,.;:)]/.test(b.text) && " "}
+                  {i === 0 ? b.text.charAt(0).toUpperCase() + b.text.slice(1) : b.text}
+                  {b.citations.map((c, j) => <CitationChip key={j} n={numberOf(c)} citation={c} onOpen={onCitationClick} />)}
+                </span>
+              ))}
+            </p>
+          )}
         </div>
       )}
 
