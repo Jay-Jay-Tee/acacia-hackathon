@@ -1,4 +1,4 @@
-# API contract (v1.2)
+# API contract (v1.3)
 
 Owned jointly by **P1 (UI)** and **P2 (Logic)**. Any change needs a PR reviewed by both. The frontend renders only these fields.
 
@@ -29,7 +29,7 @@ Response:
           "record_id": "NPRM-019",       // v1.2: official citation key from challenge4_ad_index.xlsx
           "docket": "FAA-2026-11794",
           "ad_number": "",               // "" for NPRMs
-          "status": "proposed" | "final" | "withdrawn",   // v1.2
+          "status": "proposed" | "final" | "withdrawn" | "not_ad",   // v1.2; not_ad added v1.3
           "revision_date": "2026-10-09", // FR publish date of this version
           "section": "(c) Applicability",
           "fr_citation": "Federal Register, Volume 91 ...",
@@ -46,7 +46,8 @@ Response:
   "documents": [
     {
       "ad_id": 12, "record_id": "NPRM-019", "docket": "FAA-2026-11794", "subject": "string",
-      "status": "proposed" | "final" | "withdrawn",
+      "status": "proposed" | "final" | "withdrawn" | "not_ad",   // not_ad (v1.3): a non-AD rule in the sheet, e.g. 14 CFR Part 61
+      "data_warning": "string" | null,   // v1.3: a known problem with the source data for this record; show it
       "status_label": "Proposed rule (NPRM), not in effect",   // v1.2: display text for the status
       "issue_date": "2026-10-05", "publish_date": "2026-10-09", "pages": "61796-61799",
       "make": "string", "models": ["P.68", "P.68B"],

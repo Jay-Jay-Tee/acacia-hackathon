@@ -1,4 +1,4 @@
-import type { AdDetail, AskRequest, AskResponse, SearchResponse } from "./types";
+import type { AdDetail, AskRequest, AskResponse, CorpusStats, SearchResponse } from "./types";
 import { mockResponse } from "./mocks";
 
 export class ApiError extends Error {
@@ -43,4 +43,8 @@ export function search(q: string, model?: string, signal?: AbortSignal): Promise
 
 export function getAd(adId: number, signal?: AbortSignal): Promise<AdDetail> {
   return request<AdDetail>(`/ad/${encodeURIComponent(adId)}`, { signal });
+}
+
+export function getCorpus(signal?: AbortSignal): Promise<CorpusStats> {
+  return request<CorpusStats>("/corpus", { signal });
 }

@@ -1,4 +1,4 @@
-// TypeScript mirror of docs/API.md (contract v1 + v1.1 additions).
+// TypeScript mirror of docs/API.md (contract v1.3).
 // Shared by P1 (UI) and P4 (features). Change only together with docs/API.md.
 
 // ---------- POST /ask ----------
@@ -15,12 +15,15 @@ export type AskStatus = "answered" | "refused" | "needs_clarification";
 export type AnswerMode = "generated" | "extractive" | "no_answer" | null;
 
 export interface Citation {
+  record_id: string; // v1.2: official citation key from challenge4_ad_index.xlsx
   docket: string;
   ad_number: string; // "" for NPRMs
-  revision_date: string;
+  status: DocStatus; // v1.2
+  revision_date: string; // FR publish date of this version
   section: string;
   fr_citation: string;
-  page: number;
+  pages: string; // v1.2: page range of the whole notice
+  page: number; // page of the cited passage
   url: string;
   cited_text: string;
   ad_id: number;
@@ -32,12 +35,14 @@ export interface AnswerBlock {
   citations: Citation[];
 }
 
-export type DocStatus = "proposed" | "final" | "withdrawn";
+export type DocStatus = "proposed" | "final" | "withdrawn" | "not_ad"; // not_ad added in v1.3
 
 export type ModelsSource = "sheet" | "applicability" | "summary" | null;
 
 export interface RevisionVersion {
   id: number;
+  record_id: string; // v1.2
+  publish_date: string; // v1.2
   issue_date: string;
   status: string;
   citation: string;
@@ -48,7 +53,7 @@ export interface Revision {
   count: number;
   is_latest: boolean;
   latest_id: number;
-  versions: RevisionVersion[];
+  versions: RevisionVersion[]; // newest first
 }
 
 export type ApplicabilityResult = "APPLIES" | "DOES_NOT_APPLY" | "UNKNOWN" | "AMBIGUOUS";
@@ -61,10 +66,15 @@ export interface Applicability {
 
 export interface DocumentCard {
   ad_id: number;
+  record_id: string; // v1.2
   docket: string;
   subject: string;
   status: DocStatus;
+  status_label: string; // v1.2: display text for the status
+  data_warning: string | null; // v1.3: known source-data problem; show it on the card
   issue_date: string;
+  publish_date: string; // v1.2
+  pages: string; // v1.2
   make: string;
   models: string[];
   models_source?: ModelsSource; // v1.1
@@ -85,8 +95,10 @@ export interface AskResponse {
   retrieval_ms: number;
   total_ms: number;
   disclaimer: string;
-  /** v1.1 (P2, not yet on main): exact models to choose from when needs_clarification, else []. */
-  candidates?: string[];
+  /** v1.1: exact models to choose from when needs_clarification, else []. */
+  candidates: string[];
+  /** v1.2: deterministic status reminders (e.g. "cited documents include NPRMs"); show prominently. */
+  notices: string[];
   answer_blocks: AnswerBlock[];
   documents: DocumentCard[];
 }
@@ -102,6 +114,17 @@ export interface SearchHit {
 export interface SearchResponse {
   retrieval_ms: number;
   hits: SearchHit[];
+}
+
+// ---------- GET /corpus ----------
+
+export interface CorpusStats {
+  records: number;
+  records_with_full_text: number;
+  federal_register_pages: number;
+  passages: number;
+  status: Record<DocStatus, number>;
+  embeddings: boolean;
 }
 
 // ---------- GET /ad/{ad_id} ----------

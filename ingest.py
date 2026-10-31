@@ -43,6 +43,8 @@ PAGES_RE = re.compile(r"(\d+)\s*-\s*(\d+)")
 PAGE_MARK_RE = re.compile(r"^\[\[Page (\d+)\]\]$")
 AD_SECTION_RE = re.compile(r"^\(([a-z]{1,2})\) ([A-Z][^.]{2,80})$")
 PREAMBLE_HEAD_RE = re.compile(r"^([A-Z][A-Z ,'/-]{3,60}):")
+CFR_PART_RE = re.compile(r"\b14 CFR Parts? (\d+)")
+AD_WORDS_RE = re.compile(r"airworthiness directive|\bAD\b|\bADs\b|NPRM|proposed rulemaking", re.I)
 WITHDRAW_RE = re.compile(r"\bwithdraw(?:s|ing)\b[^.]{0,80}?\b(?:notices? of proposed rulemaking|S?NPRMs?)", re.I)
 
 
@@ -54,7 +56,8 @@ def parse_date(s):
 
 
 def is_withdrawal(subject, summary):
-    return subject.lower().startswith("withdrawal") or bool(WITHDRAW_RE.search(" ".join(summary.split())[:300]))
+    # 'Withdrawal - ...' or 'Airworthiness Directives; Withdrawal - ...' in the subject, or the summary says so
+    return "withdrawal" in subject.lower() or bool(WITHDRAW_RE.search(" ".join(summary.split())[:300]))
 
 
 def load_rows():
@@ -276,10 +279,13 @@ def build(rows, use_fulltext):
         status = "proposed"
         cached = CACHE / f"{r['fr_doc']}.txt" if r["fr_doc"] else None
         chunks = []
+        r["cfr_part"], r["data_warning"] = None, None
         if use_fulltext and cached and cached.exists():
             text = cached.read_text()
             if "[Rules and Regulations]" in text[:600]:
                 status = "final"
+            part = CFR_PART_RE.search(text[:3000])
+            r["cfr_part"] = part.group(1) if part else None
             chunks = list(split_sections(text, r["page_start"]))
             n_full += 1
             if r["page_start"] and r["page_end"]:
@@ -292,7 +298,12 @@ def build(rows, use_fulltext):
             for s, _, t in chunks:
                 if not appl and "Applicability" in t[:400]:
                     appl = t
-        if not chunks:
+        # the source sheet's summary occasionally belongs to a different rule (e.g. NPRM-314's describes
+        # instrument approach procedures); keep it out of the index when the full text is an AD and it isn't
+        if r["cfr_part"] == "39" and r["summary"] and not AD_WORDS_RE.search(r["summary"]):
+            r["data_warning"] = ("The source sheet's summary for this record does not describe an airworthiness "
+                                 "directive; it is not used. Rely on the Federal Register text.")
+        elif not chunks:
             chunks = [("Summary", r["page_start"], r["summary"])]
         else:
             chunks.insert(0, ("Summary", r["page_start"], r["summary"]))
@@ -300,6 +311,8 @@ def build(rows, use_fulltext):
             status = "final"
         if r["withdrawn"]:
             status = "withdrawn"
+        if r["cfr_part"] and r["cfr_part"] != "39":  # e.g. a Part 61 pilot-training rule in the sheet
+            status = "not_ad"
         r["status"] = status
         r["applicability_text"] = appl
         r["models_source"] = "sheet" if r["models"] else None

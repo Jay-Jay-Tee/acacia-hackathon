@@ -101,3 +101,14 @@ def test_withdrawal_detection():
 def test_withdrawn_proposal_never_applies():
     a = {**ad(["P.68"]), "status": "withdrawn"}
     assert engine.check_applicability(a, "P.68", "100")["result"] == "DOES_NOT_APPLY"
+
+
+def test_withdrawal_in_subject_anywhere():
+    assert ingest.is_withdrawal("Airworthiness Directives; Withdrawal - Empresa Brasileira", "")
+
+
+def test_non_ad_rule_never_applies():
+    a = {**ad(["R22"]), "status": "not_ad", "cfr_part": "61"}
+    r = engine.check_applicability(a, "R22", "1")
+    assert r["result"] == "UNKNOWN" and "Part 61" in r["trace"][-1]
+    assert engine.check_applicability(a, "R44", "1")["result"] == "DOES_NOT_APPLY"  # unlisted model still excluded

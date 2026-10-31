@@ -1,13 +1,15 @@
 # AD Finder: 4-person team plan (Challenge #4, Airbus track)
 
+> **Status:** historical build plan. For current setup and commands, start at the [root README](../README.md) and [documentation index](README.md).
+
 ## Context
 We're going with Challenge #4. A working lightweight build is on `main`, at the repo root:
 - `ingest.py`: xlsx + Federal Register full text → SQLite FTS5
 - `engine.py`: search, applicability, revisions, refusal gates
 - `llm.py`: Claude with native citations, a post-check and an extractive fallback
 - `app.py`: FastAPI `/ask`, `/search`, `/ad/{id}`
-- `index.html`: a plain UI
-- `eval.py` and `questions.jsonl`: 22 questions, all passing
+- `legacy/index.html`: a plain UI
+- `evaluation/eval.py` and `evaluation/questions.jsonl`: 22 questions, all passing
 - `tests/`: 11 unit tests passing
 
 We now split into 4 parallel workstreams: **UI, Logic, Testing, Features**. Time is short, so every workstream is tiered **MUST / SHOULD / COULD** and we freeze early. Time discipline is 5% of the score and earlier submission scores higher.
@@ -40,14 +42,14 @@ The only addition right now is `chunk_id` on each citation, which Features needs
 |---|---|---|
 | **P1 UI** | `frontend/**` (new: Vite + React + TS + Tailwind) | Python files |
 | **P2 Logic** | `engine.py`, `llm.py`, `ingest.py`, and new `retrieval/` modules if `engine.py` gets split | `frontend/`, `tests/` (except adding unit tests for own code) |
-| **P3 Testing** | `tests/`, `eval.py`, `questions.jsonl`, `fixtures/`, `.github/workflows/`, `docs/EVAL.md` | product code (file issues or PRs to the owner instead) |
+| **P3 Testing** | `tests/`, `evaluation/`, `fixtures/`, `.github/workflows/`, `docs/EVAL.md` | product code (file issues or PRs to the owner instead) |
 | **P4 Features** | `features.py` (a new FastAPI `APIRouter` mounted in `app.py` with one line) and `frontend/src/features/**` | `engine.py` internals (call its public functions) |
 
-`app.py` changes stay tiny: mount the router, and serve `frontend/dist` instead of `index.html`. Whoever needs a change says so in chat first.
+`app.py` changes stay tiny: mount the router, and serve `frontend/dist` instead of `legacy/index.html`. Whoever needs a change says so in chat first.
 
 ### 3. Branches and integration
 - Branches: `ui/*`, `logic/*`, `test/*`, `feat/*` → PR into `main`. Rebase on `main` before opening the PR.
-- **Every PR must pass** `pytest` and `python eval.py`, without lowering any category score. P3 sets this up as a GitHub Action (no LLM calls, so no key needed in CI).
+- **Every PR must pass** `pytest` and `python evaluation/eval.py`, without lowering any category score. P3 sets this up as a GitHub Action (no LLM calls, so no key needed in CI).
 - **Integration checkpoints:** about 3 h in (merge all MUSTs, run the full eval with `--llm`), and at feature freeze.
 
 ---
@@ -108,14 +110,14 @@ The only addition right now is `chunk_id` on each citation, which Features needs
 
 **Rules:**
 - The LLM never decides applicability or legality.
-- Every change re-runs `eval.py`, and the PR description includes the before/after numbers.
+- Every change re-runs `evaluation/eval.py`, and the PR description includes the before/after numbers.
 
 ---
 
 ## P3: Testing and evaluation (red team plus the numbers for the pitch)
 **MUST**
-- **A CI workflow** (`.github/workflows/ci.yml`): `pip install`, `python ingest.py --no-fetch` against the committed `data/fr_cache/`, `pytest`, `python eval.py`. It fails on any category regression.
-- **Expand `questions.jsonl` to about 100,** each tagged by category and with an expected docket where relevant:
+- **A CI workflow** (`.github/workflows/ci.yml`): `pip install`, `python ingest.py --no-fetch` against the committed `data/fr_cache/`, `pytest`, `python evaluation/eval.py`. It fails on any category regression.
+- **Expand `evaluation/questions.jsonl` to about 100,** each tagged by category and with an expected docket where relevant:
   - answerable, written as *paraphrases* (not copied from summaries); this replaces the inflated 99% recall
   - out-of-scope, ambiguous, contradicting
   - revision ("what's the latest version of FAA-2026-1338?")
@@ -166,7 +168,7 @@ Everything here reinforces "a qualified person can verify before acting", which 
 1. **P2 was overloaded.** Streaming moves to COULD. Supersession linking moves to **P4**, since the revision timeline is the thing that consumes it. P2 keeps model extraction, the parser, hybrid retrieval and caching.
 2. **P1 and P4 share the frontend**, so P1 publishes the shared pieces by **T+0:30**: `frontend/src/api/types.ts` (the contract as TS types), `frontend/src/api/client.ts`, and an empty `<SidePanel>` slot. After that, P4's components in `frontend/src/features/` plug into the panel without either person editing the other's files.
 3. **The index isn't in git** (`data/ads.db` is gitignored). After every pull that touches `ingest.py`, run `python ingest.py --no-fetch` (offline; it uses the committed `data/fr_cache/`, `_resolved.json` and `data/raw/ad_nprm.xlsx`). CI does the same.
-4. **API key and cost:** one shared key across four people, each running `eval.py --llm`. Answer caching (P2) comes first so repeated runs are free. Only P3 runs the full `--llm` eval, and only at the checkpoints; everyone else uses the default eval with no LLM.
+4. **API key and cost:** one shared key across four people, each running `evaluation/eval.py --llm`. Answer caching (P2) comes first so repeated runs are free. Only P3 runs the full `--llm` eval, and only at the checkpoints; everyone else uses the default eval with no LLM.
 5. **Demo machine:** one laptop and one owner (P3). From T+5:00 it runs the built `frontend/dist` from `main` with the extractive fallback tested, plus a backup screen recording of the demo script in case of Wi-Fi or API trouble.
 6. **One submitter (P3), with a checklist:** repo public with an MIT LICENSE; README covering the problem, user, setup, metrics, failure case and limits; `docs/EVAL.md`; the demo video if the organisers want one; submit right at freeze.
 
@@ -175,7 +177,7 @@ Everything here reinforces "a qualified person can verify before acting", which 
 |---|---|
 | T+0:00–0:30 | Pull `main`. Freeze `docs/API.md` and add `chunk_id`. P3 commits fixtures and the CI skeleton. P1 scaffolds Vite. |
 | T+0:30–3:00 | Build the MUSTs on branches. |
-| **T+3:00** | **Integration #1:** merge MUSTs, full `eval.py --llm`, fix breakages together (30 min). |
+| **T+3:00** | **Integration #1:** merge MUSTs, full `evaluation/eval.py --llm`, fix breakages together (30 min). |
 | T+3:30–5:00 | SHOULDs. P3 runs the baseline and the timed study, and drafts `docs/EVAL.md`. |
 | **T+5:00** | **Feature freeze.** Only bug fixes after this. |
 | T+5:00–6:00 | README and pitch (problem 30 s → live demo 90 s → eval and failure 45 s → limits 15 s), two rehearsals, **submit**. |
@@ -183,7 +185,7 @@ Everything here reinforces "a qualified person can verify before acting", which 
 If time runs short, cut SHOULD and COULD and submit at feature freeze. MUSTs alone already cover every rubric line.
 
 ## Verification (at each checkpoint)
-- `pytest -q` passes, and `python eval.py` shows no category below the previous run, with retrieval p95 under 3 s.
-- `python eval.py --llm`: 100% citation coverage, and all injection cases refused or still cited.
+- `pytest -q` passes, and `python evaluation/eval.py` shows no category below the previous run, with retrieval p95 under 3 s.
+- `python evaluation/eval.py --llm`: 100% citation coverage, and all injection cases refused or still cited.
 - Manual demo script on the integrated build: P.68 S/N 100 (APPLIES, cited) → S/N 200 (refused, trace) → A320 (clarify, click candidate) → a fleet check of 3 aircraft → open a citation in the source viewer → copy the compliance note.
 - `npm run build` works, and FastAPI serves `frontend/dist` from `/`.

@@ -113,6 +113,9 @@ def check_applicability(ad, model=None, serial=None):
         return {"result": "DOES_NOT_APPLY",
                 "trace": [f"Model {model} is not in the applicability list: {', '.join(models)}."]}
 
+    if ad.get("status") == "not_ad":  # model matched, but this record is not an AD (e.g. a Part 61 training rule)
+        return {"result": "UNKNOWN", "trace": trace + [f"{status_label(ad)}; airworthiness applicability rules do "
+                                                       "not apply. Read the source."]}
     text = ad.get("applicability_text") or ""
     if not text:
         scope = ad["summary"][:300].lower()
@@ -207,6 +210,7 @@ def hybrid_enabled():
 
 
 RRF_K = 60
+EXPAND = True  # query expansion with aviation synonyms/abbreviations (rules.SYNONYMS)
 # Vector ranking weight in the fusion (BM25 = 1.0). Off by default: on this corpus fusion gave no recall gain
 # (synthetic recall@5 78/80 hybrid vs 79/80 BM25; paraphrase dev set 16/16 either way), so embeddings are used
 # only for the relevance gate's similarity check, where they let 13/16 paraphrased questions through vs 5/16.
@@ -219,10 +223,14 @@ def _search_cached(query, model, k):
     """BM25 (and, when embeddings exist, vector search) fused with reciprocal rank fusion.
     Each hit carries 'coverage' (share of query words present) and 'sim' (cosine, or None)."""
     t0 = time.perf_counter()
-    toks = content_tokens(query)
+    # each unit is a query term plus synonyms/expanded abbreviations (rules.SYNONYMS); a unit counts as
+    # covered when any of its forms appears, and every form is searched
+    units = rules.expand_query(query, content_tokens) if EXPAND else [(t, []) for t in content_tokens(query)]
+    toks = [t for t, _ in units]
     if not toks:
         return {"hits": [], "tokens": [], "ms": 0.0}
-    match = " OR ".join('"' + t.replace('"', "") + '"' for t in toks)
+    forms = list(dict.fromkeys(f for t, alts in units for f in [t, *alts]))
+    match = " OR ".join('"' + f.replace('"', "") + '"' for f in forms)
     allowed = None
     if model:
         nm = norm_model(model)
@@ -236,7 +244,9 @@ def _search_cached(query, model, k):
     vec, sims = _vectors(), {}
     if vec:
         np = vec["np"]
-        q = np.array(next(iter(vec["model"].query_embed([query]))), dtype=np.float32)
+        extra = [a for _, alts in units for a in alts]
+        qtext = f"{query} ({', '.join(extra)})" if extra else query
+        q = np.array(next(iter(vec["model"].query_embed([qtext]))), dtype=np.float32)
         scores = vec["mat"] @ (q / np.linalg.norm(q))
         if allowed is not None:
             scores = np.where(np.isin(vec["ad_of"], list(allowed)), scores, -1.0)
@@ -256,7 +266,7 @@ def _search_cached(query, model, k):
         r = rows[cid]
         ad = all_ads()[r["ad_id"]]
         low, meta = r["text"].lower(), (ad["subject"] + " " + " ".join(ad["models"])).lower()
-        covered = [t for t in toks if _has_word(t, low) or _has_word(t, meta)]
+        covered = [t for t, alts in units if any(_has_word(f, low) or _has_word(f, meta) for f in [t, *alts])]
         hits.append({"chunk_id": cid, "ad_id": r["ad_id"], "section": r["section"], "page": r["page"],
                      "text": r["text"], "score": fused[cid], "coverage": len(covered) / len(toks),
                      "sim": sims(cid) if vec else None})
@@ -272,6 +282,8 @@ def status_label(ad):
         return f"Final AD {ad['ad_number']}".strip()
     if ad["status"] == "withdrawn":
         return "Withdrawn proposal (no action required)"
+    if ad["status"] == "not_ad":
+        return f"Not an airworthiness directive (14 CFR Part {ad.get('cfr_part')})"
     return "Proposed rule (NPRM), not in effect"
 
 
@@ -290,7 +302,7 @@ def corpus_stats():
         "records_with_full_text": len(full),
         "federal_register_pages": sum(a["page_end"] - a["page_start"] + 1 for a in full if a["page_start"] and a["page_end"]),
         "passages": _con().execute("SELECT count(*) FROM chunks").fetchone()[0],
-        "status": {s: sum(1 for a in ads if a["status"] == s) for s in ("proposed", "withdrawn", "final")},
+        "status": {s: sum(1 for a in ads if a["status"] == s) for s in ("proposed", "withdrawn", "final", "not_ad")},
         "embeddings": hybrid_enabled(),
     }
 
@@ -305,7 +317,7 @@ def ad_card(ad_id):
         "make": ad["make"],
         "models": effective_models(ad), "models_source": ad.get("models_source"),
         "citation": ad["citation"], "url": ad["url"],
-        "supersedes": ad["supersedes"], "fulltext": ad["fulltext"],
+        "supersedes": ad["supersedes"], "fulltext": ad["fulltext"], "data_warning": ad.get("data_warning"),
         "revision": {"count": rev["count"], "is_latest": rev["latest_id"] == ad_id,
                      "latest_id": rev["latest_id"], "versions": rev["versions"]},
     }
@@ -328,7 +340,7 @@ def model_candidates(model):
 
 
 MIN_COVERAGE = 0.6  # short queries (<= 2 content words) need every word present
-MIN_SIM = 0.70      # cosine similarity that counts as on-topic when words differ (tuned in eval_retrieval.py)
+MIN_SIM = 0.70      # cosine similarity that counts as on-topic when words differ (tuned in evaluation/eval_retrieval.py)
 
 
 def relevant(res, top=3):
