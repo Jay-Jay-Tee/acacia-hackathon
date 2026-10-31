@@ -4,6 +4,8 @@ Traceable search over 431 FAA airworthiness-directive Federal Register notices. 
 
 **Decision support only:** certifying staff make the final applicability and compliance decision.
 
+**Team:** see [docs/TEAM_PLAN.md](docs/TEAM_PLAN.md) for the 4-person split and timeline, and [docs/API.md](docs/API.md) for the frozen `/ask` contract. Work is tracked as GitHub issues labelled `p1-ui`, `p2-logic`, `p3-testing` and `p4-features`.
+
 ## Run
 ```bash
 python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt
