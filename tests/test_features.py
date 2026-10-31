@@ -99,3 +99,56 @@ def test_fleet_limits(client):
     assert client.post("/fleet", json=[{"model": "P.68"}] * 501).status_code == 422
     assert client.post("/fleet", json=[{"model": "x" * 41}]).status_code == 422
     assert fleet(client, [])["aircraft"] == []
+
+
+# ---------- GET /ad/{ad_id}/timeline ----------
+
+def ad_id_for(record_id):
+    return next(i for i, a in app.engine.all_ads().items() if a.get("record_id") == record_id)
+
+
+def test_timeline_orders_notices_and_flags_withdrawn_current(client):
+    t = client.get(f"/ad/{ad_id_for('NPRM-278')}/timeline").json()  # FAA-2011-0033: proposed, proposed, withdrawn
+    assert [e["kind"] for e in t["events"]] == ["proposed", "revised", "withdrawn"]
+    dates = [e["publish_date"] for e in t["events"]]
+    assert dates == sorted(dates)
+    assert [e["is_current"] for e in t["events"]] == [False, False, True]
+    assert t["headline"] == "Withdrawn: no action required."
+    assert t["count"] == 3 == len(t["events"])
+
+
+def test_timeline_same_for_every_notice_in_a_docket(client):
+    ids = [i for i, a in app.engine.all_ads().items() if a["docket"] == "FAA-2011-0033"]
+    assert len({tuple(e["ad_id"] for e in client.get(f"/ad/{i}/timeline").json()["events"]) for i in ids}) == 1
+
+
+def test_timeline_single_notice_proposed_is_not_in_effect(client):
+    ad_id = next(i for i, a in app.engine.all_ads().items()
+                 if a["status"] == "proposed" and app.engine.revisions(a["docket"])["count"] == 1)
+    t = client.get(f"/ad/{ad_id}/timeline").json()
+    assert [e["kind"] for e in t["events"]] == ["proposed"] and t["events"][0]["is_current"]
+    assert "not in effect" in t["headline"]
+
+
+def test_every_superseded_number_is_mapped_or_marked_not_in_corpus(client):
+    seen = 0
+    for ad_id, ad in app.engine.all_ads().items():
+        if not ad["supersedes"]:
+            continue
+        ev = next(e for e in client.get(f"/ad/{ad_id}/timeline").json()["events"] if e["ad_id"] == ad_id)
+        assert [s["ad_number"] for s in ev["supersedes"]] == ad["supersedes"]
+        assert all(isinstance(s["in_corpus"], bool) for s in ev["supersedes"])
+        seen += 1
+    assert seen > 0
+
+
+def test_supersession_links_to_corpus_document_when_number_matches():
+    from features import _supersession
+    ad = next(a for a in app.engine.all_ads().values() if a["ad_number"])
+    link = _supersession(ad["ad_number"])
+    assert link["in_corpus"] and link["docket"] == ad["docket"] and link["ad_id"]
+    assert _supersession("0000-00-00") == {"ad_number": "0000-00-00", "in_corpus": False}
+
+
+def test_timeline_unknown_ad_is_404(client):
+    assert client.get("/ad/999999/timeline").status_code == 404

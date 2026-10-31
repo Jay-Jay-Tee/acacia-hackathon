@@ -1,5 +1,6 @@
 """P4 feature endpoints. Mounted in app.py with one line: app.include_router(features.router)"""
 import sqlite3
+from functools import lru_cache
 from typing import Annotated
 
 from fastapi import APIRouter, Body, HTTPException
@@ -108,3 +109,62 @@ def fleet(aircraft: Annotated[list[Aircraft], Body(max_length=MAX_FLEET)]):
                 v = r["applicability"]["result"]
                 totals[v] = totals.get(v, 0) + 1
     return {"aircraft": rows, "totals_latest": totals, "disclaimer": FLEET_DISCLAIMER}
+
+
+# ---------- revision timeline ----------
+
+KIND_LABEL = {"proposed": "Proposed", "revised": "Revised proposal", "withdrawn": "Withdrawn", "final": "Final AD"}
+
+
+@lru_cache(maxsize=1)
+def _by_ad_number():
+    idx = {}
+    for ad in engine.all_ads().values():
+        if ad["ad_number"]:
+            idx.setdefault(ad["ad_number"], []).append(ad)
+    return idx
+
+
+def _supersession(ad_number):
+    """Map a superseded AD number to a document in the corpus when one carries that number."""
+    hits = _by_ad_number().get(ad_number)
+    if not hits:
+        return {"ad_number": ad_number, "in_corpus": False}
+    ad = max(hits, key=lambda a: (a.get("publish_date") or "", a["id"]))
+    return {"ad_number": ad_number, "in_corpus": True, "ad_id": ad["id"], "record_id": ad.get("record_id"),
+            "docket": ad["docket"]}
+
+
+def _headline(current):
+    if engine.docket_withdrawn(current):
+        return "Withdrawn: no action required."
+    return engine.status_label(current)
+
+
+@router.get("/ad/{ad_id}/timeline")
+def ad_timeline(ad_id: int):
+    """Every notice in this document's docket, oldest first, with the current version flagged.
+
+    `kind` is proposed | revised | withdrawn | final. The current version is the one with the latest publish
+    date (engine.revisions). `supersedes` maps each superseded AD number to a corpus document, or in_corpus=false.
+    """
+    if ad_id not in engine.all_ads():
+        raise HTTPException(404, "unknown ad_id")
+    ads = engine.all_ads()
+    docket = ads[ad_id]["docket"]
+    rev = engine.revisions(docket)
+    events = []
+    for i, v in enumerate(reversed(rev["versions"])):  # versions are newest first
+        ad, card = ads[v["id"]], engine.ad_card(v["id"])
+        if ad["status"] in ("withdrawn", "final"):
+            kind = ad["status"]
+        else:
+            kind = "revised" if i > 0 or ad.get("is_revision_notice") else "proposed"
+        events.append({
+            "ad_id": v["id"], "record_id": card["record_id"], "kind": kind, "label": KIND_LABEL[kind],
+            "status": card["status"], "status_label": card["status_label"], "publish_date": card["publish_date"],
+            "issue_date": card["issue_date"], "pages": card["pages"], "citation": card["citation"],
+            "url": card["url"], "ad_number": card["ad_number"], "is_current": v["id"] == rev["latest_id"],
+            "supersedes": [_supersession(n) for n in ad["supersedes"]]})
+    return {"docket": docket, "requested_ad_id": ad_id, "current_id": rev["latest_id"], "count": rev["count"],
+            "headline": _headline(ads[rev["latest_id"]]), "events": events}
