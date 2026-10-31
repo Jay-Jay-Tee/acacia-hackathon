@@ -1,5 +1,4 @@
 import { Fragment, useEffect, useRef, useState } from "react";
-import type { Citation } from "../api/types";
 import { safeUrl } from "../lib/safeUrl";
 import { locate } from "./highlight";
 import { getSourceText, type SourceText } from "./sourceApi";
@@ -7,14 +6,29 @@ import { getSourceText, type SourceText } from "./sourceApi";
 // Rendered inside P1's <SidePanel>. Shows the full document, scrolls to the cited chunk and highlights
 // the quoted span. Plain text only: every field is rendered as a React text node.
 
-export function SourceViewer({ citation }: { citation: Citation }) {
+/** The fields the viewer needs; both corpus citations and uploaded-document citations satisfy it. */
+export interface ViewerCitation {
+  ad_id: number;
+  chunk_id: number;
+  cited_text: string;
+  url: string;
+}
+
+/** `load` fetches the text for another collection (uploads). Default: the corpus document for `citation.ad_id`. */
+export function SourceViewer({
+  citation,
+  load,
+}: {
+  citation: ViewerCitation;
+  load?: (signal: AbortSignal) => Promise<SourceText>;
+}) {
   const [data, setData] = useState<SourceText | null>(null);
   const [error, setError] = useState<string | null>(null);
   const citedRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const ctrl = new AbortController();
-    getSourceText(citation.ad_id, ctrl.signal)
+    (load ? load(ctrl.signal) : getSourceText(citation.ad_id, ctrl.signal))
       .then(setData)
       .catch((e: unknown) => {
         if (!ctrl.signal.aborted) setError(e instanceof Error ? e.message : "Could not load source text");
@@ -89,11 +103,13 @@ export function SourceViewer({ citation }: { citation: Citation }) {
                   Federal Register page {c.page}
                 </div>
               )}
-              {(!prev || prev.section !== c.section) && <h3 className="mt-2 text-xs font-semibold">{c.section}</h3>}
+              {(!prev || prev.section !== c.section) && !startsWithHeading(c.text, c.section) && (
+                <h3 className="mt-2 text-xs font-semibold">{c.section}</h3>
+              )}
               <div
                 id={c.anchor}
                 ref={isCited ? citedRef : undefined}
-                className={`whitespace-pre-wrap py-1 ${isCited && !span ? "bg-yellow-200 dark:bg-yellow-900/60" : ""}`}
+                className={`font-mono text-[11.5px] leading-relaxed whitespace-pre-wrap py-1 ${isCited && !span ? "bg-yellow-200 dark:bg-yellow-900/60" : ""}`}
               >
                 {isCited && span ? (
                   <>
@@ -111,4 +127,10 @@ export function SourceViewer({ citation }: { citation: Citation }) {
       </div>
     </div>
   );
+}
+
+/** The passage already opens with its own heading line ("(c) Applicability", "SUMMARY:"), so don't repeat it. */
+function startsWithHeading(text: string, section: string): boolean {
+  const norm = (t: string) => t.toLowerCase().replace(/[^a-z0-9()]+/g, " ").trim();
+  return norm(text.trimStart().slice(0, section.length + 2)).startsWith(norm(section));
 }

@@ -1,4 +1,4 @@
-import type { DocStatus } from "../api/types";
+import type { ApplicabilityResult, DocStatus } from "../api/types";
 
 /** "6.1 ms" below a second, "4.35 s" above. */
 export function formatMs(ms: number): string {
@@ -22,4 +22,19 @@ export function statusBadge(status: string) {
 export function splitTruncated(text: string): { text: string; truncated: boolean } {
   const t = text.trimEnd();
   return /(\.\.\.|…)$/.test(t) ? { text: t.replace(/\s*(\.\.\.|…)$/, ""), truncated: true } : { text: t, truncated: false };
+}
+
+/**
+ * Applicability verdict styles. Deliberately no green: "does not apply" is the all-clear, but a green
+ * APPLIES would read as "safe". APPLIES is a strong blue (this one is yours), UNKNOWN / AMBIGUOUS amber (check by hand).
+ */
+export const VERDICT: Record<ApplicabilityResult, { label: string; tone: string; dot: string }> = {
+  APPLIES: { label: "Applies", tone: "border-blue-300 bg-blue-50 text-blue-900 dark:border-blue-800 dark:bg-blue-950 dark:text-blue-100", dot: "bg-blue-600 dark:bg-blue-400" },
+  DOES_NOT_APPLY: { label: "Does not apply", tone: "border-stone-300 bg-stone-100 text-stone-800 dark:border-stone-600 dark:bg-stone-800 dark:text-stone-100", dot: "bg-stone-500 dark:bg-stone-400" },
+  UNKNOWN: { label: "Unknown", tone: "border-amber-300 bg-amber-50 text-amber-950 dark:border-amber-800 dark:bg-amber-950 dark:text-amber-100", dot: "bg-amber-500" },
+  AMBIGUOUS: { label: "Ambiguous model", tone: "border-amber-300 bg-amber-50 text-amber-950 dark:border-amber-800 dark:bg-amber-950 dark:text-amber-100", dot: "bg-amber-500" },
+};
+
+export function verdictStyle(result: string) {
+  return VERDICT[result as ApplicabilityResult] ?? VERDICT.UNKNOWN;
 }

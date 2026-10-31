@@ -171,10 +171,68 @@ def check_applicability(ad, model=None, serial=None):
 
 # ---------- retrieval ----------
 
-def search(query, model=None, k=8):
+FILTER_KEYS = ("status", "make", "product_type", "published_from", "published_to")
+STATUSES = ("proposed", "final", "withdrawn", "not_ad")
+
+
+def clean_filters(filters):
+    """Normalise a filters dict to a hashable tuple of (key, value) pairs; empty values are dropped."""
+    out = []
+    for k in FILTER_KEYS:
+        v = (filters or {}).get(k)
+        if k == "status":
+            v = tuple(sorted({x for x in (v or []) if x in STATUSES}))
+        elif isinstance(v, str):
+            v = v.strip()[:60]
+        if v:
+            out.append((k, v))
+    return tuple(out)
+
+
+def filter_ids(filters):
+    """Record ids passing the filters, or None when no filter is set."""
+    f = dict(filters)
+    if not f:
+        return None
+    make, ptype = f.get("make", "").lower(), f.get("product_type", "").lower()
+    return {a["id"] for a in all_ads().values()
+            if (not f.get("status") or a["status"] in f["status"])
+            and (not make or make in (a.get("make") or "").lower())
+            and (not ptype or ptype in (a.get("product_type") or "").lower())
+            and (not f.get("published_from") or (a.get("publish_date") or "") >= f["published_from"])
+            and (not f.get("published_to") or (a.get("publish_date") or "9999") <= f["published_to"])}
+
+
+def describe_filters(filters):
+    f = dict(filters)
+    parts = []
+    if f.get("status"):
+        parts.append("status " + " or ".join(f["status"]))
+    if f.get("make"):
+        parts.append(f"make contains '{f['make']}'")
+    if f.get("product_type"):
+        parts.append(f"product type {f['product_type']}")
+    if f.get("published_from") or f.get("published_to"):
+        parts.append(f"published {f.get('published_from', '…')} to {f.get('published_to', '…')}")
+    return "; ".join(parts)
+
+
+@lru_cache(maxsize=1)
+def facets():
+    """Values the filter UI offers, from the corpus itself."""
+    ads = all_ads().values()
+    dates = sorted(a["publish_date"] for a in ads if a.get("publish_date"))
+    types = sorted({t.strip() for a in ads for t in (a.get("product_type") or "").split("|") if t.strip()})
+    return {"status": {s: sum(1 for a in ads if a["status"] == s) for s in STATUSES},
+            "makes": sorted({a["make"] for a in ads if a.get("make")}, key=str.lower),
+            "product_types": types,
+            "published": {"min": dates[0] if dates else None, "max": dates[-1] if dates else None}}
+
+
+def search(query, model=None, k=8, filters=None):
     """BM25 search with an in-memory LRU cache. 'ms' is the real time of this call (a cache hit is near 0)."""
     t0 = time.perf_counter()
-    res = copy.deepcopy(_search_cached(query[:MAX_QUERY], model or None, k))
+    res = copy.deepcopy(_search_cached(query[:MAX_QUERY], model or None, k, clean_filters(filters)))
     res["ms"] = (time.perf_counter() - t0) * 1000
     return res
 
@@ -219,7 +277,7 @@ COV_BONUS = 0.02  # hybrid re-rank bonus per unit of query-word coverage (1/(60+
 
 
 @lru_cache(maxsize=512)
-def _search_cached(query, model, k):
+def _search_cached(query, model, k, filters=()):
     """BM25 (and, when embeddings exist, vector search) fused with reciprocal rank fusion.
     Each hit carries 'coverage' (share of query words present) and 'sim' (cosine, or None)."""
     t0 = time.perf_counter()
@@ -231,11 +289,12 @@ def _search_cached(query, model, k):
         return {"hits": [], "tokens": [], "ms": 0.0}
     forms = list(dict.fromkeys(f for t, alts in units for f in [t, *alts]))
     match = " OR ".join('"' + f.replace('"', "") + '"' for f in forms)
-    allowed = None
+    allowed = filter_ids(filters)
     if model:
         nm = norm_model(model)
-        allowed = {a["id"] for a in all_ads().values()
-                   if any(norm_model(m) == nm or norm_model(m).startswith(nm) for m in effective_models(a))}
+        by_model = {a["id"] for a in all_ads().values()
+                    if any(norm_model(m) == nm or norm_model(m).startswith(nm) for m in effective_models(a))}
+        allowed = by_model if allowed is None else allowed & by_model
     bm = [r["id"] for r in _con().execute(
         "SELECT c.id, c.ad_id FROM chunks_fts JOIN chunks c ON c.id = chunks_fts.rowid "
         "WHERE chunks_fts MATCH ? ORDER BY bm25(chunks_fts) LIMIT 400", (match,)).fetchall()
@@ -277,6 +336,18 @@ def _search_cached(query, model, k):
     return {"hits": hits, "tokens": toks, "ms": (time.perf_counter() - t0) * 1000}
 
 
+def aircraft_family(ad):
+    """Short aircraft-type label for a record, e.g. 'Boeing 737' or 'Airbus Helicopters AS350'.
+    Used to warn when one answer draws on notices for different aircraft types."""
+    models = effective_models(ad)
+    make = re.sub(r"[.,]", "", (ad.get("make") or "").replace("The Boeing Company", "Boeing")).strip()
+    if not models:
+        return make or ad["docket"]
+    # keep a type letter that ends the designation ('Falcon 6X'), drop variant suffixes ('737-800' -> '737')
+    m = re.match(r"[A-Za-z.]*[ -]?\d+[A-Za-z]?(?=$|[\s-])", models[0]) or re.match(r"[A-Za-z.]*[ -]?\d+", models[0])
+    return f"{make} {m.group(0) if m else models[0]}".strip()
+
+
 def status_label(ad):
     if ad["status"] == "final":
         return f"Final AD {ad['ad_number']}".strip()
@@ -291,6 +362,17 @@ def page_range(ad):
     if ad["page_start"] and ad["page_end"] and ad["page_end"] != ad["page_start"]:
         return f"{ad['page_start']}-{ad['page_end']}"
     return str(ad["page_start"] or "")
+
+
+def fr_cite(ad, page=None):
+    """Standard Federal Register citation, e.g. '91 FR 61797' (a passage) or '91 FR 61796-61799' (the notice).
+    The volume is the publish year minus 1935 (volume 1 = 1936); it agrees with the sheet's text on every row
+    that states a volume, and fills in the 12 that don't."""
+    year = (ad.get("publish_date") or ad.get("issue_date") or "")[:4]
+    where = str(page) if page else page_range(ad)
+    if not (year.isdigit() and where):
+        return ""
+    return f"{int(year) - 1935} FR {where}"
 
 
 def corpus_stats():
@@ -316,7 +398,7 @@ def ad_card(ad_id):
         "issue_date": ad["issue_date"], "publish_date": ad.get("publish_date"), "pages": page_range(ad),
         "make": ad["make"],
         "models": effective_models(ad), "models_source": ad.get("models_source"),
-        "citation": ad["citation"], "url": ad["url"],
+        "citation": ad["citation"], "fr_cite": fr_cite(ad), "url": ad["url"],
         "supersedes": ad["supersedes"], "fulltext": ad["fulltext"], "data_warning": ad.get("data_warning"),
         "revision": {"count": rev["count"], "is_latest": rev["latest_id"] == ad_id,
                      "latest_id": rev["latest_id"], "versions": rev["versions"]},
@@ -356,7 +438,7 @@ def relevant(res, top=3):
     return bool(sims) and max(sims) >= MIN_SIM
 
 
-def gate(query, model=None, serial=None):
+def gate(query, model=None, serial=None, filters=None):
     """Pre-LLM checks. Returns (status, reason, search_result, applicability_by_ad)."""
     if not query.strip():
         return "refused", "Empty query.", None, {}
@@ -369,8 +451,12 @@ def gate(query, model=None, serial=None):
         cands = model_candidates(model)
         return ("needs_clarification",
                 f"Model '{model}' is ambiguous. Did you mean one of: {', '.join(cands[:12])}?", None, {})
-    res = search(query, model=model)
+    res = search(query, model=model, filters=filters)
     if not relevant(res):
+        active = describe_filters(clean_filters(filters))
+        if active:
+            return "refused", (f"No document matching your filters ({active}) answers this question. "
+                               "Clear or widen the filters to search the whole corpus."), res, {}
         return "refused", ("No document in the corpus matches this question well enough to answer it. "
                            "The corpus covers 431 FAA airworthiness-directive Federal Register notices."), res, {}
     appl = {}

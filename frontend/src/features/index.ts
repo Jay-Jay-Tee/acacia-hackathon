@@ -4,6 +4,7 @@ import type { SidePanelApi } from "../components/SidePanel";
 import { CopyNoteButton, type CopyNoteProps } from "./CopyNoteButton";
 import { openFleetCheck } from "./openFleet";
 import { openSource } from "./openSource";
+import { openUploads } from "./openUploads";
 import { openRevisionTimeline } from "./openTimeline";
 
 // P4's single entry point into the UI. P1's components call these hooks; P4 fills them in
@@ -19,6 +20,8 @@ export interface FeatureHooks {
   openRevisionTimeline?: (adId: number, panel: SidePanelApi) => void;
   /** "Copy as compliance note" button. P1 renders `<features.CopyNote query model serial response />` under an answer. */
   CopyNote?: ComponentType<CopyNoteProps>;
+  /** Open the PDF upload and cited Q&A panel. P1 wires a button to this; no button renders while undefined. */
+  openUploads?: (panel: SidePanelApi) => void;
 }
 
 export const features: FeatureHooks = {
@@ -26,4 +29,5 @@ export const features: FeatureHooks = {
   openFleetCheck,
   openRevisionTimeline,
   CopyNote: CopyNoteButton,
+  openUploads,
 };

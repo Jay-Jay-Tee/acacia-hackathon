@@ -44,3 +44,55 @@ def test_revisions_ordered_by_publish_date():
     for docket in ["FAA-2026-1338", "FAA-2025-2277"]:
         dates = [v["publish_date"] for v in engine.revisions(docket)["versions"]]
         assert dates == sorted(dates, reverse=True)
+
+
+def test_standard_fr_citation():
+    import engine
+    ad = {"publish_date": "2026-09-30", "issue_date": "2026-09-25", "page_start": 61796, "page_end": 61799}
+    assert engine.fr_cite(ad, 61797) == "91 FR 61797"
+    assert engine.fr_cite(ad) == "91 FR 61796-61799"
+    assert engine.fr_cite({**ad, "publish_date": "2006-06-28"}, 36723) == "71 FR 36723"
+
+
+def test_relevance_refusal_lists_no_documents(client):
+    r = client.post("/ask", json={"query": "What is the best restaurant near Changi Airport?"}).json()
+    assert r["status"] == "refused" and r["documents"] == []
+
+
+def test_premise_refusal_keeps_its_evidence(client):
+    r = client.post("/ask", json={"query": "fuel starvation engine shutdown inspection", "model": "P.68", "serial": "200"}).json()
+    assert r["status"] == "refused" and r["documents"][0]["applicability"]["result"] == "DOES_NOT_APPLY"
+
+
+def test_mixed_aircraft_notice_only_without_model(client):
+    q = "passenger seats not locked into the floor rails properly"
+    mixed = lambda r: any("different aircraft types" in n for n in r["notices"])
+    r = client.post("/ask", json={"query": q}).json()
+    assert r["status"] == "answered" and mixed(r)
+    r = client.post("/ask", json={"query": q, "model": "737-8"}).json()
+    assert not mixed(r)
+
+
+def test_aircraft_family_labels():
+    import engine
+    ad = lambda make, models: {"make": make, "models": models, "docket": "T"}
+    assert engine.aircraft_family(ad("The Boeing Company", ["737-800"])) == "Boeing 737"
+    assert engine.aircraft_family(ad("CFM International, S.A.", ["CFM56-7B"])) == "CFM International SA CFM56"
+
+
+def test_filters_restrict_and_explain(client):
+    q = {"query": "fuel starvation engine shutdown", "model": "P.68", "serial": "100"}
+    r = client.post("/ask", json={**q, "filters": {"status": ["proposed"], "make": "vulcan"}}).json()
+    assert r["status"] == "answered" and any(n.startswith("Filtered:") for n in r["notices"])
+    r = client.post("/ask", json={**q, "filters": {"status": ["final"]}}).json()
+    assert r["status"] == "refused" and "filters" in r["refusal_reason"] and r["documents"] == []
+    r = client.post("/ask", json={**q, "filters": {"published_from": "2027-01-01"}}).json()
+    assert r["status"] == "refused"
+
+
+def test_search_filters_and_facets(client):
+    hits = client.get("/search", params={"q": "fuel starvation", "status": ["withdrawn"]}).json()["hits"]
+    assert all(h["card"]["status"] == "withdrawn" for h in hits)
+    f = client.get("/facets").json()
+    assert set(f["status"]) == {"proposed", "final", "withdrawn", "not_ad"} and f["makes"] and f["published"]["min"]
+    assert client.post("/ask", json={"query": "x", "filters": {"published_from": "not-a-date"}}).status_code == 422
