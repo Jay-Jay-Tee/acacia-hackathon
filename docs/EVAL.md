@@ -11,6 +11,7 @@ From the repo root, after the setup in the README:
 .venv/bin/python evaluation/eval.py             # deterministic checks; no API key needed
 .venv/bin/python evaluation/eval.py --llm       # adds Claude answers + citation coverage (costs a few cents)
 .venv/bin/python evaluation/eval_retrieval.py   # paraphrase recall/gate, dev + held-out sets
+.venv/bin/python evaluation/eval_human.py -v    # 107 human-written questions, all categories (-v lists misses)
 .venv/bin/python -m pytest -q tests             # API, engine, rules, cache, features
 ```
 
@@ -24,6 +25,7 @@ From the repo root, after the setup in the README:
 | `evaluation/dev_paraphrases.jsonl` | 16 | Paraphrased answerable questions with a target docket and model; where the synonym list gaps were found. | `evaluation/eval_retrieval.py` |
 | `evaluation/dev_paraphrases_holdout.jsonl` | 10 | Held-out paraphrases written **before** the synonym list was expanded. | `evaluation/eval_retrieval.py` |
 | `evaluation/dev_negatives.jsonl` | 12 | Off-topic questions that the relevance gate should refuse. | `evaluation/eval_retrieval.py` |
+| `evaluation/human_questions.jsonl` | 107 | Written by hand in new wording (not copied from summaries). Answerable 39, out-of-scope 12, ambiguous 8, contradicting 8, revision 10, withdrawn 10, multi-document 6, serial edge cases 14. Expected dockets, newest-notice dates and serial verdicts were read from the notices, not taken from the code. | `evaluation/eval_human.py` |
 
 Ad-hoc synthetic cases (applicability from the Model column, and retrieval using a summary sentence) are generated inside `evaluation/eval.py`; they are not stored as files.
 
@@ -60,6 +62,25 @@ Ad-hoc synthetic cases (applicability from the Model column, and retrieval using
 | Paraphrase recall@5, held-out set | 10/10 with the model given; 7/10 without |
 | Paraphrase recall@5, dev set | 16/16 |
 | *Synthetic:* retrieval recall@5 | 79/80 (inflated: the query is a sentence from the target's own summary) |
+
+### Human-written set (`evaluation/eval_human.py`, 107 questions; separate from the synthetic numbers above)
+
+| Check | Result |
+|---|---|
+| Recall@5, expected docket in top 5 (model given) | 78/79 = 99% |
+| Recall@5, model withheld (rows that give one) | 60/63 = 95% |
+| Revision: newest notice identified (latest publish date, 20 rows) | 20/20 |
+| Serial edge cases: applicability verdict (range ends, `except`, dash serials, lists, ESN) | 14/14 |
+| Gate status, answerable | 28/39 (11 false refusals) |
+| Gate status, out-of-scope | 8/12 (4 aviation-adjacent questions answered) |
+| Gate status, ambiguous model | 8/8 |
+| Gate status, contradicting | 6/8 (2 deferral requests not caught) |
+| Gate status, revision / withdrawn | 7/10 and 8/10 |
+| Multi-document (all dockets in top 5) | 5/6 |
+
+Where it fails: retrieval is strong, but the gate is the weak point. It refuses 11 of 39 answerable questions (for example the 737 stick-shaker, ATR 42 nose-gear and Bell 505 tail-cone questions). Questions phrased as "what's the latest version of FAA-2026-1338?" or "latest notice on FAA-2025-5394" are refused by the gate, even though a bare docket id retrieves the right notices (cause not yet investigated). Four aviation-adjacent off-topic questions pass (an EASA AD, pilot licence, how a turbofan works, a translation request that contains "airworthiness directive"). Deferral phrased as "postpone" or "not do" is not caught by the non-compliance rule. One three-topic multi-document query returned two of its three dockets.
+
+Caveats: the questions were written with the corpus open, then run once. Nothing was tuned against them, but they are not a blind set. Recall counts a docket as found if it is in the top 5 distinct dockets, which is lenient when the model is given.
 
 ### Latency
 
