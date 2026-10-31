@@ -78,7 +78,7 @@ Response:
 | `GET /ad/{ad_id}` | P2 | exists (card plus summary and applicability_text) |
 | `GET /corpus` | P2 | exists: corpus size to display (records, full-text records, FR pages, passages, status counts) |
 | `GET /ad/{ad_id}/text` | P4 | exists: `{ad_id, record_id, docket, subject, status, status_label, pages, citation, url, chunks: [{chunk_id, section, page, anchor, text}], anchors: [{section, page, chunk_id, anchor}]}`. `page` is where the chunk starts; draw a page marker when it changes. Extractive `cited_text` is cut at 600 chars plus `...`, so match on the prefix. |
-| `POST /fleet` | P4 | planned: `[{model, serial}]` → per-aircraft applicability table |
+| `POST /fleet` | P4 | exists: body `[{model, serial?}]` (≤ 500, fields ≤ 40 chars) → `{aircraft: [{model, serial, status: "ok" \| "invalid" \| "model_not_in_corpus", note, candidates, counts, results: [{ad_id, record_id, docket, ad_number, subject, status, status_label, publish_date, url, is_latest, revision_count, applicability: {result, trace, candidates?}}]}], totals_latest, disclaimer}`. Results per aircraft are sorted APPLIES, AMBIGUOUS, UNKNOWN, DOES_NOT_APPLY; superseded revisions are included with `is_latest: false`. A model absent from the corpus is flagged, never silently empty. |
 | `POST /upload` | P4 | planned (SHOULD): generic PDF ingest |
 
 ## Rules
