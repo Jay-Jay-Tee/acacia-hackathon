@@ -62,3 +62,19 @@ def test_relevance_refusal_lists_no_documents(client):
 def test_premise_refusal_keeps_its_evidence(client):
     r = client.post("/ask", json={"query": "fuel starvation engine shutdown inspection", "model": "P.68", "serial": "200"}).json()
     assert r["status"] == "refused" and r["documents"][0]["applicability"]["result"] == "DOES_NOT_APPLY"
+
+
+def test_mixed_aircraft_notice_only_without_model(client):
+    q = "passenger seats not locked into the floor rails properly"
+    mixed = lambda r: any("different aircraft types" in n for n in r["notices"])
+    r = client.post("/ask", json={"query": q}).json()
+    assert r["status"] == "answered" and mixed(r)
+    r = client.post("/ask", json={"query": q, "model": "737-8"}).json()
+    assert not mixed(r)
+
+
+def test_aircraft_family_labels():
+    import engine
+    ad = lambda make, models: {"make": make, "models": models, "docket": "T"}
+    assert engine.aircraft_family(ad("The Boeing Company", ["737-800"])) == "Boeing 737"
+    assert engine.aircraft_family(ad("CFM International, S.A.", ["CFM56-7B"])) == "CFM International SA CFM56"
