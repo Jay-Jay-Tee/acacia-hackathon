@@ -1,4 +1,4 @@
-# AD Finder: 4-person team plan (Challenge #4, Airbus track)
+# Applicable (formerly AD Finder): 4-person team plan (Challenge #4, Airbus track)
 
 > **Status:** historical build plan. For current setup and commands, start at the [root README](../README.md) and [documentation index](README.md).
 

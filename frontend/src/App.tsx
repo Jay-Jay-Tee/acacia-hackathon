@@ -6,6 +6,7 @@ import { ChatHistory } from "./components/ChatHistory";
 import { Composer } from "./components/Composer";
 import { DocumentsRail } from "./components/DocumentsRail";
 import { EmptyState, type Example } from "./components/EmptyState";
+import { Logo } from "./components/Logo";
 import { SidePanel, SidePanelProvider, useSidePanel } from "./components/SidePanel";
 import { Thread, type Turn } from "./components/Thread";
 import { features } from "./features";
@@ -150,11 +151,11 @@ function Chat() {
                   <path d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
               </button>
-              <Mark />
+              <Logo />
               <div className="min-w-0">
-                <h1 className="text-[15px] leading-tight font-semibold tracking-tight">AD Finder</h1>
+                <h1 className="text-[16px] leading-tight font-semibold tracking-tight">Applicable</h1>
                 <p className="truncate text-xs text-stone-500 dark:text-stone-400">
-                  Airworthiness-directive search for maintenance planners
+                  Does this directive apply to your aircraft? Cited, rule-checked answers.
                 </p>
               </div>
             </div>
@@ -224,17 +225,6 @@ function Chat() {
         </div>
       )}
     </div>
-  );
-}
-
-/** Brand mark: an aircraft over a document fold. */
-function Mark() {
-  return (
-    <span aria-hidden className="grid size-8 shrink-0 place-items-center rounded-lg bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900">
-      <svg viewBox="0 0 24 24" className="size-4.5" fill="currentColor">
-        <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z" />
-      </svg>
-    </span>
   );
 }
 

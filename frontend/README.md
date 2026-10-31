@@ -1,4 +1,4 @@
-# AD Finder frontend (P1)
+# Applicable frontend (P1)
 
 Vite + React + TypeScript + Tailwind v4.
 
