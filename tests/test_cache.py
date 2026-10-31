@@ -29,3 +29,13 @@ def test_search_cache_returns_independent_copies():
     a["hits"][0]["text"] = "mutated"
     b = engine.search("fuel starvation engine shutdown", model="P.68")
     assert b["hits"][0]["text"] != "mutated"
+
+
+def test_relevance_gate_words_or_meaning():
+    res = lambda cov, sim, n=4: {"tokens": ["t"] * n, "hits": [{"coverage": cov, "sim": sim}]}
+    assert engine.relevant(res(0.75, None))            # enough query words present
+    assert not engine.relevant(res(0.5, None))         # too few words, no embeddings
+    assert engine.relevant(res(0.25, 0.80))            # few shared words but close in meaning
+    assert not engine.relevant(res(0.25, 0.60))        # neither
+    assert not engine.relevant(res(0.5, None, n=2))    # short queries need every word
+    assert not engine.relevant({"tokens": ["t"], "hits": []})

@@ -4,3 +4,5 @@ __pycache__/
 .pytest_cache/
 data/ads.db
 data/answer_cache/
+data/emb.npy
+data/emb_meta.json

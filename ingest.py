@@ -18,12 +18,15 @@ from pathlib import Path
 import httpx
 import openpyxl
 
-from rules import parse_models  # noqa: F401  (re-exported for tests)
+from rules import embed_text, parse_models  # noqa: F401  (parse_models re-exported for tests)
 
 ROOT = Path(__file__).parent
 XLSX = ROOT / "data/raw/ad_nprm.xlsx"
 CACHE = ROOT / "data/fr_cache"
 DB = ROOT / "data/ads.db"
+EMB = ROOT / "data/emb.npy"            # gitignored; built by --embed
+EMB_META = ROOT / "data/emb_meta.json"
+EMB_MODEL = "BAAI/bge-small-en-v1.5"
 
 FR_API = "https://www.federalregister.gov/api/v1/documents/{}.json"
 FR_SEARCH = "https://www.federalregister.gov/api/v1/documents.json"
@@ -268,9 +271,38 @@ def build(rows, use_fulltext):
     print(f"indexed {len(rows)} rows, {n_chunks} chunks; full text for {n_full} rows (~{pages} FR pages)")
 
 
+def build_embeddings():
+    """Optional: embed every chunk with a local model (no API key) for hybrid retrieval.
+    Skips the work when the chunk texts are unchanged since the last run."""
+    import hashlib
+
+    import numpy as np
+    from fastembed import TextEmbedding
+
+    con = sqlite3.connect(DB)
+    rows = con.execute(
+        "SELECT c.id, c.section, c.text, a.data FROM chunks c JOIN ads a ON a.id = c.ad_id ORDER BY c.id").fetchall()
+    # subject + section give short passages the context they lack on their own
+    picked = [(cid, embed_text(json.loads(d)["subject"], s, t)) for cid, s, t, d in rows]
+    picked = [(cid, txt) for cid, txt in picked if txt]
+    rows, texts = [(cid,) for cid, _ in picked], [txt for _, txt in picked]
+    digest = hashlib.sha256("\x00".join(texts).encode()).hexdigest()
+    if EMB_META.exists() and json.loads(EMB_META.read_text()).get("digest") == digest and EMB.exists():
+        print("embeddings up to date")
+        return
+    t0 = time.time()
+    model = TextEmbedding(EMB_MODEL)
+    vecs = np.array(list(model.embed(texts, batch_size=64)), dtype=np.float32)
+    vecs /= np.linalg.norm(vecs, axis=1, keepdims=True)
+    np.save(EMB, vecs.astype(np.float16))
+    EMB_META.write_text(json.dumps({"digest": digest, "model": EMB_MODEL, "ids": [r[0] for r in rows]}))
+    print(f"embedded {len(texts)} chunks in {time.time() - t0:.0f}s")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-fetch", action="store_true", help="skip Federal Register download")
+    ap.add_argument("--embed", action="store_true", help="also build local embeddings for hybrid retrieval")
     args = ap.parse_args()
     if not XLSX.exists():
         sys.exit(f"missing {XLSX}")
@@ -283,6 +315,8 @@ def main():
             r["fr_doc"] = r["fr_doc"] or resolved.get(f"{r['docket']}|{r['page_start']}") or ""
     finalize_urls(rows)
     build(rows, use_fulltext=CACHE.exists())
+    if args.embed:
+        build_embeddings()
 
 
 if __name__ == "__main__":

@@ -10,6 +10,11 @@ import engine
 import llm
 
 app = FastAPI(title="AD Finder")
+
+
+@app.on_event("startup")
+def warm_up():
+    engine.hybrid_enabled()  # loads embeddings and the embedding model once (~9 s) instead of on the first request
 DISCLAIMER = ("Decision support only. Verify against the cited Federal Register text; "
               "certifying staff make the final applicability and compliance decision.")
 
