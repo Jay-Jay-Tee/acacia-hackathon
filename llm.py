@@ -41,7 +41,7 @@ def _citation(hit, cited_text):
     ad = engine.all_ads()[hit["ad_id"]]
     return {"docket": ad["docket"], "ad_number": ad["ad_number"], "revision_date": ad["issue_date"],
             "section": hit["section"], "fr_citation": ad["citation"], "page": hit["page"],
-            "url": ad["url"], "cited_text": cited_text, "ad_id": hit["ad_id"]}
+            "url": ad["url"], "cited_text": cited_text, "ad_id": hit["ad_id"], "chunk_id": hit["chunk_id"]}
 
 
 def extractive(hits, n=3):
