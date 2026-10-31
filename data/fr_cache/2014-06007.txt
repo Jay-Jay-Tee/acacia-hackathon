@@ -1,0 +1,138 @@
+
+[Federal Register Volume 79, Number 54 (Thursday, March 20, 2014)]
+[Proposed Rules]
+[Pages 15555-15556]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2014-06007]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2014-0132; Directorate Identifier 2012-NM-007-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Airbus Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; correction.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is correcting a Notice of Proposed Rulemaking (NPRM) 
+that published in the Federal Register. The NPRM applies to certain 
+Airbus Model A330-200 and -300 series airplanes, and Model A340-200 and 
+-300 series airplanes. The docket number identified throughout the NPRM 
+is incorrect. This document corrects that error. In all other respects, 
+the original document remains the same.
+
+[[Page 15556]]
+
+
+DATES: The last date for submitting comments to the NPRM (79 FR 7098, 
+February 6, 2014) remains March 24, 2014.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://www.regulations.gov by searching for and locating Docket No. FAA-2014-
+0132; or in person at the Docket Management Facility between 9 a.m. and 
+5 p.m., Monday through Friday, except Federal holidays. The AD docket 
+contains this AD action, the regulatory evaluation, any comments 
+received, and other information. The address for the Docket Office 
+(phone: 800-647-5527) is Docket Management Facility, U.S. Department of 
+Transportation, Docket Operations, M-30, West Building Ground Floor, 
+Room W12-140, 1200 New Jersey Avenue SE., Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Vladimir Ulyanov, Aerospace Engineer, 
+International Branch, ANM-116, Transport Airplane Directorate, FAA, 
+1601 Lind Avenue SW., Renton, WA 98057-3356; telephone (425) 227-1138; 
+fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION: On January 29, 2014, the FAA issued a Notice 
+of Proposed Rulemaking (NPRM) (79 FR 7098, February 6, 2014) for 
+certain Airbus Model A330-200 and -300 series airplanes, and Model 
+A340-200 and -300 series airplanes. The NPRM, Directorate Identifier 
+2012-NM-007-AD, currently proposes to require repetitive draining of 
+any fluid from the retraction actuator piston rod internal volume and 
+sealing of the vent hole; repetitive ultrasonic inspections of the 
+upper end of the piston rods, and corrective actions if necessary; a 
+one-time ultrasonic inspection (longitudinal and circumferential) of 
+the full-length of the piston rod, and corrective actions if necessary; 
+and a terminating modification of the left-hand and right-hand main 
+landing gear (MLG) retraction actuators.
+    As published, the NPRM (79 FR 7098, February 6, 2014) specifies an 
+incorrect docket number throughout the preamble and regulatory text. We 
+have been informed that a duplicate docket number was inadvertently 
+assigned to us for the NPRM. The correct docket number is FAA-2014-
+0132.
+    Commenters who submitted comments to the original (incorrect) 
+docket number should check Docket No. FAA-2014-0012 and Docket No. FAA-
+2014-0132 on http://www.regulations.gov to determine whether their 
+comments have been received and filed in the appropriate docket. If 
+not, or if it is not possible to determine whether comments have been 
+posted to the correct docket, the comments should be resubmitted using 
+the correct docket number.
+    No other part of the preamble or regulatory information has been 
+changed; therefore, only the changed portion of the NPRM (79 FR 7098, 
+February 6, 2014) is being published in the Federal Register.
+    The last date for submitting comments to the NPRM (79 FR 7098, 
+February 6, 2014) remains March 24, 2014.
+
+Correction of Non-Regulatory Text
+
+    In the Federal Register of February 6, 2014, Directorate Identifier 
+2012-NM-007-AD is corrected as follows:
+    On page 7098, in the first column, on line four of the headings 
+section, correct ``Docket No. FAA-2014-0012'' to read ``Docket No. FAA-
+2014-0132.''
+    On page 7098, in the second column, on line four under ``Examining 
+the AD Docket,'' correct ``Docket No. FAA-2014-0012'' to read ``Docket 
+No. FAA-2014-0132.''
+    On page 7098, in the third column, on line five under 
+``SUPPLEMENTARY INFORMATION: Comments Invited,'' correct ``Docket No. 
+FAA-2014-0012'' to read ``Docket No. FAA-2014-0132.''
+    On page 7099, in the second column, on line fifteen, correct 
+``Docket No. FAA-2014-0012'' to read ``Docket No. FAA-2014-0132.''
+
+Correction of Regulatory Text
+
+Sec.  39.13 [Corrected]
+
+0
+1. On page 7100, in the second column, amendatory instruction 2. and 
+the heading of Docket No. FAA-2014-0132 are corrected to read as 
+follows:
+0
+2. The FAA amends Sec.  39.13 by removing airworthiness directive (AD) 
+2004-16-01, Amendment 39-13757 (69 FR 46979, August 4, 2004), and 
+adding the following new AD:
+
+Airbus: Docket No. FAA-2014-0132; Directorate Identifier 2012-NM-
+007-AD.
+* * * * *
+0
+2. On page 7103, in the second column, paragraph (y)(1) of NPRM Docket 
+No. FAA-2014-0132 is corrected to read as follows:
+* * * * *
+    (1) Refer to Mandatory Continuing Airworthiness Information (MCAI) 
+European Aviation Safety Agency Airworthiness Directive 2011-0178R1, 
+dated March 6, 2012 (corrected March 7, 2012); and 2011-0179R1, dated 
+March 6, 2012; for related information. These MCAIs may be found in the 
+AD docket on the Internet at http://www.regulations.gov by searching 
+for and locating Docket No. FAA-2014-0132.
+* * * * *
+
+    Issued in Renton, Washington, on March 13, 2014.
+Jeffrey E. Duven,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2014-06007 Filed 3-19-14; 8:45 am]
+BILLING CODE 4910-13-P
+
+

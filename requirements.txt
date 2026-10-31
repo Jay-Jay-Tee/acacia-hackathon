@@ -4,3 +4,5 @@ openpyxl
 anthropic
 httpx
 pytest
+fastembed
+numpy

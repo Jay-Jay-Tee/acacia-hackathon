@@ -64,6 +64,21 @@ def parse_models(text):
     return list(dict.fromkeys(models))
 
 
+EMBED_SECTIONS = re.compile(r"summary|applicability|unsafe condition|reason|required actions|requirements|"
+                            r"exceptions|definitions|modifications|provisions", re.I)
+
+
+def embed_text(subject, section, text):
+    """Text embedded for a chunk, or None to skip it (ingest and engine must agree).
+    Only content sections are embedded; boilerplate (addresses, contacts, dates, AMOC procedures,
+    incorporation by reference) is left to BM25. Long background passages are truncated."""
+    if section == "Supplementary Information":
+        return f"{subject}. {section}. {text[:800]}"
+    if EMBED_SECTIONS.search(section):
+        return f"{subject}. {section}. {text}"
+    return None
+
+
 def norm_model(s):
     return re.sub(r"[\s_]", "", s or "").upper()
 

@@ -1,0 +1,132 @@
+
+[Federal Register Volume 81, Number 168 (Tuesday, August 30, 2016)]
+[Proposed Rules]
+[Pages 59548-59549]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2016-20704]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2014-0923; Directorate Identifier 2014-NM-176-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; The Boeing Company Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+[[Page 59549]]
+
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD), which would have applied 
+to certain The Boeing Company Model 737-700, -800, and -900ER series 
+airplanes. The NPRM would have required repetitive inspections to 
+detect cracking in the crown skin panel assembly. The NPRM would also 
+have provided optional terminating action for the repetitive 
+inspections. Since the NPRM was issued, all affected airplanes 
+worldwide have had applicable terminating actions accomplished, and one 
+airplane was mistakenly included in the applicability. Accordingly, the 
+NPRM is withdrawn.
+
+DATES: As of August 30, 2016, the proposed rule, which was published in 
+the Federal Register on December 15, 2014 (79 FR 74032), is withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://www.regulations.gov by searching for and locating Docket No. FAA-2014-
+0923; or in person at the Docket Management Facility between 9 a.m. and 
+5 p.m., Monday through Friday, except Federal holidays. The AD docket 
+contains this AD action, the NPRM (79 FR 74032, December 15, 2014), the 
+regulatory evaluation, any comments received, and other information. 
+The address for the Docket Office (telephone: 800-647-5527) is the 
+Docket Management Facility, U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue SE., Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Gaetano Settineri, Aerospace Engineer, 
+Airframe Branch, ANM-120S, FAA, Seattle Aircraft Certification Office 
+(ACO), 1601 Lind Avenue SW., Renton, WA 98057-3356; phone: 425-917-
+6577; fax: 425-917-6590; email: [email protected].
+
+SUPPLEMENTARY INFORMATION: 
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a NPRM for a new AD for certain The Boeing 
+Company Model 737-700, -800, and -900ER series airplanes. The NPRM 
+published in the Federal Register on December 15, 2014 (79 FR 74032) 
+(``the NPRM''). The NPRM would have required repetitive inspections to 
+detect cracking in the crown skin panel assembly. The NPRM would also 
+have provided optional terminating action for the repetitive 
+inspections. The NPRM was prompted by reports of troughs in the skin 
+along the chem-mill pocket edges of certain fuselage crown skin panel 
+assemblies. The proposed actions were intended to detect and correct 
+cracking from troughs in the chem-mill pocket edges, which could lead 
+to rapid decompression of the airplane.
+
+Actions Since NPRM Was Issued
+
+    Since we issued the NPRM, we have determined that all affected 
+airplanes worldwide have had applicable terminating actions 
+accomplished, and one airplane had been included mistakenly in the 
+applicability. The unsafe condition identified in the NPRM was created 
+due to a production escapement and was limited to 11 airplanes. 
+However, the affected airplanes have all been inspected for the unsafe 
+condition and in instances where the unsafe condition was present, the 
+discrepant parts were replaced with conforming parts. With the 
+discrepant parts replaced, the unsafe condition no longer exists.
+
+Comments
+
+    We gave the public the opportunity to participate in considering 
+the NPRM. Two commenters, Boeing and Aviation Partners Boeing, 
+requested certain changes to the NPRM that are considered moot by this 
+withdrawal.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the unsafe 
+condition described in the NPRM no longer exists. Accordingly, the NPRM 
+is withdrawn.
+    Withdrawal of the NPRM does not preclude the FAA from issuing 
+another related action or commit the FAA to any course of action in the 
+future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule and therefore is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2014-0923, 
+Directorate Identifier 2014-NM-176-AD, which was published in the 
+Federal Register on December 15, 2014 (79 FR 74032).
+
+    Issued in Renton, Washington, on August 18, 2016.
+Dorr M. Anderson,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2016-20704 Filed 8-29-16; 8:45 am]
+ BILLING CODE 4910-13-P
+
+

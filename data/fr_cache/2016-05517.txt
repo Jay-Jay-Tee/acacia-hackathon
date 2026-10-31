@@ -1,0 +1,105 @@
+
+[Federal Register Volume 81, Number 49 (Monday, March 14, 2016)]
+[Proposed Rules]
+[Page 13303]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2016-05517]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2009-0559; Directorate Identifier 2008-SW-66-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Sikorsky Aircraft Corporation 
+(Sikorsky) Helicopters
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM). 
+The NPRM proposed a new airworthiness directive (AD) for Sikorsky Model 
+S-92A helicopters. The proposed action would have required revising the 
+Limitations section of the Rotorcraft Flight Manual (RFM) to clarify 
+that the Model S-92A helicopter was certificated as a transport 
+category rotorcraft in both Categories A and B with different operating 
+limitations for each category and must be operated accordingly. Since 
+we issued the NPRM, we have determined that operating the helicopter in 
+Category B with 10 or more passenger seats is not an unsafe condition 
+but an inconsistency with 14 CFR 29.1(c). Accordingly, we withdraw the 
+proposed rule.
+
+DATES: As of March 14, 2016, the proposed rule to amend 14 CFR part 39 
+published June 19, 2009 (74 FR 29148) is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: John Coffey, Flight Test Engineer, 
+Boston Aircraft Certification Office, Engine & Propeller Directorate, 
+FAA, 1200 District Avenue, Burlington, Massachusetts 01803; telephone 
+(781) 238-7173; email [email protected].
+
+SUPPLEMENTARY INFORMATION: The FAA proposed to amend 14 CFR part 39 to 
+add a new AD (74 FR 29148, June 19, 2009) for Sikorsky Model S-92A 
+helicopters. The NPRM proposed to require revising the Limitations 
+section of the RFM by clarifying that the Model S-92A helicopter was 
+certificated as a transport category rotorcraft in both Categories A 
+and B with different operating limitations for each category and must 
+be operated accordingly. When the Model S-92A is configured with 10 or 
+more passenger seats, it is a Category A helicopter, and operators must 
+follow the limitations for Category A. When it is configured with 9 or 
+fewer passenger seats, it may be considered a Category B helicopter, 
+and operators may follow the less stringent Category B limitations. At 
+the time the NPRM was published, the limitation language in the RFM did 
+not make a clear distinction between Category A and Category B based on 
+the seating configuration. The proposed actions were intended to 
+prevent operating under less stringent requirements.
+
+Actions Since NPRM (74 FR 29148, June 19, 2009) Was Issued
+
+    Since we issued the NPRM (74 FR 29148, June 19, 2009), one 
+commenter noted the proposed AD misinterprets certification rules as 
+operational rules. We considered the comment and re-evaluated the 
+details that went into the determination of the unsafe condition for 
+this concern. We determined that operating the helicopter in Category B 
+with 10 or more passengers is not an unsafe condition, and the 
+associated level of risk does not warrant AD action. Rather, this was 
+an inconsistency with 14 CFR 29.1(c). Sikorsky has since revised the 
+RFM to clarify that a helicopter configured with a maximum of 19 
+passenger seats must be operated as a Category A but if configured with 
+9 or fewer passenger seats may be operated as a Category B. This action 
+mitigates the inconsistency with 14 CFR 29.1(c).
+    Withdrawal of the NPRM constitutes only such action and does not 
+preclude the agency from issuing another notice in the future nor does 
+it commit the agency to any course of action in the future.
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule; therefore, it is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket No. FAA-
+2009-0559; Directorate Identifier 2008-SW-66-AD, published in the 
+Federal Register on June 19, 2009 (74 FR 29148), is withdrawn.
+
+    Issued in Fort Worth, Texas, on March 4, 2016.
+Scott A. Horn,
+Acting Manager, Rotorcraft Directorate, Aircraft Certification Service.
+[FR Doc. 2016-05517 Filed 3-11-16; 8:45 am]
+BILLING CODE 4910-13-P
+
+
