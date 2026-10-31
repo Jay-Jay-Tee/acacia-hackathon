@@ -1,6 +1,6 @@
-# Applicable (Airbus track, Challenge #4)
+# AirFrame (Airbus track, Challenge #4)
 
-*Does this airworthiness directive apply to your aircraft?*
+*Aircraft-specific answers. Sources attached.*
 
 Traceable search over the 431 FAA airworthiness-directive notices in the challenge dataset. Every answer sentence is cited as **record_id + Federal Register citation + page range + section**. Applicability (model and serial number) is checked by deterministic rules. The system refuses, or asks for clarification, when it can't answer reliably.
 

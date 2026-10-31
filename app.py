@@ -22,7 +22,7 @@ async def lifespan(_app):
     yield
 
 
-app = FastAPI(title="Applicable", lifespan=lifespan)
+app = FastAPI(title="AirFrame", lifespan=lifespan)
 app.include_router(changes.router)
 app.include_router(features.router)
 app.include_router(uploads.router)
@@ -56,6 +56,15 @@ if (DIST / "assets").is_dir():
 def index():
     built = DIST / "index.html"
     return FileResponse(built if built.is_file() else Path(__file__).parent / "legacy" / "index.html")
+
+
+@app.get("/airframe.svg", include_in_schema=False)
+def favicon():
+    """The favicon lives in frontend/public/, which Vite copies to the root of dist/ (not under /assets)."""
+    icon = DIST / "airframe.svg"
+    if not icon.is_file():
+        raise HTTPException(404)
+    return FileResponse(icon, media_type="image/svg+xml")
 
 
 @app.get("/search")

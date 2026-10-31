@@ -154,9 +154,9 @@ function Chat() {
               </button>
               <Logo />
               <div className="min-w-0">
-                <h1 className="text-[16px] leading-tight font-semibold tracking-tight">Applicable</h1>
+                <h1 className="text-[16px] leading-tight font-semibold tracking-tight">AirFrame</h1>
                 <p className="truncate text-xs text-stone-500 dark:text-stone-400">
-                  Does this directive apply to your aircraft? Cited, rule-checked answers.
+                  Aircraft-specific answers. Sources attached.
                 </p>
               </div>
             </div>
