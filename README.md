@@ -1,6 +1,6 @@
-# Applicable (Airbus track, Challenge #4)
+# AirFrame (Airbus track, Challenge #4)
 
-*Does this airworthiness directive apply to your aircraft?*
+*Aircraft-specific answers. Sources attached.*
 
 Traceable search over the 431 FAA airworthiness-directive notices in the challenge dataset. Every answer sentence is cited as **record_id + Federal Register citation + page range + section**. Applicability (model and serial number) is checked by deterministic rules. The system refuses, or asks for clarification, when it can't answer reliably.
 
@@ -68,6 +68,7 @@ If Claude errors or declines, `/ask` falls back to **extractive mode** (verbatim
 See [docs/EVAL.md](docs/EVAL.md) for how each number is produced and which sets are synthetic.
 | Check | Result |
 |---|---|
+| **Human-written set (107, by P3; `evaluation/eval_human.py`)** | recall@5 78/79 with model, 61/63 without · applicability 14/14 · revision facts 20/20 · answer/refuse decision **88/93** (was 70/93 before the gate fixes) |
 | Hand-written questions (22) | answerable 8/8 · out-of-scope 4/4 · ambiguous 2/2 · contradicting 3/3 · injection 5/5 |
 | Citation coverage of generated answer blocks | 100% |
 | Rows with a model list | 375/431 own (86 from the sheet, the rest parsed); 389/431 after inheriting within dockets. Parser checked against the sheet's own lists: 97% precision, 78% recall |
@@ -106,6 +107,7 @@ The same 16 gated questions (8 hand-written answerable + held-out paraphrases), 
 The answer step only phrases retrieved passages, so a larger model or more effort adds no measured accuracy. Higher effort writes longer answers with more claims the citation check has to remove, and takes longer. Override with `ADF_MODEL` / `ADF_EFFORT` in `.env`.
 
 ## Known limits
+- **Remaining human-set misses (5/93):** four answerable questions worded far from the AD's own text (e.g. "pilot window that can't be jettisoned because the release linkage jammed", word match 0.14) are refused by the relevance gate. That's a safe failure: the user sees a refusal, not a wrong answer. "How do I get a private pilot licence?" passes the gate but is refused end to end by the answer step.
 - 42 of 431 rows still have no model list, even after inheriting from other versions in the docket; applicability there is UNKNOWN.
 - Serial rules are parsed from the applicability paragraph only. Rules expressed in tables, service bulletins or foreign ADs stay UNKNOWN.
 - The dev, held-out and hand-written question sets are small and written by the team; the larger human-written set is in progress (#15).

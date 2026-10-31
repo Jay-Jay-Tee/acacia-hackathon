@@ -13,6 +13,7 @@ import { features } from "./features";
 import { FilterBar, activeCount, useFilters } from "./features/FilterBar";
 import { maxTurnId, useChatHistory } from "./lib/history";
 import { useProfile, type Profile } from "./lib/profile";
+import { RIGHT_COLUMN_SURFACE, RIGHT_COLUMN_WIDTH } from "./lib/layout";
 import { safeUrl } from "./lib/safeUrl";
 import { useTheme, type Theme } from "./lib/theme";
 import { useMediaQuery } from "./lib/useMediaQuery";
@@ -153,9 +154,9 @@ function Chat() {
               </button>
               <Logo />
               <div className="min-w-0">
-                <h1 className="text-[16px] leading-tight font-semibold tracking-tight">Applicable</h1>
+                <h1 className="text-[16px] leading-tight font-semibold tracking-tight">AirFrame</h1>
                 <p className="truncate text-xs text-stone-500 dark:text-stone-400">
-                  Does this directive apply to your aircraft? Cited, rule-checked answers.
+                  Aircraft-specific answers. Sources attached.
                 </p>
               </div>
             </div>
@@ -220,7 +221,7 @@ function Chat() {
 
       {/* desktop documents rail */}
       {railShown && turns.length > 0 && (
-        <div className="w-[22rem] shrink-0 border-l border-stone-200 bg-stone-100/40 dark:border-stone-800 dark:bg-stone-900/30">
+        <div className={`${RIGHT_COLUMN_WIDTH} ${RIGHT_COLUMN_SURFACE} shrink-0 border-l border-stone-200 dark:border-stone-800`}>
           <DocumentsRail turn={railTurn} onOpenTimeline={openTimeline} />
         </div>
       )}
