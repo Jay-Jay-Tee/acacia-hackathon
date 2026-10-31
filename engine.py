@@ -305,6 +305,17 @@ def page_range(ad):
     return str(ad["page_start"] or "")
 
 
+def fr_cite(ad, page=None):
+    """Standard Federal Register citation, e.g. '91 FR 61797' (a passage) or '91 FR 61796-61799' (the notice).
+    The volume is the publish year minus 1935 (volume 1 = 1936); it agrees with the sheet's text on every row
+    that states a volume, and fills in the 12 that don't."""
+    year = (ad.get("publish_date") or ad.get("issue_date") or "")[:4]
+    where = str(page) if page else page_range(ad)
+    if not (year.isdigit() and where):
+        return ""
+    return f"{int(year) - 1935} FR {where}"
+
+
 def corpus_stats():
     """Corpus size, stated as the brief asks."""
     ads = all_ads().values()
@@ -328,7 +339,7 @@ def ad_card(ad_id):
         "issue_date": ad["issue_date"], "publish_date": ad.get("publish_date"), "pages": page_range(ad),
         "make": ad["make"],
         "models": effective_models(ad), "models_source": ad.get("models_source"),
-        "citation": ad["citation"], "url": ad["url"],
+        "citation": ad["citation"], "fr_cite": fr_cite(ad), "url": ad["url"],
         "supersedes": ad["supersedes"], "fulltext": ad["fulltext"], "data_warning": ad.get("data_warning"),
         "revision": {"count": rev["count"], "is_latest": rev["latest_id"] == ad_id,
                      "latest_id": rev["latest_id"], "versions": rev["versions"]},

@@ -1,4 +1,4 @@
-# API contract (v1.3)
+# API contract (v1.4)
 
 Owned jointly by **P1 (UI)** and **P2 (Logic)**. Any change needs a PR reviewed by both. The frontend renders only these fields.
 
@@ -34,6 +34,7 @@ Response:
           "section": "(c) Applicability",
           "fr_citation": "Federal Register, Volume 91 ...",
           "pages": "61796-61799",        // v1.2: page range of the whole notice
+          "fr_cite": "91 FR 61797",      // v1.4: standard FR citation of the cited page (volume = publish year - 1935)
           "page": 61797,                 // page of the cited passage
           "url": "https://www.federalregister.gov/d/2026-xxxxx",
           "cited_text": "exact quoted source text",
@@ -54,7 +55,7 @@ Response:
       "models_source": "sheet" | "applicability" | "summary" | null,   // v1.1 (P2): where the model list came from
       "supersedes": ["2021-12-10"], "fulltext": true,
       "url": "https://www.federalregister.gov/d/...",
-      "citation": "string", "ad_number": "",
+      "citation": "string", "fr_cite": "91 FR 61796-61799", "ad_number": "",   // fr_cite v1.4
       "revision": {
         "count": 2, "is_latest": true, "latest_id": 12,
         // newest first; the current version is the one with the latest publish date

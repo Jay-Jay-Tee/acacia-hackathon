@@ -227,6 +227,12 @@ def fetch_all(rows):
     print(f"fetched/cached {ok}/{len(docs)} Federal Register documents")
 
 
+def is_heading(title):
+    """Section titles are title-cased ('Parts Installation Limitations'); sub-paragraph lines are sentences."""
+    words = [w for w in re.findall(r"[A-Za-z][A-Za-z'-]*", title) if len(w) > 3]
+    return bool(words) and sum(w[0].isupper() for w in words) / len(words) >= 0.6
+
+
 def split_sections(text, first_page):
     """Yield (section, page, text) from FR full text. AD rule paragraphs (a), (b)... become their own sections."""
     page = first_page
@@ -249,6 +255,8 @@ def split_sections(text, first_page):
             in_rule = True
         new_section = None
         am = AD_SECTION_RE.match(s) if in_rule else None
+        if am and not is_heading(am.group(2)):
+            am = None  # '(i) Modify and calibrate each ... in': a sub-paragraph line, not a section title
         if am:
             new_section = f"({am.group(1)}) {am.group(2)}"
         elif not in_rule:

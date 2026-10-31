@@ -112,3 +112,10 @@ def test_non_ad_rule_never_applies():
     r = engine.check_applicability(a, "R22", "1")
     assert r["result"] == "UNKNOWN" and "Part 61" in r["trace"][-1]
     assert engine.check_applicability(a, "R44", "1")["result"] == "DOES_NOT_APPLY"  # unlisted model still excluded
+
+
+def test_section_headings_vs_subparagraph_lines():
+    assert ingest.is_heading("Parts Installation Limitations")
+    assert ingest.is_heading("Alternative Methods of Compliance (AMOCs)")
+    assert not ingest.is_heading("Modify and calibrate each affected fuel level indicator in")
+    assert not ingest.is_heading("You are responsible for having the actions required by this")

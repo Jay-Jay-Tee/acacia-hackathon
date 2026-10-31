@@ -91,8 +91,10 @@ def ask(body: Ask):
     status, reason, res, appl = engine.gate(body.query, body.model or None, body.serial or None)
     retrieval_ms = round(res["ms"], 1) if res else 0.0
     hits = res["hits"] if res else []
+    # Show documents only when applicability was evaluated for them: a relevance refusal ("nothing in the
+    # corpus matches") must not list unrelated notices, while e.g. "S/N outside the rule" keeps its evidence.
     cards, seen = [], set()
-    for h in hits:
+    for h in hits if appl else []:
         if h["ad_id"] not in seen:
             seen.add(h["ad_id"])
             cards.append({**engine.ad_card(h["ad_id"]), "applicability": appl.get(h["ad_id"])})
@@ -104,8 +106,8 @@ def ask(body: Ask):
            "notices": [], "candidates": candidates, "documents": cards, "retrieval_ms": retrieval_ms, "disclaimer": DISCLAIMER}
     if status == "ok":
         mode, blocks, note = llm.answer(body.query, hits[:6])
-        if mode == "no_answer":
-            out.update(status="refused", mode=mode, refusal_reason=note)
+        if mode == "no_answer":  # the passages don't answer it, so don't present them as matches
+            out.update(status="refused", mode=mode, refusal_reason=note, documents=[])
         else:
             out.update(status="answered", mode=mode, answer_blocks=blocks, note=note, notices=status_notices(blocks, body.model))
     out["total_ms"] = round((time.perf_counter() - t0) * 1000, 1)
