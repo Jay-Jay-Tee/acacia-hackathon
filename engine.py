@@ -277,6 +277,18 @@ def _search_cached(query, model, k):
     return {"hits": hits, "tokens": toks, "ms": (time.perf_counter() - t0) * 1000}
 
 
+def aircraft_family(ad):
+    """Short aircraft-type label for a record, e.g. 'Boeing 737' or 'Airbus Helicopters AS350'.
+    Used to warn when one answer draws on notices for different aircraft types."""
+    models = effective_models(ad)
+    make = re.sub(r"[.,]", "", (ad.get("make") or "").replace("The Boeing Company", "Boeing")).strip()
+    if not models:
+        return make or ad["docket"]
+    # keep a type letter that ends the designation ('Falcon 6X'), drop variant suffixes ('737-800' -> '737')
+    m = re.match(r"[A-Za-z.]*[ -]?\d+[A-Za-z]?(?=$|[\s-])", models[0]) or re.match(r"[A-Za-z.]*[ -]?\d+", models[0])
+    return f"{make} {m.group(0) if m else models[0]}".strip()
+
+
 def status_label(ad):
     if ad["status"] == "final":
         return f"Final AD {ad['ad_number']}".strip()
