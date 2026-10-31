@@ -70,6 +70,12 @@ function Chat() {
     void run(chatId, t.id, t.query, t.profile);
   }
 
+  function clarify(t: Turn, model: string) {
+    const p = { ...t.profile, model };
+    setProfile(p);
+    send(t.query, p);
+  }
+
   function runExample(ex: Example) {
     setProfile(ex.profile);
     send(ex.query, ex.profile);
@@ -164,7 +170,7 @@ function Chat() {
             {turns.length === 0 ? (
               <EmptyState corpus={corpus} onExample={runExample} />
             ) : (
-              <Thread turns={turns} onCitationClick={openCitation} onRetry={retry} />
+              <Thread turns={turns} onCitationClick={openCitation} onRetry={retry} onClarify={clarify} />
             )}
           </div>
         </main>
