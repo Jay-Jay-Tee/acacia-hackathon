@@ -19,6 +19,7 @@ Response:
   "retrieval_ms": 6.1,
   "total_ms": 4352.2,
   "disclaimer": "Decision support only. ...",
+  "candidates": ["A320-211", "A320-214"],  // v1.1 (P2): exact models to choose from when status is needs_clarification, else []
   "answer_blocks": [
     {
       "text": "string",                  // one cited claim

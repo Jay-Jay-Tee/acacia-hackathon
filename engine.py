@@ -208,6 +208,20 @@ def ad_card(ad_id):
 
 # ---------- gates ----------
 
+@lru_cache(maxsize=1)
+def known_models():
+    return sorted({m for a in all_ads().values() for m in effective_models(a)})
+
+
+def model_candidates(model):
+    """Exact corpus models this (possibly partial) model could mean; [] when it is already exact."""
+    nm = norm_model(model)
+    known = known_models()
+    if any(norm_model(m) == nm for m in known):
+        return []
+    return [m for m in known if norm_model(m).startswith(nm)]
+
+
 MIN_COVERAGE = 0.6  # short queries (<= 2 content words) need every word present
 
 
@@ -220,14 +234,10 @@ def gate(query, model=None, serial=None):
     if META_RE.search(query):
         return "refused", ("This question is about the assistant or tries to change its rules. It only answers "
                            "questions about the airworthiness-directive documents in the corpus."), None, {}
-    if model:
-        nm = norm_model(model)
-        known = {m for a in all_ads().values() for m in effective_models(a)}
-        if not any(norm_model(m) == nm for m in known):
-            cands = sorted(m for m in known if norm_model(m).startswith(nm))
-            if len(cands) > 1:
-                return ("needs_clarification",
-                        f"Model '{model}' is ambiguous. Did you mean one of: {', '.join(cands[:12])}?", None, {})
+    if model and len(model_candidates(model)) > 1:
+        cands = model_candidates(model)
+        return ("needs_clarification",
+                f"Model '{model}' is ambiguous. Did you mean one of: {', '.join(cands[:12])}?", None, {})
     res = search(query, model=model)
     need = 1.0 if len(res["tokens"]) <= 2 else MIN_COVERAGE
     if not res["hits"] or res["hits"][0]["coverage"] < need:

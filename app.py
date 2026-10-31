@@ -51,8 +51,12 @@ def ask(body: Ask):
         if h["ad_id"] not in seen:
             seen.add(h["ad_id"])
             cards.append({**engine.ad_card(h["ad_id"]), "applicability": appl.get(h["ad_id"])})
+    candidates = []
+    if status == "needs_clarification" and body.model:
+        # from the per-document check when it raised the ambiguity, else from the corpus-wide model list
+        candidates = sorted({c for a in appl.values() for c in a.get("candidates", [])}) or engine.model_candidates(body.model)
     out = {"status": status, "refusal_reason": reason, "answer_blocks": [], "mode": None, "note": "",
-           "documents": cards, "retrieval_ms": retrieval_ms, "disclaimer": DISCLAIMER}
+           "candidates": candidates, "documents": cards, "retrieval_ms": retrieval_ms, "disclaimer": DISCLAIMER}
     if status == "ok":
         mode, blocks, note = llm.answer(body.query, hits[:6])
         if mode == "no_answer":
