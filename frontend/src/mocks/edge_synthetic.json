@@ -7,7 +7,7 @@
     "refusal_reason": "",
     "answer_blocks": [
       {
-        "text": "SYNTHETIC EDGE CASE: <script>alert('xss')</script><img src=x onerror=alert(1)> must render as plain text.",
+        "text": "SYNTHETIC: <script>alert('xss')</script><img src=x onerror=alert(1)> must render as plain text.",
         "citations": [
           {
             "record_id": "NPRM-018",
@@ -27,8 +27,23 @@
         ]
       },
       {
-        "text": "The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsafe condit...",
+        "text": "Same passage cited again keeps number 1; a second passage gets 2.",
         "citations": [
+          {
+            "record_id": "NPRM-018",
+            "docket": "FAA-2026-11794",
+            "ad_number": "",
+            "status": "proposed",
+            "revision_date": "2026-09-30",
+            "section": "(e) Unsafe Condition",
+            "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "pages": "61797-61799",
+            "page": 61798,
+            "url": "https://www.federalregister.gov/d/2026-19972",
+            "cited_text": "(e) Unsafe Condition This AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. The FAA is issuing this AD to prevent fuel starvation. The unsafe condition, if not addressed, could result in engine power loss, engine shutdown in flight, and reduced control of the airplane.",
+            "ad_id": 17,
+            "chunk_id": 520
+          },
           {
             "record_id": "NPRM-018",
             "docket": "FAA-2026-11794",
@@ -43,26 +58,11 @@
             "cited_text": "The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsafe condit...",
             "ad_id": 17,
             "chunk_id": 502
-          },
-          {
-            "record_id": "NPRM-018",
-            "docket": "FAA-2026-11794",
-            "ad_number": "",
-            "status": "proposed",
-            "revision_date": "2026-09-30",
-            "section": "Summary",
-            "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
-            "pages": "61797-61799",
-            "page": 61797,
-            "url": "javascript:alert(1)",
-            "cited_text": "Non-FR URL: must not become a link.",
-            "ad_id": 17,
-            "chunk_id": 502
           }
         ]
       },
       {
-        "text": "SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsa...",
+        "text": "Truncated quote, a javascript: URL and an unbroken string: A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-A320-",
         "citations": [
           {
             "record_id": "NPRM-018",
@@ -70,22 +70,43 @@
             "ad_number": "",
             "status": "proposed",
             "revision_date": "2026-09-30",
-            "section": "Summary",
+            "section": "<script>alert('xss')</script><img src=x onerror=alert(1)>",
             "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
             "pages": "61797-61799",
-            "page": 61797,
-            "url": "https://www.federalregister.gov/d/2026-19972",
-            "cited_text": "SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsa...",
+            "page": 61798,
+            "url": "javascript:alert(1)",
+            "cited_text": "Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote Long quote ...",
             "ad_id": 17,
-            "chunk_id": 506
+            "chunk_id": -1
+          }
+        ]
+      },
+      {
+        "text": "A citation to a non-AD rule shows the 'Not an AD' badge.",
+        "citations": [
+          {
+            "record_id": "NPRM-290",
+            "docket": "FAA-2002-13744",
+            "ad_number": "",
+            "status": "not_ad",
+            "revision_date": "2026-09-30",
+            "section": "(e) Unsafe Condition",
+            "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "pages": "61797-61799",
+            "page": 61798,
+            "url": "https://www.federalregister.gov/d/2026-19972",
+            "cited_text": "(e) Unsafe Condition This AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. The FAA is issuing this AD to prevent fuel starvation. The unsafe condition, if not addressed, could result in engine power loss, engine shutdown in flight, and reduced control of the airplane.",
+            "ad_id": 289,
+            "chunk_id": -2
           }
         ]
       }
     ],
     "mode": "generated",
-    "note": "1 uncited sentence(s) removed.",
+    "note": "1 uncited sentence(s) removed. <script>alert('xss')</script><img src=x onerror=alert(1)>",
     "notices": [
-      "Cited documents include proposed rules (NPRMs). They are not in effect until the FAA issues a final AD."
+      "Cited documents include proposed rules (NPRMs). They are not in effect until the FAA issues a final AD.",
+      "SYNTHETIC notice with <script>alert('xss')</script><img src=x onerror=alert(1)>"
     ],
     "candidates": [],
     "documents": [
@@ -110,6 +131,7 @@
         "url": "https://www.federalregister.gov/d/2026-19972",
         "supersedes": [],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 1,
           "is_latest": true,
@@ -158,6 +180,7 @@
         "url": "https://www.federalregister.gov/d/2026-21009",
         "supersedes": [],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 1,
           "is_latest": true,
@@ -217,6 +240,7 @@
           "2024-25-11"
         ],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 2,
           "is_latest": false,
@@ -246,7 +270,7 @@
           "result": "UNKNOWN",
           "trace": [
             "Model list not available for this notice.",
-            "SYNTHETIC: <b>trace html</b> must be plain text."
+            "SYNTHETIC: <script>alert('xss')</script><img src=x onerror=alert(1)>"
           ]
         }
       },
@@ -270,6 +294,7 @@
           "2009-17-05"
         ],
         "fulltext": false,
+        "data_warning": null,
         "revision": {
           "count": 1,
           "is_latest": true,
@@ -287,10 +312,104 @@
           ]
         },
         "applicability": null
+      },
+      {
+        "ad_id": 289,
+        "record_id": "NPRM-290",
+        "docket": "FAA-2002-13744",
+        "subject": "Robinson R-22/R-44 Special Training and Experience Requirements",
+        "ad_number": "",
+        "status": "not_ad",
+        "status_label": "Not an airworthiness directive (14 CFR Part 61)",
+        "issue_date": "2008-07-30",
+        "publish_date": "2008-08-06",
+        "pages": "45905-45908",
+        "make": "Robinson Helicopter Company",
+        "models": [
+          "R-22",
+          "R-44"
+        ],
+        "models_source": "summary",
+        "citation": "Federal Register: August 7, 2008",
+        "url": "https://www.federalregister.gov/d/E8-18239",
+        "supersedes": [],
+        "fulltext": true,
+        "data_warning": null,
+        "revision": {
+          "count": 1,
+          "is_latest": true,
+          "latest_id": 289,
+          "versions": [
+            {
+              "id": 289,
+              "record_id": "NPRM-290",
+              "publish_date": "2008-08-06",
+              "issue_date": "2008-07-30",
+              "status": "not_ad",
+              "citation": "Federal Register: August 7, 2008",
+              "url": "https://www.federalregister.gov/d/E8-18239"
+            }
+          ]
+        },
+        "applicability": null
+      },
+      {
+        "ad_id": 313,
+        "record_id": "NPRM-314",
+        "docket": "FAA-2006-23739",
+        "subject": "Airworthiness Directives; Empresa Brasileira de Aeronautica S.A. (EMBRAER) Model EMB-145, -145ER, -145MR, -145LR, -145XR, -145MP, and - 145EP Airplanes",
+        "ad_number": "",
+        "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
+        "issue_date": "2006-06-21",
+        "publish_date": "2006-06-27",
+        "pages": "36723-36724",
+        "make": "Embraer",
+        "models": [
+          "EMB-145",
+          "EMB-145ER",
+          "EMB-145MR",
+          "EMB-145LR",
+          "EMB-145XR",
+          "EMB-145MP",
+          "EMB-145EP"
+        ],
+        "models_source": null,
+        "citation": "Federal Register: June 28, 2006 (Volume 71, Number 124)",
+        "url": "https://www.federalregister.gov/d/E6-10175",
+        "supersedes": [],
+        "fulltext": true,
+        "data_warning": "The source sheet's summary for this record does not describe an airworthiness directive; it is not used. Rely on the Federal Register text.",
+        "revision": {
+          "count": 2,
+          "is_latest": true,
+          "latest_id": 313,
+          "versions": [
+            {
+              "id": 313,
+              "record_id": "NPRM-314",
+              "publish_date": "2006-06-27",
+              "issue_date": "2006-06-21",
+              "status": "proposed",
+              "citation": "Federal Register: June 28, 2006 (Volume 71, Number 124)",
+              "url": "https://www.federalregister.gov/d/E6-10175"
+            },
+            {
+              "id": 323,
+              "record_id": "NPRM-324",
+              "publish_date": "2006-02-01",
+              "issue_date": "2006-01-25",
+              "status": "proposed",
+              "citation": "Federal Register: February 2, 2006 (Volume 71, Number 22)",
+              "url": "https://www.federalregister.gov/d/E6-1420"
+            }
+          ]
+        },
+        "applicability": null
       }
     ],
-    "retrieval_ms": 2761.3,
-    "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
-    "total_ms": 2790.3
+    "retrieval_ms": 3800.6,
+    "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision. <script>alert('xss')</script><img src=x onerror=alert(1)>",
+    "total_ms": 3912.2
   }
 }
