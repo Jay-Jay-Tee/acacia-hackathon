@@ -13,3 +13,79 @@ body {
   @apply bg-stone-50 text-stone-900 antialiased dark:bg-stone-950 dark:text-stone-100;
   overflow-x: hidden;
 }
+
+/* ---------- Motion ----------
+   Short, ease-out entrances so content settles in instead of snapping. Everything here is gated on
+   prefers-reduced-motion: no-preference (utilities via `motion-safe:`, the classes below via the media query). */
+@theme {
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --animate-rise: rise 420ms var(--ease-out-soft) both;
+  --animate-fade: fade 360ms ease-out both;
+  --animate-from-right: from-right 380ms var(--ease-out-soft) both;
+  --animate-pop: pop 160ms var(--ease-out-soft) both;
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+  }
+  @keyframes from-right {
+    from {
+      opacity: 0;
+      transform: translateX(14px);
+    }
+  }
+  @keyframes pop {
+    from {
+      opacity: 0;
+      transform: translateY(4px) scale(0.97);
+    }
+  }
+  @keyframes panel-in {
+    from {
+      transform: translateX(24px);
+      opacity: 0;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* .reveal: children rise in one after another (answer parts, document cards, example prompts).
+     --reveal-delay offsets the whole sequence; --reveal-step is the gap between children. */
+  .reveal > * {
+    animation: rise 420ms var(--ease-out-soft) both;
+    animation-delay: calc(var(--reveal-delay, 0ms) + var(--i, 0) * var(--reveal-step, 55ms));
+  }
+  .reveal > :nth-child(2) { --i: 1; }
+  .reveal > :nth-child(3) { --i: 2; }
+  .reveal > :nth-child(4) { --i: 3; }
+  .reveal > :nth-child(5) { --i: 4; }
+  .reveal > :nth-child(6) { --i: 5; }
+  .reveal > :nth-child(7) { --i: 6; }
+  .reveal > :nth-child(8) { --i: 7; }
+  .reveal > :nth-child(n + 9) { --i: 8; }
+
+  /* .reveal-text: inline spans (one per cited clause) fade in left to right, like the answer being read out. */
+  .reveal-text > span {
+    animation: fade 380ms ease-out both;
+  }
+  .reveal-text > span:nth-child(2) { animation-delay: 70ms; }
+  .reveal-text > span:nth-child(3) { animation-delay: 140ms; }
+  .reveal-text > span:nth-child(4) { animation-delay: 210ms; }
+  .reveal-text > span:nth-child(5) { animation-delay: 280ms; }
+  .reveal-text > span:nth-child(6) { animation-delay: 350ms; }
+  .reveal-text > span:nth-child(7) { animation-delay: 420ms; }
+  .reveal-text > span:nth-child(n + 8) { animation-delay: 490ms; }
+
+  /* The shared side panel (source viewer, fleet check, timeline) slides in from the right. It's the only
+     aside with an explicit role attribute, so this needs no change to SidePanel.tsx. */
+  aside[role="complementary"] {
+    animation: panel-in 300ms var(--ease-out-soft) both;
+  }
+}

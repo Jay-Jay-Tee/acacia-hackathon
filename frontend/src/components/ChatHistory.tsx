@@ -42,7 +42,7 @@ export function ChatHistory({ chats, activeId, onOpen, onNew, onDelete }: Props)
           {chats.map((c) => {
             const active = c.id === activeId;
             return (
-              <li key={c.id} className="group relative">
+              <li key={c.id} className="group relative motion-safe:animate-fade">
                 <button
                   type="button"
                   onClick={() => onOpen(c.id)}

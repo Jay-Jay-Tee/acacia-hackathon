@@ -57,7 +57,8 @@ export function AnswerBubble({ query, profile, response: r, onCitationClick, onP
   const extractive = r.mode === "extractive";
 
   return (
-    <article className={`rounded-2xl rounded-bl-md border px-4 py-3.5 text-[15px] ${s.card}`} aria-label={s.label}>
+    // The bubble rises in, then its parts follow in reading order (.reveal staggers direct children).
+    <article className={`reveal rounded-2xl rounded-bl-md border px-4 py-3.5 text-[15px] motion-safe:animate-rise [--reveal-delay:90ms] ${s.card}`} aria-label={s.label}>
       <header className="flex flex-wrap items-center gap-x-2 gap-y-1">
         <span className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide uppercase ${s.accent}`}>
           <svg aria-hidden viewBox="0 0 24 24" className="size-3.5" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
@@ -93,7 +94,7 @@ export function AnswerBubble({ query, profile, response: r, onCitationClick, onP
       )}
 
       {r.answer_blocks.length > 0 && (
-        <div className="mt-3 space-y-2.5 wrap-break-word">
+        <div className="reveal mt-3 space-y-2.5 wrap-break-word [--reveal-delay:120ms] [--reveal-step:90ms]">
           {extractive && <p className="text-xs text-stone-500 dark:text-stone-400">Matching source passages, quoted verbatim:</p>}
           {extractive ? (
             r.answer_blocks.map((b, i) => (
@@ -105,7 +106,7 @@ export function AnswerBubble({ query, profile, response: r, onCitationClick, onP
           ) : (
             // Citations can split one sentence into several blocks, so generated blocks flow as one text
             // with each chip right after the words it supports.
-            <p className="leading-relaxed">
+            <p className="reveal-text leading-relaxed">
               {r.answer_blocks.map((b, i) => (
                 <span key={i}>
                   {i > 0 && !/^[,.;:)]/.test(b.text) && " "}
@@ -179,7 +180,7 @@ function Clarify({ candidates, onPick }: { candidates: string[]; onPick: (m: str
   return (
     <div className="mt-3">
       <p className="text-xs font-medium text-stone-600 dark:text-stone-300">Pick the exact model to re-ask with it:</p>
-      <div className="mt-1.5 flex flex-wrap gap-1.5">
+      <div className="reveal mt-1.5 flex flex-wrap gap-1.5 [--reveal-delay:160ms] [--reveal-step:25ms]">
         {shown.map((m) => (
           <button
             key={m}

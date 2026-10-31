@@ -131,7 +131,7 @@ function Chat() {
   return (
     <div className="flex h-dvh">
       {/* desktop sidebar */}
-      <aside className="hidden w-64 shrink-0 border-r border-stone-200 bg-stone-100/60 lg:block dark:border-stone-800 dark:bg-stone-900/40">
+      <aside className="hidden w-64 shrink-0 border-r motion-safe:animate-fade border-stone-200 bg-stone-100/60 lg:block dark:border-stone-800 dark:bg-stone-900/40">
         {historyList}
       </aside>
 
@@ -144,7 +144,7 @@ function Chat() {
       )}
 
       <div className="flex min-w-0 flex-1 flex-col">
-        <header className="border-b border-stone-200 bg-stone-50/80 backdrop-blur dark:border-stone-800 dark:bg-stone-950/80">
+        <header className="border-b border-stone-200 bg-stone-50/80 backdrop-blur motion-safe:animate-fade dark:border-stone-800 dark:bg-stone-950/80">
           <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3">
             <div className="flex min-w-0 items-center gap-3">
               <button type="button" onClick={() => setDrawer(true)} className={`${iconBtn} lg:hidden`} aria-label="Open chat history">
@@ -211,7 +211,7 @@ function Chat() {
           </div>
         </main>
 
-        <footer className="bg-linear-to-t from-stone-50 from-60% to-transparent pt-2 dark:from-stone-950">
+        <footer className="bg-linear-to-t from-stone-50 from-60% to-transparent pt-2 motion-safe:animate-rise motion-safe:[animation-delay:140ms] dark:from-stone-950">
           <div className="mx-auto max-w-3xl px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
             <FilterBar filters={filters} onChange={setFilters} />
             <Composer profile={profile} onProfileChange={setProfile} onSend={(q) => send(q)} busy={busy} inputRef={input} hasHistory={turns.length > 0} />

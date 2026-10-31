@@ -32,7 +32,7 @@ export const EXAMPLES: Example[] = [
 
 export function EmptyState({ corpus, onExample }: { corpus: CorpusStats | null; onExample: (e: Example) => void }) {
   return (
-    <div className="mx-auto flex max-w-2xl flex-col items-center py-10 text-center sm:py-16">
+    <div className="reveal mx-auto flex max-w-2xl flex-col items-center py-10 text-center [--reveal-delay:80ms] [--reveal-step:80ms] sm:py-16">
       <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">Which directives apply to your aircraft?</h2>
       <p className="mt-3 max-w-lg text-sm text-stone-500 dark:text-stone-400">
         Answers come only from FAA airworthiness-directive notices. Every sentence is cited, applicability is
@@ -44,7 +44,7 @@ export function EmptyState({ corpus, onExample }: { corpus: CorpusStats | null; 
           {corpus.passages.toLocaleString()} passages
         </p>
       )}
-      <div className="mt-8 grid w-full gap-3 sm:grid-cols-3">
+      <div className="reveal mt-8 grid w-full gap-3 [--reveal-delay:320ms] [--reveal-step:90ms] sm:grid-cols-3">
         {EXAMPLES.map((ex) => (
           <button
             key={ex.title}
