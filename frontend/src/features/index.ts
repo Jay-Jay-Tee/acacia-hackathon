@@ -18,7 +18,7 @@ export interface FeatureHooks {
   openFleetCheck?: (panel: SidePanelApi) => void;
   /** Open a docket's revision timeline (pass any ad_id in the docket). P1 wires this to a document card's revision badge. */
   openRevisionTimeline?: (adId: number, panel: SidePanelApi) => void;
-  /** "Copy as compliance note" button. P1 renders `<features.CopyNote query model serial response />` under an answer. */
+  /** "Save compliance note" button. P1 renders `<features.CopyNote query model serial response />` under an answer. */
   CopyNote?: ComponentType<CopyNoteProps>;
   /** Open the PDF upload and cited Q&A panel. P1 wires a button to this; no button renders while undefined. */
   openUploads?: (panel: SidePanelApi) => void;
