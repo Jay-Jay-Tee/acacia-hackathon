@@ -102,7 +102,7 @@ function RailButton({ turn, active, onClick }: { turn: Turn; active: boolean; on
       type="button"
       onClick={onClick}
       aria-pressed={active}
-      className={`flex w-full flex-wrap items-center gap-x-3 gap-y-1 rounded-lg border px-3 py-2 text-left text-xs transition-colors ${
+      className={`flex w-full flex-wrap items-center gap-x-3 gap-y-1 rounded-lg border px-3 py-2 text-left text-xs transition-colors motion-safe:animate-rise motion-safe:[animation-delay:420ms] ${
         active
           ? "border-stone-400 bg-stone-100 text-stone-800 dark:border-stone-500 dark:bg-stone-800 dark:text-stone-100"
           : "border-stone-200 text-stone-600 hover:bg-stone-100 dark:border-stone-800 dark:text-stone-300 dark:hover:bg-stone-900"
@@ -123,7 +123,7 @@ function InlineDocuments({ turn, onOpenTimeline }: { turn: Turn; onOpenTimeline?
   // Open when the verdicts are the point of the answer (a refusal or clarification explains itself there).
   const open = turn.response!.status !== "answered";
   return (
-    <details open={open} className="group rounded-xl border border-stone-200 dark:border-stone-800">
+    <details open={open} className="group rounded-xl border motion-safe:animate-rise motion-safe:[animation-delay:420ms] border-stone-200 dark:border-stone-800">
       <summary className="flex cursor-pointer flex-wrap items-center gap-x-3 gap-y-1 px-3 py-2 text-xs text-stone-600 select-none dark:text-stone-300">
         <span className="font-medium">{docsLabel(docs.length)}</span>
         <span className="text-stone-500 dark:text-stone-400">
@@ -141,7 +141,7 @@ function InlineDocuments({ turn, onOpenTimeline }: { turn: Turn; onOpenTimeline?
 function UserBubble({ query, profile }: { query: string; profile: Profile }) {
   const set = Boolean(profile.model || profile.serial);
   return (
-    <div className="flex flex-col items-end gap-1">
+    <div className="flex flex-col items-end gap-1 motion-safe:animate-from-right">
       <p className="max-w-[85%] rounded-2xl rounded-br-md bg-stone-900 px-4 py-2.5 text-[15px] wrap-break-word whitespace-pre-wrap text-white dark:bg-stone-100 dark:text-stone-900">
         {query}
       </p>
@@ -168,7 +168,7 @@ function Pending({ passages }: { passages?: number }) {
       : "Checking applicability and writing a cited answer…";
 
   return (
-    <div role="status" aria-live="polite" className="rounded-2xl rounded-bl-md border border-stone-200 bg-white px-4 py-3.5 dark:border-stone-800 dark:bg-stone-900">
+    <div role="status" aria-live="polite" className="rounded-2xl rounded-bl-md border motion-safe:animate-rise motion-safe:[animation-delay:120ms] border-stone-200 bg-white px-4 py-3.5 dark:border-stone-800 dark:bg-stone-900">
       <div className="flex items-center gap-2 text-xs text-stone-500 dark:text-stone-400">
         <span aria-hidden className="size-2 rounded-full bg-blue-500 motion-safe:animate-pulse" />
         <span>{stage}</span>
@@ -186,7 +186,7 @@ function Pending({ passages }: { passages?: number }) {
 
 function ErrorBubble({ message, onRetry }: { message: string; onRetry: () => void }) {
   return (
-    <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-900 dark:border-red-900 dark:bg-red-950 dark:text-red-100">
+    <div className="rounded-xl border border-red-200 bg-red-50 motion-safe:animate-rise px-4 py-3 text-sm text-red-900 dark:border-red-900 dark:bg-red-950 dark:text-red-100">
       <p className="font-medium">Couldn't reach Applicable.</p>
       <p className="mt-1 wrap-break-word opacity-80">{message}</p>
       <button type="button" onClick={onRetry} className="mt-2 text-sm font-medium underline underline-offset-2">

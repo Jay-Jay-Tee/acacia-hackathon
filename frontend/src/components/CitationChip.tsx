@@ -99,7 +99,7 @@ function PreviewCard(props: {
       onMouseEnter={props.onEnter}
       onMouseLeave={props.onLeave}
       style={pos ? { top: pos.top, left: pos.left, width: pos.width } : { top: 0, left: 0, width: CARD_W, visibility: "hidden" }}
-      className="fixed z-50 rounded-xl border border-stone-200 bg-white p-3 text-left text-sm shadow-xl dark:border-stone-700 dark:bg-stone-900"
+      className="fixed z-50 rounded-xl border border-stone-200 bg-white p-3 motion-safe:animate-pop text-left text-sm shadow-xl dark:border-stone-700 dark:bg-stone-900"
     >
       <div className="flex flex-wrap items-center gap-1.5 text-xs">
         <span className="font-semibold text-stone-900 dark:text-stone-100">[{props.n}]</span>

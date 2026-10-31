@@ -37,7 +37,7 @@ interface ListProps {
 /** The cards themselves. Traces start open where they explain a "no" or an ambiguity. */
 export function DocumentList({ docs, profile, onOpenTimeline }: ListProps) {
   return (
-    <ol className="space-y-3">
+    <ol className="reveal space-y-3 [--reveal-delay:120ms] [--reveal-step:70ms]">
       {docs.map((d) => (
         <li key={d.ad_id}>
           <DocumentCard
@@ -56,7 +56,7 @@ export function DocumentList({ docs, profile, onOpenTimeline }: ListProps) {
 export function DocumentsRail({ turn, onOpenTimeline }: { turn: Turn | undefined; onOpenTimeline?: (adId: number) => void }) {
   const docs = turn?.response?.documents ?? [];
   return (
-    <aside aria-label="Matching documents" className="flex h-full flex-col">
+    <aside aria-label="Matching documents" className="flex h-full flex-col motion-safe:animate-fade">
       <header className="border-b border-stone-200 px-4 py-3 dark:border-stone-800">
         <h2 className="text-sm font-semibold">Documents</h2>
         {turn ? (
@@ -78,7 +78,8 @@ export function DocumentsRail({ turn, onOpenTimeline }: { turn: Turn | undefined
         {turn && docs.length === 0 && (
           <p className="px-1 text-xs text-stone-500 dark:text-stone-400">No documents were retrieved for this question.</p>
         )}
-        {docs.length > 0 && <DocumentList docs={docs} profile={turn!.profile} onOpenTimeline={onOpenTimeline} />}
+        {/* keyed by turn so the cards replay their entrance when the rail switches to another answer */}
+        {docs.length > 0 && <DocumentList key={turn!.id} docs={docs} profile={turn!.profile} onOpenTimeline={onOpenTimeline} />}
       </div>
     </aside>
   );

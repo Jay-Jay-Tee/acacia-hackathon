@@ -55,7 +55,7 @@ export function ProfileChip({ profile, onChange }: { profile: Profile; onChange:
           role="dialog"
           aria-label="Aircraft profile"
           onSubmit={save}
-          className="absolute bottom-full left-0 z-30 mb-2 w-72 max-w-[calc(100vw-2rem)] space-y-3 rounded-xl border border-stone-200 bg-white p-4 shadow-lg dark:border-stone-700 dark:bg-stone-900"
+          className="absolute bottom-full left-0 z-30 mb-2 w-72 origin-bottom-left motion-safe:animate-pop max-w-[calc(100vw-2rem)] space-y-3 rounded-xl border border-stone-200 bg-white p-4 shadow-lg dark:border-stone-700 dark:bg-stone-900"
         >
           <div>
             <p className="text-sm font-medium">Aircraft profile</p>
