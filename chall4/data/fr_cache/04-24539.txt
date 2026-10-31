@@ -1,0 +1,115 @@
+
+[Federal Register Volume 69, Number 212 (Wednesday, November 3, 2004)]
+[Proposed Rules]
+[Pages 63962-63963]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 04-24539]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2003-NM-04-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Empresa Brasileira de Aeronautica S.A. 
+(EMBRAER) Model EMB-135 and -145 Series Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to certain 
+EMBRAER Model EMB-135 and -145 series airplanes. That action would have 
+required a one-time inspection of the trailing arm cardan of each main 
+landing gear (MLG) to identify a certain part number; a one-time 
+inspection of certain trailing arm cardans to detect cracking, if 
+necessary; and replacement of incorrect trailing arm cardans with 
+cardans having a certain part number. Since the issuance of the NPRM, 
+the Federal Aviation Administration (FAA) has received new 
+substantiating data from the manufacturer that verify that all affected 
+airplanes in the worldwide and domestic fleets are in compliance with 
+the proposed requirements of the NPRM, and all affected spare parts 
+have been returned to the manufacturer and destroyed. Accordingly, the 
+proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Todd Thompson, Aerospace Engineer, 
+International Branch, ANM-116, Transport Airplane Directorate, FAA, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+227-1175; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to certain EMBRAER Model EMB-135 and -145 
+series airplanes, was published in the Federal Register as a Notice of 
+Proposed Rulemaking (NPRM) on March 17, 2003 (68 FR 12615). The 
+proposed rule would have required a one-time inspection of the trailing 
+arm cardan of each main landing gear (MLG) to identify a certain part 
+number; a one-time inspection of certain trailing arm cardans to detect 
+cracking, if necessary; and replacement of incorrect trailing arm 
+cardans with cardans having a certain part number. That action was 
+prompted by notification from the
+
+[[Page 63963]]
+
+Departmento de Aviacao Civil (DAC), which is the airworthiness 
+authority for Brazil, of an unsafe condition. The DAC advised that 
+during a sampling program, fatigue cracks were found on certain 
+trailing arm cardans of the MLGs. The proposed actions were intended to 
+ensure that correct trailing arm cardans of the MLGs were installed.
+
+Actions That Occurred Since the NPRM Was Issued
+
+    Since the issuance of that NPRM, the manufacturer has requested 
+that the NPRM be withdrawn. The manufacturer has provided data that 
+substantiate that all affected airplanes in the worldwide and domestic 
+fleets are in compliance with the proposed requirements of the NPRM, 
+and that all affected spare parts have been returned to the 
+manufacturer and destroyed.
+
+FAA's Conclusions
+
+    Upon further consideration, and based on comments received in 
+response to the proposed AD, we have determined that all affected 
+airplanes in the worldwide and domestic fleets have complied with the 
+requirements of the NPRM, and that all affected spare parts have been 
+returned to the manufacturer and destroyed. Accordingly, the proposed 
+rule is hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 2003-NM-04-
+AD, published in the Federal Register on March 17, 2003 (68 FR 12615), 
+is withdrawn.
+
+    Issued in Renton, Washington, on October 21, 2004.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 04-24539 Filed 11-2-04; 8:45 am]
+BILLING CODE 4910-13-P
+
+

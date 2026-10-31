@@ -1,0 +1,117 @@
+
+[Federal Register Volume 70, Number 104 (Wednesday, June 1, 2005)]
+[Proposed Rules]
+[Pages 31395-31396]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-10868]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2005-20501; Directorate Identifier 2004-NM-251-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Empresa Brasileira de Aeronautica S.A. 
+(EMBRAER) Model ERJ 170 Series Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+[[Page 31396]]
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for all EMBRAER Model ERJ 
+170 series airplanes. That action would have required inspecting the 
+engine fire handles of the overhead panel in the cockpit, and replacing 
+the engine fire handles if necessary. Since the NPRM was issued, we 
+have received new data that the identified unsafe condition has been 
+corrected on all airplanes that would have been subject to the NPRM. 
+Accordingly, the proposed AD is withdrawn.
+
+ADDRESSES: You can examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the U.S. 
+Department of Transportation, 400 Seventh Street, SW., room PL-401, 
+Washington, DC. This docket number is FAA-2005-20501; the directorate 
+identifier for this docket is 2004-NM-251-AD.
+
+FOR FURTHER INFORMATION CONTACT: Tom Groves, Aerospace Engineer, 
+International Branch, ANM-116, FAA, Transport Airplane Directorate, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+227-1503; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for all EMBRAER Model ERJ 170 series airplanes. That NPRM was 
+published in the Federal Register on March 8, 2005 (70 FR 11172). The 
+NPRM would have required inspecting the engine fire handles of the 
+overhead panel in the cockpit, and replacing the engine fire handles if 
+necessary. The NPRM was prompted by reports of failure of the internal 
+circuit of the engine fire handles of the overhead panel in the 
+cockpit. The proposed actions were intended to prevent failure of the 
+internal circuit of the engine fire handles, which could result in 
+failure of the fuel shut-off valves to close and failure of the fire 
+extinguishing agent to discharge in the event of an engine fire.
+
+Actions Since NPRM Was Issued
+
+    Since we issued the NPRM, the airplane manufacturer has provided us 
+with data that indicate that the identified unsafe condition (failure 
+of the internal circuit of the engine fire handles, which could result 
+in failure of the fuel shut-off valves to close and failure of the fire 
+extinguishing agent to discharge in the event of an engine fire) has 
+already been corrected on all airplanes that would have been subject to 
+the NPRM, and that all affected spare parts have been returned to the 
+manufacturer and destroyed.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the actions 
+that would have been required by the NPRM have already been done on all 
+affected airplanes, and the identified unsafe condition has been 
+corrected. Accordingly, the NPRM is withdrawn.
+    Withdrawal of the NPRM does not preclude the FAA from issuing 
+another related action or commit the FAA to any course of action in the 
+future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule and therefore is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2005-20501; 
+Directorate Identifier 2004-NM-251-AD, which was published in the 
+Federal Register on March 8, 2005 (70 FR 11172).
+
+    Issued in Renton, Washington, on May 23, 2005.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 05-10868 Filed 5-31-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

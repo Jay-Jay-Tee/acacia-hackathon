@@ -1,0 +1,296 @@
+
+[Federal Register Volume 70, Number 27 (Thursday, February 10, 2005)]
+[Proposed Rules]
+[Pages 7063-7065]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-2608]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2004-SW-16-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; MD Helicopters, Inc. Model 600N 
+Helicopters
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes superseding an existing airworthiness 
+directive (AD) for the MD Helicopters, Inc. (MDHI) Model 600N 
+helicopters. That AD currently requires certain inspections of both 
+upper tailboom attachments, nutplates, and angles for a crack or thread 
+damage, and repairing or replacing any cracked or damaged part. Also, 
+that AD requires replacing certain tailboom attachment bolts, adding a 
+washer to each bolt, and modifying both upper access covers. This 
+action would require installing six additional inspection holes in the 
+aft fuselage skin panels and inspecting the upper and lower tailboom 
+attachment fittings, the upper longerons, and the angles and nutplates 
+for cracks. Also, the AD would provide a terminating action of 
+modifying the fuselage aft section to strengthen the tailboom 
+attachments and longerons. This proposal is prompted by an analysis 
+that shows that certain tailboom attachments and longerons may develop 
+cracks. The actions specified by the proposed AD are intended to 
+prevent failure of a tailboom attachment, loss of the tailboom, and 
+subsequent loss of control of the helicopter.
+
+DATES: Comments must be received on or before April 11, 2005.
+
+ADDRESSES: Submit comments in triplicate to the Federal Aviation 
+Administration (FAA), Office of the Regional Counsel, Southwest Region, 
+Attention: Rules Docket No. 2004-SW-16-AD, 2601 Meacham Blvd., Room 
+663, Fort Worth, Texas 76137. You may also send comments electronically 
+to the Rules Docket at the following address: [email protected]. 
+Comments may be inspected at the Office of the Regional Counsel between 
+9 a.m. and 3 p.m., Monday through Friday, except Federal holidays.
+
+FOR FURTHER INFORMATION CONTACT: Fred Guerin, Aviation Safety 
+Engineers, FAA, Los Angeles Aircraft Certification Office, Airframe 
+Branch, 3960 Paramount Blvd., Lakewood, California 90712, telephone 
+(562) 627-5232, fax (562) 627-5210.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    Interested persons are invited to participate in the making of the 
+proposed rule by submitting such written data, views, or arguments as 
+they may desire. Communications should identify the Rules Docket number 
+and be submitted in triplicate to the address specified above. All 
+communications received on or before the closing date for comments will 
+be considered before taking action on the proposed rule. The proposals 
+contained in this document may be changed in light of the comments 
+received.
+    Comments are specifically invited on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed rule. All 
+comments submitted will be available, both before and after the closing 
+date for comments, in the Rules Docket for examination by interested 
+persons. A report summarizing each FAA-public contact concerned with 
+the substance of this proposal will be filed in the Rules Docket.
+    Commenters wishing the FAA to acknowledge receipt of their mailed 
+comments submitted in response to this proposal must submit a self-
+addressed, stamped postcard on which the following statement is made: 
+``Comments to Docket No. 2004-SW-16-AD.'' The postcard will be date 
+stamped and returned to the commenter.
+
+Discussion
+
+    On November 28, 2001, the FAA issued Emergency AD 2001-24-51 for 
+MDHI Model 600N helicopters and issued the final rule; request for 
+comments on April 2, 2002 (Amendment 39-12706 (67 FR 17934, April 12, 
+2002)). That AD requires implementing the procedures described in MD 
+Helicopters, Inc. Service Bulletin SB600N-03, dated November 2, 2001 
+(SB600N-03), for inspecting both upper tailboom attachments, nutplates, 
+and angles for a crack or thread damage and repairing or replacing 
+damaged parts. In addition, if one bolt is broken, the AD requires 
+replacing all four bolts. Also, adding a washer to each bolt and 
+modifying both upper access covers as well as a 25-hour time-in-service 
+(TIS) repetitive borescope inspection of the tailboom attachments, 
+nutplates, and angles is required. That action was prompted by the 
+discovery of cracked bolts and attachments on several helicopters. The 
+requirements of that AD are intended to prevent failure of a tailboom 
+attachment, loss of the tailboom, and subsequent loss of control of the 
+helicopter.
+    Since issuing that AD, the FAA has reviewed an analysis by the 
+manufacturer and has determined that the tailboom fittings, part number 
+(P/N) 500N3422-BSC (BSC is interchangeable with basic) and -3, and the 
+upper longerons, P/N 500N3120-3 and -4, will develop cracks due to the 
+same design error as the current AD. Also, the FAA has reviewed MDHI 
+Service Bulletin SB600N-039, dated December 9, 2003, which provides 
+information pertaining to adding six inspection holes in the fuselage 
+and certain inspections of the tailboom attachment fittings and upper 
+longerons for cracks. Also, MDHI has issued Technical Bulletin TB 600N-
+007, dated January 12, 2004, which provides information pertaining to 
+modifying the fuselage aft section to strengthen tailboom attachment 
+fittings and longerons.
+    This previously described unsafe condition is likely to exist or 
+develop on other helicopters of the same type design. Therefore, the 
+proposed AD would supersede AD 2001-24-51 to require the following:
+     Before further flight, drill an inspection hole at 
+fuselage station L167 and R167 (L indicates Left and R indicates Right) 
+on each side of the fuselage.
+     Within 25 hours time-in-service (TIS):
+     Drill two additional inspection holes on each side of the 
+fuselage at L166, R166, L153, and R153.
+     Visually inspect the lower attachment fittings and the 
+upper longerons through inspection holes at L166, R166, L153 and R153, 
+respectively.
+     Thereafter, at specified intervals, remove the plug 
+buttons from the inspection holes at L167, R167, L166,
+
+[[Page 7064]]
+
+and R166. Using a bright light, inspect the attachment fittings, 
+angles, and nutplates for a crack. Through inspection holes L153 and 
+R153, using a bright light and mirror or borescope, visually inspect 
+the bottom surface of each longeron for a crack.
+     Before further flight, replace any cracked attachment 
+fitting, angle, nutplate, longeron, and any nutplate with thread damage 
+with an appropriate airworthy part.
+    This action proposes to require that operators modify the aft 
+fuselage to strengthen the tailboom attachments and longeron within 4 
+years, which would constitute terminating action for the requirements 
+of the AD.
+    The FAA estimates that this proposed AD would affect 39 helicopters 
+of U.S. registry. The proposed actions would take about 322 work hours 
+to modify and inspect the fuselage aft section per helicopter at an 
+average labor rate of $65 per work hour. Required parts would cost 
+approximately $14,960 per helicopter. Based on these figures, we 
+estimate the total cost impact of the proposed AD on U.S. operators to 
+be $1,399,710.
+
+Regulatory Findings
+
+    The regulations proposed herein would not have a substantial direct 
+effect on the States, on the relationship between the national 
+Government and the States, or on the distribution of power and 
+responsibilities among the various levels of government. Therefore, it 
+is determined that this proposal would not have federalism implications 
+under Executive Order 13132.
+    For the reasons discussed above, I certify that this proposed 
+regulation (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under the DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979); 
+and (3) if promulgated, will not have a significant economic impact, 
+positive or negative, on a substantial number of small entities under 
+the criteria of the Regulatory Flexibility Act. A copy of the draft 
+economic evaluation prepared for this action is contained in the Rules 
+Docket. A copy of it may be obtained by contacting the Rules Docket at 
+the location provided under the caption ADDRESSES.
+
+Authority for this Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by removing Amendment 39-12706 (67 FR 
+17934) and by adding a new airworthiness directive (AD), to read as 
+follows:
+
+MD Helicopters, Inc.: Docket No. 2004-SW-16-AD. Supersedes AD 2001-
+24-51, Amendment 39-12706, Docket No. 2001-SW-57-AD.
+
+    Applicability: Model 600N, serial numbers with a prefix of 
+``RN'' 003 through 066 and 068, that have not been modified by 
+following the Accomplishment Instructions of MDHI Technical Bulletin 
+TB600N-007, dated January 12, 2004, certificated in any category.
+    Compliance: Required as indicated.
+    To prevent failure of a tailboom attachment, loss of the 
+tailboom, and subsequent loss of control of the helicopter, 
+accomplish the following:
+    (a) Before further flight, unless accomplished previously, drill 
+an inspection hole at fuselage station L167 and R167 (L indicates 
+Left and R indicates Right) on each side of the fuselage by 
+following the Accomplishment Instructions, paragraph 2.B.(6) of MD 
+Helicopters, Inc. (MDHI) Service Bulletin SB600N-036, dated November 
+2, 2001.
+    (b) Within 25 hours time-in-service (TIS), unless accomplished 
+previously:
+    (1) Drill two additional inspection holes (L166 and L153 on the 
+left side and R166 and R153 on the right side) on each side of the 
+fuselage as shown for the left side of the fuselage in Figure 1 of 
+MDHI SB600N-039, dated December 9, 2003 (SB-039), by following the 
+Accomplishment Instruction paragraphs of SB-039 as follows:
+    (i) Paragraphs 2.A.(1)(a), (b), and (d) for inspection holes at 
+L166 and R166;
+    (ii) Paragraphs 2.A.(2)(a), (b), and (d) for inspection holes at 
+L153 and R153; and
+    (2) Visually inspect for a crack by following the Accomplishment 
+Instruction paragraphs of SB-039 at the following locations, except 
+you are not required to contact MDHI.
+    (i) The lower left and right attachment fittings through 
+inspection holes at L166 and R166, paragraph 2.A.(1)(c).
+    (ii) The upper left and right longerons through inspection holes 
+at L153 and R153, paragraph 2.A.(2)(c).
+
+    Note: The reference in Figure 1 of SB-039 to inspection hole at 
+L167 mistakenly states that it was ``Added by SB900-036.'' 
+Inspection holes at L167 and R167 were originally specified by 
+SB600N-036.
+
+    (c) Thereafter, at the specified intervals, remove the plug 
+buttons from the inspection holes, and using a bright light, inspect 
+the upper left and upper right attachment fittings, angles, and 
+nutplates for a crack by following the Accomplishment Instruction 
+paragraphs of SB-039, as follows, except you are not required to 
+contact MDHI.
+    (1) At intervals not to exceed 25 hours TIS, for inspection 
+holes at L167 and R167, inspect the upper left and upper right 
+attachment fittings, angles, and nutplates by following paragraphs 
+2.B.(2) through 2.B.(4).
+    (2) At intervals not to exceed 100 hours TIS, for inspection 
+holes at L166 and R166, inspect the lower left and lower right 
+attachment fittings, angles, and nutplates by following paragraphs 
+2.B.(2) through 2.B.(4).
+    (3) At intervals not to exceed 1200 hours TIS, for inspection 
+holes L153 and R153 using a mirror or borescope, inspect the bottom 
+surface of each longeron by following paragraphs 2.C.(2) and 
+2.C.(3).
+    (d) Before further flight, replace any cracked attachment 
+fitting, angle, nutplate, longeron, and any nutplate with thread 
+damage with an appropriate airworthy part.
+    (e) On or before 4 years from the effective date of this AD, 
+modify the aft fuselage to strengthen the tailboom attachments and 
+the longerons by following the Accomplishment Instructions of MDHI 
+Technical Bulletin TB600N-007, dated January 12, 2004 (TB-007). 
+Modifying the aft fuselage by following TB-007 constitutes 
+terminating action for the requirements of this AD.
+    (f) To request a different method of compliance or a different 
+compliance time for this AD, follow the procedures in 14 CFR 39.19. 
+Contact the Los Angeles Aircraft Certification Office (LAACO), FAA, 
+for information about previously approved alternative methods of 
+compliance.
+
+
+[[Page 7065]]
+
+
+    Issued in Fort Worth, Texas, on February 2, 2005.
+David A. Downey,
+Manager, Rotorcraft Directorate, Aircraft Certification Service.
+[FR Doc. 05-2608 Filed 2-9-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

@@ -1,0 +1,454 @@
+
+[Federal Register Volume 69, Number 133 (Tuesday, July 13, 2004)]
+[Proposed Rules]
+[Pages 41997-42000]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 04-15791]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION (DOT)
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2004-18583; Directorate Identifier 2002-NM-285-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 747-100, -100B, -100B SUD, 
+-200B, -200C, -300, -400, and -400D Series Airplanes; and Model 747SR 
+Series Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) 
+for certain Boeing Model 747-100, -100B, -100B SUD, -200B, -200C, -300, 
+-400, and -400D series airplanes; and Model 747SR series airplanes. 
+This proposed AD would require repetitive inspections of the forward 
+corner reveals for the main entry door (MED) 3 for cracking, and 
+corrective actions if necessary. This proposed AD is prompted by 
+reports of cracking in the forward corner reveals for the MED 3. We are 
+proposing this AD to detect and correct misalignment of the girt bar 
+fitting due to fatigue failure of the forward corner reveals for MED 3, 
+which could lead to the door escape slide departing from the airplane 
+if the door is opened when the slide is deployed, and consequent 
+injuries to passengers and crew using the door escape slide during an 
+emergency evacuation.
+
+DATES: We must receive comments on this proposed AD by August 27, 2004.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility, U.S. Department of 
+Transportation, 400 Seventh Street SW., Nassif Building, room PL-401, 
+Washington, DC 20590.
+     By fax: (202) 493-2251.
+     Hand Delivery: room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street SW., Washington, DC, between 9 a.m. 
+and 5 p.m., Monday through Friday, except Federal holidays.
+    You can get the service information identified in this proposed AD 
+from Boeing Commercial Airplanes, P.O. Box 3707, Seattle, Washington 
+98124-2207.
+    You may examine the contents of this AD docket on the Internet at 
+http://dms.dot.gov, or at the Docket Management Facility, U.S. 
+Department of Transportation, 400 Seventh Street SW., room PL-401, on 
+the plaza level of the Nassif Building, Washington, DC.
+
+FOR FURTHER INFORMATION CONTACT: Nick Kusz, Aerospace Engineer, 
+Airframe Branch, ANM-120S, FAA, Seattle Aircraft Certification Office, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+917-6432; fax (425) 917-6590.
+
+SUPPLEMENTARY INFORMATION:
+
+Docket Management System (DMS)
+
+    The FAA has implemented new procedures for maintaining AD dockets 
+electronically. As of May 17, 2004, new AD actions are posted on DMS 
+and assigned a docket number. We track each action and assign a 
+corresponding directorate identifier. The DMS AD docket number is in 
+the form ``Docket No. FAA-2004-99999.'' The Transport Airplane 
+Directorate identifier is in the form ``Directorate Identifier 2004-NM-
+999-AD.'' Each DMS AD docket also lists the directorate identifier 
+(``Old Docket Number'') as a cross-reference for searching purposes.
+
+Comments Invited
+
+    We invite you to submit any written relevant data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed under ADDRESSES. Include ``Docket No. FAA-2004-18583; 
+Directorate Identifier 2002-NM-285-AD'' in the subject line of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments submitted by the closing date and may amend the 
+proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed AD. Using the search function of 
+that website, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You may review DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or you 
+may visit http://dms.dot.gov.
+    We are reviewing the writing style we currently use in regulatory 
+documents. We are interested in your comments on whether the style of 
+this document is clear, and your suggestions to improve the clarity of 
+our communications that affect you. You can get more information about 
+plain language at http://www.faa.gov/language and http://www.plainlanguage.gov.
+
+Examining the Docket
+
+    You may examine the AD docket in person at the Docket Management 
+Facility office between 9 a.m. and 5 p.m., Monday through Friday, 
+except Federal holidays. The Docket Management Facility office 
+(telephone (800) 647-5227) is located on the plaza level of the Nassif 
+Building at the DOT street address stated in the ADDRESSES section. 
+Comments will be available in the AD docket shortly after the DMS 
+receives them.
+
+Discussion
+
+    We have received reports from eight operators indicating that 
+cracking of the
+
+[[Page 41998]]
+
+lower forward corner reveals for main entry door (MED) 3 was found on 
+Model 747 series airplanes. Of the twelve forward corner reveals that 
+were cracked, eleven were made of cast 356 aluminum and one was made of 
+6061 aluminum. The cause of the cracking of the forward corner reveals 
+made of cast 356 aluminum is deflection of the airplane structure at 
+the MED 3 frame. The cause of the cracking of the forward corner reveal 
+made of 6061 aluminum was a manufacturing error during the 
+manufacturing process. This condition, if not detected and corrected, 
+could result in misalignment of the girt bar fitting due to fatigue 
+failure of the forward corner reveals for MED 3, which could lead to 
+the door escape slide departing from the airplane if the door is opened 
+when the slide is deployed, and consequent injuries to passengers and 
+crew using the door escape slide during an emergency evacuation.
+
+Explanation of Related AD
+
+    We have previously issued AD 96-23-05, amendment 39-9810 (61 FR 
+58318, November 14, 1996), which applies to certain Boeing Model 747 
+series airplanes. That AD requires repetitive inspections to detect 
+cracks and/or corrosion of the girt bar support fitting at certain main 
+entry doors, and repair or replacement of the support fitting. That AD 
+also provides for various terminating actions for the repetitive 
+inspections. Inspections, repair, and replacement required by that AD 
+are done in accordance with Boeing Service Bulletin 747-53A2378, 
+Revision 1, dated March 10, 1994. Accomplishment of the applicable 
+repair in this proposed AD would constitute compliance with the 
+requirements of paragraph (k)(2)(ii) of AD 96-23-05 for the repair of 
+the corner casting (reveal) only.
+
+Relevant Service Information
+
+    We have reviewed Boeing Special Attention Service Bulletin 747-53-
+2460, dated June 27, 2002, which describes procedures for performing 
+repetitive detailed inspections of the forward corner reveals for MED 3 
+for cracking, and follow-on and corrective actions, if necessary. Those 
+actions include the following:
+     Performing a material type inspection of the forward 
+corner reveal to determine if it is made of cast 356 aluminum or 6061 
+aluminum;
+     Replacing forward corner reveals with forward corner 
+reveals made of 6061 aluminum;
+     Repairing the forward corner reveals (including inspecting 
+for material type and inspecting for cracks); and
+     Contacting the manufacturer for repair of forward corner 
+reveals made of 6061 aluminum.
+    We have determined that accomplishment of the actions specified in 
+the service bulletin will adequately address the unsafe condition.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    We have evaluated all pertinent information and identified an 
+unsafe condition that is likely to exist or develop on other airplanes 
+of this same type design. Therefore, we are proposing this AD, which 
+would require repetitive inspections of the forward corner reveals for 
+the MED 3 for cracking, and corrective actions if necessary. The 
+proposed AD would require you to use the service information described 
+previously to perform these actions, except as discussed under 
+``Differences Between the Proposed AD and the Service Bulletin.''
+
+Differences Between the Proposed AD and the Service Bulletin
+
+    Operators should note that, although the service bulletin specifies 
+that, if the forward corner reveal is found to be made from 6061 
+aluminum or if a new 6061 aluminum corner reveal is installed, no 
+further action is necessary, this proposed AD would require repetitive 
+inspections if the forward corner reveal is made of 6061 aluminum. The 
+cracking that was found in a forward corner reveal made of 6061 
+aluminum, as discussed previously, was detected after the service 
+bulletin was issued. Therefore, we determined that all forward corner 
+reveals need to be repetitively inspected to adequately ensure 
+continued operational safety.
+    In addition, operators should note that, although the service 
+bulletin does not specify coordinating with the manufacturer if the 
+repair of a forward corner reveal consists of installing a new forward 
+corner reveal made of 6061 aluminum, operators must coordinate with the 
+manufacturer to ensure that the new forward corner reveal is free from 
+manufacturing defects before obtaining FAA approval for the repair.
+    Although Figure 1 of the service bulletin says to ``repeat 
+inspections every 3,000 flight-cycles'' and to ``perform the next 
+inspection prior to 3,000 flight-cycles,'' this proposed AD requires 
+repetitive inspections at intervals not to exceed 3,000 flight cycles 
+for forward corner reveals made of cast 356 aluminum and repetitive 
+inspections at intervals not to exceed 1,500 flight cycles for forward 
+corner reveals made of 6061 aluminum.
+    Operators should also note that, while Boeing Special Attention 
+Service Bulletin 747-53-2460, dated June 27, 2002, specifies the 
+effectivity to be ``all 747 airplanes line numbers 1 through 1037 
+except for 747-SP's, Freighters and airplanes converted to Special 
+Freighters,'' this proposed AD has an applicability of ``Model 747-100, 
+-100B, -100B SUD, -200B, -200C, -300, -400, and -400D series airplanes; 
+and Model 747SR series airplanes, line numbers 1 through 1,342 
+inclusive, except freighters and airplanes converted to Boeing special 
+freighters.'' The line numbers were changed to include airplanes with 
+forward corner reveals made of 6061 aluminum that may have a 
+manufacturing defect. It has been verified that airplanes with line 
+number 1343 and up have forward corner reveals installed that are made 
+from 6061 aluminum and do not have the manufacturing defect.
+    Also operators should note that Figure 1 of the service bulletin 
+specifies the initial inspection threshold to be ``At or prior to 7,000 
+flight-cycles, or within 2,000 flight-cycles of the issue date of this 
+service bulletin, or within 3,000 flight-cycles of the last inspection 
+of the door 3 corner reveal as given in Boeing Service Bulletin 747-
+53A2378, whichever is later.'' However, this proposed AD would require 
+the initial inspection within 1,500 flight cycles after the effective 
+date of the AD. We have determined that the threshold listed in Figure 
+1 of the service bulletin would not address the identified unsafe 
+condition soon enough to ensure an adequate level of safety for the 
+affected fleet. In developing an appropriate compliance time for this 
+AD, we considered new reports since the service bulletin was issued, 
+the manufacturer's recommendation and the degree of urgency associated 
+with the subject unsafe condition. In light of all of these factors, we 
+find that requiring the initial inspection within 1,500 flight cycles 
+represents an appropriate interval of time for affected airplanes to 
+continue to operate without compromising safety.
+    In addition, although the service bulletin specifies that the 
+manufacturer may be contacted for disposition of certain repair 
+conditions, this proposal would require the repair of those conditions 
+to be accomplished per a method approved by the FAA, or per data 
+meeting the type certification basis of the airplane approved by a 
+Boeing Company Designated Engineering Representative who has been 
+authorized by the FAA to make those findings.
+
+[[Page 41999]]
+
+    Furthermore, although step 5 of Figure 8 of the service bulletin 
+specifies that operators may accomplish the actions on forward corner 
+reveals made of cast 356 aluminum in accordance with ``an operator's 
+equivalent procedure,'' this proposed AD would require operators to 
+accomplish step 5 of Figure 8 only in accordance with the procedures 
+specified in Standard Overhaul Practices Manual (SOPM) 20-20-02. An 
+``operator's equivalent procedure'' may be used only if approved as an 
+alternative method of compliance in accordance with paragraph (m) of 
+this AD.
+    The differences described above have been coordinated with the 
+manufacturer.
+
+Costs of Compliance
+
+    This proposed AD would affect about 146 airplanes of U.S. registry 
+and 926 airplanes worldwide. The proposed detailed inspection for 
+cracking would take about 1 work hour per airplane, at an average labor 
+rate of $65 per work hour. Based on these figures, the estimated cost 
+of the proposed AD for U.S. operators is $9,490, or $65 per airplane, 
+per inspection cycle.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD. See the ADDRESSES section for a location 
+to examine the regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The FAA amends Sec.  39.13 by adding the following new 
+airworthiness directive (AD):
+
+Boeing: Docket No. FAA-2004-18583; Directorate Identifier 2002-NM-
+285-AD. Comments Due Date.
+
+    (a) The Federal Aviation Administration (FAA) must receive 
+comments on this AD action by August 27, 2004.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to Boeing Model 747-100, -100B, -100B SUD, -
+200B, -200C, -300, -400, and -400D series airplanes; and Model 747SR 
+series airplanes, line numbers 1 through 1,342 inclusive, except 
+freighters and airplanes converted to Boeing special freighters; 
+certificated in any category.
+
+Unsafe Condition
+
+    (d) This AD was prompted by reports of cracking in the forward 
+corner reveals for the main entry door (MED) 3. We are issuing this 
+AD to detect and correct misalignment of the girt bar fitting due to 
+fatigue failure of the forward corner reveals for MED 3, which could 
+lead to the door escape slide departing from the airplane if the 
+door is opened when the slide is deployed, and consequent injuries 
+to passengers and crew using the door escape slide during an 
+emergency evacuation.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Service Bulletin References
+
+    (f) The term ``service bulletin,'' as used in this AD, means the 
+Accomplishment Instructions of Boeing Special Attention Service 
+Bulletin 747-53-2460, dated June 27, 2002.
+
+Initial Inspections
+
+    (g) Within 1,500 flight cycles after the effective date of this 
+AD, perform a detailed inspection of the forward corner reveals for 
+MED 3 for cracking, in accordance with the service bulletin.
+
+    Note 1: For the purposes of this AD, a detailed inspection is 
+defined as: ``An intensive visual examination of a specific 
+structural area, system, installation, or assembly to detect damage, 
+failure, or irregularity. Available lighting is normally 
+supplemented with a direct source of good lighting at intensity 
+deemed appropriate by the inspector. Inspection aids such as mirror, 
+magnifying lenses, etc., may be used. Surface cleaning and elaborate 
+access procedures may be required.''
+
+No Cracking Found--Repetitive Inspections
+
+    (h) If no crack is found during the detailed inspection required 
+by paragraph (g) of this AD, before further flight, perform the 
+material type inspection of the forward corner reveal to determine 
+if it is made of cast 356 aluminum or 6061 aluminum, in accordance 
+with the service bulletin.
+    (1) If the forward corner reveal is made of cast 356 aluminum, 
+repeat the detailed inspection required by paragraph (g) of this AD 
+thereafter at intervals not to exceed 3,000 flight cycles.
+    (2) If the forward corner reveal is made of 6061 aluminum, 
+repeat the detailed inspection required by paragraph (g) of this AD 
+thereafter at intervals not to exceed 1,500 flight cycles.
+
+Cracking Found--Repair/Contact the FAA
+
+    (i) If any crack is found during the detailed inspection 
+required by paragraph (g) of this AD, before further flight, perform 
+the material type inspection of the forward corner reveal to 
+determine if it is made of cast 356 aluminum or 6061 aluminum, in 
+accordance with the service bulletin.
+    (1) If the forward corner reveal is made of cast 356 aluminum, 
+before further flight, repair the forward corner reveal in 
+accordance with the service bulletin or repair per a method approved 
+by the Manager, Seattle Aircraft Certification Office (ACO), FAA; or 
+per data meeting the type certification basis of the airplane 
+approved by a Boeing Company Designated Engineering Representative 
+who has been authorized by the Manager, Seattle ACO, to make those 
+findings. For a repair method to be approved, the approval must 
+specifically refer to this AD. Repeat the detailed inspection 
+required by paragraph (g) of this AD thereafter at intervals not to 
+exceed 3,000 flight cycles.
+    (2) If the forward corner reveal is made of 6061 aluminum, 
+before further flight, repair per a method approved by the Manager, 
+Seattle Aircraft Certification Office (ACO), FAA; or per data 
+meeting the type certification basis of the airplane approved by a 
+Boeing Company Designated Engineering Representative who has been 
+authorized by the Manager, Seattle ACO, to make those findings. For 
+a repair method to be approved, the approval must specifically refer 
+to this AD.
+
+Operator's Equivalent Procedure
+
+    (j) Although step 5 of Figure 8 of the service bulletin 
+specifies that operators may accomplish the actions in accordance 
+with ``an operator's equivalent procedure,'' this AD requires 
+operators to accomplish step 5 of Figure 8 in accordance with only 
+the procedures specified in Standard Overhaul Practices Manual 
+(SOPM) 20-20-02. An ``operator's equivalent procedure'' may be used 
+only if approved as an alternative method of compliance in 
+accordance with paragraph (m) of this AD.
+
+[[Page 42000]]
+
+Parts Installation
+
+    (k) As of the effective date of this AD, no person may install a 
+door corner reveal made of cast 356 aluminum on any airplane in the 
+location specified by this AD, except as provided by paragraph 
+(i)(1) of this AD.
+
+Compliance With AD 96-23-05 for MED 3 Only
+
+    (l) Accomplishment of the applicable repair required by this AD 
+constitutes compliance with the repair of the MED 3, lower forward 
+corner casting (reveal) only, as required by paragraph (k)(2)(ii) of 
+AD 96-23-05, amendment 39-9810 (which specifies the actions be done 
+in accordance with Boeing Service Bulletin 747-53A2378, Revision 1, 
+dated March 10, 1994). Accomplishment of the actions of this AD does 
+not terminate the remaining requirements of AD 96-23-05.
+
+Alternative Methods of Compliance
+
+    (m) The Manager, Seattle Aircraft Certification Office, FAA, has 
+the authority to approve AMOCs for this AD, if requested in 
+accordance with the procedures found in 14 CFR 39.19.
+
+    Issued in Renton, Washington, on June 30, 2004.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 04-15791 Filed 7-12-04; 8:45 am]
+BILLING CODE 4910-13-P
+
+

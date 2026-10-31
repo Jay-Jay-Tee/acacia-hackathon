@@ -1,0 +1,157 @@
+
+[Federal Register Volume 66, Number 149 (Thursday, August 2, 2001)]
+[Proposed Rules]
+[Pages 40161-40162]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 01-19262]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 99-NM-132-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 767 Series Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to certain 
+Boeing Model 767 series airplanes. That action would have required 
+repetitive inspections of the side load underwing fitting bushings for 
+broken sealant or bushing migration, and corrective action, if 
+necessary. That action also would have provided for optional 
+terminating action in lieu of repetitive inspections. Since the 
+issuance of the NPRM, the Federal Aviation Administration (FAA) has 
+received new data and has issued alternative rulemaking action. 
+Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: John D. Craycraft, Aerospace Engineer, 
+Airframe Branch, ANM-120S, FAA, Seattle Aircraft Certification Office, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+227-2782; fax (425) 227-1181.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to certain Boeing Model 767 series 
+airplanes, was published in the Federal Register as a Notice of 
+Proposed Rulemaking (NPRM) on November 24, 1999 (64 FR 66119). The 
+proposed rule would have required repetitive inspections of the side 
+load underwing fitting bushings for broken sealant or bushing 
+migration, and corrective action, if necessary. The proposed rule also 
+would have provided for optional terminating action in lieu of 
+repetitive inspections. The proposed rule was prompted by reports of 
+migrated bushings and corrosion on the side load fittings. The proposed 
+actions were intended to prevent corrosion in the side load underwing 
+fitting, which could result in cracking and consequent reduced 
+structural integrity of the wing strut.
+
+Actions Since Issuance of the NPRM
+
+    Since the issuance of that NPRM on November 18, 1999, the FAA has 
+issued alternative rulemaking action, which, in addition to comments we 
+have received in response to the NPRM, has caused us to reconsider our 
+previous position on this rulemaking action.
+    We have considered the comments and recommendations we received. 
+Although one commenter supports the NPRM as proposed, eight other 
+commenters object to it for various reasons. Some of those reasons 
+follow:
+     Bushing migration does not present an immediate safety 
+concern, and no significant corrosion has been found in the side load 
+underwing fitting. For these reasons, the commenters believe that the 
+inspections specified in the NPRM are unnecessary.
+     The cost estimates in the NPRM are too low because of the 
+extensive work required, special tooling, and the resultant impact on 
+scheduled service. Operators recommend increasing the cost estimates to 
+include additional costs for labor, access and closeup, and special 
+tooling and equipment.
+     The compliance times for the inspections, as specified in 
+the NPRM, would put affected airplanes out of service for an extended 
+period. One commenter states that the manufacturer would not be able to 
+provide an adequate number of kits within the specified compliance 
+time. Operators recommend that the compliance times coincide with other 
+existing maintenance programs such as the Strut Improvement Program 
+(SIP) and the Corrosion Prevention and Control Program (CPCP).
+     Removing and reinstalling the wing struts is not a routine 
+task performed at regular maintenance intervals. In addition, the 
+frequency of strut removal specified in the NPRM would severely impact 
+airline schedules. The manufacturer recommends removing the strut only 
+during a CPCP inspection,
+
+[[Page 40162]]
+
+which is accomplished at or before 18 years in service. Limiting strut 
+removal will reduce the element of human error, structural damage to 
+the lug areas, and improper sealing of the bushings.
+     The repetitive inspections specified by paragraph (b) of 
+the NPRM should be allowed to continue until incorporation of the SIP.
+
+FAA's Determination
+
+    Since the issuance of the NPRM, the FAA has issued three ADs to 
+require accomplishment of the 767 SIP. Although the NPRM requires 
+repetitive inspections and corrective action if a broken sealant or 
+bushing migration is detected, the new ADs require modification of the 
+nacelle strut and wing structure on both the left and right sides of 
+the airplane. The FAA adds that the discrepancy (broken sealant or 
+bushing migration) specified in the NPRM also is addressed by the 
+actions included in the 767 SIP. In addition, since issuance of Boeing 
+Service Bulletin 767-57-0063, dated May 7, 1998, Boeing has provided to 
+the FAA additional data indicating that the recommended compliance 
+times listed in that service bulletin were overly conservative. For 
+these reasons, the FAA has determined that issuance of the NPRM is no 
+longer necessary since the intent of that AD will be accomplished by 
+the following previously issued ADs:
+     AD 2001-02-07, amendment 39-12091 (66 FR 8085, January 29, 
+2001).
+     AD 2001-06-12, amendment 39-12159 (65 FR 17492, April 2, 
+2001).
+     AD 2000-19-09, amendment 39-11910 (65 FR 58641, October 2, 
+2000).
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that, in light 
+of the above information, the identified unsafe condition has been 
+addressed. Accordingly, the NPRM is hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 99-NM-132-
+AD, published in the Federal Register on November 24, 1999 (64 FR 
+66119), is withdrawn.
+
+    Issued in Renton, Washington, on July 26, 2001.
+Donald L. Riggin,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 01-19262 Filed 8-1-01; 8:45 am]
+BILLING CODE 4910-13-U
+
+

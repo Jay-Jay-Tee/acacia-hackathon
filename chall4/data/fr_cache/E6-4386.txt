@@ -1,0 +1,332 @@
+
+[Federal Register Volume 71, Number 58 (Monday, March 27, 2006)]
+[Proposed Rules]
+[Pages 15061-15063]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E6-4386]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2006-24018; Directorate Identifier 2006-CE-15-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Pacific Aerospace Corporation Ltd. 
+Model 750XL Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: We propose to adopt a new airworthiness directive (AD) for 
+certain Pacific Aerospace Corporation Ltd. Model 750XL airplanes. This 
+proposed AD would require you to inspect the condition of the 
+insulation of the wiring adjacent to the electrical plugs mounted in 
+the left-hand (LH) and right-hand (RH) sides of the forward end of the 
+cockpit center console for signs of abrasion and arcing. If you find 
+evidence of abrasion or arcing, this proposed AD would require you to 
+replace the affected wire(s) and secure the wires away from the back 
+shells of the electrical plugs. This proposed AD results from mandatory 
+continuing airworthiness information (MCAI) issued by the airworthiness 
+authority for New Zealand. We are proposing this AD to detect and 
+correct damaged wires on the LH and RH sides of the forward end of the 
+cockpit center console, which could result in short-circuiting of the 
+related wiring. This could lead to electrical failure of affected 
+systems and potential fire in the cockpit.
+
+DATES: We must receive comments on this proposed AD by April 24, 2006.
+
+ADDRESSES: Use one of the following addresses to comment on this 
+proposed AD:
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility; U.S. Department of 
+Transportation, 400 Seventh Street, SW., Nassif Building, Room PL-401, 
+Washington, DC 20590-0001.
+     Fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street, SW., Washington, DC, between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    For service information identified in this proposed AD, contact 
+Pacific Aerospace Corporation Ltd., Hamilton Airport, Private Bag HN 
+3027, Hamilton, New Zealand; telephone: 011 (64) 7-843-6144; fax: 011 
+(64) 7-843-6134.
+
+FOR FURTHER INFORMATION CONTACT: Karl Schletzbaum, Aerospace Engineer, 
+FAA, Small Airplane Directorate, 901 Locust, Room 301, Kansas City, 
+Missouri 64106; telephone: (816) 329-4146; facsimile: (816) 329-4090.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to send any written relevant data, views, or 
+arguments regarding this proposed airworthiness directive (AD). Send 
+your comments to an address listed under the ADDRESSES section. Include 
+the docket number, ``FAA-2006-24018; Directorate Identifier 2006-CE-15-
+AD'' at the beginning of your comments. We specifically invite comments 
+on the overall regulatory, economic, environmental, and energy aspects 
+of the proposed AD. We will consider all comments received by the 
+closing date and may amend the proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact we 
+receive concerning this proposed AD.
+
+Discussion
+
+    The Civil Aviation Authority (CAA), which is the airworthiness 
+authority for New Zealand, notified the Federal Aviation Administration 
+(FAA) that an unsafe condition may exist on certain Pacific Aerospace 
+Corporation Ltd. (Pacific Aerospace) Model 750XL airplanes. The CAA 
+reports an incident in which short-circuiting of the wiring in the 
+cockpit center console occurred.
+    Abrasion of the wiring insulation caused by the fasteners of the 
+electrical plug back-shells located in the cockpit center console 
+resulted in the short-circuit.
+    This condition, if not corrected, could result in short-circuiting 
+of the related wiring in the forward end of the cockpit center console. 
+This could lead to electrical failure of affected systems and potential 
+fire in the cockpit.
+
+Relevant Service Information
+
+    We have reviewed Pacific Aerospace Corporation Mandatory Service 
+Bulletin No. PACSB/XL/016, Issue 1, Date Issued: September 23, 2005.
+    The service information describes procedures for:
+     Inspecting the condition of the insulation of the wiring 
+adjacent to the electrical plugs mounted in the left-hand (LH) and (RH) 
+right-hand sides of the forward end of the cockpit center console for 
+signs of abrasion and arcing;
+     Replacing the affected wire(s) if any evidence of abrasion 
+or arcing is found; and
+     Securing the wires away from the back shells of the 
+electrical plugs.
+
+Foreign Airworthiness Authority Information
+
+    The CAA classified this service bulletin as mandatory and issued 
+New Zealand AD Number DCA/750XL/6, Effective Date: December 1, 2005, to 
+ensure the continued airworthiness of these airplanes in New Zealand.
+    These Pacific Aerospace Model 750XL airplanes are manufactured in 
+New Zealand and are type-certificated for operation in the United 
+States under the provisions of section 21.29 of the Federal Aviation 
+Regulations (14 CFR 21.29) and the applicable bilateral airworthiness 
+agreement.
+    Under this bilateral airworthiness agreement, the CAA has kept us 
+informed of the situation described above.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    We are proposing this AD because we have examined the CAA's 
+findings, evaluated all information and determined the unsafe condition 
+described previously is likely to exist or develop on other products of 
+the same type design that are certificated for operation in the United 
+States.
+    This proposed AD would require you to inspect the condition of the 
+insulation of the wiring adjacent to the electrical plugs mounted in 
+the LH and RH sides of the forward end of the cockpit center console 
+for signs of abrasion and arcing. If any evidence of abrasion or arcing 
+is found, this proposed AD would require you to replace the affected 
+wire(s) and secure the wires away from the back shells of the 
+electrical plugs.
+
+[[Page 15062]]
+
+Costs of Compliance
+
+    We estimate that this proposed AD would affect 5 airplanes in the 
+U.S. registry.
+    We estimate the following costs to do the proposed inspection:
+
+----------------------------------------------------------------------------------------------------------------
+                                                                Total cost  per
+             Labor cost                      Parts cost            airplane       Total cost on  U.S. operators
+----------------------------------------------------------------------------------------------------------------
+4 work hours x $80 per hour = $320..  Not applicable.........             $320   $320 x 5 = $1,600
+----------------------------------------------------------------------------------------------------------------
+
+    We estimate the following costs to do any necessary replacements 
+that would be required based on the results of the proposed inspection. 
+We have no way of determining the number of airplanes that may need 
+this replacement:
+
+------------------------------------------------------------------------
+                                                             Total cost
+                 Labor cost                    Parts cost   per airplane
+------------------------------------------------------------------------
+28 work hours x $80 per hour = $2,240.......         $200        $2,440
+------------------------------------------------------------------------
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+subtitle VII, part A, subpart III, section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD and placed it in the AD docket.
+
+Examining the AD Docket
+
+    You may examine the AD docket that contains the proposed AD, the 
+regulatory evaluation, any comments received, and other information on 
+the Internet at http://dms.dot.gov; or in person at the Docket 
+Management Facility between 9 a.m. and 5 p.m., Monday through Friday, 
+except Federal holidays. The Docket Office (telephone (800) 647-5227) 
+is located at the street address stated in the ADDRESSES section. 
+Comments will be available in the AD docket shortly after receipt.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The FAA amends Sec.  39.13 by adding the following new AD:
+
+Pacific Aerospace Corporation Ltd.: Docket No. FAA-2006-24018; 
+Directorate Identifier 2006-CE-15-AD.
+
+Comments Due Date
+
+    (a) We must receive comments on this airworthiness directive 
+(AD) action by April 24, 2006.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD affects Model 750XL airplanes, serial numbers 110 
+through 120, that are certificated in any category.
+
+Unsafe Condition
+
+    (d) This AD results from mandatory continuing airworthiness 
+information (MCAI) issued by the airworthiness authority for New 
+Zealand. We are issuing this AD to detect and correct damaged wires 
+on the left-hand (LH) and right-hand (RH) sides of the forward end 
+of the cockpit center console, which could result in short-
+circuiting of the related wiring. This condition could lead to 
+electrical failure of affected systems and potential fire in the 
+cockpit.
+
+Compliance
+
+    (e) To address this problem, you must do the following, unless 
+already done:
+
+------------------------------------------------------------------------
+           Actions                 Compliance            Procedures
+------------------------------------------------------------------------
+(1) Inspect the condition of  Within the next 50    Follow Pacific
+ the insulation of the         hours time-in-        Aerospace
+ wiring adjacent to the        service (TIS) after   Corporation
+ electrical plugs mounted in   the effective date    Mandatory Service
+ the LH and RH sides of the    of this AD.           Bulletin No. PACSB
+ forward end of the cockpit                           XL / 016, Issue 1,
+ center console for signs of                         Date Issued:
+ abrasion and arcing.                                September 23, 2005.
+
+[[Page 15063]]
+
+ 
+(2) If you find any evidence  Before further        Follow Pacific
+ of abrasion or arcing,        flight after the      Aerospace
+ replace the affected          inspection required   Corporation
+ wire(s) and secure the        in paragraph (e)(1)   Mandatory Service
+ wires away from the back      of this AD.           Bulletin No. PACSB
+ shells of the electrical                             XL / 016, Issue 1,
+ plugs.                                              Date Issued:
+                                                     September 23, 2005.
+(3) If you do not find any    Before further        Follow Pacific
+ evidence of abrasion or       flight after the      Aerospace
+ arcing, secure the wires      inspection required   Corporation
+ away from the back shells     in paragraph (e)(1)   Mandatory Service
+ of the electrical plugs.      of this AD.           Bulletin No. PACSB
+                                                      XL / 016, Issue 1,
+                                                     Date Issued:
+                                                     September 23, 2005.
+------------------------------------------------------------------------
+
+Alternative Methods of Compliance (AMOCs)
+
+    (f) The Manager, Standards Office, Small Airplane Directorate, 
+Federal Aviation Administration (FAA), ATTN: Karl Schletzbaum, 
+Aerospace Engineer, FAA, Small Airplane Directorate, 901 Locust, 
+Room 301, Kansas City, Missouri 64106; telephone: (816) 329-4146; 
+fax: (816) 329-4090, has the authority to approve AMOCs for this AD, 
+if requested using the procedures found in 14 CFR 39.19.
+
+Related Information
+
+    (g) New Zealand AD No. DCA/750XL/6, Effective Date: December 1, 
+2005, also addresses the subject of this AD. To get copies of the 
+documents referenced in this AD, contact Pacific Aerospace 
+Corporation Ltd., Hamilton Airport, Private Bag HN 3027, Hamilton, 
+New Zealand; telephone: 011 (64) 7-843-6144; facsimile: 011 (64) 7-
+843-6134. To view the AD docket, go to the Docket Management 
+Facility; U.S. Department of Transportation, 400 Seventh Street, 
+SW., Nassif Building, Room PL-401, Washington, DC, or on the 
+Internet at http://dms.dot.gov. The docket number is Docket No. FAA-
+2006-24018; Directorate Identifier 2006-CE-15-AD.
+
+    Issued in Kansas City, Missouri, on March 20, 2006.
+Kim Smith,
+Small Airplane Directorate, Aircraft Certification Service.
+ [FR Doc. E6-4386 Filed 3-24-06; 8:45 am]
+BILLING CODE 4910-13-P
+
+

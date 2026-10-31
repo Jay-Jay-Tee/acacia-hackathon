@@ -1,0 +1,431 @@
+
+[Federal Register Volume 69, Number 151 (Friday, August 6, 2004)]
+[Proposed Rules]
+[Pages 47808-47811]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 04-17988]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2004-18788; Directorate Identifier 2003-NM-203-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 737-100, -200, -200C, -
+300, -400, and -500 Series Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) 
+for certain Boeing Model 737-100, -200, -200C, -300, -400, and -500 
+series airplanes. This proposed AD would require repetitive inspections 
+of the intercostal webs, attachment clips, and stringer splice channels 
+for cracks; and corrective action if necessary. This proposed AD is 
+prompted by reports of fatigue cracks on several Boeing Model 737-200 
+series airplanes. We are proposing this AD to detect and correct 
+fatigue cracking of the intercostals on the forward and aft sides of 
+the forward entry door, which could result in loss of the forward entry 
+door and rapid decompression of the airplane.
+
+DATES: We must receive comments on this proposed AD by September 20, 
+2004.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility, U.S. Department of 
+Transportation, 400 Seventh Street SW., Nassif Building, room PL-401, 
+Washington, DC 20590.
+     By fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street SW., Washington, DC, between 9 a.m. 
+and 5 p.m., Monday through Friday, except Federal holidays.
+    For service information identified in this proposed AD, contact 
+Boeing Commercial Airplanes, P.O. Box 3707, Seattle, Washington 98124-
+2207.
+    You can examine the contents of this AD docket on the Internet at 
+http://dms.dot.gov, or at the Docket Management Facility, U.S. 
+Department
+
+[[Page 47809]]
+
+of Transportation, 400 Seventh Street SW., room PL-401, on the plaza 
+level of the Nassif Building, Washington, DC.
+
+FOR FURTHER INFORMATION CONTACT: Technical Information: Howard Hall, 
+Aerospace Engineer, Airframe Branch, ANM-120S, FAA, Seattle Aircraft 
+Certification Office, 1601 Lind Avenue, SW., Renton, Washington 98055-
+4056; telephone (425) 917-6430; fax (425) 917-6590.
+    Plain Language Information: Marcia Walters, [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Docket Management System (DMS)
+
+    The FAA has implemented new procedures for maintaining AD dockets 
+electronically. As of May 17, 2004, new AD actions are posted on DMS 
+and assigned a docket number. We track each action and assign a 
+corresponding directorate identifier. The DMS AD docket number is in 
+the form ``Docket No. FAA-2004-99999.'' The Transport Airplane 
+Directorate identifier is in the form ``Directorate Identifier 2004-NM-
+999-AD.'' Each DMS AD docket also lists the directorate identifier 
+(``Old Docket Number'') as a cross-reference for searching purposes.
+
+Comments Invited
+
+    We invite you to submit any relevant written data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed under ADDRESSES. Include ``Docket No. FAA-2004-18788; 
+Directorate Identifier 2003-NM-203-AD'' in the subject line of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments submitted by the closing date and may amend the 
+proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed AD. Using the search function of 
+that Web site, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You can review DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or you 
+may visit http://dms.dot.gov.
+    We are reviewing the writing style we currently use in regulatory 
+documents. We are interested in your comments on whether the style of 
+this document is clear, and your suggestions to improve the clarity of 
+our communications that affect you. You can get more information about 
+plain language at http://www.faa.gov/language and http://www.plainlanguage.gov.
+
+Examining the Docket
+
+    You can examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the DOT 
+street address stated in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after the DMS receives them.
+
+Discussion
+
+    We have received a report indicating that eleven operators have 
+found fatigue cracks in the intercostal web at body station (BS) 358.5 
+and stringer (S) S-16L on several Boeing Model 737-200 series 
+airplanes. The cracks extended from the inboard edge of the intercostal 
+through tooling or fastener holes and terminated at the two-inch 
+diameter lightening hole. Three operators have also reported four 
+airplanes with cracks in the intercostals at S-11L, S-12L, and S-13L on 
+the forward and aft sides of the forward entry door. All additional 
+cracks are in the radius of return flanges of the webs and attachment 
+clips. One operator has reported one airplane with cracks in the 
+stringer splice channels at S-14L and S-15L on the aft side of the 
+forward entry door. The cracks were in the intercostal web attachment 
+flange at the aft end of the intercostal. Such fatigue cracking, if not 
+detected and corrected in a timely manner, could result in loss of the 
+forward entry door and rapid decompression of the airplane.
+    The intercostal webs, attachment clips, and stringer splice 
+channels on certain Boeing Model 737-100, -200C, -300, -400, and -500 
+series airplanes are identical to those on the affected Boeing Model 
+737-200 series airplanes. Therefore, all of these models may be subject 
+to the same unsafe condition.
+
+Relevant Service Information
+
+    We have reviewed Boeing Special Attention Service Bulletin 737-53-
+1204, dated June 19, 2003. The service bulletin describes procedures 
+for detailed and high frequency eddy current inspections (as 
+applicable) of the intercostal webs, attachment clips, and stringer 
+splice channels for cracks; and corrective actions if necessary. The 
+corrective actions include repairing cracks and contacting Boeing for 
+certain repair instructions.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    We have evaluated all pertinent information and identified an 
+unsafe condition that is likely to exist or develop on other airplanes 
+of this same type design. Therefore, we are proposing this AD, which 
+would require repetitive inspections of the intercostal webs, 
+attachment clips, and stringer splice channels for cracks; and 
+corrective action if necessary. The proposed AD would require you to 
+use the service information described previously to perform these 
+actions, except as discussed under ``Differences Between the Proposed 
+AD and the Service Bulletin.''
+
+Differences Between the Proposed AD and the Service Bulletin
+
+    Although the service bulletin specifies that operators may contact 
+the manufacturer for disposition of certain repair conditions, this 
+proposed AD would require operators to repair those conditions per a 
+method approved by the FAA, or per data meeting the type certification 
+basis of the airplane approved by a Boeing Company Designated 
+Engineering Representative who has been authorized by the FAA to make 
+such findings.
+    The service bulletin specifies to repair any crack found at the S-
+16L intercostal (BS 348.2-360) on Boeing Model 737-400 series airplanes 
+per 737-400 Structural Repair Manual (SRM) 53-10-04, Figure 202. Figure 
+202 does not exist; the correct figure is 737-400 SRM 53-10-04, Figure 
+201. Note 2 of this proposed AD points out this error in the service 
+bulletin.
+    Paragraphs 3. and 4. of the ``Part 1 for Group 1 passenger 
+airplanes'' section of the Work Instructions of the service bulletin do 
+not give instructions for repairing cracks found in the attachment clip 
+or stringer splice channel during the inspections. Other paragraphs of 
+the service bulletin give instructions for similar attachment clips and 
+stringer splice channels. This proposed AD would require operators to 
+contact the FAA or an FAA-authorized Boeing Delegated Engineer 
+Representative (DER) for repair instructions and do the repair before 
+further flight if any crack is found in the attachment clip or stringer 
+splice channel during the inspections specified in ``Part 1 for Group 1 
+passenger airplanes.'' If no crack is found in the attachment clip or
+
+[[Page 47810]]
+
+stringer splice channel during the inspections, this proposed AD would 
+require the repetitive inspections.
+    The differences discussed above have been coordinated with Boeing.
+
+Costs of Compliance
+
+    This proposed AD would affect about 3,113 airplanes worldwide and 
+876 airplanes of U.S. registry. The proposed actions would take about 2 
+work hours per airplane, at an average labor rate of $65 per work hour. 
+Based on these figures, the estimated cost of the proposed AD for U.S. 
+operators is $113,880, or $130 per airplane, per inspection cycle.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD. See the ADDRESSES section for a location 
+to examine the regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The FAA amends Sec.  39.13 by adding the following new 
+airworthiness directive (AD):
+
+Boeing: Docket No. FAA-2004-18788; Directorate Identifier 2003-NM-
+203-AD.
+
+Comments Due Date
+
+    (a) The Federal Aviation Administration (FAA) must receive 
+comments on this AD action by September 20, 2004.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to Model 737-100, -200, -200C, -300, -400, 
+and -500 series airplanes, as listed in Boeing Special Attention 
+Service Bulletin 737-53-1204, dated June 19, 2003; certificated in 
+any category.
+
+Unsafe Condition
+
+    (d) This AD was prompted by reports of fatigue cracks on several 
+Boeing Model 737-200 series airplanes. We are issuing this AD to 
+detect and correct fatigue cracking of the intercostals on the 
+forward and aft sides of the forward entry door, which could result 
+in loss of the forward entry door and rapid decompression of the 
+airplane
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Service Bulletin Definition
+
+    (f) The term ``service bulletin,'' as used in this AD, means 
+Boeing Special Attention Service Bulletin 737-53-1204, dated June 
+19, 2003.
+
+Initial Compliance Time
+
+    (g) Before the accumulation of 15,000 total flight cycles, or 
+within 4,500 flight cycles after the effective date of this AD, 
+whichever occurs later: Do the inspections specified in paragraph 
+(h) or (i) of this AD, as applicable.
+
+Inspection for Passenger Configuration Airplanes
+
+    (h) For Group 1 passenger airplanes identified in the service 
+bulletin: Perform a detailed inspection of the intercostal web, 
+attachment clips, and stringer splice channels for cracks; and a 
+high frequency eddy current inspection of the stringer splice 
+channels, located forward and aft of the forward entry door, for 
+cracks; per Parts 1 and 2 of the Work Instructions of the service 
+bulletin.
+
+Inspection for Cargo Configuration Airplanes
+
+    (i) For Group 2 cargo airplanes identified in the service 
+bulletin: Perform a detailed inspection of the intercostal webs and 
+attachment clips located forward of the forward entry door for 
+cracks, per Part 3 of the Work Instructions of the service bulletin.
+
+Repetitive Inspections
+
+    (j) If no crack is found during any inspection required by 
+paragraph (h) or (i) of this AD, repeat the inspections at the 
+applicable time specified in Table 1 of this AD, except as provided 
+by paragraph (k) of this AD.
+
+                                    Table 1.--Repetitive Inspection Interval
+----------------------------------------------------------------------------------------------------------------
+   Airplane group number in Service                                      Repeat inspections at intervals not to
+               Bulletin                   For intercostal location--                    exceed--
+----------------------------------------------------------------------------------------------------------------
+Group 1...............................  S-16L, from BS 348.2 to BS 360  4,500 flight cycles.
+                                         (aft of door).
+---------------------------------------
+Group 1...............................  S-7L through S-15L, from BS     25,000 flight cycles.
+                                         348.2 to BS 360 (aft of door).
+---------------------------------------
+Group 1 and 2.........................  S-7L through S-16L, from BS     25,000 flight cycles.
+                                         294.5 to BS 303.9 (forward of
+                                         door).
+----------------------------------------------------------------------------------------------------------------
+
+Deferral of Certain Repetitive Inspections
+
+    (k) For intercostal webs at S-16L from BS 348.2 to BS 360: 
+Installation of the repair as a preventative modification or 
+corrective action per Part 1 of the Work Instructions of the service 
+bulletin defers the repetitive inspections to intervals not to 
+exceed 25,000 flight cycles. Use 737-400 SRM 53-10-04, Figure 201 
+instead of Figure 202, as applicable.
+
+Corrective Actions
+
+    (l) If any crack is found during any inspection required by 
+paragraph (h) or (i) of this AD, perform the actions specified in 
+paragraphs (l)(1) through (l)(3) of Table 2 of this AD, as 
+applicable. Repeat the inspections at the applicable time specified 
+in Table 1 of this AD, except as provided by paragraph (k) of this 
+AD.
+
+[[Page 47811]]
+
+
+
+                                          Table 2.--Corrective Actions
+----------------------------------------------------------------------------------------------------------------
+During any inspection specified in--  If any crack is found      At intercostal
+                                              in--                 location--          Before further flight--
+----------------------------------------------------------------------------------------------------------------
+(1) Part 1 of the Work Instructions  (i) The intercostal     Stringer (S)-16L, from  Repair per Part 1 of the
+ of the service bulletin.             web.                    body station (BS)       the Work Instructions of
+                                                              348.2 to BS 360 (aft    the service bulletin,
+                                                              of door).               except where the service
+                                                                                      bulletin specifies to
+                                                                                      contact Boeing for repair
+                                                                                      instructions, before
+                                                                                      further flight, do the
+                                                                                      repair specified in
+                                                                                      paragraph (m) of this AD.
+                                                                                      Use 737-400 Structural
+                                                                                      Repair Manual (SRM) 53-10-
+                                                                                      04, Figure 201 instead of
+                                                                                      Figure 202, as applicable
+                                                                                      (see note 2).
+                                    -------------------------
+                                     (ii) An attachment      S-16L, from BS 348.2    Do the repair specified in
+                                      clip or stringer        to BS 360 (aft of       paragraph (m) of this AD.
+                                      splice channel.         door).
+------------------------------------
+(2) Part 2 of the Work Instructions  An intercostal web,     S-7L through S-16L,     Do the repair specified in
+ of the service bulletin.             attachment clip, or     from BS 294.5 to BS     paragraph (m) of this AD.
+                                      stringer splice         303.9 (forward of
+                                      channel.                door); and S-7L
+                                                              through S-15L, from
+                                                              BS 348.2 to BS 360
+                                                              (aft of door).
+------------------------------------
+(3) Part 3 of the Work Instructions  An intercostal web or   S-7L through S-16L,     Do the repair specified in
+ of the service bulletin.             attachment clip.        from BS 294.5 to BS     paragraph (m) of this AD.
+                                                              303.9 (forward of
+                                                              door).
+----------------------------------------------------------------------------------------------------------------
+
+
+    Note 2: The service bulletin specifies to repair any crack found 
+at the S-16L intercostal (BS 348.2-360) on Boeing Model 737-400 
+series airplanes per 737-400 SRM 53-10-04, Figure 202. Figure 202 
+does not exist; the correct figure is 737-400 SRM 53-10-04, Figure 
+201.
+
+Repair
+
+    (m) At the time specified in Table 2 of this AD, repair per a 
+method approved by the Manager, Seattle Aircraft Certification 
+Office (ACO), FAA; or per data meeting the type certification basis 
+of the airplane approved by a Boeing Company Designated Engineering 
+Representative who has been authorized by the Manager, Seattle ACO, 
+to make such findings. For a repair method to be approved, the 
+approval must specifically reference this AD.
+
+Alternative Methods of Compliance (AMOCs)
+
+    (n)(1) The Manager, Seattle ACO, FAA, has the authority to 
+approve AMOCs for this AD, if requested in accordance with the 
+procedures found in 14 CFR 39.19.
+    (2) An AMOC that provides an acceptable level of safety may be 
+used for corrective actions, if it is approved by a Boeing Company 
+Designated Engineering Representative who has been authorized by the 
+Manager, Seattle ACO, to make those findings.
+
+    Issued in Renton, Washington, on July 30, 2004.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 04-17988 Filed 8-5-04; 8:45 am]
+BILLING CODE 4910-13-P
+
+

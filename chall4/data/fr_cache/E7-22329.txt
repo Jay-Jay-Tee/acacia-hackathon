@@ -1,0 +1,122 @@
+
+[Federal Register Volume 72, Number 220 (Thursday, November 15, 2007)]
+[Proposed Rules]
+[Pages 64171-64172]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E7-22329]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2001-NM-40-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 747 Series Airplanes 
+Powered by General Electric (GE) CF6-45/50, Pratt & Whitney (P&W) JT9D-
+70, or JT9D-7 Series Engines
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to certain 
+Boeing Model 747 series airplanes powered by GE CF6-45/50, P&W JT9D-70, 
+or JT9D-7 series engines. That action would have required repetitive 
+inspections to find cracks and broken fasteners of the inboard and 
+outboard nacelle struts of the rear engine mount bulkhead, and repair, 
+if necessary. For certain airplanes, that action would have provided 
+for an optional terminating modification for the inspections of the 
+outboard nacelle struts. Since the issuance of the NPRM, the Federal 
+Aviation Administration (FAA) has received new data of other issues 
+related to the unsafe condition. The data include many new reports of 
+additional web and frame cracks and sheared attachment fasteners, and 
+reports of cracks on the outboard struts of airplanes not identified in 
+the applicability of the NPRM, in addition to the comments received for 
+the NPRM. We have determined from these data that the corrective 
+actions required by the NPRM are inadequate for addressing the 
+identified unsafe condition. Accordingly, the proposed rule is 
+withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Tamara Anderson, Aerospace Engineer, 
+Airframe Branch, ANM-120S, FAA, Seattle Aircraft Certification Office, 
+1601 Lind Avenue, SW., Renton, Washington 98057-3356; telephone (425) 
+917-6421; fax (425) 917-6590.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to certain Boeing Model 747 series airplanes 
+powered by General Electric (GE) CF6-45/50, Pratt & Whitney (P&W) JT9D-
+70, or JT9D-7 series engines, was published as a notice of proposed 
+rulemaking (NPRM) in the Federal Register on January 9, 2002 (67 FR 
+1167). The proposed rule would have required repetitive inspections to 
+find cracks and broken fasteners of the inboard and outboard nacelle 
+struts of the rear engine mount bulkhead, and repair, if necessary. For 
+certain airplanes, the proposed rule would have provided for an 
+optional terminating modification for the inspections of the outboard 
+nacelle struts. That action was prompted by reports indicating that 
+fatigue cracking of the inboard and outboard nacelle struts of the rear 
+engine mount bulkhead was found. The proposed actions were intended to 
+find and fix cracks and broken fasteners of the inboard and outboard 
+nacelle struts, which could result in possible loss of the bulkhead 
+load path and consequent separation of the engine from the airplane.
+
+Actions That Occurred Since the NPRM Was Issued
+
+    Since the issuance of the NPRM, the Federal Aviation Administration 
+(FAA) has received new data of other issues related to the unsafe 
+condition. The data include many new reports of additional web and 
+frame cracks and sheared attachment fasteners, and reports of cracks on 
+the outboard struts of airplanes not identified in the applicability of 
+the NPRM, in addition to the comments received for the NPRM. We have 
+determined from these data that the corrective actions required by the 
+NPRM are inadequate for addressing the identified unsafe condition. 
+Therefore, we are issuing a new rulemaking to adequately address the 
+identified unsafe condition.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that the 
+corrective actions required by the NPRM are inadequate for addressing 
+the identified unsafe condition. Accordingly, the proposed rule is 
+hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+[[Page 64172]]
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 2001-NM-40-
+AD, published in the Federal Register on January 9, 2002 (67 FR 1167), 
+is withdrawn.
+
+    Issued in Renton, Washington, on November 7, 2007.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+ [FR Doc. E7-22329 Filed 11-14-07; 8:45 am]
+BILLING CODE 4910-13-P
+
+

@@ -1,0 +1,149 @@
+
+[Federal Register Volume 70, Number 8 (Wednesday, January 12, 2005)]
+[Proposed Rules]
+[Pages 2066-2067]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-613]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2000-NM-168-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; McDonnell Douglas Model DC-9-81 (MD-
+81), DC-9-82 (MD-82), DC-9-83 (MD-83), DC-9-87 (MD-87), and MD-88 
+Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to certain 
+McDonnell Douglas Model DC-9-81 (MD-81), DC-9-82 (MD-82), DC-9-83 (MD-
+83), DC-9-87 (MD-87), and MD-88 airplanes. That action would have 
+required installing shield assemblies for power feeder cables in the 
+forward and aft lower cargo compartments, and installing an additional 
+shield for the power feeder cable of the auxiliary power unit in the 
+aft lower cargo compartment. Since the issuance of the NPRM, the 
+Federal Aviation Administration (FAA) has determined that the proposed 
+requirements are included in the requirements of another existing AD; 
+the NPRM does not contain any new requirements beyond those of the 
+existing AD. Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Elvin K. Wheeler, Aerospace Engineer, 
+Systems and Equipment Branch, ANM-130L, FAA, Los Angeles Aircraft 
+Certification Office, 3960 Paramount Boulevard, Lakewood, California 
+90712-4137; telephone (562) 627-5344; fax (562) 627-5210.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to certain McDonnell Douglas Model DC-9-81 
+(MD-81), DC-9-82 (MD-82), DC-9-83 (MD-83), DC-9-87 (MD-87), and MD-88 
+airplanes; was published in the Federal Register as a notice of 
+proposed rulemaking (NPRM) on October 30, 2003 (68 FR
+
+[[Page 2067]]
+
+61772). The proposed rule would have required installing shield 
+assemblies for power feeder cables in the forward and aft lower cargo 
+compartments, and installing an additional shield for the power feeder 
+cable of the auxiliary power unit in the aft lower cargo compartment. 
+That action was prompted by several incidents of migration of power 
+feeder cable troughs on McDonnell Douglas Model DC-9-81 (MD-81), DC-9-
+82 (MD-82), DC-9-83 (MD-83), DC-9-87 (MD-87), and MD-88 airplanes. The 
+proposed actions were intended to prevent a cable from chafing against 
+an edge of a lightening hole, which could result in electrical arcing, 
+and consequent smoke/fire in the lower cargo compartments.
+
+Response to Comments
+
+    We have considered the comments that have been submitted on the 
+proposed AD. One commenter points out that an existing AD, AD 94-09-02, 
+amendment 39-8890 (59 FR 18720, April 20, 1994), currently requires 
+accomplishment of the original issue of Boeing Service Bulletin MD80-
+24-100. The commenter further states that all affected airplanes listed 
+in Revision 04 of that service bulletin (referenced as the appropriate 
+source of service information in the proposed rule) were affected by 
+the previous revisions of that service bulletin, and that the proposed 
+rule contains no new requirements beyond those required by the existing 
+AD.
+    We agree. We have determined that the requirements of the proposed 
+rule are included in the requirements of another existing AD. The 
+existing AD, AD 94-09-02, is applicable to certain McDonnell Douglas 
+Model DC-9-81 (MD-81), DC-9-82 (MD-82), DC-9-83 (MD-83), and DC-9-87 
+(MD-87) series airplanes; and Model MD-88 airplanes; as listed in 
+McDonnell Douglas MD-80 Service Bulletin 24-94, Revision 1, dated May 
+28, 1987, and McDonnell Douglas Model MD-80 Service Bulletin 24-100, 
+dated March 30, 1988. That AD requires an inspection to detect damage 
+of the auxiliary power unit (APU) power feeder cable installation, 
+repair of damaged cables, modification of the cable installation, and 
+an inspection of previously modified airplanes to determine whether a 
+spacer or ``stand off'' has been installed, and installation of those 
+items, if necessary. That action was prompted by reports of generator 
+power feeder cables electrically shorting to the airplane structure due 
+to chafing. The requirements of that AD are intended to prevent the APU 
+power feeder cable from chafing against adjacent structures, which 
+could result in electrical shorting and arcing, and a fire below the 
+cabin floor.
+    Additionally, AD 94-09-02 references McDonnell Douglas MD-80 
+Service Bulletin 24-100, dated March 30, 1988, as the appropriate 
+source of service information for accomplishing the modification. The 
+proposed rule references McDonnell Douglas Alert Service Bulletin MD80-
+24A100, Revision 04, dated January 24, 2000, as the appropriate source 
+of service information for accomplishing the modification (installing 
+shield assemblies for power feeder cables). Revision 04 was issued 
+merely to elevate the service bulletin to the ``alert'' status and to 
+reference AD 94-09-02; no additional work is required. All airplanes 
+affected by Revision 04 are also affected by the previous revisions of 
+the service bulletin.
+    The proposed rule does not contain any new requirements beyond 
+those required by AD 94-09-02. Accomplishment of the requirements of AD 
+94-09-02 adequately addresses the identified unsafe condition.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that the 
+proposed requirements are included in the requirements of another 
+existing AD; the proposed rule does not contain any new requirements 
+beyond those of the existing AD. Accordingly, the proposed rule is 
+hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 2000-NM-168-
+AD, published in the Federal Register on October 30, 2003 (68 FR 
+61772), is withdrawn.
+
+    Issued in Renton, Washington, on January 3, 2005.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 05-613 Filed 1-11-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

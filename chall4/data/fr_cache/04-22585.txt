@@ -1,0 +1,326 @@
+
+[Federal Register Volume 69, Number 194 (Thursday, October 7, 2004)]
+[Proposed Rules]
+[Pages 60104-60106]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 04-22585]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA 2004-19119; Directorate Identifier 2004-CE-26-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Raytheon Aircraft Company, Model 390, 
+Premier 1 Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) 
+for certain Raytheon Aircraft Company, Model 390, Premier 1 airplanes. 
+This proposed AD would require you to inspect the routing and security 
+of the left and right main landing gear (MLG) squat switch wire harness 
+installations for damage, repair any damage or replace components, and 
+reinstall the squat switch wire harness. This proposed AD results from 
+reports of damage to the left and/or right MLG wire harness assemblies, 
+which resulted in various system failures/anomalies due to erroneous 
+air/ground status signals. We are issuing this proposed AD to prevent 
+damage to the wire harnesses, which could result in loss of lift dump, 
+loss of pressurization, loss of transponder responses to 
+interrogations, and failure of other systems utilizing air/ground 
+status signals. This failure could lead to loss of control of the 
+airplane.
+
+DATES: We must receive any comments on this proposed AD by November 16, 
+2004.
+
+ADDRESSES: Use one of the following to submit comments on this proposed 
+AD:
+     DOT Docket Web site: Go to  http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility; U.S. Department of 
+Transportation, 400 Seventh Street, SW., Nassif Building, Room PL-401, 
+Washington, DC 20590-001.
+     Fax: 1-202-493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street, SW., Washington, DC, between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    To get the service information identified in this proposed AD, 
+contact Raytheon Aircraft Company, PO Box 85, Wichita, Kansas 67201-
+0085; telephone: (800) 625-7043.
+    To view the comments to this proposed AD, go to http://dms.dot.gov. 
+The docket number is FAA 2004-19119.
+
+FOR FURTHER INFORMATION CONTACT: Philip Petty, Aerospace Engineer, ACE-
+119W, Wichita Aircraft Certification Office, 1801 Airport Road, Room 
+100, Wichita, Kansas 67209; telephone: (316) 946-4139; facsimile: (316) 
+946-4107.
+
+SUPPLEMENTARY INFORMATION: 
+
+[[Page 60105]]
+
+Comments Invited
+
+    How do I comment on this proposed AD? We invite you to submit any 
+written relevant data, views, or arguments regarding this proposal. 
+Send your comments to an address listed under ADDRESSES. Include the 
+docket number, ``FAA 2004-19119; Directorate Identifier 2004-CE-26-AD'' 
+at the beginning of your comments. We will post all comments we 
+receive, without change, to http://dms.dot.gov, including any personal 
+information you provide. We will also post a report summarizing each 
+substantive verbal contact with FAA personnel concerning this proposed 
+rulemaking. Using the search function of our docket Web site, anyone 
+can find and read the comments received into any of our dockets, 
+including the name of the individual who sent the comment (or signed 
+the comment on behalf of an association, business, labor union, etc.). 
+This is docket number FAA 2004-19119. You may review the DOT's complete 
+Privacy Act Statement in the Federal Register published on April 11, 
+2000 (65 FR 19477-78) or you may visit http://dms.dot.gov.
+    Are there any specific portions of this proposed AD I should pay 
+attention to? We specifically invite comments on the overall 
+regulatory, economic, environmental, and energy aspects of this 
+proposed AD. If you contact us through a nonwritten communication and 
+that contact relates to a substantive part of this proposed AD, we will 
+summarize the contact and place the summary in the docket. We will 
+consider all comments received by the closing date and may amend this 
+proposed AD in light of those comments and contacts.
+
+Docket Information
+
+    Where can I go to view the docket information? You may view the AD 
+docket that contains the proposal, any comments received, and any final 
+disposition in person at the DMS Docket Offices between 9 a.m. and 5 
+p.m. (eastern standard time), Monday through Friday, except Federal 
+holidays. The Docket Office (telephone 1-800-647-5227) is located on 
+the plaza level of the Department of Transportation NASSIF Building at 
+the street address stated in ADDRESSES. You may also view the AD docket 
+on the Internet at  http://dms.dot.gov. The comments will be available 
+in the AD docket shortly after the DMS receives them.
+
+Discussion
+
+    What events have caused this proposed AD? FAA received reports of 
+damage to the left and/or right MLG wire harness assemblies on Raytheon 
+Model 390 airplanes. This resulted in various system failures/anomalies 
+due to erroneous air/ground status signals. Improper installation of 
+Kit 390-8103-0001 may have resulted in the damage to the squat switch 
+wire harness assemblies during normal extension and retraction 
+operations. A damaged wire harness and/or squat switch installation may 
+affect multiple systems on the airplane.
+    What is the potential impact if FAA took no action? Damage to the 
+wire harnesses could result in loss of lift dump, loss of 
+pressurization, loss of transponder responses to interrogations, and 
+failure of other systems utilizing air/ground status signals. This 
+failure could lead to loss of control of the airplane.
+    Is there service information that applies to this subject? Raytheon 
+Aircraft Company has issued Service Bulletin SB 32-3678, dated June 
+2004.
+    What are the provisions of this service information? The service 
+bulletin includes procedures for:
+--Inspecting the squat switch bracket for corrosion or cracking;
+--replacing the squat switch bracket, if damaged;
+--inspecting the MLG wiring harness; and
+--relocating the MLG wire harness tie straps and the M85052/1-8 
+mounting clamp.
+
+FAA's Determination and Requirements of This Proposed AD
+
+    What has FAA decided? We have evaluated all pertinent information 
+and identified an unsafe condition that is likely to exist or develop 
+on other products of this same type design. For this reason, we are 
+proposing AD action.
+    What would this proposed AD require? This proposed AD would require 
+you to incorporate the actions in the previously-referenced service 
+bulletin.
+    How does the revision to 14 CFR part 39 affect this proposed AD? On 
+July 10, 2002, we published a new version of 14 CFR part 39 (67 FR 
+47997, July 22, 2002), which governs FAA's AD system. This regulation 
+now includes material that relates to altered products, special flight 
+permits, and alternative methods of compliance. This material 
+previously was included in each individual AD. Since this material is 
+included in 14 CFR part 39, we will not include it in future AD 
+actions.
+
+Costs of Compliance
+
+    How many airplanes would this proposed AD impact? We estimate that 
+this proposed AD affects 98 airplanes in the U.S. registry.
+    What would be the cost impact of this proposed AD on owners/
+operators of the affected airplanes? Raytheon Aircraft Company will 
+provide warranty credit as specified in the service information.
+
+Regulatory Findings
+
+    Would this proposed AD impact various entities? We have determined 
+that this proposed AD would not have federalism implications under 
+Executive Order 13132. This proposed AD would not have a substantial 
+direct effect on the States, on the relationship between the national 
+Government and the States, or on the distribution of power and 
+responsibilities among the various levels of government.
+    Would this proposed AD involve a significant rule or regulatory 
+action? For the reasons discussed above, I certify that this proposed 
+AD:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a summary of the costs to comply with this proposed AD 
+and placed it in the AD Docket. You may get a copy of this summary by 
+sending a request to us at the address listed under ADDRESSES. Include 
+``AD Docket FAA 2004-19119; Directorate Identifier 2004-CE-26-AD'' in 
+your request.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 14 
+CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The FAA amends Sec.  39.13 by adding the following new 
+airworthiness directive (AD):
+
+Raytheon Aircraft Company: Docket No. FAA 2004-19119, Directorate 
+Identifier 2004-CE-26-AD.
+
+[[Page 60106]]
+
+When is the Last Date I can Submit Comments on this Proposed AD?
+
+    (a) We must receive comments on this proposed airworthiness 
+directive (AD) by November 16, 2004.
+
+What Other ADs Are Affected by This Action?
+
+    (b) None.
+
+What Airplanes Are Affected by This AD?
+
+    (c) This AD affects the following airplane model and serial 
+numbers that are certificated in any category: Model 390 Premier I, 
+Serials RB-1, RB-4 through RB-84, RB-87 through RB-90, RB-92 through 
+RB-96, RB-99 through RB-101, and RB-103 through RB-106.
+
+What is the Unsafe Condition Presented in This AD?
+
+    (d) This AD is the result of reports of damage to the left and/
+or right main landing gear (MLG) wire harness assemblies, which 
+resulted in various system failures/anomalies due to erroneous air/
+ground status signals. The actions specified in this AD are intended 
+to prevent damage to the wire harnesses, which could result in loss 
+of lift dump, loss of pressurization, loss of transponder responses 
+to interrogations, and failure of other systems utilizing air/ground 
+status signals. This failure could lead to loss of control of the 
+airplane.
+
+What Must I Do To Address This Problem?
+
+    (e) To address this problem, you must do the following:
+
+------------------------------------------------------------------------
+           Actions                 Compliance            Procedures
+------------------------------------------------------------------------
+(1) For airplanes prior to    Inspect within 30     Follow Raytheon
+ serial number RB-100 with     days after the        Aircraft Company
+ Kit 390-8103-0001             effective date of     Service Bulletin SB
+ installed, and for            this AD. If damage    32-3678, dated June
+ airplanes with production     is found, replace     2004.
+ installation of the plunger-  the switch bracket
+ style squat switch, serial    prior to further
+ numbers RB-100, RB-101, and   flight after the
+ RB-103 through RB-106,        inspection.
+ perform the following
+ actions:.
+(i) Visually inspect the
+ squat switch bracket for
+ corrosion or cracking
+ (damage).
+(ii) If damage is found,
+ replace the switch bracket
+ with part number 390-810008-
+ 0003/-0004.
+(2) All airplanes affected    Within 30 days after  Follow Raytheon
+ by this AD perform the        the effective date    arcart Company
+ following actions:.           of this AD.           Service Bulletin SB
+(i) Inspect MLG wiring                               32-3678, dated June
+ harness service loop for                            2004.
+ excessive length in air
+ mode (strut extended). The
+ radius of the wire harness
+ service loop should not
+ exceed that of the brake
+ hose service loop. The
+ radius of the brake hose
+ loop should not exceed the
+ radius of the tire. If the
+ length is excessive in air
+ mode, correct in accordance
+ with Raytheon Aircraft
+ Company Service Bulletin SB
+ 32-3678, dated June 2004..
+(ii) Remove and relocate tie
+ straps and M85052/1-8
+ mounting clamp.
+(iii) Perform the landing
+ gear operational test.
+------------------------------------------------------------------------
+
+May I Request an Alternative Method of Compliance?
+
+    (f) You may request a different method of compliance or a 
+different compliance time for this AD by following the procedures in 
+14 CFR 39.19. Unless FAA authorizes otherwise, send your request to 
+your principal inspector. The principal inspector may add comments 
+and will send your request to the Manager, Wichita Aircraft 
+Certification Office (ACO), FAA. For information on any already 
+approved alternative methods of compliance, contact Philip Petty, 
+Aerospace Engineer, ACE-119W, Wichita Aircraft Certification Office, 
+1801 Airport Road, Room 100, Wichita, Kansas 67209; telephone: (316) 
+946-4139; facsimile: (316) 946-4107.
+
+May I Get Copies of the Documents Referenced in this AD?
+
+    (g) To get copies of the documents referenced in this AD, 
+contact Raytheon Aircraft Company, PO Box 85, Wichita, Kansas 67201-
+0085; telephone: (800) 625-7043. To view the AD docket, go to the 
+Docket Management Facility; U.S. Department of Transportation, 400 
+Seventh Street, SW., Nassif Building, Room PL-401, Washington, DC, 
+or on the Internet at http://dms.dot.gov. The docket number is FAA 
+2004-19119.
+
+    Issued in Kansas City, Missouri, on September 29, 2004.
+Dorenda D. Baker,
+Manager, Small Airplane Directorate, Aircraft Certification Service.
+[FR Doc. 04-22585 Filed 10-6-04; 8:45 am]
+BILLING CODE 4910-13-P
+
+

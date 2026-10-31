@@ -1,0 +1,121 @@
+
+[Federal Register Volume 70, Number 66 (Thursday, April 7, 2005)]
+[Proposed Rules]
+[Pages 17620-17621]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-6916]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2004-19563; Directorate Identifier 2003-NM-10-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Bombardier Model CL-600-2B16 (CL-604) 
+Series Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for certain Bombardier 
+Model CL-600-2B16 (CL-604) series airplanes. The proposed AD would have 
+required replacing the side-brace fitting shafts of the main landing 
+gear (MLG) with new, improved side-brace fitting shafts; inspecting for 
+corrosion of the MLG side-brace fitting shafts; and replacing the nut, 
+washer, and cotter pin of the MLG side-brace fitting shafts with new 
+parts; as applicable. Since the proposed AD was issued, we have 
+received new data that the actions that would have been required by the 
+proposed AD have already been accomplished on all of the affected 
+airplanes. Accordingly, the proposed AD is withdrawn.
+
+[[Page 17621]]
+
+
+ADDRESSES: You can examine the contents of this AD docket on the 
+Internet at http://dms.dot.gov, or in person at the Docket Management 
+Facility, U.S. Department of Transportation, 400 Seventh Street, SW., 
+room PL-401, on the plaza level of the Nassif Building, Washington, DC. 
+This docket number is FAA-2004-19563; the directorate identifier for 
+this docket is 2003-NM-10-AD.
+
+FOR FURTHER INFORMATION CONTACT: Serge Napoleon, Aerospace Engineer, 
+Airframe and Propulsion Branch, ANE-171, FAA, New York Aircraft 
+Certification Office, 1600 Stewart Avenue, suite 410, Westbury, New 
+York 11590; telephone (516) 228-7312; fax (516) 794-5531.
+
+SUPPLEMENTARY INFORMATION: 
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for certain Bombardier Model CL-600-2B16 (CL-604) series airplanes. 
+That NPRM was published in the Federal Register on November 9, 2004 (69 
+FR 64869). The NPRM would have required replacing the side-brace 
+fitting shafts of the main landing gear (MLG) with new, improved side-
+brace fitting shafts; inspecting for corrosion of the MLG side-brace 
+fitting shafts; and replacing the nut, washer, and cotter pin of the 
+MLG side-brace fitting shafts with new parts; as applicable. The NPRM 
+was prompted by the discovery of fractures of the MLG side-brace 
+fitting shafts caused by corrosion on the forward side of the side-
+brace fitting shafts. The proposed actions were intended to prevent 
+fracture of the MLG side-brace fitting shafts, which could result in 
+collapse of the MLG.
+
+Actions Since NPRM Was Issued
+
+    Since we issued the NPRM, the airplane manufacturer has informed us 
+that all airplanes identified in the applicability section of the NPRM 
+have already accomplished the actions specified in Bombardier Alert 
+Service Bulletin A604-32-018, Revision 01, dated February 22, 2002, 
+which would have been required by the proposed AD. Transport Canada 
+Civil Aviation (TCCA), which is the airworthiness authority for Canada, 
+has also confirmed that the proposed requirements have already been 
+accomplished on all affected airplanes.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that it is 
+unnecessary to issue the proposed AD. Accordingly, the NPRM is 
+withdrawn.
+    Withdrawal of the NPRM does not preclude the FAA from issuing 
+another related action or commit the FAA to any course of action in the 
+future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule and therefore is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2004-19563, 
+Directorate Identifier 2003-NM-10-AD, which was published in the 
+Federal Register on November 9, 2004 (69 FR 64869).
+
+    Issued in Renton, Washington, on March 31, 2005.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 05-6916 Filed 4-6-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

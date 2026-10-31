@@ -1,0 +1,134 @@
+
+[Federal Register Volume 67, Number 66 (Friday, April 5, 2002)]
+[Proposed Rules]
+[Pages 16330-16331]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 02-8281]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 88-NM-145-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; McDonnell Douglas Model DC-8 Series 
+Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to all 
+McDonnell Douglas Model DC-8 series airplanes. That action would have 
+required incorporation of horizontal stabilizer position information 
+into the existing takeoff configuration warning system. Since the 
+issuance of the NPRM, the Federal Aviation Administration (FAA) has 
+received new data that indicate that the identified unsafe condition 
+does not exist. Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: George Y. Mabuni, Aerospace Engineer, 
+Systems and Equipment Branch, ANM-130L, FAA, Los Angeles Aircraft 
+Certification Office, 3960 Paramount Boulevard, Lakewood, California 
+90712-4137; telephone (562) 627-5341; fax (562) 627-5210.
+
+[[Page 16331]]
+
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to all McDonnell Douglas Model DC-8 series 
+airplanes, was published in the Federal Register as a Notice of 
+Proposed Rulemaking (NPRM) on November 30, 1988 (53 FR 48499). The 
+proposed rule would have required incorporation of horizontal 
+stabilizer position information into the existing takeoff configuration 
+warning system. That action was prompted by an FAA review of takeoff 
+configuration warning systems of large turbofan/turbojet transport 
+airplanes. The review revealed that the horizontal stabilizer position 
+was not monitored by the takeoff warning system on Model DC-8 series 
+airplanes. The proposed actions were intended to prevent an airplane 
+from taking off in the wrong takeoff configuration.
+
+Since Issuance of the NPRM
+
+    Since the NPRM was issued, we have engaged in additional research 
+into the identified unsafe condition and potentially related accidents 
+and found that incorrect loading data--and not unsafe flight crew 
+procedures--may have resulted in a miscalculated center of gravity on 
+takeoff. Incorrect trim setting was cited or at least suspected as a 
+factor in three accidents. There are a number of possible explanations 
+for an incorrect trim setting: The pilot may have misread the loading 
+data, the company flight operations department may have provided 
+incorrect data, or the pilot may have erred in calculating and setting 
+the trim. To be effective, an out-of-trim warning system requires 
+accurate takeoff data from the pilot; therefore, it is not clear 
+whether input error may have been involved or whether any of the 
+accidents would have actually been prevented by an out-of-trim warning 
+system.
+    We find that established crew procedures are sufficient to maintain 
+the necessary level of safety. Notwithstanding the three accidents 
+discussed above, the remaining service experience on Model DC-8 series 
+airplanes (and most other airplanes of that vintage) confirms the 
+effectiveness and adequacy of flight crew procedures in ensuring the 
+correct takeoff setting of the horizontal stabilizer when the flight 
+crew is provided correct information. In light of these findings, we 
+have determined that the previously identified unsafe condition does 
+not exist--provided the flight crew follows established takeoff 
+procedures.
+    Furthermore, the economic impact of the proposed AD on operators 
+would be significant. Five commenters to the NPRM indicated that 
+accomplishment of the actions of the proposed AD would impose a 
+significant economic burden. The cost of the modification kits would be 
+high because the manufacturer must design, test, and certify the system 
+before kits can be made available to the operators. The estimated total 
+cost to accomplish the proposed actions would be $149,000 per airplane 
+(adjusted for inflation from the date of the proposed AD). In fact, the 
+cost of implementing the proposed requirements could exceed the value 
+of the entire fleet. In light of our determination that an unsafe 
+condition does not exist, we find that the large economic impact to 
+mandate incorporation of the proposed system on these airplanes is 
+impractical and unjustified.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the unsafe 
+condition identified in the proposed AD does not exist. Accordingly, 
+the proposed rule is hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 88-NM-145-
+AD, published in the Federal Register on November 30, 1988 (53 FR 
+48499), is withdrawn.
+
+    Issued in Renton, Washington, on March 28, 2002.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 02-8281 Filed 4-4-02; 8:45 am]
+BILLING CODE 4910-13-P
+
+

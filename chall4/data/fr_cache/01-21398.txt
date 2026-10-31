@@ -1,0 +1,169 @@
+
+[Federal Register Volume 66, Number 165 (Friday, August 24, 2001)]
+[Proposed Rules]
+[Pages 44560-44561]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 01-21398]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 99-NE-47-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Rolls-Royce Corporation (Formerly 
+Allison Engine Company) 250-C18 and C-20 Series Turboshaft Engines
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to Rolls-
+Royce Corporation (formerly Allison Engine Company) 250-C18 and C-20 
+series turboshaft engines. That action would have required a one-time 
+visual inspection of the fuel nozzle screen for contamination. If 
+contamination is found, the proposal would have required, prior to 
+further flight, replacement of the fuel nozzle screen with a 
+serviceable screen, visual inspection of the entire fuel system for 
+contamination, and repair, if necessary. In addition, this proposal 
+would have required reporting the results of the one-time inspection to 
+the Federal Aviation Administration (FAA) to determine if repetitive 
+inspections should be required by further rulemaking. This proposal was 
+prompted by a report of fuel system contamination that caused an in-
+flight engine shutdown, autorotation, and forced landing. Since the 
+issuance of the NPRM, the FAA and Rolls-Royce have determined that 
+there have been no additional engine problems reported due to fuel 
+nozzle screen contamination. Accordingly, the proposed rule is 
+withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: John Tallarovic, Aerospace Engineer, 
+Chicago Aircraft Certification Office, FAA, Small Airplane Directorate, 
+2300 E. Devon Ave., Des Plaines, IL 60018; telephone (847) 294-8180, 
+fax (847) 294-7834.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new AD that is 
+applicable to Rolls-Royce Corporation (formerly Allison Engine Company) 
+250-C18 and C-20 series turboshaft engines was published in the Federal 
+Register on April 25, 2000 (65 FR 24135). That action proposed to 
+require a one-time visual inspection of the fuel nozzle screen for 
+contamination. If contamination is found, that proposal would have 
+required, prior to further flight, replacement of the fuel nozzle 
+screen with a serviceable screen, visual inspection of the entire fuel 
+system for contamination, and repair, if necessary. In addition, that 
+proposal would have
+
+[[Page 44561]]
+
+required reporting the results of the one-time inspection to the 
+Federal Aviation Administration (FAA) to determine if repetitive 
+inspections should be required by further rulemaking. The actions 
+specified by the proposal were intended to prevent an in-flight engine 
+shutdown due to blockage of the fuel nozzle screen, which can result in 
+autorotation and forced landing.
+    Since the issuance of that NPRM, the FAA and Rolls-Royce have 
+determined that there have been no additional engine problems reported 
+due to fuel nozzle screen contamination. Rolls-Royce further maintains 
+that fuel nozzle contamination is a very rare event, varying between 
+zero to 6.5 per 8,000 disassembled nozzles.
+    Since this problem first surfaced, Rolls-Royce and the FAA have 
+taken the following actions:
+     Because most accidents involving fuel nozzle contamination 
+have occurred in Hawaii, Rolls-Royce Corporation conducted a training/
+fact finding mission to Hawaii in the spring of 1998 to assess the 
+situation and to help educate users regarding the proper service of 
+engine fuel systems.
+     The FAA approved revised maintenance procedures for the 
+Rolls-Royce model 250 engines. These procedures clarified the actions 
+to be taken when fuel system contamination is suspected.
+     Finally, the FAA published Special Airworthiness 
+Information Bulletin (SAIB) No. CE-01-10 advising owners and operators 
+of Rolls-Royce Corporation model 250-C18 series and 250-C20 series 
+engines of the recent changes to the fuel system maintenance on how 
+rotorcraft engine fuel nozzle screens be inspected.
+
+Comments Received
+
+    Interested persons have been afforded an opportunity to participate 
+in the making of this amendment. Due consideration has been given to 
+the comments received.
+
+Support
+
+    Two commenters either supported the NPRM or were neutral.
+
+Opposition to NPRM
+
+    One commenter points out that there is already a requirement to 
+inspect the fuel nozzle screen each 300 hours of operation if there is 
+no airframe mounted fuel filter (otherwise inspect it at 1,500 hours); 
+a 300 hour requirement to replace the fuel filter, and a 1,000 hour 
+requirement to change the fuel control screen. The commenter expresses 
+concern that the proposed actions in the NPRM would burden the majority 
+of the operators who are already correctly performing the required 
+maintenance checks. The FAA agrees and the NPRM is being withdrawn.
+    Another comment, by an aircraft owner and repair station owner 
+employing over 200 Airframe and Powerplant mechanics, strongly opposes 
+the actions proposed in the NPRM. The commenter emphasizes that efforts 
+should be put into ensuring that clean fuel is used by operators, 
+rather than mandating items that are already clearly covered by the 
+Original Equipment Manufacturer's maintenance and operations manuals. 
+The comment also notes that the rare cases of contamination they had 
+witnessed resulted from operators refueling remotely out of 55-gallon 
+drums. The commenter believes that this is an operational issue rather 
+than an inherent design flaw with the rotorcraft fuel system. The FAA 
+agrees. This observation is consistent with the FAA's inspection 
+results confirming that accidents involved cases where the fuel supply 
+was a problem (less than optimal conditions).
+    The final comment opposing the NPRM is from an owner/operator of 
+173 helicopters. This individual also points out that the actions 
+proposed in the NPRM were already required by the engine maintenance 
+manual. He expresses concern that in the course of complying with the 
+proposed actions in the NPRM, mechanics will be removing and 
+disassembling thousands of fuel nozzles in the field. It is his 
+experience that these nozzles are best taken apart at a repair facility 
+where they can be checked for proper reassembly after the inspection. 
+Due to the critical nature of the assembly process, slight variations 
+in the torque values can have a significant effect on the fuel flow and 
+spray pattern of the nozzle. The net result would be an increase in 
+service difficulties associated with the fuel nozzle. The FAA agrees 
+and the proposed NPRM is being withdrawn.
+    After further consideration and review of this data, the FAA has 
+determined that the unsafe condition no longer exists and is extremely 
+unlikely to develop. Accordingly, the proposed rule is withdrawn.
+    Withdrawal of this notice of proposed rulemaking does not preclude 
+the agency from issuing another notice in the future, nor does it 
+commit the agency to any course of action in the future.
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor final rule, and, therefore, is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket No. 99-NE-
+47, published in the Federal Register on April 25, 2000 (65 FR 24135), 
+is withdrawn.
+
+    Issued in Burlington, Massachusetts, on August 16, 2001.
+Jay J. Pardee,
+Manager, Engine and Propeller Directorate, Aircraft Certification 
+Service.
+[FR Doc. 01-21398 Filed 8-23-01; 8:45 am]
+BILLING CODE 4910-13-P
+
+

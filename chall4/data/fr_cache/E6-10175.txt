@@ -1,0 +1,145 @@
+
+[Federal Register Volume 71, Number 124 (Wednesday, June 28, 2006)]
+[Proposed Rules]
+[Pages 36723-36724]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E6-10175]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2006-23739; Directorate Identifier 2005-NM-240-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Empresa Brasileira de Aeronautica S.A. 
+(EMBRAER) Model EMB-145, -145ER, -145MR, -145LR, -145XR, -145MP, and -
+145EP Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for certain EMBRAER Model 
+EMB-145, -145ER, -145MR, -145LR, -145XR, -145MP, and -145EP airplanes. 
+The proposed AD would have required modifying the routing of wire 
+harness W407 near the fire extinguishing tube in the area of each 
+engine, and installing new supports for related wiring. Since the 
+proposed AD was issued, we have received new data indicating that the 
+identified unsafe condition does not exist. Accordingly, the proposed 
+AD is withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the U.S. 
+Department of Transportation, 400 Seventh Street SW., Room PL-401, 
+Washington, DC. This docket number is FAA-2006-23739; the directorate 
+identifier for this docket is 2005-NM-240-AD.
+
+FOR FURTHER INFORMATION CONTACT: Todd Thompson, Aerospace Engineer, 
+International Branch, ANM-116, FAA, Transport Airplane Directorate, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+227-1175; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for certain EMBRAER Model EMB-145, -145ER, -145MR, -145LR, -145XR, -
+145MP, and -145EP airplanes. That NPRM was published in the Federal 
+Register on February 2, 2006 (71 FR 5626). The NPRM would have required 
+modifying the routing of wire harness W407 near the fire extinguishing 
+tube in the area of each engine, and installing new supports for 
+related wiring. The NPRM resulted from reports of chafing of wire 
+harness W407 against the supports and nacelle structure in the engine 
+area. The proposed actions were intended to prevent such chafing, which 
+could result in an engine shutting down during flight.
+
+Actions Since NPRM Was Issued
+
+    Since we issued the NPRM, the airplane manufacturer, EMBRAER, has 
+provided additional information concerning the unsafe condition 
+identified in the NPRM. EMBRAER Service Bulletin 145-71-0008, Change 
+01, dated July 24, 2001 (which was referenced as the appropriate source 
+of service information for accomplishing the proposed actions), 
+addressed chafing of wire harness W407 on the left- and right-hand 
+engines. However, EMBRAER subsequently indicates that the objective of 
+that service bulletin was not considered to be a means to avoid in-
+flight shutdown (IFSD) and, in fact, wire harness W407 is not engine 
+control related. The harness is related to the engine lip anti-ice 
+system, starter control valve, engine fire detection system, and engine 
+bleed air extraction systems. None of these systems are possible 
+contributors to an uncommanded IFSD. In addition, reported IFSD events 
+in the EMB-145 fleet related to chafing of a different harness--the 
+engine control harness--are associated with the engine manufacturer-
+provided harness, which is not the subject of EMBRAER Service Bulletin 
+145-71-0008.
+    EMBRAER states that chafing (among other things) of the engine 
+control system harness can cause internal failure of the full authority 
+digital engine control (FADEC), which leads to a fuel shutoff valve 
+closure command. However, in May 2001, EMBRAER introduced FADEC 
+internal modifications for airplanes in production to prevent an 
+inadvertent IFSD. Also, for FADECs manufactured before May 2001, Rolls-
+Royce, the engine manufacturer, developed an external adapter with the 
+same design objectives as those of EMBRAER's internal modifications. 
+These adapters have already been sent to operators to install in their 
+affected airplanes. EMBRAER adds that the engine inspection tasks from 
+the airplane maintenance program have been revised and improved, as 
+well as the engine harness inspection and installation tasks in the 
+aircraft maintenance manual (AMM).
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the unsafe 
+condition identified in the NPRM does not exist. Accordingly, the NPRM 
+is withdrawn.
+    We have coordinated this action with the Departamento de 
+Avia[ccedil][atilde]o Civil (DAC), which is the airworthiness authority 
+for Brazil. The DAC indicates it is considering cancelling its related 
+airworthiness directive, 2005-10-05, which was effective November 17, 
+2005.
+    Withdrawal of the NPRM does not preclude the FAA from issuing 
+another related action or commit the FAA to any course of action in the 
+future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule and therefore is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979).
+
+[[Page 36724]]
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2006-23739; 
+Directorate Identifier 2005-NM-240-AD, which was published in the 
+Federal Register on February 2, 2006 (71 FR 5626).
+
+    Issued in Renton, Washington, on June 21, 2006.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. E6-10175 Filed 6-27-06; 8:45 am]
+BILLING CODE 4910-13-P
+
+

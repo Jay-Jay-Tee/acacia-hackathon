@@ -1,0 +1,342 @@
+
+[Federal Register Volume 72, Number 249 (Monday, December 31, 2007)]
+[Proposed Rules]
+[Pages 74210-74213]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E7-25411]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2007-0373; Directorate Identifier 2006-SW-14-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Erickson Air-Crane Incorporated Model 
+S-64E and S-64F Helicopters
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes adopting a new airworthiness directive 
+(AD) for the specified Erickson Air-Crane Incorporated (Erickson) model 
+helicopters. The AD would require determining whether each specified 
+tail rotor blade assembly (blade assembly) has an affected serial 
+number or part marking. If a blade assembly has a certain serial number 
+or part marking, the AD would also require initially and repetitively 
+inspecting the tail rotor blade for a crack in the strap and pocket 
+areas. If a crack is found, this AD would also require, before further 
+flight, replacing the blade assembly with an airworthy blade assembly 
+that does not have an affected serial number or part marking. This 
+proposal is prompted by several reports of cracking in the strap and 
+pocket areas of the tail rotor blade. The actions specified by the 
+proposed AD are intended to prevent failure of the tail rotor blade and 
+subsequent loss of control of the helicopter.
+
+DATES: Comments must be received on or before February 29, 2008.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD:
+
+[[Page 74211]]
+
+     Federal eRulemaking Portal: Go to http://www.regulations.gov. Follow the instructions for submitting comments.
+     Fax: 202-493-2251.
+     Mail: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue, SE., Washington, DC 20590.
+     Hand Delivery: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue, SE., Washington, DC 20590, between 9 a.m. and 5 p.m., 
+Monday through Friday, except Federal holidays.
+    You may get the service information identified in this proposed AD 
+from Erickson Air-Crane Incorporated, P. O. Box 3247, Central Point, OR 
+97502, telephone 541-664-5544, fax 541-664-2312, or at http://www.ericksonaircrane.com.
+    You may examine the comments to this proposed AD in the AD docket 
+on the Internet at http://www.regulations.gov.
+
+FOR FURTHER INFORMATION CONTACT: Michael Kohner, Aviation Safety 
+Engineer, FAA, Rotorcraft Directorate, Rotorcraft Certification Office, 
+Fort Worth, Texas 76193-0170, telephone (817) 222-5447, fax (817) 222-
+5783.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to submit any written data, views, or arguments 
+regarding this proposed AD. Send your comments to the address listed 
+under the caption ADDRESSES. Include the docket number ``FAA-2007-0373, 
+Directorate Identifier 2006-SW-14-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments received by the closing date and may amend the 
+proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://www.regulations.gov, including any personal information you provide. We 
+will also post a report summarizing each substantive verbal contact 
+with FAA personnel concerning this proposed rulemaking. Using the 
+search function of our docket web site, you can find and read the 
+comments to any of our dockets, including the name of the individual 
+who sent or signed the comment. You may review the DOT's complete 
+Privacy Act Statement in the Federal Register published on April 11, 
+2000 (65 FR 19477-78) or you may visit http://dms.dot.gov.
+
+Examining the Docket
+
+    You may examine the docket that contains the proposed AD, any 
+comments, and other information in person at the Docket Operations 
+office between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Operations office (telephone (800) 647-5527) is 
+located in Room W12-140 on the ground floor of the West Building at the 
+street address stated in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after receipt.
+
+Discussion
+
+    This document proposes adopting a new AD for the specified Erickson 
+model helicopters. The AD would require determining whether certain 
+tail rotor blade assemblies have an affected serial number or part 
+marking. If a blade assembly has a certain serial number or part 
+marking, the AD would also require initially and repetitively 
+inspecting the tail rotor blade for a crack in the strap and pocket 
+areas. If a crack is found, this AD would also require, before further 
+flight, replacing the blade assembly with an airworthy blade assembly 
+that does not have an affected serial number or part marking. This 
+proposal is prompted by several reports of cracking in the strap or 
+pocket areas of the tail rotor blade. This condition, if not corrected, 
+could result in failure of the tail rotor blade and subsequent loss of 
+control of the helicopter.
+    We have reviewed Erickson Alert Service Bulletin 64B15-9, Revision 
+B, dated October 6, 2006 (ASB), which describes procedures for 
+determining and inspecting certain marked or serial numbered tail rotor 
+blades. The ASB specifies repetitive inspections not to exceed 6 flight 
+hours for the S-64F model and not to exceed 15 flight hours for the S-
+64E model. Alternate inspection schedules are also included for ``ferry 
+flights'' used for delivering the helicopter from one area of operation 
+to another. The ``ferry flight'' time would be the flight time 
+beginning at the end of the last operation in one area to the beginning 
+of the first operation in another area. If a crack is found in the 
+strap or pocket, the ASB specifies removing and replacing the blade.
+    We propose to depart from the language of the ASB and propose to 
+use the terms hours time-in-service (TIS) instead of maximum ground-
+air-ground (GAG) cycles. We propose to define a ``ferry flight'' as a 
+helicopter flight used for delivering the helicopter from one area of 
+operation to another. During the ``ferry flight'' the helicopter would 
+not drop off an external load or pick up an external load. A GAG cycle 
+as defined in the ASB for the purposes of these inspections is any 
+maneuver that results in a climb-out similar to one following takeoff. 
+The proposed inspection intervals for the ferry flights were also 
+modified to accommodate a new range of values based on specifications 
+supplied by Erickson. The proposed inspection intervals were determined 
+by multiplying the maximum GAG cycles in the ASB for the given takeoff 
+weight by the flight endurance of 2.5 hours TIS for the Model S-64E and 
+2.2 hours TIS for the Model S-64F helicopters and rounding the result 
+to a near whole number as deemed appropriate.
+    This unsafe condition is likely to exist or develop on other 
+helicopters of these same type designs. Therefore, the proposed AD 
+would require for each blade assembly, part number (P/N) 65161-00001-
+042 or -043, the following actions:
+     Within 25 hours TIS, unless done previously, determine if 
+the blade assembly has a serial number listed in the ASB. Also, 
+determine if the blade assembly is marked with an ``RS503'' near the 
+part number.
+     If the blade assembly serial number is not listed in the 
+ASB and does not have ``RS503'' marked near the part number, no further 
+action would be required by this AD.
+     If a blade assembly has either an affected serial number 
+or part marking, before further flight, using a 10-power or higher 
+magnifying glass, inspect both sides of the blade assembly for a crack 
+in the strap and pocket areas paying particular attention to the 
+circled area as depicted in Figure 1 of the ASB.
+     If no crack is found, inspect the blade assembly at 
+intervals not to exceed those TIS intervals specified in Table 1 of the 
+AD.
+     If a crack is found, before further flight, replace the 
+unairworthy blade assembly with an airworthy FAA approved blade 
+assembly that does not have a serial number listed in the ASB and does 
+not have ``RS503'' marked near the part number.
+    The actions would be required to be done by following the specified 
+portions of the ASB described previously.
+    We estimate that this proposed AD would:
+     Affect 20 helicopters of U.S. registry; 13 Model S-64E and 
+7 Model S-64F;
+     Require about 1 work hour to determine whether an affected 
+blade is installed;
+     Require about 1 work hour to inspect the blade assembly, 
+assuming about 40 inspections a year for each Model S-64E (total 520) 
+and about 100
+
+[[Page 74212]]
+
+inspections a year for each Model S-64F (total 700);
+     Require about 4 work hours to replace each tail rotor 
+blade, assuming 10 tail rotor blade assemblies are replaced;
+     Cost about $80 per work hour; and
+     Cost about $60,000 per blade assembly.
+    Based on these figures, the estimated total cost impact of the 
+proposed AD on U.S. operators would be $702,400, based on the stated 
+assumptions.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. Additionally, this proposed 
+AD would not have a substantial direct effect on the States, on the 
+relationship between the national Government and the States, or on the 
+distribution of power and responsibilities among the various levels of 
+government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a draft economic evaluation of the estimated costs to 
+comply with this proposed AD. See the DMS to examine the draft economic 
+evaluation.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by adding a new airworthiness directive 
+to read as follows:
+
+    Erickson Air-Crane Incorporated: Docket No. FAA-2007-0373; 
+Directorate Identifier 2006-SW-14-AD.
+
+Applicability
+
+    Model S-64E and S-64F helicopters, with tail rotor blade 
+assembly (blade assembly), part number (P/N) 65161-00001-042 or -
+043, installed, certificated in any category.
+
+Compliance
+
+    Required as indicated.
+    To prevent failure of the tail rotor blade and subsequent loss 
+of control of the helicopter, do the following:
+    (a) Within 25 hours time-in-service (TIS), unless accomplished 
+previously:
+    (1) Determine if the blade assembly has a serial number listed 
+in the Accomplishment Instructions, paragraph 2.A., of Erickson Air-
+Crane Incorporated Alert Service Bulletin No. 64B15-9, Revision B, 
+dated October 6, 2006 (ASB). Also, determine if the blade assembly 
+has ``RS503'' marked near the P/N.
+    (2) If the blade assembly serial number is not listed in the ASB 
+and does not have ``RS503'' marked near the P/N, no further action 
+is required by this AD.
+    (3) If a blade assembly has either a serial number listed in 
+paragraph 2.A of the ASB or has ``RS503'' marked near the part 
+number, before further flight, using a 10-power or higher magnifying 
+glass, inspect both sides of the blade assembly for a crack in the 
+strap and pocket areas paying particular attention to the circled 
+area as depicted in Figure 1 of the ASB.
+    (i) If no crack is found, inspect the blade assembly as 
+specified in paragraph (a)(3) of this AD at intervals not to exceed 
+those shown in the following table:
+
+                                 Table 1
+------------------------------------------------------------------------
+                                                           Maximum time
+                                   Gross takeoff weight       between
+          Mission type                    (lbs)             inspections
+                                                            (hours TIS)
+------------------------------------------------------------------------
+         Model S-64E Tail Rotor Blade Strap Inspection Intervals
+------------------------------------------------------------------------
+Ferry Only.....................  Above 35,000...........              30
+Ferry Only.....................  Above 30,000 and less                35
+                                  than or equal to
+                                  35,000.
+Ferry Only.....................  Below or equal to                    40
+                                  30,000.
+All Others.....................  All....................              15
+------------------------------------------------------------------------
+         Model S-64F Tail Rotor Blade Strap Inspection Intervals
+------------------------------------------------------------------------
+Ferry Only.....................  Above 35,000...........               8
+Ferry Only.....................  Above 30,000 and less                15
+                                  than or equal to
+                                  35,000.
+Ferry Only.....................  Below or equal to                    17
+                                  30,000.
+All Others.....................  All....................               6
+------------------------------------------------------------------------
+
+
+    Note: For the purposes of this AD, a ferry flight is defined as 
+a helicopter flight used for delivering the helicopter from one area 
+of operation to another. During the ferry flight, the helicopter 
+would not drop off an external load or pick up an external load.
+
+    (ii) If a crack is found, before further flight, replace the 
+unairworthy blade assembly with an airworthy FAA approved blade 
+assembly that does not have a serial number listed in paragraph 2.A 
+of the ASB and does not have ``RS503'' marked near the P/N.
+
+[[Page 74213]]
+
+    (b) Installing an airworthy blade assembly that does not have a 
+serial number listed in paragraph 2.A of the ASB and does not have 
+``RS503'' marked near the P/N is terminating action for the 
+requirements of this AD.
+    (c) To request a different method of compliance or a different 
+compliance time for this AD, follow the procedures in 14 CFR 39.19. 
+Contact the Manager, Rotorcraft Directorate, Rotorcraft 
+Certification Office, FAA, ATTN: Michael Kohner, Aviation Safety 
+Engineer, Fort Worth, Texas 76193-0170, telephone (817) 222-5447, 
+fax (817) 222-5783.
+
+    Issued in Fort Worth, Texas, on November 28, 2007.
+Mark R. Schilling,
+Acting Manager, Rotorcraft Directorate, Aircraft Certification Service.
+[FR Doc. E7-25411 Filed 12-28-07; 8:45 am]
+BILLING CODE 4910-13-P
+
+

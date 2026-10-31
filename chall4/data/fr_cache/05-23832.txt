@@ -1,0 +1,313 @@
+
+[Federal Register Volume 70, Number 236 (Friday, December 9, 2005)]
+[Proposed Rules]
+[Pages 73173-73175]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-23832]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2005-23249; Directorate Identifier 2005-NM-219-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Gulfstream Model GV-SP Series Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) 
+for certain Gulfstream Model GV-SP series airplanes. This proposed AD 
+would require an inspection to determine the serial number of the anti-
+skid control unit (ACU) in the right electronics equipment rack, and 
+replacement of the ACU with a new or serviceable ACU if necessary. This 
+proposed AD results from a report that an airplane temporarily lost 
+normal braking function during landing rollout on a pre-delivery 
+flight. We are proposing this AD to prevent loss of normal braking 
+function, which could result in a runway overrun that could cause 
+injury to flightcrew or passengers or damage to the airplane.
+
+DATES: We must receive comments on this proposed AD by January 23, 
+2006.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility, U.S. Department of 
+Transportation, 400 Seventh Street, SW., Nassif Building, Room PL-401, 
+Washington, DC 20590.
+     Fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street, SW., Washington, DC, between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    Contact Gulfstream Aerospace Corporation, Technical Publications 
+Dept., P.O. Box 2206, Savannah, Georgia 31402-2206, for the service 
+information identified in this proposed AD.
+
+FOR FURTHER INFORMATION CONTACT: Darby Mirocha, Aerospace Engineer, 
+Systems and Equipment Branch, ACE-119A, FAA, Atlanta Aircraft 
+Certification Office, One Crown Center, 1895 Phoenix Boulevard, suite 
+450, Atlanta, Georgia 30349; telephone (770) 703-6095; fax (770) 703-
+6097.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to submit any relevant written data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed in the ADDRESSES section. Include the docket number ``FAA-2005-
+23249; Directorate Identifier 2005-NM-219-AD'' at the
+
+[[Page 73174]]
+
+beginning of your comments. We specifically invite comments on the 
+overall regulatory, economic, environmental, and energy aspects of the 
+proposed AD. We will consider all comments received by the closing date 
+and may amend the proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed AD. Using the search function of 
+that Web site, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You may review DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or you 
+may visit http://dms.dot.gov.
+
+Examining the Docket
+
+    You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the DOT 
+street address stated in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after the Docket Management System 
+receives them.
+
+Discussion
+
+    We have received a report indicating that a Gulfstream Model GV-SP 
+series airplane temporarily lost normal braking function during landing 
+rollout on a pre-delivery flight. The flightcrew received no indication 
+of failure or degradation within the braking system prior to the loss 
+of braking. Normal braking function was recovered after the wheel speed 
+decreased through 50 knots. Investigation revealed that the temporary 
+loss of braking was caused by incorrect capacitors installed in the 
+anti-skid control unit (ACU). The manufacturer of the ACUs has 
+identified a range of serial numbers that may have this defect. Loss of 
+normal braking function, if not corrected, could result in a runway 
+overrun that could cause injury to flightcrew or passengers or damage 
+to the airplane.
+
+Relevant Service Information
+
+    We have reviewed Gulfstream G500 Customer Bulletin 17, dated August 
+12, 2005 (for Model GV-SP (G500) series airplanes); and Gulfstream G550 
+Customer Bulletin 17, dated August 12, 2005 (for Model GV-SP (G550) 
+series airplanes). The customer bulletins describe procedures for 
+inspecting the ACU in the right electronics equipment rack to determine 
+the serial number (S/N). If the ACU unit has an affected S/N, the 
+customer bulletins also describe procedures for replacing the ACU unit 
+with a new part having a S/N outside the affected range or with a 
+serviceable part having a re-identified S/N. Accomplishing the actions 
+specified in the service information is intended to adequately address 
+the unsafe condition.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    We have evaluated all pertinent information and identified an 
+unsafe condition that is likely to exist or develop on other airplanes 
+of this same type design. For this reason, we are proposing this AD, 
+which would require accomplishing the actions specified in the service 
+information described previously, except as discussed under 
+``Differences Between the Proposed AD and Customer Bulletins.''
+
+Differences Between the AD and Customer Bulletins
+
+    Although the customer bulletins recommend accomplishing the 
+inspection within 60 days, we have determined that extending the 
+compliance time will not adversely affect safety for the affected 
+fleet. In developing an appropriate compliance time for this AD, we 
+considered the degree of urgency associated with the subject unsafe 
+condition, the average utilization of the affected fleet, and the time 
+necessary to perform the inspection (1 hour). In light of all of these 
+factors, we find that a 90-day compliance time represents an 
+appropriate interval of time for affected airplanes to continue to 
+operate without compromising safety. This difference has been 
+coordinated with Gulfstream.
+    Operators should note that, although the Accomplishment 
+Instructions of the referenced customer bulletins describe procedures 
+for submitting a sheet recording compliance with the customer 
+bulletins, this AD would not require those actions. We do not need this 
+information from operators.
+
+Clarification of Customer Bulletins
+
+    The accomplishment instructions of the referenced customer 
+bulletins specify contacting Gulfstream if technical assistance is 
+required. We have included a note in this AD to clarify that any 
+deviation from the instructions in the applicable customer bulletin 
+must be approved as an alternative method of compliance under paragraph 
+(h) of this AD.
+
+Costs of Compliance
+
+    There are about 20 airplanes of the affected design in the 
+worldwide fleet. This proposed AD would affect about 15 airplanes of 
+U.S. registry. The proposed inspection would take about 1 work hour per 
+airplane, at an average labor rate of $65 per work hour. Based on these 
+figures, the estimated cost of the proposed AD for U.S. operators is 
+$975, or $65 per airplane.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+subtitle VII, part A, subpart III, section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the National Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD and placed it in the
+
+[[Page 73175]]
+
+AD docket. See the ADDRESSES section for a location to examine the 
+regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The Federal Aviation Administration (FAA) amends Sec.  39.13 by 
+adding the following new airworthiness directive (AD):
+
+Gulfstream Aerospace Corporation: Docket No. FAA-2005-23249; 
+Directorate Identifier 2005-NM-219-AD.
+
+Comments Due Date
+
+    (a) The FAA must receive comments on this AD action by January 
+23, 2006.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to Gulfstream Model GV-SP series airplanes, 
+certificated in any category; serial numbers 5044-5063 inclusive.
+
+Unsafe Condition
+
+    (d) This AD results from a report that an airplane temporarily 
+lost normal braking function during landing rollout on a pre-
+delivery flight. We are issuing this AD to prevent loss of normal 
+braking function, which could result in a runway overrun that could 
+cause injury to flightcrew or passengers or damage to the airplane.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Inspection and Replacement If Necessary
+
+    (f) Within 90 days after the effective date of this AD, inspect 
+the anti-skid control unit (ACU) in the right electronics equipment 
+rack to determine the serial number (S/N), in accordance with the 
+Accomplishment Instructions of Gulfstream G500 Customer Bulletin 17, 
+dated August 12, 2005 (for Model GV-SP (G500) series airplanes); or 
+Gulfstream G550 Customer Bulletin 17, dated August 12, 2005 (for 
+Model GV-SP (G550) series airplanes); as applicable. If the S/N of 
+the ACU is in the affected range of S/N 355-400 inclusive: Replace 
+the ACU with a new ACU having a S/N outside the affected range or 
+with a serviceable ACU having a reidentified S/N, in accordance with 
+the applicable customer bulletin.
+
+    Note 1: The Accomplishment Instructions of the Gulfstream 
+customer bulletins instruct operators to contact Gulfstream if 
+technical assistance is required. However, any deviation from the 
+instructions provided in the applicable customer bulletin must be 
+approved as an alternative method of compliance under paragraph (h) 
+of this AD.
+
+No Reporting Requirement
+
+    (g) Although the customer bulletins referenced in this AD 
+specify to submit certain information to the manufacturer, this AD 
+does not include that requirement.
+
+AMOCs
+
+    (h)(1) The Manager, Atlanta Aircraft Certification Office, FAA, 
+has the authority to approve AMOCs for this AD, if requested in 
+accordance with the procedures found in 14 CFR 39.19.
+    (2) Before using any AMOC approved in accordance with Sec.  
+39.19 on any airplane to which the AMOC applies, notify the 
+appropriate principal inspector in the FAA Flight Standards 
+Certificate Holding District Office.
+
+    Issued in Renton, Washington, on December 2, 2005.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 05-23832 Filed 12-8-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

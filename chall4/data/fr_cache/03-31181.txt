@@ -1,0 +1,284 @@
+
+[Federal Register Volume 68, Number 243 (Thursday, December 18, 2003)]
+[Proposed Rules]
+[Pages 70475-70477]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 03-31181]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2002-NM-352-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Empresa Brasileira de Aeronautica S.A. 
+(EMBRAER) Model EMB-135 and -145 Series Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes the adoption of a new airworthiness 
+directive (AD) that is applicable to certain Empresa Brasileira de 
+Aeronautica S.A. (EMBRAER) Model EMB-135 and -145 series airplanes. 
+This proposal would require replacement of the air turbine starters 
+(ATS) with modified ATSs. This action is necessary to prevent sheared 
+ATS output shafts, which could result in oil flowing down the engine 
+accessory gear box shafts and dripping into the engine
+
+[[Page 70476]]
+
+compartments, and consequent oil fire, in-flight shutdown, and/or 
+rejected take-off. This action is intended to address the identified 
+unsafe condition.
+
+DATES: Comments must be received by January 20, 2004.
+
+ADDRESSES: Submit comments in triplicate to the Federal Aviation 
+Administration (FAA), Transport Airplane Directorate, ANM-114, 
+Attention: Rules Docket No. 2002-NM-352-AD, 1601 Lind Avenue, SW., 
+Renton, Washington 98055-4056. Comments may be inspected at this 
+location between 9 a.m. and 3 p.m., Monday through Friday, except 
+Federal holidays. Comments may be submitted via fax to (425) 227-1232. 
+Comments may also be sent via the Internet using the following address: 
+[email protected]. Comments sent via fax or the Internet must 
+contain ``Docket No. 2002-NM-352-AD'' in the subject line and need not 
+be submitted in triplicate. Comments sent via the Internet as attached 
+electronic files must be formatted in Microsoft Word 97 or 2000 or 
+ASCII text.
+    The service information referenced in the proposed rule may be 
+obtained from Empresa Brasileira de Aeronautica S.A. (EMBRAER), P.O. 
+Box 343-CEP 12.225, Sao Jose dos Campos-SP, Brazil. This information 
+may be examined at the FAA, Transport Airplane Directorate, 1601 Lind 
+Avenue, SW., Renton, Washington.
+
+FOR FURTHER INFORMATION CONTACT: Todd Thompson, Aerospace Engineer, 
+International Branch, ANM-116, FAA, Transport Airplane Directorate, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+227-1175; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    Interested persons are invited to participate in the making of the 
+proposed rule by submitting such written data, views, or arguments as 
+they may desire. Communications shall identify the Rules Docket number 
+and be submitted in triplicate to the address specified above. All 
+communications received on or before the closing date for comments, 
+specified above, will be considered before taking action on the 
+proposed rule. The proposals contained in this action may be changed in 
+light of the comments received.
+    Submit comments using the following format:
+    [sbull] Organize comments issue-by-issue. For example, discuss a 
+request to change the compliance time and a request to change the 
+service bulletin reference as two separate issues.
+    [sbull] For each issue, state what specific change to the proposed 
+AD is being requested.
+    [sbull] Include justification (e.g., reasons or data) for each 
+request.
+    Comments are specifically invited on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed rule. All 
+comments submitted will be available, both before and after the closing 
+date for comments, in the Rules Docket for examination by interested 
+persons. A report summarizing each FAA-public contact concerned with 
+the substance of this proposal will be filed in the Rules Docket.
+    Commenters wishing the FAA to acknowledge receipt of their comments 
+submitted in response to this action must submit a self-addressed, 
+stamped postcard on which the following statement is made: ``Comments 
+to Docket Number 2002-NM-352-AD.'' The postcard will be date stamped 
+and returned to the commenter.
+
+Availability of NPRMs
+
+    Any person may obtain a copy of this NPRM by submitting a request 
+to the FAA, Transport Airplane Directorate, ANM-114, Attention: Rules 
+Docket No. 2002-NM-352-AD, 1601 Lind Avenue, SW., Renton, Washington 
+98055-4056.
+
+Discussion
+
+    The Departmento de Aviacao Civil (DAC), which is the airworthiness 
+authority for Brazil, notified the FAA that an unsafe condition may 
+exist on certain EMBRAER Model EMB-135 and -145 series airplanes. The 
+DAC advises that it has received reports of interference problems 
+between the engine air turbine starter (ATS) output shafts and the 
+engine accessory gear box (AGB) shafts, which resulted in sheared ATS 
+output shafts. Sheared ATS output shafts could result in oil flowing 
+down the engine AGB shafts and dripping into the engine compartments, 
+and consequent oil fire, in-flight shutdown, and/or rejected take-off.
+
+Explanation of Relevant Service Information
+
+    EMBRAER has issued Service Bulletin 145-80-0004, Change 01, dated 
+October 22, 2001, which describes procedures for replacing the existing 
+ATS with a modified ATS. That service bulletin references Honeywell 
+Service Bulletin 3505910-80-1710, Revision 1, dated August 7, 2001, as 
+an additional source of service information for accomplishment of the 
+modification. The Honeywell service bulletin is included within the 
+EMBRAER service bulletin. The procedures in the Honeywell service 
+bulletin include inspecting the magnetic drain plug for metal 
+contamination, inspecting the ATS output shafts for interference marks, 
+modifying the ATS output shafts by machining/drilling holes and 
+installing a restrictor, and installing modified ATSs on the airplane. 
+Accomplishment of the actions specified in the service bulletin is 
+intended to adequately address the identified unsafe condition. The DAC 
+classified this service bulletin as mandatory and issued Brazilian 
+airworthiness directive 2001-09-04, dated October 10, 2001, to ensure 
+the continued airworthiness of these airplanes in Brazil.
+
+FAA's Conclusions
+
+    These airplane models are manufactured in Brazil and are type 
+certificated for operation in the United States under the provisions of 
+Sec.  21.29 of the Federal Aviation Regulations (14 CFR 21.29) and the 
+applicable bilateral airworthiness agreement. Pursuant to this 
+bilateral airworthiness agreement, the DAC has kept the FAA informed of 
+the situation described above. The FAA has examined the findings of the 
+DAC, reviewed all available information, and determined that AD action 
+is necessary for products of this type design that are certificated for 
+operation in the United States.
+
+Explanation of Requirements of Proposed AD
+
+    Since an unsafe condition has been identified that is likely to 
+exist or develop on other airplanes of the same type design registered 
+in the United States, the proposed AD would require accomplishment of 
+the actions specified in the service bulletin described previously, 
+except as described below.
+
+Difference Between the Brazilian AD and the Proposed AD
+
+    The effectivity listed in the original issue of EMBRAER Service 
+Bulletin 145-80-0004, dated May 23, 2001, was the same as the 
+applicability listed in Brazilian airworthiness directive 2001-09-04, 
+dated October 10, 2001. When EMBRAER Service Bulletin 145-80-0004, 
+Change 01, dated October 22, 2001, was issued, the effectivity was 
+revised and additional airplanes were added to the effectivity of the 
+service bulletin. The Brazilian airworthiness directive has not been 
+revised; therefore, the applicability does not match the current 
+effectivity listed in Change 01 of the service bulletin. The 
+applicability of this proposed AD references the effectivity as listed 
+in Change 01 of the service bulletin so all affected airplanes
+
+[[Page 70477]]
+
+are addressed. This difference has been coordinated with the DAC.
+
+Cost Impact
+
+    The FAA estimates that 290 airplanes of U.S. registry would be 
+affected by this proposed AD, that it would take approximately 1 work 
+hour per airplane to accomplish the proposed actions, and that the 
+average labor rate is $65 per work hour. There would be no charge for 
+required parts. Based on these figures, the cost impact of the proposed 
+AD on U.S. operators is estimated to be $18,850, or $65 per airplane.
+    The cost impact figure discussed above is based on assumptions that 
+no operator has yet accomplished any of the proposed requirements of 
+this AD action, and that no operator would accomplish those actions in 
+the future if this AD were not adopted. The cost impact figures 
+discussed in AD rulemaking actions represent only the time necessary to 
+perform the specific actions actually required by the AD. These figures 
+typically do not include incidental costs, such as the time required to 
+gain access and close up, planning time, or time necessitated by other 
+administrative actions.
+
+Regulatory Impact
+
+    The regulations proposed herein would not have a substantial direct 
+effect on the States, on the relationship between the national 
+Government and the States, or on the distribution of power and 
+responsibilities among the various levels of government. Therefore, it 
+is determined that this proposal would not have federalism implications 
+under Executive Order 13132.
+    For the reasons discussed above, I certify that this proposed 
+regulation (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under the DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979); 
+and (3) if promulgated, will not have a significant economic impact, 
+positive or negative, on a substantial number of small entities under 
+the criteria of the Regulatory Flexibility Act. A copy of the draft 
+regulatory evaluation prepared for this action is contained in the 
+Rules Docket. A copy of it may be obtained by contacting the Rules 
+Docket at the location provided under the caption ADDRESSES.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by adding the following new 
+airworthiness directive:
+
+Empresa Brasileira de Aeronautica S.A. (EMBRAER): Docket 2002-NM-
+352-AD.
+
+    Applicability: Model EMB-135 and -145 series airplanes, as 
+listed in EMBRAER Service Bulletin 145-80-0004, Change 01, dated 
+October 22, 2001; certificated in any category.
+    Compliance: Required as indicated, unless accomplished 
+previously.
+    To prevent sheared air turbine starters (ATS) output shafts, 
+which could result in oil flowing down the engine accessory gear box 
+shafts and dripping into the engine compartments, and consequent oil 
+fire, in-flight shutdown, and/or rejected take-off, accomplish the 
+following:
+
+Replacement of ATSs With Modified ATSs
+
+    (a) Within 800 flight hours after the effective date of this AD, 
+replace the ATSs with modified ATSs in accordance with the 
+Accomplishment Instructions of EMBRAER Service Bulletin 145-80-0004, 
+Change 01, dated October 22, 2001.
+
+    Note 1: Honeywell Service Bulletin 3505910-80-1710, Revision 1, 
+dated August 7, 2001, is incorporated within the pages of EMBRAER 
+Service Bulletin 145-80-0004, Change 01, dated October 22, 2001.
+
+    (b) Accomplishment of the specified actions before the effective 
+date of this AD in accordance with EMBRAER Service Bulletin 145-80-
+0004, dated May 23, 2001, is considered acceptable for compliance 
+with paragraph (a) of this AD.
+
+Alternative Methods of Compliance
+
+    (c) In accordance with 14 CFR 39.19, the Manager, International 
+Branch, ANM-116, FAA, Transport Airplane Directorate, is authorized 
+to approve alternative methods of compliance for this AD.
+
+    Note 2: The subject of this AD is addressed in Brazilian 
+airworthiness directive 2001-09-04, dated October 10, 2001.
+
+
+    Issued in Renton, Washington, on December 10, 2003.
+Kevin Mullin,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 03-31181 Filed 12-17-03; 8:45 am]
+BILLING CODE 4910-13-U
+
+

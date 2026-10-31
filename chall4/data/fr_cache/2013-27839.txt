@@ -1,0 +1,179 @@
+
+[Federal Register Volume 78, Number 224 (Wednesday, November 20, 2013)]
+[Proposed Rules]
+[Pages 69594-69595]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2013-27839]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2013-0972; Directorate Identifier 2002-NM-009-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Airbus Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for all Airbus Model A330 
+series airplanes. The NPRM would have required replacement of the 
+elevator servo-controls with new servo-controls when the existing parts 
+have reached their operational life limit. Since the NPRM was issued, 
+we have determined that more restrictive maintenance requirements and 
+airworthiness limitations are necessary and that NPRM does not 
+adequately address the identified unsafe condition. Accordingly, the 
+NRPM is withdrawn.
+
+DATES: As of November 20, 2013, the proposed rule, which was published 
+in the Federal Register on September 18, 2003, (68 FR 54694), is 
+withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://www.regulations.gov; or in person at the Docket Management Facility 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this AD action, the NPRM (68 FR 54694, 
+September 18, 2003), the Mandatory Continuing Airworthiness Information 
+(MCAI), the regulatory evaluation, any comments received, and other 
+information. The address for the Docket Office (phone: 800-647-5527) is 
+the Document Management Facility, U.S. Department of Transportation, 
+Docket Operations, M-30, West Building Ground Floor, Room W12-140, 1200 
+New Jersey Avenue SE., Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Vladimir Ulyanov, Aerospace Engineer, 
+International Branch, ANM-116, Transport Airplane Directorate, FAA, 
+1601 Lind Avenue SW., Renton, WA 98057-3356; telephone (425) 227-1138; 
+fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for all Airbus Model A330 series airplanes. The NPRM, FAA Docket No. 
+FAA-2013-0972, Directorate Identifier 2002-NM-009-AD identified as the 
+``Directorate Identifier'' in this AD action), was published in the 
+Federal Register on September 18, 2003 (68 FR 54694). The NPRM proposed 
+to correct an unsafe condition for the specified products.
+
+[[Page 69595]]
+
+    The Direction G[eacute]n[eacute]rale de l'Aviation Civile (DGAC), 
+which is the aviation authority for France, issued French Airworthiness 
+Directive 2001-545(B) R1, dated October 16, 2002 (referred to after 
+this as ``the MCAI''), to correct an unsafe condition for the specified 
+products. The MCAI states:
+
+    The operational life limits of the aircraft servo-controls, and 
+in particular of the elevator servo-controls given in the Revision 8 
+of AMM Chapter 05-11-00 Configuration 1 (dated September 15, 1999) 
+are not addressed by the definition of the structural life limits of 
+Safe Life items as defined in Section 9.1 (Life limits/Monitored 
+parts) of the Airworthiness Limitations Section (located in the MPD 
+Section 9) which replaces the aircraft AMM Chapter 05-11. As a 
+result these life limits are removed from the above documents and 
+integrated into this [French] Airworthiness Directive (AD).
+    In addition, this [French] AD restates the life limits 
+requirements of AD 95-032-008(B) R1, and introduces provisional 
+operational life limits for P/N's SC-4800-7A and SC-4800-9.
+    The aim of this [French] AD is to require the removal and 
+replacement of the servo-controls when they have reached their 
+operational life limits.
+    The Revision 1 of this [French] AD aims to increase the 
+operational life limit in active mode of Elevator Servo-controls P/N 
+SC4800 listed in paragraph COMPLIANCE 3.2.3. of this [French] AD, 
+following new test results demonstrating a provisional life of 
+40,000 cycles and to remove reference of P/N SC4800-2 amendments A, 
+B, C, D, E, F or G and SC4800-4 amendment H which are not anymore in 
+service under this identification.
+
+The NPRM (68 FR 54694, September 18, 2003) resulted from reports of 
+cracking in the end caps and along the barrel on elevator servo-
+controls that exceeded their operational life limits, which could lead 
+to hydraulic leakage and internal damage within the servo-control. The 
+proposed actions were intended to prevent hydraulic leakage and 
+internal damage of the elevator servo-controls due to cracks in the end 
+caps and along the barrel, which could result in a reduction in the 
+elevator's protection against vibration or loss of the hydraulic 
+circuit, and consequent reduced controllability of the airplane. You 
+may obtain further information by examining the MCAI in the AD docket.
+
+Actions Since NPRM (68 FR 54694, September 18, 2003) Was Issued
+
+    Since we issued the NPRM (68 FR 54694, September 18, 2003), we have 
+determined that more restrictive maintenance requirements and 
+airworthiness limitations are necessary to adequately address the 
+identified unsafe condition. French Airworthiness Directive 2001-545(B) 
+R1, dated October 16, 2002, was superseded by The European Aviation 
+Safety Agency (EASA) Airworthiness Directive 2012-0020, dated January 
+30, 2012, which mandates the use of Airbus A330 Airworthiness 
+Limitations Section (ALS) Part 4--Aging Systems Maintenance, Revision 
+03, dated September 9, 2011. The replacement requirements and 
+thresholds for parts originally defined in the NPRM are now contained 
+in Airbus A330 ALS Part 4--Aging Systems Maintenance, Revision 03, 
+dated September 9, 2011. We have issued NPRM Docket No. FAA-2013-0834, 
+Directorate Identifier 2012-NM-045-AD (78 FR 66861, November 7, 2013), 
+which corresponds to EASA Airworthiness Directive 2012-0020, dated 
+January 30, 2012. The NPRM, FAA Docket No. FAA-2013-0834, Directorate 
+Identifier 2012-NM-045-AD, applies to certain Airbus Model A330 and 
+A340 series airplanes and proposes to mandate the requirements now 
+contained in Airbus A330 ALS Part 4--Aging Systems Maintenance, 
+Revision 03, dated September 9, 2011.
+
+Comments
+
+    We gave the public the opportunity to participate in developing 
+this AD. We received no comments on the NPRM (68 FR 54694, September 
+18, 2003) or on the determination of the cost to the public.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that more 
+restrictive maintenance requirements and airworthiness limitations are 
+necessary to adequately address the unsafe condition identified in the 
+NPRM (68 FR 54694, September 18, 2003), and that additional rulemaking 
+is necessary. Accordingly, the NPRM is withdrawn.
+    Withdrawal of the NPRM (68 FR 54694, September 18, 2003) does not 
+preclude the FAA from issuing another related action or commit the FAA 
+to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM (68 FR 54694, September 
+18, 2003), it is neither a proposed nor a final rule and therefore is 
+not covered under Executive Order 12866, the Regulatory Flexibility 
+Act, or DOT Regulatory Policies and Procedures (44 FR 11034, February 
+26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2013-0972, 
+Directorate Identifier 2002-NM-009-AD, which published in the Federal 
+Register on September 18, 2003 (68 FR 54694).
+
+    Issued in Renton, Washington, on September 24, 2013.
+Jeffrey E. Duven,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2013-27839 Filed 11-19-13; 8:45 am]
+BILLING CODE 4910-13-P
+
+

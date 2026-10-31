@@ -1,0 +1,118 @@
+
+[Federal Register Volume 66, Number 137 (Tuesday, July 17, 2001)]
+[Proposed Rules]
+[Pages 37197-37198]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 01-17759]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2000-NM-27-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 727-100 Series Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to certain 
+Boeing Model 727-100 series airplanes.
+
+[[Page 37198]]
+
+That action would have required repetitive inspections to detect 
+corrosion of the lower surface of the wing center section and the 
+surrounding area, and follow-on actions. Since the issuance of the 
+NPRM, the Federal Aviation Administration (FAA) has received new 
+information that indicates that the unsafe condition does not exist on 
+the airplanes identified in the proposed rule. Accordingly, the NPRM is 
+withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Stan Wood, Aerospace Engineer, 
+Airframe Branch, ANM-120S, FAA, Transport Airplane Directorate, 1601 
+Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 227-
+2772; fax (425) 227-1181.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to certain Boeing Model 727-100 series 
+airplanes, was published in the Federal Register as a Notice of 
+Proposed Rulemaking (NPRM) on April 5, 2000 (65 FR 17827). The NPRM 
+would have required repetitive inspections to detect corrosion of the 
+lower surface of the wing center section and the surrounding area, and 
+follow-on actions. The NPRM was prompted by a report from the 
+manufacturer indicating that the affected airplanes were subject to 
+corrosion progression through the lower surface of the wing center 
+section into the center wing fuel tank, and subsequent fuel leakage 
+into the ram air duct. The proposed actions were intended to detect and 
+correct such conditions, which, if combined with a leak in the primary 
+or secondary heat exchanger, could result in the release of fuel vapors 
+into the cabin and consequent adverse effects on flight crew and 
+passengers.
+
+Actions Since the NPRM Was Issued
+
+    Since the issuance of the NPRM, the FAA has received new 
+information concerning the configuration of Model 727-100 series 
+airplanes, which are identified in the applicability of the NPRM. The 
+NPRM was based on configuration similarities between those airplanes 
+and Model 727-200 series airplanes, which are identified in the 
+applicability of AD 85-24-02, amendment 39-5170 (50 FR 47356, November 
+18, 1985). That AD addresses a corrosion problem in the area of the 
+lower surface of the wing center section, which forms the upper wall of 
+the ram air plenum chambers. As a result of the corrosion problem, fuel 
+leaked into the plenum chambers and fuel vapors were circulated into 
+the airplane air conditioning system and cockpit. The FAA has verified 
+that the configuration of the subject area on Model 727-100 series 
+airplanes is not the same as that on Model 727-200 series airplanes. 
+Therefore, the three Model 727-100 series airplanes affected by the 
+NPRM are not susceptible to the unsafe condition.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that the 
+identified unsafe condition does not exist on the airplanes identified 
+in the NPRM. Accordingly, the proposed rule is hereby withdrawn.
+    Withdrawal of this notice of proposed rulemaking constitutes only 
+such action, and does not preclude the agency from issuing another 
+notice in the future, nor does it commit the agency to any course of 
+action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 2000-NM-27-
+AD, published in the Federal Register on April 5, 2000 (65 FR 17827), 
+is withdrawn.
+
+    Issued in Renton, Washington, on July 10, 2001.
+Donald L. Riggin,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 01-17759 Filed 7-16-01; 8:45 am]
+BILLING CODE 4910-13-U
+
+

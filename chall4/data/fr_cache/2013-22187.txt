@@ -1,0 +1,186 @@
+
+[Federal Register Volume 78, Number 177 (Thursday, September 12, 2013)]
+[Proposed Rules]
+[Pages 56182-56183]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2013-22187]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2012-0859; Directorate Identifier 2012-NM-090-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; The Boeing Company Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed to rescind airworthiness directive (AD) 2008-06-03, which 
+applies to certain The Boeing Company Model 737-600, -700, -700C, -800 
+and -900 series airplanes; and Model 757-200, -200PF, -200CB, and -300 
+series airplanes. The NPRM would have rescinded AD 2008-06-03, which 
+requires an inspection to determine if certain motor-operated shutoff 
+valve actuators for the fuel tanks are installed, and related 
+investigative and corrective actions if necessary. AD 2008-06-03 also 
+requires revising the Airworthiness Limitations (AWLs) section of the 
+Instructions for Continued Airworthiness to incorporate certain AWLs. 
+Since the NPRM was issued, we have determined that it does not 
+adequately address the safety concerns. Accordingly, the NPRM is 
+withdrawn.
+
+DATES: As of September 12, 2013, the proposed rule, which was published 
+on August 27, 2012 (77 FR 51722), is withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://www.regulations.gov; or in person at the Docket Management Facility 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this AD action, the proposed rule (77 
+FR 51722, August 27, 2012), the regulatory evaluation, any comments 
+received, and other information. The address for the Docket Office 
+(phone: 800-647-5527) is the Document Management Facility, U.S. 
+Department of Transportation, Docket Operations, M-30, West Building 
+Ground Floor, Room W12-140, 1200 New Jersey Avenue SE., Washington, DC 
+20590.
+
+FOR FURTHER INFORMATION CONTACT: Rebel Nichols, Aerospace Engineer, 
+Propulsion Branch, ANM-140S, FAA, Seattle Aircraft Certification 
+Office, 1601 Lind Avenue SW., Renton, WA 98057-3356; phone: (425) 917-
+6509; fax: (425) 917-6590; email: [email protected].
+
+SUPPLEMENTARY INFORMATION: 
+
+Discussion
+
+    We proposed to amend 14 CFR part 39 with a notice of proposed 
+rulemaking (NPRM) to rescind AD 2008-06-03, Amendment 39-15415 (73 FR 
+13081, March 12, 2008). AD 2008-06-03 applies to the specified 
+products. The NPRM published in the Federal Register on August 27, 2012 
+(77 FR 51722). The NPRM proposed to rescind AD 2008-06-03, which 
+requires an inspection to determine if certain motor-operated shutoff 
+valve actuators for the fuel tanks are installed, and related 
+investigative and corrective actions if necessary. AD 2008-06-03 also 
+requires revising the AWLs section of the Instructions for Continued
+
+[[Page 56183]]
+
+Airworthiness to incorporate AWL No. 28-AWL-21, No. 28-AWL-22, and No. 
+28-AWL-24 (for Model 737-600, -700, -700C, -800, and -900 series 
+airplanes); and No. 28-AWL-23, No. 28-AWL-24, and No. 28-AWL-25 (for 
+Model 757-200, -200PF, -200CB, and -300 series airplanes). AD 2008-06-
+03 resulted from fuel system reviews conducted by the manufacturer. The 
+proposed actions were intended to prevent an unsafe condition from 
+being introduced on airplanes affected by AD 2008-06-03.
+
+Comments
+
+    We gave the public the opportunity to participate in considering 
+the proposal (77 FR 51722, August 27, 2012) to rescind AD 2008-03-03, 
+Amendment 39-15415 (73 FR 13081, March 12, 2008). The following 
+presents relevant comments received on the proposal and the FAA's 
+response to those comments.
+
+Requests To Clarify ``Different Unsafe Condition''
+
+    FedEx, American Airlines, and Boeing requested clarification of the 
+different unsafe condition introduced by the actions required by AD 
+2008-06-03, Amendment 39-15415 (73 FR 13081, March 12, 2008). Boeing 
+also stated that the NPRM (77 FR 51722, August 27, 2012) does not 
+indicate if the different unsafe condition is applicable to all 
+actuator locations required by AD 2008-06-03.
+    We agree that clarification of the different unsafe condition is 
+necessary. AD 2008-06-03, Amendment 39-15415 (73 FR 13081, March 12, 
+2008), addresses the potential for an electrical current to flow 
+through certain motor-operated shutoff valve actuators into the fuel 
+tank. The new motor-operator valve (MOV) actuators are required by AD 
+2008-06-03 for three locations on Model 737 airplanes and six or seven 
+locations on Model 757 airplanes (depending on configuration); and that 
+AD addresses an unsafe condition related to Special Federal Aviation 
+Regulation No. 88 (``SFAR 88'' (66 FR 23086, May 7, 2001), Amendment 
+21-78, and subsequent Amendments 21-82 and 21-83).
+    However, the new motor-operated shutoff valve actuators have been 
+found to have a risk of latent failure. At two of the locations on 
+Model 737 airplanes and at three locations on Model 757 airplanes, this 
+actuator failure could result in a different unsafe condition--i.e., an 
+inability to shut off fuel flow to an auxiliary power unit (APU) (on 
+Model 757 airplanes only) or engine during an engine fire. This latent 
+failure is not a safety risk in the other three to four locations.
+    We have determined that AD 2008-06-03, Amendment 39-15415 (73 FR 
+13081, March 12, 2008), should not be rescinded, but should continue to 
+require actions that address SFAR 88-related safety. Because AD 2008-
+06-03 does address a significant safety risk, it is not in the interest 
+of safety to rescind that AD. For the new MOV actuators, we are 
+considering further rulemaking to address the certain locations where a 
+latent failure of the actuator could result in a failure to shut off 
+fuel flow during an engine fire.
+
+Request To Extend Compliance Time
+
+    Allegiant Air supported the proposed rescission (77 FR 62833, 
+August 27, 2012) and requested that, if the FAA decided not to adopt 
+the rescission, the FAA provide an extension of the compliance time 
+required by AD 2008-06-03, Amendment 39-15415 (73 FR 13081, March 12, 
+2008), by using a ``global'' alternative method of compliance (AMOC). 
+Allegiant Air stated that the proposed rescission has brought 
+uncertainty to operators of the affected Model 737 and 757 airplanes. 
+We infer the subject of the uncertainty involves an operator still 
+needing to schedule time to do the required actions prior to the 
+compliance time required in AD 2008-06-03.
+    We disagree. We have not received any AMOC requests to extend the 
+compliance time. We also have not received justification to extend an 
+AMOC to all the airplanes affected by AD 2008-06-03, Amendment 39-15415 
+(73 FR 13081, March 12, 2008). However, under the provisions of 
+paragraph (i) of AD 2008-06-03, we will consider individual operator 
+requests for approval of an extension of the compliance time if 
+sufficient data are submitted to substantiate that the new compliance 
+time would provide an acceptable level of safety. We have determined 
+that no change to AD 2008-06-03 is necessary.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the NPRM (77 FR 
+51722, August 27, 2012) does not adequately address the safety concern. 
+Accordingly, the NPRM is withdrawn.
+    Withdrawal of the NPRM (77 FR 51722, August 27, 2012) does not 
+preclude the FAA from issuing another related action nor commit the FAA 
+to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM (77 FR 51722, August 27, 
+2012), it is neither a proposed nor a final rule and therefore is not 
+covered under Executive Order 12866, the Regulatory Flexibility Act, or 
+DOT Regulatory Policies and Procedures (44 FR 11034, February 26, 
+1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2012-0859, 
+Directorate Identifier 2012-NM-090-AD, which was published in the 
+Federal Register on August 27, 2012 (77 FR 51722).
+
+
+    Issued in Renton, Washington, on September 5, 2013.
+Jeffrey E. Duven,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2013-22187 Filed 9-11-13; 8:45 am]
+BILLING CODE 4910-13-P
+
+

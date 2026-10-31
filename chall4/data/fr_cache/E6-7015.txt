@@ -1,0 +1,155 @@
+
+[Federal Register Volume 71, Number 89 (Tuesday, May 9, 2006)]
+[Proposed Rules]
+[Pages 26890-26891]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E6-7015]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2006-23673; Directorate Identifier 2005-NM-233-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Empresa Brasileira de Aeronautica S.A. 
+(EMBRAER) Model EMB-135 and EMB-145, -145ER, -145MR, -145LR, -145XR, -
+145MP, and -145EP Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for all EMBRAER Model EMB-
+135 and EMB-145, -145ER, -145MR, -145LR, -145XR, -145MP, and -145EP 
+airplanes. The proposed AD would have required inspecting to determine 
+the
+
+[[Page 26891]]
+
+part number of the ailerons. For airplanes with affected aileron part 
+numbers, the proposed AD would have required reworking the aileron 
+damper fitting, and for certain airplanes, replacing the rod end of the 
+aileron damper assembly with an improved rod end. Since the proposed AD 
+was issued, we have received new data indicating that there is no 
+unsafe condition associated with structural failure of the rod end of 
+the aileron damper. Accordingly, the proposed AD is withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the U.S. 
+Department of Transportation, 400 Seventh Street, SW., Room PL-401, 
+Washington, DC. This docket number is FAA-2006-23673; the directorate 
+identifier for this docket is 2005-NM-233-AD.
+
+FOR FURTHER INFORMATION CONTACT: Todd Thompson, Aerospace Engineer, 
+International Branch, ANM-116, FAA, Transport Airplane Directorate, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+227-1175; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for all EMBRAER Model EMB-135 and EMB-145, -145ER, -145MR, -145LR, -
+145XR, -145MP, and -145EP airplanes. That NPRM was published in the 
+Federal Register on January 25, 2006 (71 FR 4067). The NPRM would have 
+required inspecting to determine the part number of the ailerons. For 
+airplanes with affected aileron part numbers, the NPRM would have 
+required reworking the aileron damper fitting. Also, for certain 
+airplanes, the NPRM would have required replacing the rod end of the 
+aileron damper assembly with an improved rod end. The NPRM resulted 
+from reports of structural failure of the rod end of the aileron 
+damper, which was caused by insufficient clearance between the lugs of 
+the aileron damper fitting and the rod end of the aileron damper. The 
+proposed actions were intended to prevent failure of the aileron 
+damper, which could result in failure of the aileron actuator and 
+consequent reduced controllability of the airplane.
+
+Comments
+
+    EMBRAER requests that we withdraw the NPRM. EMBRAER points out that 
+the unsafe condition stated in the NPRM (failure of the aileron damper, 
+which could result in failure of the aileron actuator and consequent 
+reduced controllability of the airplane) is incorrect. While the NPRM 
+was intended to address reports of structural failure of the rod end of 
+the aileron damper, there is no unsafe condition caused by such a 
+failure. The aileron damper was introduced to improve safety by 
+increasing redundancy: the aileron damper prevents vibration of the 
+aileron surface in the event of failure of both rods of the aileron 
+power control actuator (PCA). Failure of the rod end of the aileron 
+damper and subsequent failure of the aileron damper will not cause 
+vibration of the aileron surface.
+    Further, while failure of the rod ends of the aileron PCA could 
+result in reduced controllability of the airplane, this unsafe 
+condition is already addressed by another action. EMBRAER notes that 
+the FAA has previously issued AD 99-05-04 (64 FR 13894, March 23, 
+1999). That AD requires inspections to detect and correct cracking or 
+failure of the rod ends of the aileron PCA on all EMBRAER Model EMB-145 
+series airplanes.
+    EMBRAER further states that repetitive inspections of the aileron 
+damper rod ends and fitting lugs for integrity and general condition 
+are specified as a Certification Maintenance Requirement (for Model 
+EMB-135 airplanes) and a System Inspection Requirement (for Model EMB-
+145 airplanes). The failures of the aileron damper rod ends that 
+prompted the NRPM were discovered during inspections performed under 
+these requirements.
+    We agree with the commenter's request to withdraw the NPRM. EMBRAER 
+Service Bulletin 145-27-0108, Revision 01, dated April 28, 2005, which 
+the NPRM references as the appropriate source of service information 
+for the required actions, was issued to correct insufficient clearance 
+between the lugs of the aileron damper fitting and the rod end of the 
+aileron damper. We have coordinated with EMBRAER and have determined 
+that the actions in that service bulletin are not intended to address 
+an unsafe condition. Doing those actions may provide an economic 
+benefit to operators by preventing the need for an expensive repair in 
+the event that damage is detected during routine inspections. Since 
+there is no unsafe condition, the proposed AD is unnecessary.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that there is no 
+unsafe condition associated with structural failure of the rod end of 
+the aileron damper. Accordingly, the NPRM is withdrawn.
+    Withdrawal of the NPRM does not preclude the FAA from issuing 
+another related action or commit the FAA to any course of action in the 
+future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule and therefore is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2006-23673, 
+Directorate Identifier 2005-NM-233-AD, which was published in the 
+Federal Register on January 25, 2006 (71 FR 4067).
+
+    Issued in Renton, Washington, on April 28, 2006.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+ [FR Doc. E6-7015 Filed 5-8-06; 8:45 am]
+BILLING CODE 4910-13-P
+
+

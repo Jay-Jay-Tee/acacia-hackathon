@@ -1,0 +1,110 @@
+
+[Federal Register Volume 78, Number 140 (Monday, July 22, 2013)]
+[Proposed Rules]
+[Pages 43838-43839]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2013-17479]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2013-0056; Directorate Identifier 2012-NE-48-AD
+RIN 2120-AA64
+
+
+Airworthiness Directives; Hamilton Sundstrand Corporation 
+Propellers
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM). 
+The NPRM proposed a new airworthiness directive (AD) that had applied 
+to certain Hamilton Sundstrand Corporation 14SF-7, 14SF-15, and 14SF-23 
+series propellers. The NPRM had applied to those propellers using 
+certain Hamilton Sundstrand Corporation auxiliary pumps and motors 
+(auxiliary feathering pumps). The proposed action would have required 
+removal of certain serial numbers (S/Ns) of auxiliary feathering pumps 
+from service. Since we issued the NPRM, we attended a meeting sponsored 
+by Hamilton Sundstrand Corporation, which provided additional 
+information regarding the unsafe condition. The information included 
+results from bond strength tests that predicts a significantly lower 
+fleet risk than the prior qualitative analysis. Accordingly, we 
+withdraw the proposed rule.
+
+FOR FURTHER INFORMATION CONTACT: Michael Schwetz, Aerospace Engineer, 
+Boston Aircraft Certification Office, FAA, Engine & Propeller 
+Directorate, 12 New England Executive Park, Burlington, MA 01803; 
+phone: 781-238-7761; fax: 781-238-7170; email: [email protected].
+
+SUPPLEMENTARY INFORMATION: The FAA proposed to amend 14 CFR part 39 
+with a proposed AD (78 FR 9001, February 7, 2013). The proposed AD had 
+applied to Hamilton Sundstrand Corporation 14SF-7, 14SF-15, and 14SF-23 
+series propellers using certain Hamilton Sundstrand Corporation 
+auxiliary feathering pumps. The NPRM proposed to require removing 
+certain S/Ns of auxiliary feathering pumps from service. The proposed 
+action was prompted by a report of a propeller not moving into the 
+feathering position after an engine in-flight shutdown. The unsafe 
+condition had applied to certain Hamilton Sundstrand Corporation 14SF-
+7, 14SF-15, and 14SF-23 series propellers using certain Hamilton 
+Sundstrand Corporation auxiliary pumps and motors (auxiliary feathering 
+pumps). The proposed actions intended to prevent propellers from 
+failing to move into the feathering position after an engine in-flight 
+shutdown.
+    Since we issued the NPRM (78 FR 9001, February 7, 2013), additional 
+information became available after the public comment period closed on 
+March 25, 2013.
+    Upon further consideration, we hereby withdraw the proposed rule 
+for the following reasons:
+     Auxiliary feathering pump motors returned to Hamilton 
+Sundstrand Corporation were tested to measure the bonding strength 
+holding the magnets to the motor housing.
+     The test results did not substantiate the initial 
+qualitative risk assessment.
+     The data gathered was then used for a more representative 
+quantitative risk analysis.
+     The results from the bond strength tests predicts a 
+significantly lower fleet risk than the prior qualitative analysis.
+    Withdrawal of the NPRM (78 FR 9001, February 7, 2013) constitutes 
+only such
+
+[[Page 43839]]
+
+action, and does not preclude the agency from issuing another notice in 
+the future, nor does it commit the agency to any course of action in 
+the future.
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule. Therefore, Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979) do not cover this 
+withdrawal.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket No. FAA-
+2013-0056; Directorate Identifier 2012-NE-48-AD, published in the 
+Federal Register on February 7, 2013 (78 FR 9001), is withdrawn.
+
+    Issued in Burlington, Massachusetts, on July 15, 2013.
+Colleen M. D'Alessandro,
+Assistant Manager, Engine & Propeller Directorate, Aircraft 
+Certification Service.
+[FR Doc. 2013-17479 Filed 7-19-13; 8:45 am]
+BILLING CODE 4910-13-P
+
+

@@ -1,0 +1,131 @@
+
+[Federal Register Volume 78, Number 205 (Wednesday, October 23, 2013)]
+[Proposed Rules]
+[Pages 63135-63136]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2013-24797]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2005-21236; Directorate Identifier 2005-NM-011-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; The Boeing Company Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for certain The Boeing 
+Company Model 767 airplanes equipped with General Electric Model CF6-
+80C2 engines. The NPRM proposed to require modifying a relay 
+installation and associated wiring of the engine cowl anti-ice system 
+and performing a functional test of the thrust reverser system. The 
+NPRM also proposed to require replacing the operational program 
+software of certain indicating/recording systems. Since we issued the 
+NPRM, we have received new data that indicate the unsafe condition 
+would not be adequately addressed by the proposed action. The 
+manufacturer has issued new service information to address the unsafe 
+condition. Consequently, we issued new rulemaking action that 
+positively addresses the unsafe condition identified in the NPRM, and 
+eliminates the need for the actions proposed in the NPRM. Accordingly, 
+the NPRM is withdrawn.
+
+DATES: As of October 23, 2013, the proposed rule, which was published 
+in the Federal Register on May 18, 2005 (70 FR 28489), is withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://www.regulations.gov; or in person at the Docket Management Facility 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this AD action, the regulatory 
+evaluation, any comments received, and other information. The street 
+address for the Docket Office (phone: 800-647-5527) is the Document 
+Management Facility, U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue SE., Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Tung Tran, Aerospace Engineer, 
+Propulsion Branch, ANM-140S, FAA,
+
+[[Page 63136]]
+
+Seattle Aircraft Certification Office, 1601 Lind Avenue SW., Renton, WA 
+98057-3356; phone: 425-917-6505; fax: 425-917-6590; email: 
+[email protected].
+
+SUPPLEMENTARY INFORMATION: 
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for certain Model 767 series airplanes. The NPRM published in the 
+Federal Register on May 18, 2005 (70 FR 28489). The NPRM proposed to 
+require modifying a relay installation and associated wiring of the 
+engine cowl anti-ice system and performing a functional test of the 
+thrust reverser system. The NPRM also proposed to require replacing the 
+operational program software of certain indicating/recording systems. 
+The NPRM was prompted by numerous operator reports of failures of the 
+lock flexshaft of the thrust reverser actuation system (TRAS) between 
+the upper actuator and the TRAS lock. We had proposed the AD to prevent 
+high power in-flight deployment of a thrust reverser, which could cause 
+high roll force and consequent departure from controlled flight.
+
+Actions Since NPRM (70 FR 28489, May 18, 2005) Was Issued
+
+    Since we issued the NPRM (70 FR 28489, May 18, 2005), we have 
+received new data that indicate the unsafe condition would not be 
+adequately addressed by the proposed action. Consequently, we issued a 
+new NPRM (78 FR 3363, January 16, 2013) that positively addresses the 
+unsafe condition identified in the NPRM (70 FR 28489, May 18, 2005) and 
+eliminates the need for the actions proposed in that NPRM (70 FR 28489, 
+May 18, 2005).
+
+FAA's Conclusions
+
+    We have determined that the unsafe condition identified in the NPRM 
+(70 FR 28489, May 18, 2005) still exists. However, the unsafe condition 
+is addressed in the new NPRM (78 FR 3363, January 16, 2013). 
+Accordingly, the NPRM (70 FR 28489, May 18, 2005) is withdrawn.
+    Withdrawal of the NPRM (70 FR 28489, May 18, 2005) does not 
+preclude the FAA from issuing the related actions or commit the FAA to 
+any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws the NPRM (70 FR 28489, May 18, 
+2005), it is neither a proposed nor a final rule and therefore is not 
+covered under Executive Order 12866, the Regulatory Flexibility Act, or 
+DOT Regulatory Policies and Procedures (44 FR 11034, February 26, 
+1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2005-21236, 
+Directorate Identifier 2005-NM-011-AD, which published in the Federal 
+Register on May 18, 2005 (70 FR 28489).
+
+    Issued in Renton, Washington, on September 30, 2013.
+Jeffrey E. Duven,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2013-24797 Filed 10-22-13; 8:45 am]
+BILLING CODE 4910-13-P
+
+

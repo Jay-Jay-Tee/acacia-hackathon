@@ -1,0 +1,334 @@
+
+[Federal Register Volume 76, Number 163 (Tuesday, August 23, 2011)]
+[Proposed Rules]
+[Pages 52593-52596]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2011-21472]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2011-0596; Directorate Identifier 2008-SW-37-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Eurocopter Canada Ltd. Model BO 105 LS 
+A-3 Helicopters
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes superseding an existing airworthiness 
+directive (AD) for Eurocopter Canada
+
+[[Page 52594]]
+
+Ltd. Model BO 105 LS A-3 helicopters. That AD currently requires 
+establishing a life limit for certain tension-torsion (TT) straps. This 
+action would require reducing the ``number of flights'' life limit and 
+providing a time-in-service (TIS) life limit for those TT straps. This 
+proposal is prompted by a recalculation by the manufacturer and 
+subsequent changes to the service information related to the retirement 
+time of the TT strap initially adopted as a result of an accident in 
+which a main rotor blade (blade) separated from a Eurocopter 
+Deutschland GMBH (ECD) Model MBB-BK 117 helicopter due to fatigue 
+failure of a TT strap. The same part-numbered TT strap is used on Model 
+BO 105 LS A-3 helicopters. The actions specified by the proposed AD are 
+intended to prevent fatigue failure of a TT strap, loss of a blade, and 
+subsequent loss of control of the helicopter.
+
+DATES: Comments must be received on or before October 24, 2011.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD:
+     Federal eRulemaking Portal: Go to http://www.regulations.gov. Follow the instructions for submitting comments.
+     Fax: (202) 493-2251.
+     Mail: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue, SE., Washington, DC 20590.
+     Hand Delivery: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue, SE., Washington, DC 20590, between 9 a.m. and 5 p.m., 
+Monday through Friday, except Federal holidays.
+    You may get the service information identified in this proposed AD 
+from American Eurocopter Corporation, 2701 Forum Drive, Grand Prairie, 
+TX 75053-4005, telephone (972) 641-3460, fax (972) 641-3527, or at 
+http://www.eurocopter.com.
+
+FOR FURTHER INFORMATION CONTACT: Sharon Miles, Aviation Safety 
+Engineer, FAA, Rotorcraft Directorate, Regulations and Policy Group, 
+2601 Meacham Blvd., Fort Worth, Texas 76137, telephone (817) 222-5122, 
+fax (817) 222-5961.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to send any written relevant data, views, or 
+arguments about this proposed AD. Send your comments to an address 
+listed under the caption ADDRESSES. Include the ``Docket No. FAA-2011-
+0596; Directorate Identifier 2008-SW-37-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments received by the closing date and may amend the 
+proposed AD because of those comments.
+    We will post all comments we receive, without change, to http://www.regulations.gov, including any personal information you provide. We 
+will also post a report summarizing each substantive verbal contact 
+with FAA personnel concerning this proposed rulemaking. Using the 
+search function of the docket web site, you can find and read the 
+comments to any of our dockets, including the name of the individual 
+who sent or signed the comment. You may review the DOT's complete 
+Privacy Act Statement in the Federal Register published on April 11, 
+2000 (65 FR 19477-78).
+
+Examining the Docket
+
+    You may examine the docket that contains the proposed AD, any 
+comments, and other information on the Internet at http://www.regulations.gov or in person at the Docket Operations office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Operations office (telephone (800) 647-5527) is 
+located in Room W12-140 on the ground floor of the West Building at the 
+street address stated in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after receipt.
+
+Discussion
+
+    On September 5, 2000, we issued superseding AD 2000-18-13, 
+Amendment 39-11899 (65 FR 55452, September 14, 2000), to establish a 
+life limit for TT strap, part number (P/N) 2604067 (Bendix) or P/N 
+J17322-1 (Lord), of 120 months or 40,000 flights, whichever occurs 
+first. That action was prompted by an accident in July 1999 in which a 
+blade separated from a Eurocopter Deutschland GMBH (ECD) Model MBB-BK 
+117 helicopter due to fatigue failure of a TT strap. The same part-
+numbered TT strap is also used on the Eurocopter Canada Ltd. Model BO 
+105 LS A-3 helicopters. The requirements of that AD are intended to 
+prevent failure of a TT strap, loss of a blade, and subsequent loss of 
+control of the helicopter.
+    Since issuing that AD, the manufacturer has recalculated the 
+retirement time, provided a time-in-service (TIS) limit, and issued 
+revised service information related to the life limit of the TT strap.
+    Transport Canada, which is the aviation authority for Canada, has 
+issued Canadian AD No. CF-2008-17R1, dated May 26, 2008, to correct an 
+unsafe condition for the Eurocopter Canada Ltd. (formerly MBB Canada 
+Ltd.) Model BO 105-LS-A3 helicopters. Transport Canada advises that 
+``the tension-torsion strap (TTS) failure on a MBB BK 117 helicopter in 
+July 1999, initiated a TTS service life recalculation. This 
+recalculation changed the retirement time in Chapter 4 of Maintenance 
+Manual. As a result of this change, the TTS in service are to be 
+replaced or inspected as a precautionary measure, pending already 
+accumulated service hours and the calendar time since their last 
+installation.''
+    Since the issuance of the Transport Canada AD, the type certificate 
+for this helicopter model has been transferred to the Federal Republic 
+of Germany. The European Aviation Safety Agency (EASA), which is the 
+Technical Agent for the Federal Republic of Germany, has adopted 
+Transport Canada AD No. CF-2008-17R1, dated May 26, 2008, and requires 
+compliance with that AD.
+
+Related Service Information
+
+    Eurocopter Canada Limited issued Alert Service Bulletin No. ASB-BO 
+105 LS-10-10, Revision 1, dated January 8, 2008 (ASB). The ASB 
+describes procedures for determining the total accumulated installation 
+time and factoring the number of flights on each TT strap. The ASB also 
+describes and contains a graph for determining the revised life limit, 
+and provides various compliance intervals, inspection provisions, and 
+replacement criteria for the TT strap. The previously described ASB 
+specifies procedures for determining the total accumulated installation 
+time and number of flights on TT strap, P/N 2604067 (Bendix) or P/N 
+J17322-1 (Lord). The ASB also describes establishing a revised life 
+limit for the TT strap of 120 months, 25,000 flights, or 3,800 hours, 
+whichever occurs first. Transport Canada classified this alert service 
+bulletin as mandatory and issued AD No. CF-2008-17R1, dated May 26, 
+2008, to ensure the continued airworthiness of these helicopters. EASA, 
+the Technical Agent for the current type certificate holder, the 
+Federal Republic of Germany, has adopted and requires compliance with 
+Transport Canada AD No. CF-2008-17R1, dated May 26, 2008.
+
+FAA's Evaluation and Unsafe Condition Determination
+
+    This helicopter has been approved by the aviation authority of the 
+Federal Republic of Germany and is approved for operation in the United 
+States. Pursuant to our bilateral agreement with
+
+[[Page 52595]]
+
+the Federal Republic of Germany, EASA, their technical representative, 
+has notified us of the unsafe condition described in the Transport 
+Canada AD, which has been adopted by EASA. We are proposing this AD 
+because we evaluated all information provided by EASA and Transport 
+Canada and determined the unsafe condition exists and is likely to 
+exist or develop on other helicopters of the same type design. This 
+proposed AD would require establishing a revised life limit for TT 
+strap, P/N 2604067 (Bendix) or P/N J17322-1 (Lord), of 120 months, 
+25,000 flights, or 3,800 hours time-in-service (TIS), whichever occurs 
+first.
+
+Differences Between This Proposed AD and the Transport Canada AD
+
+    Our AD differs from the Transport Canada AD as follows:
+     The Transport Canada AD uses the terms ``air time hours'' 
+and ``flight hours'' to describe compliance times, and this proposed AD 
+uses the term ``hours time-in-service''.
+     The Transport Canada AD requires inspections for tension-
+torsion straps that have an accumulated installation time of 10 or more 
+years, and our AD does not require these inspections.
+     The Transport Canada AD requires verifying and 
+establishing a new service life for the tension-torsion straps within 
+the next 25 hours TIS, and this AD requires this to be done before 
+further flight.
+
+Costs of Compliance
+
+    We estimate that this proposed AD would affect 13 helicopters of 
+U.S. registry and the proposed actions would take about 15 work hours 
+per helicopter to accomplish at an average labor rate of $85 per work 
+hour. Required parts would cost about $13,867 per helicopter. Based on 
+these figures, we estimate the total cost impact of the proposed AD on 
+U.S. operators to be $196,846 to replace all the affected TT straps in 
+the entire fleet.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. Additionally, this proposed 
+AD would not have a substantial direct effect on the States, on the 
+relationship between the national Government and the States, or on the 
+distribution of power and responsibilities among the various levels of 
+government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979);
+    3. Will not affect intrastate aviation in Alaska to the extent that 
+it justifies making a regulatory distinction; and
+    4. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared an economic evaluation of the estimated costs to comply 
+with this proposed AD. See the AD docket to examine the economic 
+evaluation.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR Part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for Part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by removing Amendment 39-11899 (65 FR 
+55452; September 14, 2000), and adding the following new airworthiness 
+directive (AD):
+
+EUROCOPTER CANADA LTD.: Docket No. FAA-2011-0596; Directorate 
+Identifier 2008-SW-37-AD. Supersedes AD 2000-18-13; Amendment 39-
+11899; Docket No. 99-SW-68-AD.
+
+    Applicability: Model BO 105 LS A-3 helicopters, with tension-
+torsion (TT) strap, part number (P/N) 2604067 (Bendix) or J17322-1 
+(Lord), installed, certificated in any category.
+    Compliance: Required as indicated, unless accomplished 
+previously.
+    To prevent fatigue failure of a TT strap, loss of a main rotor 
+blade, and subsequent loss of control of the helicopter accomplish 
+the following:
+    (a) Before further flight:
+    (1) Create a component log card or equivalent record for each TT 
+strap.
+    (2) Review the history of each helicopter and TT strap. 
+Determine the age since initial installation on any helicopter (age) 
+and the number of flights on each affected TT strap. Enter the age, 
+hours time-in-service (TIS), and the number of flights for each TT 
+strap on the component log card or equivalent record. When the 
+number of flights is unknown, multiply the number of hours TIS by 5 
+to determine the number of flights. If a TT strap has been 
+previously used at any time on Model BO-105LS A-3 `SUPER LIFTER'', 
+BO-105 CB-5, BO-105 CBS-5, BO-105 DBS-5, or any MBB-BK 117 series 
+helicopter, multiply the total number of flights accumulated on 
+those other models by a factor of 1.6 and then add that result to 
+the number of flights accumulated on the helicopters affected by 
+this AD.
+    (3) Remove any TT strap from service if the total hours TIS or 
+number of flights and age cannot be determined.
+    (b) Remove any TT strap, P/N 2604067 (Bendix) or P/N J17322-1 
+(Lord), that has been in service for 120 months since initial 
+installation on any helicopter, or has accumulated 25,000 flights (a 
+flight is a takeoff and a landing), or has been in service for 3,800 
+hours TIS.
+    (c) This AD revises the Airworthiness Limitations Section of the 
+maintenance manual by establishing a revised life limit for the TT 
+strap, P/N 2604067 (Bendix) or P/N J17322-1 (Lord), of 120 months, 
+25,000 flights, or 3,800 hours TIS, whichever occurs first.
+
+    Note 1:  Eurocopter Canada Limited Alert Service Bulletin No. 
+ASB-BO 105 LS-10-10, Revision 1, dated January 8, 2008, which is not 
+incorporated by reference, contains additional information about the 
+subject of this AD.
+
+    (d) To request a different method of compliance or a different 
+compliance time for this AD, follow the procedures in 14 CFR 39.19. 
+Contact the Manager, Safety Management Group, FAA, ATTN: Sharon 
+Miles, Aviation Safety Engineer, FAA, Rotorcraft Directorate, 
+Regulations and Policy Group, 2601 Meacham Blvd., Fort Worth, Texas 
+76137, telephone (817) 222-5122, fax (817) 222-5961, for information 
+about previously approved alternative methods of compliance.
+    (e) The Joint Aircraft System/Component (JASC) Code is 6200: 
+Main Rotor System.
+
+    Note 2:  The subject of this AD is addressed in Transport Canada 
+(Canada) AD No. CF-2008-17R1, dated May 26, 2008. The European 
+Aviation Safety Agency, which is the Technical Agent for the current 
+type certificate holder, the Federal Republic of
+
+[[Page 52596]]
+
+Germany, has adopted and requires compliance with the Transport 
+Canada AD.
+
+
+    Issued in Fort Worth, Texas, on June 3, 2011.
+Kim Smith,
+Manager, Rotorcraft Directorate, Aircraft Certification Service.
+[FR Doc. 2011-21472 Filed 8-22-11; 8:45 am]
+BILLING CODE 4910-13-P
+
+

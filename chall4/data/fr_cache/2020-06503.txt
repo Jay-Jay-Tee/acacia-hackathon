@@ -1,0 +1,125 @@
+
+[Federal Register Volume 85, Number 61 (Monday, March 30, 2020)]
+[Proposed Rules]
+[Page 17510]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2020-06503]
+
+
+
+[[Page 17510]]
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2019-0518; Product Identifier 2019-NM-062-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; The Boeing Company Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM) 
+that proposed to adopt a new airworthiness directive (AD) that would 
+have applied to certain The Boeing Company Model 787-8 and 787-9 
+airplanes. The NPRM was prompted by a report that a passenger entry 
+door assist handle became detached during use. The NPRM would have 
+required a detailed inspection of all passenger and service entry door 
+assist handles for correct installation and applicable on-condition 
+actions. Since issuance of the NPRM, we determined that the service 
+information is ineffective in addressing the unsafe condition and must 
+be revised. Accordingly, the NPRM is withdrawn.
+
+DATES: The FAA is withdrawing the proposed rule published July 15, 2019 
+(84 FR 33710), as of March 30, 2020.
+
+ADDRESSES: 
+
+Examining the AD Docket
+
+    You may examine the AD docket on the internet at https://www.regulations.gov by searching for and locating Docket No. FAA-2019-
+0518; or in person at Docket Operations between 9 a.m. and 5 p.m., 
+Monday through Friday, except Federal holidays. The AD docket contains 
+this AD action, the regulatory evaluation, any comments received, and 
+other information. The street address for Docket Operations is U.S. 
+Department of Transportation, Docket Operations, M-30, West Building 
+Ground Floor, Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 
+20590.
+
+FOR FURTHER INFORMATION CONTACT: Brandon Lucero, Aerospace Engineer, 
+Cabin Safety and Environmental Systems Section, FAA, Seattle ACO 
+Branch, 2200 South 216th St., Des Moines, WA 98198; phone and fax: 206-
+231-3569; email: [email protected].
+
+SUPPLEMENTARY INFORMATION: 
+
+Discussion
+
+    The FAA issued an NPRM that proposed to amend 14 CFR part 39 by 
+adding an AD that would apply to the specified products. The NPRM was 
+published in the Federal Register on July 15, 2019 (84 FR 33710). The 
+NPRM was prompted by a report that a passenger entry door assist handle 
+became detached during use. An investigation found that incorrect 
+installation of the door assist handle is possible due to the handle 
+insert giving a false indication of correct installation.
+    The NPRM proposed to require a detailed inspection of all passenger 
+and service entry door assist handles for correct installation and 
+applicable on-condition actions. The proposed actions were intended to 
+address the possibility of an incorrectly installed door assist handle 
+becoming detached and unavailable to use during door operation or 
+airplane egress, which could cause injury to passengers, flightcrew, or 
+maintenance personnel.
+
+Actions Since the NPRM Was Issued
+
+    Since issuance of the NPRM, Boeing has informed the FAA that the 
+root cause determination has changed. The unsafe condition still exists 
+but the proposed service information is ineffective in correcting it, 
+therefore it is necessary to completely revise the service information 
+to address the root cause.
+    Withdrawal of the NPRM constitutes only such action and does not 
+preclude the FAA from further rulemaking on this issue, nor does it 
+commit the FAA to any course of action in the future.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that the NPRM 
+does not adequately address the identified unsafe condition. 
+Accordingly, the NPRM is withdrawn.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule. This action therefore is not covered under Executive 
+Order 12866, the Regulatory Flexibility Act, or DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket No. FAA-
+2019-0518, which was published in the Federal Register on July 15, 2019 
+(84 FR 33710), is withdrawn.
+
+    Issued on March 24, 2020.
+Gaetano A. Sciortino,
+Deputy Director for Strategic Initiatives, Compliance & Airworthiness 
+Division, Aircraft Certification Service.
+[FR Doc. 2020-06503 Filed 3-27-20; 8:45 am]
+ BILLING CODE 4910-13-P
+
+

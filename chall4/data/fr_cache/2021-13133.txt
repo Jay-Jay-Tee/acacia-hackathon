@@ -1,0 +1,161 @@
+
+[Federal Register Volume 86, Number 119 (Thursday, June 24, 2021)]
+[Proposed Rules]
+[Pages 33152-33153]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2021-13133]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2020-0089; Project Identifier 2019-NM-159-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; The Boeing Company Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM) 
+that proposed to adopt a new airworthiness directive (AD). That NPRM 
+would have applied to certain The Boeing Company Model 737-700, -800, 
+and -900ER series airplanes. The NPRM was prompted by a report of 
+unshimmed gaps at a certain frame inner chord. The NPRM would have 
+required a general visual inspection for repairs of a certain frame 
+inner chord, a detailed inspection for unshimmed gaps of the frame 
+inner chord, and applicable on-condition actions. Since issuance of the 
+NPRM, the FAA determined that the proposed AD is inadequate to address 
+the unsafe condition. The FAA intends to propose new rulemaking to 
+incorporate changes to the proposed requirements and add airplanes that 
+are also subject to the unsafe condition. Accordingly, the NPRM is 
+withdrawn.
+
+DATES: The FAA is withdrawing the proposed rule published on February 
+4, 2020 (85 FR 6107), as of June 24, 2021.
+
+ADDRESSES:
+
+Examining the AD Docket
+
+    You may examine the AD docket on the internet at https://www.regulations.gov by searching for and locating Docket No. FAA-2020-
+0089; or in person at Docket Operations between 9 a.m. and 5 p.m., 
+Monday through Friday, except Federal holidays. The AD docket contains 
+this AD action, any comments received, and other information. The 
+street address for Docket Operations is U.S. Department of 
+Transportation, Docket Operations, M-30, West Building Ground Floor, 
+Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Greg Rutar, Aerospace Engineer, 
+Airframe Section, FAA, Seattle ACO Branch, 2200 South 216th St., Des 
+Moines, WA 98198; phone and fax: 206-231-3529; email: 
+[email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The FAA issued an NPRM that proposed to amend 14 CFR part 39 by 
+adding an AD that would apply to certain Boeing Model 737-700, -800, 
+and -900ER series airplanes. The NPRM was published in the Federal 
+Register on February 4, 2020 (85 FR 6107). The NPRM was prompted by a 
+report of unshimmed gaps at a certain frame inner chord.
+    The NPRM proposed to require a general visual inspection for 
+repairs of a certain frame inner chord, a detailed inspection for 
+unshimmed gaps of the frame inner chord, and applicable on-condition 
+actions. The proposed actions were intended to address gaps at a frame 
+inner chord, which may initiate early cracking in fatigue critical 
+baseline structure (FCBS) and result in the inability of a principal 
+structural element (PSE) to sustain limit load and adversely affect the 
+structural integrity of the airplane.
+
+Actions Since the NPRM Was Issued
+
+    Since issuance of the NPRM, the FAA determined that the proposed 
+actions are inadequate to address the unsafe condition. In addition to 
+identifying missing shims, Boeing has found a wrong type of shims, 
+shanked fasteners, fastener head gaps, and incorrect fastener hole 
+sizes. The unsafe condition and location of the problem are the same as 
+those described in the NPRM. The FAA has identified additional Model 
+737-700, -800, and -900ER airplanes as well as additional airplane 
+models that are subject to the unsafe condition. The FAA has also 
+determined that additional actions must be accomplished to address the 
+unsafe condition on the affected airplanes. In light of these changes, 
+the FAA intends to propose further rulemaking.
+    Withdrawal of the NPRM constitutes only such action. The withdrawal 
+does not preclude the FAA from further rulemaking on this issue or 
+commit the FAA to any course of action in the future.
+
+Comments
+
+    The FAA received comments on the NPRM from four commenters, 
+including Aviation Partners Boeing, Boeing, Delta Air Lines, and United 
+Airlines. Although the FAA is withdrawing the NPRM because of new 
+findings and not as a result of any of these comments, the following 
+presents a brief discussion of the comments.
+    United Airlines concurred with the NPRM.
+    Aviation Partners Boeing and Delta Air Lines stated that the 
+incorporation
+
+[[Page 33153]]
+
+of supplemental type certificate (STC) ST00830SE for installation of 
+blended or split scimitar winglets does not affect compliance with the 
+proposed actions, so a ``change in product'' alternative method of 
+compliance (AMOC) would not be necessary. The FAA agrees with the 
+commenters' assertions, but because the FAA is withdrawing the NPRM, 
+the request is no longer necessary.
+    Delta Air Lines noted that the service information recommended 
+removing sealant squeeze-out that inhibits inserting the feeler gauge 
+between the mating surfaces. The commenter was concerned that removing 
+the sealant squeeze-out could damage the structure if a metallic tool 
+is used. The FAA disagrees with the request; however, because the NPRM 
+is being withdrawn, the commenter's requested change is unnecessary.
+    Boeing requested several changes to the Discussion and Related 
+Service Information Under 1 CFR part 51 sections and the description of 
+the unsafe condition in the NPRM. The FAA disagrees with Boeing's 
+requested changes. However, because the NPRM is being withdrawn, the 
+commenter's requested changes are unnecessary.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that the NPRM 
+does not adequately address the identified unsafe condition. 
+Accordingly, the FAA is withdrawing the NPRM.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule. This action therefore is not covered under Executive 
+Order 12866, the Regulatory Flexibility Act, or DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+0
+Accordingly, the notice of proposed rulemaking (Docket No. FAA 2020-
+0089), which was published in the Federal Register on February 4, 2020 
+(85 FR 6107), is withdrawn.
+
+    Issued on June 15, 2021.
+Lance T. Gant,
+Director, Compliance & Airworthiness Division, Aircraft Certification 
+Service.
+[FR Doc. 2021-13133 Filed 6-23-21; 8:45 am]
+BILLING CODE 4910-13-P
+
+

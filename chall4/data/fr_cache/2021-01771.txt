@@ -1,0 +1,115 @@
+
+[Federal Register Volume 86, Number 33 (Monday, February 22, 2021)]
+[Proposed Rules]
+[Page 10504]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2021-01771]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[FAA Rules Docket No. 90-CE-35-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Textron Aviation Inc. (Type Certificate 
+previously held by Cessna Aircraft Company) Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM) 
+and supplemental notice of proposed rulemaking (SNPRM) that proposed to 
+supersede airworthiness directive (AD) 72-14-08 R1 for Cessna Aircraft 
+Company (now Textron Aviation Inc.) Models 310, 320, 401, 402, 411, and 
+421 airplanes. AD 72-14-08 R1 requires repetitively inspecting the fuel 
+and oil flexible hose lines for leakage or evidence of any damaged or 
+deteriorated hose assembly on the above-referenced airplanes and 
+replacing any discrepant part. Since issuance of the SNPRM, the FAA has 
+not received any reports of fuel and oil flexible hose lines that leak 
+or are damaged and has determined that the repetitive inspections 
+required by AD 72-14-08 R1 address the unsafe condition. Accordingly, 
+the NPRM and SNPRM are withdrawn.
+
+DATES: As of February 22, 2021, the proposed rules, which published in 
+the Federal Register on October 23, 1990 (55 FR 42726), and October 22, 
+1998 (63 FR 56579), are withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Jeff Janusz, Supervisory Aviation 
+Safety Specialist, Wichita ACO Branch, FAA, 1801 Airport Road, Wichita, 
+Kansas 67209; phone: 316-946-4148; fax: 316-946-4107; email: 
+[email protected] or [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    The FAA issued an NPRM that proposed to amend part 39 of the 
+Federal Aviation Regulations (14 CFR part 39) to supersede AD 72-14-
+08R1, Amendment 39-4215 (46 FR 45597, September 14, 1981) (AD 72-14-08 
+R1), which applies to Cessna Aircraft Company Models 310, 320, 401, 
+402, 411, and 421 series airplanes. The current type certificate holder 
+for these airplanes is Textron Aviation Inc. The NPRM published in the 
+Federal Register on October 23, 1990 (55 FR 42726). The FAA 
+subsequently issued an SNPRM, which published on October 22, 1998 (63 
+FR 56579). The NPRM and SNPRM proposed to:
+     Initially retain the requirement of repetitively 
+inspecting the fuel and oil flexible hose lines for leakage or evidence 
+of any damaged or deteriorated hose assembly on all of the affected 
+airplanes, and replacing any discrepant part; and
+     eventually require, regardless if damage or deterioration 
+was found, replacing the fuel and oil flexible hose assemblies in the 
+engine compartment with an improved design hose assembly as terminating 
+action for the repetitive inspection requirement. For some models, the 
+replacement would have been mandatory and for others it would have been 
+an option instead of continuing the repetitive inspections.
+
+Actions Since the SNPRM Was Issued
+
+    Since issuance of the SNPRM, FAA has not received any reports of 
+fuel and oil flexible hose lines that leak or are damaged and has 
+determined that the repetitive inspections required by AD 72-14-08 R1 
+address the unsafe condition. Therefore, the FAA determined that 
+further AD action is not warranted and the proposals should be 
+withdrawn.
+    Withdrawal of the NPRM and SNPRM constitutes only such action and 
+does not preclude the agency from issuing future rulemaking on this 
+issue, nor does it commit the agency to any course of action in the 
+future.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM and SNPRM, it is neither a 
+proposed nor a final rule and therefore, not covered under Executive 
+Order 12866 or the Regulatory Flexibility Act.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+0
+Accordingly, the notice of proposed rulemaking, which published in the 
+Federal Register on October 23, 1990 (55 FR 42726), and the 
+supplemental notice of proposed rulemaking, which published in the 
+Federal Register on October 22, 1998 (63 FR 56579), are withdrawn.
+
+    Issued on January 20, 2021.
+Lance T. Gant,
+Director, Compliance & Airworthiness Division, Aircraft Certification 
+Service.
+[FR Doc. 2021-01771 Filed 2-19-21; 8:45 am]
+BILLING CODE 4910-13-P
+
+

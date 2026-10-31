@@ -1,0 +1,309 @@
+
+[Federal Register Volume 66, Number 210 (Tuesday, October 30, 2001)]
+[Proposed Rules]
+[Pages 54727-54729]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 01-27189]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2001-NM-93-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 777-200 Series Airplanes 
+Equipped With General Electric Engines
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes the adoption of a new airworthiness 
+directive (AD) that is applicable to all Boeing Model 777-200 series 
+airplanes equipped with General Electric engines. This proposal would 
+require installation of a high-temperature silicone foam seal on the 
+aft fairing of the strut. This action is necessary to prevent primary 
+engine exhaust from entering the aft fairing of the strut, elevating 
+the temperature in the aft fairing of the strut, and creating a 
+potential source of ignition, which could lead to an uncontrolled fire 
+in the aft fairing of the strut. Such a fire would expose the wing fuel 
+tank to high-temperature gasses and flames and result in a potential 
+ignition source for the fuel tank, and reduced structural integrity of 
+the wing. This action is intended to address the identified unsafe 
+condition.
+
+DATES: Comments must be received by December 14, 2001.
+
+ADDRESSES: Submit comments in triplicate to the Federal Aviation 
+Administration (FAA), Transport Airplane Directorate, ANM-114, 
+Attention: Rules Docket No. 2001-NM-93-AD, 1601 Lind Avenue, SW., 
+Renton, Washington 98055-4056. Comments may be inspected at this 
+location between 9 a.m. and 3 p.m., Monday through Friday, except 
+Federal holidays. Comments may be submitted via fax to (425) 227-1232. 
+Comments may also be sent via the Internet using the following address: 
+[email protected]. Comments sent via fax or the Internet must 
+contain ``Docket No. 2001-NM-93-AD'' in the subject line and need not 
+be submitted in triplicate. Comments sent via the Internet as attached 
+electronic files must be formatted in Microsoft Word 97 for Windows or 
+ASCII text.
+    The service information referenced in the proposed rule may be 
+obtained from Boeing Commercial Airplane Group, P.O. Box 3707, Seattle, 
+Washington 98124-2207. This information may be examined at the FAA, 
+Transport Airplane Directorate, 1601 Lind Avenue, SW., Renton, 
+Washington.
+
+FOR FURTHER INFORMATION CONTACT: John Vann, Aerospace Engineer, 
+Propulsion Branch, ANM-140S, FAA, Seattle Aircraft Certification 
+Office, 1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone 
+(425) 227-1024; fax (425) 227-1181.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    Interested persons are invited to participate in the making of the 
+proposed rule by submitting such written data, views, or arguments as 
+they may desire. Communications shall identify the Rules Docket number 
+and be submitted in triplicate to the address specified above. All 
+communications received on or before the closing date for comments, 
+specified above, will be considered before taking action on the 
+proposed rule. The proposals contained in this action may be changed in 
+light of the comments received.
+    Submit comments using the following format:
+     Organize comments issue-by-issue. For example, discuss a 
+request to change the compliance time and a request to change the 
+service bulletin reference as two separate issues.
+     For each issue, state what specific change to the proposed 
+AD is being requested.
+     Include justification (e.g., reasons or data) for each 
+request.
+    Comments are specifically invited on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed rule. All 
+comments submitted will be available, both before and after the closing 
+date for comments, in the Rules Docket for examination by interested 
+persons. A report summarizing each FAA-public contact concerned with 
+the substance of this proposal will be filed in the Rules Docket.
+    Commenters wishing the FAA to acknowledge receipt of their comments 
+submitted in response to this notice must submit a self-addressed, 
+stamped postcard on which the following statement is made: ``Comments 
+to Docket Number 2001-NM-93-AD.'' The postcard will be date-stamped and 
+returned to the commenter.
+
+Availability of NPRMs
+
+    Any person may obtain a copy of this NPRM by submitting a request 
+to the FAA, Transport Airplane Directorate, ANM-114, Attention: Rules 
+Docket No. 2001-NM-93-AD, 1601 Lind Avenue, SW., Renton, Washington 
+98055-4056.
+
+[[Page 54728]]
+
+Discussion
+
+    The FAA has received reports that, during routine inspections of 
+the aft fairing of the strut, evidence of an elevated temperature in 
+the interior cavity of the aft fairing has been found on several Boeing 
+Model 777-200 series airplanes equipped with General Electric engines. 
+The evidence includes charred seals, soot build-up, and discoloration. 
+Investigation revealed that primary engine exhaust entering through a 
+gap in the heat shield of the aft fairing of the strut elevates the 
+temperature in the aft fairing. The aft fairing of the strut is a 
+flammable leakage zone. An elevated temperature in this area would 
+create a potential source of ignition, and an ignition source is not 
+allowed to exist in a flammable leakage zone because there is no 
+provision for detecting or extinguishing a fire in these zones. A 
+potential source of ignition due to an elevated temperature in the aft 
+fairing of the strut, if not corrected, could result in an uncontrolled 
+fire in the aft fairing of the strut. Such a fire would expose the wing 
+fuel tank to high-temperature gasses and flames and result in a 
+potential ignition source for the fuel tank, and reduced structural 
+integrity of the wing.
+
+Explanation of Relevant Service Information
+
+    The FAA has reviewed and approved Boeing Alert Service Bulletin 
+777-54A0015, dated January 18, 2001, which describes procedures for 
+installation of a high-temperature silicone foam seal to fill the gap 
+in the heat shield of the aft fairing of the strut on the left- and 
+right-hand sides of the airplane. The procedures involve removing 
+certain heat shield castings for the aft fairing of the strut, cleaning 
+the area, bonding a foam seal to the upper surface of the heat shield 
+cover plates, re-installing the heat shield castings, restoring the 
+leveling compound and seal application, and doing a leak check of the 
+aft fairing.
+
+Explanation of Requirements of Proposed Rule
+
+    Since an unsafe condition has been identified that is likely to 
+exist or develop on other products of this same type design, the 
+proposed AD would require accomplishment of the actions specified in 
+the service bulletin described previously, except as discussed below.
+
+Difference Between Proposed AD and Service Bulletin
+
+    The referenced service bulletin states that all actions for which 
+the Boeing 777 Airplane Maintenance Manual (AMM) is specified as the 
+appropriate source of service information for work instructions may 
+instead be done according to an ``operator's equivalent procedure.'' 
+However, the FAA finds that Chapter 54-55-01 of the AMM must be used to 
+accomplish the leak check of the aft fairing of the strut, which is 
+specified in the Work Instructions in the service bulletin. For this 
+leak check, an ``operator's equivalent procedure'' may be used only if 
+approved as an alternative method of compliance per paragraph (c) of 
+this AD.
+
+Interim Action
+
+    This is considered to be interim action until final action is 
+identified, at which time the FAA may consider further rulemaking.
+
+Cost Impact
+
+    There are approximately 97 airplanes of the affected design in the 
+worldwide fleet. The FAA estimates that 18 airplanes of U.S. registry 
+would be affected by this proposed AD, that it would take approximately 
+15 work hours per airplane to accomplish the proposed actions, and that 
+the average labor rate is $60 per work hour. Based on these figures, 
+the cost impact of the proposed AD on U.S. operators is estimated to be 
+$16,200, or $900 per airplane.
+    The cost impact figure discussed above is based on assumptions that 
+no operator has yet accomplished any of the proposed requirements of 
+this AD action, and that no operator would accomplish those actions in 
+the future if this proposed AD were not adopted. The cost impact 
+figures discussed in AD rulemaking actions represent only the time 
+necessary to perform the specific actions actually required by the AD. 
+These figures typically do not include incidental costs, such as the 
+time required to gain access and close up, planning time, or time 
+necessitated by other administrative actions.
+
+Regulatory Impact
+
+    The regulations proposed herein would not have a substantial direct 
+effect on the States, on the relationship between the national 
+Government and the States, or on the distribution of power and 
+responsibilities among the various levels of government. Therefore, it 
+is determined that this proposal would not have federalism implications 
+under Executive Order 13132.
+    For the reasons discussed above, I certify that this proposed 
+regulation (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under the DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979); 
+and (3) if promulgated, will not have a significant economic impact, 
+positive or negative, on a substantial number of small entities under 
+the criteria of the Regulatory Flexibility Act. A copy of the draft 
+regulatory evaluation prepared for this action is contained in the 
+Rules Docket. A copy of it may be obtained by contacting the Rules 
+Docket at the location provided under the caption ADDRESSES.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec. 39.13  [Amended]
+
+    2. Section 39.13 is amended by adding the following new 
+airworthiness directive:
+
+Boeing: Docket 2001-NM-93-AD.
+    Applicability: Model 777-200 series airplanes equipped with 
+General Electric engines, certificated in any category.
+
+    Note 1: This AD applies to each airplane identified in the 
+preceding applicability provision, regardless of whether it has been 
+modified, altered, or repaired in the area subject to the 
+requirements of this AD. For airplanes that have been modified, 
+altered, or repaired so that the performance of the requirements of 
+this AD is affected, the owner/operator must request approval for an 
+alternative method of compliance in accordance with paragraph (c) of 
+this AD. The request should include an assessment of the effect of 
+the modification, alteration, or repair on the unsafe condition 
+addressed by this AD; and, if the unsafe condition has not been 
+eliminated, the request should include specific proposed actions to 
+address it.
+
+    Compliance: Required as indicated, unless accomplished 
+previously.
+    To prevent primary engine exhaust from entering the aft fairing 
+of the strut, elevating the temperature in the aft fairing of the 
+strut, and creating a potential source of ignition, which could lead 
+to an uncontrolled fire in the aft fairing of the strut and exposure 
+of the wing fuel tank to high-temperature gasses and flames, and 
+result in a potential ignition source for the fuel tank and reduced 
+structural integrity of the wing, accomplish the following:
+
+[[Page 54729]]
+
+Installation of Seal
+
+    (a) Within 1,000 flight hours after the effective date of this 
+AD, install a high-temperature silicone foam seal to fill the gap in 
+the heat shield of the aft fairing of the strut on the left- and 
+right-hand sides of the airplane. Do the installation according to 
+Boeing Alert Service Bulletin 777-54A0015, dated January 18, 2001, 
+except as provided by paragraph (b) of this AD. (Procedures for the 
+installation include removing certain heat shield castings for the 
+aft fairing of the strut, cleaning the area, bonding a foam seal to 
+the upper surface of the heat shield cover plates, re-installing the 
+heat shield castings, restoring the leveling compound and seal 
+application, and doing a leak check of the aft fairing.)
+
+``Operator's Equivalent Procedure''
+
+    (b) Though Boeing Alert Service Bulletin 777-54A0015, dated 
+January 18, 2001, specifies that an ``operator's equivalent 
+procedure'' may be used for the leak check described in the service 
+bulletin, that leak check must be done according to Chapter 54-55-01 
+of the Boeing 777 Airplane Maintenance Manual, as specified in the 
+service bulletin.
+
+Alternative Methods of Compliance
+
+    (c) An alternative method of compliance or adjustment of the 
+compliance time that provides an acceptable level of safety may be 
+used if approved by the Manager, Seattle Aircraft Certification 
+Office (ACO), FAA. Operators shall submit their requests through an 
+appropriate FAA Principal Maintenance Inspector, who may add 
+comments and then send it to the Manager, Seattle ACO.
+
+    Note 2: Information concerning the existence of approved 
+alternative methods of compliance with this AD, if any, may be 
+obtained from the Seattle ACO.
+
+Special Flight Permits
+
+    (d) Special flight permits may be issued in accordance with 
+sections 21.197 and 21.199 of the Federal Aviation Regulations (14 
+CFR 21.197 and 21.199) to operate the airplane to a location where 
+the requirements of this AD can be accomplished.
+
+    Issued in Renton, Washington, on October 23, 2001.
+Ali Bahrami,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 01-27189 Filed 10-29-01; 8:45 am]
+BILLING CODE 4910-13-P
+
+

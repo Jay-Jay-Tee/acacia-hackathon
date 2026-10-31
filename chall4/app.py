@@ -1,0 +1,63 @@
+"""FastAPI app. Run: .venv/bin/uvicorn app:app --host 127.0.0.1 --port 8000"""
+import time
+from pathlib import Path
+
+from fastapi import FastAPI, HTTPException
+from fastapi.responses import FileResponse
+from pydantic import BaseModel, Field
+
+import engine
+import llm
+
+app = FastAPI(title="AD Finder")
+DISCLAIMER = ("Decision support only. Verify against the cited Federal Register text; "
+              "certifying staff make the final applicability and compliance decision.")
+
+
+class Ask(BaseModel):
+    query: str = Field(max_length=engine.MAX_QUERY)
+    model: str | None = Field(default=None, max_length=40)
+    serial: str | None = Field(default=None, max_length=40)
+
+
+@app.get("/")
+def index():
+    return FileResponse(Path(__file__).parent / "index.html")
+
+
+@app.get("/search")
+def search(q: str, model: str | None = None):
+    res = engine.search(q[:engine.MAX_QUERY], model=model)
+    return {"retrieval_ms": round(res["ms"], 1),
+            "hits": [{**h, "card": engine.ad_card(h["ad_id"])} for h in res["hits"]]}
+
+
+@app.get("/ad/{ad_id}")
+def ad(ad_id: int):
+    if ad_id not in engine.all_ads():
+        raise HTTPException(404)
+    a = engine.all_ads()[ad_id]
+    return {**engine.ad_card(ad_id), "summary": a["summary"], "applicability_text": a["applicability_text"]}
+
+
+@app.post("/ask")
+def ask(body: Ask):
+    t0 = time.perf_counter()
+    status, reason, res, appl = engine.gate(body.query, body.model or None, body.serial or None)
+    retrieval_ms = round(res["ms"], 1) if res else 0.0
+    hits = res["hits"] if res else []
+    cards, seen = [], set()
+    for h in hits:
+        if h["ad_id"] not in seen:
+            seen.add(h["ad_id"])
+            cards.append({**engine.ad_card(h["ad_id"]), "applicability": appl.get(h["ad_id"])})
+    out = {"status": status, "refusal_reason": reason, "answer_blocks": [], "mode": None, "note": "",
+           "documents": cards, "retrieval_ms": retrieval_ms, "disclaimer": DISCLAIMER}
+    if status == "ok":
+        mode, blocks, note = llm.answer(body.query, hits[:6])
+        if mode == "no_answer":
+            out.update(status="refused", mode=mode, refusal_reason=note)
+        else:
+            out.update(status="answered", mode=mode, answer_blocks=blocks, note=note)
+    out["total_ms"] = round((time.perf_counter() - t0) * 1000, 1)
+    return out

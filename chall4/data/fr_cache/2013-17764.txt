@@ -1,0 +1,551 @@
+
+[Federal Register Volume 78, Number 142 (Wednesday, July 24, 2013)]
+[Proposed Rules]
+[Pages 44469-44473]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2013-17764]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2013-0627; Directorate Identifier 2012-NM-021-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; BAE Systems (Operations) Limited 
+Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: We propose to supersede an existing airworthiness directive 
+(AD) that applies to all BAE Systems (Operations) Limited Model BAe 146 
+series airplanes and Model Avro 146-RJ series airplanes. The existing 
+AD currently requires revising the maintenance program by incorporating 
+certain airworthiness limitations that require new life limits on 
+certain main landing gear (MLG) components. Since we issued that AD, we 
+have determined that reduced safe life limits on certain nose landing 
+gear (NLG) fittings are necessary. Analysis of these fittings showed 
+the presence of forging indications in the flash line, which might 
+reduce the life limits of these fittings.
+
+This proposed AD would require revising the maintenance program to
+
+[[Page 44470]]
+
+incorporate certain limitations. We are proposing this AD to prevent 
+fatigue cracking of certain structural elements, which could adversely 
+affect the structural integrity of the airplane.
+
+DATES: We must receive comments on this proposed AD by September 9, 
+2013.
+
+ADDRESSES: You may send comments by any of the following methods:
+     Federal eRulemaking Portal: Go to http://www.regulations.gov. Follow the instructions for submitting comments.
+     Fax: (202) 493-2251.
+     Mail: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue SE., Washington, DC 20590.
+     Hand Delivery: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue SE., Washington, DC, between 9 a.m. and 5 p.m., Monday 
+through Friday, except Federal holidays.
+    For BAE Systems service information identified in this proposed AD, 
+contact BAE Systems (Operations) Limited, Customer Information 
+Department, Prestwick International Airport, Ayrshire, KA9 2RW, 
+Scotland, United Kingdom; telephone +44 1292 675207; fax +44 1292 
+675704; email [email protected]; Internet http://www.baesystems.com/Businesses/RegionalAircraft/index.htm. For Messier-
+Dowty service information identified in this proposed AD, contact 
+Messier-Dowty: Messier Services Americas, Customer Support Center, 
+45360 Severn Way, Sterling, Virginia 20166-8910; telephone 703-450-
+8233; fax 703-404-1621; Internet https://techpubs.services/messier-dowty.com. You may review copies of the referenced service information 
+at the FAA, Transport Airplane Directorate, 1601 Lind Avenue SW., 
+Renton, WA. For information on the availability of this material at the 
+FAA, call 425-227-1221.
+
+Examining the AD Docket
+
+    You may examine the AD docket on the Internet at http://www.regulations.gov; or in person at the Docket Operations office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this proposed AD, the regulatory 
+evaluation, any comments received, and other information. The street 
+address for the Docket Operations office (telephone (800) 647-5527) is 
+in the ADDRESSES section. Comments will be available in the AD docket 
+shortly after receipt.
+
+FOR FURTHER INFORMATION CONTACT: Todd Thompson, Aerospace Engineer, 
+International Branch, ANM-116, Transport Airplane Directorate, FAA, 
+1601 Lind Avenue SW., Renton, WA 98057-3356; telephone 425-227-1175; 
+fax 425-227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to send any written relevant data, views, or 
+arguments about this proposed AD. Send your comments to an address 
+listed under the ADDRESSES section. Include ``Docket No. FAA-2013-0627; 
+Directorate Identifier 2012-NM-021-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of this proposed AD. We 
+will consider all comments received by the closing date and may amend 
+this proposed AD based on those comments.
+    We will post all comments we receive, without change, to http://www.regulations.gov, including any personal information you provide. We 
+will also post a report summarizing each substantive verbal contact we 
+receive about this proposed AD.
+
+Discussion
+
+    On November 8, 2011, we issued AD 2011-24-06, Amendment 39-16870 
+(76 FR 73477, November 29, 2011), which superseded AD 2010-10-22, 
+Amendment 39-16301 (75 FR 28463, May 21, 2010). AD 2011-24-06 required 
+actions intended to address an unsafe condition on the products listed 
+above.
+    Since we issued AD 2011-24-06, Amendment 39-16870 (76 FR 73477, 
+November 29, 2011), we have determined that reduced safe life limits on 
+certain NLG fittings are necessary. Analysis of these fittings showed 
+the presence of forging indications in the flash line, which might 
+reduce the life limits of these fittings. In addition, the aircraft 
+maintenance manual has been revised to redefine the operating time of 
+the aileron and elevator dampers. The European Aviation Safety Agency 
+(EASA), which is the Technical Agent for the Member States of the 
+European Community, has issued EASA Airworthiness Directive 2012-0004, 
+dated January 12, 2012 (referred to after this as ``the MCAI''), to 
+correct an unsafe condition for the specified products. The MCAI 
+states:
+
+    * * * Compliance with [certain chapters of the BAe 146/AVRO 146-
+RJ Aircraft Maintenance Manual (AMM)] has been identified as a 
+mandatory action for continued airworthiness and EASA AD 2011-0048 
+was issued to require operators to comply with those instructions.
+* * * * *
+    Failure to comply with these instructions could result in an 
+unsafe condition.
+    For the reasons described above, this EASA AD retains the 
+requirements of EASA AD 2011-0048 [which corresponds to FAA AD 2011-
+24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011)], which 
+is superseded, and requires the implementation of the new or more 
+restrictive maintenance requirements and/or airworthiness 
+limitations as specified in * * * [certain] sub-chapters of Chapter 
+05 of the AMM at Revision 105 * * *.
+
+The unsafe condition is fatigue cracking of certain structural 
+elements, which could adversely affect the structural integrity of the 
+airplane. You may obtain further information by examining the MCAI in 
+the AD docket.
+
+Relevant Service Information
+
+    BAE Systems (Operations) Limited has issued the following service 
+information. The actions described in this service information are 
+intended to correct the unsafe condition identified in the MCAI.
+     Subject 05-10-15, ``Aircraft Equipment Airworthiness 
+Limitations,'' of Chapter 05, ``Time Limits/Maintenance Checks,'' of 
+BAe 146 Series/AVRO 146-RJ Series Aircraft Maintenance Manual, Revision 
+105, dated July 15, 2011.
+     Subject 05-20-02, ``Airframe Scheduled Maintenance--
+Landing/Calendar Life Extended,'' of Chapter 05, ``Time Limits/
+Maintenance Checks,'' of BAe 146 Series/AVRO 146-RJ Series Aircraft 
+Maintenance Manual, Revision 105, dated July 15, 2011.
+     Subject 05-20-05, ``Airframe Scheduled Maintenance--Life 
+Extension Programme Landings Life Extended,'' of Chapter 05, ``Time 
+Limits/Maintenance Checks,'' of BAe 146 Series/AVRO 146-RJ Series 
+Aircraft Maintenance Manual, Revision 105, dated July 15, 2011.
+
+FAA's Determination and Requirements of This Proposed AD
+
+    This product has been approved by the aviation authority of another 
+country, and is approved for operation in the United States. Pursuant 
+to our bilateral agreement with the State of Design Authority, we have 
+been notified of the unsafe condition described in the MCAI and service 
+information referenced above. We are proposing this AD because we 
+evaluated all pertinent information and determined an unsafe condition 
+exists and is likely to exist or develop on other products of the same 
+type design.
+    This AD requires revisions to certain operator maintenance 
+documents to include new actions (e.g., inspections) and/or Critical 
+Design Configuration
+
+[[Page 44471]]
+
+Control Limitations (CDCCLs). Compliance with these actions and/or 
+CDCCLs is required by 14 CFR 91.403(c). For airplanes that have been 
+previously modified, altered, or repaired in the areas addressed by 
+this AD, the operator may not be able to accomplish the actions 
+described in the revisions. In this situation to comply with 14 CFR 
+91.403(c), the operator must request approval of an alternative method 
+of compliance (AMOC) according to paragraph (n) of this AD. The request 
+should include a description of changes to the required actions that 
+will ensure the continued operational safety of the airplane.
+
+Costs of Compliance
+
+    Based on the service information, we estimate that this proposed AD 
+would affect about 2 products of U.S. registry.
+    The actions that are required by AD 2011-24-06, Amendment 39-16870 
+(76 FR 73477, November 29, 2011), and retained in this proposed AD take 
+about 2 work-hours per product, at an average labor rate of $85 per 
+work hour. Required parts cost about $0 per product. Based on these 
+figures, the estimated cost of the currently required actions is $170 
+per product.
+    We estimate that it would take about 1 work-hour per product to 
+comply with the new basic requirements of this proposed AD. The average 
+labor rate is $85 per work-hour. Based on these figures, we estimate 
+the cost of the proposed AD on U.S. operators to be up to $170, or $85 
+per product.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. ``Subtitle VII: Aviation 
+Programs,'' describes in more detail the scope of the Agency's 
+authority.
+    We are issuing this rulemaking under the authority described in 
+``Subtitle VII, Part A, Subpart III, Section 44701: General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify this proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979);
+    3. Will not affect intrastate aviation in Alaska; and
+    4. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD and placed it in the AD docket.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+0
+1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+0
+2. The FAA amends Sec.  39.13 by removing airworthiness directive (AD) 
+2011-24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011), and 
+adding the following new AD:
+
+BAE Systems (Operations) Limited: Docket No. FAA-2013-0627; 
+Directorate Identifier 2012-NM-021-AD.
+
+(a) Comments Due Date
+
+    We must receive comments by September 9, 2013.
+
+(b) Affected ADs
+
+    This AD supersedes AD 2011-24-06, Amendment 39-16870 (76 FR 
+73477, November 29, 2011).
+
+(c) Applicability
+
+    This AD applies to all BAE Systems (Operations) Limited Model 
+BAe 146-100A, -200A, and -300A airplanes; and Model Avro 146-RJ70A, 
+146-RJ85A, and 146-RJ100A airplanes; certificated in any category.
+
+(d) Subject
+
+    Air Transport Association (ATA) of America Code 05.
+
+(e) Reason
+
+    This AD was prompted by a determination that reduced safe life 
+limits on certain NLG fittings are necessary. We are issuing this AD 
+to prevent fatigue cracking of certain structural elements, which 
+could adversely affect the structural integrity of the airplane.
+
+(f) Compliance
+
+    You are responsible for having the actions required by this AD 
+performed within the compliance times specified, unless the actions 
+have already been done.
+
+(g) Retained Airworthiness Limitations Revisions
+
+    (1) This paragraph restates the requirements of paragraph (g) of 
+AD 2011-24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011). 
+Within 90 days after June 25, 2010 (the effective date of AD 2010-
+10-22, Amendment 39-16301 (75 FR 28463, May 21, 2010)), revise the 
+maintenance program, by incorporating Chapter 5 of the BAE Systems 
+(Operations) Limited BAe146 Series/Avro 146-RJ Series Aircraft 
+Maintenance Manual (AMM) to incorporate new and more restrictive 
+life limits for certain items and new and more restrictive 
+inspections to detect fatigue cracking in certain structures, and to 
+add fuel system (CDCCLs to prevent ignition sources in the fuel 
+tanks, in accordance with a method approved by the Manager, 
+International Branch, ANM-116, Transport Airplane Directorate, FAA; 
+or the European Aviation Safety Agency (EASA) (or its delegated 
+agent).
+    (2) This paragraph restates the provisions of Note 2 of AD 2011-
+24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011). Guidance 
+on revising Chapter 5 of the BAE Systems (Operations) Limited BAe146 
+Series/Avro 146-RJ Series AMM, Revision 97, dated July 15, 2009, can 
+be found in the applicable sub-chapters listed in Table 1 to 
+paragraph (g)(2) of this AD.
+
+   Table 1 to Paragraph (g)(2) of This AD--Applicable AMM Sub-Chapters
+------------------------------------------------------------------------
+          AMM Sub-chapter                          Subject
+------------------------------------------------------------------------
+05-10-01..........................  Airframe Airworthiness Limitations
+                                     before Life Extension Programme.
+05-10-05 \1\......................  Airframe Airworthiness Limitations,
+                                     Life Extension Programme Landings
+                                     Life Extended.
+
+[[Page 44472]]
+
+ 
+05-10-10 \2\......................  Airframe Airworthiness Limitations,
+                                     Life Extension Programme Calendar
+                                     Life Extended.
+05-10-15..........................  Aircraft Equipment--Airworthiness
+                                     Limitations.
+05-10-17..........................  Power Plant Airworthiness
+                                     Limitations.
+05-15-00..........................  Critical Design Configuration
+                                     Control Limitations (CDCCL)--Fuel
+                                     System Description and Operation.
+05-20-00 \3\......................  Scheduled Maintenance.
+05-20-01..........................  Airframe Scheduled Maintenance--
+                                     Before Life Extension Programme.
+05-20-05 \1\......................  Airframe Scheduled Maintenance--Life
+                                     Extension Programme Landings Life
+                                     Extended.
+05-20-10 \2\......................  Airframe Scheduled Maintenance--Life
+                                     Extension Programme Calendar Life
+                                     Extended.
+05-20-15..........................  Aircraft Equipment Scheduled
+                                     Maintenance.
+------------------------------------------------------------------------
+\1\ Applicable only to airplanes post-modification HCM20011A or
+  HCM20012A or HCM20013A.
+\2\ Applicable only to airplanes post-modification HCM20010A.
+\3\ Paragraphs 5 and 6 only, on the Corrosion Prevention and Control
+  Program (CPCP) and the Supplemental Structural Inspection Document
+  (SSID).
+
+    (3) This paragraph restates the provisions of Note 3 of AD 2011-
+24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011). Sub-
+chapter 05-15-00 of the BAE Systems (Operations) Limited BAe146 
+Series/Avro 146-RJ Series AMM, is the CDCCL.
+    (4) This paragraph restates the provisions of Note 4 of AD 2011-
+24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011). Within 
+Sub-chapter 05-20-00 of the BAE Systems (Operations) Limited BAe146 
+Series/Avro 146-RJ Series AMM, the relevant issues of the support 
+documents are as follows: BAE Systems (Operations) Limited BAe 146 
+Series/Avro 146-RJ Corrosion Prevention and Control Program Document 
+CPCP-146-01, Revision 3, dated July 15, 2008, including BAE Systems 
+(Operations) Limited Temporary Revision (TR) 2.1, dated December 
+2008; and BAE Systems (Operations) Limited BAe146 Series 
+Supplemental Structural Inspection Document SSID-146-01, Revision 1, 
+dated June 15, 2009.
+    (5) This paragraph restates the provisions of Note 5 of AD 2011-
+24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011). Within 
+Sub-chapter 05-20-01 of the BAE Systems (Operations) Limited BAe146 
+Series/Avro146-RJ Series AMM, the relevant issue of BAE Systems 
+(Operations) Limited BAe 146/Avro 146-RJ Maintenance Review Board 
+Report Document MRB 146-01, Issue 2, is Revision 15, dated March 
+2009 (mis-identified in EASA AD 2009-0215, dated October 7, 2009, as 
+being dated May 2009).
+    (6) This paragraph restates the provisions of Note 6 of AD 2011-
+24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011). 
+Notwithstanding any other maintenance or operational requirements, 
+components that have been identified as airworthy or installed on 
+the affected airplanes before revision of Chapter 5 of the AMM, as 
+required by paragraph (g) of this AD, do not need to be reworked in 
+accordance with the CDCCLs. However, once the Airworthiness 
+Limitations Section (ALS) or AMM has been revised, future 
+maintenance actions on these components must be done in accordance 
+with the CDCCLs.
+
+(h) Retained Restriction of Alternative Actions, Intervals, and/or 
+CDCCLs
+
+    This paragraph restates the requirements of paragraph (h) of AD 
+2011-24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011). 
+Except as specified in paragraphs (i) and (j) of this AD and 
+required by paragraph (l) of this AD: After the actions specified in 
+paragraph (g) of this AD have been accomplished, no alternative 
+inspections or inspection intervals may be approved for the 
+structural elements specified in the documents listed in paragraph 
+(g) of this AD unless the actions, intervals, and/or CDCCLs are 
+approved as an alternative method of compliance (AMOC) in accordance 
+with the procedures specified in paragraph (n) of this AD.
+
+(i) Retained Modification
+
+    This paragraph restates the provisions of paragraph (i) of AD 
+2011-24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011). 
+Modifying the main fittings of the main landing gear in accordance 
+with Messier-Dowty Service Bulletin 146-32-171, dated August 11, 
+2009, extends the safe limit of the main landing gear main fitting 
+from 32,000 landings to 50,000 landings on the main fitting.
+
+(j) Retained Airworthiness Limitations Revisions
+
+    This paragraph restates the requirements of paragraph (j) of AD 
+2011-24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011). 
+Within 90 days after January 3, 2012 (the effective date of AD 2011-
+24-06), revise the maintenance program, by incorporating Subject 05-
+10-15, ``Aircraft Equipment Airworthiness Limitations'' of Chapter 
+05, ``Time Limits/Maintenance Checks,'' of the BAE Systems 
+(Operations) Limited BAe 146 Series/Avro 146-RJ Series AMM, Revision 
+104, dated April 15, 2011, to remove life limits on shock absorber 
+assemblies, but not on the individual shock absorber components, 
+amend life limits on MLG up-locks and door up-locks, and to 
+introduce and amend life limits on MLG components. Incorporating the 
+new life limits and inspections into the maintenance program 
+terminates the requirements of paragraph (g) of this AD for Subject 
+05-10-15, ``Aircraft Equipment Airworthiness Limitations'' of 
+Chapter 05, ``Time Limits/Maintenance Checks,'' of the BAE Systems 
+(Operations) Limited BAe 146 Series/Avro 146-RJ Series AMM, Revision 
+104, dated April 15, 2011, and after incorporation has been done, 
+the limitations required by paragraph (g) of this AD for Subject 05-
+10-15, ``Aircraft Equipment Airworthiness Limitations'' of Chapter 
+05, ``Time Limits/Maintenance Checks,'' of the BAE Systems 
+(Operations) Limited BAe 146 Series/Avro 146-RJ Series AMM, Revision 
+104, dated April 15, 2011, may be removed from the maintenance 
+program.
+
+(k) Retained Restriction of Alternative Actions, Intervals, and/or 
+CDCCLs
+
+    This paragraph restates the requirements of paragraph (k) of AD 
+2011-24-06, Amendment 39-16870 (76 FR 73477, November 29, 2011). 
+Except as required by paragraph (l) of this AD, after accomplishing 
+the revision required by paragraph (j) of this AD, no alternative 
+actions (e.g., inspections), intervals, and/or CDCCLs may be used, 
+unless the actions, intervals, and/or CDCCLs are approved as an 
+alternative method of compliance (AMOC) in accordance with the 
+procedures specified in paragraph (n) of this AD.
+
+(l) New Airworthiness Limitation Revision
+
+    Within 90 days after the effective date of this AD, revise the 
+maintenance program, by incorporating Chapter 05, ``Time Limits/
+Maintenance Checks,'' of the BAE Systems (Operations) Limited BAe 
+146 Series/Avro 146-RJ Series AMM, Revision 105, dated July 15, 
+2011, into the maintenance program. The initial compliance time for 
+the replacement of any part having a new or revised life limit is at 
+the applicable time specified in Chapter 05, ``Time Limits/
+Maintenance Checks,'' of the BAE Systems (Operations) Limited BAe 
+146 Series/Avro 146-RJ Series AMM, Revision 105, dated July 15, 
+2011, or within 90 days after the effective date of this AD, 
+whichever occurs later.
+    (1) Within Sub-chapter 05-20-00 of the BAE Systems (Operations) 
+Limited BAe146 Series/Avro 146-RJ Series AMM, supporting documents 
+are BAE Systems (Operations) Limited CPCP Document CPCP-146-01, 
+Revision 4, dated September 15, 2010; and BAE Systems (Operations) 
+Limited Supplemental Structural Inspection Document (SSID) Document 
+SSID-146-01/02/03, dated July 12, 2006.
+    (2) Within Sub-chapter 05-20-01 of the BAE Systems (Operations) 
+Limited BAe146 Series/Avro146-RJ Series AMM, the supporting document 
+is BAE Systems (Operations) Limited Maintenance Review
+
+[[Page 44473]]
+
+Board Report (MRBR) Document MRB 146-01, Issue 2, Revision 17, dated 
+March 2011.
+
+(m) No Alternative Actions, Intervals, and/or CDCCLs
+
+    After accomplishing the revision required by paragraph (l) of 
+this AD, no alternative actions (e.g., inspections), intervals, and/
+or CDCCLs may be used, unless the actions, intervals, and/or CDCCLs 
+are approved as an AMOC in accordance with the procedures specified 
+in paragraph (n) of this AD.
+
+(n) Other FAA AD Provisions
+
+    The following provisions also apply to this AD: (1) Alternative 
+Methods of Compliance (AMOCs): The Manager, International Branch, 
+FAA, has the authority to approve AMOCs for this AD, if requested 
+using the procedures found in 14 CFR 39.19. In accordance with 14 
+CFR 39.19, send your request to your principal inspector or local 
+Flight Standards District Office, as appropriate. If sending 
+information directly to the International Branch, send it to ATTN: 
+Todd Thompson, Aerospace Engineer, International Branch, ANM-116, 
+Transport Airplane Directorate, FAA, 1601 Lind Avenue SW., Renton, 
+WA 98057-3356; telephone 425-227-1175; fax 425-227-1149. Information 
+may be emailed to: [email protected]. Before using any 
+approved AMOC, notify your appropriate principal inspector, or 
+lacking a principal inspector, the manager of the local flight 
+standards district office/certificate holding district office. The 
+AMOC approval letter must specifically reference this AD.
+    (2) Airworthy Product: For any requirement in this AD to obtain 
+corrective actions from a manufacturer or other source, use these 
+actions if they are FAA-approved. Corrective actions are considered 
+FAA-approved if they are approved by the State of Design Authority 
+(or their delegated agent). You are required to assure the product 
+is airworthy before it is returned to service.
+
+(o) Related Information
+
+    (1) Refer to mandatory continuing airworthiness information EASA 
+Airworthiness Directive 2012-0004, dated January 12, 2012; and 
+Chapter 05, ``Time Limits/Maintenance Checks,'' of the BAE Systems 
+(Operations) Limited BAe 146 Series/Avro 146-RJ Series AMM, Revision 
+105, dated July 15, 2011; for related information.
+    (2) For BAE Systems service information identified in this AD, 
+contact BAE Systems (Operations) Limited, Customer Information 
+Department, Prestwick International Airport, Ayrshire, KA9 2RW, 
+Scotland, United Kingdom; telephone +44 1292 675207; fax +44 1292 
+675704; email [email protected]; Internet http://www.baesystems.com/Businesses/RegionalAircraft/index.htm. For 
+Messier-Dowty service information identified in this proposed AD, 
+contact Messier-Dowty: Messier Services Americas, Customer Support 
+Center, 45360 Severn Way, Sterling, Virginia 20166-8910; telephone 
+703-450-8233; fax 703-404-1621; Internet https://techpubs.services/messier-dowty.com. You may review copies of the referenced service 
+information at the FAA, Transport Airplane Directorate, 1601 Lind 
+Avenue SW., Renton, WA. For information on the availability of this 
+material at the FAA, call 425-227-1221.
+
+    Issued in Renton, Washington, on July 12, 2013.
+Jeffrey E. Duven,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2013-17764 Filed 7-23-13; 8:45 am]
+BILLING CODE 4910-13-P
+
+

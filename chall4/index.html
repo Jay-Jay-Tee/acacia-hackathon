@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AD Finder</title>
+<style>
+  :root { --bg:#fafaf9; --fg:#1c1917; --muted:#57534e; --card:#fff; --line:#e7e5e4; --accent:#1d4ed8;
+          --ok:#15803d; --warn:#b45309; --bad:#b91c1c; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1c1917; --fg:#f5f5f4; --muted:#a8a29e; --card:#292524;
+          --line:#44403c; --accent:#93c5fd; --ok:#4ade80; --warn:#fbbf24; --bad:#f87171; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.5 system-ui, sans-serif; background:var(--bg); color:var(--fg); }
+  main { max-width:900px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { margin:0 0 4px; font-size:22px; }
+  .muted { color:var(--muted); font-size:13px; }
+  form { display:grid; grid-template-columns:1fr 160px 120px auto; gap:8px; margin:16px 0; }
+  @media (max-width:640px) { form { grid-template-columns:1fr 1fr; } form input[name=q] { grid-column:1/-1; } }
+  input, button { font:inherit; padding:8px 10px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--fg); }
+  button { background:var(--accent); color:#fff; border:none; cursor:pointer; }
+  .box { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:14px; margin:12px 0; }
+  .status { font-weight:600; }
+  .refused { border-left:4px solid var(--bad); } .clar { border-left:4px solid var(--warn); } .ans { border-left:4px solid var(--ok); }
+  sup a { text-decoration:none; color:var(--accent); font-size:11px; margin-left:2px; }
+  .cite { font-size:13px; color:var(--muted); border-top:1px dashed var(--line); margin-top:8px; padding-top:6px; }
+  .cite q { display:block; font-style:italic; margin:2px 0 6px; }
+  .badge { display:inline-block; font-size:12px; padding:1px 8px; border-radius:99px; margin-right:6px; border:1px solid currentColor; }
+  .b-prop { color:var(--warn); } .b-final { color:var(--ok); } .b-old { color:var(--bad); } .b-info { color:var(--muted); }
+  .APPLIES { color:var(--ok); } .DOES_NOT_APPLY { color:var(--muted); } .UNKNOWN, .AMBIGUOUS { color:var(--warn); }
+  details summary { cursor:pointer; font-size:13px; color:var(--muted); }
+  ul.trace { margin:4px 0 0; padding-left:18px; font-size:13px; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>AD Finder</h1>
+  <div class="muted">Search 431 FAA airworthiness-directive notices. Every sentence is cited, applicability is checked by rules, and the system refuses when unsure.</div>
+  <form id="f">
+    <input name="q" placeholder="e.g. main rotor servo-control torque inspection" required maxlength="500">
+    <input name="model" placeholder="Model (e.g. AS350B3)" maxlength="40">
+    <input name="serial" placeholder="Serial no." maxlength="40">
+    <button>Ask</button>
+  </form>
+  <div id="out"></div>
+</main>
+<script>
+const $ = (tag, attrs = {}, ...kids) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) k === "class" ? e.className = v : e.setAttribute(k, v);
+  for (const k of kids) e.append(k instanceof Node ? k : document.createTextNode(k ?? ""));
+  return e;
+};
+const safeUrl = u => (typeof u === "string" && u.startsWith("https://www.federalregister.gov/")) ? u : null;
+const link = (u, text) => safeUrl(u) ? $("a", {href: safeUrl(u), target: "_blank", rel: "noopener"}, text) : text;
+
+function render(r) {
+  const out = document.getElementById("out");
+  out.replaceChildren();
+  const cls = r.status === "answered" ? "ans" : r.status === "needs_clarification" ? "clar" : "refused";
+  const head = $("div", {class: "box " + cls},
+    $("div", {class: "status"}, {answered: "Answer", needs_clarification: "Needs clarification", refused: "Cannot answer"}[r.status] || r.status),
+    $("div", {class: "muted"}, `retrieval ${r.retrieval_ms} ms · total ${r.total_ms} ms` + (r.mode ? ` · mode: ${r.mode}` : "")));
+  if (r.refusal_reason) head.append($("p", {}, r.refusal_reason));
+  if (r.note) head.append($("p", {class: "muted"}, r.note));
+  let n = 0;
+  const cites = $("div");
+  for (const b of r.answer_blocks) {
+    const p = $("span", {}, b.text + " ");
+    for (const c of b.citations) {
+      n++;
+      p.append($("sup", {}, $("a", {href: "#c" + n}, `[${n}]`)));
+      cites.append($("div", {class: "cite", id: "c" + n},
+        `[${n}] ${c.docket} · rev. ${c.revision_date} · ${c.section} · FR p.${c.page} · `,
+        link(c.url, c.fr_citation || "source"), $("q", {}, c.cited_text)));
+    }
+    head.append(p);
+  }
+  head.append(cites);
+  head.append($("p", {class: "muted"}, r.disclaimer));
+  out.append(head);
+
+  if (r.documents?.length) out.append($("h3", {}, "Matching documents"));
+  for (const d of r.documents || []) {
+    const box = $("div", {class: "box"});
+    box.append($("div", {},
+      $("span", {class: "badge " + (d.status === "final" ? "b-final" : "b-prop")}, d.status === "final" ? "FINAL AD " + (d.ad_number || "") : "PROPOSED (NPRM) – not in effect"),
+      d.revision.count > 1 ? $("span", {class: "badge " + (d.revision.is_latest ? "b-info" : "b-old")},
+        d.revision.is_latest ? `latest of ${d.revision.count} versions` : `OUTDATED – newer version exists (${d.revision.count} versions)`) : "",
+      d.fulltext ? "" : $("span", {class: "badge b-info"}, "summary only")));
+    box.append($("div", {}, $("b", {}, d.docket), " · ", d.subject));
+    box.append($("div", {class: "muted"}, `${d.issue_date} · ${d.make} · ${d.models.join(", ")}`));
+    if (d.supersedes?.length) box.append($("div", {class: "muted"}, "Supersedes AD " + d.supersedes.join(", ")));
+    if (d.applicability) {
+      const a = d.applicability;
+      box.append($("div", {}, "Applicability: ", $("b", {class: a.result}, a.result.replaceAll("_", " "))));
+      const det = $("details", {}, $("summary", {}, "evaluation trace"));
+      const ul = $("ul", {class: "trace"});
+      a.trace.forEach(t => ul.append($("li", {}, t)));
+      det.append(ul); box.append(det);
+    }
+    if (d.revision.count > 1) {
+      const det = $("details", {}, $("summary", {}, "revision history"));
+      const ul = $("ul", {class: "trace"});
+      d.revision.versions.forEach(v => ul.append($("li", {}, `${v.issue_date} · ${v.status} · `, link(v.url, v.citation))));
+      det.append(ul); box.append(det);
+    }
+    box.append($("div", {}, link(d.url, "Federal Register source")));
+    out.append(box);
+  }
+}
+
+document.getElementById("f").addEventListener("submit", async ev => {
+  ev.preventDefault();
+  const fd = new FormData(ev.target);
+  document.getElementById("out").replaceChildren($("p", {class: "muted"}, "Searching…"));
+  try {
+    const res = await fetch("/ask", {method: "POST", headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({query: fd.get("q"), model: fd.get("model") || null, serial: fd.get("serial") || null})});
+    render(await res.json());
+  } catch (e) {
+    document.getElementById("out").replaceChildren($("p", {}, "Request failed: " + e.message));
+  }
+});
+</script>
+</body>
+</html>

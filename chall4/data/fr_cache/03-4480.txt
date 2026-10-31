@@ -1,0 +1,276 @@
+
+[Federal Register Volume 68, Number 38 (Wednesday, February 26, 2003)]
+[Proposed Rules]
+[Pages 8862-8864]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 03-4480]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2002-SW-31-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Model HH-1K, TH-1F, TH-1L, UH-1A, UH-
+1B, UH-1E, UH-1F, UH-1H, UH-1L, and UH-1P; and Southwest Florida 
+Aviation Model SW204, SW204HP, SW205, and SW205A-1 Helicopters, 
+Manufactured by Bell Helicopter Textron, Inc. (BHTI) for the Armed 
+Forces of the United States
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes the supersedure of an existing 
+airworthiness directive (AD) that applies to specified type-
+certificated military surplus helicopters. That AD currently requires 
+visual and radiographic inspections of the Boom Station (BS) 194 skin 
+joint area and the vertical fin spar caps for cracks or fretting. This 
+action would require those same actions, but would update the type 
+certificate holder names and add additional model helicopters to the 
+applicability. This proposal is prompted by the need to update the 
+current type certificate holders and to expand the applicability to 
+additional military surplus helicopters, and expand the inspection to 
+include corrosion and loose or working rivets. The actions specified by 
+the proposed AD are intended to detect a crack in the skin of a 
+tailboom assembly, tail rotor gearbox support fitting, or vertical fin 
+spar, which could cause failure of the tailboom and loss of control of 
+the helicopter.
+
+DATES: Comments must be received on or before April 28, 2003.
+
+ADDRESSES: Submit comments in triplicate to the Federal Aviation 
+Administration (FAA), Office of the Regional Counsel, Southwest Region, 
+Attention: Rules Docket No. 2002-SW-31-AD, 2601 Meacham Blvd., Room 
+663, Fort Worth, Texas 76137. You may also send comments electronically 
+to the Rules Docket at the following address: [email protected]. 
+Comments may be inspected at the Office of the Regional Counsel between 
+9 a.m. and 3 p.m., Monday through Friday, except Federal holidays.
+
+FOR FURTHER INFORMATION CONTACT: Michael Kohner, Aviation Safety 
+Engineer, FAA, Rotorcraft Directorate, Rotorcraft Certification Office, 
+Fort Worth, Texas 76193-0170, telephone (817) 222-5447, fax (817) 222-
+5783.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    Interested persons are invited to participate in the making of the 
+proposed rule by submitting such written data, views, or arguments as 
+they may desire. Communications should identify the Rules Docket number 
+and be submitted in triplicate to the address specified above. All 
+communications received on or before the closing date for comments will 
+be considered before taking action on the proposed rule. The proposals 
+contained in this document may be changed in light of the comments 
+received.
+    Comments are specifically invited on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed rule. All 
+comments submitted will be available, both before and after the closing 
+date for comments, in the Rules Docket for examination by interested 
+persons. A report summarizing each FAA-public contact concerned with 
+the substance of this proposal will be filed in the Rules Docket.
+    Commenters wishing the FAA to acknowledge receipt of their mailed 
+comments submitted in response to this proposal must submit a self-
+addressed, stamped postcard on which the following statement is made: 
+``Comments to Docket No. 2002-SW-31-AD.'' The postcard will be date 
+stamped and returned to the commenter.
+
+Discussion
+
+    On January 20, 1983, the FAA issued AD 83-03-03, Amendment 39-4556 
+(48 FR 6097, February 10, 1983), to require visually inspecting the 
+tailboom skin and vertical fin front spar cap, radiographically 
+inspecting the tailboom skin for cracks, and replacing cracked parts, 
+if necessary. That action was prompted by an accident in January 1982 
+involving a Model UH-1B helicopter. An investigation revealed tailboom 
+skin cracks, and a subsequent metallurgical examination revealed that 
+the cracks were caused by structural fatigue. The requirements of that 
+AD are intended to detect cracks and to prevent possible failure of the 
+tailboom and fin.
+    Since issuing that AD, the FAA has determined that there is a need 
+to expand the inspection to include corrosion and loose or working 
+rivets, update the type certificate holder names, and add additional 
+model helicopters to the applicability, specifically, the HH-1K, TH-1F, 
+TH-1L, and the Southwest Florida Aviation Model SW204 and SW205 series 
+helicopters.
+    The unsafe condition identified in this proposal is likely to exist 
+or develop on other helicopters of the same type designs. Therefore, 
+the proposed AD would supersede AD 83-03-03 to require:
+    [sbull] Within 30 hours time-in-service (TIS), and thereafter at 
+intervals not to exceed 100 hours TIS, visually inspecting the BS 194 
+skin splice for fretting, corrosion, loose or working rivets, or a 
+crack and visually inspecting the vertical fin forward spar caps for a 
+crack where it intersects with the tail rotor gearbox support fitting.
+    [sbull] Before further flight and thereafter at intervals not to 
+exceed 500 hours TIS, for a tailboom assembly found to have any 
+fretting, corrosion, loose or working rivets, or a crack, or for a 
+tailboom assembly with 1,000 or more hours TIS, radiographically 
+inspecting the tailboom at the BS 194 splice joint. The radiographic 
+inspection must be accomplished by an appropriately-rated person or 
+facility authorized to perform this type of inspection. The 
+radiographic inspection must be performed in accordance with the 
+requirements of ASTM E 1742-00, MIL-STD-453C, or another FAA-accepted 
+equivalent. MIL-STD-453C has been cancelled by the issuing agency, 
+however, at this time, the FAA continues to accept its usage.
+    [sbull] Before further flight, replacing any part in which a crack 
+is found, or repairing any corrosion or other damage that exceeds the 
+limitations in the maintenance and overhaul manuals.
+    The FAA estimates that 75 helicopters of U.S. registry would be 
+affected by this proposed AD, and that it would take approximately 4 
+work hours per helicopter to accomplish the visual inspections, and 
+that the average labor rate is $60 per work hour. It is estimated that 
+the cost of the radiographic inspection would be $850 per inspection 
+for labor and materials. The total cost impact of this proposed AD is 
+estimated to be $171,750 ($2,290 per helicopter each year), assuming 6 
+visual inspections and 1 radiographic inspection per year for each 
+helicopter and no parts will need to be replaced.
+    The regulations proposed herein would not have a substantial direct
+
+[[Page 8863]]
+
+effect on the States, on the relationship between the national 
+Government and the States, or on the distribution of power and 
+responsibilities among the various levels of government. Therefore, it 
+is determined that this proposal would not have federalism implications 
+under Executive Order 13132.
+    For the reasons discussed above, I certify that this proposed 
+regulation (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under the DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979); 
+and (3) if promulgated, will not have a significant economic impact, 
+positive or negative, on a substantial number of small entities under 
+the criteria of the Regulatory Flexibility Act. A copy of the draft 
+regulatory evaluation prepared for this action is contained in the 
+Rules Docket. A copy of it may be obtained by contacting the Rules 
+Docket at the location provided under the caption ADDRESSES.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by removing Amendment 39-4556 (48 FR 
+6097, February 10, 1983), and by adding a new airworthiness directive 
+(AD), to read as follows:
+
+Arrow Falcon Exporters, Inc. (previously Utah State University); 
+Firefly Aviation Helicopter Services (previously Erickson Air-Crane 
+Co.); Garlick Helicopters, Inc.; Global Helicopter Technology, Inc.; 
+Hagglund Helicopters, LLC (previously Western International 
+Aviation, Inc.); Hawkins and Powers Aviation, Inc.; International 
+Helicopters, Inc.; Robinson Air Crane, Inc.; San Joaquin Helicopters 
+(previously Hawkins and Powers Aviation, Inc.); S.M.&T. Aircraft 
+(previously U.S. Helicopters, Inc.); Smith Helicopters; Southern 
+Helicopter, Inc.; Southwest Florida Aviation; Tamarack Helicopters, 
+Inc. (previously Ranger Helicopter Services, Inc.); U.S. Helicopter, 
+Inc.; and Williams Helicopter Corporation (previously Scott Paper 
+Co.): Docket No. 2002-SW-31-AD. Supersedes AD 83-03-03, Amendment 
+39-4556, Docket No. 82-ASW-54.
+
+    Applicability: Model HH-1K, TH-1F, TH-1L, UH-1A, UH-1B, UH-1E, 
+UH-1F, UH-1H, UH-1L, and UH-1P; and Southwest Florida Aviation Model 
+SW204, SW204HP, SW205, and SW205A-1 helicopters, manufactured by 
+Bell Helicopter Textron, Inc. (BHTI) for the Armed Forces of the 
+United States, certificated in any category.
+
+    Note 1: This AD applies to each helicopter identified in the 
+preceding applicability provision, regardless of whether it has been 
+otherwise modified, altered, or repaired in the area subject to the 
+requirements of this AD. For helicopters that have been modified, 
+altered, or repaired so that the performance of the requirements of 
+this AD is affected, the owner/operator must request approval for an 
+alternative method of compliance in accordance with paragraph (d) of 
+this AD. The request should include an assessment of the effect of 
+the modification, alteration, or repair on the unsafe condition 
+addressed by this AD; and if the unsafe condition has not been 
+eliminated, the request should include specific proposed actions to 
+address it.
+
+    Compliance: Required as indicated, unless accomplished 
+previously.
+    To detect a crack in the skin of a tailboom assembly, tail rotor 
+gearbox support fitting, or vertical fin spar, which could cause 
+failure of the tailboom and loss of control of the helicopter, 
+accomplish the following:
+    (a) Within 30 hours time-in-service (TIS), and thereafter at 
+intervals not to exceed 100 hours TIS:
+    (1) Visually inspect the tailboom assembly skin joint at Boom 
+Station (BS) 194 for fretting, corrosion, loose or working rivets, 
+or a crack. Inspect 10 inches forward and 10 inches aft of BS 194 
+(BS 194 skin joint area) as shown in the following Figure 1:
+
+[[Page 8864]]
+
+[GRAPHIC] [TIFF OMITTED] TP26FE03.008
+
+
+    Note 2: The tailboom skin joint at BS 194 is located at the 
+bulkhead just forward of the attachment area for the 42-degree tail 
+rotor gearbox assembly (42-degree gearbox) and the intersection 
+between the vertical fin forward canted bulkhead and the lower 
+tailboom skin.
+
+    (2) Visually inspect the vertical fin forward spar caps (2) for 
+a crack at the intersection with the tail rotor gearbox support 
+fitting. Refer to Figure 1 of this AD.
+    (b) Before further flight, and thereafter at intervals not to 
+exceed 500 hours TIS, radiographically inspect the BS 194 skin joint 
+area in accordance with the requirements of ASTM E 1742-00, MIL-STD-
+453C, or another FAA-accepted equivalent, for any tailboom assembly 
+with:
+    (1) Any fretting, corrosion, loose or working rivets, or a crack 
+in the BS 194 skin joint area; or
+    (2) 1,000 or more hours TIS.
+    (c) If a crack is found in any part, replace it with an 
+airworthy part before further flight. Repair any corrosion or other 
+damage that exceeds the limitations in the maintenance or overhaul 
+manuals before further flight.
+    (d) An alternative method of compliance or adjustment of the 
+compliance time that provides an acceptable level of safety may be 
+used if approved by the Manager, Rotorcraft Certification Office, 
+Rotorcraft Directorate, FAA. Operators shall submit their requests 
+through an FAA Principal Maintenance Inspector, who may concur or 
+comment and then send it to the Manager, Rotorcraft Certification 
+Office.
+
+    Note 3: Information concerning the existence of approved 
+alternative methods of compliance with this AD, if any, may be 
+obtained from the Rotorcraft Certification Office.
+
+    (e) Special flight permits may be issued in accordance with 14 
+CFR 21.197 and 21.199 to operate the helicopter to a location where 
+the requirements of this AD can be accomplished.
+
+    Issued in Fort Worth, Texas, on February 6, 2003.
+David A. Downey,
+Manager, Rotorcraft Directorate, Aircraft Certification Service.
+[FR Doc. 03-4480 Filed 2-25-03; 8:45 am]
+BILLING CODE 4910-13-P
+
+

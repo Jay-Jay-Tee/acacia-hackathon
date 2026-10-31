@@ -1,0 +1,210 @@
+
+[Federal Register Volume 86, Number 207 (Friday, October 29, 2021)]
+[Proposed Rules]
+[Pages 59899-59900]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2021-23514]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2018-0440; Project Identifier 2016-SW-077-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Scotts-Bell 47 Inc. (Type Certificate 
+Previously Held by Bell Helicopter Textron Inc.) Helicopters
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM) 
+that proposed to adopt a new airworthiness directive (AD) that would 
+have applied to Scotts-Bell 47 Inc. (Scotts-Bell) (type certificate 
+previously held by Bell Helicopter Textron Inc.) Model 47, 47B, 47B3, 
+47D, 47D1, 47E, 47G, 47G-2, 47G-2A, 47G-2A-1, 47G-3, 47G-3B, 47G-3B-1, 
+47G-3B-2, 47G-3B-2A, 47G-4, 47G-4A, 47G-5, 47G-5A, 47H-1, 47J, 47J-2, 
+47J-2A, and 47K helicopters. The NPRM would have required repetitively 
+inspecting and adjusting the throttle linkage. The NPRM was prompted by 
+reports of the throttle linkage separating from the engine carburetor 
+shaft, which could result in loss of throttle control. Since issuance 
+of the NPRM, the FAA has determined, based upon the available 
+information, that there is not an unsafe condition in the product that 
+is likely to develop in other products of the same type design. 
+Accordingly, the NPRM is withdrawn.
+
+DATES: As of October 29, 2021 the proposed rule, which was published in 
+the Federal Register on May 18, 2018 (83 FR 23240), is withdrawn.
+
+ADDRESSES: 
+
+Examining the AD Docket
+
+    You may examine the AD docket on the internet at https://www.regulations.gov by searching for and locating Docket No. FAA-2018-
+0440; or in person at Docket Operations between 9 a.m. and 5 p.m., 
+Monday through Friday, except Federal holidays. The AD docket contains 
+this AD action, any comments received, and other information. The 
+street address for Docket Operations is U.S. Department of 
+Transportation, Docket Operations, M-30, West Building Ground Floor, 
+Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Surinder Sangha, COS Program Manager, 
+FAA, Chicago ACO Branch, Room 107, 2300 E Devon Ave., Des Plaines, IL 
+60018; telephone 847-294-7010; email [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The FAA issued an NPRM that proposed to amend 14 CFR part 39 by 
+adding an AD that would have applied to certain Scotts-Bell Model 47, 
+47B, 47B3, 47D, 47D1, 47E, 47G, 47G-2, 47G-2A, 47G-2A-1, 47G-3, 47G-3B, 
+47G-3B-1, 47G-3B-2, 47G-3B-2A, 47G-4, 47G-4A, 47G-5, 47G-5A, 47H-1, 
+47J, 47J-2, 47J-2A, and 47K helicopters. The NPRM published in the 
+Federal Register on May 18, 2018 (83 FR 23240). The NPRM was prompted 
+by reports of the throttle linkage separating from the engine 
+carburetor shaft, which could result in loss of throttle control.
+    In the NPRM, the FAA proposed to require repetitively inspecting 
+and adjusting the throttle linkage. The proposed actions were intended 
+to address separation of the throttle linkage from an engine carburetor 
+shaft, which could result in loss of throttle control and subsequent 
+forced landing of the helicopter.
+
+Actions Since the NPRM Was Issued
+
+    Since issuance of the NPRM, the FAA has not received any additional 
+reports of the throttle linkage separating from the engine carburetor 
+shaft. The FAA's assessment indicates that there have been few reports 
+of the throttle linkage separating from the engine carburetor shaft in 
+the more than 70-year operational history of the Model 47G-3B-1 
+helicopter. In addition, the FAA determined that in this incident the 
+throttle linkage separating from the engine carburetor shaft resulted 
+from maintenance actions that did not follow the established 
+maintenance standards and were not performed by a certified mechanic. 
+Based on this information the FAA concluded that an unsafe condition 
+does not exist on the identified Scotts-Bell helicopter models that is 
+likely to develop in other products of the same type design. Therefore, 
+the FAA has determined that AD action is not appropriate.
+    Withdrawal of the NPRM constitutes only such action and does not 
+preclude the FAA from further rulemaking on this issue, nor does it 
+commit the FAA to any course of action in the future.
+
+Comments
+
+    The FAA gave the public the opportunity to comment on the NPRM and 
+received several comments from Scott's-Bell 47, Inc. You may examine 
+the comments received in the AD docket at https://www.regulations.gov 
+by searching for and locating Docket No. FAA-2018-0440.
+
+Request To Expand the Applicability
+
+    Scott's-Bell 47, Inc. requested that the applicability in the 
+proposed AD be revised to include helicopter models that are listed in 
+the ``Serial Numbers Eligible'' section of Type Certificate Data Sheets 
+(TCDS) H-1, 2H1, and 2H3. The commenter noted that in the proposed AD 
+only Scotts-Bell Model 47 helicopters are identified. The commenter 
+stated that many other helicopter models are listed in TCDS H-1, 2H1, 
+and 2H3 and provided an example that due to a conformity inspection 
+TCDS H1 lists the Rebel Rotors serial number (S/N) B-101-R
+
+[[Page 59900]]
+
+helicopter as eligible to operate as a Model 47D1. The commenter 
+explained that the Rebel Rotors S/N B-101-R helicopter is not a 
+Scott's-Bell Model 47D1 helicopter, and as the proposed AD was written, 
+would not be captured in the applicability, despite the fact that it 
+likely had the same unsafe condition addressed in the proposed AD. The 
+commenter suggested that the applicability be changed to mirror what is 
+in the Scott's-Bell 47, Inc. service information ``All Helicopters 
+listed on Type Certificate Data Sheets H-1, 2H1, and 2H3, which have 
+Marvel Schebler carburetors models . . . installed.''
+    The FAA acknowledges this comment to the NPRM. However, because the 
+FAA is withdrawing the NPRM, the commenter's request is no longer 
+necessary.
+
+Request To Clarify the Compliance Time
+
+    Scott's-Bell 47, Inc. also requested that the compliance time in 
+paragraph (e)(3) of the proposed AD be revised to state ``Within 100 
+hours time-in-service or at the next annual or 100-hour inspection, 
+whichever occurs first, and thereafter any time the throttle linkage 
+connection is disassembled.'' The commenter explained that, as written 
+in the proposed AD, this compliance time does not address disassembly 
+and, if disassembly were to occur after the first flight of the day and 
+the helicopter was returned to service on the same day, the current 
+wording would not require proper rigging to be performed for the second 
+and subsequent flights of that day. The commenter suggested that its 
+proposed wording would capture all variables and eliminate unnecessary 
+re-rigging of the helicopter.
+    The FAA acknowledges this comment to the NPRM. However, because the 
+FAA is withdrawing the NPRM, the commenter's request is no longer 
+necessary.
+
+Request To Include Additional Required Actions
+
+    Furthermore, Scott's-Bell 47, Inc. requested that paragraphs 
+(e)(3)(i) and (ii) of the proposed AD be revised to include additional 
+required actions. The commenter stated that paragraph (e)(3)(i) of the 
+proposed AD requires operators to ``adjust and secure the throttle 
+linkage as specified in Appendix 1 of the Scott's-Bell Maintenance and 
+Overhaul Instructions Temporary Revision . . . .'' but other vital 
+functions, including a functionality check after adjusting and 
+securing, followed by applying anti-sabotage lacquer, are not included, 
+and, therefore, would not be required. The commenter recommended that 
+paragraph (e)(3)(i) be revised to ``Adjust, secure, perform 
+functionality check, and apply anti-sabotage lacquer to the throttle 
+linkage, as specified in Appendix 1 of the Scott's-Bell Maintenance and 
+Overhaul Instructions Temporary Revision that is applicable to your 
+helicopter, as listed in Table 1 of Scott's-Bell Alert Service Bulletin 
+47-15-27 R1, dated November 1, 2016.''
+    In regard to paragraph (e)(3)(ii) of the proposed AD, the commenter 
+proposed that this paragraph be revised to state ``. . . and 47K 
+helicopters, adjust, secure, perform functionality check and apply 
+anti-sabotage lacquer to the throttle linkage using a method approved . 
+. . .''
+    The FAA acknowledges this comment to the NPRM. However, because the 
+FAA is withdrawing the NPRM, the commenter's request is no longer 
+necessary.
+
+FAA's Conclusions
+
+    Upon further consideration of the available information, the FAA 
+has determined that the NPRM is unnecessary. Accordingly, the NPRM is 
+withdrawn.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule. This action therefore is not covered under Executive 
+Order 12866, the Regulatory Flexibility Act, or DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+0
+Accordingly, the notice of proposed rulemaking, Docket No. FAA-2018-
+0440, which was published in the Federal Register on May 18, 2018 (83 
+FR 23240), is withdrawn.
+
+    Issued on October 22, 2021.
+Lance T. Gant,
+Director, Compliance & Airworthiness Division, Aircraft Certification 
+Service.
+[FR Doc. 2021-23514 Filed 10-28-21; 8:45 am]
+BILLING CODE 4910-13-P
+
+

@@ -1,0 +1,87 @@
+
+[Federal Register Volume 68, Number 148 (Friday, August 1, 2003)]
+[Proposed Rules]
+[Pages 45176-45177]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 03-19585]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2002-CE-57-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Cessna Aircraft Company Models 402C and 
+414A Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM); extension of the comment 
+period.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document provides additional time for the public to 
+comment on a proposal to supersede Airworthiness Directive (AD) 2000-
+23-01, which applies to all Cessna Aircraft Company (Cessna) Model 402C 
+airplanes. AD 2000-23-01 currently requires repetitive inspections of 
+the forward, aft, and auxiliary wing spars for cracks, and repair or 
+replacement as necessary. Cessna has performed fatigue and crack growth 
+analyses of the wings of these airplanes, and the Federal Aviation 
+Administration (FAA) has evaluated this information and determined that 
+a wing spar
+
+[[Page 45177]]
+
+modification and inspections are necessary on the Model 414A airplanes 
+as well as the Model 402C airplanes. This proposed AD would require you 
+to inspect the wing spar caps for fatigue cracks with any necessary 
+repair or replacement and to incorporate a spar strap modification on 
+each wing spar. Comments received on the original NPRM (68 FR 26244, 
+May 15, 2003) specify additional time to respond to the proposed 
+action. The actions specified by this proposed AD are intended to 
+prevent wing spar cap failure due to undetected fatigue cracks. Such 
+failure could result in loss of a wing with consequent loss of airplane 
+control.
+
+DATES: The Federal Aviation Administration (FAA) must receive any 
+comments on this proposed rule on or before September 8, 2003. This is 
+extended from August 8, 2003.
+
+ADDRESSES: Submit comments to FAA, Central Region, Office of the 
+Regional Counsel, Attention: Rules Docket No. 2002-CE-57-AD, 901 
+Locust, Room 506, Kansas City, Missouri 64106. You may view any 
+comments at this location between 8 a.m. and 4 p.m., Monday through 
+Friday, except Federal holidays. You may also send comments 
+electronically to the following address: [email protected]. 
+Comments sent electronically must contain ``Docket No. 2002-CE-57-AD'' 
+in the subject line. If you send comments electronically as attached 
+electronic files, the files must be formatted in Microsoft Word 97 for 
+Windows or ASCII text.
+    You may get service information that applies to this proposed AD 
+from the Cessna Aircraft Company, Product Support, P.O. Box 7706, 
+Wichita, Kansas 67277; telephone: (316) 517-5800; facsimile: (316) 942-
+9006. You may also view this information at the Rules Docket at the 
+address above.
+
+FOR FURTHER INFORMATION CONTACT: Paul Nguyen, Aerospace Engineer, FAA, 
+Wichita Aircraft Certification Office, 1801 Airport Road, Mid-Continent 
+Airport, Wichita, Kansas 67209; telephone: (316) 946-4125; facsimile: 
+(316) 946-4107.
+
+    Issued in Kansas City, Missouri, on July 28, 2003.
+James E. Jackson,
+Acting Manager, Small Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 03-19585 Filed 7-31-03; 8:45 am]
+BILLING CODE 4910-13-P
+
+

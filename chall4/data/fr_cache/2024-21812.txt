@@ -1,0 +1,148 @@
+
+[Federal Register Volume 89, Number 187 (Thursday, September 26, 2024)]
+[Proposed Rules]
+[Pages 78826-78827]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2024-21812]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2024-1475; Project Identifier MCAI-2024-00062-T]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Airbus SAS Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM) 
+that proposed to adopt a new airworthiness directive (AD) that would 
+have applied to all Airbus SAS Model A319-111, -112, -113, -114, -115, 
+-131, -132, and -133 airplanes; Model A320-211, -212, -214, -216, -231, 
+-232, and -233 airplanes; and Model A321-111, -112, -131, -211, -212, -
+213, -231, -232, and -271N airplanes. The NPRM was prompted by a 
+determination that a damage-tolerance and fatigue reassessment of nose 
+landing gear (NLG) repairs is necessary for certain parts fitted on 
+airplanes approved for operation in the Commonwealth of Independent 
+States (CIS). The NPRM would have required
+
+[[Page 78827]]
+
+repair and replacement of all affected parts, and would have limited 
+installation of affected parts, as specified in a European Union 
+Aviation Safety Agency (EASA) AD. Since issuance of the NPRM, the FAA 
+has determined that the applicability as specified in the NPRM was 
+incorrect; the FAA is issuing new rulemaking that corrects the 
+applicability. Accordingly, the NPRM is withdrawn.
+
+DATES: As of September 26, 2024, the proposed rule, which was published 
+in the Federal Register on May 24, 2024 (89 FR 45800), is withdrawn.
+
+ADDRESSES: 
+    AD Docket: You may examine the AD docket at regulations.gov under 
+Docket No. FAA-2024-1475; or in person at Docket Operations between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays. The AD 
+docket contains this AD action, the mandatory continuing airworthiness 
+information (MCAI), any comments received, and other information. The 
+street address for Docket Operations is U.S. Department of 
+Transportation, Docket Operations, M-30, West Building Ground Floor, 
+Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Timothy Dowling, Aviation Safety 
+Engineer, FAA, 1600 Stewart Avenue, Suite 410, Westbury, NY 11590; 
+phone 206-231-3667; email [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The FAA issued an NPRM that proposed to amend 14 CFR part 39 by 
+adding an AD for all Airbus SAS Model A319-111, -112, -113, -114, -115, 
+-131, -132, and -133 airplanes; Model A320-211, -212, -214, -216, -231, 
+-232, and -233 airplanes; and Model A321-111, -112, -131, -211, -212, -
+213, -231, -232, and -271N airplanes. The NPRM was published in the 
+Federal Register on May 24, 2024 (89 FR 45800). The NPRM was prompted 
+by a determination that a damage-tolerance and fatigue reassessment of 
+NLG repairs is necessary for certain parts fitted on airplanes approved 
+for operation in the CIS. The NPRM proposed to require repair and 
+replacement of all affected parts, and to limit the installation of 
+affected parts, as specified in an EASA AD.
+    The proposed actions were intended to address NLG repairs for 
+certain parts fitted on airplanes approved for operation in the CIS, 
+and to prevent damage or failure of the affected parts and the NLG, and 
+possible damage to the airplane and injury to occupants.
+
+Actions Since the NPRM Was Issued
+
+    Since issuance of the NPRM, the FAA has learned of errors in the 
+applicability. Paragraph (c)(3) of the NPRM included some airplanes 
+that were not intended to be included, and it omitted airplanes that 
+should have been included. In light of this error, the FAA is issuing 
+further rulemaking (Docket No. FAA-2024-2314) to correct the 
+applicability.
+    Withdrawal of the NPRM constitutes only such action and does not 
+preclude the FAA from further rulemaking on this issue, nor does it 
+commit the FAA to any course of action in the future.
+
+Comments
+
+    The Air Line Pilots Association, International (ALPA) supported the 
+NPRM. American Airlines advised the FAA of errors in the applicability 
+specified in the NPRM.
+
+Explanation of Applicability Errors
+
+    The following errors were included in the NPRM:
+     Paragraph (c)(1) of the proposed AD incorrectly omitted 
+Model A319-151N and -153N airplanes.
+     Paragraph (c)(2) of the proposed AD incorrectly omitted 
+Model A320-251N, -252N, -253N, -271N, -272N, and -273N airplanes.
+     Paragraph (c)(3) of the proposed AD incorrectly included 
+A321-111, -112, and -131 airplanes, and omitted Model A321-211, -212, -
+213, -231, -232, -251N, -251NX, -252N, -252NX, -253N, -253NX, -271N, -
+271NX, -272N, and -272NX airplanes.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that the NPRM 
+does not adequately address the identified unsafe condition. 
+Accordingly, the NPRM is withdrawn.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule. This action therefore is not covered under Executive 
+Order 12866, the Regulatory Flexibility Act, or DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking (Docket No. FAA-
+2024-1475), which was published in the Federal Register on May 24, 2024 
+(89 FR 45800), is withdrawn.
+
+    Issued on September 19, 2024.
+Peter A. White,
+Deputy Director, Integrated Certificate Management Division, Aircraft 
+Certification Service.
+[FR Doc. 2024-21812 Filed 9-25-24; 8:45 am]
+BILLING CODE 4910-13-P
+
+

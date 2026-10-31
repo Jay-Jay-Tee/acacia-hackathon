@@ -1,0 +1,433 @@
+
+[Federal Register Volume 71, Number 126 (Friday, June 30, 2006)]
+[Proposed Rules]
+[Pages 37512-37515]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 06-5872]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2006-25221; Directorate Identifier 2006-NM-122-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Airbus Model A300 and A310 Airplanes; 
+and Airbus Model A300 B4-600, B4-600R, and F4-600R Series Airplanes, 
+and Model C4-605R Variant F Airplanes (Collectively Called A300-600 
+Series Airplanes)
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) 
+for all Airbus Model A300 and A310 airplanes and A300-600 series 
+airplanes. This proposed AD would require inspecting for discrepancies 
+of all electrical bundles located in the leading and trailing edges of 
+the wings, and performing corrective actions if necessary. This 
+proposed AD results from fuel system reviews conducted by the 
+manufacturer. We are proposing this AD to prevent an ignition source, 
+which, in combination with flammable fuel vapors, could result in a 
+fuel tank explosion and consequent loss of the airplane.
+
+DATES: We must receive comments on this proposed AD by July 31, 2006.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility, U.S. Department of 
+Transportation, 400 Seventh Street, SW., Nassif Building, room PL-401, 
+Washington, DC 20590.
+     Fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street, SW., Washington, DC, between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    Contact Airbus, 1 Rond Point Maurice Bellonte, 31707 Blagnac Cedex, 
+France, for service information identified in this proposed AD.
+
+FOR FURTHER INFORMATION CONTACT: Tom Stafford, Aerospace Engineer,
+
+[[Page 37513]]
+
+International Branch, ANM-116, FAA, Transport Airplane Directorate, 
+1601 Lind Avenue, SW., Renton, Washington 98057-3356; telephone (425) 
+227-1622; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to submit any relevant written data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed in the ADDRESSES section. Include the docket number ``FAA-2006-
+25221; Directorate Identifier 2006-NM-122-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments received by the closing date and may amend the 
+proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed AD. Using the search function of 
+that Web site, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You may review the DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or you 
+may visit http://dms.dot.gov.
+
+Examining the Docket
+
+    You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the DOT 
+street address stated in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after the Docket Management System 
+receives them.
+
+Discussion
+
+    The FAA has examined the underlying safety issues involved in fuel 
+tank explosions on several large transport airplanes, including the 
+adequacy of existing regulations, the service history of airplanes 
+subject to those regulations, and existing maintenance practices for 
+fuel tank systems. As a result of those findings, we issued a 
+regulation titled ``Transport Airplane Fuel Tank System Design Review, 
+Flammability Reduction and Maintenance and Inspection Requirements' (66 
+FR 23086, May 7, 2001). In addition to new airworthiness standards for 
+transport airplanes and new maintenance requirements, this rule 
+included Special Federal Aviation Regulation No. 88 (``SFAR 88,'' 
+Amendment 21-78, and subsequent Amendments 21-82 and 21-83).
+    Among other actions, SFAR 88 requires certain type design (i.e., 
+type certificate (TC) and supplemental type certificate (STC)) holders 
+to substantiate that their fuel tank systems can prevent ignition 
+sources in the fuel tanks. This requirement applies to type design 
+holders for large turbine-powered transport airplanes and for 
+subsequent modifications to those airplanes. It requires them to 
+perform design reviews and to develop design changes and maintenance 
+procedures if their designs do not meet the new fuel tank safety 
+standards. As explained in the preamble to the rule, we intended to 
+adopt airworthiness directives to mandate any changes found necessary 
+to address unsafe conditions identified as a result of these reviews.
+    In evaluating these design reviews, we have established four 
+criteria intended to define the unsafe conditions associated with fuel 
+tank systems that require corrective actions. The percentage of 
+operating time during which fuel tanks are exposed to flammable 
+conditions is one of these criteria. The other three criteria address 
+the failure types under evaluation: Single failures, single failures in 
+combination with a latent condition(s), and in-service failure 
+experience. For all four criteria, the evaluations included 
+consideration of previous actions taken that may mitigate the need for 
+further action.
+    The Joint Aviation Authorities (JAA) has issued a regulation that 
+is similar to SFAR 88. (The JAA is an associated body of the European 
+Civil Aviation Conference (ECAC) representing the civil aviation 
+regulatory authorities of a number of European States who have agreed 
+to co-operate in developing and implementing common safety regulatory 
+standards and procedures.) Under this regulation, the JAA stated that 
+all members of the ECAC that hold type certificates for transport 
+category airplanes are required to conduct a design review against 
+explosion risks.
+    We have determined that the actions identified in this AD are 
+necessary to reduce the potential of ignition sources inside fuel 
+tanks, which, in combination with flammable fuel vapors, could result 
+in fuel tank explosions and consequent loss of the airplane.
+    The European Aviation Safety Agency (EASA) notified us that an 
+unsafe condition may exist on all Airbus Model A300 and A310 airplanes; 
+and Airbus Model A300 B4-600, B4-600R, and F4-600R series airplanes, 
+and Model C4-605R Variant F airplanes (collectively called A300-600 
+series airplanes). The EASA advises us of the potential for 
+discrepancies, including but not limited to chafing, of all electrical 
+bundles in the leading and trailing edges of the wings of these 
+airplanes. This condition, if not corrected, could result in an 
+ignition source, which, in combination with flammable fuel vapors, 
+could result in a fuel tank explosion and consequent loss of the 
+airplane.
+
+Relevant Service Information
+
+    Airbus has issued the service bulletins listed in the table below.
+
+----------------------------------------------------------------------------------------------------------------
+                                             Airbus service bulletin,
+              Airplane model                   including appendix 01                       Date
+----------------------------------------------------------------------------------------------------------------
+A300.....................................  A300-24-0102................  December 15, 2005.
+A310.....................................  A310-24-2095................  December 15, 2005.
+A300-600 series..........................  A300-24-6092................  December 15, 2005.
+----------------------------------------------------------------------------------------------------------------
+
+    These service bulletins describe procedures for performing detailed 
+inspections for discrepancies of all electrical bundles located in the 
+leading and trailing edges of the wings, and corrective actions if 
+necessary. The inspections include inspecting for the following:
+     Inadequate clearance between electrical wire harnesses and 
+adjacent components or structure, including support structure, 
+stringers, fasteners, pipes, bonding leads, or any metallic component 
+which could create a conductive path to structure.
+     Evidence of chafing of electrical cable harnesses.
+     Discrepancies of clamps (including, but not limited to, 
+unacceptable condition, unacceptable condition of
+
+[[Page 37514]]
+
+cushioning and anti-chafing devices, or evidence of chafing against 
+electrical cable harnesses).
+     Discrepancies of cable ties (including, but not limited 
+to, unacceptable condition, or evidence of chafing against electrical 
+cable harnesses).
+     Discrepancies of convoluted conduits (including, but not 
+limited to, unacceptable condition, evidence of chafing against 
+electrical cable harnesses, and absence of drainage holes in the 
+conduits).
+     Discrepancies of metallic conduits (including, but not 
+limited to, unacceptable condition, evidence of chafing against 
+electrical cable harnesses, and absence of or unacceptable condition of 
+drainage holes in the conduits).
+    Corrective actions include repairing any chafed electrical cable 
+harnesses, replacing discrepant clamps with new clamps, repairing or 
+replacing discrepant cable ties, installing drainage holes in 
+convoluted or metallic conduits, and repairing any discrepant 
+convoluted or metallic conduits. If clearance is not adequate between 
+electrical wire harnesses and adjacent components or structure, the 
+service bulletins specify contacting Airbus for corrective action. The 
+service bulletins also specify to report all findings to Airbus.
+    Accomplishing the actions specified in the service information is 
+intended to adequately address the unsafe condition. The EASA mandated 
+the service information and issued airworthiness directive 2006-0076, 
+dated April 3, 2006, to ensure the continued airworthiness of these 
+airplanes in the European Union.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    These airplane models are manufactured in France and are type 
+certificated for operation in the United States under the provisions of 
+section 21.29 of the Federal Aviation Regulations (14 CFR 21.29) and 
+the applicable bilateral airworthiness agreement. As described in FAA 
+Order 8100.14A, ``Interim Procedures for Working with the European 
+Community on Airworthiness Certification and Continued Airworthiness,'' 
+dated August 12, 2005, the EASA has kept the FAA informed of the 
+situation described above. We have examined the EASA's findings, 
+evaluated all pertinent information, and determined that we need to 
+issue an AD for products of this type design that are certificated for 
+operation in the United States.
+    Therefore, we are proposing this AD, which would require 
+accomplishing the actions specified in the service information 
+described previously, except as discussed under ``Differences Between 
+the Proposed AD and Service Information.'' The proposed AD would also 
+require sending the inspection results to Airbus.
+
+Differences Between the Proposed AD and Service Information
+
+    The service bulletins specify to contact the manufacturer for 
+instructions on how to correct inadequate clearance between electrical 
+wire harnesses and adjacent components or structure and repair certain 
+conditions, but this proposed AD would require correcting that 
+condition using a method that we or the EASA (or its delegated agent) 
+approve. In light of the type of corrective action that would be 
+required to address the unsafe condition, and consistent with existing 
+bilateral airworthiness agreements, we have determined that, for this 
+proposed AD, a corrective action that we or the EASA approve would be 
+acceptable for compliance with this proposed AD.
+
+Clarification of Inspection Terminology
+
+    In this proposed AD, the ``detailed visual inspection'' specified 
+in the EASA's AD and the Airbus service bulletins is referred to as a 
+``detailed inspection.'' We have included the definition for a detailed 
+inspection in a note in the proposed AD.
+
+Costs of Compliance
+
+    This proposed AD would affect about 227 airplanes of U.S. registry. 
+The proposed actions would take about 10 work hours per airplane, at an 
+average labor rate of $80 per work hour. Based on these figures, the 
+estimated cost of the proposed AD for U.S. operators is $181,600, or 
+$800 per airplane.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD and placed it in the AD docket. See the 
+ADDRESSES section for a location to examine the regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+Sec.  39.13  [Amended]
+
+    2. The Federal Aviation Administration (FAA) amends Sec.  39.13 by 
+adding the following new airworthiness directive (AD):
+
+Airbus: Docket No. FAA-2006-25221; Directorate Identifier 2006-NM-
+122-AD.
+
+Comments Due Date
+
+    (a) The FAA must receive comments on this AD action by July 31, 
+2006.
+
+Affected ADs
+
+    (b) None.
+
+[[Page 37515]]
+
+Applicability
+
+    (c) This AD applies to all Airbus Model A300 and A310 airplanes; 
+and all Airbus Model A300 B4-601, B4-603, B4-620, B4-622, B4-605R, 
+B4-622R, F4-605R, and F4-622R airplanes, and A300 C4-605R Variant F 
+airplanes; certificated in any category.
+
+Unsafe Condition
+
+    (d) This AD results from fuel system reviews conducted by the 
+manufacturer. We are issuing this AD to prevent an ignition source, 
+which, in combination with flammable fuel vapors, could result in a 
+fuel tank explosion and consequent loss of the airplane.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Service Bulletin Reference
+
+    (f) The term ``service bulletin,'' as used in this AD, means the 
+Accomplishment Instructions of the following service bulletins, as 
+applicable:
+    (1) For Model A300 airplanes: Airbus Service Bulletin A300-24-
+0102, including Appendix 01, dated December 15, 2005;
+    (2) For Model A310 airplanes: Airbus Service Bulletin A310-24-
+2095, including Appendix 01, dated December 15, 2005; and
+    (3) For Model A300 B4-601, B4-603, B4-620, B4-622, B4-605R, B4-
+622R, F4-605R, and F4-622R airplanes, and A300 C4-605R Variant F 
+airplanes: Airbus Service Bulletin A300-24-6092, including Appendix 
+01, dated December 15, 2005.
+
+Inspections and Corrective Actions
+
+    (g) Within 44 months after the effective date of this AD, 
+perform detailed inspections for discrepancies of all electrical 
+bundles located in the leading and trailing edges of the wings, and 
+all applicable corrective actions, by doing all of the actions in 
+the service bulletin, except as provided by paragraph (h) of this 
+AD. All corrective actions must be done before further flight.
+
+
+    Note 1: For the purposes of this AD, a detailed inspection is: 
+``An intensive examination of a specific item, installation, or 
+assembly to detect damage, failure, or irregularity. Available 
+lighting is normally supplemented with a direct source of good 
+lighting at an intensity deemed appropriate. Inspection aids such as 
+mirror, magnifying lenses, etc., may be necessary. Surface cleaning 
+and elaborate procedures may be required.''
+
+Exception to Corrective Action Instructions
+
+    (h) If inadequate clearance is found between any electrical wire 
+harness and adjacent components or structure: Before further flight, 
+correct the inadequate clearance using a method approved by either 
+the Manager, International Branch, ANM-116, Transport Airplane 
+Directorate, FAA; or the European Aviation Safety Agency (EASA) (or 
+its delegated agent).
+
+Reporting
+
+    (i) Within 30 days after doing the inspections required by this 
+AD, or within 30 days after the effective date of the AD, whichever 
+is later: Submit a report of the findings (both positive and 
+negative) of the inspections required by paragraph (g) of this AD to 
+Airbus Engineering, c/o SE-E54, 1 Rond Point Maurice Bellonte, 31707 
+Blagnac Cedex, France. The report must include the airplane serial 
+number or registration number, the number of flight cycles and 
+flight hours on the airplane, the date of the inspection, the 
+location of the defect, the conditions found, and the type of 
+repair. Submitting Appendix 01 of the service bulletin to Airbus is 
+acceptable for compliance with this requirement. Under the 
+provisions of the Paperwork Reduction Act (44 U.S.C. 3501 et seq.), 
+the Office of Management and Budget (OMB) has approved the 
+information collection requirements contained in this AD and has 
+assigned OMB Control Number 2120-0056.
+
+Alternative Methods of Compliance (AMOCs)
+
+    (j)(1) The Manager, International Branch, ANM-116, Transport 
+Airplane Directorate, FAA, has the authority to approve AMOCs for 
+this AD, if requested in accordance with the procedures found in 14 
+CFR 39.19.
+    (2) Before using any AMOC approved in accordance with Sec.  
+39.19 on any airplane to which the AMOC applies, notify the 
+appropriate principal inspector in the FAA Flight Standards 
+Certificate Holding District Office.
+
+Related Information
+
+    (k) EASA's airworthiness directive 2006-0076, dated April 3, 
+2006, also addresses the subject of this AD.
+
+    Issued in Renton, Washington, on June 22, 2006.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 06-5872 Filed 6-29-06; 8:45 am]
+BILLING CODE 4910-13-P
+
+

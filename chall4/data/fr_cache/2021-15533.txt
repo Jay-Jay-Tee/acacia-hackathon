@@ -1,0 +1,142 @@
+
+[Federal Register Volume 86, Number 139 (Friday, July 23, 2021)]
+[Proposed Rules]
+[Pages 38949-38950]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2021-15533]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2020-0713; Product Identifier 2019-CE-061-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Gulfstream Aerospace Corporation 
+Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM) 
+that proposed to adopt a new airworthiness directive (AD) for certain 
+Gulfstream Aerospace Corporation (Gulfstream) Model GVII-G500 
+airplanes. The NPRM was prompted by a report of a fuel quantity 
+disparity between the overhead panel touch screens and the touch screen 
+controllers. The NPRM proposed to require incorporating operating 
+limitations into the airplane flight manual (AFM) until the fuel 
+quantity management system (FQMS) software is updated. Since issuance 
+of the NPRM, the FAA has determined that there is not an unsafe 
+condition because all affected airplanes have updated software. 
+Accordingly, the NPRM is withdrawn.
+
+DATES: As of July 23, 2021, the proposed rule, which published in the 
+Federal Register on July 28, 2020 (85 FR 45345), is withdrawn.
+
+ADDRESSES:
+
+Examining the AD Docket
+
+    You may examine the AD docket at https://www.regulations.gov by 
+searching for and locating Docket No. FAA-2020-0713; or in person at 
+Docket Operations between 9 a.m. and 5 p.m., Monday through Friday, 
+except Federal holidays. The AD docket contains this AD action, any 
+comments received, and other information. The street address for Docket 
+Operations is U.S. Department of Transportation, Docket Operations, M-
+30, West Building Ground Floor, Room W12-140, 1200 New Jersey Avenue 
+SE, Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Jared Meyer, Aviation Safety Engineer, 
+Atlanta ACO Branch, FAA, 1701 Columbia Avenue, College Park, GA 30337; 
+phone: (404) 474-5534; fax: (404) 474-5605; email: [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The FAA issued an NPRM that proposed to amend 14 CFR part 39 by 
+adding an AD that would apply to certain serial-numbered Gulfstream 
+Model GVII-G500 airplanes. The NPRM published in the Federal Register 
+on July 28, 2020 (85 FR 45345). The NPRM was prompted by a report of 
+the affected airplanes exhibiting a disparity between the fuel 
+quantities displayed on the overhead panel touch screens and the fuel 
+quantities displayed on the touch screen controllers. An investigation 
+revealed two known failure conditions that the Model GVII-G500 FQMS 
+does not properly detect and report to the crew. These failure 
+conditions are fuel quantity probe drift and an FQMS over-current 
+condition, which could result in erroneous and misleading fuel quantity 
+indications and could also result in erroneous and misleading fuel 
+imbalance indications. These conditions could cause a false 
+annunciation of a fuel imbalance, a failure to annunciate an actual 
+fuel imbalance, and a condition where the actual fuel quantity is less 
+than or greater than the indicated fuel quantity. The FQMS software 
+logic does not properly detect or compensate for these failure 
+conditions. This condition, if not corrected, could result in fuel 
+starvation during flight, performance impacts of the airplane having 
+more fuel than indicated, and a roll moment due to a fuel imbalance.
+    The NPRM proposed to require incorporating operating limitations 
+into the AFM until the fuel quantity signal conditioner FQMS software 
+is updated to version 10003-42130-01-19.03.
+
+Actions Since the NPRM Was Issued
+
+    After issuance of the NPRM, the FAA determined that all Gulfstream 
+Model GVII-G500 airplanes are in compliance with the proposed software 
+update, and the unsafe condition has been removed from the fleet. In 
+addition, since Gulfstream controls the software, it is unlikely the 
+unsafe condition will be re-introduced.
+    Based on the above information, the FAA has determined that AD 
+action is not warranted and the proposal should be withdrawn.
+
+[[Page 38950]]
+
+Comments
+
+    The FAA received comments from Gulfstream and an individual 
+commenter.
+
+Requests
+
+    Gulfstream requested that the FAA change the credit for previous 
+actions. The individual commenter requested the FAA clarify the correct 
+revision of the service information to reference.
+    The FAA acknowledges these comments. However, because the NPRM is 
+being withdrawn, the commenters' requests are no longer necessary.
+    Withdrawal of the NPRM constitutes only such action and does not 
+preclude the FAA from further rulemaking on this issue, nor does it 
+commit the FAA to any course of action in the future.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+AD nor a final rule. This action, therefore, is not covered under 
+Executive Order 12866 or the Regulatory Flexibility Act.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+0
+Accordingly, the notice of proposed rulemaking, which published in the 
+Federal Register on July 28, 2020 (85 FR 45345), is withdrawn.
+
+    Issued on July 15, 2021.
+Ross Landes,
+Deputy Director for Regulatory Operations, Compliance & Airworthiness 
+Division, Aircraft Certification Service.
+[FR Doc. 2021-15533 Filed 7-22-21; 8:45 am]
+BILLING CODE 4910-13-P
+
+

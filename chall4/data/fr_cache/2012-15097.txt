@@ -1,0 +1,141 @@
+
+[Federal Register Volume 77, Number 119 (Wednesday, June 20, 2012)]
+[Proposed Rules]
+[Pages 36950-36951]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2012-15097]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2011-0222; Directorate Identifier 2010-NM-056-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Dassault Aviation Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for certain Dassault 
+Aviation Model FALCON 7X airplanes. The proposed AD would have required 
+revising the maintenance program to incorporate a limitation that 
+reduced time between overhauls, and required an initial overhaul, of 
+the direct current (DC) generator (bearings). Since the proposed AD was 
+issued, we have received new data that confirm the identified unsafe 
+condition is not sufficient to warrant issuance of an AD. Accordingly, 
+the proposed AD is withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://www.regulations.gov; or in person at the Docket Management Facility 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this AD action, the regulatory 
+evaluation, any comments received, and other information. The address 
+for the Docket Office (telephone 800-647-5527) is the Document 
+Management Facility, U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue SE., Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Tom Rodriguez, Aerospace Engineer, 
+International Branch, ANM-116, Transport Airplane Directorate, FAA, 
+1601 Lind Avenue SW., Renton, Washington 98057-3356; telephone (425) 
+227-1137; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION: 
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for certain Dassault Aviation Model FALCON 7X airplanes. That NPRM 
+was published in the Federal Register on March 15, 2011 (76 FR 13924). 
+That
+
+[[Page 36951]]
+
+NPRM would have required revising the maintenance program to 
+incorporate a limitation that reduced time between overhauls, and 
+required an initial overhaul, of the DC generator (bearings). That NPRM 
+resulted from mandatory continuing airworthiness information (MCAI) 
+originated by an aviation authority of another country to identify and 
+correct an unsafe condition on an aviation product. The MCAI described 
+the unsafe condition as:
+
+    Time between overhaul (TBO) of DC [direct current] generator 
+bearings is set at 1,000 flight hours (FH) in the airworthiness 
+limitations section of the Falcon 7X Aircraft Maintenance Manual 
+Chapter 5.40.
+    In service report has shown that the bearing current design 
+cannot sustain the current TBO. * * *
+* * * * *
+    Failure to comply with those revised maintenance tasks could 
+constitute an unsafe condition.
+
+The proposed actions were intended to prevent failure of the DC 
+generator bearings, which could lead to loss of the generator and 
+potential loss of electrical power to the fly-by-wire system and 
+subsequent loss of control of the airplane.
+
+Actions Since NPRM (76 FR 13924, March 15, 2011) Was Issued
+
+    Since we issued the NPRM (76 FR 13924, March 15, 2011), the 
+airplane manufacturer provided further information on the redundancy of 
+the electrical system that supplies power to the fly-by-wire system. 
+There are three DC generators that can supply electrical power to the 
+fly-by-wire system. Electrical power can also be supplied by two 
+independent permanent magnet alternator converters that are dedicated 
+to that system. Failure of all three DC generators to supply electrical 
+power automatically triggers a command to deploy the ram air turbine, 
+which will supply the airplane systems (including fly-by-wire) with 
+sufficient electrical power for continued safe flight and landing.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that, based on the 
+airplane design, and the multiple electrical power generation sources, 
+the potential loss of one DC generator due to an un-reduced maintenance 
+interval would not result in loss of electrical power to the airplane. 
+Therefore, the potential loss of one DC generator does not constitute 
+an unsafe condition. Accordingly, the NPRM (76 FR 13924, March 15, 
+2011) is withdrawn.
+    Withdrawal of the NPRM (76 FR 13924, March 15, 2011) does not 
+preclude the FAA from issuing another related action or commit the FAA 
+to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM (76 FR 13924, March 15, 
+2011), it is neither a proposed nor a final rule and therefore is not 
+covered under Executive Order 12866, the Regulatory Flexibility Act, or 
+DOT Regulatory Policies and Procedures (44 FR 11034, February 26, 
+1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2011-0222, 
+Directorate Identifier 2010-NM-056-AD, which was published in the 
+Federal Register on March 15, 2011 (76 FR 13924).
+
+    Issued in Renton, Washington, on June 12, 2012.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2012-15097 Filed 6-19-12; 8:45 am]
+BILLING CODE 4910-13-P
+
+

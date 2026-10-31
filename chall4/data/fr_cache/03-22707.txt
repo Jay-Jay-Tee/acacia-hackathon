@@ -1,0 +1,122 @@
+
+[Federal Register Volume 68, Number 173 (Monday, September 8, 2003)]
+[Proposed Rules]
+[Pages 52864-52865]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 03-22707]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2000-NM-192-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; McDonnell Douglas Model MD-11 Series 
+Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to certain 
+McDonnell Douglas Model MD-11 series airplanes. That action would have 
+required an inspection to detect arcing damage of the electrical cables 
+leading to the terminal strips and surrounding structure in the wing 
+areas inboard of the pylons 1 and 3 and the No. 2 engine; and 
+corrective actions, if necessary. That action also would have required 
+revising the cable connection stackup of the terminal strips on the 
+wings and No. 2 engine. Since the issuance of the NPRM, the Federal 
+Aviation Administration (FAA) has received new data indicating that the 
+identified unsafe condition specified in NPRM does not exist on the 
+affected airplanes. Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Brett Portwood, Aerospace Engineer, 
+Systems and Equipment Branch, ANM-130L, FAA, Los Angeles Aircraft 
+Certification Office, 3960 Paramount Boulevard, Lakewood, California 
+90712; telephone (562) 627-5350; fax (562) 627-5210.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to certain McDonnell Douglas Model MD-11 
+series airplanes, was published in the Federal Register as a Notice of 
+Proposed Rulemaking (NPRM) on February 20, 2001 (66 FR 10844). The 
+proposed rule would have required an inspection to detect arcing damage 
+of the electrical cables leading to the terminal strips and surrounding 
+structure in the wing areas inboard of the pylons 1 and 3 and the No. 2 
+engine; and corrective actions, if necessary. The proposed rule also 
+would have required revising the cable connection stackup of the 
+terminal strips on the wings and No. 2 engine. That action was prompted 
+by an incident in which arcing occurred between the power feeder cables 
+and support bracket of the terminal strips on a McDonnell Douglas Model 
+MD-11 series airplane. The proposed actions were intended to prevent 
+arcing damage to the terminal strips and damage to the adjacent 
+structure in the wing areas inboard of the pylons 1 and 3 and the No. 2 
+engine, which could result in a fire inboard of the pylons 1 and 3 or 
+the No. 2 engine.
+
+Actions That Occurred Since the NPRM Was Issued
+
+    Since the issuance of that NPRM, the results of an FAA analysis 
+have revealed that there is a lack of materials and fuels in the 
+vicinity of the terminal strips and
+
+[[Page 52865]]
+
+surrounding structure in the wing areas inboard of the pylons 1 and 3 
+and the No. 2 engine, and that a fire in that area is highly unlikely. 
+The probable result is that a power feed arc in the pylon area would 
+typically damage and pit the feeder line and, perhaps, damage and pit 
+the terminal bracket at the chafing location. As the arc current level 
+increases, the electrical power system differential fault protection 
+would detect this condition and disconnect electrical loads supplied to 
+that particular feeder. In addition, the flightcrew would be alerted to 
+this condition, allowing the operator/owner to correct the problem at 
+the next maintenance interval. On the basis of this analysis, we have 
+determined that the potential arcing on the terminal strips in the wing 
+areas inboard of the pylons 1 and 3 and the No. 2 engine does not 
+constitute an unsafe condition.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the identified 
+unsafe condition does not exists on the affected airplanes. 
+Accordingly, the proposed rule is hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 2000-NM-192-
+AD, published in the Federal Register on February 20, 2001 (66 FR 
+10844), is withdrawn.
+
+    Issued in Renton, Washington, on August 29, 2003.
+Vi L. Lipski,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 03-22707 Filed 9-5-03; 8:45 am]
+BILLING CODE 4910-13-P
+
+

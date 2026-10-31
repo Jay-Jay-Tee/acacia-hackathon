@@ -1,0 +1,114 @@
+
+[Federal Register Volume 70, Number 49 (Tuesday, March 15, 2005)]
+[Proposed Rules]
+[Pages 12618-12619]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-5014]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2004-19564; Directorate Identifier 2004-NM-103-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Gulfstream Aerospace LP Model Galaxy 
+and Gulfstream 200 Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for certain Gulfstream 
+Aerospace LP Model Galaxy and Gulfstream 200 airplanes. The proposed AD 
+would have required repetitive inspections for damage of the flexible 
+supply lines of the pilot and copilot oxygen mask boxes, and eventual 
+replacement of the lines with new rigid tubes. Since the proposed AD 
+was issued, we have received new data that 100% of the affected 
+worldwide fleet has accomplished the hardware replacement in accordance 
+with the service bulletin specified in the proposed AD. Accordingly, 
+the proposed AD is withdrawn.
+
+ADDRESSES: You can examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the U.S. 
+Department of Transportation, 400 Seventh Street SW., room PL-401, 
+Washington, DC. This docket number is FAA-2004-19564; the directorate 
+identifier for this docket is 2004-NM-103-AD.
+
+FOR FURTHER INFORMATION CONTACT: Dan Rodina, Aerospace Engineer, 
+International Branch, ANM-116, FAA,
+
+[[Page 12619]]
+
+Transport Airplane Directorate, 1601 Lind Avenue, SW., Renton, 
+Washington 98055-4056; telephone (425) 227-2125; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for certain Gulfstream Aerospace LP Model Galaxy and Gulfstream 200 
+airplanes. That NPRM was published in the Federal Register on November 
+10, 2004 (69 FR 65105). The NPRM would have required repetitive 
+inspections for damage of the flexible supply lines of the pilot and 
+copilot oxygen mask boxes, and eventual replacement of the lines with 
+new rigid tubes. The NPRM was prompted by a report of an oxygen leak in 
+the cockpit mask box. The proposed actions were intended to prevent a 
+broken oxygen supply line, which could result in oxygen being 
+unavailable to the flightcrew.
+
+Actions Since NPRM Was Issued
+
+    Since we issued the NPRM, we have received confirmation from the 
+manufacturer that 100% of the affected worldwide fleet has accomplished 
+the hardware replacement in accordance with the service bulletin 
+specified in the NPRM.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the maintenance 
+actions have adequately addressed the safety concerns and that an AD is 
+not required. Accordingly, the NPRM is withdrawn.
+    Withdrawal of the NPRM does not preclude the FAA from issuing 
+another related action or commit the FAA to any course of action in the 
+future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule and therefore is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2004-19564, 
+Directorate Identifier 2004-NM-103-AD, which was published in the 
+Federal Register on November 10, 2004 (69 FR 65105).
+
+    Issued in Renton, Washington, on March 7, 2005.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 05-5014 Filed 3-14-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

@@ -1,0 +1,144 @@
+
+[Federal Register Volume 70, Number 237 (Monday, December 12, 2005)]
+[Proposed Rules]
+[Pages 73392-73393]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-23905]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2005-21880; Directorate Identifier 2004-NM-216-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 767-300 and -300F Series 
+Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for certain Boeing Model 
+767-300
+
+[[Page 73393]]
+
+and -300F series airplanes. The proposed AD would have required a one-
+time operational test of the pilots' seat locks and the seat tracks to 
+ensure that the seats lock in position and the seat tracks are aligned 
+correctly; and re-alignment of the seat tracks, if necessary. Since the 
+proposed AD was issued, we have received new data that the affected 
+airplanes are included in the applicability of an existing AD that 
+addresses the unsafe condition. Accordingly, the proposed AD is 
+withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the U.S. 
+Department of Transportation, 400 Seventh Street, SW., room PL-401, 
+Washington, DC. This docket number is FAA-2005-21880; the directorate 
+identifier for this docket is 2004-NM-216-AD.
+
+FOR FURTHER INFORMATION CONTACT: Sue Rosanske, Aerospace Engineer, 
+Cabin Safety and Environmental Systems Branch, ANM-150S, FAA, Seattle 
+Aircraft Certification Office, 1601 Lind Avenue, SW., Renton, 
+Washington 98055-4056; telephone (425) 917-6448; fax (425) 917-6590.
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for certain Boeing Model 767-300 and -300F series airplanes. That 
+NPRM was published in the Federal Register on July 21, 2005 (70 FR 
+42008). The NPRM would have required a one-time operational test of the 
+pilots' seat locks and the seat tracks to ensure that the seats lock in 
+position and the seat tracks are aligned correctly; and re-alignment of 
+the seat tracks, if necessary. The NPRM resulted from reports 
+indicating that a pilot's seat slid from the forward to the aft-most 
+position during acceleration and take-off. The proposed actions were 
+intended to prevent uncommanded movement of the pilots' seats during 
+acceleration and take-off of the airplane, and consequent reduced 
+controllability of the airplane.
+
+Actions Since NPRM Was Issued
+
+    Since we issued the NPRM, we have determined that the affected 
+Boeing Model 767-300 and -300F series airplanes, variable numbers (V/
+Ns) VK145, VL941, VN968, VW714, and VW715, are already included in the 
+applicability of existing AD 98-03-10, amendment 39-10302 (63 FR 5725, 
+February 4, 1998). We have further determined that, since the 
+identified unsafe condition is being adequately addressed on these five 
+affected airplanes by existing AD 98-03-10, it is unnecessary to 
+provide further rulemaking at this time.
+
+Comments
+
+    We provided the public the opportunity to participate in the 
+development of this AD. We have considered the comments received.
+
+Request To Remove Certain Airplanes From the Applicability
+
+    Two commenters request that we remove certain airplanes from the 
+applicability of the NPRM. One commenter operates the affected airplane 
+having V/N VL914, which corresponds to line number (L/N) 637. (We infer 
+the commenter meant to reference V/N VL941.) A second commenter 
+operates affected airplanes having V/Ns VW714 and VW715, which 
+correspond to L/Ns 638 and 640, respectively. Both commenters state 
+that their affected airplanes are included in the applicability of AD 
+98-03-10, which is applicable to certain Model 737, 747, 757, and 767 
+airplanes, having certain line numbers; equipped with non-powered IPECO 
+pilots' seats. Of the affected Model 767 airplanes, AD 98-03-10 is 
+applicable to L/Ns 1 through 642 inclusive.
+    As discussed previously, we agree with the commenter's request.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the five Model 
+767-300 and -300F series airplanes, which were added to the effectivity 
+of Boeing Special Attention Service Bulletin 767-25-0244, Revision 2, 
+dated September 2, 2004, are included in the applicability of an 
+existing AD that addresses the unsafe condition. Accordingly, the NPRM 
+is withdrawn.
+    Withdrawal of the NPRM does not preclude the FAA from issuing 
+another related action or commit the FAA to any course of action in the 
+future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule and therefore is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2005-21880, 
+Directorate Identifier 2004-NM-216-AD, which was published in the 
+Federal Register on July 21, 2005 (70 FR 42008).
+
+    Issued in Renton, Washington, on December 6, 2005.
+Kevin M. Mullin,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 05-23905 Filed 12-9-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

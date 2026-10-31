@@ -1,0 +1,593 @@
+
+[Federal Register Volume 74, Number 7 (Monday, January 12, 2009)]
+[Proposed Rules]
+[Pages 1159-1164]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E9-322]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2002-NM-12-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 737-300, -400, -500, -600, 
+-700, -700C, -800, and -900, and 747-400 Series Airplanes; and Model 
+757, 767, and 777 Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Supplemental notice of proposed rulemaking; reopening of 
+comment period.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document revises an earlier supplemental notice of 
+proposed
+
+[[Page 1160]]
+
+rulemaking (NPRM), applicable to certain Boeing Model 737-300, -400, -
+500, -600, -700, -700C, -800, and -900, and 747-400 series airplanes; 
+and Model 757, 767, and 777 airplanes. The first supplemental NPRM 
+would have required modifying the static inverter by replacing resistor 
+R170 with a new resistor and relocating the new resistor. This new 
+action revises the first supplemental NPRM by adding certain airplanes 
+to the applicability, changing certain airplane groups, and adding 
+certain part numbers. The actions specified by this second supplemental 
+NPRM are intended to prevent a standby static inverter from 
+overheating, which could result in smoke in the flight deck and cabin 
+and loss of the electrical standby power system. This action is 
+intended to address the identified unsafe condition.
+
+DATES: Comments must be received by February 6, 2009.
+
+ADDRESSES: Submit comments in triplicate to the Federal Aviation 
+Administration (FAA), Transport Airplane Directorate, ANM-114, 
+Attention: Rules Docket No. 2002-NM-12-AD, 1601 Lind Avenue, SW., 
+Renton, Washington 98057-3356. Comments may be inspected at this 
+location between 9 a.m. and 3 p.m., Monday through Friday, except 
+Federal holidays. Comments may be submitted via fax to (425) 227-1232. 
+Comments may also be sent via the Internet using the following address: 
+[email protected]. Comments sent via fax or the Internet must 
+contain ``Docket No. 2002-NM-12-AD'' in the subject line and need not 
+be submitted in triplicate. Comments sent via the Internet as attached 
+electronic files must be formatted in Microsoft Word 97 or 2000 or 
+ASCII text.
+    The service information referenced in the proposed rule may be 
+obtained from Boeing Commercial Airplane Group, P.O. Box 3707, Seattle, 
+Washington 98124-2207. This information may be examined at the FAA, 
+Transport Airplane Directorate, 1601 Lind Avenue, SW., Renton, 
+Washington.
+
+FOR FURTHER INFORMATION CONTACT: Binh V. Tran, Aerospace Engineer, 
+Systems and Equipment Branch, ANM-130S, FAA, Seattle Aircraft 
+Certification Office, 1601 Lind Avenue, SW., Renton, Washington 98055-
+4056; telephone (425) 917-6485; fax (425) 917-6590.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    Interested persons are invited to participate in the making of the 
+proposed rule by submitting such written data, views, or arguments as 
+they may desire. Communications shall identify the Rules Docket number 
+and be submitted in triplicate to the address specified above. All 
+communications received on or before the closing date for comments, 
+specified above, will be considered before taking action on the 
+proposed rule. The proposals contained in this action may be changed in 
+light of the comments received.
+    Submit comments using the following format:
+     Organize comments issue-by-issue. For example, discuss a 
+request to change the compliance time and a request to change the 
+service bulletin reference as two separate issues.
+     For each issue, state what specific change to the proposed 
+AD is being requested.
+     Include justification (e.g., reasons or data) for each 
+request.
+    Comments are specifically invited on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed rule. All 
+comments submitted will be available, both before and after the closing 
+date for comments, in the Rules Docket for examination by interested 
+persons. A report summarizing each FAA-public contact concerned with 
+the substance of this proposal will be filed in the Rules Docket.
+    Commenters wishing the FAA to acknowledge receipt of their comments 
+submitted in response to this action must submit a self-addressed, 
+stamped postcard on which the following statement is made: ``Comments 
+to Docket Number 2002-NM-12-AD.'' The postcard will be date stamped and 
+returned to the commenter.
+
+Availability of NPRMs
+
+    Any person may obtain a copy of this NPRM by submitting a request 
+to the FAA, Transport Airplane Directorate, ANM-114, Attention: Rules 
+Docket No. 2002-NM-12-AD, 1601 Lind Avenue, SW., Renton, Washington 
+98057-3356.
+
+Discussion
+
+    A proposal to amend part 39 of the Federal Aviation Regulations (14 
+CFR part 39) to add an airworthiness directive (AD), applicable to 
+certain Boeing Model 737-300, -400, -500, -600, -700, -700C, -800, and 
+-900, and 747-400 series airplanes; and Model 757, 767, and 777 
+airplanes, was published as a supplemental notice of proposed 
+rulemaking (NPRM) in the Federal Register on May 26, 2006 (71 FR 
+30331). The first supplemental NPRM would have required modifying the 
+static inverter by replacing resistor R170 with a new resistor and 
+relocating the new resistor. The first supplemental NPRM was prompted 
+by further evaluation of the carbon resistor, which revealed a failure 
+mode that can cause the resistor to ignite, involving adjacent 
+capacitors as well. Those conditions, if not corrected, could result in 
+smoke in the flight deck and cabin and loss of the electrical standby 
+power system.
+
+Actions Since Issuance of First Supplemental NPRM
+
+    Since issuance of the first supplemental NPRM, Boeing has revised 
+the service bulletins listed in the following table:
+
+                        Revised Service Bulletins
+------------------------------------------------------------------------
+       Action             Service bulletin                Model
+------------------------------------------------------------------------
+Modification........  Boeing Alert Service      737-300, -400, -500
+                       Bulletin 737-24A1166,     series airplanes.
+                       Revision 2, dated
+                       January 29, 2007.
+Modification........  Boeing Alert Service      737-300, -400, -500
+                       Bulletin 737-24A1166,     series airplanes.
+                       Revision 3, dated July
+                       25, 2007.
+Modification........  Boeing Service Bulletin   747-400, -400D, -400F
+                       747-24-2254, Revision     series airplanes.
+                       1, dated March 5, 2007.
+Modification........  Boeing Service Bulletin   777-200, -300, -300ER
+                       777-24-0095, Revision     series airplanes.
+                       1, dated January 3,
+                       2007.
+------------------------------------------------------------------------
+
+    The changes in these revisions are minor and no additional work is 
+necessary for certain airplanes modified by the previous issues. 
+However, more work is necessary on airplanes with certain static 
+inverters installed. In addition, the revisions all add airplanes to 
+those specified in the effectivity or move airplanes to different 
+groups. Alert
+
+[[Page 1161]]
+
+Service Bulletin 737-24A1166, Revision 2, also adds two missing 
+supplier part numbers, which are related to the existing Boeing part 
+numbers, for the static inverters. Airplanes that were modified by 
+installing the correct static inverter having the correct part number, 
+as specified in Service Bulletin 737-24A1166, Revision 1, dated October 
+20, 2005, or 747-24-2254, dated July 21, 2005, are not affected by the 
+modification in the revised service information. Airplanes that were 
+modified as specified in Service Bulletin 777-24-0095, dated June 30, 
+2005, are not affected by the modification specified in Revision 1 of 
+that bulletin. We have changed the second supplemental NPRM to refer to 
+this revised service information as the appropriate source of service 
+information for accomplishing the specified modification.
+    The revised service bulletins refer to Avionic Instruments Inc. 
+Service Bulletin 1-002-0102-1000-24-28, Revision B, dated July 24, 
+2006, as an additional source of service information for modifying the 
+static inverter.
+
+Comments on First Supplemental NPRM
+
+    Due consideration has been given to the comments received in 
+response to the first supplemental NPRM.
+
+Support for the First Supplemental NPRM
+
+    The National Transportation Safety Board, Northwest Airlines, and 
+Alaska Airlines support the intent of the first supplemental NPRM.
+
+Request To Approve Revised Avionic Instruments Inc. (AII) Service 
+Bulletin
+
+    United Airlines (UA) asks that we approve the latest AII Service 
+Bulletin 1-002-0102-1000-24-28; Revision A, dated June 22, 2005, was 
+referenced in the first supplemental NPRM as an additional source of 
+service information for doing the modification. UA adds that certain 
+references to service information related to this AD on the Boeing Web 
+site do not have cross references to the AII service bulletin. UA 
+suggests that, to avoid confusion, Revision A remain as an additional 
+source of service information for the rework.
+    We agree to leave Revision A of the referenced service bulletin in 
+the note in the second supplemental NPRM. We have reviewed AII Service 
+Bulletin 1-002-0102-1000-24-28, Revision B, dated July 24, 2006 
+(hereafter referred to as the AII service bulletin). We find that both 
+Revision A and Revision B of the AII service bulletin are still 
+acceptable as additional sources of service information for modifying 
+the static inverter. We have changed Note 1 of the second supplemental 
+NPRM to include Revision B of the service bulletin; Revision A remains 
+in Note 1.
+
+Request for Work Instructions To Apply To Both Airplane Groups
+
+    UA suggests that the group separation specified in the Work 
+Instructions in Boeing Service Bulletin 757-24-0110, dated April 28, 
+2005, be disregarded, and the Group 1 Work Instructions apply to all 
+airplanes. That service bulletin was referred to in the first 
+supplemental NPRM as the appropriate source of service information for 
+accomplishing the modification for Model 757-200, -200CB, -200PF 
+airplanes. UA states that the Work Instructions are divided into Group 
+1 and Group 2, based on the inverter part number as delivered 
+configuration. UA adds that the current Boeing Illustrated Parts 
+Catalog shows inverter part numbers are applicable to the entire 757 
+fleet, which conflicts with the purpose of the service bulletin in 
+separating the Work Instructions into two airplane groups.
+    We acknowledge UA's request; however, Boeing has informed us that 
+Service Bulletin 757-24-0110 will not be revised to incorporate the 
+requested changes. Under the provisions of paragraph (b) of the second 
+supplemental NPRM, however, we could consider requests for combining 
+the Work Instructions if data are submitted to substantiate that using 
+the Group 1 Work Instructions for all airplanes would provide an 
+acceptable level of safety. We have made no change to the second 
+supplemental NPRM in this regard.
+
+Request To Include Certain Part Numbers
+
+    UA states that the FAA response to the comment ``Request for 
+Clarification of Part Number'' specified in the first supplemental NPRM 
+indicates that supplier part number 1-001-0102-0265 is not an inverter 
+part number; UA disagrees with the response. UA adds that Boeing 
+Illustrated Parts Catalog, for Model 737-300/400/500 and Model 747-400, 
+indicates that Specification Number S282T004-5 corresponds to both part 
+numbers 1-001-0102-0265 and 1-002-0102-0265. UA asks that, in order to 
+avoid confusion, the second supplemental NPRM clarify the existence and 
+applicability of both part numbers.
+    We agree with the request. Revision B of AII Service Bulletin 1-
+002-0102-1000-24-28, dated July 24, 2006, includes the subject part 
+numbers, and we have included Revision B in the second supplemental 
+NPRM as an additional source of service information for modifying the 
+static inverter.
+
+Request To Include Future Revisions of Service Information
+
+    Boeing asks that we address imminent revisions of the service 
+bulletins identified in the first supplemental NPRM, as well as 
+possible future revisions to any of the identified bulletins. Boeing 
+states that revisions to the 747 and 777 service bulletins, which will 
+add several airplanes to the effectivity lists in the bulletins, are 
+imminent. Boeing notes that, as written, the applicability paragraph in 
+the first supplemental NPRM will not include the added airplanes. 
+Boeing suggests the applicability paragraph be changed to read ``* * * 
+the applicable service bulletin specified in Table 1 of this AD or 
+subsequent revision(s) to that bulletin.''
+    We understand the commenter's concern, and we have included the 
+revised service information specified under ``Actions Since Issuance of 
+First Supplemental NPRM,'' which adds airplanes to the applicability 
+section of this AD. However, we cannot use the phrase, ``or later FAA-
+approved revisions'' in an AD because doing so violates Office of the 
+Federal Register (OFR) regulations for approval of materials 
+``incorporated by reference'' in rules. In general terms, we are 
+required by these OFR regulations either to publish the service 
+document contents as part of the actual AD language; or to submit the 
+service document to the OFR for approval as ``referenced'' material, in 
+which case we may refer to such material in the text of an AD. The AD 
+may refer to the service document only if the OFR approved it for 
+``incorporation by reference.'' To allow operators to use later 
+revisions of the referenced documents (issued after publication of the 
+AD), Boeing or operators must request approval to use later revisions 
+as an alternative method of compliance with the AD under the provisions 
+of paragraph (b) of the AD.
+
+Request To Remove Model 747 and 777 Airplanes From the Applicability
+
+    Air Transport Association (ATA), on behalf of its member American 
+Airlines (AA), and Boeing, asks that we remove Model 747 and 777 
+airplanes from the applicability of the first supplemental NPRM. ATA 
+and AA state that we should delete Model 777 airplanes from the 
+applicability of the first supplemental NPRM because the inverters on 
+those airplanes have a different configuration and are not
+
+[[Page 1162]]
+
+susceptible to the subject unsafe condition. Boeing Safety Review Board 
+made a finding of ``Not Safety'' for the Model 747 and 777 airplanes. 
+Boeing adds that there have been no failures on these models, and the 
+inverters on these models are not running during normal operations.
+    We do not agree with the requests. Model 747 and 777 airplanes have 
+the same type of static inverters that were installed on the airplanes 
+specified in the first supplemental NPRM. Those static inverters could 
+overheat at anytime during operation due to a faulty resistor. As 
+stated in Boeing Service Bulletins 747-24-2254 and 777-24-0095, the 
+static inverter change will prevent the possible unwanted smoke and 
+fire from a faulty resistor in the static inverter. Therefore, Model 
+747 and 777 airplanes will remain in the applicability of the second 
+supplemental NPRM. We acknowledge that the static inverters are not 
+running during normal operations, but they could overheat during 
+emergency operations (standby conditions). However, we have determined 
+that due to the reduced risk on Model 747 and 777 airplanes, the 
+compliance time for those airplanes can be extended to 60 months. We 
+have revised paragraph (a) of this AD accordingly.
+
+Requests To Extend Compliance Time
+
+    ATA, on behalf of its member American Airlines, asks that we extend 
+the proposed compliance time to 10 years for airplanes on which the AII 
+service bulletin has been incorporated. AA asks that, due to existing 
+maintenance intervals, the compliance time be extended to 60 months for 
+operators that accomplished the first supplemental NPRM. AA adds that 
+its justification stems from the heat being reduced in the area of the 
+capacitors C50 and C51, with the resistor R170 on the solder side of 
+the printed circuit board.
+    We do not agree with the request. As stated in ``Actions Since 
+Issuance of Previous Proposal,'' in the first supplemental NPRM, recent 
+in-service experience has shown that simply relocating the carbon 
+composition-style resistor, which was installed in production until 
+late 1999, did not prevent the overheat condition. Further evaluation 
+of the carbon resistor has shown a failure mode that can cause the 
+resistor to ignite. Incorporation of the AII service bulletin will not 
+mitigate the safety concern. In developing an appropriate compliance 
+time for this action, we considered the urgency associated with the 
+subject unsafe condition, the availability of required parts, and the 
+practical aspect of accomplishing the required modification within a 
+period of time that corresponds to the normal scheduled maintenance for 
+most affected operators. According to the manufacturer, an ample number 
+of required parts will be available to modify the U.S. fleet within the 
+proposed compliance time. Therefore, we find that 42 months is 
+sufficient time in which to do the modification. However, according to 
+the provisions of paragraph (b) of the second supplemental NPRM, we 
+could approve requests to adjust the compliance time if the request 
+includes data that prove that the new compliance time would provide an 
+acceptable level of safety.
+
+Request for Component AD
+
+    AirTran Airways Inc. (AirTran) reiterates the comments under 
+``Request for a Component AD'' specified in the first supplemental NPRM 
+and states that this second supplemental NPRM should be a ``component 
+AD'' rather than an aircraft AD. AirTran states that once an aircraft 
+delivers from the factory with a component installed, that component is 
+likely to be replaced due to failure and subsequently installed on 
+another aircraft outside of the effectivity range. AirTran notes that 
+it is unrealistic to expect that a component that has qualified 
+interchangeables will still be installed on the aircraft on which it 
+was delivered. AirTran states that the AD should be written in a manner 
+that best ensures the safety of the flying public; this involves 
+considering how operators use the aircraft and not necessarily how the 
+manufacturer built the aircraft. AirTran adds that by making the AD 
+applicable to the part number unit, operators are more likely to 
+identify all affected units and remove them from their system, 
+including spares that are not addressed in the first supplemental NPRM, 
+than if the AD is effective to aircraft line or serial numbers.
+    We do not agree with the request. We have confirmed with Boeing 
+that the service bulletins cited in the applicability list all the 
+airplanes on which the parts addressed by this AD are eligible for 
+installation. We have also confirmed with Boeing that the Illustrated 
+Parts Catalogs have been properly updated. For these reasons, there is 
+no need to further define the applicability. We have made no change to 
+the second supplemental NPRM in this regard.
+
+Request To Change Cost Impact Section
+
+    ATA, on behalf of its member American Airlines, asks that the cost 
+impact section be changed. ATA states that the proposed modification 
+could be accomplished by either a repair facility or the operator. ATA 
+adds that the FAA should amend the cost impact to include both of these 
+alternatives. Both commenters recommend adding 2 hours of labor and the 
+value of materials for the modification of the inverter to the cost 
+section.
+    We acknowledge the commenters' concerns. We recognize that, in 
+accomplishing the requirements of any AD, operators might incur 
+``incidental'' costs in addition to the ``direct'' costs that are 
+reflected in the cost analysis presented in the AD preamble. However, 
+the cost analysis in AD rulemaking actions typically does not include 
+incidental costs.
+    Further, because ADs require specific actions to address specific 
+unsafe conditions (i.e., using a repair facility) they appear to impose 
+costs that would not otherwise be borne by operators. However, because 
+of the general obligation of operators to maintain and operate their 
+airplanes in an airworthy condition, this appearance is deceptive. 
+Attributing those costs solely to the issuance of this AD is 
+unrealistic because, in the interest of maintaining and operating safe 
+airplanes, prudent operators would accomplish the required actions even 
+if they were not required to do so by the AD. In any case, we have 
+determined that direct and incidental costs are still outweighed by the 
+safety benefits of the AD. We have made no change to the second 
+supplemental NPRM in this regard.
+
+Clarification of Alternative Methods of Compliance (AMOC) Paragraph
+
+    We have revised this action to clarify the appropriate procedure 
+for notifying the principal inspector before using any approved AMOC on 
+any airplane to which the AMOC applies.
+
+Conclusion
+
+    Since certain changes expand the scope of the first supplemental 
+NPRM, we have determined that it is necessary to reopen the comment 
+period to provide additional opportunity for public comment.
+
+Cost Impact
+
+    There are approximately 3,856 airplanes of the affected design in 
+the worldwide fleet. The FAA estimates that 1,882 airplanes of U.S. 
+registry would be affected by the second supplemental NPRM. The 
+following table provides the estimated costs for U.S. operators to 
+comply with the second supplemental NPRM.
+
+[[Page 1163]]
+
+
+
+                                                                     Estimated Costs
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                              Number of U.S.-
+             Action                    Work hours       Average labor        Parts        Cost per airplane      registered            Fleet cost
+                                                        rate per hour                                            airplanes
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Modification....................  Up to 2 hours,                  $80               $0   Between $80 and               1,882   Up to $301,120.
+                                   depending on                                           $160.
+                                   airplane
+                                   configuration.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    The cost impact figure discussed above is based on assumptions that 
+no operator has yet accomplished any of the proposed requirements of 
+this AD action, and that no operator would accomplish those actions in 
+the future if the second supplemental NPRM were not adopted. The cost 
+impact figures discussed in AD rulemaking actions represent only the 
+time necessary to perform the specific actions actually required by the 
+AD. These figures typically do not include incidental costs, such as 
+the time required to gain access and close up, planning time, or time 
+necessitated by other administrative actions.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Impact
+
+    The regulations proposed herein would not have a substantial direct 
+effect on the States, on the relationship between the national 
+Government and the States, or on the distribution of power and 
+responsibilities among the various levels of government. Therefore, it 
+is determined that this proposal would not have federalism implications 
+under Executive Order 13132.
+    For the reasons discussed above, I certify that this proposed 
+regulation (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under the DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979); 
+and (3) if promulgated, will not have a significant economic impact, 
+positive or negative, on a substantial number of small entities under 
+the criteria of the Regulatory Flexibility Act. A copy of the draft 
+regulatory evaluation prepared for this action is contained in the 
+Rules Docket. A copy of it may be obtained by contacting the Rules 
+Docket at the location provided under the caption ADDRESSES.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by adding the following new 
+airworthiness directive:
+
+Boeing: Docket 2002-NM-12-AD.
+
+    Applicability: This AD applies to the following airplanes, 
+certificated in any category, as identified in the applicable Boeing 
+service bulletin specified in Table 1 of this AD:
+
+                         Table 1--Applicability
+------------------------------------------------------------------------
+             Airplane model                  Boeing service bulletin
+------------------------------------------------------------------------
+737-600, -700, -700C, -800, -900 series  Special Attention Service
+ airplanes.                               Bulletin 737-24-1165, Revision
+                                          1, dated October 20, 2005.
+737-300, -400, -500 series airplanes...  Alert Service Bulletin 737-
+                                          24A1166, Revision 3, dated
+                                          July 25, 2007.
+747-400, -400D, -400F series airplanes.  Service Bulletin 747-24-2254,
+                                          Revision 1, dated March 5,
+                                          2007.
+757-200, -200CB, -200PF series           Special Attention Service
+ airplanes.                               Bulletin 757-24-0110, dated
+                                          April 28, 2005.
+757-300 series airplanes...............  Special Attention Service
+                                          Bulletin 757-24-0111, dated
+                                          April 28, 2005.
+767-200, -300, -300F series airplanes..  Special Attention Service
+                                          Bulletin 767-24-0160, dated
+                                          June 30, 2005.
+767-400ER series airplanes.............  Special Attention Service
+                                          Bulletin 767-24-0161, dated
+                                          June 30, 2005.
+777-200, -300, -300ER series airplanes.  Service Bulletin 777-24-0095,
+                                          Revision 1, dated January 3,
+                                          2007.
+------------------------------------------------------------------------
+
+    Compliance: Required as indicated, unless accomplished 
+previously.
+    To prevent a standby static inverter from overheating, which 
+could result in smoke in the flight deck and cabin and loss of the 
+electrical standby power system, accomplish the following:
+
+Modification
+
+    (a) At the time specified in paragraph (a)(1) or (a)(2) of this 
+AD, as applicable: Modify the static inverter by removing resistor 
+R170 from the logic control card assembly and replacing it with a 
+new resistor, and relocating the new resistor to the solder side of 
+the printed circuit board in accordance with the Accomplishment 
+Instructions of the applicable service bulletin specified in Table 1 
+of this AD.
+    (1) For Model 737, 757, and 767 airplanes: Within 42 months 
+after the effective date of this AD.
+    (2) For Model 747 and 777 airplanes: Within 60 months after the 
+effective date of this AD.
+
+    Note 1:
+    The Boeing service bulletins specified in Table 1 of this AD 
+refer to Avionic Instruments Inc. Service Bulletins 1-002-0102-1000-
+24-28, Revision A, dated June 22, 2005; and Revision B, dated July 
+24, 2006, as additional sources of service information for 
+accomplishing the
+
+[[Page 1164]]
+
+modification required by paragraph (a) of this AD.
+
+Alternative Methods of Compliance
+
+    (b)(1) An alternative method of compliance or adjustment of the 
+compliance time that provides an acceptable level of safety may be 
+used if approved by the Manager, Seattle Aircraft Certification 
+Office (ACO), FAA. Operators shall submit their requests through an 
+appropriate FAA Principal Maintenance Inspector, who may add 
+comments and then send it to the Manager, Seattle ACO.
+    (2) To request a different method of compliance or a different 
+compliance time for this AD, follow the procedures in 14 CFR 39.19. 
+Before using any approved AMOC on any airplane to which the AMOC 
+applies, notify your appropriate principal inspector (PI) in the FAA 
+Flight Standards District Office (FSDO), or lacking a PI, your local 
+FSDO.
+
+    Issued in Renton, Washington, on December 18, 2008.
+Stephen P. Boyd,
+Assistant Manager, Transport Airplane Directorate, Aircraft 
+Certification Service. 16
+ [FR Doc. E9-322 Filed 1-9-09; 8:45 am]
+BILLING CODE 4910-13-P
+
+

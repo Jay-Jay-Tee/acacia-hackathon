@@ -1,0 +1,583 @@
+
+[Federal Register Volume 70, Number 30 (Tuesday, February 15, 2005)]
+[Proposed Rules]
+[Pages 7683-7687]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-2837]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2005-20349; Directorate Identifier 2003-NM-108-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; McDonnell Douglas Model MD-11 and -11F 
+Airplanes; Model DC-10-10 and DC-10-10F Airplanes; Model DC-10-15 
+Airplanes; Model DC-10-30 and DC-10-30F (KC-10A and KDC-10) Airplanes; 
+Model DC-10-40 and DC-10-40F Airplanes; and Model MD-10-10F and MD-10-
+30F Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to supersede an existing airworthiness 
+directive (AD) that applies to certain McDonnell Douglas Model MD-11 
+and -11F airplanes. The existing AD currently requires a one-time 
+inspection to detect loose preload-indicating (PLI) washers or cracked 
+or corroded nuts of the lower bolts of the inboard flap outboard hinge, 
+and replacement with new parts if necessary. This proposed AD would 
+require replacement with new, improved parts of the inboard flap, 
+outboard hinge, forward attach bracket, and lower attach bolt 
+assemblies. This proposed AD also would add certain other McDonnell 
+Douglas transport category airplanes and require an inspection for 
+certain parts, and related investigative and corrective actions if 
+necessary. This proposed AD is prompted by a report indicating that the 
+left-hand inboard flap outboard hinge pulled away from the wing 
+structure. We are proposing this AD to prevent loose PLI washers or 
+cracked or corroded nuts of the lower bolts of the inboard flap 
+outboard hinge, which could result in separation of the inboard flap 
+outboard hinge from the wing structure and consequent reduced 
+controllability of the airplane.
+
+DATES: We must receive comments on this proposed AD by April 1, 2005.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility; U.S. Department of 
+Transportation, 400 Seventh Street, SW., Nassif Building, room PL-401, 
+Washington, DC 20590.
+     Fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street, SW., Washington, DC, between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    For service information identified in this proposed AD, contact 
+Boeing Commercial Airplanes, Long Beach Division, 3855 Lakewood 
+Boulevard, Long Beach, California 90846, Attention: Data and Service 
+Management, Dept. C1-L5A (D800-0024).
+    You can examine the contents of this AD docket on the Internet at 
+http://dms.dot.gov, or at the Docket Management Facility, U.S. 
+Department of Transportation, 400 Seventh Street SW., room PL-401, on 
+the plaza level of the Nassif Building, Washington, DC.
+
+FOR FURTHER INFORMATION CONTACT: Ronald Atmur, Aerospace Engineer, 
+Airframe Branch, ANM-120L, FAA, Los Angeles Aircraft Certification 
+Office, 3960 Paramount Boulevard, Lakewood, California 90712-4137; 
+telephone (562) 627-5224; fax (562) 627-5210.
+
+SUPPLEMENTARY INFORMATION: 
+
+Docket Management System (DMS)
+
+    The FAA has implemented new procedures for maintaining AD dockets 
+electronically. As of May 17, 2004, new AD actions are posted on DMS 
+and assigned a docket number. We track each action and assign a 
+corresponding directorate identifier. The DMS AD docket number is in 
+the form ``Docket No. FAA-2005-99999.'' The Transport Airplane 
+Directorate identifier is in the form ``Directorate Identifier 2005-NM-
+999-AD.'' Each DMS AD docket also lists the directorate identifier 
+(``Old Docket Number'') as a cross-reference for searching purposes.
+
+Comments Invited
+
+    We invite you to submit any written relevant data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed under ADDRESSES. Include ``Docket No. FAA-2005-20349; 
+Directorate Identifier 2003-NM-108-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments received by the closing date and may amend the 
+proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed AD. Using the search function of our 
+docket web site, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You can review the DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or you 
+can visit http://dms.dot.gov.
+    We are reviewing the writing style we currently use in regulatory 
+documents. We are interested in your comments on whether the style of 
+this document is clear, and your suggestions to improve the clarity of 
+our communications that affect you. You can get more information about 
+plain language at http://www.faa.gov/language and http://www.plainlanguage.gov.
+
+Examining the Docket
+
+    You can examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management
+
+[[Page 7684]]
+
+Facility office between 9 a.m. and 5 p.m., Monday through Friday, 
+except Federal holidays. The Docket Management Facility office 
+(telephone (800) 647-5227) is located on the plaza level of the Nassif 
+Building at the DOT street address stated in the ADDRESSES section. 
+Comments will be available in the AD docket shortly after the DMS 
+receives them.
+
+Discussion
+
+    On July 10, 2002, we issued AD 2002-14-03, amendment 39-12803 (67 
+FR 47254, July 18, 2002), for certain McDonnell Douglas Model MD-11 and 
+MD-11F airplanes. That AD requires a one-time inspection to detect 
+loose preload-indicating (PLI) washers or cracked or corroded nuts of 
+the lower bolts of the inboard flap outboard hinge, and replacement 
+with new parts if necessary. That AD was prompted by a report 
+indicating that the left-hand inboard flap outboard hinge pulled away 
+from the wing structure where it attaches with two upper and two lower 
+bolts. We issued that AD to detect and correct loose PLI washers or 
+cracked or corroded nuts of the lower bolts of the inboard flap 
+outboard hinge, which could result in separation of the inboard flap 
+outboard hinge from the wing structure and consequent reduced 
+controllability of the airplane.
+
+Actions Since Existing AD Was Issued
+
+    Since the existing AD was issued, we have determined that the upper 
+and lower attach bolt assemblies specified on Model MD-11 and MD-11F 
+airplanes affected by AD 2002-14-03 are identical to the attach bolt 
+assemblies on certain Model DC-10-10 and DC-10-10F airplanes; Model DC-
+10-15 airplanes; Model DC-10-30 and DC-10-30F (KC-10A and KDC-10) 
+airplanes; Model DC-10-40 and DC-10-40F airplanes; and Model MD-10-10F 
+and MD-10-30F airplanes. Therefore, all these models may be subject to 
+the same unsafe condition.
+    Additionally, in the preamble to AD 2002-14-03, we indicated that 
+the actions required by that AD were considered ``interim action'' and 
+that further rulemaking action was being considered. We now have 
+determined that further rulemaking action is indeed necessary, and this 
+proposed AD follows from that determination.
+
+Relevant Service Information
+
+    We have reviewed Boeing Alert Service Bulletin (ASB) MD11-57A067, 
+Revision 01, including Appendices A and B, dated April 8, 2003 (for 
+Model MD-11 and -11F airplanes). The ASB describes various procedures 
+for different groups of airplanes, based on the composition of the nuts 
+on the lower bolts of the inboard flap outboard hinge. (Boeing ASB 
+MD11-57A067, including Appendices A and B, dated July 10, 2002, is the 
+appropriate source of service information for AD 2002-14-03.)
+    Group 1 airplanes specified in Revision 01 have alloy steel nuts, 
+and Group 2 airplanes specified in Revision 01 have Inconel nuts. The 
+procedures for these airplane groups include removing sealant from the 
+head and nut sides of both bolt assemblies, using a wiggle tool to 
+detect looseness of the preload-indicating (PLI) washers, and visually 
+inspecting the nut for corrosion and cracking. Based on the results of 
+the inspection, related investigative and corrective actions include 
+doing a magnetic particle inspection of the bolt to detect cracking and 
+corrosion, replacing discrepant parts with new Inconel and/or alloy 
+steel bolts and nuts and new PLI washers, and applying sealant.
+    We also have reviewed Boeing Service Bulletin MD-1157A068, Revision 
+1, dated April 8, 2003 (for Model MD-11 and MD-11F airplanes). That 
+service bulletin describes procedures for replacing the bolts and nuts 
+of the inboard flap, outboard hinge, forward attach bracket, and the 
+lower attach bolt assemblies with Inconel bolts and nuts.
+    Additionally, we reviewed Boeing Service Bulletin DC10-57A149, 
+Revision 1, dated April 8, 2003 (for Model DC-10-10 and DC-10-10F 
+airplanes; Model DC-10-15 airplanes; Model DC-10-30 and DC-10-30F (KC-
+10A and KDC-10) airplanes; Model DC-10-40 and DC-10-40F airplanes; and 
+Model MD-10-10F and MD-10-30F airplanes). That service bulletin 
+describes procedures for inspecting the maintenance records to 
+determine if new Inconel bolts and nuts have been installed in 
+accordance with Boeing Service Bulletin DC10-57-116. For certain 
+airplanes, the service bulletin describes encapsulating both nut sides 
+of the bolt assemblies with sealant, and inspecting for cracking of the 
+nuts of the upper and lower attach bolt assemblies. The service 
+bulletin also describes procedures for replacing the PLI washers with 
+new washers, and for replacing both upper and lower attach bolt 
+assemblies with Inconel nuts and bolts.
+    Accomplishment of the actions specified in the above service 
+bulletins is intended to adequately address the identified unsafe 
+condition.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    We have evaluated all pertinent information and identified an 
+unsafe condition that is likely to exist or develop on other products 
+of this same type design. Therefore, we are proposing this AD, which 
+would supersede AD 2002-14-03. For certain airplanes, this proposed AD 
+would continue to require the one-time inspection to detect loose PLI 
+washers or cracked or corroded nuts of the lower bolts of the inboard 
+flap outboard hinge, and replacement with new parts if necessary. This 
+proposed AD would also require eventual replacement of the steel bolts 
+and nuts with Inconel material. This proposed AD would require you to 
+use the applicable service information described previously to perform 
+these actions except as discussed under ``Differences Between the 
+Proposed AD and the Relevant Service Information.''
+
+Differences Between the Proposed AD and the Relevant Service 
+Information
+
+    Boeing Alert Service Bulletin MD11-57A067, Revision 01, dated April 
+8, 2003, specifies that operators may test for looseness of the PLI 
+washers by use of a wiggle tool, ``or equivalent.'' However, this 
+proposed AD would require that any alternative to the wiggle-tool test 
+be accomplished in accordance with a method approved by the FAA. Use of 
+an equivalent tool or test procedure is allowed only if approved as an 
+alternative method of compliance in accordance with the requirements of 
+paragraph (e) of this proposed AD.
+    Although Boeing Service Bulletin DC10-57A149, Revision 1, dated 
+April 8, 2003, specifies inspection of the maintenance records to 
+determine if new Inconel bolts and nuts have been installed in 
+accordance with Boeing Service Bulletin DC10-57-116, this proposed AD 
+specifies inspection of the maintenance records to determine if new 
+Inconel bolts and nuts have been installed in accordance with Boeing 
+Service Bulletin DC10-57-116, Revision 01, dated November 25, 1993; 
+Revision 02, dated December 22, 1998; or Revision 03, dated May 12, 
+1999.
+    Further, although Boeing Alert Service Bulletin MD11-57A067 
+specifies that the manufacturer may be contacted for disposition of 
+``additional examination recommendations,'' this proposed AD would 
+require the actions to be accomplished in accordance with a method 
+approved by the FAA.
+    Although Boeing Service Bulletin DC10-57A149 specifies sending a 
+report
+
+[[Page 7685]]
+
+and discrepant parts to the manufacturer, this proposed AD would not 
+require those actions.
+
+Change to Existing AD
+
+    This proposed AD would retain certain requirements of AD 2002-14-
+03. Since AD 2002-14-03 was issued, the AD format has been revised, and 
+certain paragraphs have been rearranged. As a result, the corresponding 
+paragraph identifiers have changed in this proposed AD, as listed in 
+the following table:
+
+                      Revised Paragraph Identifiers
+------------------------------------------------------------------------
+                                          Corresponding  requirement in
+      Requirement in AD 2002-14-03              this  proposed AD
+------------------------------------------------------------------------
+Paragraph (a)..........................  Paragraph (f).
+Paragraph (b)..........................  Paragraph (g).
+Paragraph (c)..........................  Paragraph (h).
+------------------------------------------------------------------------
+
+Costs of Compliance
+
+    There are about 593 airplanes of the affected design in the 
+worldwide fleet. The following table provides the estimated costs for 
+U.S. operators to comply with this proposed AD. The average labor rate 
+is considered to be $65 per hour.
+
+                                                                     Estimated Costs
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                 Number of
+                                                                                                                   U.S.-
+               Action                          Work hours              Parts           Cost per airplane         registered           Fleet cost
+                                                                                                                 airplanes
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Inspection of Model MD-11 and -11F   10 to 12.....................  ...........  $650 to $780.................           66  Between $42,900 and
+ airplanes (required by AD 2002-14-                                                                                           $51,480.
+ 03).
+Replacing parts for Model MD-11 and  13...........................       $2,041  $2,886.......................           66  $190,476.
+ -11F airplanes (new proposed
+ action).
+Inspection of Model DC-10-10, and    1............................            0  $65..........................          297  $19,305.
+ DC-10-10F airplanes; Model DC-10-
+ 15 airplanes; Model DC-10-30 and
+ DC-10-30F (KC-10A and KDC-10)
+ airplanes; Model DC-10-40 and DC-
+ 10-40F airplanes; Model MD-10-10F
+ and MD-10-30F airplanes.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD. See the ADDRESSES section for a location 
+to examine the regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The FAA amends Sec.  39.13 by removing amendment 39-12803 (67 FR 
+47254, July 18, 2002) and adding the following new airworthiness 
+directive (AD):
+
+McDonnell Douglas: Docket No. FAA-2005-20349; Directorate Identifier 
+2003-NM-108-AD.
+
+Comments Due Date
+
+    (a) The Federal Aviation Administration must receive comments on 
+this airworthiness directive (AD) action by April 1, 2005.
+
+Affected ADs
+
+    (b) This AD supersedes AD 2002-14-03, amendment 39-12803.
+
+Applicability
+
+    (c) This AD applies to the airplanes listed in Table 1 of this 
+AD, certificated in any category.
+
+[[Page 7686]]
+
+
+
+                         Table 1.--Applicability
+------------------------------------------------------------------------
+        McDonnell Douglas Model                As listed in Boeing
+------------------------------------------------------------------------
+(1) DC-10-10, and DC-10-10F airplanes;   Service Bulletin DC10-57A149,
+ DC-10-15 airplanes; DC-10-30 and DC-10-  Revision 1, dated April 8,
+ 30F (KC-10A and KDC-10) airplanes; DC-   2003.
+ 10-40 and DC-10-40F airplanes; MD-10-
+ 10F and MD-10-30F airplanes.
+(2) MD-11 and MD-11F airplanes.........  Alert Service Bulletin MD11-
+                                          57A067, including Appendix A
+                                          and B; Revision 01, dated
+                                          April 8, 2003; and Service
+                                          Bulletin MD11-57A068, Revision
+                                          1, dated April 8, 2003.
+------------------------------------------------------------------------
+
+Unsafe Condition
+
+    (d) This AD is prompted by a report indicating that the left-
+hand inboard flap outboard hinge pulled away from the wing 
+structure. We are issuing this AD to prevent loose preload-
+indicating (PLI) washers or cracked or corroded nuts of the lower 
+bolts of the inboard flap outboard hinge, which could result in 
+separation of the inboard flap outboard hinge from the wing 
+structure and consequent reduced controllability of the airplane.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+    Certain Requirements of AD 2002-14-03:
+
+Inspection
+
+    (f) For airplanes listed in Boeing Alert Service Bulletin MD11-
+57A067, dated July 10, 2002: At the applicable time specified in 
+paragraph (f)(1) or (f)(2) of this AD, do a detailed inspection 
+(including removing sealant from the head and nut sides of both bolt 
+assemblies) of the nuts and PLI washers of the lower bolts of the 
+inboard flap outboard hinge to detect discrepancies (including loose 
+PLI washers or cracked or corroded nuts, as applicable), in 
+accordance with Boeing Alert Service Bulletin MD11-57A067, including 
+Appendices A and B, dated July 10, 2002, except as required by 
+paragraphs (g) and (h) of this AD. Before further flight thereafter, 
+do applicable related investigative and corrective actions 
+(including performing a magnetic particle inspection of the bolt to 
+detect cracking and corrosion, replacing discrepant parts with new 
+Inconel and/or alloy steel bolts and nuts and new PLI washers, and 
+applying sealant, as applicable); and, within 600 flight cycles, 
+replace discrepant bolts, nuts, and washers with new parts, as 
+applicable; in accordance with the alert service bulletin.
+    (1) For Group 1 airplanes: Inspect within 30 days after August 
+2, 2002 (the effective date of AD 2002-14-03, amendment 39-12803).
+    (2) For Group 2 airplanes: Inspect within 60 days after August 
+2, 2002.
+
+    Note 1: For the purposes of this AD, a detailed inspection is: 
+``An intensive examination of a specific item, installation, or 
+assembly to detect damage, failure, or irregularity. Available 
+lighting is normally supplemented with a direct source of good 
+lighting at an intensity deemed appropriate. Inspection aids such as 
+mirror, magnifying lenses, etc., may be necessary. Surface cleaning 
+and elaborate procedures may be required.''
+
+Exceptions to Paragraph (f) Requirements
+
+    (g) Where Boeing Alert Service Bulletin MD11-57A067, including 
+Appendices A and B, dated July 10, 2002, specifies that testing for 
+looseness of the PLI washers may be accomplished by the use of a 
+wiggle tool, ``or equivalent'': Either the wiggle tool must be used, 
+or the test must be accomplished in accordance with a method 
+approved by the Manager, Los Angeles Aircraft Certification Office 
+(ACO), FAA.
+    (h) Where Boeing Alert Service Bulletin MD11-57A067, including 
+Appendices A and B, dated July 10, 2002, specifies to contact Boeing 
+for ``additional examination recommendations'': Before further 
+flight, these actions, if accomplished, must be performed in 
+accordance with a method approved by the Manager, Los Angeles ACO. 
+For such a method to be approved by the Manager, Los Angeles ACO, as 
+required by this paragraph, the Manager's approval letter must 
+specifically refer to this AD.
+
+New Requirements of This AD:
+
+Replacement of Steel Bolts and Nuts
+
+    (i) For Model MD-11 and ``MD-11F airplanes specified in 
+Condition 2 of the Accomplishment Instructions of Boeing Alert 
+Service Bulletin MD11-57A068, dated Revision 1, dated April 8, 2003: 
+Within 18 months after the effective date of this AD, replace the 
+bolts and nuts of the inboard flap, outboard hinge, forward attach 
+bracket, and lower attach bolt assemblies with bolts and nuts made 
+from Inconel material; and install new PLI washers, by accomplishing 
+all the actions in the Accomplishment Instructions of Boeing Service 
+Bulletin MD11-57068, dated January 7, 2003, or Revision 1, dated 
+April 8, 2003.
+    (j) For Model MD-11 and MD-11F airplanes specified in Condition 
+3 of the Accomplishment Instructions of Boeing Alert Service 
+Bulletin MD11-57A068, Revision 1, dated April 8, 2003: Within 36 
+months after the effective date of this AD, replace the bolts and 
+nuts of the inboard flap, outboard hinge, forward attach bracket, 
+and lower attach bolt assemblies with bolts and nuts made from 
+Inconel material and install new PLI washers, in accordance with 
+Boeing Service Bulletin MD11-57068, dated January 7, 2003 or 
+Revision 1, dated April 8, 2003.
+    (k) For Model MD-11 and MD-11F airplanes specified in Condition 
+4 of the Accomplishment Instructions of Boeing Alert Service 
+Bulletin MD11-57A068, Revision 1, dated April 8, 2003: Within 60 
+months after the effective date of this AD, replace the bolts and 
+nuts of the inboard flap, outboard hinge, forward attach bracket, 
+and lower attach bolt assemblies with bolts and nuts made from 
+Inconel material and new PLI washers, in accordance with Boeing 
+Service Bulletin MD11-57068, dated January 7, 2003, or Revision 1, 
+dated April 8, 2003.
+
+    Note 2: For the purposes of this AD, a general visual inspection 
+is: ``A visual examination of an interior or exterior area, 
+installation, or assembly to detect obvious damage, failure, or 
+irregularity. This level of inspection is made from within touching 
+distance unless otherwise specified. A mirror may be necessary to 
+ensure visual access to all surfaces in the inspection area. This 
+level of inspection is made under normally available lighting 
+conditions such as daylight, hangar lighting, flashlight, or 
+droplight and may require removal or opening of access panels or 
+doors. Stands, ladders, or platforms may be required to gain 
+proximity to the area being checked.''
+
+Inspection of Certain Parts or Maintenance Records
+
+    (l) For Model DC-10-10, and DC-10-10F airplanes; Model DC-10-15 
+airplanes; Model DC-10-30 and DC-10-30F (KC-10A and KDC-10) 
+airplanes; Model DC-10-40 and DC-10-40F airplanes; and Model MD-10-
+10F and MD-10-30F airplanes: Within 6 months after the effective 
+date of this AD, perform a general visual inspection of the inboard 
+flap, outboard hinge, forward attach bracket, and upper and lower 
+attach bolt assemblies to determine if those parts have been 
+replaced with Inconel bolt assemblies in accordance with Boeing 
+Service Bulletin DC10-57-116, Revision 01, dated November 25, 1993; 
+Revision 02, dated December 22, 1998; or Revision 03, dated May 12, 
+1999. Instead of performing a general visual inspection of those 
+parts, a review of airplane maintenance records is acceptable if 
+replacement of the Inconnel bolt assemblies in accordance with 
+Boeing Service Bulletin DC10-57-116, Revision 01, dated November 25, 
+1993; Revision 02, dated December 22, 1998; or Revision 03, dated 
+May 12, 1999, can be positively determined from that review.
+    (1) If it can positively be determined that the Inconcel bolt 
+assemblies are installed, no further action is required by this 
+paragraph.
+    (2) If the Inconel bolt assemblies are not installed, before 
+further flight, do a detailed inspection for cracking of the 
+external area of each nut of the inboard flap, outboard hinge, 
+forward attach bracket, lower attach bolt assembly, in accordance 
+with Boeing Service Bulletin DC10-57A149, Revision 1, dated April 8, 
+2003.
+    (i) If no cracking is detected, before further flight, 
+encapsulate both nut sides of the bolt assembly installations with 
+sealant; and,
+
+[[Page 7687]]
+
+within 24 months after the effective date of this AD, replace both 
+upper and lower attach bolt assemblies with bolts and nuts made from 
+Inconel; in accordance with the service bulletin.
+    (ii) If any cracking is detected, do the actions specified in 
+either paragraph (l)(2)(ii)(A) or (l)(2)(ii)(B) of this AD, at the 
+times specified, in accordance with the service bulletin.
+    (A) Prior to further flight, replace both upper and lower attach 
+bolt assemblies with bolts and nuts made from Inconel and new 
+washers;
+    (B) Prior to further flight, replace both lower attach bolt 
+assemblies with bolts and nuts made from Inconel and new washers, 
+and within 24 months after the effective date of this AD, replace 
+both upper attach bolt assemblies with bolts and nuts made from 
+Inconel and new washers.
+
+No Reporting Requirement
+
+    (m) Although certain service information referenced in this AD 
+specifies to submit a report and discrepant parts to the 
+manufacturer, this AD does not include those requirements.
+
+Alternative Methods of Compliance (AMOCs)
+
+    (n)(1) The Manager, Los Angeles Aircraft Certification Office 
+(ACO), FAA, has the authority to approve AMOCs for this AD, if 
+requested in accordance with the procedures found in 14 CFR 39.19.
+    (2) An AMOC that provides an acceptable level of safety may be 
+used for any repair required by this AD, if it is approved by an 
+Authorized Representative for the Boeing Delegation Option 
+Authorization Organization who has been authorized by the Manager, 
+Los Angeles ACO, to make those findings. For a repair method to be 
+approved, the approval must specifically refer to this AD.
+
+    Issued in Renton, Washington, on February 3, 2005.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 05-2837 Filed 2-14-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

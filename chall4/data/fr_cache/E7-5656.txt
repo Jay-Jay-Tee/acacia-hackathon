@@ -1,0 +1,402 @@
+
+[Federal Register Volume 72, Number 59 (Wednesday, March 28, 2007)]
+[Proposed Rules]
+[Pages 14497-14500]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E7-5656]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2007-27715; Directorate Identifier 2006-NM-140-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Airbus Model A330 and A340 Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to supersede an existing airworthiness 
+directive (AD) that applies to all Airbus Model A330-200, A330-300, 
+A340-200, and A340-300 series airplanes; and Model A340-541 and A340-
+642 airplanes. The existing AD currently requires operators to revise 
+the Airworthiness Limitations section (ALS) of the Instructions for 
+Continued Airworthiness (ICA) to incorporate new information. This 
+information includes, for all affected airplanes, decreased life limit 
+values for certain components; and for Model A330-200 and -300 series 
+airplanes, new inspections, compliance times, and new repetitive 
+intervals to detect fatigue cracking, accidental damage, or corrosion 
+in certain structures. This proposed AD would revise the ALS, for all 
+affected airplanes, by adding new Airworthiness Limitations Items 
+(ALIs) to incorporate service life limits for certain items and 
+inspections to detect fatigue cracking, accidental damage or corrosion 
+in certain structures, in accordance with the revised ALS of the ICA. 
+This proposed AD results from the issuance of new and more restrictive 
+service life limits and structural inspections based on fatigue testing 
+and in-service findings. We are proposing this AD to detect and correct 
+fatigue cracking, accidental damage, or corrosion in principal 
+structural elements, and to prevent failure of certain life-limited 
+parts, which could result in reduced structural integrity of the 
+airplane.
+
+DATES: We must receive comments on this proposed AD by April 27, 2007.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility; U.S. Department of 
+Transportation, 400 Seventh Street, SW., Nassif Building, Room PL-401, 
+Washington, DC 20590.
+     Fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street, SW., Washington, DC, between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    Contact Airbus, 1 Rond Point Maurice Bellonte, 31707 Blagnac Cedex, 
+France, for service information identified in this proposed AD.
+
+FOR FURTHER INFORMATION CONTACT: Tim Backman, Aerospace Engineer 
+International Branch, ANM-116, FAA, International Branch, Transport 
+Airplane Directorate, 1601 Lind Avenue, SW., Renton, Washington 98055-
+4056; telephone (425) 227-2797; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to submit any relevant written data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed in the ADDRESSES section. Include the docket number ``Docket No. 
+FAA-2007-27715; Directorate Identifier 2006-NM-140-AD'' at the 
+beginning of your comments. We specifically invite comments on the 
+overall regulatory, economic, environmental, and energy aspects of the 
+proposed AD. We will consider all comments received by the closing date 
+and may amend the proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://
+
+[[Page 14498]]
+
+dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed AD. Using the search function of 
+that Web site, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You may review the DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or you 
+may visit http://dms.dot.gov.
+
+Examining the Docket
+
+    You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the DOT 
+street address stated in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after the Docket Management System 
+receives them.
+
+Discussion
+
+    On April 20, 2006, we issued AD 2006-09-07, amendment 39-14577 (71 
+FR 25919, May 3, 2006), for all Airbus Model A330-200, A330-300, A340-
+200, and A340-300 series airplanes; and Model A340-541 and A340-642 
+airplanes. That AD requires operators to revise the Airworthiness 
+Limitations section (ALS) of the Instructions for Continued 
+Airworthiness to incorporate new information. This information 
+includes, for all affected airplanes, decreased life limit values for 
+certain components; and for Model A330-200 and -300 series airplanes, 
+new inspections, compliance times, and new repetitive intervals to 
+detect fatigue cracking, accidental damage, or corrosion in certain 
+structures. That AD resulted from a revision to subsection 9-1 of the 
+Airbus A330 and A340 Maintenance Planning Documents (MPD) for Life 
+limits/Monitored parts, and subsection 9-2 of the Airbus A330 MPD for 
+Airworthiness Limitations Items (ALIs). We issued that AD to detect and 
+correct fatigue cracking, damage, or corrosion, which could result in 
+reduced structural integrity of these airplanes.
+
+Actions Since Existing AD Was Issued
+
+    Since we issued AD 2006-09-07, the European Aviation Safety Agency 
+(EASA), which is the Technical Agent for the Member States of the 
+European Community, notified us that an unsafe condition may exist on 
+all Airbus Model A330-200, A330-300, A340-200, and A340-300 series 
+airplanes; and Model A340-541 and A340-642 airplanes. The EASA advises 
+that Airbus has issued new service life limits and structural 
+inspections based upon fatigue testing and in-service findings. Fatigue 
+cracking, accidental damage, or corrosion in principal structural 
+elements and failure of certain life limited parts, if not corrected, 
+could result in reduced structural integrity of the airplane.
+    The EASA also advises that Airbus has moved the service life limits 
+from the A330/A340 MPDs into the applicable ALS Part 1. Airbus has also 
+revised Document AI/SE-M4/95A.0089/97, ``A330 Airworthiness Limitations 
+Items (ALIs),'' Issue 12, dated November 1, 2003, to Issue 14, dated 
+October 10, 2005. The revision to the ALIs adds new tasks to those 
+specified in Issue 12; therefore, the revision has been added to the 
+new requirements in this AD. In addition, a new revision to the A340 
+ALS adds Airbus Document AI/SE-M4/95A.0051/97, ``A340 Airworthiness 
+Limitations Items,'' Issue 9, dated January 17, 2006.
+    Incorporating these revisions into the ALS of the Instructions for 
+Continued Airworthiness is intended to ensure the continued structural 
+integrity of these airplanes.
+
+Relevant Service Information
+
+    Airbus has issued A330 and A340 ALS Part 1--Safe Life Airworthiness 
+Limitation Items, dated March 23, 2006, Sub-part 1-2 , ``Life Limits,'' 
+and Sub-part 1-3, ``Demonstrated Fatigue Lives,'' of both ALS Part 1 
+documents to specify new and more restrictive service life limits for 
+certain ALIs.
+    Airbus has also issued A330 and A340 ALS Part 2, Damage Tolerant 
+Airworthiness Limitation Items, dated January 17, 2006. The ALS Part 2 
+document refers to Airbus Document AI/SE-M4/95A.0089/97, ``A330 
+Airworthiness Limitations Items,'' Issue 14, dated October 10, 2005; 
+and Airbus Document AI/SE-M4/95A.0051/97, ``A340 Airworthiness 
+Limitations Items,'' Issue 9, dated January 17, 2006 (both approved by 
+the EASA on February 25, 2006). Part 2 references the ALI documents for 
+damage tolerance inspections but does not contain them. The documents 
+specify new and more restrictive inspections for structural items.
+    Accomplishment of the actions specified in these documents is 
+intended to adequately address the unsafe condition. The EASA mandated 
+these documents and issued EASA airworthiness directives 2006-0129 and 
+2006-0130, both dated May 22, 2006; and 2006-0307 and 2006-0308, both 
+dated October 10, 2006; to ensure the continued airworthiness of these 
+airplanes in the European Union.
+
+Explanation of Change to Applicability
+
+    We have revised the applicability of the proposed AD to identify 
+model designations as published in the EASA airworthiness directive for 
+the affected models.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    These airplane models are manufactured in France and are type 
+certificated for operation in the United States under the provisions of 
+section 21.29 of the Federal Aviation Regulations (14 CFR 21.29) and 
+the applicable bilateral airworthiness agreement. As described in FAA 
+Order 8100.14A, ``Interim Procedures for Working with the European 
+Community on Airworthiness Certification and Continued Airworthiness,'' 
+dated August 12, 2005, the EASA has kept the FAA informed of the 
+situation described above. We have examined the EASA's findings, 
+evaluated all pertinent information, and determined that AD action is 
+necessary for airplanes of this type design that are certificated for 
+operation in the United States.
+    This proposed AD would supersede AD 2006-09-07 and would retain the 
+requirements of the existing AD. This proposed AD would also require 
+revising the ALS, for all affected airplanes, by adding new ALIs to 
+incorporate service life limits for certain items and inspections to 
+detect fatigue cracking, accidental damage or corrosion in certain 
+structures, in accordance with the revised ALS of the Instructions for 
+Continued Airworthiness.
+
+Costs of Compliance
+
+    This proposed AD would affect about 28 airplanes of U.S. registry. 
+The following table provides the estimated costs for U.S. operators to 
+comply with this AD.
+
+[[Page 14499]]
+
+
+
+                                                                     Estimated Costs
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                          Number of U.S.-
+                   Action                     Work hour   Average labor               Parts                  Cost per       registered      Fleet cost
+                                                          rate per hour                                      airplane        airplanes
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Revise the ALS, required by AD 2006-09-07...          1             $80  None...........................             $80              20          $1,600
+Revise the ALS, new proposed action.........          1              80  None...........................              80              28           2,240
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD and placed it in the AD docket. See the 
+ADDRESSES section for a location to examine the regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The Federal Aviation Administration (FAA) amends Sec.  39.13 by 
+removing amendment 39-14577 (71 FR 25919, May 3, 2006) and adding the 
+following new airworthiness directive (AD):
+
+Airbus: Docket No. FAA-2007-27715; Directorate Identifier 2006-NM-
+140-AD.
+
+Comments Due Date
+
+    (a) The FAA must receive comments on this AD action by April 27, 
+2007.
+
+Affected ADs
+
+    (b) This AD supersedes AD 2006-09-07.
+
+Applicability
+
+    (c) This AD applies to all Airbus Model A330 and A340 airplanes; 
+certificated in any category.
+
+    Note 1: This AD requires revisions to certain operator 
+maintenance documents to include new inspections. Compliance with 
+these inspections is required by 14 CFR 91.403(c). For airplanes 
+that have been previously modified, altered, or repaired in the 
+areas addressed by these inspections, the operator may not be able 
+to accomplish the inspections described in the revisions. In this 
+situation, to comply with 14 CFR 91.403(c), the operator must 
+request approval for an alternative method of compliance according 
+to paragraph (j) of this AD. The request should include a 
+description of changes to the required inspections that will ensure 
+the continued damage tolerance of the affected structure. The FAA 
+has provided guidance for this determination in Advisory Circular 
+(AC) 25-1529-1.
+
+Unsafe Condition
+
+    (d) This AD results from the issuance of new and more 
+restrictive service life limits and structural inspections based on 
+fatigue testing and in-service findings. We are issuing this AD to 
+detect and correct fatigue cracking, accidental damage, or corrosion 
+in principal structural elements, which could result in reduced 
+structural integrity of the airplane.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Restatement of Requirements of AD 2006-09-07
+
+Airworthiness Limitations Revision
+
+    (f) Within 3 months after June 7, 2006 (the effective date of AD 
+2006-09-07): Revise the Airworthiness Limitations Section (ALS) of 
+the Instructions for Continued Airworthiness by incorporating into 
+the ALS the documents in paragraphs (f)(1) and (f)(2) of this AD, as 
+applicable.
+    (1) Airbus Document AI/SE-M4/95A.0089/97, ``A330 Airworthiness 
+Limitations Items,'' Issue 12, dated November 1, 2003, as specified 
+in Section 9-2 of the Airbus A330 Maintenance Planning Document 
+(MPD).
+    (2) Section 9-1, ``Life limits/Monitored parts,'' Revision 05, 
+dated April 7, 2005, of the Airbus A330 and A340 MPDs.
+    (g) Except as provided by paragraph (h) or (j) of this AD: After 
+the actions in paragraph (f) of this AD have been accomplished, no 
+alternative inspections or inspection intervals may be approved for 
+the structural elements specified in the documents listed in 
+paragraph (f) of this AD.
+
+New Requirements of This AD
+
+ALS Revision
+
+    (h) Within 3 months after the effective date of this AD: Revise 
+the ALS of the Instructions for Continued Airworthiness to 
+incorporate the documents specified in paragraphs (h)(1) and (h)(2) 
+of this AD, as applicable. Accomplishing the revision in this 
+paragraph terminates the requirements in paragraph (f) of this AD.
+    (1) Airbus Document AI/SE-M4/95A.0089/97, ``A330 Airworthiness 
+Limitation Items (ALI),'' Issue 14, dated October 10, 2005; or 
+Airbus Document AI/SE-M4/95A.0051/97, ``A340 Airworthiness 
+Limitations Items,'' Issue 9, dated January 17, 2006.
+    (2) Sub-part 1-2 ``Life Limits,'' and Sub-part 1-3 
+``Demonstrated Fatigue Lives,'' of Airbus A330 or A340 ALS Part 1, 
+``Safe Life Airworthiness Limitation Items,'' dated March 23, 2006, 
+as applicable.
+    (i) Except as provided by paragraph (j) of this AD: After the 
+actions in paragraph (h) of this AD have been accomplished, no 
+alternative inspections or inspection intervals may be approved for 
+the structural elements specified in the documents listed in 
+paragraph (f) of this AD.
+
+[[Page 14500]]
+
+Alternative Methods of Compliance (AMOCs)
+
+    (j)(1) The Manager, International Branch, ANM-116, Transport 
+Airplane Directorate, FAA, has the authority to approve AMOCs for 
+this AD, if requested in accordance with the procedures found in 14 
+CFR 39.19.
+    (2) Before using any AMOC approved in accordance with Sec.  
+39.19 on any airplane to which the AMOC applies, notify the 
+appropriate principal inspector in the FAA Flight Standards 
+Certificate Holding District Office.
+
+Related Information
+
+    (k) European Aviation Safety Agency airworthiness directives 
+2006-0129 and 2006-0130, both dated May 22, 2006; and 2006-0307 and 
+2006-0308, both dated October 10, 2006; also address the subject of 
+this AD.
+
+    Issued in Renton, Washington, on March 21, 2007.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. E7-5656 Filed 3-27-07; 8:45 am]
+BILLING CODE 4910-13-P
+
+

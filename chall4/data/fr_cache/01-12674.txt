@@ -1,0 +1,118 @@
+
+[Federal Register Volume 66, Number 98 (Monday, May 21, 2001)]
+[Proposed Rules]
+[Pages 27914-27915]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 01-12674]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 97-ANE-59-AD]
+
+
+Airworthiness Directives; Pratt & Whitney JT8D Series Turbofan 
+Engines
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to Pratt & 
+Whitney (PW) JT8D series turbofan engines. That action would have 
+superseded an existing AD to require initial and repetitive borescope 
+inspections for loss of fuel nozzle nut torque and nozzle support wear, 
+and replacement or modification of the fuel nozzles at the next 
+accessibility of the diffuser build group as terminating action to the 
+inspections. That proposal was prompted by reports of loss of fuel 
+nozzle nut torque and nozzle support wear. Since the issuance of that 
+NPRM, the FAA has reevaluated the likelihood that the unsafe condition 
+will exist or develop on other products of the same type design. 
+Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Tara Goodman, Aerospace Engineer, 
+Engine Certification Office, FAA, Engine and Propeller Directorate, 12 
+New England Executive Park, Burlington, MA 01803; telephone (781) 238-
+7130; fax (781) 238-7199.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to PW JT8D series turbofan engines, was 
+published in the Federal Register on May 1, 1998 (63 FR 24138). The 
+proposed rule would have required initial and repetitive borescope 
+inspections for loss of fuel nozzle nut torque and nozzle support wear, 
+and replacement or modification of the fuel nozzles at the next 
+accessibility of the diffuser build group as terminating action to the 
+inspections. That action was prompted by reports of loss of fuel nozzle 
+nut torque and nozzle support wear. The proposed actions were intended 
+to prevent loss of fuel nozzle nut torque and nozzle support wear, 
+which could result in a fuel leak and possible engine fire.
+    Since issuing that NPRM, the FAA has reevaluated the safety 
+concerns that the proposed actions would have
+
+[[Page 27915]]
+
+addressed using the most recent fleet data. Field experience shows that 
+leaking fuel nozzles, which can lead to burn-through of the diffuser 
+case, was a significant flight safety concern primarily at the number 7 
+location because of the proximity of oil lines. This is addressed by AD 
+95-02-16.
+    To date, there have not been any incidents of diffuser case burn-
+through due to fuel leakage across the fuel nozzle secondary seal where 
+the fuel nozzle configuration is as prescribed by AD 95-02-16. There 
+has been one incident where the fuel nozzle at the number 7 position 
+has leaked due to loss of nut torque, ignited, and burned through the 
+diffuser case. However, because the oil line fittings had been replaced 
+in accordance with AD 95-02-16, there was no burn-through of the oil 
+fittings and no oil fire. The following requirements of AD 95-02-16, 
+are sufficient to mitigate the safety concern:
+     Initial and repetitive inspections of the number 7 fuel 
+nozzle and support assembly, AND
+     Replacement of the number 7 fuel nozzle and support 
+assembly with a more leak resistant configuration, AND
+     Replacement of aluminum oil pressure and scavenge tube 
+fittings with steel fittings, AND
+     Replacement of an aluminum oil scavenge line bolt with a 
+steel bolt.
+    Upon further consideration, the FAA has determined that there is no 
+longer a likelihood that the unsafe condition will exist or develop on 
+other products of the same type design, and as a result, superseding 
+the existing AD is no longer required. Accordingly, the proposed rule 
+is hereby withdrawn.
+    Withdrawal of this notice of proposed rulemaking constitutes only 
+such action, and does not preclude the agency from issuing another 
+notice in the future, nor does it commit the agency to any course of 
+action in the future.
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore, is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 97-ANE-59-
+AD, published in the Federal Register on May 1, 1998, (63 FR 24138), is 
+withdrawn.
+
+    Issued in Burlington, Massachusetts, on May 10, 2001.
+Francis A. Favara,
+Acting Manager, Engine and Propeller Directorate, Aircraft 
+Certification Service.
+[FR Doc. 01-12674 Filed 5-18-01; 8:45 am]
+BILLING CODE 4910-13-U
+
+

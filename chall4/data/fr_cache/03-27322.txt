@@ -1,0 +1,284 @@
+
+[Federal Register Volume 68, Number 210 (Thursday, October 30, 2003)]
+[Proposed Rules]
+[Pages 61772-61774]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 03-27322]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2000-NM-168-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; McDonnell Douglas Model DC-9-81 (MD-
+81), DC-9-82 (MD-82), DC-9-83 (MD-83), DC-9-87 (MD-87), and MD-88 
+Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes the adoption of a new airworthiness 
+directive (AD) that is applicable to certain McDonnell Douglas Model 
+DC-9-81 (MD-81), DC-9-82 (MD-82), DC-9-83 (MD-83), DC-9-87 (MD-87), and 
+MD-88 airplanes. This proposal would require installing shield 
+assemblies for power feeder cables in the forward and aft lower cargo 
+compartments, and installing an additional shield for the power feeder 
+cable of the auxiliary power unit in the aft lower cargo compartment. 
+This action is necessary to prevent a cable from chafing against an 
+edge of a lightening hole, which could result in electrical arcing, and 
+consequent smoke/fire in the lower cargo compartments. This action is 
+intended to address the identified unsafe condition.
+
+DATES: Comments must be received by December 15, 2003.
+
+ADDRESSES: Submit comments in triplicate to the Federal Aviation 
+Administration (FAA), Transport Airplane Directorate, ANM-114, 
+Attention: Rules Docket No. 2000-NM-168-AD, 1601 Lind Avenue, SW., 
+Renton, Washington 98055-4056. Comments may be inspected at this 
+location between 9 a.m. and 3 p.m., Monday through Friday, except 
+Federal holidays. Comments may be submitted via fax to (425) 227-1232. 
+Comments may also be sent via the Internet using the following address: 
+[email protected]. Comments sent via fax or the Internet must 
+contain ``Docket No. 2000-NM-168-AD'' in the subject line and need not 
+be submitted in triplicate. Comments sent via the Internet as attached 
+electronic files must be formatted in Microsoft Word 97 or 2000 or 
+ASCII text.
+    The service information referenced in the proposed rule may be 
+obtained from Boeing Commercial Aircraft Group, Long Beach Division, 
+3855 Lakewood Boulevard, Long Beach, California 90846, Attention: Data 
+and Service Management, Dept. C1-L5A (D800-0024). This information may 
+be examined at the FAA, Transport Airplane Directorate, 1601 Lind 
+Avenue, SW., Renton, Washington; or at the FAA, Los Angeles Aircraft 
+Certification Office, 3960 Paramount Boulevard, Lakewood, California.
+
+FOR FURTHER INFORMATION CONTACT: Elvin K. Wheeler, Aerospace Engineer, 
+Systems and Equipment Branch, ANM-130L, FAA, Los Angeles Aircraft 
+Certification Office, 3960 Paramount Boulevard, Lakewood, California 
+90712-4137; telephone (562) 627-5344; fax (562) 627-5210.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    Interested persons are invited to participate in the making of the 
+proposed rule by submitting such written data, views, or arguments as 
+they may desire. Communications shall identify the Rules Docket number 
+and be submitted in triplicate to the address specified above. All 
+communications received on or before the closing date for comments, 
+specified above, will be considered before taking action on the 
+proposed rule. The proposals contained in this action may be changed in 
+light of the comments received.
+    Submit comments using the following format:
+
+[sbull] Organize comments issue-by-issue. For example, discuss a 
+request to change the compliance time and a request to change the 
+service bulletin reference as two separate issues.
+[sbull] For each issue, state what specific change to the proposed AD 
+is being requested.
+
+[[Page 61773]]
+
+[sbull] Include justification (e.g., reasons or data) for each request.
+    Comments are specifically invited on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed rule. All 
+comments submitted will be available, both before and after the closing 
+date for comments, in the Rules Docket for examination by interested 
+persons. A report summarizing each FAA-public contact concerned with 
+the substance of this proposal will be filed in the Rules Docket.
+    Commenters wishing the FAA to acknowledge receipt of their comments 
+submitted in response to this action must submit a self-addressed, 
+stamped postcard on which the following statement is made: ``Comments 
+to Docket Number 2000-NM-168-AD.'' The postcard will be date stamped 
+and returned to the commenter.
+
+Availability of NPRMs
+
+    Any person may obtain a copy of this NPRM by submitting a request 
+to the FAA, Transport Airplane Directorate, ANM-114, Attention: Rules 
+Docket No. 2000-NM-168-AD, 1601 Lind Avenue, SW., Renton, Washington 
+98055-4056.
+
+Discussion
+
+    As part of its practice of re-examining all aspects of the service 
+experience of a particular aircraft whenever an accident occurs, the 
+FAA has become aware of several incidents of migration of power feeder 
+cable troughs on McDonnell Douglas Model DC-9-81 (MD-81), DC-9-82 (MD-
+82), DC-9-83 (MD-83), DC-9-87 (MD-87), and MD-88 airplanes. The 
+migration occurred where cables pass through lightening holes into 
+forward and aft lower cargo compartments. Investigation revealed that 
+the cause of such migration is vibration. Migration of the trough could 
+result in a cable chafing against an edge of a lightening hole, which 
+could result in electrical arcing, and consequent smoke/fire in the 
+lower cargo compartments.
+
+Other Related Rulemaking
+
+    The FAA, in conjunction with Boeing and operators of McDonnell 
+Douglas Model DC-9-81 (MD-81), DC-9-82 (MD-82), DC-9-83 (MD-83), DC-9-
+87 (MD-87), and MD-88 airplanes, has reviewed all aspects of the 
+service history of those airplanes to identify potential unsafe 
+conditions and to take appropriate corrective actions. This proposed 
+airworthiness directive (AD) is one of a series of corrective actions 
+identified during that process. We have previously issued several other 
+ADs and may consider further rulemaking actions to address the 
+remaining identified unsafe conditions.
+    On April 14, 1994, the FAA issued AD 94-09-02, amendment 39-8890 
+(59 FR 18720, April 20, 1994). That AD requires inspecting the 
+auxiliary power unit (APU) for power feeder cable damage, and repair of 
+the cable if necessary; then modifying the cable installation. Those 
+actions are required to eliminate a potential source of fire ignition 
+from electrical shorting of the generator power feeder cable. That AD 
+also requires inspecting previously modified airplanes to determine 
+whether a spacer or ``stand off'' had been installed, and installing 
+those items if necessary. Those actions are required to prevent the 
+power feeder cable for the APU from chafing against adjacent 
+structures, which could result in electrical shorting and arcing, and a 
+fire below the cabin floor.
+
+Explanation of Relevant Service Information
+
+    The FAA has reviewed and approved McDonnell Douglas Alert Service 
+Bulletin MD80-24A100, Revision 04, dated January 24, 2000, which 
+describes procedures for installing shield assemblies for power feeder 
+cables in the forward and aft lower cargo compartments, and installing 
+an additional shield for the power feeder cable of the auxiliary power 
+unit in the aft lower cargo compartment.
+    Accomplishment of the actions specified in the service bulletin 
+will protect the power feeder cables from contact with the edge of a 
+lightening hole when trough migration occurs, and is intended to 
+adequately address the identified unsafe condition.
+
+Explanation of Requirements of Proposed Rule
+
+    Since an unsafe condition has been identified that is likely to 
+exist or develop on other products of this same type design, the 
+proposed AD would require accomplishment of the actions specified in 
+the service bulletin described previously.
+
+Cost Impact
+
+    There are approximately 473 airplanes of the affected design in the 
+worldwide fleet. The FAA estimates that 275 airplanes of U.S. registry 
+would be affected by this proposed AD, that it would take approximately 
+1 work hour per airplane to accomplish the proposed installation, and 
+that the average labor rate is $65 per work hour. Required parts would 
+cost approximately between $674 and $3,656 per airplane. Based on these 
+figures, the cost impact of the proposed installation on U.S. operators 
+of these airplanes is estimated to be between $203,225 and $1,023,275, 
+or between $739 and $3,721 per airplane.
+    The cost impact figures discussed above are based on assumptions 
+that no operator has yet accomplished any of the proposed requirements 
+of this AD action, and that no operator would accomplish those actions 
+in the future if this proposed AD were not adopted. The cost impact 
+figures discussed in AD rulemaking actions represent only the time 
+necessary to perform the specific actions actually required by the AD. 
+These figures typically do not include incidental costs, such as the 
+time required to gain access and close up, planning time, or time 
+necessitated by other administrative actions. The manufacturer may 
+cover the cost of parts associated with this proposed AD, subject to 
+warranty conditions. Manufacturer warranty remedies also may be 
+available for labor costs associated with this proposed AD. As a 
+result, the costs attributable to the proposed AD may be less than 
+stated above.
+
+Regulatory Impact
+
+    The regulations proposed herein would not have a substantial direct 
+effect on the States, on the relationship between the national 
+Government and the States, or on the distribution of power and 
+responsibilities among the various levels of government. Therefore, it 
+is determined that this proposal would not have federalism implications 
+under Executive Order 13132.
+    For the reasons discussed above, I certify that this proposed 
+regulation (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under the DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979); 
+and (3) if promulgated, will not have a significant economic impact, 
+positive or negative, on a substantial number of small entities under 
+the criteria of the Regulatory Flexibility Act. A copy of the draft 
+regulatory evaluation prepared for this action is contained in the 
+Rules Docket. A copy of it may be obtained by contacting the Rules 
+Docket at the location provided under the caption ADDRESSES.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part
+
+[[Page 61774]]
+
+39 of the Federal Aviation Regulations (14 CFR part 39) as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by adding the following new 
+airworthiness directive:
+
+McDonnell Douglas: Docket 2000-NM-168-AD.
+
+    Applicability: Model DC-9-81 (MD-81), DC-9-82 (MD-82), DC-9-83 
+(MD-83), DC-9-87 (MD-87), and MD-88 airplanes, as listed in 
+McDonnell Douglas Alert Service Bulletin MD80-24A100, Revision 04, 
+dated January 24, 2000; certificated in any category.
+    Compliance: Required as indicated, unless accomplished 
+previously.
+    To prevent a cable from chafing against an edge of a lightening 
+hole, which could result in electrical arcing, and consequent smoke/
+fire in the lower cargo compartments, accomplish the following:
+
+Installation
+
+    (a) Within 1 year after the effective date of this AD, install 
+shield assemblies for power feeder cables in the forward and aft 
+lower cargo compartments, and install an additional shield for the 
+power feeder cable of the auxiliary power unit in the aft lower 
+cargo compartment, per the Accomplishment Instructions of McDonnell 
+Douglas Alert Service Bulletin MD80-24A100, Revision 04, dated 
+January 24, 2000.
+
+Installations Accomplished per Previous Issues of Service Bulletin
+
+    (b) Installations accomplished before the effective date of this 
+AD per McDonnell Douglas Service Bulletin MD80-24-100, original 
+issue, dated March 30, 1988, through Revision 3, dated March 15, 
+1991, are considered acceptable for compliance with the actions 
+specified in paragraph (a) of this AD.
+
+Alternative Methods of Compliance
+
+    (c) In accordance with 14 CFR 39.19, the Manager, Los Angeles 
+Aircraft Certification Office, FAA, is authorized to approve 
+alternative methods of compliance for this AD.
+
+    Issued in Renton, Washington, on October 24, 2003.
+Vi L. Lipski,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 03-27322 Filed 10-29-03; 8:45 am]
+BILLING CODE 4910-13-P
+
+
