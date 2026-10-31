@@ -41,7 +41,7 @@ def test_unknown_ad_is_404(client):
 
 def test_every_citation_opens_the_exact_quoted_passage(client):
     checked = 0
-    for line in (ROOT / "questions.jsonl").read_text().splitlines():
+    for line in (ROOT / "evaluation" / "questions.jsonl").read_text().splitlines():
         q = json.loads(line)
         r = client.post("/ask", json={"query": q["query"], "model": q.get("model"), "serial": q.get("serial")}).json()
         for block in r["answer_blocks"]:

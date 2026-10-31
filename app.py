@@ -40,7 +40,7 @@ if (DIST / "assets").is_dir():
 @app.get("/")
 def index():
     built = DIST / "index.html"
-    return FileResponse(built if built.is_file() else Path(__file__).parent / "index.html")
+    return FileResponse(built if built.is_file() else Path(__file__).parent / "legacy" / "index.html")
 
 
 @app.get("/search")

@@ -1,10 +1,10 @@
-"""Feasibility eval. Run: python eval.py [--llm]
+"""Feasibility eval. Run: python evaluation/eval.py [--llm]
 
 Sections:
   1. Corpus coverage (rows with full text, FR pages)
   2. SYNTHETIC applicability tests generated from the Model column
   3. SYNTHETIC retrieval recall@5: query = a summary sentence, target = its own docket
-  4. Hand-written questions (questions.jsonl): expected status per category
+  4. Hand-written questions (evaluation/questions.jsonl): expected status per category
   5. Retrieval latency p50/p95 across everything above
   --llm additionally calls Claude on answerable questions and reports citation coverage.
 """
@@ -13,13 +13,16 @@ import json
 import random
 import re
 import statistics
+import sys
 import time
 from collections import Counter, defaultdict
 from pathlib import Path
 
-import engine
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+sys.path.insert(0, str(ROOT))
 
-ROOT = Path(__file__).parent
+import engine  # noqa: E402
 latencies = []
 
 
@@ -88,7 +91,7 @@ def synthetic_retrieval(n=80):
 
 
 def handwritten(use_llm):
-    path = ROOT / "questions.jsonl"
+    path = HERE / "questions.jsonl"
     qs = [json.loads(l) for l in path.read_text().splitlines() if l.strip()]
     per_cat = defaultdict(lambda: [0, 0])
     cited = [0, 0]

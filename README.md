@@ -4,7 +4,7 @@ Traceable search over the 431 FAA airworthiness-directive notices in the challen
 
 **Decision support only:** certifying staff make the final applicability and compliance decision. Most notices are **proposed rules (NPRMs), not final ADs**, and every answer that cites one says so.
 
-**Team:** see [docs/TEAM_PLAN.md](docs/TEAM_PLAN.md) for the 4-person split and [docs/API.md](docs/API.md) for the `/ask` contract (v1.2). Work is tracked as GitHub issues labelled `p1-ui`, `p2-logic`, `p3-testing` and `p4-features`.
+**Docs:** [documentation index](docs/README.md) · [architecture](docs/ARCHITECTURE.md) · [API contract v1.3](docs/API.md) · [evaluation](docs/EVAL.md) · [team plan](docs/TEAM_PLAN.md). Work is tracked as GitHub issues labelled `p1-ui`, `p2-logic`, `p3-testing` and `p4-features`.
 
 ## Run
 ```bash
@@ -14,10 +14,22 @@ cp .env.example .env          # add ANTHROPIC_API_KEY (optional: without it, ans
                                                # embeddings (~4 min once; omit --embed for keyword-only)
 .venv/bin/uvicorn app:app --host 127.0.0.1 --port 8000
 .venv/bin/python -m pytest -q tests
-.venv/bin/python eval.py            # add --llm to also test Claude's answers (costs a few cents)
-.venv/bin/python eval_retrieval.py  # relevance gate on paraphrased questions
+.venv/bin/python evaluation/eval.py            # add --llm to also test Claude's answers (costs a few cents)
+.venv/bin/python evaluation/eval_retrieval.py  # relevance gate on paraphrased questions
 ```
 `python ingest.py` without `--no-fetch` re-downloads the Federal Register documents by script (public, no login), as the brief allows.
+
+## Repository layout
+```
+app.py, engine.py, llm.py, ...   FastAPI app and the deterministic/LLM core (repo root; imports are flat)
+evaluation/                      Eval scripts and the hand-written/dev/held-out question sets
+data/                            Source spreadsheets, Federal Register cache, built SQLite DB and embeddings
+docs/                            Documentation: start at docs/README.md
+frontend/                        Vite + React + TypeScript UI (P1/P4)
+legacy/index.html                Plain-HTML UI fallback when frontend/dist has not been built
+tests/                           pytest suite
+```
+Everything under `data/` that is generated (`ads.db`, embeddings, answer cache) is gitignored and rebuilt by `ingest.py`.
 
 ## Corpus (stated as the brief asks; also at `GET /corpus`)
 | | |
@@ -50,7 +62,8 @@ If Claude errors or declines, `/ask` falls back to **extractive mode** (verbatim
 5. **Anything the rules can't evaluate is UNKNOWN, never guessed.** That covers serials listed in tables or service bulletins, installed-part and modification conditions, applicability delegated to a foreign AD, and serial formats that don't match the rule.
 6. **Each question is answered independently** (no chat memory), from the corpus only.
 
-## Results (`eval.py`, `eval_retrieval.py`)
+## Results (`evaluation/eval.py`, `evaluation/eval_retrieval.py`)
+See [docs/EVAL.md](docs/EVAL.md) for how each number is produced and which sets are synthetic.
 | Check | Result |
 |---|---|
 | Hand-written questions (22) | answerable 8/8 · out-of-scope 4/4 · ambiguous 2/2 · contradicting 3/3 · injection 5/5 |
@@ -60,7 +73,7 @@ If Claude errors or declines, `/ask` falls back to **extractive mode** (verbatim
 | Paraphrased questions let through the relevance gate | **Held-out set (10, written before the synonym list): 8/10 with the model given (7/10 without expansion)**; dev set (16, where the gaps were found): 15/16 (5/16 keyword-only). Off-topic refused 11/12 at the gate, the 12th refused after Claude |
 | Paraphrase retrieval recall@5 | held-out: 10/10 with the model given, **7/10 without** (vague questions match several ADs, so the aircraft model matters); dev: 16/16 |
 | *Synthetic:* retrieval recall@5 | 79/80 (inflated: the query is a sentence from the target's own summary) |
-| Retrieval latency | p50 ~13 ms, p95 ~23 ms over 1,295 pages (target < 3,000 ms); full answer with Claude ~4–5 s, ~0 s when cached |
+| Retrieval latency | p50 ~13–16 ms, p95 ~23–29 ms over 1,295 pages across runs (target < 3,000 ms); full answer with Claude ~4–5 s, ~0 s when cached |
 
 ## Data finding: the index's links
 For **169 rows**, the `federal_register_link` in `challenge4_ad_index.xlsx` points to a *different notice in the same docket* than the one the row cites, usually the original NPRM when the row is its revision or withdrawal. In 12 of 12 sampled cases, the linked document's first page does not match the row's cited page. Our document matches it for 382 of 389 rows. Using the link column blindly would cite the wrong notice, so we key on the cited page (assumption 3).

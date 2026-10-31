@@ -1,5 +1,7 @@
 # Acacia Hackathon — Challenge #4 Plan Review & Build Spec
 
+> **Status:** pre-build research and scoping note, kept for the record. It describes the dataset and the original plan; some details (file paths, test counts, corpus claims) have since changed. For the current system, read the [root README](../README.md) and [architecture](ARCHITECTURE.md).
+
 **Repo:** `Jay-Jay-Tee/acacia-hackathon` (branch `chall4`, currently empty apart from README)
 **Event:** Autonomous SG 2026 — Acacia Hackathon Society × NUS Product Club, 31 Oct 2026
 **Track:** AI & Aerospace (Airbus problem statements)
