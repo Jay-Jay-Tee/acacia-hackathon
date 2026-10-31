@@ -12,7 +12,16 @@ const KIND_STYLE: Record<TimelineKind, { dot: string; badge: string }> = {
   final: { dot: "bg-red-600", badge: "bg-red-100 text-red-900 dark:bg-red-950 dark:text-red-200" },
 };
 
-export function RevisionTimeline({ adId, onOpenAd }: { adId: number; onOpenAd?: (adId: number) => void }) {
+export function RevisionTimeline({
+  adId,
+  onOpenAd,
+  onCompare,
+}: {
+  adId: number;
+  onOpenAd?: (adId: number) => void;
+  /** Opens "what changed" for a notice against the one before it. Offered on every notice but the oldest. */
+  onCompare?: (adId: number) => void;
+}) {
   const [data, setData] = useState<Timeline | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -50,7 +59,7 @@ export function RevisionTimeline({ adId, onOpenAd }: { adId: number; onOpenAd?: 
       </div>
 
       <ol className="relative ml-2 border-l-2 border-stone-300 dark:border-stone-600">
-        {data.events.map((e) => {
+        {data.events.map((e, idx) => {
           const style = KIND_STYLE[e.kind];
           const link = safeUrl(e.url);
           const id = e.ad_number || e.record_id || data.docket;
@@ -107,6 +116,11 @@ export function RevisionTimeline({ adId, onOpenAd }: { adId: number; onOpenAd?: 
                       </li>
                     ))}
                   </ul>
+                )}
+                {onCompare && idx > 0 && (
+                  <button type="button" onClick={() => onCompare(e.ad_id)} className="mt-1 text-xs underline">
+                    What changed vs the previous notice
+                  </button>
                 )}
               </div>
             </li>

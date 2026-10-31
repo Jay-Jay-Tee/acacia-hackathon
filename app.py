@@ -10,6 +10,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
+import changes
 import engine
 import features
 import llm
@@ -22,6 +23,7 @@ async def lifespan(_app):
 
 
 app = FastAPI(title="Applicable", lifespan=lifespan)
+app.include_router(changes.router)
 app.include_router(features.router)
 app.include_router(uploads.router)
 
