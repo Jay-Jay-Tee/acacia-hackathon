@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import type { AskResponse, Citation } from "../api/types";
+import type { AskResponse, Citation, Filters } from "../api/types";
 import { profileLabel, type Profile } from "../lib/profile";
 import { AnswerBubble } from "./AnswerBubble";
 import { DocumentList, Tally } from "./DocumentsRail";
@@ -8,6 +8,7 @@ export interface Turn {
   id: number;
   query: string;
   profile: Profile; // the profile as it was when this question was sent
+  filters?: Filters; // the corpus filters active when this question was sent
   state: "loading" | "done" | "error";
   response?: AskResponse;
   error?: string;

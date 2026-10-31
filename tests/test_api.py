@@ -78,3 +78,21 @@ def test_aircraft_family_labels():
     ad = lambda make, models: {"make": make, "models": models, "docket": "T"}
     assert engine.aircraft_family(ad("The Boeing Company", ["737-800"])) == "Boeing 737"
     assert engine.aircraft_family(ad("CFM International, S.A.", ["CFM56-7B"])) == "CFM International SA CFM56"
+
+
+def test_filters_restrict_and_explain(client):
+    q = {"query": "fuel starvation engine shutdown", "model": "P.68", "serial": "100"}
+    r = client.post("/ask", json={**q, "filters": {"status": ["proposed"], "make": "vulcan"}}).json()
+    assert r["status"] == "answered" and any(n.startswith("Filtered:") for n in r["notices"])
+    r = client.post("/ask", json={**q, "filters": {"status": ["final"]}}).json()
+    assert r["status"] == "refused" and "filters" in r["refusal_reason"] and r["documents"] == []
+    r = client.post("/ask", json={**q, "filters": {"published_from": "2027-01-01"}}).json()
+    assert r["status"] == "refused"
+
+
+def test_search_filters_and_facets(client):
+    hits = client.get("/search", params={"q": "fuel starvation", "status": ["withdrawn"]}).json()["hits"]
+    assert all(h["card"]["status"] == "withdrawn" for h in hits)
+    f = client.get("/facets").json()
+    assert set(f["status"]) == {"proposed", "final", "withdrawn", "not_ad"} and f["makes"] and f["published"]["min"]
+    assert client.post("/ask", json={"query": "x", "filters": {"published_from": "not-a-date"}}).status_code == 422

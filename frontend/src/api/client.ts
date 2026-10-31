@@ -1,4 +1,4 @@
-import type { AdDetail, AskRequest, AskResponse, CorpusStats, SearchResponse } from "./types";
+import type { AdDetail, AskRequest, AskResponse, CorpusStats, Facets, SearchResponse } from "./types";
 import { mockResponse } from "./mocks";
 
 export class ApiError extends Error {
@@ -30,7 +30,7 @@ export function ask(body: AskRequest, signal?: AbortSignal): Promise<AskResponse
   return request<AskResponse>("/ask", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ query: body.query, model: body.model || null, serial: body.serial || null }),
+    body: JSON.stringify({ query: body.query, model: body.model || null, serial: body.serial || null, filters: body.filters || null }),
     signal,
   });
 }
@@ -47,4 +47,8 @@ export function getAd(adId: number, signal?: AbortSignal): Promise<AdDetail> {
 
 export function getCorpus(signal?: AbortSignal): Promise<CorpusStats> {
   return request<CorpusStats>("/corpus", { signal });
+}
+
+export function getFacets(signal?: AbortSignal): Promise<Facets> {
+  return request<Facets>("/facets", { signal });
 }
