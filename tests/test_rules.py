@@ -74,3 +74,15 @@ def test_external_table_and_config_conditions_are_unknown():
                    "Supplemental Type Certificate (STC) SR04384NY installed.", "AW139", "31001") == "UNKNOWN"
     assert verdict("This AD applies to all Model A330-201 airplanes; all manufacturer serial numbers, except for those "
                    "airplanes that have had Airbus Modification 52980 incorporated in production.", "A330-201", "1") == "UNKNOWN"
+
+
+def test_query_expansion_phrases_and_words():
+    units = dict(rules.expand_query("rescue winch let go of the load by itself", engine.content_tokens))
+    assert units["let go"] == ["release", "uncommanded release"]
+    assert units["by itself"] == ["uncommanded"]
+    assert units["winch"] == ["hoist"]
+    assert units["rescue"] == []  # unknown words are kept as they are
+
+
+def test_query_expansion_abbreviations():
+    assert dict(rules.expand_query("HPT blade cracks", engine.content_tokens))["hpt"] == ["high-pressure turbine"]

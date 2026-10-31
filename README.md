@@ -25,14 +25,15 @@ cp .env.example .env          # add ANTHROPIC_API_KEY (optional: without it, ans
 | Records | 431 (`NPRM-001` to `NPRM-431`, from the organisers' `challenge4_ad_index.xlsx`) |
 | Records with full text | 422 (398 Federal Register documents fetched by script, 24 from rule text pasted in the source sheet) |
 | Federal Register pages | **~1,295** |
-| Searchable passages | 8,972 (4,151 content passages also embedded) |
-| Status | 287 proposed (NPRM), 123 withdrawn proposals, 21 final ADs |
+| Searchable passages | 8,971 (4,150 content passages also embedded) |
+| Status | 285 proposed (NPRM), 124 withdrawn proposals, 21 final ADs, 1 not an AD (a 14 CFR Part 61 training rule) |
 
 ## How it splits work
 | Code (deterministic) | Claude (`claude-opus-5-5`, low effort) |
 |---|---|
 | BM25 retrieval (SQLite FTS5) with a model pre-filter | Phrases the answer **only** from the retrieved passages, with native citations |
-| Relevance gate: query-word coverage, or meaning similarity from local embeddings (`bge-small`, no API) | Says whether each requirement is proposed or final |
+| Query expansion: aviation synonyms and abbreviations (winch→hoist, HPT→high-pressure turbine…) added to the user's words | Says whether each requirement is proposed or final |
+| Relevance gate: query-word coverage, or meaning similarity from local embeddings (`bge-small`, no API) | |
 | Applicability: model lists and serial rules → APPLIES / DOES_NOT_APPLY / UNKNOWN / AMBIGUOUS, with an evaluation trace | |
 | Revisions: docket grouping, latest publish date = current version, withdrawals | |
 | Refusal gates: out of scope, ambiguous model, premise contradicts applicability, requests to skip a mandatory action, questions about the assistant | |
@@ -55,8 +56,9 @@ If Claude errors or declines, `/ask` falls back to **extractive mode** (verbatim
 | Hand-written questions (22) | answerable 8/8 · out-of-scope 4/4 · ambiguous 2/2 · contradicting 3/3 · injection 5/5 |
 | Citation coverage of generated answer blocks | 100% |
 | Rows with a model list | 375/431 own (86 from the sheet, the rest parsed); 389/431 after inheriting within dockets. Parser checked against the sheet's own lists: 97% precision, 78% recall |
-| *Synthetic:* applicability | listed model never wrongly excluded 210/210 · unlisted sibling excluded 169/169 · withdrawn proposals not applying 179/179 |
-| Paraphrased questions let through the relevance gate (P2 dev set, 16) | 13/16 with the model given (was 5/16 keyword-only), 11/16 without; off-topic refused 11/12 at the gate, the 12th refused after Claude |
+| *Synthetic:* applicability | listed model never wrongly excluded 206/206 · unlisted sibling excluded 165/165 · withdrawn proposals not applying 183/183 |
+| Paraphrased questions let through the relevance gate | **Held-out set (10, written before the synonym list): 8/10 with the model given (7/10 without expansion)**; dev set (16, where the gaps were found): 15/16 (5/16 keyword-only). Off-topic refused 11/12 at the gate, the 12th refused after Claude |
+| Paraphrase retrieval recall@5 | held-out: 10/10 with the model given, **7/10 without** (vague questions match several ADs, so the aircraft model matters); dev: 16/16 |
 | *Synthetic:* retrieval recall@5 | 79/80 (inflated: the query is a sentence from the target's own summary) |
 | Retrieval latency | p50 ~13 ms, p95 ~23 ms over 1,295 pages (target < 3,000 ms); full answer with Claude ~4–5 s, ~0 s when cached |
 
@@ -69,12 +71,18 @@ For **169 rows**, the `federal_register_link` in `challenge4_ad_index.xlsx` poin
   - It said DOES_NOT_APPLY for a CF34-3A1 engine (ESN 807500) that the AD covers, because only the first paragraph's range was read.
   - It said APPLIES for a CL-600-2A12 (S/N 1050) outside its range.
   - Fixed with per-model paragraph matching, ranges from every clause, and UNKNOWN when paragraphs can't be matched.
-- **83 withdrawn proposals were shown as active,** because detection only matched "withdrawing" and missed "withdraws". Fixed: 123 withdrawals detected.
+- **84 withdrawn proposals were shown as active,** because detection only matched "withdrawing" (missing "withdraws") and only subjects *starting* with "Withdrawal". Fixed: 124 withdrawals detected.
+
+## Source-data problems handled
+- **NPRM-314:** the source sheet's summary describes instrument approach procedures, not this Embraer AD. It is not indexed, and the card shows a `data_warning`; the Federal Register text is used instead.
+- **NPRM-290:** a 14 CFR Part 61 pilot-training rule, not an AD. It has status `not_ad` and is never treated as a directive. The CFR part is read from each document's header.
+- **169 index links** point to a different notice than the row cites (see above).
 
 ## Known limits
 - 42 of 431 rows still have no model list, even after inheriting from other versions in the docket; applicability there is UNKNOWN.
 - Serial rules are parsed from the applicability paragraph only. Rules expressed in tables, service bulletins or foreign ADs stay UNKNOWN.
-- The dev and hand-written question sets are small and written by the team; the larger human-written set is in progress (#15).
+- The dev, held-out and hand-written question sets are small and written by the team; the larger human-written set is in progress (#15).
+- Without an aircraft model, vague questions find the right AD 7/10 times on the held-out set; setting the model in the UI is the fix.
 - 9 records have neither a Federal Register document nor pasted rule text, so they are searchable by summary only.
 
 Data: the provided FAA AD NPRM spreadsheet and `challenge4_ad_index.xlsx`, plus Federal Register full text fetched by script (US government works, public domain). Code: MIT.

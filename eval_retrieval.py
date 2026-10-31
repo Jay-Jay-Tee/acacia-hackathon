@@ -50,4 +50,10 @@ def sim_table():
 
 
 if __name__ == "__main__":
-    sim_table() if "--sims" in sys.argv else run()
+    if "--sims" in sys.argv:
+        sim_table()
+    else:
+        print("== dev set (dev_paraphrases.jsonl)")
+        run()
+        print("== held-out set (dev_paraphrases_holdout.jsonl, written before the synonym list)")
+        run(ROOT / "dev_paraphrases_holdout.jsonl")
