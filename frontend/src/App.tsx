@@ -5,6 +5,7 @@ import type { Citation, CorpusStats, Filters } from "./api/types";
 import { ChatHistory } from "./components/ChatHistory";
 import { Composer } from "./components/Composer";
 import { DocumentsRail } from "./components/DocumentsRail";
+import { ResizeHandle } from "./components/ResizeHandle";
 import { EmptyState, type Example } from "./components/EmptyState";
 import { Logo } from "./components/Logo";
 import { SidePanel, SidePanelProvider, useSidePanel } from "./components/SidePanel";
@@ -221,7 +222,8 @@ function Chat() {
 
       {/* desktop documents rail */}
       {railShown && turns.length > 0 && (
-        <div className={`${RIGHT_COLUMN_WIDTH} ${RIGHT_COLUMN_SURFACE} shrink-0 border-l border-stone-200 dark:border-stone-800`}>
+        <div className={`relative ${RIGHT_COLUMN_WIDTH} ${RIGHT_COLUMN_SURFACE} shrink-0 border-l border-stone-200 dark:border-stone-800`}>
+          <ResizeHandle label="Resize documents rail" />
           <DocumentsRail turn={railTurn} onOpenTimeline={openTimeline} />
         </div>
       )}

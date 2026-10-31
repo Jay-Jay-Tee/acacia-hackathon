@@ -1,5 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { RIGHT_COLUMN_SURFACE, RIGHT_COLUMN_WIDTH_SM } from "../lib/layout";
+import { ResizeHandle } from "./ResizeHandle";
 
 // A single right-hand slot that feature components (P4: source viewer, fleet check,
 // revision timeline) render into, so they never need to edit P1's layout files.
@@ -53,6 +54,8 @@ export function SidePanel() {
       aria-label={content.title}
       className={`fixed inset-0 z-40 flex flex-col bg-stone-50 shadow-[-12px_0_32px_-16px_rgb(0_0_0/0.25)] sm:inset-y-0 sm:right-0 sm:left-auto ${RIGHT_COLUMN_WIDTH_SM} sm:border-l sm:border-stone-200 dark:bg-stone-950 dark:sm:border-stone-800`}
     >
+      {/* Shares the rail's width variable, so resizing either one resizes both. */}
+      <ResizeHandle label="Resize side panel" />
       {/* Same surface and header rhythm as the documents rail it covers. */}
       <div className={`flex min-h-0 flex-1 flex-col ${RIGHT_COLUMN_SURFACE}`}>
         <header className="flex items-center justify-between gap-2 border-b border-stone-200 px-4 py-3 dark:border-stone-800">
