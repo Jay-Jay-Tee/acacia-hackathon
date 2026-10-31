@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { AskResponse, Citation } from "../api/types";
 import { profileLabel, type Profile } from "../lib/profile";
 import { AnswerBubble } from "./AnswerBubble";
@@ -18,27 +18,53 @@ interface Props {
   onRetry: (turn: Turn) => void;
   /** Clarification answered: re-ask this turn's question with the exact model. */
   onPickModel: (turn: Turn, model: string) => void;
+  /** Indexed passage count from /corpus, for the loading message. */
+  passages?: number;
 }
 
-export function Thread({ turns, onCitationClick, onRetry, onPickModel }: Props) {
+/** Scroll only the thread's own container (scrollIntoView would also scroll the page itself). */
+function scrollWithin(el: HTMLElement | null | undefined, align: "start" | "end") {
+  const box = el?.closest("main");
+  if (!el || !box) return;
+  const r = el.getBoundingClientRect();
+  const b = box.getBoundingClientRect();
+  const delta = align === "start" ? r.top - b.top - 16 : r.bottom - b.bottom;
+  const behavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+  box.scrollBy({ top: delta, behavior });
+}
+
+export function Thread({ turns, onCitationClick, onRetry, onPickModel, passages }: Props) {
   const end = useRef<HTMLDivElement>(null);
+  const items = useRef(new Map<number, HTMLLIElement>());
   const last = turns[turns.length - 1];
 
-  // Keep the newest turn in view when one is added and when its answer arrives.
+  // New question: scroll to the bottom so the waiting state is visible.
   useEffect(() => {
-    end.current?.scrollIntoView({ behavior: "smooth", block: "end" });
-  }, [turns.length, last?.state]);
+    scrollWithin(end.current, "end");
+  }, [turns.length]);
+
+  // Answer arrived: bring the question to the top so the answer reads from its start, not its disclaimer.
+  useEffect(() => {
+    if (last && last.state !== "loading") scrollWithin(items.current.get(last.id), "start");
+  }, [last?.id, last?.state]);
 
   return (
     <>
       <ol className="space-y-8 py-6" aria-live="polite">
         {turns.map((t) => (
-          <li key={t.id} className="space-y-3">
+          <li
+            key={t.id}
+            ref={(el) => {
+              if (el) items.current.set(t.id, el);
+              else items.current.delete(t.id);
+            }}
+            className="space-y-3"
+          >
             <UserBubble query={t.query} profile={t.profile} />
-            {t.state === "loading" && <Pending />}
+            {t.state === "loading" && <Pending passages={passages} />}
             {t.state === "error" && <ErrorBubble message={t.error ?? "Request failed."} onRetry={() => onRetry(t)} />}
             {t.state === "done" && t.response && (
-              <AnswerBubble response={t.response} onCitationClick={onCitationClick} onPickModel={(m) => onPickModel(t, m)} />
+              <AnswerBubble query={t.query} profile={t.profile} response={t.response} onCitationClick={onCitationClick} onPickModel={(m) => onPickModel(t, m)} />
             )}
           </li>
         ))}
@@ -60,11 +86,36 @@ function UserBubble({ query, profile }: { query: string; profile: Profile }) {
   );
 }
 
-function Pending() {
+// Gate refusals come back in well under a second, so anything still waiting after that is the
+// retrieval-to-answer step. The second message only claims what is happening by then.
+const STAGE_2_MS = 1200;
+
+/** Answer-shaped skeleton with an honest progress line and an elapsed timer. */
+function Pending({ passages }: { passages?: number }) {
+  const [elapsed, setElapsed] = useState(0);
+  useEffect(() => {
+    const t0 = performance.now();
+    const id = window.setInterval(() => setElapsed(performance.now() - t0), 200);
+    return () => window.clearInterval(id);
+  }, []);
+  const stage =
+    elapsed < STAGE_2_MS
+      ? `Searching ${passages ? passages.toLocaleString() : "the indexed"} passages…`
+      : "Checking applicability and writing a cited answer…";
+
   return (
-    <div className="flex items-center gap-2 text-sm text-stone-500" role="status">
-      <span className="size-2 animate-pulse rounded-full bg-stone-400" />
-      Searching the directives…
+    <div role="status" aria-live="polite" className="rounded-2xl rounded-bl-md border border-stone-200 bg-white px-4 py-3.5 dark:border-stone-800 dark:bg-stone-900">
+      <div className="flex items-center gap-2 text-xs text-stone-500 dark:text-stone-400">
+        <span aria-hidden className="size-2 rounded-full bg-blue-500 motion-safe:animate-pulse" />
+        <span>{stage}</span>
+        {elapsed >= 2000 && <span className="ml-auto tabular-nums">{(elapsed / 1000).toFixed(0)} s</span>}
+      </div>
+      <div aria-hidden className="mt-3 space-y-2 motion-safe:animate-pulse">
+        <div className="h-3 w-11/12 rounded bg-stone-200 dark:bg-stone-800" />
+        <div className="h-3 w-full rounded bg-stone-200 dark:bg-stone-800" />
+        <div className="h-3 w-4/5 rounded bg-stone-200 dark:bg-stone-800" />
+        <div className="mt-4 h-14 rounded-xl border border-stone-200 dark:border-stone-800" />
+      </div>
     </div>
   );
 }

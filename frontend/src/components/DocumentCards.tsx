@@ -1,6 +1,8 @@
 import { useState } from "react";
 import type { ApplicabilityResult, DocStatus, DocumentCard } from "../api/types";
+import { features } from "../features";
 import { safeUrl } from "../lib/safeUrl";
+import { useSidePanel } from "./SidePanel";
 
 const STATUS_STYLE: Record<DocStatus, string> = {
   proposed: "bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-200",
@@ -45,23 +47,24 @@ export function DocumentCards({ documents }: { documents: DocumentCard[] }) {
 }
 
 function Card({ d }: { d: DocumentCard }) {
+  const panel = useSidePanel();
   const link = safeUrl(d.url);
+  // P4's revision timeline, opened from the revision badge (no-op badge while the hook is absent).
+  const openTimeline = features.openRevisionTimeline && (() => features.openRevisionTimeline?.(d.ad_id, panel));
   const a = d.applicability;
   const models = d.models.slice(0, 6).join(", ") + (d.models.length > 6 ? ` +${d.models.length - 6}` : "");
   return (
     <li className="space-y-1.5 rounded-xl border border-stone-200 px-3 py-2.5 text-sm dark:border-stone-800">
       <div className="flex flex-wrap items-center gap-1.5">
         <span className={`${pill} ${STATUS_STYLE[d.status]}`}>{d.status_label}</span>
-        {d.revision.count > 1 &&
-          (d.revision.is_latest ? (
-            <span className={`${pill} bg-stone-100 text-stone-600 dark:bg-stone-800 dark:text-stone-300`}>
-              Latest of {d.revision.count} versions
-            </span>
-          ) : (
-            <span className={`${pill} bg-rose-100 text-rose-900 dark:bg-rose-950 dark:text-rose-200`}>
-              Outdated: a newer version exists
-            </span>
-          ))}
+        {d.revision.count > 1 && (
+          <RevisionBadge
+            onOpen={openTimeline}
+            className={`${pill} ${d.revision.is_latest ? "bg-stone-100 text-stone-600 dark:bg-stone-800 dark:text-stone-300" : "bg-rose-100 text-rose-900 dark:bg-rose-950 dark:text-rose-200"}`}
+          >
+            {d.revision.is_latest ? `Latest of ${d.revision.count} versions` : "Outdated: a newer version exists"}
+          </RevisionBadge>
+        )}
         {!d.fulltext && <span className={`${pill} bg-stone-100 text-stone-600 dark:bg-stone-800 dark:text-stone-300`}>Summary only</span>}
       </div>
 
@@ -85,7 +88,8 @@ function Card({ d }: { d: DocumentCard }) {
       )}
 
       {a && (
-        <details className="group">
+        // Open by default where the trace is the explanation: a "no" or an ambiguous model.
+        <details className="group" open={a.result === "DOES_NOT_APPLY" || a.result === "AMBIGUOUS"}>
           <summary className="flex cursor-pointer list-none items-center gap-2 text-xs">
             <span className={`${pill} ${VERDICT[a.result].style}`}>{VERDICT[a.result].label}</span>
             <span className="text-stone-500 group-open:hidden dark:text-stone-400">Show how this was decided</span>
@@ -110,5 +114,20 @@ function Card({ d }: { d: DocumentCard }) {
         )}
       </div>
     </li>
+  );
+}
+
+function RevisionBadge({ onOpen, className, children }: { onOpen?: () => void; className: string; children: string }) {
+  if (!onOpen) return <span className={className}>{children}</span>;
+  return (
+    <button
+      type="button"
+      onClick={onOpen}
+      title="Open the revision timeline for this docket"
+      className={`${className} cursor-pointer gap-1 hover:opacity-80 focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:outline-none`}
+    >
+      {children}
+      <span aria-hidden>↗</span>
+    </button>
   );
 }
