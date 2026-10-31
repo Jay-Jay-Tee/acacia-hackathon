@@ -45,12 +45,16 @@ def synthetic_applicability():
     for a in ads:
         for m in engine.effective_models(a):
             by_make[a["make"]].add(m)
-    pos, neg, pos_results = [0, 0], [0, 0], Counter()
+    pos, neg, pos_results, wd = [0, 0], [0, 0], Counter(), [0, 0]
     for a in ads:
         models = engine.effective_models(a)
         if not models:
             continue
         r = engine.check_applicability(a, models[0])["result"]
+        if engine.docket_withdrawn(a):  # withdrawn proposals must never be reported as applying
+            wd[0] += r == "DOES_NOT_APPLY"
+            wd[1] += 1
+            continue
         pos_results[r] += 1
         pos[0] += r != "DOES_NOT_APPLY"
         pos[1] += 1
@@ -64,6 +68,9 @@ def synthetic_applicability():
     print(f"[2] SYNTHETIC applicability (model-level, generated from the Model column):")
     print(f"    listed model never wrongly excluded: {pos[0]}/{pos[1]}; outcome mix {dict(pos_results)}")
     print(f"    sibling model (same make, not listed) correctly excluded: {neg[0]}/{neg[1]}")
+    print(f"    withdrawn proposals reported as not applying: {wd[0]}/{wd[1]}")
+    sources = Counter(a.get("models_source") for a in ads)
+    print(f"    model source: {dict(sources)} (rows with models: {len(ads) - sources[None]}/{len(ads)})")
     print(f"    -> UNKNOWN = serial/config condition the rules could not parse ({pos_results['UNKNOWN']}/{pos[1]})")
 
 

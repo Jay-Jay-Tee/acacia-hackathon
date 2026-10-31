@@ -18,6 +18,8 @@ from pathlib import Path
 import httpx
 import openpyxl
 
+from rules import parse_models  # noqa: F401  (re-exported for tests)
+
 ROOT = Path(__file__).parent
 XLSX = ROOT / "data/raw/ad_nprm.xlsx"
 CACHE = ROOT / "data/fr_cache"
@@ -37,6 +39,7 @@ PAGES_RE = re.compile(r"(\d+)\s*-\s*(\d+)")
 PAGE_MARK_RE = re.compile(r"^\[\[Page (\d+)\]\]$")
 AD_SECTION_RE = re.compile(r"^\(([a-z]{1,2})\) ([A-Z][^.]{2,80})$")
 PREAMBLE_HEAD_RE = re.compile(r"^([A-Z][A-Z ,'/-]{3,60}):")
+WITHDRAW_RE = re.compile(r"\bwithdraw(?:s|ing)\b[^.]{0,80}?\b(?:notices? of proposed rulemaking|S?NPRMs?)", re.I)
 
 
 def parse_date(s):
@@ -46,13 +49,17 @@ def parse_date(s):
         return None
 
 
+def is_withdrawal(subject, summary):
+    return subject.lower().startswith("withdrawal") or bool(WITHDRAW_RE.search(" ".join(summary.split())[:300]))
+
+
 def load_rows():
     wb = openpyxl.load_workbook(XLSX, read_only=True)
     ws = wb.worksheets[0]
     it = ws.iter_rows(values_only=True)
     header = [h.strip() if isinstance(h, str) else h for h in next(it)]
     rows = []
-    for i, vals in enumerate(it):
+    for vals in it:
         r = {h: ("" if v is None else str(v).strip()) for h, v in zip(header, vals)}
         if not r.get("Docket Number"):
             continue
@@ -78,7 +85,7 @@ def load_rows():
             "fr_doc": docnos[-1] if docnos else "",
             "related_docs": docnos[:-1],
             "pasted_text": pasted,
-            "withdrawn": "withdrawing" in summary.lower()[:200],
+            "withdrawn": is_withdrawal(r.get("Subject Heading", ""), summary),
             "citation": r.get("Citation", ""),
             "page_start": int(p.group(1)) if p else None,
             "page_end": int(p.group(2)) if p else None,
@@ -242,6 +249,13 @@ def build(rows, use_fulltext):
             status = "withdrawn"
         r["status"] = status
         r["applicability_text"] = appl
+        r["models_source"] = "sheet" if r["models"] else None
+        if not r["models"]:
+            for source, text in (("applicability", appl), ("summary", r["summary"])):
+                parsed = parse_models(text) if text else []
+                if parsed:
+                    r["models"], r["models_source"] = parsed, source
+                    break
         r["fulltext"] = bool(appl) or len(chunks) > 1
         con.execute("INSERT INTO ads VALUES (?,?,?)", (r["id"], r["docket"], json.dumps(r)))
         for section, page, body in chunks:

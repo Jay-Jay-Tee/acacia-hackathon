@@ -6,6 +6,8 @@ import time
 from functools import lru_cache
 from pathlib import Path
 
+import rules
+
 DB = Path(__file__).parent / "data/ads.db"
 MAX_QUERY = 500
 
@@ -14,8 +16,6 @@ our should that the their them there these this to was what when where which who
 any all about tell show give list please need know get applies apply ad ads airworthiness directive directives
 aircraft faa""".split())
 TOKEN_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9\-/.]*[A-Za-z0-9]|[A-Za-z0-9]")
-SERIAL_RANGE_RE = re.compile(
-    r"serial numbers?\s+\(?(?:MSN|S/N|SN)?\)?\s*([A-Z]{0,3}-?\d+)\s+(?:through|to|and)\s+([A-Z]{0,3}-?\d+)", re.I)
 # Questions about the assistant itself, or attempts to override its rules, are out of scope.
 META_RE = re.compile(r"system prompt|your (instructions|rules|prompt)|ignore (all |any |the |your )?(previous|prior|above)"
                      r"|disregard|jailbreak|pretend (to be|you)|you are now|act as|<\s*/?\s*(script|question)", re.I)
@@ -34,8 +34,7 @@ def all_ads():
     return {r["id"]: json.loads(r["data"]) for r in _con().execute("SELECT id, data FROM ads")}
 
 
-def norm_model(s):
-    return re.sub(r"[\s_]", "", s or "").upper()
+norm_model = rules.norm_model
 
 
 def content_tokens(q):
@@ -61,6 +60,16 @@ def revisions(docket):
     }
 
 
+def docket_withdrawn(ad):
+    """True when the newest notice in this AD's docket is a withdrawal."""
+    if ad.get("status") == "withdrawn":
+        return True
+    if "id" not in ad:
+        return False
+    latest = revisions(ad["docket"])["latest_id"]
+    return all_ads()[latest].get("status") == "withdrawn"
+
+
 def effective_models(ad):
     """Older revisions often have an empty Model field; inherit from the latest version in the docket."""
     if ad["models"]:
@@ -74,15 +83,13 @@ def effective_models(ad):
 
 # ---------- applicability ----------
 
-def _serial_key(s):
-    m = re.search(r"\d+", s)
-    return (re.sub(r"[\d-]", "", s.upper()), int(m.group())) if m else (s.upper(), -1)
-
-
 def check_applicability(ad, model=None, serial=None):
     """Return {result: APPLIES|DOES_NOT_APPLY|UNKNOWN|AMBIGUOUS, trace: [...], candidates?}."""
     models = effective_models(ad)
     trace = []
+    if docket_withdrawn(ad):
+        return {"result": "DOES_NOT_APPLY",
+                "trace": ["This proposal was withdrawn (latest notice in its docket is a withdrawal); no action is required."]}
     if not model:
         return {"result": "UNKNOWN", "trace": ["No aircraft/engine model given."]}
     nm = norm_model(model)
@@ -108,30 +115,48 @@ def check_applicability(ad, model=None, serial=None):
         trace.append("Full applicability text unavailable; summary says 'certain' units. Cannot confirm serial scope.")
         return {"result": "UNKNOWN", "trace": trace}
 
-    flat = " ".join(text.split())
+    flat = rules.clean(text)
     trace.append(f"Applicability text: \"{flat[:400]}{'...' if len(flat) > 400 else ''}\"")
-    ranges = SERIAL_RANGE_RE.findall(flat)
-    mentions_serial = re.search(r"serial|S/N|MSN", flat, re.I)
-    if re.search(r"\bapplies to all\b", flat, re.I) and not mentions_serial:
-        trace.append("Rule: all serial numbers of the listed models.")
+    unknown = lambda why: {"result": "UNKNOWN", "trace": trace + [why]}
+    scope = rules.scope_for_model(flat, model)
+    if scope is None:
+        return unknown(f"Serial rules are given per model in numbered paragraphs, and none clearly matches {model}; "
+                       "check the source.")
+    if scope is not flat:
+        trace.append(f"Using the paragraph for {model}: \"{scope[:200]}\"")
+
+    if rules.CONFIG_COND_RE.search(scope):
+        return unknown(f"Applies only with a specific configuration (\"{rules.CONFIG_COND_RE.search(scope).group(0)}\"); "
+                       "check the aircraft's installed parts/modifications against the source.")
+    rule = rules.parse_serial_rule(scope)
+    if rule and rule["kind"] == "external":
+        return unknown("Affected serial numbers are listed in a table or service bulletin that is not in the text.")
+    exc_note = f"Exception: \"{rule['config_exception'][:160]}\"; verify manually." if rule and rule["config_exception"] else None
+
+    if rule is None:
+        if re.search(r"\bcertain\b", scope, re.I):
+            return unknown("Text says 'certain' units without a parsable serial or configuration rule.")
+        trace.append("No serial or configuration restriction found in the applicability text.")
         return {"result": "APPLIES", "trace": trace}
-    if ranges and serial:
-        sk = _serial_key(serial)
-        for lo, hi in ranges:
-            klo, khi = _serial_key(lo), _serial_key(hi)
-            if klo[0] == khi[0] == sk[0] and klo[1] <= sk[1] <= khi[1]:
-                trace.append(f"Rule: serial {lo} to {hi}. S/N {serial} is in range.")
-                if re.search(r"\bexcept\b", flat, re.I):
-                    trace.append("Text contains an exception clause; verify exclusions manually.")
-                    return {"result": "UNKNOWN", "trace": trace}
-                return {"result": "APPLIES", "trace": trace}
-        trace.append(f"Rule: serial range(s) {', '.join(f'{a}-{b}' for a, b in ranges)}. S/N {serial} is outside them.")
+    if rule["kind"] == "all":
+        trace.append("Rule: all serial numbers of the listed models"
+                     + (f", except {', '.join(rule['excepted'])}" if rule["excepted"] else "") + ".")
+        if serial and rule["excepted"] and rules.serial_in_rule(serial, {**rule, "values": [], "ranges": []}) is False:
+            trace.append(f"S/N {serial} is excluded.")
+            return {"result": "DOES_NOT_APPLY", "trace": trace}
+        return unknown(exc_note) if exc_note else {"result": "APPLIES", "trace": trace}
+
+    trace.append(f"Rule: serial numbers {rules.describe(rule)}.")
+    if not serial:
+        return unknown("Applicability depends on the serial number; enter one to check.")
+    inside = rules.serial_in_rule(serial, rule)
+    if inside is None:
+        return unknown(f"S/N {serial} uses a different format from the rule's serial numbers; compare manually.")
+    if not inside:
+        trace.append(f"S/N {serial} is outside the rule.")
         return {"result": "DOES_NOT_APPLY", "trace": trace}
-    if mentions_serial or re.search(r"\bcertain\b", flat, re.I):
-        trace.append("Applicability depends on serial number / configuration conditions that could not be parsed automatically.")
-        return {"result": "UNKNOWN", "trace": trace}
-    trace.append("No serial or configuration restriction found in the applicability text.")
-    return {"result": "APPLIES", "trace": trace}
+    trace.append(f"S/N {serial} is covered.")
+    return unknown(exc_note) if exc_note else {"result": "APPLIES", "trace": trace}
 
 
 # ---------- retrieval ----------
@@ -173,7 +198,8 @@ def ad_card(ad_id):
     return {
         "ad_id": ad_id, "docket": ad["docket"], "subject": ad["subject"], "ad_number": ad["ad_number"],
         "status": ad["status"], "issue_date": ad["issue_date"], "make": ad["make"],
-        "models": effective_models(ad), "citation": ad["citation"], "url": ad["url"],
+        "models": effective_models(ad), "models_source": ad.get("models_source"),
+        "citation": ad["citation"], "url": ad["url"],
         "supersedes": ad["supersedes"], "fulltext": ad["fulltext"],
         "revision": {"count": rev["count"], "is_latest": rev["latest_id"] == ad_id,
                      "latest_id": rev["latest_id"], "versions": rev["versions"]},
