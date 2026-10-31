@@ -22,6 +22,7 @@ export interface Citation {
   revision_date: string; // FR publish date of this version
   section: string;
   fr_citation: string;
+  fr_cite: string; // v1.4: standard FR citation of the cited page, e.g. "91 FR 61797"
   pages: string; // v1.2: page range of the whole notice
   page: number; // page of the cited passage
   url: string;
@@ -82,6 +83,7 @@ export interface DocumentCard {
   fulltext: boolean;
   url: string;
   citation: string;
+  fr_cite?: string; // v1.4: notice citation, e.g. "91 FR 61796-61799"
   ad_number: string;
   revision: Revision;
   applicability: Applicability | null;

@@ -89,11 +89,13 @@ export function SourceViewer({ citation }: { citation: Citation }) {
                   Federal Register page {c.page}
                 </div>
               )}
-              {(!prev || prev.section !== c.section) && <h3 className="mt-2 text-xs font-semibold">{c.section}</h3>}
+              {(!prev || prev.section !== c.section) && !startsWithHeading(c.text, c.section) && (
+                <h3 className="mt-2 text-xs font-semibold">{c.section}</h3>
+              )}
               <div
                 id={c.anchor}
                 ref={isCited ? citedRef : undefined}
-                className={`whitespace-pre-wrap py-1 ${isCited && !span ? "bg-yellow-200 dark:bg-yellow-900/60" : ""}`}
+                className={`font-mono text-[11.5px] leading-relaxed whitespace-pre-wrap py-1 ${isCited && !span ? "bg-yellow-200 dark:bg-yellow-900/60" : ""}`}
               >
                 {isCited && span ? (
                   <>
@@ -111,4 +113,10 @@ export function SourceViewer({ citation }: { citation: Citation }) {
       </div>
     </div>
   );
+}
+
+/** The passage already opens with its own heading line ("(c) Applicability", "SUMMARY:"), so don't repeat it. */
+function startsWithHeading(text: string, section: string): boolean {
+  const norm = (t: string) => t.toLowerCase().replace(/[^a-z0-9()]+/g, " ").trim();
+  return norm(text.trimStart().slice(0, section.length + 2)).startsWith(norm(section));
 }

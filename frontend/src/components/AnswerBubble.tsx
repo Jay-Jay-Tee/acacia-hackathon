@@ -176,36 +176,44 @@ function Clarify({ candidates, onPick }: { candidates: string[]; onPick: (m: str
 
 /** Reference list under the answer: every cited passage with its full source metadata. */
 function Sources({ sources, onOpen }: { sources: Citation[]; onOpen: (c: Citation) => void }) {
+  // Always visible: the reference list is the evidence. Format per the organisers:
+  // record_id + Federal Register citation and page + section.
   return (
-    <details className="group mt-3 text-xs">
-      <summary className="cursor-pointer text-stone-500 select-none hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200">
-        {sources.length} source passage{sources.length === 1 ? "" : "s"}
-      </summary>
-      <ol className="mt-2 space-y-1.5">
+    <section className="mt-3 border-t border-stone-200/70 pt-2.5 text-xs dark:border-stone-700/70">
+      <h3 className="font-medium tracking-wide text-stone-500 uppercase dark:text-stone-400">References</h3>
+      <ol className="mt-1.5 space-y-2">
         {sources.map((c, i) => {
           const url = safeUrl(c.url);
           const badge = statusBadge(c.status);
+          const quote = c.cited_text.length > 160 ? `${c.cited_text.slice(0, 159).trimEnd()}…` : c.cited_text;
           return (
             <li key={`${c.ad_id}:${c.chunk_id}`} className="flex gap-2 text-stone-600 dark:text-stone-400">
-              <button type="button" onClick={() => onOpen(c)} className="shrink-0 font-semibold text-blue-800 tabular-nums hover:underline dark:text-blue-300">
+              <button type="button" onClick={() => onOpen(c)} title="Open the source at this passage" className="shrink-0 font-semibold text-blue-800 tabular-nums hover:underline dark:text-blue-300">
                 [{i + 1}]
               </button>
-              <span className="min-w-0 wrap-break-word">
-                <span className="font-medium text-stone-800 dark:text-stone-200">{c.record_id || c.docket}</span>
-                {c.record_id && ` · ${c.docket}`} · {badge.label} · rev. {c.revision_date} · {c.section} · FR p.{c.page}
-                {url && (
-                  <>
-                    {" · "}
-                    <a href={url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-stone-900 dark:hover:text-stone-100">
-                      {c.fr_citation || "Federal Register"}
+              <span className="min-w-0 space-y-0.5 wrap-break-word">
+                <span className="block">
+                  <span className="font-semibold text-stone-800 dark:text-stone-200">{c.record_id || c.docket}</span>
+                  {" · "}
+                  {url ? (
+                    <a href={url} target="_blank" rel="noopener noreferrer" className="font-medium text-stone-800 tabular-nums underline underline-offset-2 hover:text-stone-950 dark:text-stone-200 dark:hover:text-white">
+                      {c.fr_cite || `FR p.${c.page}`}
                     </a>
-                  </>
-                )}
+                  ) : (
+                    <span className="tabular-nums">{c.fr_cite || `FR p.${c.page}`}</span>
+                  )}
+                  {" · "}
+                  {c.section}
+                </span>
+                <span className="block text-stone-500 dark:text-stone-400">
+                  {c.docket} · {badge.label} · published {c.revision_date}
+                </span>
+                <q className="block text-stone-500 italic dark:text-stone-400">{quote}</q>
               </span>
             </li>
           );
         })}
       </ol>
-    </details>
+    </section>
   );
 }

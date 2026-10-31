@@ -110,9 +110,9 @@ function PreviewCard(props: {
         <dd className="text-stone-900 dark:text-stone-200">{c.section || "–"}</dd>
         <dt>Revision</dt>
         <dd className="text-stone-900 dark:text-stone-200">{c.revision_date || "–"}</dd>
-        <dt>FR page</dt>
+        <dt>Citation</dt>
         <dd className="text-stone-900 tabular-nums dark:text-stone-200">
-          {c.page}
+          {c.fr_cite || `FR p.${c.page}`}
           {c.pages && <span className="text-stone-500 dark:text-stone-400"> (notice pp. {c.pages})</span>}
         </dd>
       </dl>

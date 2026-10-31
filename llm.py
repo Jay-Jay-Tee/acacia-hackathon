@@ -46,7 +46,7 @@ def _citation(hit, cited_text):
     ad = engine.all_ads()[hit["ad_id"]]
     return {"record_id": ad.get("record_id"), "docket": ad["docket"], "ad_number": ad["ad_number"],
             "status": ad["status"], "revision_date": ad.get("publish_date") or ad["issue_date"],
-            "section": hit["section"], "fr_citation": ad["citation"], "pages": engine.page_range(ad), "page": hit["page"],
+            "section": hit["section"], "fr_citation": ad["citation"], "fr_cite": engine.fr_cite(ad, hit["page"]), "pages": engine.page_range(ad), "page": hit["page"],
             "url": ad["url"], "cited_text": cited_text, "ad_id": hit["ad_id"], "chunk_id": hit["chunk_id"]}
 
 
