@@ -70,24 +70,26 @@ function PreviewCard(props: {
   const badge = statusBadge(c.status);
 
   // Fixed-position card kept inside the viewport: above the chip if it fits, otherwise below.
+  // Re-placed on scroll and resize so it follows the chip (keyboard focus scrolls an off-screen chip
+  // into view right after opening it); closes once the chip itself leaves the screen.
   useLayoutEffect(() => {
-    const r = anchor.getBoundingClientRect();
-    const width = Math.min(CARD_W, window.innerWidth - 2 * GAP);
-    const left = Math.min(Math.max(GAP, r.left + r.width / 2 - width / 2), window.innerWidth - width - GAP);
-    const h = card.current?.offsetHeight ?? 0;
-    const top = r.top - h - GAP >= GAP ? r.top - h - GAP : r.bottom + GAP;
-    setPos({ top, left, width });
-  }, [anchor]);
-
-  // The card doesn't follow the chip, so close it when the page scrolls or resizes.
-  useEffect(() => {
-    window.addEventListener("scroll", onClose, true);
-    window.addEventListener("resize", onClose);
-    return () => {
-      window.removeEventListener("scroll", onClose, true);
-      window.removeEventListener("resize", onClose);
+    const place = () => {
+      const r = anchor.getBoundingClientRect();
+      if (r.bottom < 0 || r.top > window.innerHeight) return onClose();
+      const width = Math.min(CARD_W, window.innerWidth - 2 * GAP);
+      const left = Math.min(Math.max(GAP, r.left + r.width / 2 - width / 2), window.innerWidth - width - GAP);
+      const h = card.current?.offsetHeight ?? 0;
+      const top = r.top - h - GAP >= GAP ? r.top - h - GAP : r.bottom + GAP;
+      setPos({ top, left, width });
     };
-  }, [onClose]);
+    place();
+    window.addEventListener("scroll", place, true);
+    window.addEventListener("resize", place);
+    return () => {
+      window.removeEventListener("scroll", place, true);
+      window.removeEventListener("resize", place);
+    };
+  }, [anchor, onClose]);
 
   return createPortal(
     <div

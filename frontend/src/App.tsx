@@ -51,6 +51,18 @@ function Chat() {
     return () => ctl.abort();
   }, []);
 
+  // Cmd+K (Mac) / Ctrl+K anywhere focuses the question box.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && !e.altKey && !e.shiftKey && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        input.current?.focus();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
   const run = useCallback(
     async (chatId: string, id: number, query: string, p: Profile, f?: Filters) => {
       const patch = (t: Partial<Turn>) => updateTurns(chatId, (ts) => ts.map((x) => (x.id === id ? { ...x, ...t } : x)));
@@ -187,6 +199,7 @@ function Chat() {
                 onCitationClick={openCitation}
                 onRetry={retry}
                 onPickModel={pickModel}
+                passages={corpus?.passages}
                 railShown={railShown}
                 railTurnId={railTurn?.id}
                 onShowDocuments={(t) => setRailTurnId(t.id)}
@@ -199,7 +212,7 @@ function Chat() {
         <footer className="bg-linear-to-t from-stone-50 from-60% to-transparent pt-2 dark:from-stone-950">
           <div className="mx-auto max-w-3xl px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
             <FilterBar filters={filters} onChange={setFilters} />
-            <Composer profile={profile} onProfileChange={setProfile} onSend={(q) => send(q)} busy={busy} inputRef={input} />
+            <Composer profile={profile} onProfileChange={setProfile} onSend={(q) => send(q)} busy={busy} inputRef={input} hasHistory={turns.length > 0} />
           </div>
         </footer>
       </div>

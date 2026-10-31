@@ -1,10 +1,17 @@
-import { useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { AnswerMode, AskResponse, AskStatus, Citation } from "../api/types";
+import { features } from "../features";
+import { numberCitations } from "../lib/citations";
+import { answerAsText, copyText } from "../lib/copyAnswer";
 import { formatMs, statusBadge } from "../lib/format";
+import type { Profile } from "../lib/profile";
 import { safeUrl } from "../lib/safeUrl";
 import { CitationChip } from "./CitationChip";
 
 interface Props {
+  /** The question and aircraft profile this answer is for (used by the copy actions). */
+  query: string;
+  profile: Profile;
   response: AskResponse;
   onCitationClick: (c: Citation) => void;
   /** needs_clarification: the user picked an exact model; set it on the profile and re-ask. */
@@ -38,28 +45,13 @@ const MODE: Record<Exclude<AnswerMode, null>, { label: string; title: string }> 
   no_answer: { label: "No answer", title: "The retrieved documents don't answer this question." },
 };
 
-/** Numbers citations in reading order; the same passage keeps the same number everywhere. */
-function numberCitations(r: AskResponse) {
-  const numbers = new Map<string, number>();
-  const sources: Citation[] = [];
-  for (const b of r.answer_blocks)
-    for (const c of b.citations) {
-      const key = `${c.ad_id}:${c.chunk_id}`;
-      if (!numbers.has(key)) {
-        numbers.set(key, sources.length + 1);
-        sources.push(c);
-      }
-    }
-  return { numberOf: (c: Citation) => numbers.get(`${c.ad_id}:${c.chunk_id}`)!, sources };
-}
-
 /** Exact models to choose from: the top-level list (v1.1), else whatever the per-document checks raised. */
 function clarifyCandidates(r: AskResponse): string[] {
   if (r.candidates?.length) return r.candidates;
   return [...new Set(r.documents.flatMap((d) => d.applicability?.candidates ?? []))].sort();
 }
 
-export function AnswerBubble({ response: r, onCitationClick, onPickModel }: Props) {
+export function AnswerBubble({ query, profile, response: r, onCitationClick, onPickModel }: Props) {
   const s = STATUS[r.status] ?? STATUS.refused;
   const { numberOf, sources } = numberCitations(r);
   const extractive = r.mode === "extractive";
@@ -130,10 +122,50 @@ export function AnswerBubble({ response: r, onCitationClick, onPickModel }: Prop
 
       {r.note && <p className="mt-3 text-xs text-stone-500 dark:text-stone-400">{r.note}</p>}
 
+      <Actions query={query} profile={profile} response={r} />
+
       <footer className="mt-3 border-t border-stone-200/70 pt-2.5 text-[11px] leading-snug text-stone-500 dark:border-stone-700/70 dark:text-stone-400">
         {r.disclaimer}
       </footer>
     </article>
+  );
+}
+
+/** Copy the answer as plain text, plus P4's compliance-note export when it's plugged in. */
+function Actions({ query, profile, response }: { query: string; profile: Profile; response: AskResponse }) {
+  const [copied, setCopied] = useState<"" | "ok" | "failed">("");
+  const timer = useRef<number | undefined>(undefined);
+  useEffect(() => () => window.clearTimeout(timer.current), []);
+  const CopyNote = features.CopyNote;
+
+  async function copy() {
+    const ok = await copyText(answerAsText(query, profile, response));
+    setCopied(ok ? "ok" : "failed");
+    window.clearTimeout(timer.current);
+    timer.current = window.setTimeout(() => setCopied(""), 2000);
+  }
+
+  return (
+    // relative: keeps the sr-only status inside the scroll container (an absolute element without a
+    // positioned ancestor would stretch the whole page).
+    <div className="relative mt-3 flex flex-wrap items-center gap-2">
+      <button
+        type="button"
+        onClick={copy}
+        aria-label="Copy answer with its sources"
+        className="inline-flex items-center gap-1.5 rounded-md border border-stone-300 px-2.5 py-1 text-xs hover:bg-stone-100 dark:border-stone-600 dark:hover:bg-stone-800"
+      >
+        <svg aria-hidden viewBox="0 0 24 24" className="size-3.5" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+          {copied === "ok" ? <path d="M20 6 9 17l-5-5" /> : <><rect x="9" y="9" width="11" height="11" rx="2" /><path d="M5 15V5a2 2 0 0 1 2-2h10" /></>}
+        </svg>
+        {copied === "ok" ? "Copied" : "Copy answer"}
+      </button>
+      <span role="status" aria-live="polite" className="sr-only">
+        {copied === "ok" ? "Answer copied to the clipboard." : ""}
+      </span>
+      {copied === "failed" && <span className="text-xs text-rose-700 dark:text-rose-400">Clipboard blocked by the browser.</span>}
+      {CopyNote && <CopyNote query={query} model={profile.model || null} serial={profile.serial || null} response={response} />}
+    </div>
   );
 }
 
