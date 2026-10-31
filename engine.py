@@ -1,4 +1,5 @@
 """Deterministic core: retrieval, applicability, revisions, refusal gates. No LLM in this file."""
+import copy
 import json
 import re
 import sqlite3
@@ -162,8 +163,17 @@ def check_applicability(ad, model=None, serial=None):
 # ---------- retrieval ----------
 
 def search(query, model=None, k=8):
+    """BM25 search with an in-memory LRU cache. 'ms' is the real time of this call (a cache hit is near 0)."""
     t0 = time.perf_counter()
-    toks = content_tokens(query[:MAX_QUERY])
+    res = copy.deepcopy(_search_cached(query[:MAX_QUERY], model or None, k))
+    res["ms"] = (time.perf_counter() - t0) * 1000
+    return res
+
+
+@lru_cache(maxsize=512)
+def _search_cached(query, model, k):
+    t0 = time.perf_counter()
+    toks = content_tokens(query)
     if not toks:
         return {"hits": [], "tokens": [], "ms": 0.0}
     match = " OR ".join('"' + t.replace('"', "") + '"' for t in toks)
