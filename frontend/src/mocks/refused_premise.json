@@ -1,0 +1,60 @@
+{
+  "request": {
+    "query": "fuel starvation engine shutdown inspection",
+    "model": "P.68",
+    "serial": "200"
+  },
+  "response": {
+    "status": "refused",
+    "refusal_reason": "None of the matching documents apply to P.68 S/N 200, so the question's premise contradicts their applicability rules. See the applicability trace for each document.",
+    "answer_blocks": [],
+    "mode": null,
+    "note": "",
+    "documents": [
+      {
+        "ad_id": 17,
+        "docket": "FAA-2026-11794",
+        "subject": "Airworthiness Directives; Vulcanair S.p.A. Airplanes",
+        "ad_number": "",
+        "status": "proposed",
+        "issue_date": "2026-09-25",
+        "make": "Vulcanair S.p.A.",
+        "models": [
+          "P.68",
+          "P.68B"
+        ],
+        "models_source": "sheet",
+        "citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+        "url": "https://www.federalregister.gov/d/2026-19972",
+        "supersedes": [],
+        "fulltext": true,
+        "revision": {
+          "count": 1,
+          "is_latest": true,
+          "latest_id": 17,
+          "versions": [
+            {
+              "id": 17,
+              "issue_date": "2026-09-25",
+              "status": "proposed",
+              "citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+              "url": "https://www.federalregister.gov/d/2026-19972"
+            }
+          ]
+        },
+        "applicability": {
+          "result": "DOES_NOT_APPLY",
+          "trace": [
+            "Model P.68 is listed: P.68, P.68B.",
+            "Applicability text: \"(c) Applicability This AD applies to Vulcanair S.p.A. Model P.68 and P.68B airplanes, certificated in any category, serial numbers 1 through 182.\"",
+            "Rule: serial numbers 1 to 182.",
+            "S/N 200 is outside the rule."
+          ]
+        }
+      }
+    ],
+    "retrieval_ms": 44.1,
+    "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
+    "total_ms": 48.3
+  }
+}

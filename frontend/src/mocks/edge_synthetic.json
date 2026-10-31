@@ -1,0 +1,257 @@
+{
+  "request": {
+    "query": "SYNTHETIC edge-case mock (hand-built from real cards)"
+  },
+  "response": {
+    "status": "answered",
+    "refusal_reason": "",
+    "answer_blocks": [
+      {
+        "text": "SYNTHETIC EDGE CASE: <script>alert('xss')</script><img src=x onerror=alert(1)> must render as plain text.",
+        "citations": [
+          {
+            "docket": "FAA-2026-11794",
+            "ad_number": "",
+            "revision_date": "2026-09-25",
+            "section": "(e) Unsafe Condition",
+            "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "page": 61798,
+            "url": "https://www.federalregister.gov/d/2026-19972",
+            "cited_text": "(e) Unsafe Condition This AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. The FAA is issuing this AD to prevent fuel starvation. The unsafe condition, if not addressed, could result in engine power loss, engine shutdown in flight, and reduced control of the airplane.",
+            "ad_id": 17,
+            "chunk_id": 520
+          }
+        ]
+      },
+      {
+        "text": "The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsafe condit...",
+        "citations": [
+          {
+            "docket": "FAA-2026-11794",
+            "ad_number": "",
+            "revision_date": "2026-09-25",
+            "section": "Summary",
+            "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "page": 61797,
+            "url": "https://www.federalregister.gov/d/2026-19972",
+            "cited_text": "The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsafe condit...",
+            "ad_id": 17,
+            "chunk_id": 502
+          },
+          {
+            "docket": "FAA-2026-11794",
+            "ad_number": "",
+            "revision_date": "2026-09-25",
+            "section": "Summary",
+            "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "page": 61797,
+            "url": "javascript:alert(1)",
+            "cited_text": "Non-FR URL: must not become a link.",
+            "ad_id": 17,
+            "chunk_id": 502
+          }
+        ]
+      },
+      {
+        "text": "SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsa...",
+        "citations": [
+          {
+            "docket": "FAA-2026-11794",
+            "ad_number": "",
+            "revision_date": "2026-09-25",
+            "section": "Summary",
+            "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "page": 61797,
+            "url": "https://www.federalregister.gov/d/2026-19972",
+            "cited_text": "SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsa...",
+            "ad_id": 17,
+            "chunk_id": 506
+          }
+        ]
+      }
+    ],
+    "mode": "generated",
+    "note": "1 uncited sentence(s) removed.",
+    "documents": [
+      {
+        "ad_id": 17,
+        "docket": "FAA-2026-11794",
+        "subject": "Airworthiness Directives; Vulcanair S.p.A. Airplanes",
+        "ad_number": "",
+        "status": "proposed",
+        "issue_date": "2026-09-25",
+        "make": "Vulcanair S.p.A.",
+        "models": [
+          "P.68",
+          "P.68B"
+        ],
+        "models_source": "sheet",
+        "citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+        "url": "https://www.federalregister.gov/d/2026-19972",
+        "supersedes": [],
+        "fulltext": true,
+        "revision": {
+          "count": 1,
+          "is_latest": true,
+          "latest_id": 17,
+          "versions": [
+            {
+              "id": 17,
+              "issue_date": "2026-09-25",
+              "status": "proposed",
+              "citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+              "url": "https://www.federalregister.gov/d/2026-19972"
+            }
+          ]
+        },
+        "applicability": {
+          "result": "APPLIES",
+          "trace": [
+            "Model P.68 is listed: P.68, P.68B.",
+            "Applicability text: \"(c) Applicability This AD applies to Vulcanair S.p.A. Model P.68 and P.68B airplanes, certificated in any category, serial numbers 1 through 182.\"",
+            "Rule: serial numbers 1 to 182.",
+            "S/N 100 is covered."
+          ]
+        }
+      },
+      {
+        "ad_id": 12,
+        "docket": "FAA-2025-0204",
+        "subject": "Airworthiness Directives; The Boeing Company Airplanes",
+        "ad_number": "",
+        "status": "withdrawn",
+        "issue_date": "2026-10-05",
+        "make": "The Boeing Company",
+        "models": [
+          "787-8",
+          "787-9",
+          "787-10"
+        ],
+        "models_source": "sheet",
+        "citation": "Federal Register, Volume 91 Number 197 (Wednesday, October 14, 2026)",
+        "url": "https://www.federalregister.gov/d/2026-21009",
+        "supersedes": [],
+        "fulltext": true,
+        "revision": {
+          "count": 1,
+          "is_latest": true,
+          "latest_id": 12,
+          "versions": [
+            {
+              "id": 12,
+              "issue_date": "2026-10-05",
+              "status": "withdrawn",
+              "citation": "Federal Register, Volume 91 Number 197 (Wednesday, October 14, 2026)",
+              "url": "https://www.federalregister.gov/d/2026-21009"
+            }
+          ]
+        },
+        "applicability": null
+      },
+      {
+        "ad_id": 120,
+        "docket": "FAA-2026-1338",
+        "subject": "Airworthiness Directives; Airbus SAS Airplanes",
+        "ad_number": "",
+        "status": "proposed",
+        "issue_date": "2026-02-20",
+        "make": "Airbus SAS",
+        "models": [
+          "A330-201",
+          "A330-202",
+          "A330-203",
+          "A330-223",
+          "A330-243",
+          "A330-223F",
+          "A330-243F",
+          "A330-301",
+          "A330-302",
+          "A330-303",
+          "A330-321",
+          "A330-322",
+          "A330-323",
+          "A330-341",
+          "A330-342",
+          "A330-343",
+          "A330-841",
+          "A330-941"
+        ],
+        "models_source": "applicability",
+        "citation": "Federal Register, Volume 91 Number 37 (Wednesday, February 25, 2026)",
+        "url": "https://www.federalregister.gov/d/2026-03747",
+        "supersedes": [
+          "2014-16-22",
+          "2017-25-13",
+          "2024-25-11"
+        ],
+        "fulltext": true,
+        "revision": {
+          "count": 2,
+          "is_latest": false,
+          "latest_id": 10,
+          "versions": [
+            {
+              "id": 10,
+              "issue_date": "2026-10-05",
+              "status": "proposed",
+              "citation": "Federal Register, Volume 91 Number 193 (Wednesday, October 7, 2026)",
+              "url": "https://www.federalregister.gov/d/2026-20543"
+            },
+            {
+              "id": 120,
+              "issue_date": "2026-02-20",
+              "status": "proposed",
+              "citation": "Federal Register, Volume 91 Number 37 (Wednesday, February 25, 2026)",
+              "url": "https://www.federalregister.gov/d/2026-03747"
+            }
+          ]
+        },
+        "applicability": {
+          "result": "UNKNOWN",
+          "trace": [
+            "Model list not available for this notice.",
+            "SYNTHETIC: <b>trace html</b> must be plain text."
+          ]
+        }
+      },
+      {
+        "ad_id": 165,
+        "docket": "FAA-2022-1308R1",
+        "subject": "Airworthiness Directives; Airbus Canada Limited Partnership (Type Certificate Previously Held by C Series Aircraft Limited Partnership (CSALP); Bombardier, Inc.) Airplanes",
+        "ad_number": "",
+        "status": "proposed",
+        "issue_date": "2022-10-17",
+        "make": "Airbus Canada Limited Partnership",
+        "models": [
+          "BD-500-1A10",
+          "BD-500-1A11"
+        ],
+        "models_source": "summary",
+        "citation": "Federal Register, Volume 87 Number 217 (Thursday, November 10, 2022)",
+        "url": "",
+        "supersedes": [
+          "2021-04-05"
+        ],
+        "fulltext": false,
+        "revision": {
+          "count": 1,
+          "is_latest": true,
+          "latest_id": 165,
+          "versions": [
+            {
+              "id": 165,
+              "issue_date": "2022-10-17",
+              "status": "proposed",
+              "citation": "Federal Register, Volume 87 Number 217 (Thursday, November 10, 2022)",
+              "url": ""
+            }
+          ]
+        },
+        "applicability": null
+      }
+    ],
+    "retrieval_ms": 39.4,
+    "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
+    "total_ms": 64.3
+  }
+}

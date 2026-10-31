@@ -1,0 +1,118 @@
+{
+  "request": {
+    "query": "engine fire switch self-releasing",
+    "model": "A320"
+  },
+  "response": {
+    "status": "needs_clarification",
+    "refusal_reason": "Model 'A320' is ambiguous. Did you mean one of: A320-211, A320-212, A320-214, A320-216, A320-231, A320-232, A320-233, A320-251N, A320-252N, A320-253N, A320-271N, A320-272N?",
+    "answer_blocks": [],
+    "mode": null,
+    "note": "",
+    "documents": [
+      {
+        "ad_id": 48,
+        "docket": "FAA-2026-8795",
+        "subject": "Airworthiness Directives; Airbus SAS Airplanes",
+        "ad_number": "",
+        "status": "proposed",
+        "issue_date": "2026-08-31",
+        "make": "Airbus SAS",
+        "models": [
+          "A318-111",
+          "A318-112",
+          "A318-121",
+          "A318-122",
+          "A319-111",
+          "A319-112",
+          "A319-113",
+          "A319-114",
+          "A319-115",
+          "A319-131",
+          "A319-132",
+          "A319-133",
+          "A319-151N",
+          "A319-153N",
+          "A319-171N",
+          "A319-173N",
+          "A320-211",
+          "A320-212",
+          "A320-214",
+          "A320-216",
+          "A320-231",
+          "A320-232",
+          "A320-233",
+          "A320-251N",
+          "A320-252N",
+          "A320-253N",
+          "A320-271N",
+          "A320-272N",
+          "A320-273N",
+          "A321-111",
+          "A321-112",
+          "A321-131",
+          "A321-211",
+          "A321-212",
+          "A321-213",
+          "A321-231",
+          "A321-232",
+          "A321-251N",
+          "A321-251NX",
+          "A321-252N",
+          "A321-252NX",
+          "A321-253N",
+          "A321-253NX",
+          "A321-253NY",
+          "A321-271N",
+          "A321-271NX",
+          "A321-271NY",
+          "A321-272N",
+          "A321-272NX"
+        ],
+        "models_source": "sheet",
+        "citation": "Federal Register, Volume 91 Number 170 (Thursday, September 3, 2026)",
+        "url": "https://www.federalregister.gov/d/2026-18072",
+        "supersedes": [],
+        "fulltext": true,
+        "revision": {
+          "count": 1,
+          "is_latest": true,
+          "latest_id": 48,
+          "versions": [
+            {
+              "id": 48,
+              "issue_date": "2026-08-31",
+              "status": "proposed",
+              "citation": "Federal Register, Volume 91 Number 170 (Thursday, September 3, 2026)",
+              "url": "https://www.federalregister.gov/d/2026-18072"
+            }
+          ]
+        },
+        "applicability": {
+          "result": "AMBIGUOUS",
+          "candidates": [
+            "A320-211",
+            "A320-212",
+            "A320-214",
+            "A320-216",
+            "A320-231",
+            "A320-232",
+            "A320-233",
+            "A320-251N",
+            "A320-252N",
+            "A320-253N",
+            "A320-271N",
+            "A320-272N",
+            "A320-273N"
+          ],
+          "trace": [
+            "'A320' matches several listed variants: A320-211, A320-212, A320-214, A320-216, A320-231, A320-232, A320-233, A320-251N, A320-252N, A320-253N, A320-271N, A320-272N, A320-273N. Specify the exact model."
+          ]
+        }
+      }
+    ],
+    "retrieval_ms": 31.6,
+    "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
+    "total_ms": 35.3
+  }
+}
