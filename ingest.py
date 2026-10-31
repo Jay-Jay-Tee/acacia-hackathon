@@ -37,7 +37,8 @@ CHUNK_CHARS = 1500
 
 SUPERSEDE_RE = re.compile(r"\bAD\)?\s*(\d{4}-\d{2}-\d{2})")
 # The link column holds full URLs, short /d/ URLs, "original + Withdrawal:" pairs, or pasted rule text.
-DOCNO_RE = re.compile(r"federalregister\.gov/(?:documents/\d{4}/\d{2}/\d{2}/|d/)(\d{4}-\d+)")
+DOCNO_RE = re.compile(r"federalregister\.gov/(?:documents/\d{4}/\d{2}/\d{2}/|d/|a/)((?:R\d-)?\d{4}-\d+)")
+INDEX = ROOT / "data/raw/challenge4_ad_index.xlsx"  # organisers' index (31 Oct update): record_id, ISO dates
 PAGES_RE = re.compile(r"(\d+)\s*-\s*(\d+)")
 PAGE_MARK_RE = re.compile(r"^\[\[Page (\d+)\]\]$")
 AD_SECTION_RE = re.compile(r"^\(([a-z]{1,2})\) ([A-Z][^.]{2,80})$")
@@ -143,20 +144,69 @@ def resolve_one(client, row):
     return None
 
 
+def load_index():
+    """Rows of the organisers' challenge4_ad_index.xlsx (header on the third row), in source-sheet order."""
+    ws = openpyxl.load_workbook(INDEX, read_only=True)["nprm_index"]
+    it = ws.iter_rows(values_only=True)
+    next(it), next(it)
+    header = next(it)
+    return [dict(zip(header, r)) for r in it if r and r[0]]
+
+
+def apply_index(rows):
+    """Attach record_id (the official citation key) and the index's publish date and FR link to each row.
+    Rows are matched by position and must agree on docket number."""
+    if not INDEX.exists():
+        print(f"warning: {INDEX.name} missing; record_id falls back to row position")
+        for r in rows:
+            r.update(record_id=f"NPRM-{r['id'] + 1:03d}", index_doc="")
+        return
+    index = load_index()
+    if len(index) != len(rows):
+        sys.exit(f"{INDEX.name} has {len(index)} rows, source sheet has {len(rows)}")
+    for r, x in zip(rows, index):
+        if x["docket_number"] != r["docket"]:
+            sys.exit(f"{x['record_id']}: docket {x['docket_number']} != {r['docket']} (row order changed?)")
+        m = DOCNO_RE.search(x.get("federal_register_link") or "")
+        r["record_id"] = x["record_id"]
+        r["publish_date"] = str(x["publish_date"] or "")[:10] or r["publish_date"]
+        r["index_doc"] = m.group(1) if m else ""
+
+
+def verify_index_doc(client, row):
+    """The index's link is used only when its first page matches the row's cited page: for many rows it points
+    at an earlier notice in the docket (e.g. the original NPRM when the row is its withdrawal)."""
+    try:
+        meta = get(client, FR_API.format(row["index_doc"]), params={"fields[]": "start_page"}).json()
+    except (httpx.HTTPError, ValueError):
+        return None
+    if row["page_start"] is None or meta.get("start_page") == row["page_start"]:
+        return row["index_doc"]
+    return None
+
+
 def resolve_missing(rows):
     resolved = json.loads(RESOLVED.read_text()) if RESOLVED.exists() else {}
     todo = [r for r in rows if not r["fr_doc"] and not resolved.get(f"{r['docket']}|{r['page_start']}")]
     if todo:
         with httpx.Client(timeout=20, follow_redirects=False) as client, ThreadPoolExecutor(2) as ex:
+            # 1) same docket, same start page; 2) else the organisers' index link, if its first page matches
             for r, doc in zip(todo, ex.map(lambda r: resolve_one(client, r), todo)):
                 resolved[f"{r['docket']}|{r['page_start']}"] = doc
+            left = [r for r in todo if not resolved[f"{r['docket']}|{r['page_start']}"] and r.get("index_doc")]
+            for r, doc in zip(left, ex.map(lambda r: verify_index_doc(client, r), left)):
+                resolved[f"{r['docket']}|{r['page_start']}"] = doc
         RESOLVED.write_text(json.dumps(resolved, indent=1, sort_keys=True))
+    apply_resolved(rows, resolved)
+
+
+def apply_resolved(rows, resolved):
     n = 0
     for r in rows:
         if not r["fr_doc"]:
             r["fr_doc"] = resolved.get(f"{r['docket']}|{r['page_start']}") or ""
             n += bool(r["fr_doc"])
-    print(f"resolved {n} rows without a usable link via FR docket search")
+    print(f"resolved {n} rows without a usable link (FR docket search, or index link with matching page)")
 
 
 def finalize_urls(rows):
@@ -307,12 +357,11 @@ def main():
     if not XLSX.exists():
         sys.exit(f"missing {XLSX}")
     rows = load_rows()
+    apply_index(rows)
     if not args.no_fetch:
         fetch_all(rows)
     elif RESOLVED.exists():
-        resolved = json.loads(RESOLVED.read_text())
-        for r in rows:
-            r["fr_doc"] = r["fr_doc"] or resolved.get(f"{r['docket']}|{r['page_start']}") or ""
+        apply_resolved(rows, json.loads(RESOLVED.read_text()))
     finalize_urls(rows)
     build(rows, use_fulltext=CACHE.exists())
     if args.embed:

@@ -53,13 +53,16 @@ def _has_word(token, text):
 # ---------- revisions ----------
 
 def revisions(docket):
+    """Versions of a docket, newest first. The current version is the one with the latest Federal Register
+    publish date (the organisers' rule; the source Status column says "Current" on every row)."""
     rows = sorted((a for a in all_ads().values() if a["docket"] == docket),
-                  key=lambda a: a["issue_date"] or "", reverse=True)
+                  key=lambda a: (a.get("publish_date") or "", a["issue_date"] or ""), reverse=True)
     return {
         "docket": docket,
         "count": len(rows),
         "latest_id": rows[0]["id"] if rows else None,
-        "versions": [{"id": a["id"], "issue_date": a["issue_date"], "status": a["status"],
+        "versions": [{"id": a["id"], "record_id": a.get("record_id"), "publish_date": a.get("publish_date"),
+                      "issue_date": a["issue_date"], "status": a["status"],
                       "citation": a["citation"], "url": a["url"]} for a in rows],
     }
 
@@ -264,12 +267,42 @@ def _search_cached(query, model, k):
     return {"hits": hits, "tokens": toks, "ms": (time.perf_counter() - t0) * 1000}
 
 
+def status_label(ad):
+    if ad["status"] == "final":
+        return f"Final AD {ad['ad_number']}".strip()
+    if ad["status"] == "withdrawn":
+        return "Withdrawn proposal (no action required)"
+    return "Proposed rule (NPRM), not in effect"
+
+
+def page_range(ad):
+    if ad["page_start"] and ad["page_end"] and ad["page_end"] != ad["page_start"]:
+        return f"{ad['page_start']}-{ad['page_end']}"
+    return str(ad["page_start"] or "")
+
+
+def corpus_stats():
+    """Corpus size, stated as the brief asks."""
+    ads = all_ads().values()
+    full = [a for a in ads if a["fulltext"]]
+    return {
+        "records": len(all_ads()),
+        "records_with_full_text": len(full),
+        "federal_register_pages": sum(a["page_end"] - a["page_start"] + 1 for a in full if a["page_start"] and a["page_end"]),
+        "passages": _con().execute("SELECT count(*) FROM chunks").fetchone()[0],
+        "status": {s: sum(1 for a in ads if a["status"] == s) for s in ("proposed", "withdrawn", "final")},
+        "embeddings": hybrid_enabled(),
+    }
+
+
 def ad_card(ad_id):
     ad = all_ads()[ad_id]
     rev = revisions(ad["docket"])
     return {
-        "ad_id": ad_id, "docket": ad["docket"], "subject": ad["subject"], "ad_number": ad["ad_number"],
-        "status": ad["status"], "issue_date": ad["issue_date"], "make": ad["make"],
+        "ad_id": ad_id, "record_id": ad.get("record_id"), "docket": ad["docket"], "subject": ad["subject"],
+        "ad_number": ad["ad_number"], "status": ad["status"], "status_label": status_label(ad),
+        "issue_date": ad["issue_date"], "publish_date": ad.get("publish_date"), "pages": page_range(ad),
+        "make": ad["make"],
         "models": effective_models(ad), "models_source": ad.get("models_source"),
         "citation": ad["citation"], "url": ad["url"],
         "supersedes": ad["supersedes"], "fulltext": ad["fulltext"],
