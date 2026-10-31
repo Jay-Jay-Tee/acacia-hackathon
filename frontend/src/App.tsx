@@ -4,6 +4,7 @@ import { mocks } from "./api/mocks";
 import type { Citation, CorpusStats } from "./api/types";
 import { ChatHistory } from "./components/ChatHistory";
 import { Composer } from "./components/Composer";
+import { DocumentsRail } from "./components/DocumentsRail";
 import { EmptyState, type Example } from "./components/EmptyState";
 import { SidePanel, SidePanelProvider, useSidePanel } from "./components/SidePanel";
 import { Thread, type Turn } from "./components/Thread";
@@ -12,6 +13,7 @@ import { maxTurnId, useChatHistory } from "./lib/history";
 import { useProfile, type Profile } from "./lib/profile";
 import { safeUrl } from "./lib/safeUrl";
 import { useTheme, type Theme } from "./lib/theme";
+import { useMediaQuery } from "./lib/useMediaQuery";
 
 export default function App() {
   return (
@@ -33,6 +35,12 @@ function Chat() {
   const input = useRef<HTMLTextAreaElement>(null);
   const panel = useSidePanel();
   const busy = turns.some((t) => t.state === "loading");
+  // Documents rail: on wide screens it shows the answer picked in the thread, else the latest one with a response.
+  const railShown = useMediaQuery("(min-width: 1280px)");
+  const [railTurnId, setRailTurnId] = useState<number | null>(null);
+  const answered = turns.filter((t) => t.response);
+  const railTurn = answered.find((t) => t.id === railTurnId) ?? answered[answered.length - 1];
+  const openTimeline = features.openRevisionTimeline && ((adId: number) => features.openRevisionTimeline?.(adId, panel));
   const { updateTurns, startChat } = history;
 
   useEffect(() => {
@@ -57,6 +65,7 @@ function Chat() {
     (query: string, p: Profile = profile) => {
       const chatId = history.activeId ?? startChat(query);
       const id = nextId.current++;
+      setRailTurnId(null); // a new question takes over the rail
       updateTurns(chatId, (ts) => [...ts, { id, query, profile: p, state: "loading" }]);
       void run(chatId, id, query, p);
     },
@@ -170,7 +179,16 @@ function Chat() {
             {turns.length === 0 ? (
               <EmptyState corpus={corpus} onExample={runExample} />
             ) : (
-              <Thread turns={turns} onCitationClick={openCitation} onRetry={retry} onPickModel={pickModel} />
+              <Thread
+                turns={turns}
+                onCitationClick={openCitation}
+                onRetry={retry}
+                onPickModel={pickModel}
+                railShown={railShown}
+                railTurnId={railTurn?.id}
+                onShowDocuments={(t) => setRailTurnId(t.id)}
+                onOpenTimeline={openTimeline}
+              />
             )}
           </div>
         </main>
@@ -181,6 +199,13 @@ function Chat() {
           </div>
         </footer>
       </div>
+
+      {/* desktop documents rail */}
+      {railShown && turns.length > 0 && (
+        <div className="w-[22rem] shrink-0 border-l border-stone-200 bg-stone-100/40 dark:border-stone-800 dark:bg-stone-900/30">
+          <DocumentsRail turn={railTurn} onOpenTimeline={openTimeline} />
+        </div>
+      )}
     </div>
   );
 }

@@ -3,7 +3,6 @@ import type { AnswerMode, AskResponse, AskStatus, Citation } from "../api/types"
 import { formatMs, statusBadge } from "../lib/format";
 import { safeUrl } from "../lib/safeUrl";
 import { CitationChip } from "./CitationChip";
-import { DocumentCards } from "./DocumentCards";
 
 interface Props {
   response: AskResponse;
@@ -129,13 +128,7 @@ export function AnswerBubble({ response: r, onCitationClick, onPickModel }: Prop
 
       {sources.length > 0 && <Sources sources={sources} onOpen={onCitationClick} />}
 
-      {r.documents.length > 0 && (
-        <div className="mt-3">
-          <DocumentCards documents={r.documents} />
-        </div>
-      )}
-
-      {r.note && <p className="mt-1 text-xs text-stone-500 dark:text-stone-400">{r.note}</p>}
+      {r.note && <p className="mt-3 text-xs text-stone-500 dark:text-stone-400">{r.note}</p>}
 
       <footer className="mt-3 border-t border-stone-200/70 pt-2.5 text-[11px] leading-snug text-stone-500 dark:border-stone-700/70 dark:text-stone-400">
         {r.disclaimer}
