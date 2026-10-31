@@ -11,6 +11,7 @@ from pydantic import BaseModel, Field
 import engine
 import features
 import llm
+import uploads
 
 @asynccontextmanager
 async def lifespan(_app):
@@ -20,6 +21,7 @@ async def lifespan(_app):
 
 app = FastAPI(title="AD Finder", lifespan=lifespan)
 app.include_router(features.router)
+app.include_router(uploads.router)
 
 
 DISCLAIMER = ("Decision support only. Verify against the cited Federal Register text; "

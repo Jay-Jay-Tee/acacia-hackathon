@@ -6,6 +6,7 @@ __pycache__/
 *.log
 .idea/
 data/ads.db
+data/uploads.db
 data/answer_cache/
 data/emb.npy
 data/emb_meta.json
