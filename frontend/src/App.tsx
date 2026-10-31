@@ -153,8 +153,6 @@ function Chat() {
                 <span>
                   <b className="font-semibold text-stone-700 dark:text-stone-200">{corpus.federal_register_pages.toLocaleString()}</b> pages
                 </span>
-                <span className="text-emerald-700 dark:text-emerald-400">every sentence cited</span>
-                <span className="text-amber-700 dark:text-amber-400">refuses when unsure</span>
               </p>
             </div>
           )}
