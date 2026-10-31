@@ -97,6 +97,7 @@
         "url": "https://www.federalregister.gov/d/2026-19972",
         "supersedes": [],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 1,
           "is_latest": true,
@@ -124,8 +125,8 @@
         }
       }
     ],
-    "retrieval_ms": 2761.3,
+    "retrieval_ms": 3800.6,
     "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
-    "total_ms": 2790.3
+    "total_ms": 3912.2
   }
 }

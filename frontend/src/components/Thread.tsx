@@ -16,10 +16,11 @@ interface Props {
   turns: Turn[];
   onCitationClick: (c: Citation) => void;
   onRetry: (turn: Turn) => void;
-  onClarify?: (turn: Turn, model: string) => void;
+  /** Clarification answered: re-ask this turn's question with the exact model. */
+  onPickModel: (turn: Turn, model: string) => void;
 }
 
-export function Thread({ turns, onCitationClick, onRetry, onClarify }: Props) {
+export function Thread({ turns, onCitationClick, onRetry, onPickModel }: Props) {
   const end = useRef<HTMLDivElement>(null);
   const last = turns[turns.length - 1];
 
@@ -37,7 +38,7 @@ export function Thread({ turns, onCitationClick, onRetry, onClarify }: Props) {
             {t.state === "loading" && <Pending />}
             {t.state === "error" && <ErrorBubble message={t.error ?? "Request failed."} onRetry={() => onRetry(t)} />}
             {t.state === "done" && t.response && (
-              <AnswerBubble response={t.response} onCitationClick={onCitationClick} onClarify={onClarify && ((m) => onClarify(t, m))} />
+              <AnswerBubble response={t.response} onCitationClick={onCitationClick} onPickModel={(m) => onPickModel(t, m)} />
             )}
           </li>
         ))}
