@@ -1,20 +1,24 @@
-"""P2 retrieval dev check on human-written paraphrases (dev_paraphrases.jsonl).
+"""Retrieval dev check on human-written paraphrases (evaluation/dev_paraphrases.jsonl).
 
 Reports, with and without the aircraft model given:
   recall@5   target docket among the top-5 retrieved dockets
   passes gate   the relevance gate lets the question through (a refusal here is a false refusal)
 This is a small dev set written by P2; P3's larger set is the real test.
+
+Run: python evaluation/eval_retrieval.py [-v] [--sims]
 """
 import json
 import sys
 from pathlib import Path
 
-import engine
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+sys.path.insert(0, str(ROOT))
 
-ROOT = Path(__file__).parent
+import engine  # noqa: E402
 
 
-def run(path=ROOT / "dev_paraphrases.jsonl", verbose="-v" in sys.argv):
+def run(path=HERE / "dev_paraphrases.jsonl", verbose="-v" in sys.argv):
     qs = [json.loads(l) for l in path.read_text().splitlines() if l.strip()]
     for with_model in (True, False):
         hit = passed = 0
@@ -32,7 +36,7 @@ def run(path=ROOT / "dev_paraphrases.jsonl", verbose="-v" in sys.argv):
                 print(f"   {'MISS' if not ok else 'hit '} gate={status:20s} cov={cov:.2f} {q['query'][:60]!r} want {q['docket']}")
         label = "with model" if with_model else "no model  "
         print(f"{label}: recall@5 {hit}/{len(qs)}  |  passes gate {passed}/{len(qs)}")
-    negs = [json.loads(l)["query"] for l in (ROOT / "dev_negatives.jsonl").read_text().splitlines() if l.strip()]
+    negs = [json.loads(l)["query"] for l in (HERE / "dev_negatives.jsonl").read_text().splitlines() if l.strip()]
     leaked = [q for q in negs if engine.gate(q)[0] == "ok"]
     print(f"off-topic questions refused by the gate: {len(negs) - len(leaked)}/{len(negs)}"
           + (f"  (passed: {leaked})" if verbose and leaked else ""))
@@ -41,8 +45,8 @@ def run(path=ROOT / "dev_paraphrases.jsonl", verbose="-v" in sys.argv):
 
 def sim_table():
     """Top-3 cosine similarity for positives vs negatives, to pick MIN_SIM."""
-    pos = [json.loads(l)["query"] for l in (ROOT / "dev_paraphrases.jsonl").read_text().splitlines() if l.strip()]
-    neg = [json.loads(l)["query"] for l in (ROOT / "dev_negatives.jsonl").read_text().splitlines() if l.strip()]
+    pos = [json.loads(l)["query"] for l in (HERE / "dev_paraphrases.jsonl").read_text().splitlines() if l.strip()]
+    neg = [json.loads(l)["query"] for l in (HERE / "dev_negatives.jsonl").read_text().splitlines() if l.strip()]
     top = lambda q: max((h["sim"] or 0) for h in engine.search(q)["hits"][:3] or [{"sim": 0}])
     p, n = sorted(map(top, pos)), sorted(map(top, neg))
     print("positives (should pass):", [f"{x:.2f}" for x in p])
@@ -50,4 +54,10 @@ def sim_table():
 
 
 if __name__ == "__main__":
-    sim_table() if "--sims" in sys.argv else run()
+    if "--sims" in sys.argv:
+        sim_table()
+    else:
+        print("== dev set (dev_paraphrases.jsonl)")
+        run()
+        print("== held-out set (dev_paraphrases_holdout.jsonl, written before the synonym list)")
+        run(HERE / "dev_paraphrases_holdout.jsonl")

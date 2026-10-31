@@ -12,11 +12,14 @@
         "text": "(e) Unsafe Condition This AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. The FAA is issuing this AD to prevent fuel starvation. The unsafe condition, if not addressed, could result in engine power loss, engine shutdown in flight, and reduced control of the airplane.",
         "citations": [
           {
+            "record_id": "NPRM-018",
             "docket": "FAA-2026-11794",
             "ad_number": "",
-            "revision_date": "2026-09-25",
+            "status": "proposed",
+            "revision_date": "2026-09-30",
             "section": "(e) Unsafe Condition",
             "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "pages": "61797-61799",
             "page": 61798,
             "url": "https://www.federalregister.gov/d/2026-19972",
             "cited_text": "(e) Unsafe Condition This AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. The FAA is issuing this AD to prevent fuel starvation. The unsafe condition, if not addressed, could result in engine power loss, engine shutdown in flight, and reduced control of the airplane.",
@@ -29,11 +32,14 @@
         "text": "The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsafe condit...",
         "citations": [
           {
+            "record_id": "NPRM-018",
             "docket": "FAA-2026-11794",
             "ad_number": "",
-            "revision_date": "2026-09-25",
+            "status": "proposed",
+            "revision_date": "2026-09-30",
             "section": "Summary",
             "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "pages": "61797-61799",
             "page": 61797,
             "url": "https://www.federalregister.gov/d/2026-19972",
             "cited_text": "The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsafe condit...",
@@ -46,11 +52,14 @@
         "text": "SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsa...",
         "citations": [
           {
+            "record_id": "NPRM-018",
             "docket": "FAA-2026-11794",
             "ad_number": "",
-            "revision_date": "2026-09-25",
+            "status": "proposed",
+            "revision_date": "2026-09-30",
             "section": "Summary",
             "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "pages": "61797-61799",
             "page": 61797,
             "url": "https://www.federalregister.gov/d/2026-19972",
             "cited_text": "SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsa...",
@@ -62,14 +71,22 @@
     ],
     "mode": "extractive",
     "note": "No API key configured; showing source passages only.",
+    "notices": [
+      "Cited documents include proposed rules (NPRMs). They are not in effect until the FAA issues a final AD."
+    ],
+    "candidates": [],
     "documents": [
       {
         "ad_id": 17,
+        "record_id": "NPRM-018",
         "docket": "FAA-2026-11794",
         "subject": "Airworthiness Directives; Vulcanair S.p.A. Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2026-09-25",
+        "publish_date": "2026-09-30",
+        "pages": "61797-61799",
         "make": "Vulcanair S.p.A.",
         "models": [
           "P.68",
@@ -87,6 +104,8 @@
           "versions": [
             {
               "id": 17,
+              "record_id": "NPRM-018",
+              "publish_date": "2026-09-30",
               "issue_date": "2026-09-25",
               "status": "proposed",
               "citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
@@ -105,8 +124,8 @@
         }
       }
     ],
-    "retrieval_ms": 39.4,
+    "retrieval_ms": 2761.3,
     "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
-    "total_ms": 64.3
+    "total_ms": 2790.3
   }
 }

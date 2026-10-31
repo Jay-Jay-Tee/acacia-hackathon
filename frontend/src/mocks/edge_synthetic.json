@@ -10,11 +10,14 @@
         "text": "SYNTHETIC EDGE CASE: <script>alert('xss')</script><img src=x onerror=alert(1)> must render as plain text.",
         "citations": [
           {
+            "record_id": "NPRM-018",
             "docket": "FAA-2026-11794",
             "ad_number": "",
-            "revision_date": "2026-09-25",
+            "status": "proposed",
+            "revision_date": "2026-09-30",
             "section": "(e) Unsafe Condition",
             "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "pages": "61797-61799",
             "page": 61798,
             "url": "https://www.federalregister.gov/d/2026-19972",
             "cited_text": "(e) Unsafe Condition This AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. The FAA is issuing this AD to prevent fuel starvation. The unsafe condition, if not addressed, could result in engine power loss, engine shutdown in flight, and reduced control of the airplane.",
@@ -27,11 +30,14 @@
         "text": "The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsafe condit...",
         "citations": [
           {
+            "record_id": "NPRM-018",
             "docket": "FAA-2026-11794",
             "ad_number": "",
-            "revision_date": "2026-09-25",
+            "status": "proposed",
+            "revision_date": "2026-09-30",
             "section": "Summary",
             "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "pages": "61797-61799",
             "page": 61797,
             "url": "https://www.federalregister.gov/d/2026-19972",
             "cited_text": "The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsafe condit...",
@@ -39,11 +45,14 @@
             "chunk_id": 502
           },
           {
+            "record_id": "NPRM-018",
             "docket": "FAA-2026-11794",
             "ad_number": "",
-            "revision_date": "2026-09-25",
+            "status": "proposed",
+            "revision_date": "2026-09-30",
             "section": "Summary",
             "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "pages": "61797-61799",
             "page": 61797,
             "url": "javascript:alert(1)",
             "cited_text": "Non-FR URL: must not become a link.",
@@ -56,11 +65,14 @@
         "text": "SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsa...",
         "citations": [
           {
+            "record_id": "NPRM-018",
             "docket": "FAA-2026-11794",
             "ad_number": "",
-            "revision_date": "2026-09-25",
+            "status": "proposed",
+            "revision_date": "2026-09-30",
             "section": "Summary",
             "fr_citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
+            "pages": "61797-61799",
             "page": 61797,
             "url": "https://www.federalregister.gov/d/2026-19972",
             "cited_text": "SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) for certain Vulcanair S.p.A. Model P.68 and P.68B airplanes. This proposed AD was prompted by a report of fuel starvation that resulted in an uncommanded in-flight engine shutdown. This proposed AD would require, for certain airplanes, modification of the fuel level indicator and, for all airplanes, calibration of the fuel level indicator, installation of new quantity and warning placards, and updating the aircraft flight manual (AFM) and the aircraft maintenance manual (AMM). The FAA is proposing this AD to address the unsa...",
@@ -72,14 +84,22 @@
     ],
     "mode": "generated",
     "note": "1 uncited sentence(s) removed.",
+    "notices": [
+      "Cited documents include proposed rules (NPRMs). They are not in effect until the FAA issues a final AD."
+    ],
+    "candidates": [],
     "documents": [
       {
         "ad_id": 17,
+        "record_id": "NPRM-018",
         "docket": "FAA-2026-11794",
         "subject": "Airworthiness Directives; Vulcanair S.p.A. Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2026-09-25",
+        "publish_date": "2026-09-30",
+        "pages": "61797-61799",
         "make": "Vulcanair S.p.A.",
         "models": [
           "P.68",
@@ -97,6 +117,8 @@
           "versions": [
             {
               "id": 17,
+              "record_id": "NPRM-018",
+              "publish_date": "2026-09-30",
               "issue_date": "2026-09-25",
               "status": "proposed",
               "citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
@@ -116,11 +138,15 @@
       },
       {
         "ad_id": 12,
+        "record_id": "NPRM-013",
         "docket": "FAA-2025-0204",
         "subject": "Airworthiness Directives; The Boeing Company Airplanes",
         "ad_number": "",
         "status": "withdrawn",
+        "status_label": "Withdrawn proposal (no action required)",
         "issue_date": "2026-10-05",
+        "publish_date": "2026-10-14",
+        "pages": "65142-65144",
         "make": "The Boeing Company",
         "models": [
           "787-8",
@@ -139,6 +165,8 @@
           "versions": [
             {
               "id": 12,
+              "record_id": "NPRM-013",
+              "publish_date": "2026-10-14",
               "issue_date": "2026-10-05",
               "status": "withdrawn",
               "citation": "Federal Register, Volume 91 Number 197 (Wednesday, October 14, 2026)",
@@ -150,11 +178,15 @@
       },
       {
         "ad_id": 120,
+        "record_id": "NPRM-121",
         "docket": "FAA-2026-1338",
         "subject": "Airworthiness Directives; Airbus SAS Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2026-02-20",
+        "publish_date": "2026-02-25",
+        "pages": "9195-9199",
         "make": "Airbus SAS",
         "models": [
           "A330-201",
@@ -192,6 +224,8 @@
           "versions": [
             {
               "id": 10,
+              "record_id": "NPRM-011",
+              "publish_date": "2026-10-07",
               "issue_date": "2026-10-05",
               "status": "proposed",
               "citation": "Federal Register, Volume 91 Number 193 (Wednesday, October 7, 2026)",
@@ -199,6 +233,8 @@
             },
             {
               "id": 120,
+              "record_id": "NPRM-121",
+              "publish_date": "2026-02-25",
               "issue_date": "2026-02-20",
               "status": "proposed",
               "citation": "Federal Register, Volume 91 Number 37 (Wednesday, February 25, 2026)",
@@ -215,34 +251,37 @@
         }
       },
       {
-        "ad_id": 165,
-        "docket": "FAA-2022-1308R1",
-        "subject": "Airworthiness Directives; Airbus Canada Limited Partnership (Type Certificate Previously Held by C Series Aircraft Limited Partnership (CSALP); Bombardier, Inc.) Airplanes",
+        "ad_id": 267,
+        "record_id": "NPRM-268",
+        "docket": "FAA-2009-0555-W",
+        "subject": "Airworthiness Directives; Honeywell International Inc. TPE331-10 and TPE331-11 Series Turboprop Engines",
         "ad_number": "",
-        "status": "proposed",
-        "issue_date": "2022-10-17",
-        "make": "Airbus Canada Limited Partnership",
-        "models": [
-          "BD-500-1A10",
-          "BD-500-1A11"
-        ],
-        "models_source": "summary",
-        "citation": "Federal Register, Volume 87 Number 217 (Thursday, November 10, 2022)",
+        "status": "withdrawn",
+        "status_label": "Withdrawn proposal (no action required)",
+        "issue_date": "2011-07-22",
+        "publish_date": "2011-07-27",
+        "pages": "45211-45212",
+        "make": "Honeywell International Inc.",
+        "models": [],
+        "models_source": null,
+        "citation": "Federal Register Volume 76, Number 145 (Thursday, July 28, 2011)",
         "url": "",
         "supersedes": [
-          "2021-04-05"
+          "2009-17-05"
         ],
         "fulltext": false,
         "revision": {
           "count": 1,
           "is_latest": true,
-          "latest_id": 165,
+          "latest_id": 267,
           "versions": [
             {
-              "id": 165,
-              "issue_date": "2022-10-17",
-              "status": "proposed",
-              "citation": "Federal Register, Volume 87 Number 217 (Thursday, November 10, 2022)",
+              "id": 267,
+              "record_id": "NPRM-268",
+              "publish_date": "2011-07-27",
+              "issue_date": "2011-07-22",
+              "status": "withdrawn",
+              "citation": "Federal Register Volume 76, Number 145 (Thursday, July 28, 2011)",
               "url": ""
             }
           ]
@@ -250,8 +289,8 @@
         "applicability": null
       }
     ],
-    "retrieval_ms": 39.4,
+    "retrieval_ms": 2761.3,
     "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
-    "total_ms": 64.3
+    "total_ms": 2790.3
   }
 }

@@ -9,14 +9,34 @@
     "answer_blocks": [],
     "mode": null,
     "note": "",
+    "notices": [],
+    "candidates": [
+      "A320-211",
+      "A320-212",
+      "A320-214",
+      "A320-216",
+      "A320-231",
+      "A320-232",
+      "A320-233",
+      "A320-251N",
+      "A320-252N",
+      "A320-253N",
+      "A320-271N",
+      "A320-272N",
+      "A320-273N"
+    ],
     "documents": [
       {
         "ad_id": 48,
+        "record_id": "NPRM-049",
         "docket": "FAA-2026-8795",
         "subject": "Airworthiness Directives; Airbus SAS Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2026-08-31",
+        "publish_date": "2026-09-03",
+        "pages": "56601-56604",
         "make": "Airbus SAS",
         "models": [
           "A318-111",
@@ -81,6 +101,8 @@
           "versions": [
             {
               "id": 48,
+              "record_id": "NPRM-049",
+              "publish_date": "2026-09-03",
               "issue_date": "2026-08-31",
               "status": "proposed",
               "citation": "Federal Register, Volume 91 Number 170 (Thursday, September 3, 2026)",
@@ -111,8 +133,8 @@
         }
       }
     ],
-    "retrieval_ms": 31.6,
+    "retrieval_ms": 25.4,
     "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
-    "total_ms": 35.3
+    "total_ms": 26.2
   }
 }

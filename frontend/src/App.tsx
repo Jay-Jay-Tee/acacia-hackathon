@@ -1,43 +1,84 @@
-import { useState, type FormEvent } from "react";
-import { ask } from "./api/client";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { ask, getCorpus } from "./api/client";
 import { mocks } from "./api/mocks";
-import type { AskResponse, Citation } from "./api/types";
+import type { Citation, CorpusStats } from "./api/types";
+import { ChatHistory } from "./components/ChatHistory";
+import { Composer } from "./components/Composer";
+import { EmptyState, type Example } from "./components/EmptyState";
 import { SidePanel, SidePanelProvider, useSidePanel } from "./components/SidePanel";
+import { Thread, type Turn } from "./components/Thread";
 import { features } from "./features";
+import { maxTurnId, useChatHistory } from "./lib/history";
+import { useProfile, type Profile } from "./lib/profile";
 import { safeUrl } from "./lib/safeUrl";
-
-// Scaffold shell (#2): proves the client, types, mocks and side-panel slot work end to end.
-// The chat layout (#3), answer bubble (#4) and documents rail (#5) replace the body below.
+import { useTheme, type Theme } from "./lib/theme";
 
 export default function App() {
   return (
     <SidePanelProvider>
-      <Shell />
+      <Chat />
       <SidePanel />
     </SidePanelProvider>
   );
 }
 
-function Shell() {
-  const [query, setQuery] = useState("");
-  const [model, setModel] = useState("");
-  const [serial, setSerial] = useState("");
-  const [res, setRes] = useState<AskResponse | null>(null);
-  const [error, setError] = useState("");
-  const [loading, setLoading] = useState(false);
+function Chat() {
+  const history = useChatHistory();
+  const turns = history.active?.turns ?? [];
+  const [profile, setProfile] = useProfile();
+  const [corpus, setCorpus] = useState<CorpusStats | null>(null);
+  const [theme, cycleTheme] = useTheme();
+  const [drawer, setDrawer] = useState(false);
+  const nextId = useRef(maxTurnId(history.chats) + 1);
+  const input = useRef<HTMLTextAreaElement>(null);
   const panel = useSidePanel();
+  const busy = turns.some((t) => t.state === "loading");
+  const { updateTurns, startChat } = history;
 
-  async function submit(e: FormEvent) {
-    e.preventDefault();
-    setLoading(true);
-    setError("");
-    try {
-      setRes(await ask({ query, model, serial }));
-    } catch (err) {
-      setError(err instanceof Error ? err.message : String(err));
-    } finally {
-      setLoading(false);
-    }
+  useEffect(() => {
+    const ctl = new AbortController();
+    getCorpus(ctl.signal).then(setCorpus, () => setCorpus(null)); // the header just omits the stats if this fails
+    return () => ctl.abort();
+  }, []);
+
+  const run = useCallback(
+    async (chatId: string, id: number, query: string, p: Profile) => {
+      const patch = (t: Partial<Turn>) => updateTurns(chatId, (ts) => ts.map((x) => (x.id === id ? { ...x, ...t } : x)));
+      try {
+        patch({ state: "done", response: await ask({ query, model: p.model, serial: p.serial }) });
+      } catch (err) {
+        patch({ state: "error", error: err instanceof Error ? err.message : String(err) });
+      }
+    },
+    [updateTurns],
+  );
+
+  const send = useCallback(
+    (query: string, p: Profile = profile) => {
+      const chatId = history.activeId ?? startChat(query);
+      const id = nextId.current++;
+      updateTurns(chatId, (ts) => [...ts, { id, query, profile: p, state: "loading" }]);
+      void run(chatId, id, query, p);
+    },
+    [profile, run, history.activeId, startChat, updateTurns],
+  );
+
+  function retry(t: Turn) {
+    const chatId = history.activeId;
+    if (!chatId) return;
+    updateTurns(chatId, (ts) => ts.map((x) => (x.id === t.id ? { ...x, state: "loading", error: undefined } : x)));
+    void run(chatId, t.id, t.query, t.profile);
+  }
+
+  function clarify(t: Turn, model: string) {
+    const p = { ...t.profile, model };
+    setProfile(p);
+    send(t.query, p);
+  }
+
+  function runExample(ex: Example) {
+    setProfile(ex.profile);
+    send(ex.query, ex.profile);
   }
 
   function openCitation(c: Citation) {
@@ -46,67 +87,123 @@ function Shell() {
     if (url) window.open(url, "_blank", "noopener,noreferrer");
   }
 
-  let n = 0;
+  function newChat() {
+    history.newChat();
+    setDrawer(false);
+    input.current?.focus();
+  }
+
+  function openChat(id: string) {
+    history.open(id);
+    setDrawer(false);
+  }
+
+  const historyList = (
+    <ChatHistory chats={history.chats} activeId={history.activeId} onOpen={openChat} onNew={newChat} onDelete={history.remove} />
+  );
+
   return (
-    <main className="mx-auto max-w-3xl px-4 py-8 text-stone-900 dark:text-stone-100">
-      <h1 className="text-xl font-semibold">AD Finder</h1>
-      <p className="text-sm text-stone-500">Frontend scaffold. Chat layout lands in #3.</p>
+    <div className="flex h-dvh">
+      {/* desktop sidebar */}
+      <aside className="hidden w-64 shrink-0 border-r border-stone-200 bg-stone-100/60 lg:block dark:border-stone-800 dark:bg-stone-900/40">
+        {historyList}
+      </aside>
 
-      {import.meta.env.DEV && <MockPicker />}
-
-      <form onSubmit={submit} className="my-4 grid gap-2 sm:grid-cols-[1fr_9rem_7rem_auto]">
-        <input className={input} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Ask about an AD" maxLength={500} required />
-        <input className={input} value={model} onChange={(e) => setModel(e.target.value)} placeholder="Model" maxLength={40} />
-        <input className={input} value={serial} onChange={(e) => setSerial(e.target.value)} placeholder="Serial" maxLength={40} />
-        <button className="rounded-md bg-blue-700 px-4 py-2 text-white disabled:opacity-50" disabled={loading}>
-          {loading ? "…" : "Ask"}
-        </button>
-      </form>
-
-      {error && <p className="text-red-700 dark:text-red-400">{error}</p>}
-
-      {res && (
-        <section className="space-y-3 rounded-lg border border-stone-200 p-4 dark:border-stone-700">
-          <p className="text-sm">
-            <b>{res.status}</b> · mode {res.mode ?? "none"} · {res.retrieval_ms} ms / {res.total_ms} ms
-          </p>
-          {res.refusal_reason && <p>{res.refusal_reason}</p>}
-          {res.note && <p className="text-sm text-stone-500">{res.note}</p>}
-          {res.answer_blocks.map((b, i) => (
-            <p key={i}>
-              {b.text}
-              {b.citations.map((c) => {
-                n += 1;
-                return (
-                  <button key={n} type="button" onClick={() => openCitation(c)} title={c.cited_text} className="ml-1 text-xs text-blue-700 dark:text-blue-300">
-                    [{n}]
-                  </button>
-                );
-              })}
-            </p>
-          ))}
-          <ul className="text-sm text-stone-500">
-            {res.documents.map((d) => (
-              <li key={d.ad_id}>
-                {d.docket} · {d.status} · {d.applicability?.result ?? "no applicability check"}
-              </li>
-            ))}
-          </ul>
-          <p className="text-xs text-stone-500">{res.disclaimer}</p>
-        </section>
+      {/* mobile drawer */}
+      {drawer && (
+        <div className="fixed inset-0 z-40 lg:hidden" role="dialog" aria-modal="true" aria-label="Saved chats">
+          <button type="button" aria-label="Close history" className="absolute inset-0 bg-black/40" onClick={() => setDrawer(false)} />
+          <div className="absolute inset-y-0 left-0 w-72 max-w-[85vw] bg-stone-50 shadow-xl dark:bg-stone-950">{historyList}</div>
+        </div>
       )}
-    </main>
+
+      <div className="flex min-w-0 flex-1 flex-col">
+        <header className="border-b border-stone-200 bg-stone-50/80 backdrop-blur dark:border-stone-800 dark:bg-stone-950/80">
+          <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3">
+            <div className="flex min-w-0 items-center gap-3">
+              <button type="button" onClick={() => setDrawer(true)} className={`${iconBtn} lg:hidden`} aria-label="Open chat history">
+                <svg aria-hidden viewBox="0 0 24 24" className="size-4" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
+                  <path d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+              <Mark />
+              <div className="min-w-0">
+                <h1 className="text-[15px] leading-tight font-semibold tracking-tight">AD Finder</h1>
+                <p className="truncate text-xs text-stone-500 dark:text-stone-400">
+                  Airworthiness-directive search for maintenance planners
+                </p>
+              </div>
+            </div>
+            <div className="flex shrink-0 items-center gap-1">
+              {features.openFleetCheck && (
+                <button type="button" onClick={() => features.openFleetCheck?.(panel)} className={`${iconBtn} font-medium`}>
+                  Fleet check
+                </button>
+              )}
+              {turns.length > 0 && (
+                <button type="button" onClick={newChat} className={`${iconBtn} hidden sm:inline-flex`}>
+                  New chat
+                </button>
+              )}
+              <button type="button" onClick={cycleTheme} className={iconBtn} aria-label={`Theme: ${theme}. Click to change.`} title={`Theme: ${theme}`}>
+                <ThemeIcon theme={theme} />
+              </button>
+            </div>
+          </div>
+          {corpus && (
+            <div className="mx-auto max-w-3xl px-4 pb-2.5">
+              <p className="flex flex-wrap gap-x-3 gap-y-1 text-[11px] text-stone-500 tabular-nums dark:text-stone-300/70">
+                <span>
+                  <b className="font-semibold text-stone-700 dark:text-stone-200">{corpus.records}</b> FAA notices
+                </span>
+                <span>
+                  <b className="font-semibold text-stone-700 dark:text-stone-200">{corpus.federal_register_pages.toLocaleString()}</b> pages
+                </span>
+              </p>
+            </div>
+          )}
+          {import.meta.env.DEV && <MockPicker />}
+        </header>
+
+        <main className="min-h-0 flex-1 overflow-y-auto">
+          <div className="mx-auto max-w-3xl px-4">
+            {turns.length === 0 ? (
+              <EmptyState corpus={corpus} onExample={runExample} />
+            ) : (
+              <Thread turns={turns} onCitationClick={openCitation} onRetry={retry} onClarify={clarify} />
+            )}
+          </div>
+        </main>
+
+        <footer className="bg-linear-to-t from-stone-50 from-60% to-transparent pt-2 dark:from-stone-950">
+          <div className="mx-auto max-w-3xl px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+            <Composer profile={profile} onProfileChange={setProfile} onSend={(q) => send(q)} busy={busy} inputRef={input} />
+          </div>
+        </footer>
+      </div>
+    </div>
+  );
+}
+
+/** Brand mark: an aircraft over a document fold. */
+function Mark() {
+  return (
+    <span aria-hidden className="grid size-8 shrink-0 place-items-center rounded-lg bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900">
+      <svg viewBox="0 0 24 24" className="size-4.5" fill="currentColor">
+        <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z" />
+      </svg>
+    </span>
   );
 }
 
 function MockPicker() {
   const current = new URLSearchParams(window.location.search).get("mock");
   return (
-    <p className="mt-2 flex flex-wrap gap-2 text-xs">
-      <span className="text-stone-500">Dev mocks:</span>
-      <a href="?" className={current ? "underline" : "font-semibold"}>live backend</a>
+    <p className="mx-auto flex max-w-3xl flex-wrap gap-x-3 gap-y-1 px-4 pb-2 text-[11px] text-stone-400">
+      <span>dev mocks:</span>
+      <a href="?" className={current ? "hover:underline" : "font-semibold text-stone-600 dark:text-stone-300"}>live</a>
       {Object.keys(mocks).map((name) => (
-        <a key={name} href={`?mock=${name}`} className={current === name ? "font-semibold" : "underline"}>
+        <a key={name} href={`?mock=${name}`} className={current === name ? "font-semibold text-stone-600 dark:text-stone-300" : "hover:underline"}>
           {name}
         </a>
       ))}
@@ -114,4 +211,28 @@ function MockPicker() {
   );
 }
 
-const input = "rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-800";
+function ThemeIcon({ theme }: { theme: Theme }) {
+  const common = { "aria-hidden": true, viewBox: "0 0 24 24", className: "size-4", fill: "none", stroke: "currentColor", strokeWidth: 2, strokeLinecap: "round", strokeLinejoin: "round" } as const;
+  if (theme === "light")
+    return (
+      <svg {...common}>
+        <circle cx="12" cy="12" r="4" />
+        <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+      </svg>
+    );
+  if (theme === "dark")
+    return (
+      <svg {...common}>
+        <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+      </svg>
+    );
+  return (
+    <svg {...common}>
+      <rect x="3" y="4" width="18" height="12" rx="2" />
+      <path d="M8 20h8M12 16v4" />
+    </svg>
+  );
+}
+
+const iconBtn =
+  "inline-flex items-center rounded-md px-2 py-1.5 text-xs text-stone-600 hover:bg-stone-200/60 dark:text-stone-300 dark:hover:bg-stone-800";
