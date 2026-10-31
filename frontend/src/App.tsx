@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ask, getCorpus } from "./api/client";
 import { mocks } from "./api/mocks";
-import type { Citation, CorpusStats } from "./api/types";
+import type { Citation, CorpusStats, Filters } from "./api/types";
 import { ChatHistory } from "./components/ChatHistory";
 import { Composer } from "./components/Composer";
 import { DocumentsRail } from "./components/DocumentsRail";
@@ -9,6 +9,7 @@ import { EmptyState, type Example } from "./components/EmptyState";
 import { SidePanel, SidePanelProvider, useSidePanel } from "./components/SidePanel";
 import { Thread, type Turn } from "./components/Thread";
 import { features } from "./features";
+import { FilterBar, activeCount, useFilters } from "./features/FilterBar";
 import { maxTurnId, useChatHistory } from "./lib/history";
 import { useProfile, type Profile } from "./lib/profile";
 import { safeUrl } from "./lib/safeUrl";
@@ -28,6 +29,7 @@ function Chat() {
   const history = useChatHistory();
   const turns = history.active?.turns ?? [];
   const [profile, setProfile] = useProfile();
+  const [filters, setFilters] = useFilters();
   const [corpus, setCorpus] = useState<CorpusStats | null>(null);
   const [theme, cycleTheme] = useTheme();
   const [drawer, setDrawer] = useState(false);
@@ -50,10 +52,10 @@ function Chat() {
   }, []);
 
   const run = useCallback(
-    async (chatId: string, id: number, query: string, p: Profile) => {
+    async (chatId: string, id: number, query: string, p: Profile, f?: Filters) => {
       const patch = (t: Partial<Turn>) => updateTurns(chatId, (ts) => ts.map((x) => (x.id === id ? { ...x, ...t } : x)));
       try {
-        patch({ state: "done", response: await ask({ query, model: p.model, serial: p.serial }) });
+        patch({ state: "done", response: await ask({ query, model: p.model, serial: p.serial, filters: f }) });
       } catch (err) {
         patch({ state: "error", error: err instanceof Error ? err.message : String(err) });
       }
@@ -66,17 +68,18 @@ function Chat() {
       const chatId = history.activeId ?? startChat(query);
       const id = nextId.current++;
       setRailTurnId(null); // a new question takes over the rail
-      updateTurns(chatId, (ts) => [...ts, { id, query, profile: p, state: "loading" }]);
-      void run(chatId, id, query, p);
+      const f = activeCount(filters) ? filters : undefined;
+      updateTurns(chatId, (ts) => [...ts, { id, query, profile: p, filters: f, state: "loading" }]);
+      void run(chatId, id, query, p, f);
     },
-    [profile, run, history.activeId, startChat, updateTurns],
+    [profile, filters, run, history.activeId, startChat, updateTurns],
   );
 
   function retry(t: Turn) {
     const chatId = history.activeId;
     if (!chatId) return;
     updateTurns(chatId, (ts) => ts.map((x) => (x.id === t.id ? { ...x, state: "loading", error: undefined } : x)));
-    void run(chatId, t.id, t.query, t.profile);
+    void run(chatId, t.id, t.query, t.profile, t.filters);
   }
 
   function pickModel(t: Turn, model: string) {
@@ -195,6 +198,7 @@ function Chat() {
 
         <footer className="bg-linear-to-t from-stone-50 from-60% to-transparent pt-2 dark:from-stone-950">
           <div className="mx-auto max-w-3xl px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+            <FilterBar filters={filters} onChange={setFilters} />
             <Composer profile={profile} onProfileChange={setProfile} onSend={(q) => send(q)} busy={busy} inputRef={input} />
           </div>
         </footer>

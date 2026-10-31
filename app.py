@@ -3,7 +3,9 @@ import time
 from contextlib import asynccontextmanager
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from typing import Annotated
+
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
@@ -28,10 +30,19 @@ DISCLAIMER = ("Decision support only. Verify against the cited Federal Register 
               "certifying staff make the final applicability and compliance decision.")
 
 
+class Filters(BaseModel):
+    status: list[str] | None = Field(default=None, max_length=4)
+    make: str | None = Field(default=None, max_length=60)
+    product_type: str | None = Field(default=None, max_length=40)
+    published_from: str | None = Field(default=None, pattern=r"^\d{4}-\d{2}-\d{2}$")
+    published_to: str | None = Field(default=None, pattern=r"^\d{4}-\d{2}-\d{2}$")
+
+
 class Ask(BaseModel):
     query: str = Field(max_length=engine.MAX_QUERY)
     model: str | None = Field(default=None, max_length=40)
     serial: str | None = Field(default=None, max_length=40)
+    filters: Filters | None = None  # v1.5
 
 
 DIST = Path(__file__).parent / "frontend" / "dist"  # built by `npm run build` in frontend/
@@ -46,8 +57,12 @@ def index():
 
 
 @app.get("/search")
-def search(q: str, model: str | None = None):
-    res = engine.search(q[:engine.MAX_QUERY], model=model)
+def search(q: str, model: str | None = None, status: Annotated[list[str] | None, Query()] = None,
+           make: str | None = None, product_type: str | None = None,
+           published_from: str | None = None, published_to: str | None = None):
+    filters = {"status": status, "make": make, "product_type": product_type,
+               "published_from": published_from, "published_to": published_to}
+    res = engine.search(q[:engine.MAX_QUERY], model=model, filters=filters)
     return {"retrieval_ms": round(res["ms"], 1),
             "hits": [{**h, "card": engine.ad_card(h["ad_id"])} for h in res["hits"]]}
 
@@ -60,10 +75,21 @@ def ad(ad_id: int):
     return {**engine.ad_card(ad_id), "summary": a["summary"], "applicability_text": a["applicability_text"]}
 
 
+@app.get("/facets")
+def facets():
+    """Values for the filter bar: statuses with counts, makes, product types, publish-date range."""
+    return engine.facets()
+
+
 @app.get("/corpus")
 def corpus():
     """Corpus size (the brief asks teams to state it) and whether embeddings are loaded."""
     return engine.corpus_stats()
+
+
+def filter_notice(filters):
+    active = engine.describe_filters(engine.clean_filters(filters))
+    return [f"Filtered: only notices with {active}."] if active else []
 
 
 def status_notices(blocks, model=None):
@@ -90,7 +116,8 @@ def status_notices(blocks, model=None):
 @app.post("/ask")
 def ask(body: Ask):
     t0 = time.perf_counter()
-    status, reason, res, appl = engine.gate(body.query, body.model or None, body.serial or None)
+    filters = body.filters.model_dump() if body.filters else None
+    status, reason, res, appl = engine.gate(body.query, body.model or None, body.serial or None, filters)
     retrieval_ms = round(res["ms"], 1) if res else 0.0
     hits = res["hits"] if res else []
     # Show documents only when applicability was evaluated for them: a relevance refusal ("nothing in the
@@ -111,6 +138,6 @@ def ask(body: Ask):
         if mode == "no_answer":  # the passages don't answer it, so don't present them as matches
             out.update(status="refused", mode=mode, refusal_reason=note, documents=[])
         else:
-            out.update(status="answered", mode=mode, answer_blocks=blocks, note=note, notices=status_notices(blocks, body.model))
+            out.update(status="answered", mode=mode, answer_blocks=blocks, note=note, notices=filter_notice(filters) + status_notices(blocks, body.model))
     out["total_ms"] = round((time.perf_counter() - t0) * 1000, 1)
     return out
