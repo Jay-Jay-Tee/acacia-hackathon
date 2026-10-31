@@ -18,12 +18,25 @@ MAX_QUERY = 500
 STOPWORDS = set("""a an and are as at be by can do does for from has have how i if in is it its me my of on or
 our should that the their them there these this to was what when where which who why will with would you your
 any all about tell show give list please need know get applies apply ad ads airworthiness directive directives
-aircraft faa""".split())
+aircraft faa
+because while try trying were been being too very near into onto against inside outside than then also just only
+some same such so still here ok like we us
+latest newest current currently version versions revision revised status state notice notices proposal proposals
+proposed rule rules rulemaking nprm nprms pending alive active open every""".split())  # last two lines: function
+# words and words about ADs themselves; they carry no topic, so they must not count against a question's match
 TOKEN_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9\-/.]*[A-Za-z0-9]|[A-Za-z0-9]")
 # Questions about the assistant itself, or attempts to override its rules, are out of scope.
 META_RE = re.compile(r"system prompt|your (instructions|rules|prompt)|ignore (all |any |the |your )?(previous|prior|above)"
                      r"|disregard|jailbreak|pretend (to be|you)|you are now|act as|<\s*/?\s*(script|question)", re.I)
-NONCOMPLY_RE = re.compile(r"\b(skip|avoid|ignore|bypass|defer|waive|get around|not comply|without (doing|complying))\b", re.I)
+NONCOMPLY_RE = re.compile(r"\b(skip|avoid|ignore|bypass|defer|postpone|delay|put off|waive|get around|not comply"
+                          r"|without (doing|complying|performing)|(not|never) (do|doing|perform|performing|carry out)"
+                          r"|(past|beyond|exceed|exceeding|extend|extending) (the )?(compliance|due) (time|date|deadline))\b", re.I)
+# Requests that are not a lookup in the documents (general knowledge, translation, writing tasks).
+TASK_RE = re.compile(r"^\s*(please\s+)?(translate|write|compose|draft an? (email|letter|poem))\b|\bexplain how\b"
+                     r"|\bhow (does|do) (an? |the )?\w+( \w+)? (work|produce|generate)", re.I)
+# The corpus holds FAA notices only; other authorities' ADs are cited in them but not included.
+FOREIGN_AD_RE = re.compile(r"\b(summari[sz]e|explain|show|give me|what does)\b[^.?]{0,40}\b(EASA|Transport Canada|TCCA|ANAC|CAA|JCAB|CASA) AD\b", re.I)
+DOCKET_RE = re.compile(r"\b(FAA-\d{4}-\d{3,5}(?:-[A-Z])?|\d{2,4}-[A-Z]{2,3}-\d{1,3}-AD(?:-W)?)\b", re.I)
 
 
 @lru_cache(maxsize=1)
@@ -295,10 +308,19 @@ def _search_cached(query, model, k, filters=()):
         by_model = {a["id"] for a in all_ads().values()
                     if any(norm_model(m) == nm or norm_model(m).startswith(nm) for m in effective_models(a))}
         allowed = by_model if allowed is None else allowed & by_model
+    # A docket number in the question is a record lookup: search only that docket's notices.
+    named = {d.upper() for d in DOCKET_RE.findall(query)}
+    by_docket = {a["id"] for a in all_ads().values() if a["docket"].upper() in named} if named else set()
+    if by_docket:
+        allowed = by_docket if allowed is None else (allowed & by_docket) or by_docket
     bm = [r["id"] for r in _con().execute(
         "SELECT c.id, c.ad_id FROM chunks_fts JOIN chunks c ON c.id = chunks_fts.rowid "
         "WHERE chunks_fts MATCH ? ORDER BY bm25(chunks_fts) LIMIT 400", (match,)).fetchall()
         if allowed is None or r["ad_id"] in allowed]
+    if by_docket and not bm:  # nothing else in the question matched: start from the notices' summaries
+        bm = [r["id"] for r in _con().execute(
+            f"SELECT id FROM chunks WHERE ad_id IN ({','.join('?' * len(by_docket))}) AND section = 'Summary'",
+            sorted(by_docket))]
     fused = {cid: 1 / (RRF_K + rank) for rank, cid in enumerate(bm)}
     vec, sims = _vectors(), {}
     if vec:
@@ -333,7 +355,8 @@ def _search_cached(query, model, k, filters=()):
         hits = sorted(hits, key=lambda h: (h["coverage"], h["score"]), reverse=True)[:k]
     else:  # hybrid: fused rank plus a small bonus for chunks containing the query's actual words
         hits = sorted(hits, key=lambda h: h["score"] + COV_BONUS * h["coverage"], reverse=True)[:k]
-    return {"hits": hits, "tokens": toks, "ms": (time.perf_counter() - t0) * 1000}
+    return {"hits": hits, "tokens": toks, "ms": (time.perf_counter() - t0) * 1000,
+            "docket_lookup": bool(by_docket and hits), "scoped": bool(model)}
 
 
 def aircraft_family(ad):
@@ -422,6 +445,7 @@ def model_candidates(model):
 
 
 MIN_COVERAGE = 0.6  # short queries (<= 2 content words) need every word present
+MIN_COVERAGE_SCOPED = 0.4  # when an aircraft model restricts the search
 MIN_SIM = 0.70      # cosine similarity that counts as on-topic when words differ (tuned in evaluation/eval_retrieval.py)
 
 
@@ -431,7 +455,11 @@ def relevant(res, top=3):
     hits = res["hits"][:top]
     if not hits:
         return False
-    need = 1.0 if len(res["tokens"]) <= 2 else MIN_COVERAGE
+    if res.get("docket_lookup"):
+        return True  # the question names a docket in the corpus
+    # Scoped to one aircraft's notices (model given), a lower word match suffices: the search pool is already
+    # on-topic, and the answer step still refuses when the passages don't answer the question.
+    need = 1.0 if len(res["tokens"]) <= 2 else (MIN_COVERAGE_SCOPED if res.get("scoped") else MIN_COVERAGE)
     if max(h["coverage"] for h in hits) >= need:
         return True
     sims = [h["sim"] for h in hits if h["sim"] is not None]
@@ -447,6 +475,12 @@ def gate(query, model=None, serial=None, filters=None):
     if META_RE.search(query):
         return "refused", ("This question is about the assistant or tries to change its rules. It only answers "
                            "questions about the airworthiness-directive documents in the corpus."), None, {}
+    if FOREIGN_AD_RE.search(query):
+        return "refused", ("The corpus holds FAA notices only. Foreign authorities' ADs (e.g. EASA) are referenced in "
+                           "them but not included, so they can't be summarised; ask about the FAA notice instead."), None, {}
+    if TASK_RE.search(query):
+        return "refused", ("This is a general-knowledge or writing request, not a question about the airworthiness "
+                           "directives in the corpus."), None, {}
     if model and len(model_candidates(model)) > 1:
         cands = model_candidates(model)
         return ("needs_clarification",
