@@ -61,6 +61,16 @@ def revisions(docket):
     }
 
 
+def docket_withdrawn(ad):
+    """True when the newest notice in this AD's docket is a withdrawal."""
+    if ad.get("status") == "withdrawn":
+        return True
+    if "id" not in ad:
+        return False
+    latest = revisions(ad["docket"])["latest_id"]
+    return all_ads()[latest].get("status") == "withdrawn"
+
+
 def effective_models(ad):
     """Older revisions often have an empty Model field; inherit from the latest version in the docket."""
     if ad["models"]:
@@ -83,6 +93,9 @@ def check_applicability(ad, model=None, serial=None):
     """Return {result: APPLIES|DOES_NOT_APPLY|UNKNOWN|AMBIGUOUS, trace: [...], candidates?}."""
     models = effective_models(ad)
     trace = []
+    if docket_withdrawn(ad):
+        return {"result": "DOES_NOT_APPLY",
+                "trace": ["This proposal was withdrawn (latest notice in its docket is a withdrawal); no action is required."]}
     if not model:
         return {"result": "UNKNOWN", "trace": ["No aircraft/engine model given."]}
     nm = norm_model(model)
@@ -173,7 +186,8 @@ def ad_card(ad_id):
     return {
         "ad_id": ad_id, "docket": ad["docket"], "subject": ad["subject"], "ad_number": ad["ad_number"],
         "status": ad["status"], "issue_date": ad["issue_date"], "make": ad["make"],
-        "models": effective_models(ad), "citation": ad["citation"], "url": ad["url"],
+        "models": effective_models(ad), "models_source": ad.get("models_source"),
+        "citation": ad["citation"], "url": ad["url"],
         "supersedes": ad["supersedes"], "fulltext": ad["fulltext"],
         "revision": {"count": rev["count"], "is_latest": rev["latest_id"] == ad_id,
                      "latest_id": rev["latest_id"], "versions": rev["versions"]},

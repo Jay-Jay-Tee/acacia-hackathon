@@ -43,6 +43,7 @@ Response:
       "ad_id": 12, "docket": "FAA-2026-11794", "subject": "string",
       "status": "proposed" | "final" | "withdrawn",
       "issue_date": "2026-10-09", "make": "string", "models": ["P.68", "P.68B"],
+      "models_source": "sheet" | "applicability" | "summary" | null,   // v1.1 (P2): where the model list came from
       "supersedes": ["2021-12-10"], "fulltext": true,
       "url": "https://www.federalregister.gov/d/...",
       "citation": "string", "ad_number": "",

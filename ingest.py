@@ -37,6 +37,17 @@ PAGES_RE = re.compile(r"(\d+)\s*-\s*(\d+)")
 PAGE_MARK_RE = re.compile(r"^\[\[Page (\d+)\]\]$")
 AD_SECTION_RE = re.compile(r"^\(([a-z]{1,2})\) ([A-Z][^.]{2,80})$")
 PREAMBLE_HEAD_RE = re.compile(r"^([A-Z][A-Z ,'/-]{3,60}):")
+WITHDRAW_RE = re.compile(r"\bwithdraw(?:s|ing)\b[^.]{0,80}?\b(?:notices? of proposed rulemaking|S?NPRMs?)", re.I)
+
+# "Model A310-203, -204, and -221 airplanes" / "Models 401, 401A and 402 airplanes"
+MODEL_LIST_RE = re.compile(
+    r"\bModels?\s+((?:(?!\bModels?\b).){1,400}?)\s+(?:series\s+)?(?:airplanes?|helicopters?|rotorcraft|gliders?|"
+    r"(?:turbo\w+\s+)?engines?|propellers?)\b", re.I)
+# "PW210A and PW210S model turboshaft engines" (model name before the word "model")
+MODEL_AFTER_RE = re.compile(r"applies to (?:all |certain )?(.{1,200}?)\s+model\s+(?:turbo\w+\s+)?engines", re.I)
+MODEL_TOKEN_RE = re.compile(r"^[A-Z0-9][A-Za-z0-9 .\-/+]{0,28}$")
+BARE_SUFFIX_RE = re.compile(r"^\d{2,3}[A-Z]{0,3}$")  # '253N' in '-252N, 253N' (hyphen missing in source)
+NOT_MODEL = re.compile(r"\b(certificated|category|all|certain|with|installed|identified|serial|series|the|and|or)\b", re.I)
 
 
 def parse_date(s):
@@ -44,6 +55,55 @@ def parse_date(s):
         return datetime.strptime(s.strip(), "%m/%d/%Y").date().isoformat()
     except (ValueError, AttributeError):
         return None
+
+
+def _clean(text):
+    """Collapse whitespace and repair PDF line-wrap artifacts like 'B4- 622' and ', - 300'."""
+    return re.sub(r"-\s+(?=[A-Za-z0-9])", "-", " ".join(text.split()))
+
+
+def _expand(parts, take_last_word=False):
+    """Expand a split model list: '-204' inherits the base of the previous model ('A310-203' -> 'A310-204');
+    a bare token after a spaced first model inherits its prefix ('A300 B4-601, B4-603' -> 'A300 B4-603')."""
+    out, base, prefix = [], None, None
+    for i, p in enumerate(parts):
+        p = re.sub(r"^(?:all|certain)\s+", "", p.strip(" ;:()"), flags=re.I)
+        p = re.sub(r"\s+(?:series|variant\b.*)$", "", p, flags=re.I)
+        if take_last_word and p:
+            p = p.split()[-1]
+        if not p:
+            continue
+        if p.startswith("-") and base:
+            p = base + p
+        elif base and out and BARE_SUFFIX_RE.match(p) and out[-1].startswith(base + "-"):
+            p = f"{base}-{p}"
+        elif i > 0 and prefix and " " not in p and not p.startswith(prefix.split()[0]):
+            p = f"{prefix} {p}"
+        if "-" in p.lstrip("-"):
+            base = p.split("-")[0]
+        if i == 0 and " " in p:
+            prefix = p.rsplit(" ", 1)[0]
+        if MODEL_TOKEN_RE.match(p) and re.search(r"\d", p) and not NOT_MODEL.search(p):
+            out.append(p)
+    return out
+
+
+def parse_models(text):
+    """Model designations named in an applicability paragraph or summary. Returns [] when nothing reliable."""
+    text = _clean(text)
+    split = lambda s: re.split(r",\s*(?:and\s+|or\s+)?|;\s*|\s+(?:and|or)\s+", s)
+    models = []
+    for m in MODEL_LIST_RE.finditer(text):
+        models += _expand(split(m.group(1)))
+    if not models:
+        m = MODEL_AFTER_RE.search(text)
+        if m:
+            models = _expand(split(m.group(1)), take_last_word=True)
+    return list(dict.fromkeys(models))
+
+
+def is_withdrawal(subject, summary):
+    return subject.lower().startswith("withdrawal") or bool(WITHDRAW_RE.search(" ".join(summary.split())[:300]))
 
 
 def load_rows():
@@ -78,7 +138,7 @@ def load_rows():
             "fr_doc": docnos[-1] if docnos else "",
             "related_docs": docnos[:-1],
             "pasted_text": pasted,
-            "withdrawn": "withdrawing" in summary.lower()[:200],
+            "withdrawn": is_withdrawal(r.get("Subject Heading", ""), summary),
             "citation": r.get("Citation", ""),
             "page_start": int(p.group(1)) if p else None,
             "page_end": int(p.group(2)) if p else None,
@@ -242,6 +302,13 @@ def build(rows, use_fulltext):
             status = "withdrawn"
         r["status"] = status
         r["applicability_text"] = appl
+        r["models_source"] = "sheet" if r["models"] else None
+        if not r["models"]:
+            for source, text in (("applicability", appl), ("summary", r["summary"])):
+                parsed = parse_models(text) if text else []
+                if parsed:
+                    r["models"], r["models_source"] = parsed, source
+                    break
         r["fulltext"] = bool(appl) or len(chunks) > 1
         con.execute("INSERT INTO ads VALUES (?,?,?)", (r["id"], r["docket"], json.dumps(r)))
         for section, page, body in chunks:
