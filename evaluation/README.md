@@ -12,6 +12,8 @@ Scripts and question sets for measuring retrieval, applicability and refusal beh
 | `dev_paraphrases.jsonl` | 16 development paraphrases (where synonym gaps were found). |
 | `dev_paraphrases_holdout.jsonl` | 10 held-out paraphrases, written before the synonym list. |
 | `dev_negatives.jsonl` | 12 off-topic questions for the refusal gate. |
+| `eval_human.py` | Scores `human_questions.jsonl`: recall@5 (with and without the model), gate status, revision/withdrawn, serial verdicts. `-v` lists every miss. |
+| `human_questions.jsonl` | 107 hand-written questions (answerable, out-of-scope, ambiguous, contradicting, revision, withdrawn, multi-document, serial edge cases). Reported separately from the synthetic recall. |
 
 ## Run
 
@@ -22,6 +24,7 @@ From the repo root (the scripts add the repo root to `sys.path` themselves, so `
 .venv/bin/python evaluation/eval.py --llm
 .venv/bin/python evaluation/eval_retrieval.py
 .venv/bin/python evaluation/eval_retrieval.py -v
+.venv/bin/python evaluation/eval_human.py -v
 ```
 
 `eval.py` needs `data/ads.db`; build it with `python ingest.py --no-fetch` (or `--embed` for hybrid retrieval). `--llm` needs `ANTHROPIC_API_KEY` in `.env`.
