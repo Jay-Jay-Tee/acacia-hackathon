@@ -76,7 +76,7 @@ Response:
 | `GET /search?q=&model=` | P2 | exists |
 | `GET /ad/{ad_id}` | P2 | exists (card plus summary and applicability_text) |
 | `GET /corpus` | P2 | exists: corpus size to display (records, full-text records, FR pages, passages, status counts) |
-| `GET /ad/{ad_id}/text` | P4 | planned: full text with page markers and section anchors |
+| `GET /ad/{ad_id}/text` | P4 | exists: `{ad_id, record_id, docket, subject, status, status_label, pages, citation, url, chunks: [{chunk_id, section, page, anchor, text}], anchors: [{section, page, chunk_id, anchor}]}`. `page` is where the chunk starts; draw a page marker when it changes. Extractive `cited_text` is cut at 600 chars plus `...`, so match on the prefix. |
 | `POST /fleet` | P4 | planned: `[{model, serial}]` → per-aircraft applicability table |
 | `POST /upload` | P4 | planned (SHOULD): generic PDF ingest |
 

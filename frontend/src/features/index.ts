@@ -1,5 +1,6 @@
 import type { Citation } from "../api/types";
 import type { SidePanelApi } from "../components/SidePanel";
+import { openSource } from "./openSource";
 
 // P4's single entry point into the UI. P1's components call these hooks; P4 fills them in
 // from files under src/features/ (owned by P4). Anything left undefined falls back to
@@ -10,4 +11,6 @@ export interface FeatureHooks {
   onCitationClick?: (citation: Citation, panel: SidePanelApi) => void;
 }
 
-export const features: FeatureHooks = {};
+export const features: FeatureHooks = {
+  onCitationClick: openSource,
+};
