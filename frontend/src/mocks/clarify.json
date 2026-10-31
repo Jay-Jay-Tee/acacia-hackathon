@@ -94,6 +94,7 @@
         "url": "https://www.federalregister.gov/d/2026-18072",
         "supersedes": [],
         "fulltext": true,
+        "data_warning": null,
         "revision": {
           "count": 1,
           "is_latest": true,
@@ -133,8 +134,8 @@
         }
       }
     ],
-    "retrieval_ms": 25.4,
+    "retrieval_ms": 41.5,
     "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
-    "total_ms": 26.2
+    "total_ms": 42.7
   }
 }

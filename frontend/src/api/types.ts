@@ -1,4 +1,4 @@
-// TypeScript mirror of docs/API.md (contract v1.2).
+// TypeScript mirror of docs/API.md (contract v1.3).
 // Shared by P1 (UI) and P4 (features). Change only together with docs/API.md.
 
 // ---------- POST /ask ----------
@@ -35,7 +35,8 @@ export interface AnswerBlock {
   citations: Citation[];
 }
 
-export type DocStatus = "proposed" | "final" | "withdrawn";
+/** not_ad (v1.3): a non-AD rule in the sheet, e.g. 14 CFR Part 61. */
+export type DocStatus = "proposed" | "final" | "withdrawn" | "not_ad";
 
 export type ModelsSource = "sheet" | "applicability" | "summary" | null;
 
@@ -71,6 +72,7 @@ export interface DocumentCard {
   subject: string;
   status: DocStatus;
   status_label: string; // v1.2: display text for the status
+  data_warning?: string | null; // v1.3: a known problem with this record's source data; show it
   issue_date: string;
   publish_date: string; // v1.2
   pages: string; // v1.2
@@ -122,7 +124,7 @@ export interface CorpusStats {
   records_with_full_text: number;
   federal_register_pages: number;
   passages: number;
-  status: Record<DocStatus, number>;
+  status: Partial<Record<DocStatus, number>>;
   embeddings: boolean;
 }
 
