@@ -1,6 +1,6 @@
 # Architecture
 
-AD Finder is a small, single-process FastAPI app with a deterministic core and one optional LLM step. The design rule is simple: **code decides retrieval, applicability, revisions and refusals; the LLM only phrases an answer from retrieved passages.**
+Applicable (formerly AD Finder) is a small, single-process FastAPI app with a deterministic core and one optional LLM step. The design rule is simple: **code decides retrieval, applicability, revisions and refusals; the LLM only phrases an answer from retrieved passages.**
 
 ## Repository layout
 
