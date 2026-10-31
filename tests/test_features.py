@@ -8,6 +8,8 @@ from fastapi.testclient import TestClient
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+# the eval questions moved to evaluation/ on main; accept either location
+QUESTIONS = next(p for p in (ROOT / "evaluation" / "questions.jsonl", ROOT / "questions.jsonl") if p.exists())
 
 import app  # noqa: E402
 from features import locate, render_note, NoteRequest  # noqa: E402
@@ -35,7 +37,7 @@ def test_unknown_ad_is_404(client):
 
 def test_every_citation_opens_the_exact_quoted_passage(client):
     checked = 0
-    for line in (ROOT / "questions.jsonl").read_text().splitlines():
+    for line in QUESTIONS.read_text().splitlines():
         q = json.loads(line)
         r = client.post("/ask", json={"query": q["query"], "model": q.get("model"), "serial": q.get("serial")}).json()
         for block in r["answer_blocks"]:
@@ -191,7 +193,7 @@ def test_note_without_model_does_not_claim_applicability(client):
 
 def test_every_eval_citation_passes_the_source_check(client):
     checked = 0
-    for line in (ROOT / "questions.jsonl").read_text().splitlines():
+    for line in QUESTIONS.read_text().splitlines():
         q = json.loads(line)
         body = note_body(client, q["query"], q.get("model"), q.get("serial"))
         if not body["answer_blocks"]:
