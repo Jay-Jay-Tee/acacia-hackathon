@@ -6,3 +6,5 @@ httpx
 pytest
 fastembed
 numpy
+pypdf
+python-multipart
