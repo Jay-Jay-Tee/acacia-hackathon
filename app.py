@@ -1,5 +1,6 @@
 """FastAPI app. Run: .venv/bin/uvicorn app:app --host 127.0.0.1 --port 8000"""
 import time
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
@@ -10,14 +11,13 @@ from pydantic import BaseModel, Field
 import engine
 import llm
 
-app = FastAPI(title="AD Finder")
-
-
-
-
-@app.on_event("startup")
-def warm_up():
+@asynccontextmanager
+async def lifespan(_app):
     engine.hybrid_enabled()  # loads embeddings and the embedding model once (~9 s) instead of on the first request
+    yield
+
+
+app = FastAPI(title="AD Finder", lifespan=lifespan)
 
 
 DISCLAIMER = ("Decision support only. Verify against the cited Federal Register text; "
@@ -71,6 +71,8 @@ def status_notices(blocks):
                        "issues a final AD.")
     if "withdrawn" in cited:
         notices.append("Cited documents include withdrawn proposals; no action is required under them.")
+    if "not_ad" in cited:
+        notices.append("Cited documents include a rule that is not an airworthiness directive.")
     return notices
 
 

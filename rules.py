@@ -79,6 +79,49 @@ def embed_text(subject, section, text):
     return None
 
 
+# ---------- query expansion ----------
+
+# How mechanics say it -> how AD text says it. General aviation vocabulary and standard abbreviations;
+# alternatives are added to the search (never replace the user's words) and count toward word coverage.
+SYNONYMS = {
+    # phrases
+    "fire handle": ["fire switch"], "ran dry": ["fuel starvation"], "ran out of fuel": ["fuel starvation"],
+    "out of fuel": ["fuel starvation"], "engine quit": ["engine shutdown", "in-flight shutdown"],
+    "let go": ["release", "uncommanded release"], "on its own": ["uncommanded"], "by itself": ["uncommanded"],
+    "on their own": ["uncommanded"], "warning sign": ["placard"], "fuel gauge": ["fuel quantity indicator"],
+    "nose gear": ["nose landing gear"], "main gear": ["main landing gear"], "tail boom": ["tailboom"],
+    # words
+    "winch": ["hoist"], "gearbox": ["transmission"], "actuator": ["servo-control", "servo"],
+    "rust": ["corrosion"], "rusted": ["corrosion", "corroded"], "rusty": ["corrosion"],
+    "screen": ["monitor", "display"], "screens": ["monitors", "displays"], "broken": ["fractured", "failure"],
+    "worn": ["wear", "chafing"], "wires": ["wiring", "harness"], "wire": ["wiring"],
+    "overheating": ["excessive heat"], "overheat": ["excessive heat"], "loose": ["torque", "loosening"],
+    "stretcher": ["litter"], "cowl": ["cowling"], "sign": ["placard"], "gauge": ["indicator"],
+    "quit": ["shutdown"], "leaking": ["leak"],
+    # abbreviations
+    "hpt": ["high-pressure turbine"], "lpt": ["low-pressure turbine"], "hpc": ["high-pressure compressor"],
+    "lpc": ["low-pressure compressor"], "mlg": ["main landing gear"], "nlg": ["nose landing gear"],
+    "apu": ["auxiliary power unit"], "rat": ["ram air turbine"], "eec": ["electronic engine control"],
+    "fadec": ["full authority digital engine control"], "psu": ["passenger service unit"],
+    "elt": ["emergency locator transmitter"], "ice": ["icing"], "ndt": ["non-destructive"],
+}
+_PHRASES = sorted((k for k in SYNONYMS if " " in k), key=len, reverse=True)
+
+
+def expand_query(query, tokenize):
+    """[(term, [alternatives])] for a query: known phrases first, then the remaining content words
+    (tokenize = the engine's stopword-filtering tokenizer)."""
+    q = query.lower()
+    units = []
+    for p in _PHRASES:
+        pat = r"(?<![a-z0-9])" + re.escape(p) + r"(?![a-z0-9])"
+        if re.search(pat, q):
+            units.append((p, SYNONYMS[p]))
+            q = re.sub(pat, " ", q)
+    units += [(t, SYNONYMS.get(t, [])) for t in tokenize(q)]
+    return units
+
+
 def norm_model(s):
     return re.sub(r"[\s_]", "", s or "").upper()
 
