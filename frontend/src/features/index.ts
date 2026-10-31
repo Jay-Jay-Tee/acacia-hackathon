@@ -1,5 +1,7 @@
+import type { ComponentType } from "react";
 import type { Citation } from "../api/types";
 import type { SidePanelApi } from "../components/SidePanel";
+import { CopyNoteButton, type CopyNoteProps } from "./CopyNoteButton";
 import { openFleetCheck } from "./openFleet";
 import { openSource } from "./openSource";
 import { openRevisionTimeline } from "./openTimeline";
@@ -15,10 +17,13 @@ export interface FeatureHooks {
   openFleetCheck?: (panel: SidePanelApi) => void;
   /** Open a docket's revision timeline (pass any ad_id in the docket). P1 wires this to a document card's revision badge. */
   openRevisionTimeline?: (adId: number, panel: SidePanelApi) => void;
+  /** "Copy as compliance note" button. P1 renders `<features.CopyNote query model serial response />` under an answer. */
+  CopyNote?: ComponentType<CopyNoteProps>;
 }
 
 export const features: FeatureHooks = {
   onCitationClick: openSource,
   openFleetCheck,
   openRevisionTimeline,
+  CopyNote: CopyNoteButton,
 };
