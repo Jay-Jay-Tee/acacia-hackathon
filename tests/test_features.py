@@ -10,19 +10,13 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 import app  # noqa: E402
+from features import locate, render_note, NoteRequest  # noqa: E402
 
 
 @pytest.fixture()
 def client(monkeypatch):
     monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)  # extractive mode: deterministic, no API cost
     return TestClient(app.app)
-
-
-def locate(text, cited):
-    """Same rule as frontend/src/features/highlight.ts: words with flexible whitespace, trailing ellipsis ignored."""
-    words = re.sub(r"(\.{3}|…)\s*$", "", cited).split()
-    m = re.search(r"\s+".join(re.escape(w) for w in words), text) if words else None
-    return m.span() if m else None
 
 
 def test_text_endpoint_shape(client):
@@ -152,3 +146,100 @@ def test_supersession_links_to_corpus_document_when_number_matches():
 
 def test_timeline_unknown_ad_is_404(client):
     assert client.get("/ad/999999/timeline").status_code == 404
+
+
+# ---------- POST /note ----------
+
+def note_body(client, query, model=None, serial=None):
+    r = client.post("/ask", json={"query": query, "model": model, "serial": serial}).json()
+    blocks = [{"text": b["text"], "citations": [{k: c[k] for k in ("ad_id", "chunk_id", "cited_text")}
+                                                 for c in b["citations"]]} for b in r["answer_blocks"]]
+    return {"query": query, "model": model, "serial": serial, "status": r["status"], "mode": r["mode"],
+            "refusal_reason": r["refusal_reason"], "answer_blocks": blocks}
+
+
+def md(client, body):
+    r = client.post("/note", json=body)
+    assert r.status_code == 200
+    return r.json()["markdown"]
+
+
+def test_note_has_required_parts(client):
+    body = note_body(client, "fuel starvation engine shutdown", "P.68", "100")
+    note = md(client, body)
+    first = body["answer_blocks"][0]["citations"][0]
+    ad = app.engine.all_ads()[first["ad_id"]]
+    assert note.count("For review by certifying staff: decision support only.") == 2   # top and bottom
+    assert "fuel starvation engine shutdown" in note and "model P.68, serial 100" in note
+    assert re.search(r"\*\*Generated:\*\* \d{4}-\d\d-\d\d \d\d:\d\d:\d\d UTC", note)
+    for part in (ad["docket"], ad["record_id"], ad["url"], "Federal Register page", "Revision: published", "Quote:"):
+        assert part in note
+    assert "APPLIES" in note and "S/N 100 is covered." in note
+
+
+def test_note_applicability_follows_the_serial(client):
+    body = note_body(client, "fuel starvation engine shutdown", "P.68", "100")
+    body["serial"] = "200"   # verdict is recomputed from the model and serial, not taken from the client
+    note = md(client, body)
+    assert "DOES NOT APPLY" in note and "S/N 200 is outside the rule." in note
+
+
+def test_note_without_model_does_not_claim_applicability(client):
+    note = md(client, note_body(client, "fuel starvation engine shutdown"))
+    assert "applicability was not assessed" in note and "### " not in note
+
+
+def test_every_eval_citation_passes_the_source_check(client):
+    checked = 0
+    for line in (ROOT / "questions.jsonl").read_text().splitlines():
+        q = json.loads(line)
+        body = note_body(client, q["query"], q.get("model"), q.get("serial"))
+        if not body["answer_blocks"]:
+            continue
+        note = md(client, body)
+        assert "NOT found" not in note and "passage not found" not in note
+        checked += note.count("Source check: ✓")
+    assert checked >= 20
+
+
+def test_note_flags_a_tampered_quote_and_unknown_passage(client):
+    body = note_body(client, "fuel starvation engine shutdown", "P.68", "100")
+    cit = body["answer_blocks"][0]["citations"]
+    cit[0]["cited_text"] = "The FAA says this aircraft never needs inspection."
+    assert "NOT found in the indexed passage" in md(client, body)
+    cit[0]["chunk_id"] = 10**9
+    assert "passage not found in the indexed document" in md(client, body)
+
+
+def test_note_flags_outdated_and_withdrawn_revisions(client):
+    ads = app.engine.all_ads()
+    old = next(i for i, a in ads.items() if not app.engine.ad_card(i)["revision"]["is_latest"]
+               and not app.engine.docket_withdrawn(a))
+    chunk = app.features._chunks(old)[0]
+    body = {"query": "q", "status": "answered", "answer_blocks": [
+        {"text": "t", "citations": [{"ad_id": old, "chunk_id": chunk[0], "cited_text": chunk[3][:80]}]}]}
+    assert "OUTDATED: superseded by" in md(client, body)
+    wd = next(i for i, a in ads.items() if a["record_id"] == "NPRM-278")   # docket whose latest notice is a withdrawal
+    chunk = app.features._chunks(wd)[0]
+    body["answer_blocks"][0]["citations"][0].update(ad_id=wd, chunk_id=chunk[0], cited_text=chunk[3][:80])
+    assert "docket withdrawn: no action required" in md(client, body)
+
+
+def test_note_for_a_refusal_says_so(client):
+    note = md(client, note_body(client, "who won the world cup"))
+    assert "No answer was produced." in note and "Outcome:** refused" in note and "## Citations" not in note
+
+
+def test_note_rejects_unknown_documents_and_neutralises_markdown(client):
+    bad = {"query": "q", "status": "answered", "answer_blocks": [
+        {"text": "t", "citations": [{"ad_id": 10**6, "chunk_id": 1, "cited_text": "x"}]}]}
+    assert client.post("/note", json=bad).status_code == 422
+    note = md(client, {"query": "hi\n# Fake heading\n- [x] done", "status": "refused", "answer_blocks": []})
+    assert not any(ln.startswith("# Fake") for ln in note.splitlines())
+    assert "hi # Fake heading - [x] done" in note
+
+
+def test_render_note_uses_the_given_timestamp():
+    from datetime import datetime, timezone
+    req = NoteRequest(query="q", status="refused")
+    assert "2026-10-31 12:00:00 UTC" in render_note(req, datetime(2026, 10, 31, 12, 0, 0, tzinfo=timezone.utc))
