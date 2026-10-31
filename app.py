@@ -8,9 +8,11 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 import engine
+import features
 import llm
 
 app = FastAPI(title="AD Finder")
+app.include_router(features.router)
 
 
 
