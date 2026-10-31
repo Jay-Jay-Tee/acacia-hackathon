@@ -21,7 +21,7 @@ async def lifespan(_app):
     yield
 
 
-app = FastAPI(title="AD Finder", lifespan=lifespan)
+app = FastAPI(title="Applicable", lifespan=lifespan)
 app.include_router(features.router)
 app.include_router(uploads.router)
 
