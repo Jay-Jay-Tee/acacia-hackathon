@@ -114,19 +114,29 @@ function Chat() {
     if (url) window.open(url, "_blank", "noopener,noreferrer");
   }
 
+  // The side panel lives above the chat, so leaving a chat must close it explicitly; otherwise a citation
+  // from the previous chat stays open over the new one. (Not on the first question of a new chat, which
+  // also creates a chat id: that shouldn't close a fleet check the user has open.)
   function newChat() {
+    panel.close();
     history.newChat();
     setDrawer(false);
     input.current?.focus();
   }
 
   function openChat(id: string) {
+    if (id !== history.activeId) panel.close();
     history.open(id);
     setDrawer(false);
   }
 
+  function deleteChat(id: string) {
+    if (id === history.activeId) panel.close();
+    history.remove(id);
+  }
+
   const historyList = (
-    <ChatHistory chats={history.chats} activeId={history.activeId} onOpen={openChat} onNew={newChat} onDelete={history.remove} />
+    <ChatHistory chats={history.chats} activeId={history.activeId} onOpen={openChat} onNew={newChat} onDelete={deleteChat} />
   );
 
   return (
