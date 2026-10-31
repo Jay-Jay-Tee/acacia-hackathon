@@ -2,11 +2,13 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { ask, getCorpus } from "./api/client";
 import { mocks } from "./api/mocks";
 import type { Citation, CorpusStats } from "./api/types";
+import { ChatHistory } from "./components/ChatHistory";
 import { Composer } from "./components/Composer";
 import { EmptyState, type Example } from "./components/EmptyState";
 import { SidePanel, SidePanelProvider, useSidePanel } from "./components/SidePanel";
 import { Thread, type Turn } from "./components/Thread";
 import { features } from "./features";
+import { maxTurnId, useChatHistory } from "./lib/history";
 import { useProfile, type Profile } from "./lib/profile";
 import { safeUrl } from "./lib/safeUrl";
 import { useTheme, type Theme } from "./lib/theme";
@@ -21,14 +23,17 @@ export default function App() {
 }
 
 function Chat() {
-  const [turns, setTurns] = useState<Turn[]>([]);
+  const history = useChatHistory();
+  const turns = history.active?.turns ?? [];
   const [profile, setProfile] = useProfile();
   const [corpus, setCorpus] = useState<CorpusStats | null>(null);
   const [theme, cycleTheme] = useTheme();
-  const nextId = useRef(1);
+  const [drawer, setDrawer] = useState(false);
+  const nextId = useRef(maxTurnId(history.chats) + 1);
   const input = useRef<HTMLTextAreaElement>(null);
   const panel = useSidePanel();
   const busy = turns.some((t) => t.state === "loading");
+  const { updateTurns, startChat } = history;
 
   useEffect(() => {
     const ctl = new AbortController();
@@ -36,27 +41,33 @@ function Chat() {
     return () => ctl.abort();
   }, []);
 
-  const run = useCallback(async (id: number, query: string, p: Profile) => {
-    const patch = (t: Partial<Turn>) => setTurns((ts) => ts.map((x) => (x.id === id ? { ...x, ...t } : x)));
-    try {
-      patch({ state: "done", response: await ask({ query, model: p.model, serial: p.serial }) });
-    } catch (err) {
-      patch({ state: "error", error: err instanceof Error ? err.message : String(err) });
-    }
-  }, []);
+  const run = useCallback(
+    async (chatId: string, id: number, query: string, p: Profile) => {
+      const patch = (t: Partial<Turn>) => updateTurns(chatId, (ts) => ts.map((x) => (x.id === id ? { ...x, ...t } : x)));
+      try {
+        patch({ state: "done", response: await ask({ query, model: p.model, serial: p.serial }) });
+      } catch (err) {
+        patch({ state: "error", error: err instanceof Error ? err.message : String(err) });
+      }
+    },
+    [updateTurns],
+  );
 
   const send = useCallback(
     (query: string, p: Profile = profile) => {
+      const chatId = history.activeId ?? startChat(query);
       const id = nextId.current++;
-      setTurns((ts) => [...ts, { id, query, profile: p, state: "loading" }]);
-      void run(id, query, p);
+      updateTurns(chatId, (ts) => [...ts, { id, query, profile: p, state: "loading" }]);
+      void run(chatId, id, query, p);
     },
-    [profile, run],
+    [profile, run, history.activeId, startChat, updateTurns],
   );
 
   function retry(t: Turn) {
-    setTurns((ts) => ts.map((x) => (x.id === t.id ? { ...x, state: "loading", error: undefined } : x)));
-    void run(t.id, t.query, t.profile);
+    const chatId = history.activeId;
+    if (!chatId) return;
+    updateTurns(chatId, (ts) => ts.map((x) => (x.id === t.id ? { ...x, state: "loading", error: undefined } : x)));
+    void run(chatId, t.id, t.query, t.profile);
   }
 
   function runExample(ex: Example) {
@@ -71,55 +82,113 @@ function Chat() {
   }
 
   function newChat() {
-    setTurns([]);
+    history.newChat();
+    setDrawer(false);
     input.current?.focus();
   }
 
+  function openChat(id: string) {
+    history.open(id);
+    setDrawer(false);
+  }
+
+  const historyList = (
+    <ChatHistory chats={history.chats} activeId={history.activeId} onOpen={openChat} onNew={newChat} onDelete={history.remove} />
+  );
+
   return (
-    <div className="flex h-dvh flex-col">
-      <header className="border-b border-stone-200 bg-stone-50/80 backdrop-blur dark:border-stone-800 dark:bg-stone-950/80">
-        <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3">
-          <div className="min-w-0">
-            <h1 className="flex items-center gap-2 text-[15px] font-semibold tracking-tight">
-              <span aria-hidden className="grid size-6 place-items-center rounded-md bg-stone-900 text-[11px] text-white dark:bg-stone-100 dark:text-stone-900">AD</span>
-              AD Finder
-            </h1>
-            {corpus && (
-              <p className="truncate text-xs text-stone-500 tabular-nums dark:text-stone-400">
-                {corpus.records} FAA notices · {corpus.federal_register_pages.toLocaleString()} pages · cited answers only
-              </p>
-            )}
-          </div>
-          <div className="flex shrink-0 items-center gap-1">
-            {turns.length > 0 && (
-              <button type="button" onClick={newChat} className={iconBtn}>
-                New chat
+    <div className="flex h-dvh">
+      {/* desktop sidebar */}
+      <aside className="hidden w-64 shrink-0 border-r border-stone-200 bg-stone-100/60 lg:block dark:border-stone-800 dark:bg-stone-900/40">
+        {historyList}
+      </aside>
+
+      {/* mobile drawer */}
+      {drawer && (
+        <div className="fixed inset-0 z-40 lg:hidden" role="dialog" aria-modal="true" aria-label="Saved chats">
+          <button type="button" aria-label="Close history" className="absolute inset-0 bg-black/40" onClick={() => setDrawer(false)} />
+          <div className="absolute inset-y-0 left-0 w-72 max-w-[85vw] bg-stone-50 shadow-xl dark:bg-stone-950">{historyList}</div>
+        </div>
+      )}
+
+      <div className="flex min-w-0 flex-1 flex-col">
+        <header className="border-b border-stone-200 bg-stone-50/80 backdrop-blur dark:border-stone-800 dark:bg-stone-950/80">
+          <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3">
+            <div className="flex min-w-0 items-center gap-3">
+              <button type="button" onClick={() => setDrawer(true)} className={`${iconBtn} lg:hidden`} aria-label="Open chat history">
+                <svg aria-hidden viewBox="0 0 24 24" className="size-4" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
+                  <path d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
               </button>
-            )}
-            <button type="button" onClick={cycleTheme} className={iconBtn} aria-label={`Theme: ${theme}. Click to change.`} title={`Theme: ${theme}`}>
-              <ThemeIcon theme={theme} />
-            </button>
+              <Mark />
+              <div className="min-w-0">
+                <h1 className="text-[15px] leading-tight font-semibold tracking-tight">AD Finder</h1>
+                <p className="truncate text-xs text-stone-500 dark:text-stone-400">
+                  Airworthiness-directive search for maintenance planners
+                </p>
+              </div>
+            </div>
+            <div className="flex shrink-0 items-center gap-1">
+              {features.openFleetCheck && (
+                <button type="button" onClick={() => features.openFleetCheck?.(panel)} className={`${iconBtn} font-medium`}>
+                  Fleet check
+                </button>
+              )}
+              {turns.length > 0 && (
+                <button type="button" onClick={newChat} className={`${iconBtn} hidden sm:inline-flex`}>
+                  New chat
+                </button>
+              )}
+              <button type="button" onClick={cycleTheme} className={iconBtn} aria-label={`Theme: ${theme}. Click to change.`} title={`Theme: ${theme}`}>
+                <ThemeIcon theme={theme} />
+              </button>
+            </div>
           </div>
-        </div>
-        {import.meta.env.DEV && <MockPicker />}
-      </header>
-
-      <main className="min-h-0 flex-1 overflow-y-auto">
-        <div className="mx-auto max-w-3xl px-4">
-          {turns.length === 0 ? (
-            <EmptyState corpus={corpus} onExample={runExample} />
-          ) : (
-            <Thread turns={turns} onCitationClick={openCitation} onRetry={retry} />
+          {corpus && (
+            <div className="mx-auto max-w-3xl px-4 pb-2.5">
+              <p className="flex flex-wrap gap-x-3 gap-y-1 text-[11px] text-stone-500 tabular-nums dark:text-stone-300/70">
+                <span>
+                  <b className="font-semibold text-stone-700 dark:text-stone-200">{corpus.records}</b> FAA notices
+                </span>
+                <span>
+                  <b className="font-semibold text-stone-700 dark:text-stone-200">{corpus.federal_register_pages.toLocaleString()}</b> pages
+                </span>
+                <span className="text-emerald-700 dark:text-emerald-400">every sentence cited</span>
+                <span className="text-amber-700 dark:text-amber-400">refuses when unsure</span>
+              </p>
+            </div>
           )}
-        </div>
-      </main>
+          {import.meta.env.DEV && <MockPicker />}
+        </header>
 
-      <footer className="bg-linear-to-t from-stone-50 from-60% to-transparent pt-2 dark:from-stone-950">
-        <div className="mx-auto max-w-3xl px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
-          <Composer profile={profile} onProfileChange={setProfile} onSend={(q) => send(q)} busy={busy} inputRef={input} />
-        </div>
-      </footer>
+        <main className="min-h-0 flex-1 overflow-y-auto">
+          <div className="mx-auto max-w-3xl px-4">
+            {turns.length === 0 ? (
+              <EmptyState corpus={corpus} onExample={runExample} />
+            ) : (
+              <Thread turns={turns} onCitationClick={openCitation} onRetry={retry} />
+            )}
+          </div>
+        </main>
+
+        <footer className="bg-linear-to-t from-stone-50 from-60% to-transparent pt-2 dark:from-stone-950">
+          <div className="mx-auto max-w-3xl px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+            <Composer profile={profile} onProfileChange={setProfile} onSend={(q) => send(q)} busy={busy} inputRef={input} />
+          </div>
+        </footer>
+      </div>
     </div>
+  );
+}
+
+/** Brand mark: an aircraft over a document fold. */
+function Mark() {
+  return (
+    <span aria-hidden className="grid size-8 shrink-0 place-items-center rounded-lg bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900">
+      <svg viewBox="0 0 24 24" className="size-4.5" fill="currentColor">
+        <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z" />
+      </svg>
+    </span>
   );
 }
 
@@ -162,4 +231,4 @@ function ThemeIcon({ theme }: { theme: Theme }) {
 }
 
 const iconBtn =
-  "rounded-md px-2 py-1.5 text-xs text-stone-600 hover:bg-stone-200/60 dark:text-stone-300 dark:hover:bg-stone-800";
+  "inline-flex items-center rounded-md px-2 py-1.5 text-xs text-stone-600 hover:bg-stone-200/60 dark:text-stone-300 dark:hover:bg-stone-800";
