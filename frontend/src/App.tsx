@@ -12,6 +12,7 @@ import { features } from "./features";
 import { FilterBar, activeCount, useFilters } from "./features/FilterBar";
 import { maxTurnId, useChatHistory } from "./lib/history";
 import { useProfile, type Profile } from "./lib/profile";
+import { RIGHT_COLUMN_SURFACE, RIGHT_COLUMN_WIDTH } from "./lib/layout";
 import { safeUrl } from "./lib/safeUrl";
 import { useTheme, type Theme } from "./lib/theme";
 import { useMediaQuery } from "./lib/useMediaQuery";
@@ -219,7 +220,7 @@ function Chat() {
 
       {/* desktop documents rail */}
       {railShown && turns.length > 0 && (
-        <div className="w-[22rem] shrink-0 border-l border-stone-200 bg-stone-100/40 dark:border-stone-800 dark:bg-stone-900/30">
+        <div className={`${RIGHT_COLUMN_WIDTH} ${RIGHT_COLUMN_SURFACE} shrink-0 border-l border-stone-200 dark:border-stone-800`}>
           <DocumentsRail turn={railTurn} onOpenTimeline={openTimeline} />
         </div>
       )}
