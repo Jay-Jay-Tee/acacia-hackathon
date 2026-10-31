@@ -153,6 +153,7 @@ function Actions({ query, profile, response }: { query: string; profile: Profile
         type="button"
         onClick={copy}
         aria-label="Copy answer with its sources"
+        title="Plain text of this answer and its sources, for pasting into chat or email"
         className="inline-flex items-center gap-1.5 rounded-md border border-stone-300 px-2.5 py-1 text-xs hover:bg-stone-100 dark:border-stone-600 dark:hover:bg-stone-800"
       >
         <svg aria-hidden viewBox="0 0 24 24" className="size-3.5" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">

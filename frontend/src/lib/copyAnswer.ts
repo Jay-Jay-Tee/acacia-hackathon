@@ -18,7 +18,7 @@ const VERDICT: Record<string, string> = {
 
 /**
  * Plain-text copy of one answer, with the same [n] numbers as the chips on screen.
- * (The full audit document is P4's "Copy as compliance note"; this is the quick paste.)
+ * (The full audit document is P4's "Save compliance note"; this is the quick paste.)
  */
 export function answerAsText(query: string, profile: Profile, r: AskResponse): string {
   const { numberOf, sources } = numberCitations(r);

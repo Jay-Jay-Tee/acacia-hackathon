@@ -2,7 +2,7 @@ import { useState } from "react";
 import type { AskResponse } from "../api/types";
 import { buildNoteRequest, fetchNote } from "./noteApi";
 
-// "Copy as compliance note": Markdown with the question, answer, every citation, the applicability trace,
+// "Save compliance note": Markdown with the question, answer, every citation, the applicability trace,
 // a timestamp and the certifying-staff line. P1 renders it under an answer via `features.CopyNote`.
 
 export interface CopyNoteProps {
@@ -19,27 +19,19 @@ export function CopyNoteButton({ query, model, serial, response }: CopyNoteProps
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState("");
 
-  async function run(action: "copy" | "download") {
+  // One action: the note is a record to file, so it is saved, not copied (Copy answer covers quick pastes).
+  async function save() {
     setBusy(true);
     setMessage("");
     try {
       const note = await fetchNote(buildNoteRequest(query, model, serial, response));
-      if (action === "download") {
-        const url = URL.createObjectURL(new Blob([note.markdown], { type: "text/markdown" }));
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = note.filename;
-        a.click();
-        URL.revokeObjectURL(url);
-        setMessage(`Downloaded ${note.filename}`);
-      } else {
-        try {
-          await navigator.clipboard.writeText(note.markdown);
-          setMessage("Copied the compliance note to the clipboard.");
-        } catch {
-          setMessage("Could not copy automatically (clipboard blocked). Use Download .md instead.");
-        }
-      }
+      const url = URL.createObjectURL(new Blob([note.markdown], { type: "text/markdown" }));
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = note.filename;
+      a.click();
+      URL.revokeObjectURL(url);
+      setMessage(`Saved ${note.filename}`);
     } catch (e) {
       setMessage(e instanceof Error ? e.message : "Could not build the compliance note.");
     } finally {
@@ -48,16 +40,23 @@ export function CopyNoteButton({ query, model, serial, response }: CopyNoteProps
   }
 
   return (
-    <div className="flex flex-wrap items-center gap-2">
-      <button type="button" className={btn} disabled={busy} onClick={() => run("copy")}>
-        Copy as compliance note
-      </button>
-      <button type="button" className={btn} disabled={busy} onClick={() => run("download")}>
-        Download .md
+    <>
+      <button
+        type="button"
+        className={`${btn} inline-flex items-center gap-1.5`}
+        disabled={busy}
+        onClick={save}
+        title="Timestamped record for the maintenance file: every quote re-checked against the source, the applicability trace, and a certifying-staff line. Saved as a .md file."
+      >
+        <svg aria-hidden viewBox="0 0 24 24" className="size-3.5" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+          <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
+          <path d="M14 3v5h5M9 14l2 2 4-4" />
+        </svg>
+        {busy ? "Building note…" : "Save compliance note"}
       </button>
       <span role="status" aria-live="polite" className="text-xs text-stone-500">
-        {busy ? "Building note…" : message}
+        {message}
       </span>
-    </div>
+    </>
   );
 }
