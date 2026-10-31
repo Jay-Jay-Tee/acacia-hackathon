@@ -1,0 +1,167 @@
+
+[Federal Register Volume 71, Number 69 (Tuesday, April 11, 2006)]
+[Proposed Rules]
+[Pages 18253-18254]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E6-5253]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2005-23249; Directorate Identifier 2005-NM-219-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Gulfstream Model GV-SP Series Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for certain Gulfstream 
+Model GV-SP series airplanes. The proposed AD would have required an 
+inspection to determine the serial number of the anti-skid control unit 
+(ACU) in the right electronics equipment rack, and replacement of the 
+ACU with a new or serviceable ACU if necessary. Since the proposed AD 
+was issued, we have received new data that indicate the identified 
+unsafe condition has been corrected on all airplanes that would have 
+been affected by the NPRM, and on all ACUs in the affected range of 
+serial numbers. Accordingly, the proposed AD is withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the U.S. 
+Department of Transportation, 400 Seventh Street, SW., Room PL-401, 
+Washington, DC. This docket number is FAA-2005-23249; the directorate 
+identifier for this docket is 2005-NM-219-AD.
+
+FOR FURTHER INFORMATION CONTACT: Darby Mirocha, Aerospace Engineer, 
+Systems and Equipment Branch, ACE-119A, FAA, Atlanta Aircraft 
+Certification Office, One Crown Center, 1895 Phoenix Boulevard, suite 
+450, Atlanta, Georgia 30349; telephone (770) 703-6095; fax (770) 703-
+6097.
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for certain Gulfstream Model GV-SP series airplanes. That NPRM was 
+published in
+
+[[Page 18254]]
+
+the Federal Register on December 9, 2005 (70 FR 73173). The NPRM would 
+have required an inspection to determine the serial number of the anti-
+skid control unit (ACU) in the right electronics equipment rack, and 
+replacement of the ACU with a new or serviceable ACU if necessary. The 
+NPRM resulted from a report that an airplane temporarily lost normal 
+braking function during landing rollout on a pre-delivery flight. The 
+proposed actions were intended to prevent loss of normal braking 
+function, which could result in a runway overrun that could cause 
+injury to flightcrew or passengers or damage to the airplane.
+
+Actions Since NPRM Was Issued
+
+    Since we issued the NPRM, Gulfstream Aerospace has provided data 
+that indicate the identified unsafe condition has been corrected on all 
+airplanes that would have been affected by the NPRM, and on all ACUs in 
+the affected range of serial numbers (S/Ns). Gulfstream Aerospace 
+therefore requests that we withdraw the NPRM. We agree with the 
+commenter.
+
+Request To Incorporate by Reference (IBR) the Service Information
+
+    The Modification and Replacement Parts Association (MARPA) requests 
+that we either publish the relevant service information with the AD, or 
+IBR it with the NPRM. If we IBR rather than publish the relevant 
+service information, then MARPA further requests that we identify the 
+S/Ns of the defective ACUs in the AD. As justification, MARPA states 
+that parts purveyors and maintenance facilities cannot identify the 
+defective parts unless we specify them in the AD because they do not 
+possess the proprietary service information referenced in the NPRM. For 
+the same reason, MARPA states that those in the alternative parts 
+industry (operating under 14 CFR 21.303) also cannot identify any parts 
+manufacturer approval (PMA) parts equivalent to the defective ACUs. 
+MARPA asserts that there are many ACUs in its PMA database that also 
+may be affected by unsafe condition identified in the NPRM.
+    MARPA also comments on our practice of IBR and referencing 
+propriety service information. MARPA asserts that if we IBR proprietary 
+service information with a public document, such as an AD, then that 
+service information loses its protected status and becomes a public 
+document. Also, MARPA claims that IBR requires we provide a copy of the 
+relevant service information to the Director of the Federal Register 
+before the NPRM can be published. MARPA further states that: ``Merely 
+referencing a service document without incorporation thus becomes an 
+``end run'' around the publication requirement while still requiring 
+possession of a proprietary document in order to comply with the law.'' 
+MARPA believes our practice of IBR is flawed legally where it is 
+impossible to comply with the requirements of an AD without first 
+obtaining the necessary propriety service information.
+    Although we acknowledge MARPA's comments, we do not agree with its 
+request, since the identified unsafe condition has been corrected on 
+all airplanes that would have been affected by the NPRM and on all ACUs 
+in the affected range of S/Ns. Those affected parts are ACUs having 
+part number 1159SCL501-1 and S/Ns 355 through 400 inclusive. The unsafe 
+condition identified in the NPRM was caused by the installation of 
+incorrect capacitors in the affected ACUs only. Since that NPRM 
+addresses a quality control issue limited to a range of S/Ns, we find 
+that the MARPA's statements regarding PMA equivalent parts are not 
+relevant to that particular NPRM.
+    We have one correction regarding MARPA's comments on our practice 
+of IBR and referencing propriety service information; we are required 
+to provide a copy of any relevant service information to the Director 
+of the Federal Register for publication of a final rule, not an NPRM. 
+We are currently reviewing our practice of referencing proprietary 
+service information. Once we have thoroughly examined all aspects of 
+this issue, and have made a final determination, we will consider 
+whether our current practice needs to be revised.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the actions 
+that would have been required by the NPRM have already been 
+accomplished on all affected airplanes, and that the identified unsafe 
+condition has been corrected on all affected ACUs. Accordingly, the 
+NPRM is withdrawn.
+    Withdrawal of the NPRM does not preclude the FAA from issuing 
+another related action or commit the FAA to any course of action in the 
+future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule and therefore is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2005-23249, 
+Directorate Identifier 2005-NM-219-AD, which was published in the 
+Federal Register on December 9, 2005 (70 FR 73173).
+
+    Issued in Renton, Washington, on March 31, 2006.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. E6-5253 Filed 4-10-06; 8:45 am]
+BILLING CODE 4910-13-P
+
+

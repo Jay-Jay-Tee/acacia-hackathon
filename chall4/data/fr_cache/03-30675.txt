@@ -1,0 +1,308 @@
+
+[Federal Register Volume 68, Number 238 (Thursday, December 11, 2003)]
+[Proposed Rules]
+[Pages 69053-69055]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 03-30675]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2003-16646]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 757-200 Series Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes the adoption of a new airworthiness 
+directive (AD) that is applicable to certain Boeing Model 757-200 
+series airplanes. This proposal would require repetitive inspections of 
+the intercostals that back up the door stops and hinges at door 2 left 
+and door 2 right for cracks, and corrective action, if necessary. This 
+proposal also would provide for an optional terminating action for the 
+repetitive inspections. This action is necessary to prevent fatigue 
+cracks from propagating in the intercostals, which could lead to the 
+loss of a door in flight and subsequent rapid decompression. This 
+action is intended to address the identified unsafe condition.
+
+DATES: Comments must be received by January 26, 2004.
+
+ADDRESSES: Submit comments in triplicate to the Federal Aviation 
+Administration (FAA), Transport Airplane Directorate, ANM-114, 
+Attention: Rules Docket No. FAA-2003-16646, 1601 Lind Avenue, SW., 
+Renton, Washington 98055-4056. Comments may be inspected at this 
+location between 9 a.m. and 3 p.m., Monday through Friday, except 
+Federal holidays. Comments may be submitted via fax to (425) 227-1232. 
+Comments may also be sent via the Internet using the following address: 
+[email protected]. Comments sent via fax or the Internet must 
+contain ``Docket No. FAA-2003-16646'' in the subject line and need not 
+be submitted in triplicate. Comments sent via the Internet as attached 
+electronic files must be formatted in Microsoft Word 97 or 2000 or 
+ASCII text.
+    The service information referenced in the proposed rule may be 
+obtained from Boeing Commercial Airplane Group, P.O. Box 3707, Seattle, 
+Washington 98124-2207. This information may be examined at the FAA, 
+Transport Airplane Directorate, 1601 Lind Avenue, SW., Renton, 
+Washington.
+
+FOR FURTHER INFORMATION CONTACT: Mark Freisthler, Aerospace Engineer, 
+Airframe Branch, ANM-120S, FAA, Seattle Aircraft Certification Office, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+917-6426, fax (425) 917-6590.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    Interested persons are invited to participate in the making of the 
+proposed rule by submitting such written data, views, or arguments as 
+they may desire. Communications shall identify the Rules Docket number 
+and be submitted in triplicate to the address specified above. All 
+communications received on or before the closing date for comments, 
+specified above, will be considered before taking action on the 
+proposed rule. The proposals contained in this action may be changed in 
+light of the comments received.
+    Submit comments using the following format:
+    [sbull] Organize comments issue-by-issue. For example, discuss a 
+request to change the compliance time and a request to change the 
+service bulletin reference as two separate issues.
+    [sbull] For each issue, state what specific change to the proposed 
+AD is being requested.
+    [sbull] Include justification (e.g., reasons or data) for each 
+request.
+    Comments are specifically invited on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed rule. All 
+comments submitted will be available, both before and after the closing 
+date for comments, in the Rules Docket for examination by interested 
+persons. A report summarizing each FAA-public contact concerned with 
+the substance of this proposal will be filed in the Rules Docket.
+    Commenters wishing the FAA to acknowledge receipt of their comments 
+submitted in response to this action must submit a self-addressed, 
+stamped postcard on which the following statement is made: ``Comments 
+to Docket Number FAA-2003-16646.'' The postcard will be date stamped 
+and returned to the commenter.
+
+Availability of NPRMs
+
+    Any person may obtain a copy of this NPRM by submitting a request 
+to the FAA, Transport Airplane Directorate, ANM-114, Attention: Rules 
+Docket No. FAA-2003-16646, 1601 Lind Avenue, SW., Renton, Washington 
+98055-4056.
+
+Discussion
+
+    The FAA has received reports of cracking in the intercostals that 
+provide structural support for the door stops and hinges at door 2 left 
+and door 2 right for Boeing Model 757-200 series airplanes. The cause 
+of the cracks is fatigue caused by the cyclic pressurization of the 
+cabin. If left undetected, the fatigue cracks will continue to 
+propagate. This condition, if not corrected, could result in the loss 
+of a door in flight and subsequent rapid decompression.
+
+Explanation of Relevant Service Information
+
+    The FAA has reviewed and approved Boeing Special Attention Service 
+Bulletin 757-53-0086, dated March 14, 2002. The service bulletin 
+describes the following procedures:
+    [sbull] Performing an initial detailed inspection for cracks in the 
+intercostals that back up the door stops and hinges at door 2 left and 
+door 2 right;
+    [sbull] For cases of no crack findings, performing repetitive dye 
+penetrant or eddy current inspections for cracks in the intercostals 
+that back up the door stops and hinges at door 2 left and door 2 right;
+
+[[Page 69054]]
+
+    [sbull] For cases of crack findings or for an optional terminating 
+action, installing a preventative modification of the intercostal (i.e. 
+cut off the integral clips at the bend relief on the forward end of the 
+intercostals and install new, separate clips to attach the intercostals 
+to the frame at station 660); and/or replacing the intercostal with a 
+new improved intercostal. Accomplishment of the preventative 
+modification or replacement would eliminate the need for the repetitive 
+inspections.
+    Accomplishment of the actions specified in the service bulletin is 
+intended to adequately address the identified unsafe condition.
+
+Explanation of Requirements of Proposed Rule
+
+    Since an unsafe condition has been identified that is likely to 
+exist or develop on other products of this same type design, the 
+proposed AD would require accomplishment of the actions specified in 
+the service bulletin described previously.
+    The FAA is not proposing to mandate the preventative modification 
+of each intercostal or the replacement of each intercostal for several 
+reasons:
+    1. Accessing the intercostals for inspection at the intervals is 
+easily accomplished.
+    2. The cracks at the intercostals are easily detected by means of a 
+detailed inspection.
+    3. The cracking of the intercostals could result in compromised 
+structural integrity of the door stops; however, the detailed 
+inspections will preclude the potential occurrence of continued 
+cracking.
+
+Cost Impact
+
+    There are approximately 95 airplanes of the affected design in the 
+worldwide fleet. The FAA estimates that 55 airplanes of U.S. registry 
+would be affected by this proposed AD.
+    We estimate that it would take approximately 8 work hours per 
+airplane to accomplish the proposed inspection, and that the average 
+labor rate is $65 per work hour. Based on these figures, the cost 
+impact of the inspection on U.S. operators is estimated to be $28,600, 
+or $520 per airplane, per inspection cycle.
+    The cost impact figure discussed above is based on assumptions that 
+no operator has yet accomplished any of the proposed requirements of 
+this AD action, and that no operator would accomplish those actions in 
+the future if this proposed AD were not adopted. The cost impact 
+figures discussed in AD rulemaking actions represent only the time 
+necessary to perform the specific actions actually required by the AD. 
+These figures typically do not include incidental costs, such as the 
+time required to gain access and close up, planning time, or time 
+necessitated by other administrative actions.
+    The optional preventative modification terminating action, if done, 
+would take approximately 50 work hours per airplane at an average labor 
+rate of $65 per work hour. Based on these figures, we estimate the cost 
+of this optional terminating action to be $3,250 per airplane.
+    Parts for the optional replacement terminating action would cost 
+approximately $692 for each Top Kit--Door Stop 1 Intercostal (L/H or R/
+H) and $4,581 for each Top Kit--Intercostal Replacement (L/H or R/H).
+
+Regulatory Impact
+
+    The regulations proposed herein would not have a substantial direct 
+effect on the States, on the relationship between the national 
+Government and the States, or on the distribution of power and 
+responsibilities among the various levels of government. Therefore, it 
+is determined that this proposal would not have federalism implications 
+under Executive Order 13132.
+    For the reasons discussed above, I certify that this proposed 
+regulation (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under the DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979); 
+and (3) if promulgated, will not have a significant economic impact, 
+positive or negative, on a substantial number of small entities under 
+the criteria of the Regulatory Flexibility Act. A copy of the draft 
+regulatory evaluation prepared for this action is contained in the 
+Rules Docket. A copy of it may be obtained by contacting the Rules 
+Docket at the location provided under the caption ADDRESSES.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by adding the following new 
+airworthiness directive:
+
+Boeing: Docket FAA-2003-16646.
+
+    Applicability: Model 757-200 series airplanes, line numbers 1 
+through 95 inclusive; certificated in any category.
+    Compliance: Required as indicated, unless accomplished 
+previously.
+    To prevent fatigue cracks from propagating in the intercostals, 
+which could lead to the loss of a door in flight and subsequent 
+rapid decompression, accomplish the following:
+
+Service Bulletin References
+
+    (a) The term ``service bulletin,'' as used in this AD, means the 
+Accomplishment Instructions of Boeing Special Attention Service 
+Bulletin 757-53-0086, dated March 14, 2002.
+
+Initial Inspection
+
+    (b) Prior to the accumulation of 12,000 total flight cycles, or 
+within 3,000 flight cycles after the effective date of this AD, 
+whichever occurs later: Perform a detailed inspection for cracks of 
+the intercostals that back up the door stops and hinges at door 2 
+left and door 2 right, per Part I of the service bulletin.
+
+No Crack Findings: Repetitive Inspections
+
+    (c) If no crack is found during the inspection required by 
+paragraph (b) of this AD, before further flight, do a dye penetrant 
+or eddy current inspection for cracks of the intercostals that back 
+up the door stops and hinges at door 2 left and door 2 right, per 
+Part I of the service bulletin. Repeat thereafter at intervals not 
+to exceed 3,000 flight cycles, until the preventative modification 
+specified in paragraph (g) of this AD or the replacement specified 
+in paragraph (h) of this AD has been accomplished.
+
+Crack Findings: Modification/Replacement
+
+    (d) If, during the inspections required by paragraph (b) and/or 
+(c) of this AD, any intercostal for door stop 1, 4, 5, 6, upper 
+hinge, or lower hinge has cracks, but not beyond the aft edge of the 
+bend relief radius: Before further flight, do the preventative 
+modification specified in paragraph (g) of this AD or the 
+replacement specified in paragraph (h) of this AD.
+    (e) If, during the inspections required by paragraph (b) and/or 
+(c) of this AD, any intercostal for door stop 2 or 3 has cracks: 
+Before further flight, do the replacement specified in paragraph (h) 
+of this AD.
+    (f) If, during the inspections required by paragraph (b) and/or 
+(c) of this AD, any intercostal has cracks that extend beyond the 
+aft edge of the bend relief radius: Before further flight, do the 
+replacement specified in paragraph (h) of this AD.
+
+Terminating Actions
+
+    (g) Do the preventative modification on the intercostal per Part 
+II of the service bulletin. Accomplishment of the preventative 
+modification on an intercostal per Part II of the service bulletin 
+constitutes terminating action for the repetitive inspection
+
+[[Page 69055]]
+
+requirements of this AD for the modified intercostal only.
+    (h) Replace the intercostal with a new improved intercostal per 
+Part III of the service bulletin. Accomplishment of the replacement 
+of an intercostal with a new improved intercostal per Part III of 
+the service bulletin constitutes terminating action for the 
+repetitive inspection requirements of this AD for the replaced 
+intercostal only.
+
+Alternative Methods of Compliance
+
+    (i) In accordance with 14 CFR 39.19, the Manager, Seattle 
+Aircraft Certification Office, FAA, is authorized to approve 
+alternative methods of compliance for this AD.
+
+    Issued in Renton, Washington, on December 4, 2003.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 03-30675 Filed 12-10-03; 8:45 am]
+BILLING CODE 4910-13-P
+
+

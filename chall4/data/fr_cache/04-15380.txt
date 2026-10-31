@@ -1,0 +1,107 @@
+
+[Federal Register Volume 69, Number 129 (Wednesday, July 7, 2004)]
+[Proposed Rules]
+[Pages 40823-40824]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 04-15380]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2001-NM-364-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Dassault Model Falcon 2000 Series 
+Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to certain 
+Dassault Model Falcon 2000 series airplanes. That action would have 
+required performing an inspection to determine the serial number on the 
+identification plate on each of the three hydraulic shut-off valve 
+(HSOV) actuators on the left-hand and right-hand hydraulic reservoirs, 
+and replacing an HSOV actuator with a new HSOV actuator, if necessary. 
+Since the issuance of the NPRM, the Federal Aviation Administration 
+(FAA) has received new data indicating that the identified unsafe 
+condition specified in the NPRM does not exist on the affected
+
+[[Page 40824]]
+
+airplanes. Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Tom Groves, Aerospace Engineer, 
+International Branch, ANM-116, FAA, Transport Airplane Directorate, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+227-1503; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to certain Dassault Model Falcon 2000 series 
+airplanes, was published in the Federal Register as a Notice of 
+Proposed Rulemaking (NPRM) on August 23, 2002 (67 FR 54596). The 
+proposed rule would have required performing an inspection to determine 
+the serial number on the identification plate on each of the three 
+hydraulic shut-off valve (HSOV) actuators on the left-hand and right-
+hand hydraulic reservoirs, and replacing an HSOV actuator with a new 
+HSOV actuator, if necessary. The proposed actions were intended to 
+ensure that proper HSOV actuators are installed on the hydraulic fluid 
+reservoirs. In the event of an engine fire, a faulty HSOV, if not 
+corrected, could allow the flow of flammable fluid to the engine 
+nacelle, which could result in an engine nacelle fire that could not be 
+readily extinguished.
+
+Actions That Occurred Since the NPRM Was Issued
+
+    Since the issuance of that NPRM, the manufacturer has provided the 
+FAA with confirmation that the faulty HSOV actuators on all affected 
+Model Falcon 2000 series airplanes have been replaced with new 
+actuators, and that all the faulty actuators have been returned to the 
+airplane manufacturer.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that the 
+identified unsafe condition no longer exists on the affected airplanes. 
+Accordingly, the proposed rule is hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 2001-NM-364-
+AD, published in the Federal Register on August 23, 2002 (67 FR 54596), 
+is withdrawn.
+
+    Issued in Renton, Washington, on June 24, 2004.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 04-15380 Filed 7-6-04; 8:45 am]
+BILLING CODE 4910-13-P
+
+

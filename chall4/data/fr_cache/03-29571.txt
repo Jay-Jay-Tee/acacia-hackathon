@@ -1,0 +1,98 @@
+
+[Federal Register Volume 68, Number 228 (Wednesday, November 26, 2003)]
+[Proposed Rules]
+[Pages 66386-66387]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 03-29571]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 86-ANE-12-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; General Electric CF6-80C2 Series 
+Turbofan Engines
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to General 
+Electric (GE) CF6-80C2 series turbofan engines. That action would have 
+required imposing a life limit on certain forward engine mount thrust 
+links. Since that NPRM was issued, the FAA has determined that the 
+affected parts are no longer eligible for installation, and therefore, 
+the unsafe condition is not likely to exist or develop on other 
+products of the same type design. Accordingly, the proposed rule is 
+withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Karen Curtis, Aerospace Engineer, 
+Engine Certification Office, FAA, Engine and Propeller Directorate, 12 
+New England Executive Park, Burlington, MA 01803; telephone (781) 238-
+7192; fax (781) 238-7199.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to GE CF6-80C2 series turbofan engines, was 
+published in the Federal Register on July 11, 1986 (51 FR 25208). The 
+proposed rule would have required imposing a life limit on certain 
+forward engine mount thrust links. The forward engine mount frame 
+thrust links, part numbers (P/Ns) 9383M45G01 and 9383M45G02, and the 
+forward engine mount platform thrust links, P/Ns 9383M45G03 and 
+9383M45G04, would have been life-limited to 5,000 cycles-since-new 
+(CSN). That action was prompted by the results of low-cycle-fatigue 
+test results that determined certain forward engine mount frame and 
+platform thrust links had a finite low-cycle-fatigue life limit. GE 
+Service Bulletin (SB) 72-022, dated April 26, 1988, introduced a 
+redesigned forward engine thrust mount system. The proposed actions 
+were intended to prevent fracture of forward mount thrust links, which 
+could result in the mount's inability to carry design loads.
+
+[[Page 66387]]
+
+    Since that NPRM was issued, the FAA has determined that all 
+affected engines are in compliance with the proposed AD by having 
+complied with GE SB 72-022, dated April 26, 1989. The SB was issued as 
+a Category 3, Campaign Change, and GE recommended that this SB be done 
+at the next shop visit. In addition, the FAA has determined that the 
+affected parts are no longer eligible for installation, and therefore, 
+the unsafe condition is not likely to exist or develop on other 
+products of the same type design. Accordingly, the proposed rule is 
+withdrawn.
+    Withdrawal of this notice of proposed rulemaking applies only to 
+the NRPM, and does not prevent us from issuing another notice in the 
+future, nor does it commit us to any course of action in the future.
+    This action is not covered under Executive Order 12866, the 
+Regulatory Flexibility Act, or DOT Regulatory Policies and Procedures 
+(44 FR 11034, February 26, 1979) because it only withdraws a notice of 
+proposed rulemaking, and it is neither a proposed nor a final rule.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    The notice of proposed rulemaking, Docket No. 86-ANE-12-AD, 
+published in the Federal Register on July 11, 1986 (51 FR 25208), is 
+withdrawn.
+
+    Issued in Burlington, Massachusetts, on November 20, 2003.
+Francis A. Favara,
+Acting Manager, Engine and Propeller Directorate, Aircraft 
+Certification Service.
+[FR Doc. 03-29571 Filed 11-25-03; 8:45 am]
+BILLING CODE 4910-13-P
+
+

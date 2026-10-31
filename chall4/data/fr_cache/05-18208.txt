@@ -1,0 +1,378 @@
+
+[Federal Register Volume 70, Number 177 (Wednesday, September 14, 2005)]
+[Proposed Rules]
+[Pages 54316-54318]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-18208]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2005-20403; Directorate Identifier 2005-NM-144-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Bombardier Model DHC-8-400 Series 
+Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) 
+for certain Bombardier Model DHC-8-400 series airplanes. This proposed 
+AD would require an inspection of the laminated shims for cracks, 
+damage, or extrusion between the forward attachment fittings of the 
+horizontal stabilizer and the top rib of the vertical stabilizer; a 
+torque check of the attachment bolts in the attachment fittings of the 
+front, middle, and rear spars; and corrective actions if necessary. 
+This proposed AD results from a report indicating that delaminated 
+shims extruded from the interface between the forward attaching 
+fittings of horizontal stabilizer and the top rib of the vertical 
+stabilizer, and that inadequate torque values of some bolts were found. 
+We are proposing this AD to prevent reduced structural integrity of the 
+horizontal stabilizer, and consequent loss of controllability of the 
+airplane.
+
+DATES: We must receive comments on this proposed AD by October 14, 
+2005.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility, U.S. Department of 
+Transportation, 400 Seventh Street SW., Nassif Building, Room PL-401, 
+Washington, DC 20590.
+     Fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street SW., Washington, DC, between 9 a.m. 
+and 5 p.m., Monday through Friday, except Federal holidays.
+    Contact Bombardier, Inc., Bombardier Regional Aircraft Division, 
+123 Garratt Boulevard, Downsview, Ontario M3K 1Y5, Canada, for service 
+information identified in this proposed AD.
+
+FOR FURTHER INFORMATION CONTACT: George Duckett, Aerospace Engineer, 
+Airframe and Propulsion Branch, ANE-171, FAA, New York Aircraft 
+Certification Office, 1600 Stewart Avenue, suite 410, Westbury, New 
+York 11590; telephone (516) 256-7525; fax (516) 794-5531.
+
+SUPPLEMENTARY INFORMATION: 
+
+Comments Invited
+
+    We invite you to submit any relevant written data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed in the ADDRESSES section. Include the docket number ``FAA-2005-
+20403; Directorate Identifier 2005-NM-144-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments received by the closing date and may amend the 
+proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed AD. Using the search function of 
+that Web site, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You may review the DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or you 
+may visit http://dms.dot.gov.
+
+[[Page 54317]]
+
+Examining the Docket
+
+    You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the DOT 
+street address stated in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after the Docket Management System 
+receives them.
+
+Discussion
+
+    Transport Canada Civil Aviation (TCCA), which is the airworthiness 
+authority for Canada, notified us that an unsafe condition may exist on 
+certain Bombardier Model DHC-8-400 series airplanes. TCCA advises that 
+delaminated shims extruded from the interface between the forward 
+attaching fittings of horizontal stabilizer and the top rib of the 
+vertical stabilizer. In addition, during removal of the horizontal 
+stabilizer for replacing the laminated shims with solid shims, 
+inadequate torque values of some bolts at the six attachment locations 
+(two each at the front, middle, and rear spars) were found on some 
+airplanes. This can cause increased load on the bolts and consequent 
+reduction in fatigue life of the bolts. These conditions, if not 
+corrected, could result in reduced structural integrity of the 
+horizontal stabilizer, and consequent loss of controllability of the 
+airplane.
+
+Relevant Service Information
+
+    Bombardier has issued Service Bulletin 84-55-02, Revision ``A,'' 
+dated January 12, 2005. The service bulletin describes doing the 
+following procedures:
+     A detailed inspection of the laminated shims for cracks, 
+damage, or extrusion between the forward attachment fittings of the 
+horizontal stabilizer and the top rib of the vertical stabilizers;
+     A breakaway torque check of the six attachment bolts in 
+the attachment fittings of the front, middle, and rear spars; and
+     Corrective actions if necessary. The corrective actions 
+include replacing the laminated shims, between the forward attachment 
+fittings of the horizontal stabilizer and the top rib of the vertical 
+stabilizer, with solid shims and replacing the corresponding barrel nut 
+and retainer with new parts.
+    Accomplishing the actions specified in the service information is 
+intended to adequately address the unsafe condition. TCCA mandated the 
+service information and issued Canadian airworthiness directive CF-
+2005-07, issued March 21, 2005, to ensure the continued airworthiness 
+of these airplanes in Canada.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    This airplane model is manufactured in Canada and is type 
+certificated for operation in the United States under the provisions of 
+section 21.29 of the Federal Aviation Regulations (14 CFR 21.29) and 
+the applicable bilateral airworthiness agreement. Pursuant to this 
+bilateral airworthiness agreement, TCCA has kept the FAA informed of 
+the situation described above. We have examined TCCA's findings, 
+evaluated all pertinent information, and determined that we need to 
+issue an AD for airplanes of this type design that are certificated for 
+operation in the United States.
+    Therefore, we are proposing this AD, which would require 
+accomplishing the actions specified in the service information 
+described previously, except as discussed under ``Difference Between 
+the Proposed AD and the Service Bulletin.''
+
+Difference Between the Proposed AD and Service Bulletin
+
+    Operators should note that, although the Accomplishment 
+Instructions of the referenced service bulletin describe procedures for 
+submitting a sheet recording torque values to the airplane 
+manufacturer, this proposed AD would not require that action. We do not 
+need this information from operators.
+
+Costs of Compliance
+
+    The following table provides the estimated costs for U.S. operators 
+to comply with this proposed AD.
+
+                                                                     Estimated Costs
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                          Number of U.S.-
+               Action                   Work hours     Average labor                 Parts                   Cost per       registered      Fleet cost
+                                                       rate per hour                                         airplane        airplanes
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Detailed inspection and torque check               2             $65  None..............................            $130              19          $2,470
+Replacement.........................              30              65  Free of charge....................           1,950              19          37,050
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Authority for this Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD and placed it in the
+
+[[Page 54318]]
+
+AD docket. See the ADDRESSES section for a location to examine the 
+regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The Federal Aviation Administration (FAA) amends Sec.  39.13 by 
+adding the following new airworthiness directive (AD):
+
+Bombardier, Inc. (Formerly de Havilland, Inc.): Docket No. FAA-2005-
+20403; Directorate Identifier 2005-NM-144-AD.
+
+Comments Due Date
+
+    (a) The FAA must receive comments on this AD action by October 
+14, 2005.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to Bombardier Model DHC-8-400 series 
+airplanes, certificated in any category; serial numbers 4001, and 
+4003 through 4081 inclusive.
+
+Unsafe Condition
+
+    (d) This AD results from a report indicating that laminated 
+shims were delaminated and extruded from the interface between the 
+forward attaching fittings of horizontal stabilizer and the top rib 
+of the vertical stabilizer, and that inadequate torque values of 
+some bolts were found. We are issuing this AD to prevent reduced 
+structural integrity of the horizontal stabilizer, and consequent 
+loss of controllability of the airplane.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Service Information
+
+    (f) The term ``service bulletin,'' as used in this AD, means the 
+Accomplishment Instructions of Bombardier Service Bulletin 84-55-02, 
+Revision `A,' dated January 12, 2005.
+    (g) Accomplishing a detailed inspection, a breakaway torque 
+check, and corrective actions if necessary before the effective date 
+of this AD in accordance with Bombardier Service Bulletin 84-55-02, 
+dated December 11, 2003, is acceptable for compliance with the 
+corresponding requirements of this AD.
+    (h) Accomplishing the repair before the effective date of this 
+AD in accordance with the Bombardier repair drawings in Table 1 of 
+this AD is acceptable for compliance with the requirements of this 
+AD.
+
+                        Table 1.--Repair Drawings
+------------------------------------------------------------------------
+                                          RD
+      Bombardier  repair drawing        issue             Dated
+------------------------------------------------------------------------
+RD 8/4-55-083........................        3  April 16, 2003.
+RD 8/4-55-084........................        1  May 5, 2003.
+RD 8/4-55-089........................        2  June 6, 2003.
+RD 8/4-55-090........................        3  August 26, 2003.
+RD 8/4-55-093........................        2  June 20, 2003.
+RD 8/4-55-094........................        3  September 4, 2003.
+RD 8/4-55-106........................        2  July 31, 2003.
+RD 8/4-55-110........................        3  October 1, 2003.
+RD 8/4-55-138........................        1  October 29, 2003.
+------------------------------------------------------------------------
+
+Detailed Inspection and Torque Check
+
+    (i) Within 4,000 flight hours after the effective date of this 
+AD, do the actions specified in paragraphs (i)(1) and (i)(2) of this 
+AD in accordance with Part A of the service bulletin.
+    (1) Do a detailed inspection of the laminated shims for cracks, 
+damage, or extrusion between the forward attachment fittings of the 
+horizontal stabilizer and the top rib of the vertical stabilizer.
+
+    Note 1: For the purposes of this AD, a detailed inspection is: 
+``An intensive examination of a specific item, installation, or 
+assembly to detect damage, failure, or irregularity. Available 
+lighting is normally supplemented with a direct source of good 
+lighting at an intensity deemed appropriate. Inspection aids such as 
+mirror, magnifying lenses, etc., may be necessary. Surface cleaning 
+and elaborate procedures may be required.''
+
+    (2) Do a breakaway torque check of the six attachment bolts in 
+the attachment fittings of the front, middle, and rear spars.
+
+Corrective Actions
+
+    (j) If, during the inspection required by paragraph (i)(1) of 
+this AD, any cracked, damaged, or extruded laminated shim is found, 
+before further flight, replace the discrepant laminated shim with a 
+solid shim, and replace the attachment bolts, barrel nuts, and 
+retainers of both front spars with new parts, in accordance with 
+Parts A and B of the service bulletin.
+    (k) If, during the torque check required by paragraph (i)(2) of 
+this AD, any attachment bolt is found with a breakaway torque value 
+outside the limits specified in the service bulletin, before further 
+flight, replace the attachment bolt and its corresponding barrel nut 
+and retainer with new parts, in accordance with Part A of the 
+service bulletin.
+
+Replacement of Laminated Shims
+
+    (l) Within 8,000 flight hours after the effective date of this 
+AD, unless previously accomplished in accordance with paragraph (j) 
+of this AD, replace the laminated shims, between the forward 
+attachment fittings of the horizontal stabilizer and the top rib of 
+the vertical stabilizer, with solid shims and replace the 
+corresponding barrel nut and retainer with new parts, in accordance 
+with Part B of the service bulletin.
+
+No Reporting
+
+    (m) Although the service bulletin referenced in this AD 
+specifies to submit certain information to the manufacturer, this AD 
+does not include that requirement.
+
+Alternative Methods of Compliance (AMOCs)
+
+    (n) The Manager, New York Aircraft Certification Office, FAA, 
+has the authority to approve AMOCs for this AD, if requested in 
+accordance with the procedures found in 14 CFR 39.19.
+
+Related Information
+
+    (o) Canadian airworthiness directive CF-2005-07, issued March 
+21, 2005, also addresses the subject of this AD.
+
+
+    Issued in Renton, Washington, on September 6, 2005.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 05-18208 Filed 9-13-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

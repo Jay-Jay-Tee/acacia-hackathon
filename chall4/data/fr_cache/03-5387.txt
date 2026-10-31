@@ -1,0 +1,467 @@
+
+[Federal Register Volume 68, Number 45 (Friday, March 7, 2003)]
+[Proposed Rules]
+[Pages 11015-11019]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 03-5387]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2003-CE-05-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; SOCATA--Groupe AEROSPATIALE Models TB 
+9, TB 10, TB 20, TB 21, TB 200, TMB 700, Rallye 100S, Rallye 150T, 
+Rallye 150ST, Rallye 235E, and Rallye 235C Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes to adopt a new airworthiness directive 
+(AD) that would apply to all SOCATA--Groupe AEROSPATIALE (SOCATA) 
+Models TB 9, TB 10, TB 20, TB 21, TB 200, TMB 700, Rallye 100S, Rallye 
+150T, Rallye 150ST, Rallye 235E, and Rallye 235C airplanes. This 
+proposed AD would require you to replace certain safety belts and 
+restraint systems. This proposed AD is the result of mandatory 
+continuing airworthiness information (MCAI) issued by the airworthiness 
+authority for France. The actions specified by this proposed AD are 
+intended to prevent failure of the safety belts and restraint systems 
+caused by inadvertent opening of this equipment, which could result in 
+bodily injury to the occupant during turbulence or landing.
+
+DATES: The Federal Aviation Administration (FAA) must receive any 
+comments on this proposed rule on or before April 29, 2003.
+
+ADDRESSES: Submit comments to FAA, Central Region, Office of the 
+Regional Counsel, Attention: Rules Docket No. 2003-CE-05-AD, 901 
+Locust, Room 506, Kansas City, Missouri 64106. You may view any 
+comments at this location between 8 a.m. and 4 p.m., Monday through 
+Friday, except Federal holidays. You may also send comments 
+electronically to the following address: [email protected]. 
+Comments sent electronically must contain ``Docket No. 2003-CE-05-AD'' 
+in the subject line. If you send comments electronically as attached 
+electronic files, the files must be formatted in Microsoft Word 97 for 
+Windows or ASCII text.
+    You may get service information that applies to this proposed AD 
+from SOCATA--Groupe AEROSPATIALE, Customer Support, Aerodrome Tarbes-
+Ossun-Lourdes, BP 930-F65009 Tarbes Cedex, France; telephone: 011 33 5 
+62
+
+[[Page 11016]]
+
+41 73 00; facsimile: 011 33 5 62 41 76 54; or the Product Support 
+Manager, SOCATA--Groupe AEROSPATIALE, North Perry Airport, 7501 
+Pembroke Road, Pembroke Pines, Florida 33023; telephone: (954) 894-
+1160; facsimile: (954) 964-4141. You may also view this information at 
+the Rules Docket at the address above.
+
+FOR FURTHER INFORMATION CONTACT: Karl Schletzbaum, Aerospace Engineer, 
+FAA, Small Airplane Directorate, 901 Locust, Room 301, Kansas City, 
+Missouri 64106; telephone: (816) 329-4146; facsimile: (816) 329-4090.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+How Do I Comment on This Proposed AD?
+
+    The FAA invites comments on this proposed rule. You may submit 
+whatever written data, views, or arguments you choose. You need to 
+include the rule's docket number and submit your comments to the 
+address specified under the caption ADDRESSES. We will consider all 
+comments received on or before the closing date. We may amend this 
+proposed rule in light of comments received. Factual information that 
+supports your ideas and suggestions is extremely helpful in evaluating 
+the effectiveness of this proposed AD action and determining whether we 
+need to take additional rulemaking action.
+
+Are There Any Specific Portions of This Proposed AD I Should Pay 
+Attention To?
+
+    The FAA specifically invites comments on the overall regulatory, 
+economic, environmental, and energy aspects of this proposed rule that 
+might suggest a need to modify the proposed rule. You may view all 
+comments we receive before and after the closing date of the proposed 
+rule in the Rules Docket. We will file a report in the Rules Docket 
+that summarizes each contact we have with the public that concerns the 
+substantive parts of this proposed AD.
+
+How Can I Be Sure FAA Receives My Comment?
+
+    If you want FAA to acknowledge the receipt of your mailed comments, 
+you must include a self-addressed, stamped postcard. On the postcard, 
+write ``Comments to Docket No. 2003-CE-05-AD.'' We will date stamp and 
+mail the postcard back to you.
+
+Discussion
+
+What Events Have Caused This Proposed AD?
+
+    The Direction G[eacute]n[eacute]rale de l'Aviation Civile (DGAC), 
+which is the airworthiness authority for France, recently notified FAA 
+that an unsafe condition may exist on all SOCATA Models TB 9, TB 10, TB 
+20, TB 21, TB 200, TMB 700, Rallye 100S, Rallye 150T, Rallye 150ST, 
+Rallye 235E, and Rallye 235C airplanes. The DGAC reports inadvertent 
+opening of the Anjou Aeronautique/TRW Repa S.A./L'Aiglon Types 343, 
+343-1, 343-1, 343M, 343AM, 343B, 343BM, 343C, 343CM, and 343D safety 
+belts and restraint systems.
+    Further investigation into this subject found that a Model TBM 700 
+airplane was involved in a fatal accident on March 25, 2002. The report 
+on this accident indicated that the pilot's seat belt buckle was broken 
+and that all seat belts in the aircraft would snap open when given a 
+sharp jerk. The belts involved were all Type 343-1 belts. The report 
+also noted that belts tested in several other TBM 700 airplanes at a 
+nearby hangar were found to snap open when given the quick-jerk test.
+
+What Are the Consequences if the Condition Is Not Corrected?
+
+    Failure of the safety belts and restraint systems caused by 
+inadvertent opening of this equipment could result in bodily injury to 
+the occupant during turbulence or landing.
+
+Is There Service Information That Applies to This Subject?
+
+    SOCATA has issued the following service letters for the affected 
+airplanes:
+
+------------------------------------------------------------------------
+             Models                           Service letter
+------------------------------------------------------------------------
+TB 9, TB 10, TB 20, TB 21, and   SL 10-057, dated June 2002.
+ TB 200.
+TMB 700........................  SL 70-027, dated June 2002.
+Rallye 100S, Rallye 150T,        SL 023, dated June 2002.
+ Rallye 150ST, Rallye 235E, and
+ Rallye 235C.
+------------------------------------------------------------------------
+
+What Are the Provisions of This Service Information?
+
+    The service letters include procedures for:
+
+--Repetitive visual inspections of the seat belt assembly; and
+--Replacement of the seat belt assembly.
+
+What Action Did the DGAC Take?
+
+    The DGAC classified these service letters as mandatory and, in 
+order to ensure the continued airworthiness of these airplanes in 
+France, issued the following French ADs:
+
+--AD Number 2002-104(AB), dated February 20, 2002; and
+--AD Number 2002-105(AB), dated February 20, 2002.
+
+Was This in Accordance With the Bilateral Airworthiness Agreement?
+
+    These airplane models are manufactured in France and are type 
+certificated for operation in the United States under the provisions of 
+Sec.  21.29 of the Federal Aviation Regulations (14 CFR 21.29) and the 
+applicable bilateral airworthiness agreement.
+    Pursuant to this bilateral airworthiness agreement, the DGAC has 
+kept FAA informed of the situation described above.
+
+The FAA's Determination and an Explanation of the Provisions of This 
+Proposed AD
+
+What Has FAA Decided?
+
+    The FAA has examined the findings of the DGAC; reviewed all 
+available information, including the service information referenced 
+above; and determined that:
+
+--The unsafe condition referenced in this document exists or could 
+develop on other SOCATA Models TB 9, TB 10, TB 20, TB 21, TB 200, TMB 
+700, Rallye 100S, Rallye 150T, Rallye 150ST, Rallye 235E, and Rallye 
+235C of the same type design that are on the U.S. registry;
+--The actions specified in the previously-referenced service 
+information should be accomplished on the affected airplanes; and
+--AD action should be taken in order to correct this unsafe condition.
+
+What Would This Proposed AD Require?
+
+    This proposed AD would require you to replace the Anjou 
+Aeronautique/TRW Repa S.A./L'Aiglon Types 343, 343-1, 343-1, 343M, 
+343AM, 343B, 343BM, 343C, 343CM, and 343D safety belts and restraint 
+systems.
+
+Cost Impact
+
+How Many Airplanes Would This Proposed AD Impact?
+
+    We estimate that this proposed AD affects 617 airplanes in the U.S. 
+registry:
+
+[[Page 11017]]
+
+
+
+------------------------------------------------------------------------
+                            Models                             How  many
+------------------------------------------------------------------------
+TB 9, TB 10, TB 20, TB 21, and TB 2..........................        420
+--------------------------------------------------------------
+TBM 700......................................................        158
+Rallye 100S, Rallye 150T, Rallye 150ST, Rallye 235E, and              39
+ Rallye 235C.................................................
+------------------------------------------------------------------------
+
+What Would Be the Cost Impact of This Proposed AD on Owners/Operators 
+of the Affected Airplanes?
+
+    We estimate the following costs to accomplish the proposed seat 
+belt assembly replacement for Models TB 9, TB 10, TB 20, TB 21, and TB 
+200 airplanes:
+
+----------------------------------------------------------------------------------------------------------------
+                                                              Total cost per
+             Labor cost                    Parts cost            airplane        Total cost  on U.S. operators
+----------------------------------------------------------------------------------------------------------------
+2 workhours x $60 per hour = $120    4 seats x $83 (each               $452   $452 x 420 = $189,840
+ for all 4 seats.                     seat belt assembly) =
+                                      $332.
+----------------------------------------------------------------------------------------------------------------
+
+    We estimate the following costs to accomplish the proposed seat 
+belt assembly replacement for Model TBM 700 airplanes:
+
+----------------------------------------------------------------------------------------------------------------
+                                                              Total cost per
+             Labor cost                    Parts cost            airplane       Total cost  on U.S.  operators
+----------------------------------------------------------------------------------------------------------------
+3 workhours x $60 per hour = $180    6 seats x $135 (each              $990   $990 x 158 = $156,420
+ for all 6 seats.                     seat belt assembly) =
+                                      $810.
+----------------------------------------------------------------------------------------------------------------
+
+    We estimate the following costs to accomplish the proposed seat 
+belt assembly replacement for Models Rallye 100S, Rallye 150T, Rallye 
+150ST, Rallye 235E, and Rallye 235C airplanes:
+
+----------------------------------------------------------------------------------------------------------------
+                                                             Total cost  per
+             Labor cost                    Parts cost            airplane        Total cost on U.S. operators
+----------------------------------------------------------------------------------------------------------------
+2 workhours x $60 per hour = $120    4 seats x $33 (each               $252   $252 x 39 = $9,828
+ for all 4 seats.                     seat belt assembly) =
+                                      $132.
+----------------------------------------------------------------------------------------------------------------
+
+Regulatory Impact
+
+Would This Proposed AD Impact Various Entities?
+
+    The regulations proposed herein would not have a substantial direct 
+effect on the States, on the relationship between the national 
+government and the States, or on the distribution of power and 
+responsibilities among the various levels of government. Therefore, it 
+is determined that this proposed rule would not have federalism 
+implications under Executive Order 13132.
+
+Would This Proposed AD Involve a Significant Rule or Regulatory Action?
+
+    For the reasons discussed above, I certify that this proposed 
+action (1) is not a ``significant regulatory action'' under Executive 
+Order 12866; (2) is not a ``significant rule'' under DOT Regulatory 
+Policies and Procedures (44 FR 11034, February 26, 1979); and (3) if 
+promulgated, will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act. A copy of the draft regulatory 
+evaluation prepared for this action has been placed in the Rules 
+Docket. A copy of it may be obtained by contacting the Rules Docket at 
+the location provided under the caption ADDRESSES.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. FAA amends Sec.  39.13 by adding a new airworthiness directive 
+(AD) to read as follows:
+
+Socata--Groupe Aerospatiale: Docket No. 2003-CE-05-AD.
+
+    (a) What airplanes are affected by this AD? This AD affects 
+Models TB 9, TB 10, TB 20, TB 21, TB 200, TMB 700, Rallye 100S, 
+Rallye 150T, Rallye 150ST, Rallye 235E, and Rallye 235C airplanes, 
+all serial numbers, that are certificated in any category.
+    (b) Who must comply with this AD? Anyone who wishes to operate 
+any of the airplanes identified in paragraph (a) of this AD must 
+comply with this AD.
+    (c) What problem does this AD address? The actions specified by 
+this AD are intended to prevent failure of the safety belts and 
+restraint systems caused by inadvertent opening of this equipment, 
+which could result in bodily injury to the occupant during 
+turbulence or landing.
+    (d) What actions must I accomplish to address this problem? To 
+address this problem, you must accomplish the following:
+
+[[Page 11018]]
+
+
+
+------------------------------------------------------------------------
+           Actions                 Compliance            Procedures
+------------------------------------------------------------------------
+(1) For Models TB 9, TB 10,   Within the next 100   In accordance with
+ TB 20, TB 21, TB 200,         hours time-in-        EADS SOCATA Service
+ replace the Anjou             service (TIS) after   Letter SL 10-057,
+ Aeronautique/TRW Repa S.A./   the effective date    dated June 2002,
+ L'Aiglon Types 343, 343-1,    of this AD, unless    and the applicable
+ 343-1, 343M, 343AM, 343B,     already               airplane
+ 343BM, 343C, 343CM, and       accomplished.         maintenance manual.
+ 343D safety belts and
+ restraint systems, as
+ follows.
+(i) Replace safety type belt
+ (2 points) with SOCATA part
+ number (P/N)
+ Z00.N6003987223 or FAA-
+ approved equivalent P/N..
+(ii) Replace safety type
+ belt (3 points) with SOCATA
+ P/N Z00.N6003987224 or FAA-
+ approved equivalent P/N..
+-----------------------------
+(2) For Model TMB 700,        Within the next 100   In accordance with
+ replace the Anjou             hours time-in-        EADS SOCATA Service
+ Aeronautique/TRW Repa S.A./   service (TIS) after   Letter SL 70-027,
+ L'Aiglon Types 343, 343-1,    the effective date    dated June 2002,
+ 343-1, 343M, 343AM, 343B,     of this AD, unless    and the applicable
+ 343BM, 343C, 343CM, and       already               maintenance manual.
+ 343D safety belts and         accomplished.
+ restraint systems, as
+ follows.
+(i) Replace safety type belt
+ P/N T700A2510007103 (gray
+ or beige color) with SOCATA
+ P/N T700A251000710900
+ (gray) or P/N
+ T700A251000711600 (beige),
+ or FAA-approved equivalent
+ P/Ns..
+(ii) Replace safety type
+ belt P/N T700A2510007104
+ (gray or beige color) with
+ SOCATA P/N
+ T700A251000711000 (gray) or
+ P/N T700A251000711700
+ (beige), or FAA-approved
+ equivalent P/Ns..
+(iii) Replace safety type
+ belt P/N T700A2510007105
+ (gray or beige color) with
+ SOCATA P/N
+ T700A251000710800 (gray) or
+ P/N T700A251000711500
+ (beige), or FAA-approved
+ equivalent P/Ns..
+-----------------------------
+(3) For Models Rallye 100S,   Within the next 100   In accordance with
+ Rallye 150T, Rallye 150ST,    hours time-in-        EADS SOCATA Service
+ Rallye 235E, and Rallye       service (TIS) after   Letter SL 023,
+ 235C, replace the Anjou       the effective date    dated June 2002,
+ Aeronautique/TRW Repa S.A./   of this AD, unless    and the applicable
+ L'Aiglon Types 343, 343-1,    already               airplane
+ 343-1, 343M, 343AM, 343B,     accomplished.         maintenance manual.
+ 343BM, 343C, 343CM, and
+ 343D safety belts and
+ restraint systems with
+ SOCATA P/N Z00.N6003987223
+ or FAA-approved equivalent
+ P/N.
+-----------------------------
+(4) On any affected models,   As of the effective   Not applicable.
+ do not install any Anjou      date of this AD.
+ Aeronautique/TRW Repa S.A./
+ L'Aiglon Types 343, 343-1,
+ 343-1, 343M, 343AM, 343B,
+ 343BM, 343C, 343CM, and
+ 343D safety belts and
+ restraint systems.
+------------------------------------------------------------------------
+
+    (e) Can I comply with this AD in any other way? You may use an 
+alternative method of compliance or adjust the compliance time if:
+    (1) Your alternative method of compliance provides an equivalent 
+level of safety; and
+    (2) The Standards Office Manager, Small Airplane Directorate, 
+approves your alternative. Submit your request through an FAA 
+Principal Maintenance Inspector, who may add comments and then send 
+it to the Standards Office Manager.
+
+    Note 1: This AD applies to each airplane identified in paragraph 
+(a) of this AD, regardless of whether it has been modified, altered, 
+or repaired in the area subject to the requirements of this AD. For 
+airplanes that have been modified, altered, or repaired so that the 
+performance of the requirements of this AD is affected, the owner/
+operator must request approval for an alternative method of 
+compliance in accordance with paragraph (e) of this AD. The request 
+should include an assessment of the effect of the modification, 
+alteration, or repair on the unsafe condition addressed by this AD; 
+and, if you have not eliminated the unsafe condition, specific 
+actions you propose to address it.
+
+    (f) Where can I get information about any already-approved 
+alternative methods of compliance? Contact Karl Schletzbaum, 
+Aerospace Engineer, FAA, Small Airplane Directorate, 901 Locust, 
+Room 301, Kansas City, Missouri 64106; telephone: (816) 329-4146; 
+facsimile: (816) 329-4090.
+    (g) What if I need to fly the airplane to another location to 
+comply with this AD? The FAA can issue a special flight permit under 
+sections 21.197 and 21.199 of the Federal Aviation Regulations (14 
+CFR 21.197 and 21.199) to operate your airplane to a location where 
+you can accomplish the requirements of this AD.
+    (h) How do I get copies of the documents referenced in this AD? 
+You may get copies of the documents referenced in this AD from 
+SOCATA Groupe AEROSPATIALE, Customer Support, Aerodrome Tarbes-
+Ossun-Lourdes, BP 930--F65009 Tarbes Cedex, France; telephone: 011 
+33 5 62 41 73 00; facsimile: 011 33 5 62 41 76 54; or the Product 
+Support Manager, SOCATA--Groupe AEROSPATIALE, North Perry Airport, 
+7501 Pembroke Road, Pembroke Pines, Florida 33023; telephone: (954) 
+894-1160; facsimile: (954) 964-4141. You may view these documents at 
+FAA, Central Region, Office of the Regional Counsel, 901 Locust, 
+Room 506, Kansas City, Missouri 64106.
+
+    Note 2: The subject of this AD is addressed in the following 
+French ADs:
+    AD Number 2002-104(AB), dated February 20, 2002; and
+    AD Number 2002-105(AB), dated February 20, 2002.
+
+
+
+[[Page 11019]]
+
+
+    Issued in Kansas City, Missouri, on February 28, 2003.
+Michael Gallagher,
+Manager, Small Airplane Directorate, Aircraft Certification Service.
+[FR Doc. 03-5387 Filed 3-6-03; 8:45 am]
+BILLING CODE 4910-13-P
+
+

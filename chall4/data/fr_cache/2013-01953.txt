@@ -1,0 +1,627 @@
+
+[Federal Register Volume 78, Number 20 (Wednesday, January 30, 2013)]
+[Proposed Rules]
+[Pages 6247-6251]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2013-01953]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2012-1319; Directorate Identifier 2012-NM-179-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; the Boeing Company Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: We propose to revise an existing airworthiness directive (AD) 
+that applies to all The Boeing Company Model 757 airplanes. The 
+existing AD currently requires revising the maintenance program by 
+incorporating new and revised fuel tank system limitations in the 
+Airworthiness Limitations (AWLs) section of the Instructions for 
+Continued Airworthiness; and requires the initial inspection of certain 
+repetitive AWL inspections to phase-in those inspections, and repair if 
+necessary. Since we issued that AD, we have found errors in paragraph 
+references in the existing AD. This proposed AD would revise those 
+paragraph references to refer to the correct paragraphs. We are 
+proposing this AD to prevent the potential for ignition sources inside 
+fuel tanks caused by latent failures, alterations, repairs, or 
+maintenance actions, which in combination with flammable fuel vapors, 
+could result in a
+
+[[Page 6248]]
+
+fuel tank explosion and consequent loss of the airplane.
+
+DATES: We must receive comments on this proposed AD by March 18, 2013.
+
+ADDRESSES: You may send comments, using the procedures found in 14 CFR 
+11.43 and 11.45, by any of the following methods:
+     Federal eRulemaking Portal: Go to http://www.regulations.gov. Follow the instructions for submitting comments.
+     Fax: 202-493-2251.
+     Mail: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue SE., Washington, DC 20590.
+     Hand Delivery: Deliver to Mail address above between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    For service information identified in this AD, contact Boeing 
+Commercial Airplanes, Attention: Data & Services Management, P.O. Box 
+3707, MC 2H-65, Seattle, WA 98124-2207; telephone 206-544-5000, 
+extension 1; fax 206-766-5680; Internet https://www.myboeingfleet.com. 
+You may review copies of the referenced service information at the FAA, 
+Transport Airplane Directorate, 1601 Lind Avenue SW., Renton, WA. For 
+information on the availability of this material at the FAA, call 425-
+227-1221.
+
+Examining the AD Docket
+
+    You may examine the AD docket on the Internet at http://www.regulations.gov; or in person at the Docket Management Facility 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this proposed AD, the regulatory 
+evaluation, any comments received, and other information. The street 
+address for the Docket Office (phone: 800-647-5527) is in the ADDRESSES 
+section. Comments will be available in the AD docket shortly after 
+receipt.
+
+FOR FURTHER INFORMATION CONTACT: Kevin Nguyen, Aerospace Engineer, 
+Propulsion Branch, ANM-140S, FAA, Seattle Aircraft Certification 
+Office, 1601 Lind Avenue SW., Renton, Washington 98057-3356; phone: 
+425-917-6501; fax: 425-917-6590; email: [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to send any written relevant data, views, or 
+arguments about this proposed AD. Send your comments to an address 
+listed under the ADDRESSES section. Include ``Docket No. FAA-2012-1319; 
+Directorate Identifier 2012-NM-179-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of this proposed AD. We 
+will consider all comments received by the closing date and may amend 
+this proposed AD because of those comments.
+    We will post all comments we receive, without change, to http://www.regulations.gov, including any personal information you provide. We 
+will also post a report summarizing each substantive verbal contact we 
+receive about this proposed AD.
+
+Discussion
+
+    On June 6, 2012, we issued AD 2012-12-15, Amendment 39-17095 (77 FR 
+42964, July 23, 2012), for all The Boeing Company Model 757 airplanes. 
+That AD superseded AD 2008-10-11, Amendment 39-15517 (73 FR 25974, May 
+8, 2008). AD 2012-12-15 requires revising the maintenance program by 
+incorporating new and revised fuel tank system limitations in the 
+Airworthiness Limitations (AWLs) section of the Instructions for 
+Continued Airworthiness to satisfy Special Federal Aviation Regulation 
+No. 88 requirements; and requires the initial inspection of certain 
+repetitive AWL inspections to phase-in those inspections, and repair if 
+necessary. That AD resulted from a report that an AWL required by a 
+previous AD must be revised. We issued that AD to prevent the potential 
+for ignition sources inside fuel tanks caused by latent failures, 
+alterations, repairs, or maintenance actions, which in combination with 
+flammable fuel vapors, could result in a fuel tank explosion and 
+consequent loss of the airplane.
+
+Actions Since Existing AD Was Issued
+
+    Since we issued AD 2012-12-15, Amendment 39-17095 (77 FR 42964, 
+July 23, 2012), we have found errors in paragraph references in the 
+existing AD. The second sentence in paragraph (h)(1) of the existing AD 
+refers to paragraph (n) of that AD, which is a compliance time for AWL 
+No. 28-AWL-26. The correct reference should be to paragraph (l) of that 
+AD, which is a compliance time for AWL No. 28-AWL-03. The last sentence 
+in paragraph (l) of the existing AD refers to paragraph (h)(2) of that 
+AD, which is a definition of a detailed inspection. The correct 
+reference should be to paragraph (h)(1)(ii) of that AD, which 
+references a specific AWL and compliance time.
+
+FAA's Determination
+
+    We are proposing this AD because we evaluated all the relevant 
+information and determined the unsafe condition described previously is 
+likely to exist or develop in other products of the same type design.
+
+Proposed AD Requirements
+
+    This proposed AD would retain all requirements of AD 2012-12-15, 
+Amendment 39-17095 (77 FR 42964, July 23, 2012). This proposed AD would 
+revise certain paragraph references.
+
+Costs of Compliance
+
+    We estimate that this proposed AD affects 639 airplanes of U.S. 
+registry.
+    We estimate the following costs to comply with this proposed AD:
+
+                                                 Estimated Costs
+----------------------------------------------------------------------------------------------------------------
+                                                                               Cost per         Cost on U.S.
+             Action                    Labor cost           Parts cost          product           operators
+----------------------------------------------------------------------------------------------------------------
+AWLs revisions [retained actions  9 work-hours x $85   None...............            $765              $488,835
+ from existing AD (AD 2012-12-     per hour = $765.
+ 15, Amendment 39-17095 (77 FR
+ 42964, July 23, 2012))].
+Inspections [retained actions     8 work-hours x $85   None...............             680               434,520
+ from existing AD (AD 2012-12-     per hour = $680.
+ 15, Amendment 39-17095 (77 FR
+ 42964, July 23, 2012))].
+----------------------------------------------------------------------------------------------------------------
+
+    The new requirements of this proposed AD add no additional economic 
+burden.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII,
+
+[[Page 6249]]
+
+Aviation Programs, describes in more detail the scope of the Agency's 
+authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    (1) Is not a ``significant regulatory action'' under Executive 
+Order 12866,
+    (2) Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979),
+    (3) Will not affect intrastate aviation in Alaska, and
+    (4) Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+0
+1. The authority citation for part 39 continues to read as follows:
+
+    Authority:  49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+0
+2. The FAA amends Sec.  39.13 by adding the following new AD:
+
+The Boeing Company: Docket No. FAA-2012-1319; Directorate Identifier 
+2012-NM-179-AD.
+
+(a) Comments Due Date
+
+    The FAA must receive comments on this AD action by March 18, 
+2013.
+
+(b) Affected ADs
+
+    This AD revises AD 2012-12-15, Amendment 39-17095 (77 FR 42964, 
+July 23, 2012). Certain requirements of this AD terminate certain 
+requirements of AD 2008-11-07, Amendment 39-15529 (73 FR 30755, May 
+29, 2008); AD 2008-06-03, Amendment 39-15415 (73 FR 13081, March 12, 
+2008); and AD 2009-06-20, Amendment 39-15857 (74 FR 12236, March 24, 
+2009).
+
+(c) Applicability
+
+    (1) This AD applies to all The Boeing Company Model 757-200, -
+00PF, -200CB, and -300 series airplanes, certificated in any 
+category.
+    (2) This AD requires revisions to certain operator maintenance 
+documents to include new actions (e.g., inspections) and/or critical 
+design configuration control limitations (CDCCLs). Compliance with 
+these actions and/or CDCCLs is required by 14 CFR 91.403(c). For 
+airplanes that have been previously modified, altered, or repaired 
+in the areas addressed by these inspections, the operator may not be 
+able to accomplish the actions described in the revisions. In this 
+situation, to comply with 14 CFR 91.403(c), the operator must 
+request approval of an alternative method of compliance (AMOC) 
+according to paragraph (s) of this AD. The request should include a 
+description of changes to the required actions that will ensure the 
+continued operational safety of the airplane.
+
+(d) Subject
+
+    Joint Aircraft System Component (JASC)/Air Transport Association 
+(ATA) of America Code 28: Fuel.
+
+(e) Unsafe Condition
+
+    This AD results from a design review of the fuel tank systems. 
+The Federal Aviation Administration is issuing this AD to prevent 
+the potential for ignition sources inside fuel tanks caused by 
+latent failures, alterations, repairs, or maintenance actions, 
+which, in combination with flammable fuel vapors, could result in a 
+fuel tank explosion and consequent loss of the airplane.
+
+(f) Compliance
+
+    You are responsible for having the actions required by this AD 
+performed within the compliance times specified, unless the actions 
+have already been done.
+
+(g) Retained Revision of Airworthiness Limitations (AWLs) Section
+
+    This paragraph restates the requirements of paragraph (g) of AD 
+2012-12-15, Amendment 39-17095 (77 FR 42964, July 23, 2012). Before 
+December 16, 2008, revise the AWLs section of the Instructions for 
+Continued Airworthiness (ICA) by incorporating the information in 
+the subsections specified in paragraphs (g)(1) through (g)(3) of 
+this AD into the maintenance planning data (MPD) document; except 
+that the initial inspections specified in table 1 to paragraph 
+(h)(1) of this AD must be done at the compliance times specified in 
+table 1 to paragraph (h)(1) of this AD. Accomplishing the 
+requirements of paragraph (k) of this AD terminates the requirements 
+of this paragraph.
+    (1) Subsection E, ``AIRWORTHINESS LIMITATIONS--FUEL SYSTEMS,'' 
+of Boeing Temporary Revision (TR) 09-008, dated March 2008, to 
+Section 9, ``Airworthiness Limitations (AWLs) and Certification 
+Maintenance Requirements (CMRs),'' of the Boeing 757 MPD Document, 
+D622N001-9.
+    (2) Subsection F, ``PAGE FORMAT: SYSTEMS AIRWORTHINESS 
+LIMITATIONS,'' of Boeing TR 09-008, dated March 2008, to Section 9, 
+``Airworthiness Limitations (AWLs) and Certification Maintenance 
+Requirements (CMRs),'' of the Boeing 757 MPD Document, D622N001-9.
+    (3) Subsection G, ``AIRWORTHINESS LIMITATIONS--FUEL SYSTEM 
+AWLs,'' AWLs No. 28-AWL-01 through No. 28-AWL-24 inclusive, of 
+Boeing TR 09-008, dated March 2008, to Section 9, ``Airworthiness 
+Limitations (AWLs) and Certification Maintenance Requirements 
+(CMRs),'' of the Boeing 757 MPD Document, D622N001-9. As an optional 
+action, AWLs No. 28-AWL-25 and No. 28-AWL-26, as identified in 
+Subsection G of Boeing TR 09-008, dated March 2008, to Section 9, 
+``Airworthiness Limitations (AWLs) and Certification Maintenance 
+Requirements (CMRs),'' of the Boeing 757 MPD Document, D622N001-9, 
+also may be incorporated into the AWLs section of the ICA.
+
+(h) Retained Initial Inspections and Repair, With Revised Service 
+Information
+
+    (1) This paragraph restates the requirements of paragraph (h) of 
+AD 2012-12-15, Amendment 39-17095 (77 FR 42964, July 23, 2012), with 
+a revised paragraph reference. Do the inspections specified in table 
+1 to paragraph (h)(1) of this AD at the compliance time identified 
+in table 1 to paragraph (h)(1) of this AD, and repair any 
+discrepancy, in accordance with Subsection G of Boeing TR 09-008, 
+dated March 2008, to Section 9, ``Airworthiness Limitations (AWLs) 
+and Certification Maintenance Requirements (CMRs),'' of the Boeing 
+757 MPD Document, D622N001-9; Section 9, ``Airworthiness Limitations 
+(AWLs) and Certification Maintenance Requirements (CMRs),'' of the 
+Boeing 757 MPD Document, D622N001-9, Revision December 2008; Boeing 
+TR 09-010, dated July 2010, to Section 9, ``Airworthiness 
+Limitations (AWLs) and Certification Maintenance Requirements 
+(CMRs),'' of Boeing 757 MPD Document, D622N001-9; or Boeing TR 09-
+011, dated November 2010, to Section 9, ``Airworthiness Limitations 
+(AWLs) and Certification Maintenance Requirements (CMRs),'' of the 
+Boeing 757 MPD Document, D622N001-9; except as required by paragraph 
+(l) of this AD. The repair must be done before further flight. 
+Accomplishing the inspections identified in table 1 to paragraph 
+(h)(1) of this AD as part of a maintenance program before the 
+applicable compliance time specified in table 1 to paragraph (h)(1) 
+of this AD constitutes compliance with the requirements of this 
+paragraph. As of 6 months after August 27, 2012 (the effective date 
+of AD 2012-12-15), only Section 9,
+
+[[Page 6250]]
+
+``Airworthiness Limitations (AWLs) and Certification Maintenance 
+Requirements (CMRs),'' of the Boeing 757 MPD Document, D622N001-9, 
+Revision December 2008; Boeing TR 09-010, dated July 2010, to 
+Section 9, ``Airworthiness Limitations (AWLs) and Certification 
+Maintenance Requirements (CMRs),'' of Boeing 757 MPD Document, 
+D622N001-9; or Boeing TR 09-011, dated November 2010, to Section 9, 
+``Airworthiness Limitations (AWLs) and Certification Maintenance 
+Requirements (CMRs),'' of the Boeing 757 MPD Document, D622N001-9; 
+may be used.
+
+                           Table 1 to Paragraph (h)(1) of This AD--Initial Inspections
+----------------------------------------------------------------------------------------------------------------
+                                                                    Compliance time (whichever occurs later)
+              AWL No.                       Description       --------------------------------------------------
+                                                                       Threshold               Grace period
+----------------------------------------------------------------------------------------------------------------
+(i) 28-AWL-01......................  A detailed inspection of  Within 120 months since   Within 72 months after
+                                      external wires over the   the date of issuance of   June 12, 2008 (the
+                                      center fuel tank for      the original standard     effective date of AD
+                                      damaged clamps, wire      airworthiness             2008-10-11, Amendment
+                                      chafing, and wire         certificate or the date   39[dash]15517 (73 FR
+                                      bundles in contact with   of issuance of the        25974, May 8, 2008)).
+                                      the surface of the        original export
+                                      center fuel tank.         certificate of
+                                                                airworthiness.
+(ii) 28-AWL-03.....................  A special detailed        Within 120 months since   Within 24 months after
+                                      inspection of the         the date of issuance of   June 12, 2008 (the
+                                      lightning shield to       the original standard     effective date of AD
+                                      ground termination on     airworthiness             2008-10-11, Amendment
+                                      the out-of-tank fuel      certificate or the date   39[dash]15517 (73 FR
+                                      quantity indicating       of issuance of the        25974, May 8, 2008)).
+                                      system to verify          original export
+                                      functional integrity.     certificate of
+                                                                airworthiness.
+(iii) 28[dash]AWL[dash]14..........  A special detailed        Within 120 months since   Within 60 months after
+                                      inspection of the fault   the date of issuance of   June 12, 2008 (the
+                                      current bond of the       the original standard     effective date of AD
+                                      fueling shutoff valve     airworthiness             2008-10-11, Amendment
+                                      actuator of the center    certificate or the date   39[dash]15517 (73 FR
+                                      wing tank to verify       of issuance of the        25974, May 8, 2008)).
+                                      electrical bond.          original export
+                                                                certificate of
+                                                                airworthiness.
+----------------------------------------------------------------------------------------------------------------
+
+    (2) For the purposes of this AD, a detailed inspection is: ``An 
+intensive examination of a specific item, installation, or assembly 
+to detect damage, failure, or irregularity. Available lighting is 
+normally supplemented with a direct source of good lighting at an 
+intensity deemed appropriate. Inspection aids such as mirror, 
+magnifying lenses, etc., may be necessary. Surface cleaning and 
+elaborate procedures may be required.''
+    (3) For the purposes of this AD, a special detailed inspection 
+is: ``An intensive examination of a specific item, installation, or 
+assembly to detect damage, failure, or irregularity. The examination 
+is likely to make extensive use of specialized inspection techniques 
+and/or equipment. Intricate cleaning and substantial access or 
+disassembly procedure may be required.''
+
+(i) No Alternative Inspections, Inspection Intervals, or CDCCLs for 
+Paragraphs (g) and (h) of This AD
+
+    This paragraph restates the requirements of paragraph (i) of AD 
+2012-12-15, Amendment 39-17095 (77 FR 42964, July 23, 2012). Except 
+as required by paragraph (k) of this AD, after accomplishing the 
+actions specified in paragraphs (g) and (h) of this AD, no 
+alternative inspections, inspection intervals, or CDCCLs may be used 
+unless the inspections, intervals, or CDCCLs are approved as an AMOC 
+in accordance with the procedures specified in paragraph (s) of this 
+AD.
+
+(j) Terminating Action for AD 2008-06-03, Amendment 39-15415 (73 FR 
+13081, March 12, 2008)
+
+    This paragraph restates the requirements of paragraph (j) of AD 
+2012-12-15, Amendment 39-17095 (77 FR 42964, July 23, 2012). 
+Incorporating AWLs No. 28-AWL-23, No. 28-AWL-24, and No. 28-AWL-25 
+into the AWLs section of the ICA in accordance with paragraph (g)(3) 
+of this AD or the maintenance program in accordance with paragraph 
+(k)(3) of this AD terminates the action required by paragraph (h)(2) 
+of AD 2008-06-03, Amendment 39-15415 (73 FR 13081, March 12, 2008).
+
+(k) Additional Revision of Airworthiness Limitations (AWLs) Section
+
+    This paragraph restates the requirements of paragraph (k) of AD 
+2012-12-15, Amendment 39-17095 (77 FR 42964, July 23, 2012). Within 
+6 months after August 27, 2012 (the effective date of AD 2012-12-
+15), revise the maintenance program by incorporating the information 
+in the subsections specified in paragraphs (k)(1) through (k)(3) of 
+this AD. Accomplishing the actions required by this paragraph 
+terminates the requirements of paragraph (g) of this AD.
+    (1) Subsection E, ``AIRWORTHINESS LIMITATIONS--FUEL SYSTEMS,'' 
+of Section 9, ``Airworthiness Limitations (AWLs) and Certification 
+Maintenance Requirements (CMRs),'' of the Boeing 757 MPD Document, 
+D622N001-9, Revision December 2008; Boeing TR 09-010, dated July 
+2010, to Section 9, ``Airworthiness Limitations (AWLs) and 
+Certification Maintenance Requirements (CMRs),'' of Boeing 757 MPD 
+Document, D622N001-9; or Boeing TR 09-011, dated November 2010, to 
+Section 9, ``Airworthiness Limitations (AWLs) and Certification 
+Maintenance Requirements (CMRs),'' of the Boeing 757 MPD Document, 
+D622N001-9.
+    (2) Subsection F, ``PAGE FORMAT: FUEL SYSTEMS AIRWORTHINESS 
+LIMITATIONS,'' of Section 9, ``Airworthiness Limitations (AWLs) and 
+Certification Maintenance Requirements (CMRs),'' of the Boeing 757 
+MPD Document, D622N001-9, Revision December 2008; Boeing TR 09-010, 
+dated July 2010, to Section 9, ``Airworthiness Limitations (AWLs) 
+and Certification Maintenance Requirements (CMRs),'' of Boeing 757 
+MPD Document, D622N001-9; or Boeing TR 09-011, dated November 2010, 
+to Section 9, ``Airworthiness Limitations (AWLs) and Certification 
+Maintenance Requirements (CMRs),'' of the Boeing 757 MPD Document, 
+D622N001-9.
+    (3) Subsection G, ``AIRWORTHINESS LIMITATIONS--FUEL SYSTEM 
+AWLs,'' AWLs No. 28-AWL-01 through No. 28-AWL-26 inclusive, of 
+Section 9, ``Airworthiness Limitations (AWLs) and Certification 
+Maintenance Requirements (CMRs),'' of the Boeing 757 MPD Document, 
+D622N001-9, Revision December 2008; Boeing TR 09-010, dated July 
+2010, to Section 9, ``Airworthiness Limitations (AWLs) and 
+Certification Maintenance Requirements (CMRs),'' of Boeing 757 MPD 
+Document, D622N001-9; or Boeing TR 09-011, dated November 2010, to 
+Section 9, ``Airworthiness Limitations (AWLs) and Certification 
+Maintenance Requirements (CMRs),'' of the Boeing 757 MPD Document, 
+D622N001-9.
+    (4) Notwithstanding any other maintenance or operational 
+requirements, components that have been identified as airworthy or 
+installed on the affected airplanes before the revision of the 
+maintenance program, as required by paragraph (g) of this AD, do not 
+need to be reworked in accordance with the CDCCLs. However, once the 
+maintenance program has been revised, future maintenance actions on 
+these components must be done in accordance with the CDCCLs.
+
+(l) Compliance Time for AWL No. 28-AWL-03
+
+    This paragraph restates the requirements of paragraph (l) of AD 
+2012-12-15, Amendment 39-17095 (77 FR 42964, July 23, 2012), with a 
+revised paragraph reference. The initial compliance time for AWL No. 
+28-AWL-03 of Section 9, ``Airworthiness Limitations (AWLs) and 
+Certification Maintenance Requirements (CMRs),'' of the Boeing 757
+
+[[Page 6251]]
+
+MPD Document, D622N001-9, Revision December 2008; Boeing TR 09-010, 
+dated July 2010, to Section 9, ``Airworthiness Limitations (AWLs) 
+and Certification Maintenance Requirements (CMRs),'' of Boeing 757 
+MPD Document, D622N001-9; or Boeing TR 09-011, dated November 2010, 
+to Section 9, ``Airworthiness Limitations (AWLs) and Certification 
+Maintenance Requirements (CMRs),'' of the Boeing 757 MPD Document, 
+D622N001-9; is within 120 months since the date of issuance of the 
+original standard airworthiness certificate or the date of issuance 
+of the original export certificate of airworthiness, or within 24 
+months after August 27, 2012 (the effective date of AD 2012-12-15), 
+whichever occurs later. Accomplishing the actions required by this 
+paragraph terminates the requirements of paragraph (h)(1)(ii) of 
+this AD.
+
+(m) Initial Inspection Compliance Times for AWL No. 28-AWL-25
+
+    This paragraph restates the requirements of paragraph (m) of AD 
+2012-12-15, Amendment 39-17095 (77 FR 42964, July 23, 2012). The 
+initial inspection compliance time for AWL No. 28-AWL-25 of Section 
+9, ``Airworthiness Limitations (AWLs) and Certification Maintenance 
+Requirements (CMRs),'' of the Boeing 757 MPD Document, D622N001-9, 
+Revision December 2008; Boeing TR 09-010, dated July 2010, to 
+Section 9, ``Airworthiness Limitations (AWLs) and Certification 
+Maintenance Requirements (CMRs),'' of Boeing 757 MPD Document, 
+D622N001-9; or Boeing TR 09-011, dated November 2010, to Section 9, 
+``Airworthiness Limitations (AWLs) and Certification Maintenance 
+Requirements (CMRs),'' of the Boeing 757 MPD Document, D622N001-9; 
+is within 72 months after accomplishing the actions specified in 
+Boeing Service Bulletin 757-28A0088 (which is not incorporated by 
+reference in this AD).
+
+(n) Initial Inspection Compliance Times for AWL No. 28-AWL-26
+
+    This paragraph restates the requirements of paragraph (n) of AD 
+2012-12-15, Amendment 39-17095 (77 FR 42964, July 23, 2012). The 
+initial inspection compliance time for AWL No. 28-AWL-26 of Section 
+9, ``Airworthiness Limitations (AWLs) and Certification Maintenance 
+Requirements (CMRs),'' of the Boeing 757 MPD Document, D622N001-9, 
+Revision December 2008; Boeing TR 09-010, dated July 2010, to 
+Section 9, ``Airworthiness Limitations (AWLs) and Certification 
+Maintenance Requirements (CMRs),'' of Boeing 757 MPD Document, 
+D622N001-9; or Boeing TR 09-011, dated November 2010, to Section 9, 
+``Airworthiness Limitations (AWLs) and Certification Maintenance 
+Requirements (CMRs),'' of the Boeing 757 MPD Document, D622N001-9; 
+is within 12 months after accomplishing the actions specified in 
+Boeing Service Bulletin 757-28A0105 (which is not incorporated by 
+reference in this AD).
+
+(o) No Alternative Inspections, Inspection Intervals, or CDCCLs After 
+the Actions Required by Paragraph (k) of This AD Are Done
+
+    This paragraph restates the requirements of paragraph (o) of AD 
+2012-12-15, Amendment 39-17095 (77 FR 42964, July 23, 2012). After 
+accomplishing the actions specified in paragraph (k) of this AD, no 
+alternative inspections, inspection intervals, or CDCCLs may be used 
+unless the inspections, intervals, or CDCCLs are approved as an AMOC 
+in accordance with the procedures specified in paragraph (s) of this 
+AD.
+
+(p) Terminating Action for AD 2008-11-07, Amendment 39-15529 (73 FR 
+30755, May 29, 2008)
+
+    This paragraph restates the requirements of paragraph (p) of AD 
+2012-12-15, Amendment 39-17095 (77 FR 42964, July 23, 2012). 
+Incorporating AWLs No. 28-AWL-20 and No. 28-AWL-26 into the 
+maintenance program in accordance with paragraph (k)(3) of this AD 
+terminates the actions required by paragraphs (j) and (m) of AD 
+2008-11-07, Amendment 39-15529 (73 FR 30755, May 29, 2008).
+
+(q) Terminating Action for AD 2009-06-20, Amendment 39-15857 (74 FR 
+12236, March 24, 2009)
+
+    This paragraph restates the requirements of paragraph (q) of AD 
+2012-12-15, Amendment 39-17095 (77 FR 42964, July 23, 2012). 
+Incorporating AWL No. 28-AWL-22 into the maintenance program in 
+accordance with paragraph (k)(3) of this AD terminates the actions 
+required by paragraph (h) of AD 2009-06-20, Amendment 39-15857 (74 
+FR 12236, March 24, 2009).
+
+(r) Credit for Previous Actions
+
+    This paragraph restates the credit given for previous actions 
+specified in paragraph (r) of AD 2012-12-15, Amendment 39-17095 (77 
+FR 42964, July 23, 2012).
+    (1) This paragraph provides credit for actions required by 
+paragraphs (g) and (h) of this AD, if those actions were done before 
+June 12, 2008 (the effective date of AD 2008-10-11, Amendment 39-
+15517 (73 FR 25974, May 8, 2008)), using Section 9, ``Airworthiness 
+Limitations (AWLs) and Certification Maintenance Requirements 
+(CMRs),'' of the Boeing 757 MPD Document, D622N001-9, Revision March 
+2006; Revision October 2006; Revision January 2007; or Revision 
+November 2007 (which are not incorporated by reference in this AD).
+    (2) This paragraph provides credit for actions required by 
+paragraphs (m) and (n) of this AD, if those actions were done before 
+August 27, 2012 (the effective date of AD 2012-12-15, Amendment 39-
+17095 (77 FR 42964, July 23, 2012)), using Boeing TR 09-008, dated 
+March 2008, to Section 9, ``Airworthiness Limitations (AWLs) and 
+Certification Maintenance Requirements (CMRs),'' of the Boeing 757 
+MPD Document, D622N001-9 (which was incorporated by reference in AD 
+2008-10-11, Amendment 39-15517 (73 FR 25974, May 8, 2008)).
+
+(s) Alternative Methods of Compliance (AMOCs)
+
+    (1) The Manager, Seattle Aircraft Certification Office (ACO), 
+FAA, has the authority to approve AMOCs for this AD, if requested 
+using the procedures found in 14 CFR 39.19. In accordance with 14 
+CFR 39.19, send your request to your principal inspector or local 
+Flight Standards District Office, as appropriate. If sending 
+information directly to the manager of the ACO, send it to the 
+attention of the person identified in the Related Information 
+section of this AD. Information may be emailed to: [email protected].
+    (2) Before using any approved AMOC, notify your appropriate 
+principal inspector, or lacking a principal inspector, the manager 
+of the local flight standards district office/certificate holding 
+district office.
+    (3) AMOCs approved previously for AD 2008-10-11, Amendment 39-
+15517 (73 FR 25974, May 8, 2008); or for 2012-12-15, Amendment 39-
+17095 (77 FR 42964, July 23, 2012); are approved as AMOCs for the 
+corresponding provisions of this AD.
+
+(t) Related Information
+
+    (1) For more information about this AD, contact Kevin Nguyen, 
+Aerospace Engineer, Propulsion Branch, ANM-140S, FAA, Seattle ACO, 
+1601 Lind Avenue SW., Renton, Washington 98057-3356; phone: 425-917-
+6501; fax: 425-917-6590; email: [email protected].
+    (2) For service information identified in this AD, contact 
+Boeing Commercial Airplanes, Attention: Data & Services Management, 
+P.O. Box 3707, MC 2H-65, Seattle, WA 98124-2207; telephone 206-544-
+5000, extension 1; fax 206-766-5680; Internet https://www.myboeingfleet.com. You may review copies of the referenced 
+service information at the FAA, Transport Airplane Directorate, 1601 
+Lind Avenue SW., Renton, WA. For information on the availability of 
+this material at the FAA, call 425-227-1221.
+
+    Issued in Renton, Washington, on January 17, 2013.
+Michael Kaszycki,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2013-01953 Filed 1-29-13; 8:45 am]
+BILLING CODE 4910-13-P
+
+

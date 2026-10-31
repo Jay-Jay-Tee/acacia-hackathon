@@ -1,0 +1,377 @@
+
+[Federal Register Volume 71, Number 102 (Friday, May 26, 2006)]
+[Proposed Rules]
+[Pages 30343-30346]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E6-8121]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2005-19676; Directorate Identifier 2004-NM-138-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Empresa Brasileira de Aeronautica S.A. 
+(EMBRAER) Model EMB-135BJ, -135ER, -135KE, -135KL, and -135LR 
+Airplanes; and Model EMB-145, -145ER, -145MR, -145LR, -145XR, -145MP, 
+and -145EP Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Supplemental notice of proposed rulemaking (NPRM); reopening of 
+comment period.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is revising an earlier NPRM for an airworthiness 
+directive (AD) that applies to certain EMBRAER Model EMB-135 and -145 
+series airplanes. The original NPRM would have required determining the 
+torque values of the screws that attach the seat tracks to the 
+airplane, and corrective action if necessary. The original NPRM 
+resulted from a report of undertorqued screws. This action revises the 
+original NPRM by referring to revised service information and expanding 
+the applicability. We are proposing this supplemental NPRM to prevent 
+improper torque of those screws, which in the case of a hard landing or 
+a high deceleration impact condition could result in damage to the seat 
+and possible subsequent injury to the passenger.
+
+DATES: We must receive comments on this supplemental NPRM by June 20, 
+2006.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this supplemental NPRM.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility; U.S. Department of 
+Transportation, 400
+
+[[Page 30344]]
+
+Seventh Street, SW., Nassif Building, Room PL-401, Washington, DC 
+20590.
+     Fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street, SW., Washington, DC, between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    Contact Empresa Brasileira de Aeronautica S.A. (EMBRAER), P.O. Box 
+343--CEP 12.225, Sao Jose dos Campos--SP, Brazil, for service 
+information identified in this proposed AD.
+
+FOR FURTHER INFORMATION CONTACT: Todd Thompson, Aerospace Engineer, 
+International Branch, ANM-116, Transport Airplane Directorate, FAA, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+227-1175; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to submit any relevant written data, views, or 
+arguments regarding this supplemental NPRM. Send your comments to an 
+address listed in the ADDRESSES section. Include the docket number 
+``Docket No. FAA-2005-19676; Directorate Identifier 2004-NM-138-AD'' at 
+the beginning of your comments. We specifically invite comments on the 
+overall regulatory, economic, environmental, and energy aspects of this 
+supplemental NPRM. We will consider all comments received by the 
+closing date and may amend this supplemental NPRM in light of those 
+comments.
+    We will post all comments submitted, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this supplemental NPRM. Using the search function 
+of that web site, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You may review the DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or you 
+may visit http://dms.dot.gov.
+
+Examining the Docket
+
+    You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level in the Nassif Building at the DOT 
+street address stated in ADDRESSES. Comments will be available in the 
+AD docket shortly after the Docket Management System receives them.
+
+Discussion
+
+    We proposed to amend 14 CFR part 39 with a notice of proposed 
+rulemaking (NPRM) for an airworthiness directive (AD) (the ``original 
+NPRM''). The original NPRM applies to certain EMBRAER Model EMB-135 and 
+-145 series airplanes. The original NPRM was published in the Federal 
+Register on November 24, 2004 (69 FR 68270). The original NPRM proposed 
+to require determining the torque values of the screws that attach the 
+seat tracks to the airplane, and corrective action if necessary.
+
+Explanation of New Service Information
+
+    Since we issued the proposed AD, EMBRAER has revised Service 
+Bulletin 145-53-0049. The proposed AD cited the original service 
+bulletin, dated February 16, 2004. Revision 03, dated August 10, 2005:
+     Revises the effectivity.
+     Provides corrected torque values.
+     Reduces the number of screws to be inspected (for non-EMB-
+145XR airplanes only) to the passenger seat attachment point screw and 
+the three screws immediately before and after this point.
+    EMBRAER has also revised Service Bulletin 145LEG-53-0015. The 
+proposed AD cited the original service bulletin, dated February 16, 
+2004. Revision 02, dated May 19, 2005, revises the effectivity and 
+provides corrected torque values.
+    Accomplishing the actions specified in the service information is 
+intended to adequately address the unsafe condition. The Departmento de 
+Aviacao Civil (DAC), which is the airworthiness authority for Brazil, 
+mandated the service information and issued revised Brazilian 
+airworthiness directive 2004-05-03R1, effective September 16, 2005, to 
+ensure the continued airworthiness of these airplanes in Brazil.
+
+Comments
+
+    We have considered the following comments on the original NPRM.
+
+Request To Clarify Required Torque Values
+
+    The commenter, ExpressJet, Inc., notes a discrepancy in the torque 
+values specified in the original version of Service Bulletin 145-53-
+0049 and the aircraft maintenance manual (AMM II, at 53-01-06). The 
+commenter notes that the torque values should be the same in the 
+service bulletin and the AMM to ensure that the standards of the AD are 
+maintained for post-modification airplanes.
+    We agree. As explained previously, the correct torque values are 
+provided in revised Service Bulletins 145-53-0049 and 145LEG-53-0015. 
+We have confirmed with the manufacturer that it would not be possible 
+to achieve the incorrect torque values specified in the original 
+service bulletins. We have revised this supplemental NPRM to refer to 
+the revised service bulletins for the required actions.
+
+Request To Remove Requirement To Apply Torque Seal
+
+    The same commenter requests that we remove the proposed requirement 
+to apply the torque seal. The commenter notes that, during installation 
+(and any subsequent removal), torque seal is applied to the face of the 
+attachment screw and the track where the seat attachment point contacts 
+the track. Because the seat has to slide in the track a little to 
+position correctly, the commenter contends that any evidence of torque 
+seal at the seat attachment point will be removed or otherwise 
+obliterated. And if the torque seal can be so easily removed, the 
+commenter suggests that applying it is unnecessary. ExpressJet reports 
+that no torque seal has been found on the seat track fasteners of 25 
+(newly affected) airplanes in its fleet.
+    We agree. The service bulletins merely recommend the torque seal 
+application. We have removed this requirement from paragraph (f) in 
+this supplemental NPRM.
+
+Request To Revise Compliance Time
+
+    The same commenter requests that the torque check be done once 
+during the C-check, but provides no justification for the request.
+    We disagree with the request. We have determined that the 
+compliance time, as proposed, represents the maximum interval of time 
+allowable for the affected airplanes to continue to safely operate 
+before the torque check is done. Since maintenance schedules vary among 
+operators, there would be no assurance that the torque check would be 
+done during that maximum interval. However, according to the provisions 
+of paragraph (h) in this supplemental NPRM, we may approve requests to 
+adjust the compliance time if the request includes data proving that a 
+different compliance time would provide an acceptable level of safety.
+
+[[Page 30345]]
+
+Additional Changes To Original NPRM
+
+    We have revised this action to clarify the appropriate procedure 
+for notifying the principal inspector before using any approved AMOC on 
+any airplane to which the AMOC applies.
+    We have revised the applicability of the original NPRM to identify 
+model designations as published in the most recent type certificate 
+data sheet for the affected models.
+    After the original NPRM was issued, we reviewed the figures we have 
+used over the past several years to calculate AD costs to operators. To 
+account for various inflationary costs in the airline industry, we find 
+it necessary to increase the labor rate used in these calculations from 
+$65 per work hour to $80 per work hour. The cost impact information, 
+below, reflects this increase in the specified hourly labor rate.
+
+FAA's Determination and Proposed Requirements of the Supplemental NPRM
+
+    Certain changes discussed above expand the scope of the original 
+NPRM; therefore, we have determined that it is necessary to reopen the 
+comment period to provide additional opportunity for public comment on 
+this supplemental NPRM.
+
+Costs of Compliance
+
+    The following table provides the estimated costs for U.S. operators 
+to comply with this supplemental NPRM. This supplemental NPRM would 
+affect about 539 airplanes of U.S. registry.
+
+                                                 Estimated Costs
+----------------------------------------------------------------------------------------------------------------
+                                                            Average
+                Airplane(s)                   Work hours  labor rate/              Parts                Cost/
+                                                              hour                                     airplane
+----------------------------------------------------------------------------------------------------------------
+EMB-135 BJ.................................           24          $80  Minimal.....................       $1,920
+Others.....................................           28           80  Minimal.....................        2,240
+----------------------------------------------------------------------------------------------------------------
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this supplemental NPRM and placed it in the AD docket. See 
+the ADDRESSES section for a location to examine the regulatory 
+evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The Federal Aviation Administration (FAA) amends Sec.  39.13 by 
+adding the following new airworthiness directive (AD):
+
+EMPRESA BRASILEIRA DE AERONAUTICA S.A. (EMBRAER): Docket No. FAA-
+2005-19676; Directorate Identifier 2004-NM-138-AD.
+
+Comments Due Date
+
+    (a) The FAA must receive comments on this AD action by June 20, 
+2006.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to EMBRAER Model EMB-135BJ, -135ER, -135KE, 
+-135KL, and -135LR airplanes; and EMB-145, -145ER, -145MR, -145LR, -
+145XR, -145MP, and -145EP airplanes; certificated in any category; 
+as listed in EMBRAER Service Bulletin 145LEG-53-0015, Revision 02, 
+dated May 19, 2005, or 145-53-0049, Revision 03, dated August 10, 
+2005.
+
+Unsafe Condition
+
+    (d) This AD was prompted by a report indicating that some screws 
+that attach the passenger seat tracks were undertorqued. We are 
+issuing this AD to prevent improper torque of those screws, which in 
+the case of a hard landing or a high deceleration impact condition 
+could result in damage to the seat and possible subsequent injury to 
+the passenger.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Inspection
+
+    (f) Within 5,000 flight hours or 36 months after the effective 
+date of this AD, whichever occurs first, determine the torque values 
+of the applicable screws that attach the seat tracks to the 
+airplane. Use the Accomplishment Instructions of EMBRAER Service 
+Bulletin 145LEG-53-0015, Revision 02, dated May 19, 2005 (for Model 
+EMB-135BJ airplanes), or Service Bulletin 145-53-0049, Revision 03, 
+dated August 10, 2005 (for the remaining airplanes). For any screw 
+that has a torque value outside the limits specified in the service 
+bulletin: Before further flight, retorque the screw in accordance 
+with the Accomplishment Instructions of the service bulletin. 
+Although the service bulletins recommend applying torque seal to the 
+heads of the screws, this AD does not require that action.
+
+[[Page 30346]]
+
+Credit for Prior Accomplishment
+
+    (g) Accomplishment of actions specified in the applicable 
+service bulletin listed in Table 1 of this AD is also acceptable for 
+compliance with the corresponding requirements of this AD.
+
+                                       Table 1.--Credit Service Bulletins
+----------------------------------------------------------------------------------------------------------------
+            EMBRAER Service Bulletin                Revision                          Date
+----------------------------------------------------------------------------------------------------------------
+145LEG-53-0015..................................           01  September 1, 2004.
+145-53-0049.....................................           01  September 1, 2004.
+                                                           02  November 26, 2004.
+----------------------------------------------------------------------------------------------------------------
+
+Alternative Methods of Compliance (AMOCs)
+
+    (h)(1) The Manager, International Branch, ANM-116, Transport 
+Airplane Directorate, FAA, has the authority to approve AMOCs for 
+this AD, if requested in accordance with the procedures found in 14 
+CFR 39.19.
+    (2) Before using any AMOC approved in accordance with 14 CFR 
+39.19 on any airplane to which the AMOC applies, notify the 
+appropriate principal inspector in the FAA Flight Standards 
+Certificate Holding District Office.
+
+Related Information
+
+    (i) Brazilian airworthiness directive 2004-05-03R1, effective 
+September 16, 2005, also addresses the subject of this AD.
+
+    Issued in Renton, Washington, on May 18, 2006.
+Kevin M. Mullin,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. E6-8121 Filed 5-25-06; 8:45 am]
+BILLING CODE 4910-13-P
+
+

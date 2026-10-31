@@ -1,0 +1,283 @@
+
+[Federal Register Volume 73, Number 37 (Monday, February 25, 2008)]
+[Proposed Rules]
+[Pages 9970-9971]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E8-3463]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2007-0242; Directorate Identifier 2007-NE-51-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; General Electric Company CF6-80C2 and 
+CF6-80E1 Series Turbofan Engines
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) 
+for General Electric Company (GE) CF6-80C2 and CF6-80E1 series turbofan 
+engines. This proposed AD would require replacement of all clevis pins 
+installed on the thrust reverser central drive units and upper and 
+lower actuators, or replacement of pins that fail an on-wing rebound 
+hardness test. This proposed AD results from failure of a thrust 
+reverser during landing due to unapproved clevis pins being installed. 
+The failure was due to lack of clevis pin hardness. We are proposing 
+this AD to prevent thrust reverser failure, which could lead to damage 
+to the thrust reverser and airplane.
+
+DATES: We must receive any comments on this proposed AD by April 25, 
+2008.
+
+ADDRESSES: Use one of the following addresses to comment on this 
+proposed AD.
+     Federal eRulemaking Portal: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility, U.S. Department of 
+Transportation, 1200 New Jersey Avenue, SE., West Building Ground 
+Floor, Room W12-140, Washington, DC 20590-0001.
+     Hand Delivery: Deliver to Mail address above between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+     Fax: (202) 493-2251.
+
+FOR FURTHER INFORMATION CONTACT: Christopher Richards, Aerospace 
+Engineer, Engine Certification Office, FAA, Engine and Propeller 
+Directorate, 12 New England Executive Park, Burlington, MA 01803; e-
+mail: [email protected]; telephone: (781) 238-7133, fax: 
+(781) 238-7199.
+
+SUPPLEMENTARY INFORMATION: 
+
+Comments Invited
+
+    We invite you to send us any written relevant data, views, or 
+arguments regarding this proposal. Send your comments to an address 
+listed under ADDRESSES. Include ``Docket No. FAA-2007-0242; Directorate 
+Identifier 2007-NE-51-AD'' in the subject line of your comments. We 
+specifically invite comments on the overall regulatory, economic, 
+environmental, and energy aspects of the proposed AD. We will consider 
+all comments received by the closing date and may amend the proposed AD 
+in light of those comments.
+    We will post all comments we receive, without change, to http://www.regulations.gov, including any personal information you provide. We 
+will also post a report summarizing each substantive verbal contact 
+with FAA personnel concerning this proposed AD. Using the search 
+function of the Web site, anyone can find and read the comments in any 
+of our dockets, including, if provided, the name of the individual who 
+sent the comment (or signed the comment on behalf of an association, 
+business, labor union, etc.). You may review the DOT's complete Privacy 
+Act Statement in the Federal Register published on April 11, 2000 (65 
+FR 19477-78).
+
+Examining the AD Docket
+
+    You may examine the AD docket on the Internet at http://www.regulations.gov; or in person at the Docket Operations office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this proposed AD, the regulatory 
+evaluation, any comments received, and other information. The street 
+address for the Docket Operations office (telephone (800) 647-5527) is 
+the same as the mail address provided in the ADDRESSES section. 
+Comments will be available in the AD docket shortly after receipt.
+
+Discussion
+
+    In January 2007, an MD-11 airplane landed with one actuator on a 
+thrust reverser inoperative. When a single actuator is inoperative, the 
+thrust reversers are designed to continue normal operation until the 
+next inspection. Upon landing, the thrust reversers deployed and two of 
+the clevis pins failed on the thrust reverser with one actuator 
+inoperative. These failures caused a transcowl to separate from the 
+thrust reverser damaging the thrust reverser and airplane, and causing 
+the transcowl to become hazardous debris on the runway. Investigation 
+revealed that:
+     The lower actuator on the affected thrust reverser had 
+failed some time before the incident; and
+     Of the three thrust reverser central drive unit clevis 
+pins affected, one clevis pin was found sheared in half, with part of 
+the pin still in place in the rod-end bearing and clevis. The pin was 
+an unapproved part, made of carbon steel alloy, which had too low a 
+strength and hardness for this application.
+     One of the clevis pins remained installed, and was found 
+to be an approved part clevis pin and with the correct hardness of 31 
+to 38 Rockwell Hardness (C Scale).
+     The third clevis pin was not found.
+
+This condition, if not corrected, could result in thrust reverser 
+failure, which could lead to damage to the thrust reverser and 
+airplane.
+
+[[Page 9971]]
+
+FAA's Determination and Requirements of the Proposed AD
+
+    We have evaluated all pertinent information and identified an 
+unsafe condition that is likely to exist or develop on other products 
+of this same type design. We are proposing this AD, which would require 
+replacement of all clevis pins installed on the thrust reverser central 
+drive units and upper and lower actuators, or replacement of pins that 
+fail a rebound hardness test.
+
+Costs of Compliance
+
+    We estimate that this proposed AD would affect 802 CF6-80C2 series 
+turbofan engines installed on airplanes of U.S. registry. We also 
+estimate that it would take about one work-hour per engine to perform 
+the proposed rebound hardness test and three work-hours per engine to 
+replace the six pins. The average labor rate is $80 per work-hour. Pins 
+cost about $144 per pin. If all pins are replaced, we estimate the 
+total cost of the proposed AD to U.S. operators to be $949,568. CF6-
+80E1 series turbofan engines are not currently installed on U.S. 
+registered airplanes, so we did not estimate any cost for them.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed AD:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Would not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD. You may get a copy of this summary at the 
+address listed under ADDRESSES.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Under the authority delegated to me by the Administrator, the 
+Federal Aviation Administration proposes to amend 14 CFR part 39 as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The FAA amends Sec.  39.13 by adding the following new 
+airworthiness directive:
+
+General Electric Company: Docket No. FAA-2007-0242; Directorate 
+Identifier 2007-NE-51-AD.
+
+Comments Due Date
+
+    (a) The Federal Aviation Administration (FAA) must receive 
+comments on this airworthiness directive (AD) action by April 25, 
+2008.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to General Electric Company (GE) CF6-80C2 
+and CF6-80E1 series turbofan engines. These engines are installed 
+on, but not limited to, Airbus A300-600/R/F, A310-200/-300, and 
+A330-200/-300 airplanes, Boeing 747-300/-400/-400ER, and 767-200/-
+200ER/-300/-300ER/-400ER airplanes, and MD-11 airplanes.
+
+Unsafe Condition
+
+    (d) This AD results from failure of a thrust reverser during 
+landing due to unapproved clevis pins being installed. The failure 
+was due to lack of clevis pin hardness. We are issuing this AD to 
+prevent thrust reverser failure, which could lead to damage to the 
+thrust reverser and airplane.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within 18 months or 4,500 flight hours after the 
+effective date of this AD, whichever occurs first, unless the 
+actions have already been done.
+    (f) Replace the six clevis pins installed on the thrust reverser 
+central drive units and actuators with clevis pins that pass the 
+hardness test identified in paragraphs (g)(1) through (g)(4) below; 
+or
+    (g) Perform a rebound hardness test of installed thrust reverser 
+central drive unit and actuator clevis pins as follows:
+    (1) Remove any corrosion from the head of the pin.
+    (2) Perform the rebound hardness test on the head of the clevis 
+pin.
+    (3) If the hardness measured is outside of the range of 31 to 38 
+Rockwell Hardness (C Scale), replace the clevis pin with an approved 
+part clevis pin.
+    (4) If the hardness measured is within the range of 31 to 38 
+Rockwell Hardness (C Scale), and the pin has no visible defects, the 
+clevis pin can remain in service, as allowed per the engine 
+maintenance manual.
+    (5) Perform the steps in paragraphs (g)(1) through (g)(4) to all 
+six clevis pins on the thrust reverser.
+
+Install Approved Part Clevis Pins
+
+    (h) After the effective date of this AD, do not install any 
+thrust reverser central drive unit and actuator clevis pins that do 
+not pass the hardness test of paragraphs (g)(1) through (g)(4) of 
+this AD.
+
+Alternative Methods of Compliance
+
+    (i) The Manager, Engine Certification Office, has the authority 
+to approve alternative methods of compliance for this AD if 
+requested using the procedures found in 14 CFR 39.19.
+
+Related Information
+
+    (j) Contact Christopher Richards, Aerospace Engineer, Engine 
+Certification Office, FAA, Engine and Propeller Directorate, 12 New 
+England Executive Park, Burlington, MA 01803; e-mail: 
+[email protected]; telephone: (781) 238-7133, fax: (781) 
+238-7199, for more information about this AD.
+
+    Issued in Burlington, Massachusetts, on February 15, 2008.
+Peter A. White,
+Assistant Manager, Engine and Propeller Directorate, Aircraft 
+Certification Service.
+ [FR Doc. E8-3463 Filed 2-22-08; 8:45 am]
+BILLING CODE 4910-13-P
+
+

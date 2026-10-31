@@ -1,0 +1,131 @@
+
+[Federal Register Volume 78, Number 77 (Monday, April 22, 2013)]
+[Proposed Rules]
+[Pages 23685-23686]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2013-09418]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2011-0153; Directorate Identifier 2010-NM-022-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; The Boeing Company
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for certain The Boeing 
+Company Model 777-200 and -300 series airplanes. The proposed AD would 
+have required removing the electrical system control panel, changing 
+the wiring, installing a new electrical power control panel, and 
+installing new operational software for the electrical load management 
+system and configuration database. Since the proposed AD was issued, we 
+have received new data that indicates the unsafe condition would not be 
+adequately addressed by the proposed action. Subsequently, we are 
+considering issuing new rulemaking that positively addresses the unsafe 
+condition identified in the NPRM and eliminates the need for the 
+actions proposed in the NPRM. Accordingly, the proposed AD is 
+withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://www.regulations.gov; or in person at the Docket Management Facility 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this AD action, the regulatory 
+evaluation, any comments received, and other information. The street 
+address for the Docket Office (phone: 800-647-5527) is the Document 
+Management Facility, U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue SE., Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Ray Mei, Aerospace Engineer, Systems 
+and Equipment Branch, ANM-130S, FAA, Seattle Aircraft Certification 
+Office,
+
+[[Page 23686]]
+
+1601 Lind Avenue SW., Renton, WA 98057-3356; phone: 425-917-6467; fax: 
+425-917-6590; email: [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for certain Model 777-200 and -300 series airplanes. That NPRM 
+published in the Federal Register on March 8, 2011 (76 FR 12617). The 
+NPRM would have required removing the electrical system control panel, 
+changing the wiring, installing a new electrical power control panel, 
+and installing new operational software for the electrical load 
+management system and configuration database. The NPRM resulted from an 
+in-flight entertainment (IFE) systems review. The proposed actions were 
+intended to ensure that the flightcrew is able to turn off electrical 
+power to the IFE system and other non-essential electrical systems 
+through a switch in the flight compartment in the event of smoke or 
+flames. In the event of smoke or flames in the airplane flight deck or 
+passenger cabin, the flightcrew's inability to turn off electrical 
+power to the IFE system and other non-essential electrical systems 
+could result in the inability to control smoke or flames in the 
+airplane flight deck or passenger cabin during a non-normal or 
+emergency situation.
+
+Actions Since NPRM (76 FR 12617, March 8, 2011) Was Issued
+
+    Since we issued the NPRM (76 FR 12617, March 8, 2011), we have 
+received new data that indicates the unsafe condition would not be 
+adequately addressed by the proposed action. Subsequently, we are 
+considering issuing new rulemaking that positively addresses the unsafe 
+condition identified in the NPRM and eliminates the need for the 
+actions proposed in the NPRM.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the unsafe 
+condition still exists, however, we intend to address it with new AD 
+rulemaking. Accordingly, the NPRM (76 FR 12617, March 8, 2011) is 
+withdrawn.
+    Withdrawal of the NPRM (76 FR 12617, March 8, 2011) does not 
+preclude the FAA from issuing another related action or commit the FAA 
+to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM (76 FR 12617, March 8, 
+2011), it is neither a proposed nor a final rule and therefore is not 
+covered under Executive Order 12866, the Regulatory Flexibility Act, or 
+DOT Regulatory Policies and Procedures (44 FR 11034, February 26, 
+1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2011-0153, 
+Directorate Identifier 2010-NM-022-AD, which published in the Federal 
+Register on March 8, 2011 (76 FR 12617).
+
+    Issued in Renton, Washington, on February 1, 2013.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2013-09418 Filed 4-19-13; 8:45 am]
+BILLING CODE 4910-13-P
+
+

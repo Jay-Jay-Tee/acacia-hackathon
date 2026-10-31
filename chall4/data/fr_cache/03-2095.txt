@@ -1,0 +1,436 @@
+
+[Federal Register Volume 68, Number 20 (Thursday, January 30, 2003)]
+[Proposed Rules]
+[Pages 4727-4729]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 03-2095]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2001-NM-152-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; McDonnell Douglas Model DC-8-11, DC-8-
+12, DC-8-21, DC-8-31, DC-8-32, DC-8-33, DC-8-41, DC-8-42, and DC-8-43 
+Airplanes; DC-8-50 Series Airplanes; DC-8-61 Airplanes; DC-8-61F 
+Airplanes; DC-8-71 Airplanes, and DC-8-71F Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes to revise an existing airworthiness 
+directive (AD), applicable to certain McDonnell Douglas airplanes. That 
+AD currently requires visual or eddy current inspections of the left 
+and right wing front spar lower caps to detect cracks migrating from 
+attachment holes; and repair, if necessary. That AD also requires a 
+terminating modification of the front spar lower cap. That AD was 
+prompted by a report that additional cracking was found in the front 
+spar lower cap of a wing. The actions specified by that AD are intended 
+to prevent reduced structural integrity of the left or right wing due 
+to metal fatigue failure of the front spar lower cap. This action would 
+extend the compliance time for the follow-on inspection after 
+accomplishment of the terminating modification.
+
+DATES: Comments must be received by March 17, 2003.
+
+ADDRESSES: Submit comments in triplicate to the Federal Aviation 
+Administration (FAA), Transport Airplane Directorate, ANM-114, 
+Attention: Rules Docket No. 2001-NM-152-AD, 1601 Lind Avenue, SW., 
+Renton, Washington 98055-4056. Comments may be inspected at this 
+location between 9 a.m. and 3 p.m., Monday through Friday, except 
+Federal holidays. Comments may be submitted via fax to (425) 227-1232. 
+Comments may also be sent via the Internet using the following address: 
+[email protected]. Comments sent via fax or the Internet must 
+contain ``Docket No. 2001-NM-152-AD'' in the subject line and need not 
+be submitted in triplicate. Comments sent via the Internet as attached 
+electronic files must be formatted in Microsoft Word 97 for Windows or 
+ASCII text.
+    The service information referenced in the proposed rule may be 
+obtained from Boeing Commercial Aircraft Group, Long Beach Division, 
+3855 Lakewood Boulevard, Long Beach, California 90846, Attention: Data 
+and Service Management, Dept. C1-L5A (D800-0024). This information may 
+be examined at the FAA, Transport Airplane Directorate, 1601 Lind 
+Avenue, SW., Renton, Washington; or at the FAA, Los Angeles Aircraft 
+Certification Office, 3960 Paramount Boulevard, Lakewood, California.
+
+FOR FURTHER INFORMATION CONTACT: Jon Mowery, Aerospace Engineer, 
+Airframe Branch, ANM-120L, FAA, Los Angeles Aircraft Certification 
+Office, 3960 Paramount Boulevard, Lakewood, California 90712; telephone 
+(562) 627-5231; fax (562) 627-5210.
+
+SUPPLEMENTARY INFORMATION: 
+
+Comments Invited
+
+    Interested persons are invited to participate in the making of the 
+proposed rule by submitting such written data, views, or arguments as 
+they may desire. Communications shall identify the Rules Docket number 
+and be submitted in triplicate to the address specified above. All 
+communications received on or before the closing date for comments, 
+specified above, will be considered before taking action on the 
+proposed rule. The proposals contained in this action may be changed in 
+light of the comments received.
+    Submit comments using the following format:
+    [sbull] Organize comments issue-by-issue. For example, discuss a 
+request to change the compliance time and a request to change the 
+service bulletin reference as two separate issues.
+    [sbull] For each issue, state what specific change to the proposed 
+AD is being requested.
+    [sbull] Include justification (e.g., reasons or data) for each 
+request.
+    Comments are specifically invited on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed rule. All 
+comments submitted will be available, both before and after the closing 
+date for comments, in the Rules Docket for examination by interested 
+persons. A report summarizing each FAA-public contact concerned with 
+the substance of this proposal will be filed in the Rules Docket.
+    Commenters wishing the FAA to acknowledge receipt of their comments 
+submitted in response to this action must submit a self-addressed, 
+stamped postcard on which the following statement is made: ``Comments 
+to Docket Number 2001-NM-152-AD.'' The postcard will be date stamped 
+and returned to the commenter.
+
+Availability of NPRMs
+
+    Any person may obtain a copy of this NPRM by submitting a request 
+to the FAA, Transport Airplane Directorate, ANM-114, Attention: Rules 
+Docket No. 2001-NM-152-AD, 1601 Lind Avenue, SW., Renton, Washington 
+98055-4056.
+
+Discussion
+
+    On March 12, 2001, the FAA issued AD 2001-06-02, amendment 39-12149 
+(66 FR 16107, March 23, 2001), applicable to McDonnell Douglas Model 
+DC-8 series airplanes, as listed in McDonnell Douglas Service Bulletin 
+DC-8-57-090, Revision 05, dated June 16, 1997. That AD requires visual 
+or eddy current inspections of the left and right wing front spar lower 
+caps to detect cracks migrating from attachment holes; and repair, if 
+necessary. That AD also requires a terminating modification of the 
+front spar lower cap and a follow-on inspection. That action was 
+prompted by a report that additional cracking was found in the front 
+spar lower cap of a wing. The requirements of that AD are intended to 
+prevent reduced structural integrity of the left or right wing due to 
+metal fatigue failure of the front spar lower cap.
+
+[[Page 4728]]
+
+Actions Since Issuance of Previous Rule
+
+    Since the issuance of that AD, the FAA has received information 
+that the compliance time for the follow-on inspection after 
+accomplishment of the terminating modification should be within 32,900 
+landings after the modification rather than within 32,900 flight hours. 
+The compliance time based on landings is longer than that based on 
+flight hours, since the fleet averages 2.7 flight hours for every 
+landing. The FAA has determined that extending the compliance time for 
+the follow-on inspection after the terminating modification will 
+provide an acceptable level of safety.
+
+Explanation of Requirements of Proposed Rule
+
+    Since an unsafe condition has been identified that is likely to 
+exist or develop on other products of this same type design, the 
+proposed AD would continue to require modification of the lower front 
+spar cap and a follow-on inspection. However, the proposed AD would 
+change the compliance time for the follow-on inspection from 32,900 
+flight hours to 32,900 landings after the modification.
+
+Explanation of Change to Applicability in Proposed AD
+
+    The FAA has revised the applicability of the existing AD to 
+identify model designations as published in the most recent type 
+certificate data sheet for the affected models. The existing AD 
+specifies the applicability as Model DC-8 series airplanes, as listed 
+in McDonnell Douglas Service Bulletin DC8-57-090, Revision 05, dated 
+June 16, 1997.'' The proposed AD specifies the applicability as 
+``McDonnell Douglas Model DC-8-11, DC-8-12, DC-8-21, DC-8-31, DC-8-32, 
+DC-8-33, DC-8-41, DC-8-42, and DC-8-43 airplanes; DC-8-50 series 
+airplanes; DC-8-61 airplanes; DC-8-61F airplanes; DC-8-71 airplanes, 
+and DC-8-71F airplanes.''
+
+Cost Impact
+
+    There are approximately 264 Model DC-8 series airplanes of the 
+affected design in the worldwide fleet. The FAA estimates that 244 
+airplanes of U.S. registry would be affected by this proposed AD.
+    The initial and repetitive eddy current inspection currently 
+required by AD 2001-06-02 takes approximately 2 work hours per airplane 
+to accomplish at an average labor rate of $60 per work hour. Based on 
+these figures, the cost impact of the currently required inspections on 
+U.S. operators is estimated to be $29,280, or $120 per airplane, per 
+inspection cycle.
+    The preventive modification currently required by AD 2001-06-02 
+takes approximately 12 to 14 work hours per airplane to accomplish at 
+an average labor rate of $60 per work hour. Required parts cost between 
+$303 and $1,202 per airplane. Based on these figures, the cost impact 
+of the currently required preventive modification on U.S. operators is 
+estimated to be between $256,773 and $512,542, or between $1,023 and 
+$2,042, per airplane.
+    The follow-on (post-modification) inspection currently required by 
+AD 2001-06-02 takes approximately 2 work hours per airplane to 
+accomplish at an average labor rate of $60 per work hour. Based on 
+these figures, the cost impact of the currently required follow-on 
+inspection on U.S. operators is estimated to be $29,280, or $120 per 
+airplane. This proposal would increase the compliance time for 
+performing the follow-on inspection, but would not change the estimated 
+cost of that inspection.
+    The cost impact figures discussed above are based on assumptions 
+that no operator has yet accomplished any of the proposed requirements 
+of this AD action, and that no operator would accomplish those actions 
+in the future if this AD were not adopted. The cost impact figures 
+discussed in AD rulemaking actions represent only the time necessary to 
+perform the specific actions actually required by the AD. These figures 
+typically do not include incidental costs, such as the time required to 
+gain access and close up, planning time, or time necessitated by other 
+administrative actions.
+
+Regulatory Impact
+
+    The regulations proposed herein would not have a substantial direct 
+effect on the States, on the relationship between the national 
+Government and the States, or on the distribution of power and 
+responsibilities among the various levels of government. Therefore, it 
+is determined that this proposal would not have federalism implications 
+under Executive Order 13132.
+    For the reasons discussed above, I certify that this proposed 
+regulation (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under the DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979); 
+and (3) if promulgated, will not have a significant economic impact, 
+positive or negative, on a substantial number of small entities under 
+the criteria of the Regulatory Flexibility Act. A copy of the draft 
+regulatory evaluation prepared for this action is contained in the 
+Rules Docket. A copy of it may be obtained by contacting the Rules 
+Docket at the location provided under the caption ADDRESSES.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by removing amendment 39-12149 (66 FR 
+16107, March 23, 2001), and by adding a new airworthiness directive 
+(AD), to read as follows:
+
+McDonnell Douglas: Docket 2001-NM-152-AD. Revises AD 2001-06-02, 
+Amendment 39-12149.
+
+    Applicability: Model DC-8-11, DC-8-12, DC-8-21, DC-8-31, DC-8-
+32, DC-8-33, DC-8-41, DC-8-42, and DC-8-43 airplanes; DC-8-51, -52, 
+-53, and -55 airplanes; DC-8-61 airplanes; DC-8-61F airplanes; DC-8-
+71 airplanes, and DC-8-71F airplanes; certificated in any category.
+
+    Note 1: This AD applies to each airplane identified in the 
+preceding applicability provision, regardless of whether it has been 
+modified, altered, or repaired in the area subject to the 
+requirements of this AD. For airplanes that have been modified, 
+altered, or repaired so that the performance of the requirements of 
+this AD is affected, the owner/operator must request approval for an 
+alternative method of compliance in accordance with paragraph (i) of 
+this AD. The request should include an assessment of the effect of 
+the modification, alteration, or repair on the unsafe condition 
+addressed by this AD; and, if the unsafe condition has not been 
+eliminated, the request should include specific proposed actions to 
+address it.
+
+    Compliance: Required as indicated, unless accomplished 
+previously.
+    To prevent reduced structural integrity of the left or right 
+wing due to metal fatigue failure of the front spar lower cap, 
+accomplish the following:
+
+    Note 2: This AD will affect the inspections, corrective actions, 
+and reports required by AD 93-01-15, amendment 39-8469 (58 FR 5576, 
+January 22, 1993), for Principal Structural Elements (PSE) 57.08.021 
+and 57.08.022 of the DC-8 Supplemental Inspection Document (SID).
+
+
+    Note 3: Where there are differences between this AD and the 
+referenced service bulletin, the AD prevails.
+
+
+[[Page 4729]]
+
+
+
+Eddy Current Inspection
+
+    (a) For airplanes equipped with left or right wing front spar 
+lower cap, part number (P/N) 5597838-1 or -2, not modified per any 
+of the McDonnell Douglas DC-8 service bulletins listed in Table 1 of 
+this AD: Do an eddy current inspection to detect cracks of the lower 
+front spar caps of the wings at the attachment holes of the leading 
+edge assembly between stations Xfs=515.000 and Xfs=526.760, per 
+McDonnell Douglas Service Bulletin DC8-57-090, Revision 05, dated 
+June 16, 1997, at the time specified in either paragraph (a)(1), 
+(a)(2), or (a)(3) of this AD, as applicable. Eddy current 
+inspections done before the effective date of this AD per McDonnell 
+Douglas DC-8 Service Bulletin 57-90, Revision 1, dated June 16, 
+1988; Revision 2, dated March 1, 1991; Revision 3, dated March 25, 
+1992; or Revision 4, dated March 3, 1995; are considered acceptable 
+for compliance with the requirements of paragraph (a) of this AD. 
+Table 1 is as follows:
+
+   Table 1.--Applicable Service Bulletins for Preventive Modification
+------------------------------------------------------------------------
+        Service bulletin            Revision level           Date
+------------------------------------------------------------------------
+57-90..........................  Original...........  October 3, 1983
+57-90..........................  1..................  June 16, 1988
+57-90..........................  2..................  March 1, 1991
+57-90..........................  3..................  March 25, 1992
+57-90..........................  4..................  March 3, 1995
+DC8-57-090.....................  05.................  June 16, 1997
+------------------------------------------------------------------------
+
+    (1) For airplanes on which the immediately preceding inspection 
+was conducted using eddy current techniques per AD 86-20-08, 
+amendment 39-5434, prior to April 27, 2001, (the effective date of 
+AD 2001-06-02, amendment 39-12149). Inspect within 3,600 flight 
+hours or 3 years after accomplishment of the last eddy current 
+inspection, whichever occurs first.
+    (2) For airplanes on which the immediately preceding inspection 
+was conducted visually per AD 86-20-08 prior to April 27, 2001: 
+Inspect within 3,200 flight hours or 2 years after accomplishment of 
+the last visual inspection, whichever occurs first.
+    (3) For airplanes on which a visual or eddy current inspection 
+or the modification required by AD 86-20-08 has not been done: 
+Inspect before the accumulation of 30,000 total flight hours, or 
+within 200 flight hours after April 27, 2001.
+    (b) For airplanes other than those identified in paragraph (a) 
+of this AD, not modified per any of the McDonnell Douglas DC-8 
+service bulletins listed in Table 1 of this AD: Within 3,200 flight 
+hours or 2 years after April 27, 2001, whichever occurs first, do 
+the eddy current inspection specified in paragraph (a) of this AD.
+
+Repetitive Inspections
+
+    (c) If no crack is detected during any inspection required by 
+this AD, repeat the eddy current inspection every 3,600 flight hours 
+or 3 years, whichever occurs first.
+
+Repair
+
+    (d) If any crack is detected during any inspection required this 
+AD, before further flight, do the action specified in either 
+paragraph (d)(1) or (d)(2) of this AD, as applicable.
+    (1) For cracks within the limits specified in Conditions 2 
+through 6, inclusive, Table 1 of paragraph 3.B.4 of the 
+Accomplishment Instructions of McDonnell Douglas Service Bulletin 
+DC8-57-090, Revision 05, dated June 16, 1997: Modify the lower front 
+spar cap per McDonnell Douglas Service Bulletin DC8-57-090, Revision 
+05, dated June 16, 1997. Accomplishment of the modification 
+constitutes compliance with the requirements of paragraphs (c) and 
+(e) of this AD.
+    (2) For cracks that exceed the limits specified in Conditions 2 
+through 6, inclusive, Table 1 of paragraph 3.B.4 of the 
+Accomplishment Instructions of McDonnell Douglas Service Bulletin 
+DC8-57-090, Revision 05, dated June 16, 1997: Repair per a method 
+approved by the Manager, Los Angeles Aircraft Certification Office 
+(ACO), FAA.
+
+Preventive Modification
+
+    (e) Before the accumulation of 100,000 total flight hours, 
+modify the lower front spar cap per paragraph 3.B.2.B of the 
+Accomplishment Instructions of McDonnell Douglas Service Bulletin 
+DC8-57-090, Revision 05, dated June 16, 1997. Accomplishment of the 
+modification constitutes compliance with the requirements of 
+paragraphs (a) and (b) of this AD and terminates the repetitive 
+inspection requirements of paragraph (c) of this AD. Modification of 
+the lower front spar cap accomplished before the effective date of 
+this AD per McDonnell Douglas DC-8 Service Bulletin 57-90, dated 
+October 3, 1993; Revision 1, dated June 16, 1988; Revision 2, dated 
+March 1, 1991; Revision 3, dated March 25, 1992; or Revision 4, 
+dated March 3, 1995; is considered acceptable for compliance with 
+the requirements of paragraph (e) of this AD.
+    (f) Accomplishment of the modification required by paragraph B. 
+of AD 90-16-05, amendment 39-6614 (55 FR 31818, August 6, 1990) 
+(which references ``DC-8 Aging Aircraft Service Action Requirements 
+Document'' (SARD), McDonnell Douglas Report MDC K1579, Revision A, 
+dated March 1, 1990, as the appropriate source of service 
+information for accomplishing the modification) constitutes 
+compliance with paragraphs (a), (b), and (e) of this AD and 
+terminates the repetitive inspection requirements of paragraph (c) 
+of this AD.
+
+Follow-On Inspection
+
+    (g) Within 32,900 landings after accomplishment of the 
+modification specified in paragraph (g)(1), (g)(2), (g)(3), or 
+(g)(4) of this AD, or within 2 years after the effective date of 
+this AD, whichever occurs later, perform an inspection to detect 
+cracks in the area specified in paragraph (a) of this AD, and 
+corrective actions, if necessary; per a method approved by the 
+Manager, Los Angeles ACO.
+    (1) Modification required by paragraph (d)(1) of this AD;
+    (2) Modification required by paragraph (e) of this AD;
+    (3) Modification specified in paragraph D. of AD 86-20-08; or
+    (4) Modification required by paragraph B. of AD 90-16-05.
+
+Certain Actions Constitute Compliance With AD 90-16-05
+
+    (h) Accomplishment of the eddy current inspection(s) required by 
+this AD constitutes compliance with the inspections required by 
+paragraph A. of AD 90-16-05, as it pertains to McDonnell Douglas DC-
+8 Service Bulletin 57-90, Revision 2, dated March 1, 1991. 
+Accomplishment of the eddy current inspection(s) does not terminate 
+the remaining requirements of AD 90-16-05, as it applies to other 
+service bulletins. Operators are required to continue to inspect 
+and/or modify per the other service bulletins listed in that AD.
+
+Alternative Methods of Compliance
+
+    (i) An alternative method of compliance or adjustment of the 
+compliance time that provides an acceptable level of safety may be 
+used if approved by the Manager, Los Angeles ACO. Operators shall 
+submit their requests through an appropriate FAA Principal 
+Maintenance Inspector, who may add comments and then send it to the 
+Manager, Los Angeles ACO.
+
+    Note 4: Information concerning the existence of approved 
+alternative methods of compliance with this AD, if any, may be 
+obtained from the Los Angeles ACO.
+
+Special Flight Permits
+
+    (j) Special flight permits may be issued in accordance with 
+sections 21.197 and 21.199 of the Federal Aviation Regulations (14 
+CFR 21.197 and 21.199) to operate the airplane to a location where 
+the requirements of this AD can be accomplished.
+
+
+    Issued in Renton, Washington, on January 23, 2003.
+Vi L. Lipski,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 03-2095 Filed 1-29-03; 8:45 am]
+BILLING CODE 4910-13-P
+
+

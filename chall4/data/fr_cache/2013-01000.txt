@@ -1,0 +1,100 @@
+
+[Federal Register Volume 78, Number 13 (Friday, January 18, 2013)]
+[Proposed Rules]
+[Pages 4092-4093]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2013-01000]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2012-0962; Directorate Identifier 2012-CE-033-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Cessna Aircraft Company Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document withdraws a Notice of Proposed Rulemaking (NPRM) 
+that would have applied to certain Cessna Aircraft Company Models 
+172RG, R182, TR182, FR182, 210N, T210N, 210R, T210R, P210N, P210R, and 
+T303 airplanes. The proposed airworthiness directive (AD) would have 
+required you to inspect the aircraft's hydraulic power pack wiring for 
+incorrect installation, and if needed, correct the installation. Since 
+issuance of the NPRM, the FAA has re-evaluated this airworthiness 
+concern and determined that an unsafe condition does not exist that 
+would warrant AD action. This withdrawal does not prevent the FAA from 
+initiating future rulemaking on this subject.
+
+FOR FURTHER INFORMATION CONTACT: Richard Rejniak, Aerospace Engineer, 
+Wichita Aircraft Certification Office, 1801 Airport Road, Room 100, 
+Wichita, Kansas 67209; phone: (316) 946-4128; fax: (316) 946-4107; 
+email: [email protected].
+
+SUPPLEMENTARY INFORMATION: 
+
+Discussion
+
+    We issued a Notice of Proposed Rulemaking (NPRM) to amend 14 CFR 
+part 39 to include an AD that would apply to the specified products. 
+That NPRM published in the Federal Register on September 11, 2012 (77 
+FR
+
+[[Page 4093]]
+
+55770). That NPRM proposed to require you to inspect the aircraft's 
+hydraulic power pack wiring for incorrect installation, and if needed, 
+correct the installation.
+    Since issuance of the NPRM, in light of the comments received on 
+the NPRM, the FAA re-evaluated the details that went into the 
+determination of the unsafe condition for this concern. Based on new 
+information discovered during the re-evaluation, we determined that:
+     An unsafe condition warranting AD action does not exist; 
+and
+     The associated level of risk does not warrant AD action.
+    To further mitigate this concern from recurring, the FAA may take 
+another airworthiness action such as a special airworthiness 
+information bulletin (SAIB) to recommend the actions contained in the 
+proposed rule and capture potential concerns identified by the public 
+during the comment period.
+    Withdrawal of this NPRM constitutes only such action and does not 
+preclude the agency from issuing future rulemaking on this issue, nor 
+does it commit the agency to any course of action in the future.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule and therefore, is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket No. FAA-
+2012-0962, published in the Federal Register on September 11, 2012 (77 
+FR 55770), is withdrawn.
+
+    Issued in Kansas City, Missouri, on January 14, 2013.
+James Jackson,
+Acting Manager, Small Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2013-01000 Filed 1-17-13; 8:45 am]
+BILLING CODE 4910-13-P
+
+

@@ -1,0 +1,351 @@
+
+[Federal Register Volume 76, Number 21 (Tuesday, February 1, 2011)]
+[Proposed Rules]
+[Pages 5505-5507]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2011-2172]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2011-0034; Directorate Identifier 2010-NM-021-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; The Boeing Company Model 777-200 Series 
+Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: We propose to adopt a new airworthiness directive (AD) for 
+certain Model 777-200 series airplanes. This proposed AD would require 
+installing a new circuit breaker, relays, and wiring to allow the 
+flightcrew to turn off electrical power to the in-flight entertainment 
+(IFE) systems and other non-essential electrical systems through a 
+switch in the flight compartment, and doing other specified actions. 
+The actions include removing the cabin system control panel (CSCP) core 
+partition software, the cabin area control panel (CACP) operational 
+program software (OPS), the zone management units (ZMU) OPS, and the 
+cabin system management unit (CSMU) OPS; installing OPS for the CSCP, 
+CACP, ZMU, and CSMU; and installing the new configuration database 
+(CDB). This proposed AD would also require installing a new CSCP; 
+installing a new cabin management system (CMS) CDB; and installing new 
+OPS for the CSCP, ZMU, passenger address controller, cabin interphone 
+controller, CACP, speaker drive module, overhead electronics units, and 
+seat electronics unit. This proposed AD results from an IFE systems 
+review. We are proposing this AD to ensure that the flightcrew is able 
+to turn off electrical power to the IFE system and other non-essential 
+electrical systems through a switch in the flight compartment in the 
+event of smoke or flames. The flightcrew's inability to turn off 
+electrical power to the IFE system and other non-essential electrical 
+systems in the event of smoke or flames could result in the inability 
+to control smoke or flames in the airplane flight deck or passenger 
+cabin during a non-normal or emergency situation.
+
+DATES: We must receive comments on this proposed AD by March 18, 2011.
+
+ADDRESSES: You may send comments by any of the following methods:
+     Federal eRulemaking Portal: Go to http://www.regulations.gov. Follow the instructions for submitting comments.
+     Fax: 202-493-2251.
+     Mail: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue, SE., Washington, DC 20590.
+     Hand Delivery: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue, SE., Washington, DC 20590, between 9 a.m. and 5 p.m., 
+Monday through Friday, except Federal holidays.
+    For service information identified in this proposed AD, contact 
+Boeing Commercial Airplanes, Attention: Data & Services Management, P. 
+O. Box 3707, MC 2H-65, Seattle, Washington 98124-2207; telephone 206-
+544-5000, extension 1; fax 206-766-5680; e-mail [email protected]; 
+Internet  https://www.myboeingfleet.com. You may review copies of the 
+referenced service information at the FAA, Transport Airplane 
+Directorate, 1601 Lind Avenue, SW., Renton, Washington. For information 
+on the availability of this material at the FAA, call 425-227-1221.
+
+Examining the AD Docket
+
+    You may examine the AD docket on the Internet at http://
+
+[[Page 5506]]
+
+www.regulations.gov; or in person at the Docket Management Facility 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this proposed AD, the regulatory 
+evaluation, any comments received, and other information. The street 
+address for the Docket Office (telephone 800-647-5527) is in the 
+ADDRESSES section. Comments will be available in the AD docket shortly 
+after receipt.
+
+FOR FURTHER INFORMATION CONTACT: Joe Salameh, Aerospace Engineer, 
+Systems and Equipment Branch, ANM-130S, FAA, Seattle Aircraft 
+Certification Office, 1601 Lind Avenue, SW., Renton, Washington 98057-
+3356; telephone (425) 917-6454; fax (425) 917-6590.
+
+SUPPLEMENTARY INFORMATION: 
+
+Comments Invited
+
+    We invite you to send any written relevant data, views, or 
+arguments about this proposed AD. Send your comments to an address 
+listed under the ADDRESSES section. Include ``Docket No. FAA-2011-0034; 
+Directorate Identifier 2010-NM-021-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of this proposed AD. We 
+will consider all comments received by the closing date and may amend 
+this proposed AD because of those comments.
+    We will post all comments we receive, without change, to http://www.regulations.gov, including any personal information you provide. We 
+will also post a report summarizing each substantive verbal contact we 
+receive about this proposed AD.
+
+Discussion
+
+    In response to numerous reports of smoke or flames in the passenger 
+cabin of various models of transport category airplanes, we conducted a 
+comprehensive in-flight entertainment (IFE) systems review. Earlier 
+investigation of the reports had revealed that the source of the smoke 
+and flames was from cabin IFE system components, including electronic 
+seat boxes mounted under passenger seats, IFE wiring, IFE monitors, 
+cabin lighting, wall outlets, and other non-essential cabin electrical 
+systems.
+    The systems review disclosed that in order to minimize the risk of 
+smoke or flames in the passenger cabin, a switch is needed in the 
+flight compartment to enable the flightcrew to turn off electrical 
+power to the IFE system and other non-essential electrical systems. The 
+flightcrew's inability to turn off power to the IFE system and other 
+non-essential electrical systems in the event of smoke or flames, if 
+not corrected, could result in the inability to control smoke or flames 
+in the airplane flight deck or passenger cabin during a non-normal or 
+emergency situation.
+
+Relevant Service Information
+
+    We have reviewed Boeing Service Bulletin 777-23-0176, Revision 2, 
+dated October 26, 2006. This service bulletin describes procedures for 
+the following actions:
+     Removing the cabin system control panel (CSCP) core 
+partition (CP) software, the cabin area control panel (CACP) 
+operational program software (OPS), the zone management unit (ZMU) OPS, 
+and the cabin system management unit (CSMU) OPS.
+     Installing CSCP-CP software.
+     Installing CACP OPS software.
+     Installing ZMU OPS software.
+     Installing CSMU OPS software.
+     Installing the new configuration database in the cabin 
+management system (CMS) line replaceable units.
+    Boeing Service Bulletin 777-23-0176, Revision 2, dated October 26, 
+2006, specifies prior or concurrent accomplishment of Boeing Service 
+Bulletin 777-23-0141, dated June 14, 2001, which describes procedures 
+for replacing the OPS for the CSCP, the CACP, and the CSMU, and 
+reinstalling the configuration database.
+    Boeing Service Bulletin 777-23-0176, Revision 2, dated October 26, 
+2006, also specifies prior or concurrent accomplishment of Boeing 
+Service Bulletin 777-23-0010, dated April 25, 1996, which describes 
+procedures for installing a new CSCP; a new CMS configuration database; 
+and new OPS for the CSCP, ZMU, passenger address controller, cabin 
+interphone controller, CACP, speaker drive module, overhead electronics 
+unit, and seat electronics unit.
+
+FAA's Determination and Requirements of This Proposed AD
+
+    We are proposing this AD because we evaluated all relevant 
+information and determined the unsafe condition described previously is 
+likely to exist or develop in other products of the same type design. 
+This proposed AD would require accomplishing the actions specified in 
+the service information described previously, except as discussed under 
+``Differences Between the Proposed AD and Service Information.''
+
+Difference Between the Proposed AD and Service Information
+
+    Boeing Service Bulletin 777-23-0176, Revision 2, dated October 26, 
+2006, does not contain a compliance time for the proposed modification 
+specified in paragraph (g) of this NPRM. This NPRM proposes a 
+compliance time of 60 months. This difference has been coordinated with 
+The Boeing Company.
+
+Costs of Compliance
+
+    We estimate that this proposed AD would affect 47 airplanes of U.S. 
+registry. The following table provides the estimated costs for U.S. 
+operators to comply with this proposed AD.
+
+                                             Table--Estimated Costs
+----------------------------------------------------------------------------------------------------------------
+                                                       Average
+                                              Work      labor                Cost per  Number of U.S.-   Fleet
+                  Action                     hours     rate per    Parts     product     registered       cost
+                                                         hour                             airplanes
+----------------------------------------------------------------------------------------------------------------
+Modification specified in Boeing Service           2        $85         $0       $170              47     $7,990
+ Bulletin 777-23-0176....................
+Concurrent modification, Boeing Service            6         85        920      1,430              47     67,210
+ Bulletin 777-23-0010 \1\................
+Concurrent modification, Boeing Service            3         85        450        705              47     33,135
+ Bulletin 777-23-0141\1\.................
+----------------------------------------------------------------------------------------------------------------
+\1\ Boeing states that warranty remedies are available for man-hour reimbursement and cost of parts.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. ``Subtitle VII: Aviation 
+Programs,'' describes in more detail the scope of the Agency's 
+authority.
+    We are issuing this rulemaking under the authority described in 
+``Subtitle VII, Part A, Subpart III, Section 44701: General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures
+
+[[Page 5507]]
+
+the Administrator finds necessary for safety in air commerce. This 
+regulation is within the scope of that authority because it addresses 
+an unsafe condition that is likely to exist or develop on products 
+identified in this rulemaking action.
+
+Regulatory Findings
+
+    We determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify this proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866,
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979), and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    You can find our regulatory evaluation and the estimated costs of 
+compliance in the AD Docket.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority:  49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The FAA amends Sec.  39.13 by adding the following new AD:
+
+The Boeing Company: Docket No. FAA-2011-0034; Directorate Identifier 
+2010-NM-021-AD.
+
+Comments Due Date
+
+    (a) We must receive comments by March 18, 2011.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to The Boeing Company Model 777-200 series 
+airplanes, certificated in any category; as identified in Boeing 
+Service Bulletin 777-23-0176, Revision 2, dated October 26, 2006.
+
+Subject
+
+    (d) Air Transport Association (ATA) of America Code 23: 
+Communications.
+
+Unsafe Condition
+
+    (e) This AD results from an in-flight entertainment (IFE) 
+systems review. We are issuing this AD to ensure that the flightcrew 
+is able to turn off electrical power to the IFE system and other 
+non-essential electrical systems through a switch in the flight 
+compartment in the event of smoke or flames. The flightcrew's 
+inability to turn off electrical power to the IFE system and other 
+non-essential electrical systems in the event of smoke or flames 
+could result in the inability to control smoke or flames in the 
+airplane flight deck or passenger cabin during a non-normal or 
+emergency situation.
+
+Compliance
+
+    (f) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Modification
+
+    (g) Within 60 months after the effective date of this AD: At the 
+cabin system control panel (CSCP), remove the CSCP core partition 
+software, the cabin area control panel (CACP) operational program 
+software (OPS), the zone management unit (ZMU) OPS, and the cabin 
+system management unit (CSMU) OPS; install core partition software 
+for the CSCP; install OPS for the CACP, ZMU, and CSMU; and install 
+the new configuration database (CDB) in the cabin management system 
+(CMS) line replaceable units; in accordance with the Accomplishment 
+Instructions of Boeing Service Bulletin 777-23-0176, Revision 2, 
+dated October 26, 2006.
+
+Concurrent Requirements
+
+    (h) Prior to or concurrently with accomplishing the requirements 
+of paragraph (g) of this AD, replace the OPS for the CSCP, CACP, and 
+CSMU, and reinstall the CDB, in accordance with Accomplishment 
+Instructions of Boeing Service Bulletin 777-23-0141, dated June 14, 
+2001.
+    (i) Prior to or concurrently with accomplishing the requirements 
+of paragraph (g) of this AD, install a new CSCP; install a new CMS 
+CDB; and install new OPS for the CSCP, ZMU, passenger address 
+controller, cabin interphone controller, CACP, speaker drive module, 
+overhead electronics units, and seat electronics unit; in accordance 
+with the Accomplishment Instructions of Boeing Service Bulletin 777-
+23-0010, dated April 25, 1996.
+
+Alternative Methods of Compliance (AMOCs)
+
+    (j)(1) Seattle Aircraft Certification Office (ACO), FAA, has the 
+authority to approve AMOCs for this AD, if requested using the 
+procedures found in 14 CFR 39.19. Send information to ATTN: Joe 
+Salameh, Aerospace Engineer, Systems and Equipment Branch, ANM-130S, 
+FAA, Seattle Aircraft Certification Office, 1601 Lind Avenue SW., 
+Renton, Washington 98057-3356; telephone (425) 917-6454; fax (425) 
+917-6590. Information may be e-mailed to: [email protected].
+    (2) To request a different method of compliance or a different 
+compliance time for this AD, follow the procedures in 14 CFR 39.19. 
+Before using any approved AMOC, notify your appropriate principal 
+inspector, or lacking a principal inspector, the manager of the 
+local flight standards district office/certificate holding district 
+office. The AMOC approval letter must specifically reference this 
+AD.
+
+    Issued in Renton, Washington, on January 25, 2011.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2011-2172 Filed 1-31-11; 8:45 am]
+BILLING CODE 4910-13-P
+
+

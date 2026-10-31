@@ -1,0 +1,338 @@
+
+[Federal Register Volume 68, Number 94 (Thursday, May 15, 2003)]
+[Proposed Rules]
+[Pages 26244-26247]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 03-12111]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2002-CE-57-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Cessna Aircraft Company Models 402C and 
+414A Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes to supersede Airworthiness Directive 
+(AD) 2000-23-01, which applies to all Cessna Aircraft Company (Cessna) 
+Model 402C airplanes. AD 2000-23-01 currently requires repetitive 
+inspections of the forward, aft, and auxiliary wing spars for cracks, 
+and repair or replacement as necessary. Cessna has performed fatigue 
+and crack growth analyses of the wings of these airplanes, and the 
+Federal Aviation Administration (FAA) has evaluated this information 
+and determined that a wing spar modification and inspections are 
+necessary on the Model 414A airplanes as well as the Model 402C 
+airplanes. This proposed AD would require you to inspect the wing spar 
+caps for fatigue cracks with any necessary repair or replacement and to 
+incorporate a spar strap modification on each wing spar. The actions 
+specified by this proposed AD are intended to prevent wing spar cap 
+failure due to undetected fatigue cracks. Such failure could result in 
+loss of a wing with consequent loss of airplane control.
+
+DATES: The Federal Aviation Administration (FAA) must receive any 
+comments on this proposed rule on or before August 8, 2003.
+
+ADDRESSES: Submit comments to FAA, Central Region, Office of the 
+Regional Counsel, Attention: Rules Docket No. 2002-CE-57-AD, 901 
+Locust, Room 506, Kansas City, Missouri 64106. You
+
+[[Page 26245]]
+
+may view any comments at this location between 8 a.m. and 4 p.m., 
+Monday through Friday, except Federal holidays. You may also send 
+comments electronically to the following address: [email protected]. Comments sent electronically must contain ``Docket No. 
+2002-CE-57-AD'' in the subject line. If you send comments 
+electronically as attached electronic files, the files must be 
+formatted in Microsoft Word 97 for Windows or ASCII text.
+    You may get service information that applies to this proposed AD 
+from the Cessna Aircraft Company, Product Support, P.O. Box 7706, 
+Wichita, Kansas 67277; telephone: (316) 517-5800; facsimile: (316) 942-
+9006. You may also view this information at the Rules Docket at the 
+address above.
+
+FOR FURTHER INFORMATION CONTACT: Paul Nguyen, Aerospace Engineer, FAA, 
+Wichita Aircraft Certification Office, 1801 Airport Road, Mid-Continent 
+Airport, Wichita, Kansas 67209; telephone: (316) 946-4125; facsimile: 
+(316) 946-4107.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    How do I comment on this proposed AD? The FAA invites comments on 
+this proposed rule. You may submit whatever written data, views, or 
+arguments you choose. You need to include the rule's docket number and 
+submit your comments to the address specified under the caption 
+ADDRESSES. We will consider all comments received on or before the 
+closing date. We may amend this proposed rule in light of comments 
+received. Factual information that supports your ideas and suggestions 
+is extremely helpful in evaluating the effectiveness of this proposed 
+AD action and determining whether we need to take additional rulemaking 
+action.
+    Are there any specific portions of this proposed AD I should pay 
+attention to? The FAA specifically invites comments on the overall 
+regulatory, economic, environmental, and energy aspects of this 
+proposed rule that might suggest a need to modify the rule. You may 
+view all comments we receive before and after the closing date of the 
+rule in the Rules Docket. We will file a report in the Rules Docket 
+that summarizes each contact we have with the public that concerns the 
+substantive parts of this proposed AD.
+    How can I be sure FAA receives my comment? If you want FAA to 
+acknowledge the receipt of your mailed comments, you must include a 
+self-addressed, stamped postcard. On the postcard, write ``Comments to 
+Docket No. 2002-CE-57-AD.'' We will date stamp and mail the postcard 
+back to you.
+
+Discussion
+
+    Has FAA taken any action to this point? Reports of fatigue cracks 
+on Cessna 401, 402, and 411 series airplanes caused FAA to take AD 
+action (AD 79-10-15 R2, Amendment 39-3711) to require repetitive 
+inspections of the right and left wing spar lower cap areas for fatigue 
+cracks and to require wing spar cap repair or replacement as necessary.
+    Cessna Models 402C and 414A airplanes incorporate a similar design 
+to those airplanes affected by AD 79-10-15 R2. We issued AD 2000-23-01, 
+Amendment 39-11971 (65 FR 70645, November 27, 2000), to require 
+repetitive inspections of the forward, aft, and auxiliary wing spars 
+for cracks on Cessna Models 402C airplanes with repair or replacement 
+as necessary.
+    There is no similar AD action addressing the Model 414A airplanes.
+    What has happened since AD 79-10-15 R2 and AD 2000-23-01 to 
+initiate this proposed action? Since issuance of AD 79-10-15 and AD 
+2000-23-01, Cessna has analyzed the wing, including fatigue and crack 
+growth analyses, on the affected airplanes. Analysis included:
+
+--A determination of the probable location and modes of damage based on 
+analytical results, available test data, and service information;
+--Classical fatigue analyses;
+--Crack growth and residual strength analyses including use of linear 
+elastic fracture mechanics methods;
+--Full-scale ground testing to validate analytical models; and
+--A Flight strain survey to develop stress spectra used in the 
+analyses.
+
+    The inspections required by AD 79-10-15 R2 in accordance with 
+Cessna Service Bulletin ME79-16, Revision 3, are accomplished using a 
+surface eddy current inspection method.
+    Based on the analysis, Cessna has found that the eddy current 
+method will not find the crack until it is .03 inch longer than the 
+critical crack length. When the crack reaches the critical length, it 
+is not reliably detectable because it is under the head of the 
+fastener. Once the main spar cap is severed, the remaining structure 
+will no longer meet the residual strength requirements. Wing separation 
+could then occur under loading conditions significantly less than those 
+established for the design limit load.
+    Cessna reported only one instance where cracks were detected using 
+the nondestructive inspection (NDI) eddy current procedure. There are 
+other reported instances where cracks were detected visually in the 
+wheel well area on the aft flange. The problem with visual inspections 
+is the access doubler flanges cover a large percentage of the forward 
+spar flange. This limits the effectiveness of the visual inspections.
+    To meet industry NDI standards, cracks need to be found on Cessna 
+Models 402C and 414A airplanes through NDI inspection methods with a 
+90-percent probability of detection at a 95-percent confidence level.
+    Cessna's analysis indicates that the probability and confidence 
+levels are not being met.
+    Is there service information that applies to this subject? Cessna 
+has issued Service Bulletin MEB02-05 and Cessna Service Kit SK402-47, 
+both dated June 24, 2002. This service information includes procedures 
+for inspecting and modifying the lower wing spar caps.
+
+The FAA's Determination and an Explanation of the Provisions of this 
+Proposed AD
+
+    What has FAA decided? After examining the circumstances and 
+reviewing all available information related to the incidents described 
+above, we have determined that:
+
+--Cessna's analysis of the problems with the eddy current inspection on 
+the wing spar cap area on the Cessna Models 401, 401A, 401B, 402A, 
+402B, 411, and 411A airplane is valid;
+--The unsafe condition referenced in this document also exists or could 
+develop on Cessna Models 402C and 414A airplanes that are the same type 
+design;
+--The actions specified in the previously-referenced service 
+information should be accomplished on the affected airplanes; and
+--AD action should be taken in order to correct this unsafe condition.
+
+    What would this proposed AD require? This proposed AD would 
+supersede AD 2000-23-01 with a new AD that would apply to Cessna Models 
+402C and 414A airplanes and would require you to:
+--Inspect the wing spar caps for fatigue cracks;
+--Repair or replace the wing spar caps as necessary; and
+--Incorporate a spar strap modification on each wing spar.
+    How does the revision to 14 CFR part 39 affect this proposed AD? On 
+July 10, 2002, FAA published a new version of 14 CFR part 39 (67 FR 
+47997, July 22, 2002), which governs FAA's AD system.
+
+[[Page 26246]]
+
+This regulation now includes material that relates to special flight 
+permits, alternative methods of compliance, and altered products. This 
+material previously was included in each individual AD. Since this 
+material is included in 14 CFR part 39, we will not include it in 
+future AD actions.
+
+Cost Impact
+
+    How many airplanes would this proposed AD impact? We estimate that 
+this proposed AD affects 656 airplanes in the U.S. registry.
+    What would be the cost impact of this proposed AD on owners/
+operators of the affected airplanes? We estimate the following costs to 
+accomplish the proposed modification and initial inspection:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+            Labor cost                             Parts cost                 Total cost per airplane             Total cost on U.S. operators
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+485 workhours x $60 per hour =      $14,000 per airplane...................  $29,100 + $14,000 =        $43,100 x 656 = $28,273,600.
+ $29,100 per airplane.                                                        $43,100 per airplane.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    The above figures do not take into account the cost of repetitive 
+inspections. The FAA does not have any way of determining the number of 
+repetitive inspections each owner/operator would incur during the 
+operating life of the affected airplanes.
+
+Regulatory Impact
+
+    Would this proposed AD impact various entities? The regulations 
+proposed herein would not have a substantial direct effect on the 
+States, on the relationship between the national government and the 
+States, or on the distribution of power and responsibilities among the 
+various levels of government. Therefore, it is determined that this 
+proposed rule would not have federalism implications under Executive 
+Order 13132.
+    Would this proposed AD involve a significant rule or regulatory 
+action? For the reasons discussed above, I certify that this proposed 
+action (1) is not a ``significant regulatory action'' under Executive 
+Order 12866; (2) is not a ``significant rule'' under DOT Regulatory 
+Policies and Procedures (44 FR 11034, February 26, 1979); and (3) if 
+promulgated, will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act. A copy of the draft regulatory 
+evaluation prepared for this action has been placed in the Rules 
+Docket. A copy of it may be obtained by contacting the Rules Docket at 
+the location provided under the caption ADDRESSES.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations(14 CFR part 39) as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+0
+1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+0
+2. FAA amends Sec.  39.13 by removing Airworthiness Directive (AD) 
+2000-23-01, Amendment 39-11971 (65 FR 70645, November 27, 2000), and by 
+adding a new AD to read as follows:
+
+Cessna Aircraft Company: Docket No. 2002-CE-57-AD; Supersedes AD 
+2000-23-01, Amendment 39-11971.
+
+    (a) What airplanes are affected by this AD? This AD affects 
+Models 402C and 414A airplanes, all serial numbers, that are 
+certificated in any category.
+    (b) Who must comply with this AD? Anyone who wishes to operate 
+any of the airplanes identified in paragraph (a) of this AD must 
+comply with this AD.
+    (c) What problem does this AD address? The actions specified by 
+this AD are intended to prevent wing spar cap failure due to 
+undetected fatigue cracks. Such failure could result in loss of a 
+wing with consequent loss of airplane control.
+    (d) What actions must I accomplish to address this problem? To 
+address this problem, you must inspect the wing spar caps for 
+fatigue cracks and repair or replace the wing spar caps as necessary 
+and incorporate a spar strap modification on each wing spar in 
+accordance with Cessna Service Bulletin MEB02-5, dated June 24, 
+2002, and Cessna Service Kit SK402-47, dated June 24, 2002, as 
+follows:
+
+------------------------------------------------------------------------
+               Compliance times                    Affected airplanes
+------------------------------------------------------------------------
+(1) Inspect and modify at whichever of the     Cessna Models 402C and
+ following that occurs later and repair or      414A airplanes, serial
+ replace as necessary prior to further flight   number 414A0001 through
+ after the inspection, unless already           414A0047 and 414A0049
+ accomplished (no repetitive actions            through 414A0200.
+ necessary):
+    (i) Upon accumulating 8,500 hours time-in-
+     service (TIS) on a wing spar; or.
+    (ii) Within the next 500 hours TIS after
+     the effective date of this AD or 12
+     months after the effective date of this
+     AD, whichever occurs first.
+(2) Inspect and modify at whichever of the     Cessna Models 402C and
+ following that occurs first and repair or      414A airplanes, serial
+ replace as necessary prior to further flight   numbers 414A0201 through
+ after the inspection, unless already           414A1212.
+ accomplished (no repetitive actions
+ necessary):
+    (i) Upon accumulating 14,500 hours TIS on
+     a wing spar; or.
+    (ii) Within the next 500 hours TIS after
+     the effective date of this AD or 12
+     months after the effective date of this
+     AD, whichever occurs first.
+------------------------------------------------------------------------
+
+    (e) Can I comply with this AD in any other way?
+    (1) To use an alternative method of compliance or adjust the 
+compliance time, follow the procedures in 14 CFR 39.19. Send these 
+requests to the Manager, Wichita Aircraft Certification Office 
+(ACO). For information on any already approved alternative methods 
+of compliance, contact Paul Nguyen, Aerospace Engineer, FAA, Wichita 
+Aircraft Certification Office, 1801 Airport Road, Mid-Continent 
+Airport, Wichita, Kansas 67209; telephone: (316) 946-4125; 
+facsimile: (316) 946-4107.
+    (2) Alternative methods of compliance approved in accordance 
+with AD 2000-23-01 and AD 99-11-13 are not approved as alternative 
+methods of compliance with this AD.
+    (f) How do I get copies of the documents referenced in this AD? 
+You may get copies of
+
+[[Page 26247]]
+
+the documents referenced in this AD from the Cessna Aircraft 
+Company, Product Support, P.O. Box 7706, Wichita, Kansas 67277; 
+telephone: (316) 517-5800; facsimile: (316) 942-9006. You may view 
+these documents at FAA, Central Region, Office of the Regional 
+Counsel, 901 Locust, Room 506, Kansas City, Missouri 64106.
+    (g) Does this AD action affect any existing AD actions? This 
+amendment supersedes AD 2000-23-01, Amendment 39-11971.
+
+    Issued in Kansas City, Missouri, on May 9, 2003.
+James E. Jackson,
+Acting Manager, Small Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 03-12111 Filed 5-14-03; 8:45 am]
+BILLING CODE 4910-13-P
+
+

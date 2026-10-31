@@ -1,0 +1,135 @@
+
+[Federal Register Volume 72, Number 245 (Friday, December 21, 2007)]
+[Proposed Rules]
+[Pages 72636-72637]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E7-24821]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2002-NM-260-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; BAE Systems (Operations) Limited 
+(Jetstream) Model 4101 Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to all BAE 
+Systems (Operations) Limited (Jetstream) Model 4101 airplanes. That 
+action would have required revising the airplane flight manual to 
+advise the flightcrew of special operating limitations associated with 
+a reduction in airplane performance due to loss of propeller 
+efficiency. That action also would have required installing placards in 
+the flight compartment and operating the airplane per certain special 
+operating limitations; or performing repetitive flight checks to verify 
+the adequacy of the airplane's climb performance, and accomplishing 
+follow-on actions if necessary. Since the issuance of the NPRM, the 
+Federal Aviation Administration (FAA) has issued another NPRM 
+applicable to certain propellers, which addresses the identified unsafe 
+condition. Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Todd Thompson, Aerospace Engineer, 
+International Branch, ANM-116, FAA, Transport Airplane Directorate, 
+1601 Lind Avenue, SW., Renton, Washington 98057-3356; telephone (425) 
+227-1175; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to all BAE Systems (Operations) Limited 
+(Jetstream) Model 4101 airplanes, was published in the Federal Register 
+as a Notice of Proposed Rulemaking (NPRM) on February 6, 2004 (69 FR 
+5775). The proposed rule would have required revising the airplane 
+flight manual to advise the flightcrew of special operating limitations 
+associated with a reduction in airplane performance due to loss of 
+propeller efficiency. That action also would have required installing 
+placards in the flight compartment and operating the airplane per 
+certain special operating limitations; or performing repetitive flight 
+checks to verify the adequacy of the airplane's climb performance, and 
+accomplishing follow-on actions if necessary. That action was prompted 
+by a report indicating that a shortfall in engine performance, compared 
+to the performance standards shown in the airplane flight manual (AFM), 
+has been observed during climb-performance test flights. The proposed 
+actions were intended to ensure that the flightcrew accounts for the 
+potential loss of airplane performance due to loss of propeller 
+efficiency, which could result in an increased risk of collision with 
+terrain.
+
+Actions that Occurred Since the NPRM Was Issued
+
+    On October 24, 2007, we issued NPRM, Docket No. FAA-2006-25173, for 
+McCauley Propeller Systems propeller models B5JFR36C1101/114GCA-0, 
+C5JFR36C1102/L114GCA-0, B5JFR36C1103/114HCA-0, and C5JFR36C1104/
+L114HCA-0. These propellers are installed on BAE Systems (Operations) 
+Limited (Jetstream) Model 4100 and 4101 airplanes. That NPRM would 
+require, for certain blades, fluorescent penetrant inspections (FPI) 
+and eddy current inspections (ECI) of propeller blades for cracks based 
+on hours time-in-service after the effective date of the AD, and if any 
+crack indications are found, removal from service.
+    Also, the NPRM would require inspecting for blunt leading edges of 
+the
+
+[[Page 72637]]
+
+propeller blades while inspecting them for cracks, and if necessary, 
+dressing any erosion before returning the blades to service. That NPRM 
+results from our determination that we must require repetitive 
+inspections for cracks, and from reports of blunt leading edges of the 
+propeller blades due to erosion. We issued that NPRM to detect cracks 
+in the propeller blade that could cause failure and separation of the 
+propeller blade and loss of control of the airplane, and to detect 
+blunt leading edges on the propeller blades, which could cause airplane 
+single engine climb performance degradation and could result in an 
+increased risk of collision with terrain.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that, for all BAE 
+Systems (Operations) Limited (Jetstream) Model 4101 airplanes, the 
+proposed actions specified in NPRM, Docket No. FAA-2006-25173, more 
+adequately address loss of propeller efficiency due to erosion or 
+profile changes of the propeller blade's leading edge. Accordingly, the 
+proposed rule is hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 2002-NM-260-
+AD, published in the Federal Register on February 6, 2004 (69 FR 5775), 
+is withdrawn.
+
+    Issued in Renton, Washington, on December 14, 2007.
+Michael J. Kaszycki,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. E7-24821 Filed 12-20-07; 8:45 am]
+BILLING CODE 4910-13-P
+
+

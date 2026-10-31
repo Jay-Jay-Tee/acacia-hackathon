@@ -1,0 +1,376 @@
+
+[Federal Register Volume 71, Number 179 (Friday, September 15, 2006)]
+[Proposed Rules]
+[Pages 54438-54441]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 06-7706]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2006-25688; Directorate Identifier 2006-CE-44-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; B-N Group Ltd. BN-2, BN-2A, BN-2B, BN-
+2T, and BN-2T-4R Series (All Individual Models Included in Type A17EU 
+Certificate Data Sheet (TCDS) A17E, Revision 16, Dated December 9, 
+2002) Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: We propose to adopt a new airworthiness directive (AD) for all 
+B-N Group Ltd. BN-2, BN-2A, BN-2B, BN-2T, and BN-2T-4R series (all 
+individual models included in Type Certificate Data Sheet (TCDS) A17EU, 
+Revision 16, dated December 9, 2002) airplanes. This proposed AD would 
+require you to inspect the horizontal stabilizer attachment bolts and 
+anchor nuts for damage and wear and replace damaged and/or worn parts 
+with new, modified parts. If no damaged or worn parts are found during 
+the proposed inspection, this proposed AD would require you to replace 
+the horizontal stabilizer attachment bolts and anchor nuts at a 
+specified time with new, modified parts. This proposed AD results from 
+mandatory continuing airworthiness information (MCAI) issued by the 
+airworthiness authority for the United Kingdom. We are proposing this 
+AD to detect and correct damaged and/or worn horizontal stabilizer 
+attachment bolts and anchor nuts, which would result in failure of the 
+horizontal stabilizer. This failure could result in loss of control.
+
+DATES: We must receive comments on this proposed AD by October 16, 
+2006.
+
+[[Page 54439]]
+
+
+ADDRESSES: Use of the following addresses to comment on this proposed 
+AD:
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov. and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility; U.S. Department of 
+Transportation, 400 Seventh Street, SW., Nassif Building, Room PL-401, 
+Washington, DC 20590-0001.
+     Fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street, SW., Washington, DC, between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    For service information identified in this proposed AD, contact B-N 
+Group Ltd., Bembridge Airport, Isle of Wight, PO35 5PR, United Kingdom; 
+telephone: +44 (0) 1983 872511; fax: +44 (0) 1983 873246.
+
+FOR FURTHER INFORMATION CONTACT: Albert J. Mercado, Aerospace Engineer, 
+FAA, Small Airplane Directorate, 901 Locust, Room 301, Kansas City, 
+Missouri, 64106; telephone: (816) 329-4119; facsimile: (816) 329-4090.
+
+SUPPLEMENTARY INFORMATION: 
+
+Comments Invited
+
+    We invite you to send any written relevant data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed under the ADDRESSES section. Include the docket number, ``FAA-
+2006-25688; Directorate Identifier 2006-CE-44-AD'' at the beginning of 
+your comments. We specifically invite comments on the overall 
+regulatory, economic, environmental, and energy aspects of the proposed 
+AD. We will consider all comments received by the closing dat and may 
+amend the proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact we 
+receive concerning this proposed AD.
+
+Discussion
+
+    The Civil Aviation Authority (CAA), which is the airworthiness 
+authority for the United Kingdom, notified the FAA that an unsafe 
+condition may exist on all B-N Group Ltd. BN-2, BN-2A, BN-2B, BN-2T, 
+and BN-2T-4R series (all individual models included in Type Certificate 
+Data Sheet (TCDS ) A17EU, Revision 16, dated December 9, 2002) 
+airplanes. The CAA has received reports of loose horizontal stabilizer 
+attachment bolts.
+    This condition, if not corrected, could cause the horizontal 
+stabilizer to fail. This failure could result in loss of control.
+
+Relevant Service Information
+
+    We have reviewed B-N Britten-Norman Aircraft Limited Service 
+Bulletin number SB 302, Issue 2, dated April 12, 2005.
+    The service information describes procedures for:
+      Inspecting the horizontal stabilizer attachment bolts and 
+anchor nuts or damage and wear; and
+     Replacing the horizontal stabilizer attachment bolts and 
+anchor nuts with new, modified parts.
+
+Foreign Airworthiness Authority Information
+
+    The CAA classified this service bulletin as mandatory and issued 
+British AD No. G-2004-0014 R1, Effective Date: July 29, 2005, to ensure 
+the continued airworthiness of these airplanes in the United Kingdom.
+    The B-N Group Ltd. BN-2, BN-2A, BN-2B, BN-2T, and BN-2T-4R series 
+airplanes are manufactured in the United Kingdom and are type-
+certificated for operation in the United States under the provisions of 
+section 21.29 of the Federal Aviation Regulations (14 CFR 21.29) and 
+the applicable bilateral airworthiness agreement.
+    Under this bilateral airworthiness agreement, the CAA has kept us 
+informed of the situation described above.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    We are proposing this AD because we have examined the CAA's 
+findings, evaluated all information and determined the unsafe condition 
+described previously is likely to exist or develop on other products of 
+the same type design that are certificated for operation in the United 
+States.
+    This proposed AD would require you to inspect the horizontal 
+stabilizer attachment bolts and anchor nuts for damage and wear and 
+replace damaged and/or worn parts with new, modified parts. If no 
+damaged or worn parts are found during the proposed inspection, this 
+proposed AD would require you to replace the horizontal stabilizer 
+attachment bolts and anchor nuts at a specified time with new, modified 
+parts.
+
+ Differences Between the Foreign Airworthiness Authority AD, the 
+Service Bulletin, and the Proposed AD
+
+    The MCAI British AD No. G-2004-0014 R1, Effective Date: July 29, 
+2005, and B-N Britten-Norman Aircraft Limited Service Bulletin number 
+SB 302, Issue 2, dated April 12, 2005, allows 1,000-hour repetitive 
+inspections of the horizontal stabilizer attachment bolts and anchor 
+nuts with the option of installing the new, modified horizontal 
+stabilizer attachment bolts as a terminating action for the repetitive 
+inspections. This AD does not allow continued repetitive inspections.
+    The actions required by this AD are consistent with the FAA's aging 
+commuter aircraft policy, which briefly states that, when a 
+modification exists that could eliminate or reduce then umber of 
+required critical inspections, the modification should be incorporated. 
+This policy is based on the FAA's determination that reliance on 
+critical repetitive inspections on airplanes utilized in commuter 
+service carries an unnecessary safety risk when a design change exists 
+that could eliminate or, in certain instances, reduce the number of 
+those critical inspections. In determining what inspections are 
+critical, the FAA considers (1) the safety consequences of the airplane 
+if the known problem is not detected by the inspection; (2) the 
+reliability of the inspection such as the probability of not detecting 
+the known problem; (3) whether the inspection area is difficult to 
+access; and (4) the possibility of damage to an adjacent structure as a 
+result of the problem.
+
+Costs of Compliance
+
+    We estimate that this proposed AD would affect 91 airplanes in the 
+U.S. registry.
+    We estimate the following costs to do the proposed inspection:
+
+----------------------------------------------------------------------------------------------------------------
+                                                          Total cost per
+            Labor cost                  Parts cost           airplane           Total cost on U.S. operators
+----------------------------------------------------------------------------------------------------------------
+1 work-hour x $80 per hour = $80.  Not applicable.....                $80  $80 x 91 = $7,280.
+----------------------------------------------------------------------------------------------------------------
+
+
+[[Page 54440]]
+
+    We estimate the following costs to do the proposed replacements:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                Labor cost                   Parts cost               Total cost per  airplane                      Total cost on U.S. operators
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+3 work-hours x $80 per hour = $240.......          $1,600  $240 + $1,600 = $1,840........................  $1,840 x 91 = $167,440.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety, Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+subtitle VII, part A, subpart II, section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD and placed it in the AD docket.
+
+Examining the AD Docket
+
+    You may examine the AD docket that contains the proposed AD, the 
+regulatory evaluation, any comments received, and other information on 
+the Internet at http://dms.dot.gov; or in person at the Docket 
+Management Facility between 9 a.m. and 5 p.m., Monday through Friday, 
+except Federal holidays. The Docket Office (telephone (800) 647-5227) 
+is located at the street address stated in the ADDRESSES section. 
+Comments will be available in the AD docket shortly after receipt.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The FAA amends Sec.  39.13 by adding the following new AD:
+
+B-N Group Ltd: Docket No. FAA-2006-25688; Directorate Identifier 
+2006-CE-44-AD.
+
+Comments Due Date
+
+    (a) We must receive comments on this airworthiness directive 
+(AD) action by October 16, 2006.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to all BN-2, BN-2A, BN-2B, BN-2T, and BN-2T-
+4R series (all individual models included in Type Certificate Data 
+Sheet (TCDS) A17EU, Revision 16, dated December 9, 2002) airplanes; 
+that are certificated in any category.
+
+Unsafe Condition
+
+    (d) This AD results from mandatory continuing airworthiness 
+information (MCAI) issued by the airworthiness authority for the 
+United Kingdom. We are issuing this AD to detect and correct damaged 
+and/or worn horizontal stabilizer attachment bolts and anchor nuts, 
+which could result in failure of the horizontal stabilizer. This 
+failure could result in loss of control.
+
+Compliance
+
+    (e) To address this problem, you must do the following, unless 
+already done:
+
+------------------------------------------------------------------------
+           Actions                 Compliance            Procedures
+------------------------------------------------------------------------
+(1) Inspect the horizontal    Within the next 50    Follow B-N Britten-
+ stablilzer attachment bolts   hours time-in-        Norman Aircraft
+ and anchor nuts for damage    service (TIS) or 2    Limited Service
+ and wear.                     months, whichever     Bulletin number SB
+                               occurs first, after   302, Issue 2, dated
+                               the effective date    April 12, 2005.
+                               of this AD.
+(2) If you find any damaged   Before further        As specified in B-N
+ or worn horizontal            flight after the      Britten-Norman
+ stabilizer attachment bolts   inspection required   Aircraft Limited
+ and/or anchor nuts during     in paragraph (e)(1)   Service Bulletin
+ the inspection required in    of this AD.           number SB 302,
+ paragraph (e)(1) of this                            Issue 2, dated
+ AD, replace with new,                               April 12, 2005. Do
+ modified horizontal                                 any necessary
+ stabilizer attachment bolts.                        replacements
+                                                     following B-N Group
+                                                     Ltd. Modification
+                                                     Leaflet for Mod NB-
+                                                     M-1787, Issue 1,
+                                                     dated August 1,
+                                                     2005.
+(3) If you do not find        Upon accumulating     Follow B-N Group
+ damaged or worn horizontal    1,000 hours TIS       Ltd. Modification
+ stabilizer attachment bolts   after the             Leaflet for Mod NB-
+ and/or anchor nuts during     inspection required   M-1787, Issue 1,
+ the inspection required in    in paragraph (e)(1)   dated August 1,
+ paragraph (e)(1) of this      of this AD.           2005.
+ AD, replace the horizontal
+ stabilizer attachment bolts
+ and anchor nuts with new,
+ modified horizontal
+ stabilizer attachment bolts.
+
+[[Page 54441]]
+
+ 
+(4) You may replace the       As of the effective   Follow B-N Group
+ horizontal stabilizer         date of this AD.      Ltd. Modification
+ attachment bolts and anchor                         Leaflet for Mod NB-
+ nuts with the new, modified                         M-1787, Issue 1,
+ horizontal stabilizer                               dated August 1,
+ attachment bolts at any                             2005.
+ time, but no later than the
+ applicable times specified
+ in paragraphs (e)(2) and
+ (e)(3) of this AD. After
+ installing the new,
+ modified horizontal
+ stabilizer attachment
+ bolts, no further action is
+ required.
+------------------------------------------------------------------------
+
+Alternative Methods of Compliance (AMOCs)
+
+    (f) The Manager, Standards Staff, FAA, ATTN: Albert J. Mercado, 
+Aerospace Engineer, Small Airplane Directorate, 901 Locust, Room 
+301, Kansas City, Missouri 64106; telephone: (816) 329-4119; 
+facsimile: (816) 329-4090, has the authority to approve AMOCs for 
+this AD, if requested using the procedures found in CFR 39.19.
+
+Related Information
+
+    (g) MCAI British AD No. G-2004-0014 R1, Effective Date: July 29, 
+2005, also addresses the subject of this AD. To get copies of the 
+service information referenced in this AD, contact B-N Group Ltd., 
+Bembridge Airport, Isle of Wight, PO35 5PR, United Kingdom; 
+telephone: +44 (0) 1983 872511; fax: +44 (0) 1983 873246. To view 
+the AD docket, go to the Docket Management Facility; U.S. Department 
+of Transportation, 400 Seventh Street, SW., Nassif Building, Room 
+PL-401, Washington, DC, or on the Internet at http://dms.dot.gov. 
+The docket number is Docket No. FAA-2006-25688; Directorate 
+Identifier 2006-CE-44-AD.
+
+    Issued in Kansas City, Missouri, on September 11, 2006.
+John R. Colomy,
+Acting Manager, Small Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 06-7706 Filed 9-14-06; 8:45 am]
+BILLING CODE 4910-13-M
+
+

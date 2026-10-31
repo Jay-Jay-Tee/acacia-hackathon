@@ -1,0 +1,124 @@
+
+[Federal Register Volume 66, Number 165 (Friday, August 24, 2001)]
+[Proposed Rules]
+[Pages 44561-44562]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 01-21496]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 98-NM-353-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 737-100, -200, -300, -400, 
+and -500 Series Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to certain 
+Boeing Model 737-100, -200, -300, -400, and -500 series airplanes. That 
+action would have required modification of certain filter module 
+assemblies of the generator control units (GCU). Since the issuance of 
+the NPRM, the Federal Aviation Administration (FAA) has received new 
+data that indicate that the unsafe condition identified in the NPRM 
+does not exist. Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Forrest Keller, Senior Aerospace 
+Engineer, Systems and Equipment Branch, ANM-130S, FAA, Seattle Aircraft 
+Certification Office, 1601 Lind Avenue, SW., Renton, Washington 98055-
+4056; telephone (425) 227-2790; fax (425) 227-1181.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD),
+
+[[Page 44562]]
+
+applicable to certain Boeing Model 737-100, -200, -300, -400, and -500 
+series airplanes, was published in the Federal Register as a Notice of 
+Proposed Rulemaking (NPRM) on March 5, 1999 (64 FR 10578). The proposed 
+rule would have required modification of certain filter module 
+assemblies of the generator control units (GCU). That action was 
+prompted by reports of smoke and occasional fire in the flight 
+compartment as a direct result of a GCU failure. The proposed actions 
+were intended to prevent failure of the filter module assemblies of the 
+GCUs due to overcurrent conditions, which could result in an increased 
+risk of smoke, and/or fire in the flight compartment.
+
+Actions Since Issuance of the NPRM
+
+    The NPRM proposed to require modification of certain filter module 
+assemblies of the GCUs to prevent smoke and/or fire in the flight 
+compartment due to overcurrent conditions in the GCUs. Since the 
+issuance of the NPRM, the manufacturer has advised the FAA that there 
+have been no reports of fire as a result of GCU overcurrent conditions. 
+The manufacturer has further advised that GCUs that were examined and/
+or repaired by the supplier have shown no evidence of fire. In those 
+cases where fires were reported, the manufacturer asserts that the 
+erroneous identification of an actual fire had been inferred from the 
+presence of smoke, which resulted from unrelated conditions and did not 
+represent a hazard to the airplane.
+    In addition, the modifications proposed by the NPRM may have 
+contributed, in part, to an event that occurred on a Model 737-200 
+series airplane during which all electrical power was lost in flight. 
+As a result of that incident, the FAA issued AD 99-18-17, amendment 39-
+11283 (64 FR 47656, September 1, 1999), which was later superseded by 
+AD 99-24-08, amendment 39-11432 (64 FR 66368, November 26, 1999), to 
+require, among other things, repetitive testing of GCU diodes and 
+repetitive replacement of airplane batteries. In this case, the attempt 
+to minimize the incidence of smoke resulted in an increased probability 
+of a total loss of electrical power. Total loss of electrical power 
+represents a greater hazard to the airplane, and the information 
+provided by the manufacturer indicates that the existing GCUs are 
+adequate to ensure the safety of the fleet.
+
+FAA's Conclusions
+
+    Upon further consideration of the above information, the FAA has 
+determined that the hazard associated with GCU overcurrent conditions 
+does not justify a requirement to modify the filter module. The FAA has 
+further determined that incorporation of the proposed modifications 
+could actually decrease the reliability of the electrical power system. 
+Accordingly, the proposed rule is hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 98-NM-353-
+AD, published in the Federal Register on March 5, 1999 (64 FR 10578), 
+is withdrawn.
+
+    Issued in Renton, Washington, on August 20, 2001.
+Vi L. Lipski,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 01-21496 Filed 8-23-01; 8:45 am]
+BILLING CODE 4910-13-P
+
+

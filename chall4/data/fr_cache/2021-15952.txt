@@ -1,0 +1,131 @@
+
+[Federal Register Volume 86, Number 142 (Wednesday, July 28, 2021)]
+[Proposed Rules]
+[Pages 40378-40379]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2021-15952]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2018-0689; Product Identifier 2018-CE-016-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Gulfstream Aerospace Corporation 
+Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM) 
+that proposed to adopt a new airworthiness directive (AD) for certain 
+Gulfstream Aerospace Corporation (Gulfstream) Models G-IV and GIV-X 
+airplanes. The NPRM was prompted by reports of disbonding and surface 
+cracking of the composite aft pressure bulkhead. The NPRM proposed to 
+require inspecting the forward and aft surfaces of the pressure 
+bulkhead composite panels for damage and repairing any damage found. 
+Since issuance of the NPRM, the FAA has determined that there is not an 
+unsafe condition. Accordingly, the NPRM is withdrawn.
+
+DATES: As of July 28, 2021, the proposed rule, which published in the 
+Federal Register on July 27, 2018 (83 FR 35568), is withdrawn.
+
+ADDRESSES:
+
+Examining the AD Docket
+
+    You may examine the AD docket at https://www.regulations.gov by 
+searching for and locating Docket No. FAA-2018-0689; or in person at 
+Docket Operations between 9 a.m. and 5 p.m., Monday through Friday, 
+except Federal holidays. The AD docket contains this AD action, any 
+comments received, and other information. The street address for Docket 
+Operations is U.S. Department of Transportation, Docket Operations, M-
+30, West Building Ground Floor, Room W12-140, 1200 New Jersey Avenue 
+SE, Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: William O. Herderich, Aviation Safety 
+Engineer, Atlanta ACO Branch, FAA, 1701 Columbia Avenue, College Park, 
+GA 30337; phone: (404) 474-5547; fax: (404) 474-5605; email: 
+[email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The FAA issued an NPRM that proposed to amend 14 CFR part 39 by 
+adding an AD that would apply to certain serial-numbered Gulfstream 
+Models G-IV and GIV-X airplanes. The NPRM published in the Federal 
+Register on July 27, 2018 (83 FR 35568). The NPRM was prompted by 
+reports of disbonding and accompanying surface cracking of the 
+composite aft pressure bulkhead. The NPRM stated that this condition, 
+if not addressed, could result in structural failure of the aft 
+pressure bulkhead and loss of cabin pressure.
+    In the NPRM, the FAA proposed to require a one-time inspection of 
+the forward and aft surfaces of the pressure bulkhead composite panels 
+for damage and repairing any damage found.
+
+Actions Since the NPRM Was Issued
+
+    After issuance of the NPRM, the FAA reviewed a Gulfstream safety 
+assessment and determined that a bulkhead with disbonding is still 
+capable of carrying operational loads. If the affected airplanes are 
+capable of carrying operational loads without failure, then there is no 
+unsafe condition.
+    Based on the above information, the FAA has determined that AD 
+action is not warranted and the proposal should be withdrawn.
+
+Comments
+
+    The FAA received comments from Gulfstream, the European Union 
+Aviation Safety Agency (EASA), and an individual commenter.
+
+Requests
+
+    Gulfstream requested that the FAA clarify language throughout the 
+preamble and unsafe condition statement. EASA requested the FAA add a 
+requirement to repeat the inspection. The individual commenter 
+requested the FAA clarify the affected serial numbers.
+    The FAA acknowledges these comments. However, because the NPRM
+
+[[Page 40379]]
+
+is being withdrawn, the commenters' requests are no longer necessary.
+    Withdrawal of the NPRM constitutes only such action and does not 
+preclude the FAA from further rulemaking on this issue, nor does it 
+commit the FAA to any course of action in the future.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+AD nor a final rule. This action, therefore, is not covered under 
+Executive Order 12866 or the Regulatory Flexibility Act.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+0
+Accordingly, the notice of proposed rulemaking, which published in the 
+Federal Register on July 27, 2018 (83 FR 35568), is withdrawn.
+
+    Issued on July 21, 2021.
+Gaetano A. Sciortino,
+Deputy Director for Strategic Initiatives, Compliance & Airworthiness 
+Division, Aircraft Certification Service.
+[FR Doc. 2021-15952 Filed 7-27-21; 8:45 am]
+BILLING CODE 4910-13-P
+
+

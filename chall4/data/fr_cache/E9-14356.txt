@@ -1,0 +1,231 @@
+
+[Federal Register Volume 74, Number 117 (Friday, June 19, 2009)]
+[Proposed Rules]
+[Pages 29148-29149]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E9-14356]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2009-0559; Directorate Identifier 2008-SW-66-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Sikorsky Aircraft Corporation 
+(Sikorsky) Model S-92A Helicopters
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes adopting a new airworthiness directive 
+(AD) for Sikorsky Model S-92A helicopters. The AD would require 
+revising the Limitations section of the Rotorcraft Flight Manual (RFM) 
+by clarifying that the Model S-92A helicopter was certificated as a 
+transport category rotorcraft in both Categories A and B with different 
+operating limitations for each category and must be operated 
+accordingly. We have received reports that some operators are 
+inappropriately operating Model S-92A helicopters using Category B 
+limitations when the helicopter is configured with 10 or more passenger 
+seats. Operating this helicopter when configured with 10 or more 
+passenger seats and adhering to the less stringent limitations for the 
+Category B configuration approved for a 9 or less passenger seat 
+configuration does not maintain the FAA required minimum level of 
+safety. This condition if not corrected, could result in operating 
+under less stringent requirements.
+
+DATES: Comments must be received on or before August 18, 2009.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD:
+     Federal eRulemaking Portal: Go to http://www.regulations.gov. Follow the instructions for submitting comments.
+     Fax: 202-493-2251.
+     Mail: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue, SE., Washington, DC 20590.
+     Hand Delivery: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue, SE., Washington, DC 20590, between 9 a.m. and 5 p.m., 
+Monday through Friday, except Federal holidays.
+
+FOR FURTHER INFORMATION CONTACT: John Coffey, Flight Test Engineer, 
+Boston Aircraft Certification Office, 12 New England Executive Park, 
+Burlington, MA 01803, telephone (781) 238-7161, fax (781) 238-7170.
+
+SUPPLEMENTARY INFORMATION: 
+
+Comments Invited
+
+    We invite you to submit any written data, views, or arguments 
+regarding this proposed AD. Send your comments to the address listed 
+under the caption ADDRESSES. Include the docket number ``FAA-2009-0559, 
+Directorate Identifier 2008-SW-66-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments received by the closing date and may amend the 
+proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://www.regulations.gov, including any personal information you provide. We 
+will also post a report summarizing each substantive verbal contact 
+with FAA personnel concerning this proposed rulemaking. Using the 
+search function of our docket Web site, you can find and read the 
+comments to any of our dockets, including the name of the individual 
+who sent or signed the comment. You may review the DOT's complete 
+Privacy Act Statement in the Federal Register published on April 11, 
+2000.
+
+Examining the Docket
+
+    You may examine the docket that contains the proposed AD, any 
+comments, and other information in person at the Docket Operations 
+office between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Operations office (telephone (800) 647-5527) is 
+located in Room
+
+[[Page 29149]]
+
+W12-140 on the ground floor of the West Building at the street address 
+stated in the ADDRESSES section. Comments will be available in the AD 
+docket shortly after receipt.
+
+Discussion
+
+    This document proposes adopting a new AD for Sikorsky Model S-92A 
+helicopters. The AD would require revising the Limitations section of 
+the RFM by clarifying that the Model S-92A helicopter was certificated 
+as a transport category rotorcraft in both Categories A and B with 
+different operating limitations for each category and must be operated 
+accordingly. The Model S-92A helicopter was certificated to Category A 
+requirements on December 17, 2002, and certificated to Category B 
+requirements on May 7, 2004. When the Model S-92A is configured with 10 
+or more passenger seats, it is a Category A rotorcraft, and operators 
+must follow the limitations for Category A. When it is configured with 
+9 or less passenger seats, it may be considered a Category B 
+rotorcraft, and operators may follow the less stringent Category B 
+limitations. The current limitation language in the RFM does not make a 
+clear distinction between Categories A and B based on the seating 
+configuration. We have received reports that some operators are 
+inappropriately operating Model S-92A helicopters using Category B 
+limitations when the helicopter is configured with 10 or more passenger 
+seats. Operating this helicopter when configured with 10 or more 
+passenger seats and adhering to the less stringent limitations for the 
+Category B configuration approved for a 9 or less passenger seat 
+configuration does not maintain the FAA required minimum level of 
+safety. Therefore, we are proposing to change the Limitations section 
+of the RFM to make it clear that this model helicopter is a Category A 
+helicopter when configured with 10 or more passenger seats.
+    This unsafe condition is likely to exist or develop on other 
+helicopters of the same type design. Therefore, the proposed AD would 
+require revising the Limitations section of the RFM by replacing the 
+wording in Part 1, Section 1, of the Operating Limitations under Types 
+of Operation. Replace this wording: ``Category `A' and `B', Day, Night, 
+VFR and IFR, transport, with maximum seating for 19 passengers'' with 
+this wording: ``Category `A' with a maximum of 19 passenger seats or 
+Category `B' with 9 or less passenger seats; day, night, VFR and IFR.''
+    We estimate this proposed AD would affect about 65 helicopters of 
+U.S. registry. Revising the RFM would result in minimal costs.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. Additionally, this proposed 
+AD would not have a substantial direct effect on the States, on the 
+relationship between the national Government and the States, or on the 
+distribution of power and responsibilities among the various levels of 
+government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+subtitle VII, part A, subpart III, section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by adding a new airworthiness directive 
+to read as follows:
+
+Sikorsky Aircraft Corporation: Docket No. FAA-2009-0559; Directorate 
+Identifier 2008-SW-66-AD.
+
+Applicability
+
+    Model S-92A helicopters, certificated in any category.
+
+Compliance
+
+    Within the next 10 days, unless accomplished previously.
+    To prevent operating under less stringent requirements, do the 
+following:
+    (a) Make the following pen and ink changes or insert a copy of 
+this AD into the Limitations section of the Rotorcraft Flight Manual 
+(RFM), Part 1, Section 1, of the Operating Limitations under Types 
+of Operation:
+    Replace this wording:
+    ``Category `A' and `B', Day, Night, VFR and IFR, transport, with 
+maximum seating for 19 passengers''
+    With this wording:
+    ``Category `A' with a maximum of 19 passenger seats or Category 
+`B' with 9 or less passenger seats; Day, Night, VFR and IFR.''
+    (b) Making the change required by paragraph (a) of this AD is 
+terminating action for the requirements of this AD.
+    (c) To request a different method of compliance or a different 
+compliance time for this AD, follow the procedures in 14 CFR 39.19. 
+Contact the Manager, Boston Aircraft Certification Office, FAA, 
+ATTN: John Coffey, Flight Test Engineer, 12 New England Executive 
+Park, Burlington, MA 01803, telephone (781) 238-7161, fax (781) 238-
+7170, for information about previously approved alternative methods 
+of compliance.
+
+    Issued in Fort Worth, Texas, on June 15, 2009.
+Mark R. Schilling,
+Acting Manager, Rotorcraft Directorate, Aircraft Certification Service.
+[FR Doc. E9-14356 Filed 6-18-09; 8:45 am]
+BILLING CODE 4910-13-P
+
+

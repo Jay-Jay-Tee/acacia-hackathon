@@ -1,0 +1,145 @@
+
+[Federal Register Volume 67, Number 139 (Friday, July 19, 2002)]
+[Proposed Rules]
+[Pages 47490-47491]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 02-18200]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2001-NM-93-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 777-200 Series Airplanes 
+Equipped With General Electric Engines
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to all 
+Boeing Model 777-200 series airplanes equipped with General Electric 
+engines. That action would have required installation of a high-
+temperature silicone foam seal on the aft fairing of the strut. Since 
+issuance of the NPRM, the Federal Aviation Administration (FAA) has 
+received new information that indicates that the unsafe condition would 
+not be prevented by the proposed action. Subsequently, the FAA has 
+issued new rulemaking that positively addresses the unsafe condition 
+identified in the NPRM and eliminates the need for the actions proposed 
+by the NPRM. Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Technical Information: John Vann, 
+Aerospace Engineer, Propulsion Branch, ANM-140S, FAA, Seattle Aircraft 
+Certification Office, 1601 Lind Avenue, SW., Renton, Washington 98055-
+4056; telephone (425) 227-1024; fax (425) 227-1181.
+    Other Information: Judy Golder, Airworthiness Directive Technical 
+Editor/Writer; telephone (425) 687-4241, fax (425) 227-1232. Questions 
+or comments may also be sent via the Internet using the following 
+address: [email protected]. Questions or comments sent via the 
+Internet as attached electronic files must be formatted in Microsoft 
+Word 97 for Windows or ASCII text.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to all Boeing Model 777-200 series airplanes 
+equipped with General Electric engines, was published in the Federal 
+Register as a Notice of Proposed Rulemaking (NPRM) on October 30, 2001 
+(66 FR 54727). The proposed rule would have required installation of a 
+high-temperature silicone foam seal on the aft fairing of the strut. 
+That action was prompted by reports indicating that, during routine 
+inspections of the aft fairing of the strut, evidence of an elevated 
+temperature in the interior cavity of the aft fairing was found on 
+several Boeing Model 777-200 series airplanes equipped with General 
+Electric engines. The proposed actions were intended to prevent primary 
+engine exhaust from entering the aft fairing of the strut, elevating 
+the temperature in the aft fairing of the strut, and creating a 
+potential source of ignition, which could lead to an uncontrolled fire 
+in the aft fairing of the strut. Such a fire would expose the wing fuel 
+tank to high-temperature gasses and flames and result in a potential 
+ignition source for the fuel tank, and reduced structural integrity of 
+the wing.
+
+Actions That Occurred Since the NPRM Was Issued
+
+    Since the issuance of that NPRM, one operator reported significant 
+heat damage to the forward end of the diagonal brace on an airplane 
+that had the high-temperature silicone foam seal installed. 
+Investigation revealed that the foam seal was not a sufficient barrier 
+to the heat of the primary engine exhaust. Thus the exhaust entered the 
+aft fairing of the strut through a gap in the heat shield, elevating 
+the temperature and resulting in heat damage to the primary fire seal, 
+heat shield seal, and secondary fluid seal. The damaged seals allowed 
+the exhaust to pass into the aft fairing cavity causing heat damage to 
+the diagonal brace assembly.
+    As a result of this incident, the FAA has determined that the 
+unsafe condition would not be prevented by the installation of the high 
+temperature silicone foam seal alone, which the NPRM proposed to 
+require.
+
+Other Relevant Rulemaking
+
+    On March 29, 2002, the FAA issued AD 2002-07-07, amendment 39-12701 
+(67 FR 16991, April 9, 2002), applicable to certain Boeing Model 777-
+200 series airplanes equipped with General Electric GE90 series 
+engines. That AD requires repetitive inspections of the diagonal brace 
+and forward seals of the aft fairing of the strut to find 
+discrepancies, and corrective actions, if necessary. The actions 
+required by that AD are intended to prevent primary engine exhaust from 
+entering the aft fairing of the strut and elevating the temperature, 
+which could lead to heat damage of the seals and diagonal brace. Such 
+damage could result in cracking and fracture of the forward attachment 
+point of the diagonal brace, loss of the diagonal brace load path, and 
+consequent separation of the strut and engine from the airplane.
+
+FAA's Conclusions
+
+    In AD 2002-07-07, the FAA stated that it was considering 
+withdrawing NPRM 2001-NM-93-AD. Upon further consideration, the FAA has 
+determined that the unsafe condition addressed by that NPRM would NOT 
+be prevented by the actions that would be required by that proposed AD, 
+but WOULD be prevented by the actions required by AD 2002-07-07. 
+Accordingly, the proposed rule is hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the
+
+[[Page 47491]]
+
+agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 2001-NM-93-
+AD, published in the Federal Register on October 30, 2001 (66 FR 
+54727), is withdrawn.
+
+    Issued in Renton, Washington, on July 11, 2002.
+Lirio Liu-Nelson,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 02-18200 Filed 7-18-02; 8:45 am]
+BILLING CODE 4910-13-P
+
+

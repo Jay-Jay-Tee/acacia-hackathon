@@ -1,0 +1,102 @@
+
+[Federal Register Volume 78, Number 88 (Tuesday, May 7, 2013)]
+[Proposed Rules]
+[Pages 26556-26557]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2013-10786]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2012-0756; Directorate Identifier 2012-CE-012-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Piper Aircraft, Inc. Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document withdraws a notice of proposed rulemaking (NPRM) 
+that would have applied to all Piper Aircraft, Inc. (type certificate 
+previously held by The New Piper Aircraft Inc.) Models PA-18 and PA-19 
+airplanes. The proposed airworthiness directive (AD) would have 
+required either moving all toggle-style magneto switches located on the 
+left cabin panel, adjacent to the front seat, away from this position; 
+or replacing these switches with FAA-approved, non-keyed, rotary-style 
+switches. Since issuance of the NPRM, the FAA has re-evaluated this 
+airworthiness concern and determined that an unsafe condition does not 
+exist that would warrant AD action. This withdrawal does not prevent 
+the FAA from initiating future rulemaking on this subject.
+
+FOR FURTHER INFORMATION CONTACT: Gary Wechsler, Aerospace Engineer, 
+FAA, Atlanta Aircraft Certification Office, 1701 Columbia Avenue, 
+College Park, Georgia 30337; phone: (404) 474-5575; fax: (404) 474-
+5606; email: [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    We issued a notice of proposed rulemaking (NPRM) to amend 14 CFR 
+part 39 to include an AD that would apply to the specified products. 
+That NPRM published in the Federal Register on July 19, 2012 (77 FR 
+42455). That NPRM proposed to require you to either move all toggle-
+style magneto switches located on the left cabin panel, adjacent to the 
+front seat, away from this position; or replace these switches with 
+FAA-approved, non-keyed, rotary-style switches.
+    Because of the comments received on the NPRM (77 FR 42455, July 19, 
+2012), the FAA re-evaluated the data collected on the safety concern 
+and concluded that:
+     an unsafe condition warranting AD action does not exist; 
+and
+     the associated level of risk does not warrant AD action.
+    To mitigate the safety concern from recurring, the FAA may take 
+another airworthiness action such as a special airworthiness 
+information bulletin (SAIB) to recommend the actions contained in the 
+proposed rule and capture the concerns identified by the public during 
+the NPRM (77 FR 42455, July 19, 2012) comment period.
+    Withdrawal of this NPRM (77 FR 42455, July 19, 2012) constitutes 
+only such action and does not preclude the agency from issuing future 
+rulemaking on this issue, nor does it commit the agency to any course 
+of action in the future.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule and therefore, is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking (NPRM), FAA-2012-
+0756, published in the Federal Register on July 19, 2012 (77 FR 42455), 
+is withdrawn.
+
+
+[[Page 26557]]
+
+
+    Issued in Kansas City, Missouri, on May 1, 2013.
+Earl Lawrence,
+Manager, Small Airplane Directorate, Aircraft Certification Service.
+[FR Doc. 2013-10786 Filed 5-6-13; 8:45 am]
+BILLING CODE 4910-13-P
+
+

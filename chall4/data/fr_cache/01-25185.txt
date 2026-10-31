@@ -1,0 +1,135 @@
+
+[Federal Register Volume 66, Number 195 (Tuesday, October 9, 2001)]
+[Proposed Rules]
+[Pages 51358-51359]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 01-25185]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 98-NM-36-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Lockheed Model L-1011-385 Series 
+Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+[[Page 51359]]
+
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to certain 
+Lockheed Model L-1011-385 series airplanes. That action would have 
+required the replacement of the flap position indicator with an 
+improved flap position indicator. Since the issuance of the NPRM, the 
+Federal Aviation Administration (FAA) has received new data that 
+indicate that currently there are adequate annunciation provisions and 
+crew procedures to safely detect and accommodate slat drive failures. 
+Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Hector Hernandez, Aerospace Engineer, 
+Systems and Flight Test Branch, ACE-116A, FAA, Atlanta Aircraft 
+Certification Office, One Crown Center, 1895 Phoenix Boulevard, suite 
+450, Atlanta, Georgia 30349; telephone (770) 703-6069; fax (770) 703-
+6097.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to certain Lockheed Model L-1011-385 series 
+airplanes, was published in the Federal Register as a Notice of 
+Proposed Rulemaking (NPRM) on June 17, 1998 (63 FR 33019). The proposed 
+rule would have required the replacement of the flap position indicator 
+with an improved flap position indicator. That action was prompted by a 
+report indicating that an airplane landed at an excessive sink rate and 
+sustained substantial structural damage when the leading edge slats 
+failed to extend for landing and the flightcrew failed to increase 
+airspeed in response, due to inadequate annunciation of the slat 
+failure. The proposed actions were intended to prevent such inadequate 
+annunciation, which could result in the flightcrew being unaware when 
+the leading edge slats fail to extend properly; such failure could 
+result in reduced stall margins, and consequent reduced controllability 
+of the airplane.
+
+Actions That Occurred Since the NPRM Was Issued
+
+    Since the issuance of that NPRM, the FAA has received numerous 
+comments from operators claiming that there are adequate annunciation 
+provisions and crew procedures currently in place. The manufacturer and 
+operators have identified three separate locations that show the 
+position of the slats on Model L-1011 series airplanes:
+    1. A slat monitor panel at the flight engineer's station displays 
+the position of each of the fourteen individual slat panels by 
+illuminating when each slat reaches the fully extended position, as 
+determined by proximity sensors in each slat's drive mechanism. This 
+slat monitor panel also displays the angular position of both the right 
+and left slat drive trains on a dial-type indicator.
+    2. A green ``LE EXT'' annunciation on the flap/slat position 
+indicator on the center instrument panel illuminates when the slats 
+reach the fully extended, 30-degree deflection.
+    3. Two slat drive fault indicators indicate that the slat drive has 
+been inhibited.
+    Most but not all slat drive failure modes are detected and actively 
+annunciated by the slat drive fault indicators. Any failure that 
+inhibits the slat travel prior to full extension is clearly indicated 
+on the slat monitor panel and flap/slat position indicator by the ``no 
+indication of slat extension'' indicator. Current crew procedures call 
+for the flight engineer to check and confirm slat extension prior to 
+landing. To require the production and installation of approximately 
+180 shipsets of modified indicators (to accommodate the worldwide 
+fleet), which have not been manufactured in more than 15 years, does 
+not is not necessary in light of the additional indications already in 
+place. While the modified indicators do improve slat drive position 
+awareness by actively annunciating the lack of slat extension, 
+currently there are adequate annunciation provisions and crew 
+procedures to safely detect and accommodate slat drive failures.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that mandating 
+the installation of modified indicators is not necessary or justifiable 
+because current annunciation provisions and crew procedures are 
+adequate to address the identified unsafe condition. Accordingly, the 
+proposed rule is hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 98-NM-36-AD, 
+published in the Federal Register on June 17, 1998 (63 FR 33019), is 
+withdrawn.
+
+    Issued in Renton, Washington, on October 2, 2001.
+Vi L. Lipski,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 01-25185 Filed 10-5-01; 8:45 am]
+BILLING CODE 4910-13-P
+
+

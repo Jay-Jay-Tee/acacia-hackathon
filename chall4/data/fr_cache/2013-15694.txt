@@ -1,0 +1,713 @@
+
+[Federal Register Volume 78, Number 127 (Tuesday, July 2, 2013)]
+[Proposed Rules]
+[Pages 39633-39637]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2013-15694]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2013-0541; Directorate Identifier 2011-NM-097-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; The Boeing Company Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: We propose to supersede three existing airworthiness 
+directives (ADs) that apply to The Boeing Company Model 757-200, -
+200PF, and -200CB series airplanes. The existing ADs currently require 
+repetitive inspections and audible tap tests of the upper and lower 
+skins of the trailing edge wedges on certain slats, and related 
+investigative and corrective actions if necessary. Since we issued 
+these ADs, we have received reports of slats disbonding on airplanes on 
+which the terminating actions of the existing ADs were completed and 
+also reports of slats disbonding on airplanes outside of the 
+applicability of the existing ADs. This proposed AD would require a 
+determination of the type of trailing edge wedges of the leading edge 
+slats, repetitive inspections on certain trailing edge wedges for areas 
+of skin-to-core disbonding, and corrective actions if necessary. This 
+proposed AD would also provide an optional terminating action for the 
+repetitive inspections. This AD would revise the applicability of the 
+existing ADs to include additional airplanes. We are proposing this AD 
+to prevent delamination of the trailing edge wedge of the leading edge 
+slats, possible loss of pieces of the trailing edge wedge assembly 
+during flight, reduction of the reduced maneuver and stall margins, and 
+consequent reduced controllability of the airplane.
+
+DATES: We must receive comments on this proposed AD by August 16, 2013.
+
+ADDRESSES: You may send comments, using the procedures found in 14 CFR 
+11.43 and 11.45, by any of the following methods:
+     Federal eRulemaking Portal: Go to http://www.regulations.gov. Follow the instructions for submitting comments.
+     Fax: 202-493-2251.
+     Mail: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue SE., Washington, DC 20590.
+     Hand Delivery: Deliver to Mail address above between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    For service information identified in this AD, contact Boeing 
+Commercial Airplanes, Attention: Data & Services Management, P.O. Box 
+3707, MC 2H-65, Seattle, WA 98124-2207; telephone 206-544-5000, 
+extension 1; fax 206-766-5680; Internet https://www.myboeingfleet.com. 
+You may review copies of the referenced service information at the FAA, 
+Transport Airplane Directorate, 1601 Lind Avenue SW., Renton, 
+Washington. For information on the availability of this material at the 
+FAA, call 425-227-1221.
+
+Examining the AD Docket
+
+    You may examine the AD docket on the Internet at http://www.regulations.gov; or in person at the Docket Management Facility 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this proposed AD, the regulatory 
+evaluation, any comments received, and other information. The street 
+address for the Docket Office (phone: 800-647-5527) is in the ADDRESSES 
+section. Comments will be available in the AD docket shortly after 
+receipt.
+
+[[Page 39634]]
+
+
+FOR FURTHER INFORMATION CONTACT: Nancy Marsh, Aerospace Engineer, 
+Airframe Branch, ANM-120S, Seattle Aircraft Certification Office (ACO), 
+FAA, 1601 Lind Avenue SW., Renton, WA 98057-3356; phone: 425-917-6440; 
+fax: 425-917-6590; email: [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to send any written relevant data, views, or 
+arguments about this proposed AD. Send your comments to an address 
+listed under the ADDRESSES section. Include ``Docket No. FAA-2013-0541; 
+Directorate Identifier 2011-NM-097-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of this proposed AD. We 
+will consider all comments received by the closing date and may amend 
+this proposed AD because of those comments.
+    We will post all comments we receive, without change, to http://www.regulations.gov, including any personal information you provide. We 
+will also post a report summarizing each substantive verbal contact we 
+receive about this proposed AD.
+
+Discussion
+
+    On October 23, 1990, we issued AD 90-23-06, Amendment 39-6794 (55 
+FR 46499, November 5, 1990), for certain Boeing Model 757 series 
+airplanes, which requires close visual inspections of the trailing edge 
+wedges on the leading edge slats to detect delamination and physical 
+damage, and replacement or repair of defective parts if necessary.
+    On December 18, 1991, we issued AD 91-22-51, Amendment 39-8129 (57 
+FR 781, January 9, 1992), for certain Boeing Model 757 series 
+airplanes, which requires repetitive inspections to detect delamination 
+of or physical damage to the trailing edge wedges on the leading edge 
+wing slats, and repair if necessary.
+    On March 22, 2005, we issued AD 2005-07-08, Amendment 39-14032 (70 
+FR 16403, March 31, 2005), for certain Boeing Model 757-200 and -200PF 
+series airplanes, which requires repetitive inspections and audible tap 
+tests of the upper and lower skins of the trailing edge wedges on 
+certain slats, and related investigative and corrective actions if 
+necessary. This AD also provides an optional terminating action for the 
+repetitive inspections and audible tap tests, which consists of 
+replacing the trailing edge wedge assemblies with new, improved wedge 
+assemblies.
+    Those ADs resulted from multiple reports of damage to the leading 
+edge slats. We issued those ADs to prevent delamination of the leading 
+edge slats, possible loss of pieces of the trailing edge wedge assembly 
+during flight, reduction of the reduced maneuver and stall margins, and 
+consequent reduced controllability of the airplane.
+
+Actions Since Existing ADs Were Issued
+
+    Since we issued AD 2005-07-08, Amendment 39-14032 (70 FR 16403, 
+March 31, 2005), we have received reports of slat disbonding on 
+airplanes on which the optional terminating action of AD 2005-07-08 was 
+completed, and also reports of slats disbonding on airplanes outside of 
+the applicability of the existing ADs. Additionally, the manufacturer 
+has developed a new terminating action, which, when accomplished, 
+terminates the repetitive inspections of AD 90-23-06, Amendment 39-6794 
+(55 FR 46499, November 5, 1990); AD 91-22-51, Amendment 39-8129 (57 FR 
+781, January 9, 1992); and AD 2005-07-08.
+
+Relevant Service Information
+
+    We reviewed Boeing Special Attention Service Bulletin 757-57-0066, 
+dated April 5, 2011. For information on the procedures and compliance 
+times, see this service information at http://www.regulations.gov by 
+searching for Docket No. FAA-2013-0541.
+
+FAA's Determination
+
+    We are proposing this AD because we evaluated all the relevant 
+information and determined the unsafe condition described previously is 
+likely to exist or develop in other products of the same type design.
+
+Proposed AD Requirements
+
+    This proposed AD would retain all requirements of AD 90-23-06, 
+Amendment 39-6794 (55 FR 46499, November 5, 1990); AD 91-22-51, 
+Amendment 39-8129 (57 FR 781, January 9, 1992); and AD 2005-07-08, 
+Amendment 39-14032 (70 FR 16403, March 31, 2005). This proposed AD 
+would add airplanes to the applicability statement. This proposed AD 
+would also require accomplishing the actions specified in the service 
+information described previously, except as discussed under 
+``Differences Between the Proposed AD and the Service Information.'' 
+Accomplishment of the new initial proposed inspection and applicable 
+corrective actions would terminate the existing requirements.
+    The phrase ``related investigative actions'' might be used in this 
+proposed AD. ``Related investigative actions'' are follow-on actions 
+that: (1) Are related to the primary actions, and (2) are actions that 
+further investigate the nature of any condition found. Related 
+investigative actions in an AD could include, for example, inspections.
+    In addition, the phrase ``corrective actions'' might be used in 
+this proposed AD. ``Corrective actions'' are actions that correct or 
+address any condition found. Corrective actions in an AD could include, 
+for example, repairs.
+
+Change to Existing AD 90-23-06, Amendment 39-6794 (55 FR 46499, 
+November 5, 1990)
+
+    This proposed AD would retain all the requirements of AD 90-23-06, 
+Amendment 39-6794 (55 FR 46499, November 5, 1990). Since AD 90-23-06 
+was issued, the AD format has been revised, and certain paragraphs have 
+been rearranged. As a result, the corresponding paragraph identifiers 
+have changed in this proposed AD, as listed in the following table:
+
+                      Revised Paragraph Identifiers
+------------------------------------------------------------------------
+    Requirement in AD 90-23-06,
+  Amendment 39-6794 (55 FR 46499,     Corresponding requirement in this
+         November 5, 1990)                       proposed AD
+------------------------------------------------------------------------
+ paragraph (A)                       paragraph (g)(1).
+ paragraph (B)                       paragraph (g)(2).
+ paragraph (C)                       paragraph (g)(3).
+ paragraph (D)                       paragraph (h).
+------------------------------------------------------------------------
+
+Change to Existing AD 91-22-51, Amendment 39-8129 (57 FR 781, January 
+9, 1992)
+
+    The corresponding paragraph identifiers also have been changed for 
+AD 91-22-51, Amendment 39-8129 (57 FR 781, January 9, 1992), and are 
+listed in the following table:
+
+                      Revised Paragraph Identifiers
+------------------------------------------------------------------------
+    Requirement in AD 91-22-51,
+   Amendment 39-8129 (57 FR 781,      Corresponding requirement in this
+         January 9, 1992)                        proposed AD
+------------------------------------------------------------------------
+ paragraph (a)                       paragraph (i)(1).
+ paragraph (a)(1)                    paragraph (i)(1)(i).
+ paragraph (a)(2)                    paragraph (i)(1)(ii).
+ paragraph (b)                       paragraph (i)(2).
+ paragraph (c)                       paragraph (j).
+------------------------------------------------------------------------
+
+Change to Existing AD 2005-07-08, Amendment 39-14032 (70 FR 16403, 
+March 31, 2005)
+
+    This proposed AD also would retain all the requirements of AD 2005-
+07-08,
+
+[[Page 39635]]
+
+Amendment 39-14032 (70 FR 16403, March 31, 2005). Since AD 2005-07-08 
+was issued, the AD format has been revised, and certain paragraphs have 
+been rearranged. As a result, the corresponding paragraph identifiers 
+have changed in this proposed AD, as listed in the following table:
+
+                      Revised Paragraph Identifiers
+------------------------------------------------------------------------
+  Requirement in  AD 2005-07-08,
+ Amendment 39-14032  (70 FR 16403,    Corresponding requirement in this
+          March 31, 2005)                        proposed AD
+------------------------------------------------------------------------
+ paragraph (f)                       paragraph (k).
+ paragraph (g)                       paragraph (l).
+ paragraph (h)                       paragraph (m).
+ paragraph (i)                       paragraph (n).
+ paragraph (j)                       paragraph (o).
+------------------------------------------------------------------------
+
+Differences Between the Proposed AD and the Service Information
+
+    Boeing Special Attention Service Bulletin 757-57-0066, dated April 
+5, 2011, specifies to contact the manufacturer for instructions on how 
+to repair certain conditions, but this proposed AD would require 
+repairing those conditions in one of the following ways:
+     In accordance with a method that we approve; or
+     Using data that meet the certification basis of the 
+airplane, and that have been approved by the Boeing Commercial 
+Airplanes Organization Designation Authorization (ODA) whom we have 
+authorized to make those findings.
+
+Costs of Compliance
+
+    We estimate that this proposed AD affects 640 airplanes of U.S. 
+registry.
+    We estimate the following costs to comply with this proposed AD:
+
+                                                 Estimated Costs
+----------------------------------------------------------------------------------------------------------------
+                                                                                                 Cost on U.S.
+              Action                    Labor cost        Parts cost      Cost per product        operators
+----------------------------------------------------------------------------------------------------------------
+Inspection/test [retained actions  6 work-hours x $85               $0  $510 per inspection  $326,400 per
+ from existing ADs].                per hour = $510                      cycle.               inspection cycle.
+                                    per inspection
+                                    cycle.
+Inspection/test [new proposed      Up to 20 work-hours               0  Up to $1,700 per     Up to $1,088,000
+ action].                           x $85 per hour =                     inspection cycle.    per inspection
+                                    $1,700 per                                                cycle.
+                                    inspection cycle.
+----------------------------------------------------------------------------------------------------------------
+
+    We have received no definitive data that would enable us to provide 
+cost estimates for the on-condition actions specified in this proposed 
+AD.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    (1) Is not a ``significant regulatory action'' under Executive 
+Order 12866,
+    (2) Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979),
+    (3) Will not affect intrastate aviation in Alaska, and
+    (4) Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+0
+1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+0
+2. The FAA amends Sec.  39.13 by removing airworthiness directive (AD) 
+90-23-06, Amendment 39-6794 (55 FR 46499, November 5, 1990); AD 91-22-
+51, Amendment 39-8129 (57 FR 781, January 9, 1992); and AD 2005-07-08, 
+Amendment 39-14032 (70 FR 16403, March 31, 2005), and adding the 
+following new AD:
+
+The Boeing Company: Docket No. FAA-2013-0541; Directorate Identifier 
+2011-NM-097-AD.
+
+(a) Comments Due Date
+
+    The FAA must receive comments on this AD action by August 16, 
+2013.
+
+(b) Affected ADs
+
+    This AD supersedes AD 2005-07-08, Amendment 39-14032 (70 FR 
+16403, March 31, 2005); AD 91-22-51, Amendment 39-8129 (57 FR 781, 
+January 9, 1992); and AD 90-23-06, Amendment 39-6794 (55 FR 46499, 
+November 5, 1990).
+
+(c) Applicability
+
+    This AD applies to all The Boeing Company Model 757-200, -200PF, 
+and -200CB series airplanes, certificated in any category.
+
+(d) Subject
+
+    Joint Aircraft System Component (JASC)/Air Transport Association 
+(ATA) of America Code 57, Wings.
+
+(e) Unsafe Condition
+
+    This AD was prompted by reports of slat disbonding on airplanes 
+that had performed the terminating actions of an AD; and we have 
+received reports of slats disbonding on airplanes outside of the 
+applicability of the existing ADs. We are issuing this AD to prevent 
+delamination of the trailing edge
+
+[[Page 39636]]
+
+wedge of the leading edge slats, possible loss of pieces of the 
+trailing edge wedge assembly during flight, reduction of the reduced 
+maneuver and stall margins, and consequent reduced controllability 
+of the airplane.
+
+(f) Compliance
+
+    Comply with this AD within the compliance times specified, 
+unless already done.
+
+(g) Retained Repetitive Inspections of Trailing Edge Wedges
+
+    This paragraph restates the requirements of paragraphs A., B., 
+and C. of AD 90-23-06, Amendment 39-6794 (55 FR 46499, November 5, 
+1990).
+    (1) For Model 757 series airplanes, line numbers 001 through 
+091: Prior to the accumulation of 11,000 flight hours, or within the 
+next 10 calendar days after September 21, 1990 (the effective date 
+of telegraphic AD T90-20-51), whichever occurs later, perform a 
+close detailed visual inspection of the trailing edge wedges on all 
+the leading edge slats for delamination and physical damage, in 
+accordance with Boeing Alert Service Bulletin 757-57A0038, dated 
+September 21, 1990; Boeing Alert Service Bulletin 757-57A0038, 
+Revision 1, dated September 25, 1990; or Boeing Alert Service 
+Bulletin 757-57A0038, Revision 2, dated October 10, 1990.
+
+    Note 1 to paragraph (g)(1) of this AD:  Telegraphic AD T90-20-51 
+was sent directly to owners and operators of the affected airplanes 
+on September 21, 1990. AD T90-20-51 was not published in the Federal 
+Register, because it was promptly superseded by AD 90-23-06, 
+Amendment 39-6794 (55 FR 46499, November 5, 1990).
+
+    (2) For Model 757 series airplanes, line numbers 092 through 
+158: Prior to the accumulation of 11,000 flight hours, or within the 
+next 10 calendar days after November 19, 1990 (the effective date of 
+AD 90-23-06, Amendment 39-6794 (55 FR 46499, November 5, 1990)), 
+whichever occurs later, perform a close detailed visual inspection 
+of the trailing edge wedges on all the leading edge slats for 
+delamination and physical damage, in accordance with Boeing Alert 
+Service Bulletin 757-57A0038, dated September 21, 1990; Boeing Alert 
+Service Bulletin 757-57A0038, Revision 1, dated September 25, 1990; 
+or Boeing Alert Service Bulletin 757-57A0038, Revision 2, dated 
+October 10, 1990.
+    (3) Repeat the inspections required by paragraph (g)(1) or 
+(g)(2) of this AD, as applicable, at intervals not to exceed 300 
+flight hours. Doing the initial inspection and applicable corrective 
+actions required by paragraph (p) of this AD terminates the 
+requirements of paragraph (g) of this AD.
+
+(h) Retained Repair or Replacement for Paragraph (g) of This AD
+
+    This paragraph restates the repair or replacement required by 
+paragraph D. of AD 90-23-06, Amendment 39-6794 (55 FR 46499, 
+November 5, 1990). If delamination and/or physical damage are found 
+during any inspection required by paragraph (g) of this AD, prior to 
+further flight, repair using a method approved in accordance with 
+the procedures specified in paragraph (u) of this AD or replace with 
+new parts. Doing the initial inspection and applicable corrective 
+actions required by paragraph (p) of this AD terminates the 
+requirements of paragraph (h) of this AD.
+
+(i) Retained Repetitive Inspections for Certain Airplanes
+
+    This paragraph restates the repetitive inspections required by 
+paragraphs (a) and (b) of AD 91-22-51, Amendment 39-8129 (57 FR 781, 
+January 9, 1992). For Model 757 series airplanes, line numbers 140 
+through 335, accomplish the following:
+    (1) Perform a close detailed visual inspection of the trailing 
+edge wedges of slats 1 through 4 and 7 through 10, for delamination 
+and physical damage, in accordance with Boeing Alert Service 
+Bulletin 757-57A0045, dated October 16, 1991, at the times specified 
+below, until the initial inspection and applicable corrective 
+actions required by paragraph (p) of this AD are accomplished.
+    (i) For airplanes that have accumulated 5,000 or more flight 
+hours as of January 24, 1992 (the effective date AD 91-22-51, 
+Amendment 39-8129 (57 FR 781, January 9, 1992)): Within the next 10 
+calendar days after January 24, 1992, and thereafter at intervals 
+not to exceed 300 flight hours.
+    (ii) For airplanes that have accumulated less than 5,000 flight 
+hours as of January 24, 1992 (the effective date AD 91-22-51, 
+Amendment 39-8129 (57 FR 781, January 9, 1992)): Within the next 300 
+flight hours after January 24, 1992, and thereafter at intervals not 
+to exceed 300 flight hours.
+    (2) Within the next 300 flight hours after January 24, 1992 (the 
+effective date of AD 91-22-51, Amendment 39-8129 (57 FR 781, January 
+9, 1992), perform a ``coin-tap'' inspection of the trailing edge 
+wedges of slats 1 through 4 and 7 through 10 for delamination and 
+physical damage, in accordance with Boeing Alert Service Bulletin 
+757-57A0045, dated October 16, 1991. Repeat this inspection at 
+intervals not to exceed 1,500 flight hours.
+
+(j) Retained Repair or Replacement for Paragraph (i) of This AD
+
+    This paragraph restates the repair or replacement required by 
+paragraph (c) of AD 91-22-51, Amendment 39-8129 (57 FR 781, January 
+9, 1992). If delamination and/or physical damage are found as a 
+result of the inspections required by paragraph (i)(1) or (i)(2) of 
+this AD, prior to further flight, repair using a method approved in 
+accordance with the procedures specified in paragraph (u) of this AD 
+or replace with new parts. If a repair is accomplished or if new 
+parts are installed, the inspections required by paragraphs (i)(1) 
+and (i)(2) of this AD must be continued. Doing the initial 
+inspection and applicable corrective actions in paragraph (p) of 
+this AD terminates the requirements of paragraphs (i) and (j) of 
+this AD.
+
+(k) Retained Repetitive Inspections and Tests
+
+    This paragraph restates the repetitive inspections and tests 
+required by paragraph (f) of AD 2005-07-08, Amendment 39-14032 (70 
+FR 16403, March 31, 2005).
+    (1) For Model 757-200 and -200PF series airplanes identified in 
+Boeing Alert Service Bulletin 757-57A0063, dated June 26, 2003: 
+Within 18 months after May 5, 2005 (the effective date of AD 2005-
+07-08, Amendment 39-14032 (70 FR 16403, March 31, 2005)), do a 
+detailed inspection and an audible tap test of the upper and lower 
+skins of the trailing edge wedges on slats No. 2 through No. 4 
+inclusive and No. 7 through No. 9 inclusive, for evidence of damage 
+or cracking, in accordance with the Accomplishment Instructions of 
+Boeing Alert Service Bulletin 757-57A0063, dated June 26, 2003. 
+Repeat the detailed inspection and audible tap test thereafter at 
+intervals not to exceed 18 months. Doing the initial inspection and 
+applicable corrective actions in paragraph (p) of this AD terminates 
+the requirements of paragraph (k) of this AD.
+    (2) For the purposes of this AD, a detailed inspection is: ``An 
+intensive examination of a specific item, installation, or assembly 
+to detect damage, failure, or irregularity. Available lighting is 
+normally supplemented with a direct source of good lighting at an 
+intensity deemed appropriate. Inspection aids such as mirror, 
+magnifying lenses, etc., may be necessary. Surface cleaning and 
+elaborate procedures may be required.''
+
+(l) Retained Related Investigative and Corrective Actions
+
+    This paragraph restates the related investigative and corrective 
+actions required by paragraph (g) of AD 2005-07-08, Amendment 39-
+14032 (70 FR 16403, March 31, 2005). If any damage or cracking is 
+found during any inspection or audible tap test required by 
+paragraph (k) of this AD: Before further flight, do the related 
+investigative action, if applicable, and replace the affected part 
+with a new trailing edge wedge assembly or repair the affected part, 
+in accordance with the Accomplishment Instructions of Boeing Alert 
+Service Bulletin 757-57A0063, dated June 26, 2003. Accomplishing the 
+replacement terminates the repetitive inspections and audible tap 
+tests required by paragraph (k) of this AD for that wedge assembly 
+only. Doing the initial inspection and applicable corrective actions 
+in paragraph (p) of this AD terminates the requirements of paragraph 
+(l) of this AD.
+
+(m) Retained Credit for Previous Actions
+
+    This paragraph restates the credit for actions accomplished 
+previously as specified in paragraph (h) of AD 2005-07-08, Amendment 
+39-14032 (70 FR 16403, March 31, 2005). This paragraph provides 
+credit for the actions required by paragraph (k) of this AD, if 
+those actions were performed before May 5, 2005 (the effective date 
+of AD 2005-07-08, Amendment 39-14032 (70 FR 16403, March 31, 2005)) 
+using all of the actions specified in the Accomplishment 
+Instructions of Boeing Service Bulletin 757-57A0038, Revision 5, 
+dated July 16, 1992; or Boeing Service Bulletin 757-57A0038, 
+Revision 6, dated November 10, 1994; in conjunction with the use of 
+BMS 5-137 adhesive.
+
+(n) Retained Parts Installation Limitations
+
+    This paragraph restates the parts installation limitation of 
+paragraph (i) of AD
+
+[[Page 39637]]
+
+2005-07-08, Amendment 39-14032 (70 FR 16403, March 31, 2005), with 
+new actions. For Model 757-200 and -200PF series airplanes 
+identified in Boeing Alert Service Bulletin 757-57A0063, dated June 
+26, 2003: As of May 5, 2005 (the effective date of AD 2005-07-08), 
+no trailing edge wedge assembly having a part number listed in the 
+``Existing Part Number'' column of the table in paragraph 2.C.3. of 
+Boeing Alert Service Bulletin 757-57A0063, dated June 26, 2003, may 
+be installed on any airplane, unless it has been inspected, tested, 
+and had any necessary corrective actions accomplished in accordance 
+with paragraphs (k) and (l) of this AD or in accordance with 
+paragraphs (p) and (q) of this AD. As of the effective date of this 
+AD, no part identified in this paragraph may be installed on any 
+airplane unless it has been inspected, tested, and had all 
+applicable corrective actions accomplished in accordance with 
+paragraphs (p) and (q) of this AD.
+
+(o) Retained Optional Terminating Action
+
+    This paragraph restates the optional terminating action 
+previously specified in paragraph (j) of AD 2005-07-08, Amendment 
+39-14032 (70 FR 16403, March 31, 2005). Replacing all trailing edge 
+wedge assemblies with new, improved wedge assemblies (type B) in 
+accordance with Part III of the Accomplishment Instructions of 
+Boeing Alert Service Bulletin 757-57A0063, dated June 26, 2003, 
+terminates the requirements of paragraph (k) of this AD.
+
+(p) New Inspection To Determine Slat Wedge Type
+
+    At the applicable time specified in paragraph 1.E., 
+``Compliance,'' of Boeing Special Attention Service Bulletin 757-57-
+0066, dated April 5, 2011, except as specified in paragraph (s) of 
+this AD: Do an inspection of the trailing edge wedges of the leading 
+edge slats, or a review of airplane maintenance records, to 
+determine whether each slat wedge is a type A or a type B, in 
+accordance with the Accomplishment Instructions of Boeing Special 
+Attention Service Bulletin 757-57-0066, dated April 5, 2011.
+
+(q) New Type A Slat Wedge Repetitive Inspections and Corrective Actions
+
+    For each type A trailing edge slat wedge found during the 
+inspection or records review required by paragraph (p) of this AD: 
+At the applicable time specified in paragraph 1.E., ``Compliance,'' 
+of Boeing Special Attention Service Bulletin 757-57-0066, dated 
+April 5, 2011, except as specified in paragraph (s) of this AD, do 
+an ultrasonic or tap test inspection for disbonds of each leading 
+edge slat trailing edge wedge, in accordance with the Accomplishment 
+Instructions of Boeing Special Attention Service Bulletin 757-57-
+0066, dated April 5, 2011. Repeat the inspection thereafter at 
+intervals not to exceed 3,000 flight cycles or 24 months, whichever 
+occurs first.
+    (1) For any disbond found during any inspection required by 
+paragraph (q) of this AD that is less than or equal to 1.50 inches 
+in maximum dimension, and is located more than or equal to 1.0 inch 
+from the edge of the panel, and is located more than or equal to 4 
+times the disbond maximum dimension, measured edge to edge, from 
+adjacent damage: Within 600 flight cycles after the disbond was 
+found, do the inspection required by paragraph (q) of this AD of the 
+disbond area, in accordance with the Accomplishment Instructions of 
+Boeing Special Attention Service Bulletin 757-57-0066, dated April 
+5, 2011. Repeat the inspection thereafter at intervals not to exceed 
+600 flight cycles. Within 3,000 flight cycles after the disbond was 
+found: Repair the disbond, in accordance with the Accomplishment 
+Instructions of Boeing Special Attention Service Bulletin 757-57-
+0066, dated April 5, 2011: or replace the affected trailing edge 
+slat wedge using a method approved in accordance with the procedures 
+specified in paragraph (u) of this AD.
+    (2) For any disbond found during any inspection required by 
+paragraph (q) of this AD that is more than 1.50 inches in maximum 
+dimension, or is located less than 1.0 inch from the edge of the 
+panel, or is located less than 4 times the disbond maximum 
+dimension, measured edge to edge, from adjacent damage: Before 
+further flight, repair or replace using a method approved in 
+accordance with the procedures specified in paragraph (u) of this 
+AD.
+
+(r) Repetitive Inspections of Certain Replaced or Repaired Wedges
+
+    (1) For any trailing edge slat wedge that is replaced with a 
+type A wedge: Within 3,000 flight cycles after the replacement or 
+within 24 months after the replacement, whichever occurs first, do 
+the actions required by paragraph (q) of this AD on the replaced 
+type A trailing edge slat wedge. Repeat the inspection thereafter at 
+intervals not to exceed 3,000 flight cycles or 24 months, whichever 
+occurs first.
+    (2) For any trailing edge type A slat wedge that is repaired: 
+Within 600 flight cycles after the repair, do the actions required 
+by paragraph (q) of this AD on the repaired area. Repeat the 
+inspection thereafter at intervals not to exceed 600 flight cycles.
+
+ (s) Exception to Compliance Time
+
+    Where Paragraph 1.E., ``Compliance,'' of Boeing Special 
+Attention Service Bulletin 757-57-0066, dated April 5, 2011, 
+specifies a compliance time ``after the original issue date of this 
+service bulletin,'' this AD requires compliance within the specified 
+compliance time ``after the effective date of this AD''.
+
+(t) New Terminating Actions
+
+    (1) Doing the initial inspection specified in paragraph (q) of 
+this AD and applicable type A trailing edge slat wedge repair or 
+replacement, in accordance with the actions specified in paragraph 
+(q)(1) or (q)(2) of this AD, terminates the requirements of 
+paragraphs (g), (h), (i), (j), (k), and (l) of this AD.
+    (2) Replacing a type A wedge with a type B wedge using a method 
+approved in accordance with the procedures specified in paragraph 
+(u) of this AD terminates the repetitive inspections of a type A 
+trailing edge slat wedge of the leading edge required by paragraph 
+(q) of this AD.
+
+(u) Alternative Methods of Compliance (AMOCs)
+
+    (1) The Manager, Seattle ACO, FAA, has the authority to approve 
+AMOCs for this AD, if requested using the procedures found in 14 CFR 
+39.19. In accordance with 14 CFR 39.19, send your request to your 
+principal inspector or local Flight Standards District Office, as 
+appropriate. If sending information directly to the manager of the 
+ACO, send it to the attention of the person identified in the 
+Related Information section of this AD. Information may be emailed 
+to: 9-ANM-Seattle-ACO-AMOC-Requests-faa.gov.
+    (2) Before using any approved AMOC, notify your appropriate 
+principal inspector, or lacking a principal inspector, the manager 
+of the local flight standards district office/certificate holding 
+district office.
+    (3) An AMOC that provides an acceptable level of safety may be 
+used for any repair required by this AD if it is approved by the 
+Boeing Commercial Airplanes Organization Designation Authorization 
+(ODA) that has been authorized by the Manager, Seattle ACO, to make 
+those findings. For a repair method to be approved, the repair must 
+meet the certification basis of the airplane and the approval must 
+specifically refer to this AD.
+    (4) AMOCs approved previously in accordance with the ADs 
+specified in paragraphs (u)(4)(i), (u)(4)(ii), and (u)(4)(iii) of 
+this AD are approved as AMOCs for the corresponding provisions of 
+this AD.
+    (i) AD 90-23-06, Amendment 39-6794 (55 FR 46499, November 5, 
+1990).
+    (ii) AD 91-22-51, Amendment 39-8129 (57 FR 781, January 9, 
+1992).
+    (iii) AD 2005-07-08, Amendment 39-14032 (70 FR 16403, March 31, 
+2005).
+
+(v) Related Information
+
+    (1) For more information about this AD, contact Nancy Marsh, 
+Aerospace Engineer, Airframe Branch, ANM-120S, Seattle Aircraft 
+Certification Office (ACO), FAA, 1601 Lind Avenue SW., Renton, WA 
+98057-3356; phone: 425-917-6440; fax: 425-917-6590; email: 
+[email protected].
+    (2) For service information identified in this AD, contact 
+Boeing Commercial Airplanes, Attention: Data & Services Management, 
+P.O. Box 3707, MC 2H-65, Seattle, WA 98124-2207; phone: 206-544-
+5000, extension 1; fax: 206-766-5680; Internet: https://www.myboeingfleet.com. You may review copies of the referenced 
+service information at the FAA, Transport Airplane Directorate, 1601 
+Lind Avenue SW., Renton, Washington. For information on the 
+availability of this material at the FAA, call 425-227-1221.
+
+    Issued in Renton, Washington, on June 14, 2013.
+Jeffrey E. Duven,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2013-15694 Filed 7-1-13; 8:45 am]
+BILLING CODE 4910-13-P
+
+

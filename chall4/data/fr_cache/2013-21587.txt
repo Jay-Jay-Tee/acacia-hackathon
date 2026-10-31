@@ -1,0 +1,339 @@
+
+[Federal Register Volume 78, Number 172 (Thursday, September 5, 2013)]
+[Proposed Rules]
+[Pages 54596-54598]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2013-21587]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2013-0751; Directorate Identifier 2012-SW-051-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; AgustaWestland S.p.A. (Type Certificate 
+Formerly Held by Agusta S.p.A) (Agusta) Helicopters
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: We propose to supersede an existing airworthiness directive 
+(AD) for Agusta Model AB139 and AW139 helicopters. The existing AD 
+currently requires establishing a revised life limit for each tail 
+rotor blade (blade), updating the helicopter's historical records, 
+repetitively inspecting each blade for a crack, and replacing certain 
+blades. Since we issued that AD, the manufacturer has improved the 
+design of the blades using different materials and established life 
+limits for each newly-designed blade. This proposed AD would expand the 
+applicability to include the newly-designed blades and establish their 
+life limits. This proposed AD would also retain the requirement to 
+inspect each blade for a crack and, if there is a crack, replace each 
+blade with an airworthy blade. The proposed actions are intended to 
+detect a crack in a blade to prevent failure of a blade and subsequent 
+loss of control of the helicopter.
+
+DATES: We must receive comments on this proposed AD by November 4, 
+2013.
+
+ADDRESSES: You may send comments by any of the following methods:
+     Federal eRulemaking Docket: Go to http://www.regulations.gov. Follow the online instructions for sending your 
+comments electronically.
+     Fax: 202-493-2251.
+     Mail: Send comments to the U.S. Department of 
+Transportation, Docket Operations, M-30, West Building Ground Floor, 
+Room W12-140, 1200 New Jersey Avenue SE., Washington, DC 20590-0001.
+     Hand Delivery: Deliver to the ``Mail'' address between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+
+Examining the AD Docket
+
+    You may examine the AD docket on the Internet at http://www.regulations.gov or in person at the Docket Operations Office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this proposed AD, the foreign 
+authority's AD, the economic evaluation, any comments received, and 
+other information. The street address for the Docket Operations Office 
+(telephone 800-647-5527) is in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after receipt.
+    For service information identified in this proposed AD, contact 
+Agusta Westland, Customer Support & Services, Via Per Tornavento 15, 
+21019 Somma Lombardo (VA) Italy, ATTN: Giovanni Cecchelli; telephone 
+39-0331-711133; fax 39 0331 711180; or at http://www.agustawestland.com/technical-bullettins. You may review the 
+referenced service information at the FAA, Office of the Regional 
+Counsel, Southwest Region, 2601 Meacham Blvd., Room 663, Fort Worth, 
+Texas 76137.
+
+FOR FURTHER INFORMATION CONTACT: Sharon Miles, Aviation Safety 
+Engineer, Regulations and Policy Group, Rotorcraft Directorate, FAA, 
+2601 Meacham Blvd., Fort Worth, Texas 76137; telephone (817) 222-5110; 
+email [email protected].
+
+SUPPLEMENTARY INFORMATION: 
+
+Comments Invited
+
+    We invite you to participate in this rulemaking by submitting 
+written comments, data, or views. We also invite comments relating to 
+the economic, environmental, energy, or federalism impacts that might 
+result from adopting the proposals in this document. The most helpful 
+comments reference a specific portion of the proposal, explain the 
+reason for any recommended change, and include supporting data. To 
+ensure the docket does not contain duplicate comments, commenters 
+should send only one copy of written comments, or if comments are filed 
+electronically, commenters should submit only one time.
+    We will file in the docket all comments that we receive, as well as 
+a report summarizing each substantive public contact with FAA personnel 
+concerning this proposed rulemaking. Before acting on this proposal, we 
+will consider all comments we receive on or before the closing date for 
+comments. We will consider comments filed after the comment period has 
+closed if it is possible to do so without incurring expense or delay. 
+We may change this proposal in light of the comments we receive.
+
+Discussion
+
+    On August 26, 2011, we issued Emergency AD (EAD) 2011-18-52 for the 
+Agusta Model AB139 and AW139 helicopters. We published EAD 2011-18-52 
+as a final rule; request for comments in the Federal Register (77 FR 
+23109, April 18, 2012). EAD 2011-18-52 requires revising the life 
+limits for each blade, part number (P/N) 3G6410A00131 and 4G6410A00131, 
+updating the helicopter's historical records, repetitively inspecting 
+each blade for a crack, and replacing certain blades. That action was 
+prompted by a fatal accident involving an Agusta Model AW139 
+helicopter, which may have been caused by cracks in a blade. The 
+European Aviation Safety Agency (EASA), which is the Technical Agent 
+for the Member States of the European Union, notified us of the unsafe 
+condition and issued EASA EAD No. 2011-0156-E, dated August 25, 2011, 
+to require repetitive inspections and reduce the life limit of the 
+blades. This condition, if not detected and corrected, could result in 
+failure of a blade and subsequent loss of control of the helicopter.
+
+Actions Since Existing AD Was Issued
+
+    Since we issued EAD No. 2011-18-52, the manufacturer first 
+developed two new blades with an improved
+
+[[Page 54597]]
+
+design and specified life limits and repetitive inspections for the 
+blades. EASA issued AD No. 2012-0030, dated February 17, 2012, which 
+superseded EASA EAD No. 2011-0156E, to add the new blades to the 
+required actions. The manufacturer then developed two new blades with 
+improved materials and specified new life limits and inspections for 
+the blades. EASA then issued EASA AD No. 2012-0076, dated May 2, 2012, 
+revised by EASA AD No. 2012-0076R1, dated July 13, 2012, to require the 
+repetitive inspections and reduced life limits on the additional new 
+blades.
+
+FAA's Determination
+
+    These helicopters have been approved by the aviation authority of 
+Italy and are approved for operation in the United States. Pursuant to 
+our bilateral agreement with Italy, EASA, its technical representative, 
+has notified us of the unsafe condition described in its AD. We are 
+proposing this AD because we evaluated all known relevant information 
+and determined that an unsafe condition is likely to exist or develop 
+on other helicopters of these same type designs.
+
+Related Service Information
+
+    Agusta issued Mandatory Bollettino Tecnicos (BTs) No. 139-265, No. 
+139-285, No. 139-286, all Revision A, and all dated July 12, 2012, 
+which specify a precautionary inspection for a crack, a life limit for 
+the affected blades, and a ``quarantine'' of blades that have exceeded 
+their life limit. The BTs also provide instructions for mixed usage of 
+the affected blades. The BTs specify sending the damaged or cracked 
+blade along with certain data to the manufacturer.
+
+Proposed AD Requirements
+
+    This proposed AD would retain the inspection requirements for 
+certain part-numbered blades and expand the applicability to include 
+the newly-designed blades and establish life limits for those blades. 
+The proposed AD would also require replacing any cracked blade or a 
+blade that has reached its life limit.
+
+Interim Action
+
+    We consider this proposed AD to be an interim action. If a final 
+action is later identified, we might consider additional rulemaking.
+
+Costs of Compliance
+
+    We estimate that this proposed AD would affect 93 helicopters of 
+U.S. Registry. We estimate that operators may incur the following costs 
+in order to comply with this AD. It would take 1 work hour to inspect 
+each blade for a crack at $85 per work hour or $7,905 for the fleet. If 
+required, it would take 8 work hours to replace a blade, and required 
+parts would cost $35,680, for total cost of $36,360.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. ``Subtitle VII: Aviation 
+Programs,'' describes in more detail the scope of the Agency's 
+authority.
+    We are issuing this rulemaking under the authority described in 
+``Subtitle VII, Part A, Subpart III, Section 44701: General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed, I certify this proposed regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979);
+    3. Will not affect intrastate aviation in Alaska to the extent that 
+it justifies making a regulatory distinction; and
+    4. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared an economic evaluation of the estimated costs to comply 
+with this proposed AD and placed it in the AD docket.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+0
+1. The authority citation for part 39 continues to read as follows:
+
+    Authority:  49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+0
+2. The FAA amends Sec.  39.13 by removing Amendment 39-17020 (77 FR 
+23109, April 18, 2012); Docket No. FAA-2012-0409; Directorate 
+Identifier 2011-SW-055-AD; and by adding the following new 
+airworthiness directive (AD):
+
+Agustawestland S.p.A. (Type Certificate Formerly Held by Augsta 
+S.p.A) (Agusta): Docket No. FAA-2013-0751; Directorate Identifier 
+2012-SW-051-AD.
+
+(a) Applicability
+
+    This AD applies to Model AB139 and AW139 helicopters with tail 
+rotor blade (blade), part number (P/N) 3G6410A00131, 4G6410A00131, 
+3G6410A00132, 4G6410A00132, 3G6410A00133, or 4G6410A00133, 
+installed, certificated in any category.
+
+(b) Unsafe Condition
+
+    This AD defines the unsafe condition as a crack in a blade. This 
+condition could result in failure of a blade and subsequent loss of 
+control of the helicopter.
+
+(c) Affected ADs
+
+    This AD supersedes AD No. 2011-18-52; Amendment 39-17020; Docket 
+No. FAA-2012-0409; Directorate Identifier 2011-SW-055-AD.
+
+(d) Comments Due Date
+
+    We must receive comments by November 4, 2013.
+
+(e) Compliance
+
+    You are responsible for performing each action required by this 
+AD within the specified compliance time unless it has already been 
+accomplished prior to that time.
+
+(f) Required Actions
+
+    (1) Within 5 hours time-in-service (TIS), establish a life limit 
+for each blade as follows, revise the Airworthiness Limitations 
+section of the maintenance manual, and update the helicopter's 
+historical records. If a blade's total number of cycles is unknown, 
+determine the blade cycles by multiplying the blade's hours TIS by 
+4.
+    (i) For blade, P/N 3G6410A00131 or P/N 4G6410A00131: establish a 
+life limit of 600 hours TIS or 1,500 cycles, whichever occurs first.
+    (ii) For blade, P/N 3G6410A00132 or P/N 4G6410A00132: establish 
+a life limit of 1,200 hours TIS or 3,200 cycles, whichever comes 
+first.
+
+[[Page 54598]]
+
+    (iii) For blade, P/N 3G6410A00133 or P/N 4G6410A00133: establish 
+a life limit of 10,000 cycles or 3 years since opening the sealed 
+wrap, whichever comes first.
+    (2) Within 5 hours TIS, replace each blade that has reached or 
+exceeded its life limit with an airworthy blade.
+    (3) Within 25 hours TIS, and thereafter at intervals not to 
+exceed 25 hours TIS, using a mirror, a 5x or higher power magnifying 
+glass, and a light source, or borescope, visually inspect each blade 
+for a crack or damage that exceeds the limits of the applicable 
+maintenance manual in the highlighted area depicted in Figure 1 of 
+Agusta Mandatory Bollettino Tecnicos No. 139-265, Revision A, dated 
+July 12, 2012; No. 139-285, Revision A, dated July 12, 2012; or No. 
+139-286, Revision A, dated July 12, 2012.
+    (4) If there is a crack, or if there is damage that exceeds the 
+limits of the applicable maintenance manual, before further flight, 
+replace the blade with an airworthy blade.
+
+(g) Alternative Methods of Compliance (AMOCs)
+
+    (1) The Manager, Safety Management Group, FAA, may approve AMOCs 
+for this AD. Send your proposal to: Sharon Miles, Aviation Safety 
+Engineer, Regulations and Policy Group, Rotorcraft Directorate, FAA, 
+2601 Meacham Blvd., Fort Worth, Texas 76137; telephone (817) 222-
+5110; email [email protected].
+    (2) For operations conducted under a 14 CFR part 119 operating 
+certificate or under 14 CFR part 91, subpart K, we suggest that you 
+notify your principal inspector, or lacking a principal inspector, 
+the manager of the local flight standards district office or 
+certificate holding district office before operating any aircraft 
+complying with this AD through an AMOC.
+
+(h) Additional Information
+
+    The subject of this AD is addressed in European Aviation Safety 
+Agency (EASA) AD No. 2012-0076R1, dated July 13, 2012, which revises 
+EASA AD No. 2012-0076, dated May 2, 2012, which can be found in the 
+AD docket on the Internet at http://www.regulations.gov.
+
+(i) Subject
+
+    Joint Aircraft Service Component (JASC) Code: 6410 Tail Rotor 
+Blades.
+
+    Issued in Fort Worth, Texas, on August 21, 2013.
+Kim Smith,
+Directorate Manager, Rotorcraft Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2013-21587 Filed 9-4-13; 8:45 am]
+BILLING CODE 4910-13-P
+
+

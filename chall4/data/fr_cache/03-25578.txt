@@ -1,0 +1,316 @@
+
+[Federal Register Volume 68, Number 196 (Thursday, October 9, 2003)]
+[Proposed Rules]
+[Pages 58291-58293]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 03-25578]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2003-NE-31-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Rolls-Royce plc RB211-535 Turbofan 
+Engines
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) 
+for Rolls-Royce plc (RR) models RB211-535C-37, RB211-535E4-37, RB211-
+535E4-B-37, and RB211-535E4-B-75 turbofan engines with radial drive 
+steady bearing part number (P/N) LK76084 installed. This proposed AD 
+would require initial and repetitive visual inspections of the engine 
+oil scavenge filter for evidence of radial drive steady bearing 
+failure, and if necessary radial drive steady bearing inspection for 
+damage and evidence of bearing debris. This proposed AD is prompted by 
+reports of seven low time failures of radial drive steady bearings 
+within a four-month period. We are proposing this AD to prevent a 
+possible dual-engine in-flight shutdown caused by radial drive steady 
+bearing failure.
+
+DATES: We must receive any comments on this proposed AD by December 8, 
+2003.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD:
+    [sbull] By mail: Federal Aviation Administration (FAA), New England 
+Region, Office of the Regional Counsel, Attention: Rules Docket No. 
+2003-NE-31-AD, 12 New England Executive Park, Burlington, MA 01803-
+5299.
+    [sbull] By fax: (781) 238-7055.
+    [sbull] By e-mail: [email protected].
+    You can get the service information identified in this proposed AD 
+from Rolls-Royce plc, P.O. Box 31 Derby, DE24 8BJ, United Kingdom (UK); 
+telephone 011-44-1332-242424; fax 011-44-1332-249936.
+    You may examine the AD docket, by appointment, at the FAA, New 
+England Region, Office of the Regional Counsel, 12 New England 
+Executive Park, Burlington, MA.
+
+FOR FURTHER INFORMATION CONTACT: Ian Dargin, Aerospace Engineer, Engine 
+Certification Office, FAA, Engine and Propeller Directorate, 12 New 
+England Executive Park, Burlington, MA 01803-5299; telephone (781) 238-
+7178; fax (781) 238-7199.
+
+SUPPLEMENTARY INFORMATION:
+
+[[Page 58292]]
+
+Comments Invited
+
+    We invite you to submit any written relevant data, views, or 
+arguments regarding this proposal. Send your comments to an address 
+listed under ADDRESSES. Include ``AD Docket No. 2003-NE-31-AD'' in the 
+subject line of your comments. If you want us to acknowledge receipt of 
+your mailed comments, send us a self-addressed, stamped postcard with 
+the docket number written on it; we will date-stamp your postcard and 
+mail it back to you. We specifically invite comments on the overall 
+regulatory, economic, environmental, and energy aspects of the proposed 
+AD. If a person contacts us verbally, and that contact relates to a 
+substantive part of this proposed AD, we will summarize the contact and 
+place the summary in the docket. We will consider all comments received 
+by the closing date and may amend the proposed AD in light of those 
+comments.
+    We are reviewing the writing style we currently use in regulatory 
+documents. We are interested in your comments on whether the style of 
+this document is clear, and your suggestions to improve the clarity of 
+our communications that affect you. You may get more information about 
+plain language at http://www.faa.gov/language and http://www.plainlanguage.gov.
+
+Examining the AD Docket
+
+    You may examine the AD Docket (including any comments and service 
+information), by appointment, between 8 a.m. and 4:30 p.m., Monday 
+through Friday, except Federal holidays. See ADDRESSES for the 
+location.
+
+Discussion
+
+    The Civil Aviation Authority (CAA), which is the airworthiness 
+authority for the U.K., recently notified the FAA that an unsafe 
+condition may exist on RR models RB211-535C-37, RB211-535E4-37, RB211-
+535E4-B-37, and RB211-535E4-B-75 turbofan engines with radial drive 
+steady bearing P/N LK76084 installed. The CAA received reports of seven 
+low time failures of radial drive steady bearings within a four-month 
+period. These failures were not detected through routine magnetic chip 
+detector monitoring because the failed bronze bearing cages are 
+nonmagnetic, and the cage failure mode is rapid.
+
+Relevant Service Information
+
+    We have reviewed and approved the technical contents of RR 
+Mandatory Service Bulletin (MSB) No. RB.211-72-C815, Revision 3, dated 
+October 5, 2000, that describes procedures for scavenge filter 
+inspection, and if necessary, radial drive steady bearing inspection 
+for failure debris. The CAA classified this MSB as mandatory and issued 
+airworthiness directive 005-07-99, dated July 30, 1999, in order to 
+ensure the airworthiness of these RR models RB211-535C-37, RB211-535E4-
+37, RB211-535E4-B-37, and RB211-535E4-B-75 turbofan engines in the U.K.
+
+Differences Between This Proposed AD and the Manufacturer's Service 
+Information
+
+    Although RR MSB No. RB.211-72-C815, Revision 3, dated October 5, 
+2000, Accomplishment Instructions require an engine acceptance 
+inspection, this proposal does not require an engine acceptance 
+inspection because pre-Service Bulletin RB.211-72-C925 new or low time 
+radial drive steady bearings are no longer available. Also, instead of 
+the MSB requirement that inspections be triggered when a continuous 
+illumination of the filter blockage warning light occurs, this proposal 
+adds a repetitive inspection at 500 engine operating hour intervals 
+after initial inspection to coincide with every airframe ``A'' check.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    These RR models RB211-535C-37, RB211-535E4-37, RB211-535E4-B-37, 
+and RB211-535E4-B-75 turbofan engines, manufactured in the U.K., are 
+type-certificated for operation in the United States under the 
+provisions of section 21.29 of the Federal Aviation Regulations (14 CFR 
+21.29) and the applicable bilateral airworthiness agreement. Pursuant 
+to this bilateral airworthiness agreement, the CAA has kept us informed 
+of the situation described above. We have examined the CAA's findings, 
+reviewed all available information, and determined that AD action is 
+necessary for products of this type design that are certificated for 
+operation in the United States. Therefore, we are proposing this AD, 
+which would require initial and repetitive visual inspections of the 
+engine oil scavenge filter for evidence of radial drive steady bearing 
+failure, and if necessary, radial drive steady bearing inspection for 
+damage and evidence of bearing debris. Radial drive steady bearings 
+with engine operating hours of 3,000 or more are not affected by this 
+proposed AD. The proposed AD would require you to use the service 
+information described previously to perform these actions.
+
+Changes to 14 CFR Part 39--Effect on the Proposed AD
+
+    On July 10, 2002, we published a new version of 14 CFR part 39 (67 
+FR 47997, July 22, 2002), which governs the FAA's AD system. This 
+regulation now includes material that relates to altered products, 
+special flight permits, and alternative methods of compliance. This 
+material previously was included in each individual AD. Since this 
+material is included in 14 CFR part 39, we will not include it in 
+future AD actions.
+
+Costs of Compliance
+
+    There are about 1,078 RR model RB211-535C-37, RB211-535E4-37, 
+RB211-535E4-B-37, and RB211-535E4-B-75 turbofan engines of the affected 
+design in the worldwide fleet. We estimate that 288 of these model 
+engines installed on airplanes of U.S. registry would be affected by 
+this proposed AD. We also estimate that it would take about four work 
+hours per engine to perform the proposed actions, and that the average 
+labor rate is $65 per work hour. Required replacement scavenge filters 
+would cost about $100 per engine. Based on these figures, we estimate 
+the total cost of one inspection per year in the proposed AD, to U.S. 
+operators to be $97,920.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Would not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a summary of the costs to comply with this proposal and 
+placed it in the AD Docket. You may get a copy of this summary by 
+sending a request to us at the address listed under ADDRESSES. Include 
+``AD Docket No. 2003-NE-31-AD'' in your request.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+[[Page 58293]]
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 14 
+CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The FAA amends Sec.  39.13 by adding the following new 
+airworthiness directive:
+
+Rolls-Royce plc: Docket No. 2003-NE-31-AD.
+
+Comments Due Date
+
+    (a) The FAA must receive comments on this airworthiness 
+directive (AD) action by December 8, 2003.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to Rolls-Royce plc (RR) models RB211-535C-
+37, RB211-535E4-37, RB211-535E4-B-37, and RB211-535E4-B-75 turbofan 
+engines with radial drive steady bearing part number LK76084 
+installed with fewer than 3,000 engine operating hours accumulated 
+on the bearing. Radial drive steady bearings with engine operating 
+hours of 3,000 or more are not affected by this proposed AD. These 
+engines are installed on, but not limited to Boeing 757 and Tupolev 
+Tu204 airplanes.
+
+Unsafe Condition
+
+    (d) This AD was prompted by reports of seven low time failures 
+of radial drive steady bearings within a four-month period. We are 
+issuing this AD to prevent a possible dual-engine in-flight shutdown 
+caused by radial drive steady bearing failure.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified unless the 
+actions have already been done.
+
+Initial Visual Inspection
+
+    (f) Perform an initial inspection of the engine scavenge filter 
+for evidence of radial drive steady bearing failure, within 300 
+engine operating hours or 45 days after the effective date of this 
+AD, whichever occurs first, and replace parts as necessary. Use 
+paragraph 3.B. of Accomplishment Instructions of RR Mandatory 
+Service Bulletin (MSB) No. RB.211-72-C815, Revision 3, dated October 
+5, 2000, to do the inspection and parts replacements.
+
+Repetitive Visual Inspections
+
+    (g) Thereafter, for radial drive steady bearings with less than 
+3,000 engine operating hours, perform repetitive inspections of the 
+engine scavenge filter for evidence of radial drive steady bearing 
+failure, at intervals not to exceed 500 engine operating hours since 
+the previous inspection, and replace parts as necessary. Use 
+paragraph 3.C. of Accomplishment Instructions of RR MSB No. RB.211-
+72-C815, Revision 3, dated October 5, 2000, to do the inspections 
+and parts replacements.
+
+Rejected Bearings
+
+    (h) Send rejected bearings, together with the associated 
+scavenge filter, to Rolls-Royce for analysis.
+
+Reporting Requirements
+
+    (i) The Office of Management and Budget (OMB) has approved the 
+reporting requirements specified in paragraph 3. of RR MSB No. 
+RB.211-72-C815, Revision 3, dated October 5, 2000, and assigned OMB 
+control number 2120-0056.
+
+Alternative Methods of Compliance
+
+    (j) You must request AMOCs as specified in 14 CFR 39.19. All 
+AMOCs must be approved by the Manager, Engine Certification Office, 
+FAA, 12 New England Executive Park, Burlington, MA 01803-5299.
+
+Material Incorporated by Reference
+
+    (k) You must use Rolls-Royce plc Mandatory Service Bulletin No. 
+RB.211-72-C815, Revision 3, dated October 5, 2000, to perform the 
+inspections and parts replacements required by this AD. Approval of 
+incorporation by reference from the Office of the Federal Register 
+is pending.
+
+Related Information
+
+    (l) CAA airworthiness directive 005-07-99, dated July 30, 1999, 
+also addresses the subject of this AD.
+
+    Issued in Burlington, Massachusetts, on October 3, 2003
+Jay J. Pardee,
+Manager, Engine and Propeller Directorate, Aircraft Certification 
+Service.
+[FR Doc. 03-25578 Filed 10-8-03; 8:45 am]
+BILLING CODE 4910-13-P
+
+

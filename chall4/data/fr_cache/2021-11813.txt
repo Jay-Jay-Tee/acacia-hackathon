@@ -1,0 +1,129 @@
+
+[Federal Register Volume 86, Number 108 (Tuesday, June 8, 2021)]
+[Proposed Rules]
+[Pages 30398-30399]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2021-11813]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[FAA Docket No. FAA-2020-0994; Project Identifier AD-2020-00687-T]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Gulfstream Aerospace Corporation 
+Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM) 
+that proposed to adopt a new airworthiness directive (AD) for certain 
+Gulfstream Aerospace Corporation (Gulfstream) Model GVII-G600 
+airplanes. The NPRM was prompted by a report that a failure mode in the 
+data concentration network (DCN) software causes the pitch attitude 
+value to freeze on the primary flight display (PFD) for up to 20 
+seconds. The NPRM proposed to require updating the DCN and flight deck 
+master operating system (MOS) software. Since issuance of the NPRM, the 
+FAA has determined that there is not an unsafe condition because all 
+affected airplanes have updated software. Accordingly, the NPRM is 
+withdrawn.
+
+DATES:  As of June 8, 2021, the proposed rule, which published in the 
+Federal Register on February 23, 2021 (86 FR 10875), is withdrawn.
+
+ADDRESSES: 
+
+Examining the AD Docket
+
+    You may examine the AD docket at https://www.regulations.gov by 
+searching for and locating Docket No. FAA-2020-0994; or in person at 
+Docket Operations between 9 a.m. and 5 p.m., Monday through Friday, 
+except Federal holidays. The AD docket contains this AD action, the 
+regulatory evaluation, any comments received, and other information. 
+The street address for Docket Operations is U.S. Department of 
+Transportation, Docket Operations, M-30, West Building Ground Floor, 
+Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Myles Jalalian, Aviation Safety 
+Engineer, Atlanta ACO Branch, FAA, 1701 Columbia Avenue, College Park, 
+GA 30337; phone: (404) 474-5572; fax: (404) 474-5606; email: 
+[email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The FAA issued an NPRM that proposed to amend 14 CFR part 39 by 
+adding an AD that would apply to certain serial-numbered Gulfstream 
+Model GVII-G600 airplanes. The NPRM published in the Federal Register 
+on February 23, 2021 (86 FR 10875). The NPRM was prompted by a report 
+of a failure mode in the DCN software that causes pitch attitude value 
+to freeze on the PFD for up to 20 seconds, which results in temporarily 
+incorrect pitch indications.
+    The effect is evident only if the pitch of the airplane changes 
+during the 20 second reset window. After 20 seconds, the system returns 
+to normal. The standby flight display and heads up display are 
+unaffected by this failure mode and continue to display the correct 
+pitch attitude. However, there is not an alert or annunciation that 
+informs the flight crew of a stale (frozen) pitch display or 
+potentially misleading flight information.
+    The NPRM proposed to require installing the MOS software update 
+part number EB60001034-0106, updating the DCN software level to version 
+10.10.12 in support of the MOS software update, and operationally 
+checking the installations. Incorrect pitch indications could result in 
+the loss of control of the airplane during certain phases of flight 
+during instrument meteorological conditions.
+
+Actions Since the NPRM Was Issued
+
+    After issuance of the NPRM, the FAA received a comment from 
+Gulfstream recommending the FAA withdraw the NPRM based on full fleet 
+compliance. All Gulfstream Model GVII-G600 airplanes have corrected the 
+unsafe condition by complying with the proposed software update. The 
+FAA has determined that the unsafe condition has been removed from the 
+fleet. In addition, since Gulfstream controls the software, it is 
+unlikely the unsafe condition will be re-introduced.
+
+[[Page 30399]]
+
+    Based on the above information, the FAA has determined that AD 
+action is not warranted and the proposal should be withdrawn.
+    Withdrawal of the NPRM constitutes only such action and does not 
+preclude the FAA from further rulemaking on this issue, nor does it 
+commit the FAA to any course of action in the future.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+AD nor a final rule. This action, therefore, is not covered under 
+Executive Order 12866 or the Regulatory Flexibility Act.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, which published in 
+the Federal Register on February 23, 2021 (86 FR 10875), is withdrawn.
+
+    Issued on May 28, 2021.
+Lance T. Gant,
+Director, Compliance & Airworthiness Division, Aircraft Certification 
+Service.
+[FR Doc. 2021-11813 Filed 6-7-21; 8:45 am]
+BILLING CODE 4910-13-P
+
+

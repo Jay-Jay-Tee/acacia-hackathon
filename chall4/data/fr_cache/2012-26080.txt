@@ -1,0 +1,131 @@
+
+[Federal Register Volume 77, Number 205 (Tuesday, October 23, 2012)]
+[Proposed Rules]
+[Pages 64767-64768]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2012-26080]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2012-0495; Directorate Identifier 2011-NM-236-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Gulfstream Aerospace LP (Type 
+Certificate Previously Held by Israel Aircraft Industries, Ltd.) 
+Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for certain Gulfstream 
+Aerospace LP (Type Certificate previously held by Israel Aircraft 
+Industries, Ltd.) Model Galaxy and Gulfstream 200 airplanes. The 
+proposed AD would have required determining the lengths of the wear 
+indicating pins of all brake assemblies, shortening the pin if the wear 
+indicating pin is too long, inspecting for normal brake wear, and 
+replacing brakes with new brakes if necessary. Since the issuance of 
+the NPRM, the FAA has received new data that indicates the actions 
+addressing this unsafe condition have been accomplished on the 
+worldwide fleet. Accordingly, the proposed AD is withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://www.regulations.gov; or in person at the Docket Management Facility 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The AD docket contains this AD, the regulatory evaluation, 
+any comments received, and other information. The address for the 
+Docket Office (telephone 800-647-5527) is the Document Management 
+Facility, U.S. Department of Transportation, Docket Operations, M-30, 
+West Building Ground Floor, Room W12-140, 1200 New Jersey Avenue SE., 
+Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Tom Groves, Aerospace Engineer, 
+International Branch, ANM-116, Transport Airplane Directorate, FAA, 
+1601 Lind Avenue SW., Renton, WA 98057-3356; telephone (425) 227-1503; 
+fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for certain Gulfstream Aerospace LP (Type Certificate previously 
+held by Israel Aircraft Industries, Ltd.) Model Galaxy and Gulfstream 
+200 airplanes. That NPRM was published in the Federal Register on May 
+31, 2012 (77 FR 32069). The NPRM would have required determining the 
+lengths of the wear indicating pins of all brake assemblies, shortening 
+the pin if the wear indicating pin is too long, inspecting for normal 
+brake wear, and replacing brakes with new brakes if necessary. The NPRM 
+resulted from reports of degraded brake performance during landing due 
+to improperly-sized wear indicating pins. The proposed actions were 
+intended to detect and correct improperly-sized wear indicating pins, 
+which, if not corrected, could result in worn-out brake pads and 
+subsequent loss of braking power, which could result in runway 
+overruns.
+
+Actions Since NPRM (77 FR 32069, May 31, 2012) Was Issued
+
+    Since we issued the NPRM (77 FR 32069, May 31, 2012), FAA has 
+received new data that indicates the unsafe condition no longer exists. 
+Review of the Gulfstream Aerospace LP Model Galaxy and Gulfstream 200 
+airplane service history shows that the worldwide fleet is in 
+compliance with the actions specified in Gulfstream Service Bulletin 
+200-32-389, Revision 1, dated October 27, 2011. Therefore, the unsafe 
+condition no longer exists.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the actions 
+specified in Gulfstream Service Bulletin 200-32-389, Revision 1, dated 
+October 27, 2011, and the Gulfstream Aerospace LP Model Galaxy and 
+Gulfstream 200 airplane service history adequately addressed the 
+identified unsafe condition. Therefore, it is not necessary to issue a 
+final rule. Accordingly, the NPRM (77 FR 32069, May 31, 2012) is 
+withdrawn.
+    Withdrawal of the NPRM (77 FR 32069, May 31, 2012) does not 
+preclude
+
+[[Page 64768]]
+
+the FAA from issuing another related action or commit the FAA to any 
+course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM (77 FR 32069, May 31, 
+2012), it is neither a proposed nor a final rule and therefore is not 
+covered under Executive Order 12866, the Regulatory Flexibility Act, or 
+DOT Regulatory Policies and Procedures (44 FR 11034, February 26, 
+1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2012-0495, 
+Directorate Identifier 2011-NM-236-AD, which was published in the 
+Federal Register on May 31, 2012 (77 FR 32069).
+
+    Issued in Renton, Washington, on October 14, 2012.
+John P. Piccola,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 2012-26080 Filed 10-22-12; 8:45 am]
+BILLING CODE 4910-13-P
+
+

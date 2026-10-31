@@ -1,0 +1,125 @@
+
+[Federal Register Volume 71, Number 141 (Monday, July 24, 2006)]
+[Proposed Rules]
+[Pages 41743-41744]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E6-11711]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2005-23007; Directorate Identifier 2005-NM-013-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Airbus Model A310-200 and -300 Series 
+Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA withdraws a notice of proposed rulemaking (NPRM) that 
+proposed a new airworthiness directive (AD) for certain Airbus Model 
+A310-200 and -300 series airplanes. The proposed AD would have required 
+repetitive inspections for cracks and corrosion of the areas behind the 
+scuff plates below the passenger/crew doors and bulk cargo door, and 
+repair of any cracked or corroded part. The proposed AD also would have 
+required repetitive inspections for cracks of the holes of the corner 
+doublers, the fail-safe ring, and the door frames of the passenger/crew 
+door structures. Since the proposed AD was issued, we have determined 
+that that the proposed inspections and terminating action are 
+essentially identical to those of another existing AD. Accordingly, the 
+proposed AD is withdrawn.
+
+ADDRESSES: You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the U.S. 
+Department of Transportation, 400 Seventh Street, SW., Room PL-401, 
+Washington, DC. This docket number is FAA-2005-23007; the directorate 
+identifier for this docket is 2005-NM-013-AD.
+
+FOR FURTHER INFORMATION CONTACT: Tom Stafford, Aerospace Engineer, 
+International Branch, ANM-116, FAA, Transport Airplane Directorate, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+227-1622; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    We proposed to amend part 39 of the Federal Aviation Regulations 
+(14 CFR part 39) with a notice of proposed rulemaking (NPRM) for a new 
+AD for certain Airbus Model A310-200 and -300 series airplanes. That 
+NPRM was published in the Federal Register on November 21, 2005 (70 FR 
+70048). The NPRM would have required repetitive inspections for cracks 
+and corrosion of the areas behind the scuff plates below the passenger/
+crew doors and bulk cargo door, and repair of any cracked or corroded 
+part. The NPRM also would have required repetitive inspections for 
+cracks of the holes of the corner doublers, the fail-safe ring, and the 
+door frames of the passenger/crew door structures. The NPRM resulted 
+from reports of corrosion behind the scuff plates at passenger/crew 
+doors and the bulk cargo door and fatigue cracks on the corner doublers 
+of the forward and aft passenger/crew door frames. The proposed actions 
+were intended to prevent such corrosion and fatigue cracking, which 
+could result in reduced structural integrity of the door surroundings.
+
+Actions Since NPRM Was Issued
+
+    Since we issued the NPRM, we realized that we had previously issued 
+AD 98-16-06, amendment 39-10682 (63 FR 40819, July 31, 1998), for all 
+Airbus Model A310 series airplanes. That AD requires inspections of the 
+lower door surrounding structure to detect cracks and corrosion, and 
+repair if necessary. That AD also requires inspections to detect 
+cracking of the holes of the corner doublers, the fail-safe ring, and 
+the door frames of the door structures; and repair if necessary. In 
+addition, that AD also provides for an optional terminating action for 
+certain inspections.
+
+FAA's Conclusions
+
+    Upon further consideration, we have determined that the inspections 
+and terminating action in AD 98-16-06 are essentially identical to 
+those specified in the NPRM. We are considering superseding AD 98-16-06 
+to mandate the optional terminating action and refer to the latest 
+service information. Accordingly, the NPRM is withdrawn.
+
+Regulatory Impact
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule and therefore is not covered under Executive Order 
+12866, the Regulatory Flexibility Act, or DOT
+
+[[Page 41744]]
+
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, we withdraw the NPRM, Docket No. FAA-2005-23007, 
+Directorate Identifier 2005-NM-013-AD, which was published in the 
+Federal Register on November 21, 2005 (70 FR 70048).
+
+    Issued in Renton, Washington, on July 14, 2006.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+ [FR Doc. E6-11711 Filed 7-21-06; 8:45 am]
+BILLING CODE 4910-13-P
+
+

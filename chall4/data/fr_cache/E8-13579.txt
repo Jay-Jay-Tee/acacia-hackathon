@@ -1,0 +1,577 @@
+
+[Federal Register Volume 73, Number 117 (Tuesday, June 17, 2008)]
+[Proposed Rules]
+[Pages 34233-34237]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E8-13579]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2001-NM-237-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 767-200 and -300 Series 
+Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Supplemental notice of proposed rulemaking; reopening of 
+comment period.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document revises an earlier proposed airworthiness 
+directive (AD), applicable to certain Boeing Model 767-200 and -300 
+series airplanes. That proposed rule would have required replacing 
+certain door-mounted escape slides and slide-raft assemblies with new 
+slide-raft assemblies; replacing certain escape system latches with new 
+latches; and modifying or replacing certain counterbalance assemblies 
+with new counterbalance assemblies; as applicable. This new action 
+revises the proposed rule by extending the compliance time, adding 
+requirements to install a longer firing cable and test the valve of the 
+inflation trigger system of the slide-raft, and, for certain airplanes, 
+adding procedures to adjust the door counter balance systems. The 
+actions specified by this new proposed AD are intended to prevent the 
+escape slides and slide-rafts of the forward and mid-cabin entry and 
+service doors from being too steep for evacuation in the event that the 
+airplane rotates onto the aft fuselage into the extreme tip-back 
+condition. In the extreme tip-back condition, the forward and mid-cabin 
+exits could result in steeper sliding angles, which could cause injury 
+to passengers and crewmembers during an emergency evacuation. This 
+action is intended to address the identified unsafe condition.
+
+DATES: Comments must be received by July 14, 2008.
+
+ADDRESSES: Submit comments in triplicate to the Federal Aviation 
+Administration (FAA), Transport Airplane Directorate, ANM-114, 
+Attention: Rules Docket No. 2001-NM-237-AD, 1601 Lind Avenue, SW., 
+Renton, Washington 98057-3356. Comments may be inspected at this 
+location between 9 a.m. and 3 p.m., Monday through Friday, except 
+Federal holidays. Comments may be submitted via fax to (425) 227-1232. 
+Comments may also be sent via the Internet using the following address: 
+[email protected]. Comments sent via fax or the Internet must 
+contain ``Docket No. 2001-NM-237-AD'' in the subject line and need not 
+be submitted in triplicate. Comments sent via the Internet as attached 
+electronic files must be formatted in Microsoft Word 97 or 2000 or 
+ASCII text.
+    The service information referenced in the proposed rule may be 
+obtained from Boeing Commercial Airplanes, P.O. Box
+
+[[Page 34234]]
+
+3707, Seattle, Washington 98124-2207. This information may be examined 
+at the FAA, Transport Airplane Directorate, 1601 Lind Avenue, SW., 
+Renton, Washington.
+
+FOR FURTHER INFORMATION CONTACT: Keith Ladderud, Aerospace Engineer, 
+Cabin Safety and Environmental Systems Branch, ANM-150S, FAA, Seattle 
+Aircraft Certification Office, 1601 Lind Avenue, SW., Renton, 
+Washington 98057-3356; telephone (425) 917-6435; fax (425) 917-6590.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    Interested persons are invited to participate in the making of the 
+proposed rule by submitting such written data, views, or arguments as 
+they may desire. Communications shall identify the Rules Docket number 
+and be submitted in triplicate to the address specified above. All 
+communications received on or before the closing date for comments, 
+specified above, will be considered before taking action on the 
+proposed rule. The proposals contained in this action may be changed in 
+light of the comments received.
+    Submit comments using the following format:
+     Organize comments issue-by-issue. For example, discuss a 
+request to change the compliance time and a request to change the 
+service bulletin reference as two separate issues.
+     For each issue, state what specific change to the proposed 
+AD is being requested.
+     Include justification (e.g., reasons or data) for each 
+request.
+    Comments are specifically invited on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed rule. All 
+comments submitted will be available, both before and after the closing 
+date for comments, in the Rules Docket for examination by interested 
+persons. A report summarizing each FAA-public contact concerned with 
+the substance of this proposal will be filed in the Rules Docket.
+    Commenters wishing the FAA to acknowledge receipt of their comments 
+submitted in response to this action must submit a self-addressed, 
+stamped postcard on which the following statement is made: ``Comments 
+to Docket Number 2001-NM-237-AD.'' The postcard will be date stamped 
+and returned to the commenter.
+
+Availability of NPRMs
+
+    Any person may obtain a copy of this NPRM by submitting a request 
+to the FAA, Transport Airplane Directorate, ANM-114, Attention: Rules 
+Docket No. 2001-NM-237-AD, 1601 Lind Avenue, SW., Renton, Washington 
+98057-3356.
+
+Discussion
+
+    A proposal to amend part 39 of the Federal Aviation Regulations (14 
+CFR part 39) to add an airworthiness directive (AD), applicable to 
+certain Boeing Model 767-200 and -300 series airplanes, was published 
+as a notice of proposed rulemaking (NPRM) in the Federal Register on 
+November 25, 2003 (68 FR 66026). That NPRM would have required 
+replacing certain door-mounted escape slides and slide-raft assemblies 
+with new slide-raft assemblies; replacing certain escape system latches 
+with new latches; and modifying or replacing certain counterbalance 
+assemblies with new counterbalance assemblies; as applicable. That NPRM 
+was prompted by reports indicating that the original analysis of the 
+highest sill heights for the forward and mid-cabin entry and service 
+doors is no longer valid on certain Boeing Model 737-200 and -300 
+series airplanes. That condition, if not corrected, could result in 
+injury to passengers and crewmembers during an emergency evacuation.
+
+Actions Since Issuance of Previous Proposal
+
+    Since the issuance of that NPRM, we have received three reports of 
+uncommanded deployments of the door-mounted escape slide inside the 
+passenger cabin. The uncommanded inflation caused damage to a lavatory, 
+ceiling panels, and doors. It has been determined that variability in 
+packing the slide can result in excessive tension on the firing cable. 
+Therefore, certain affected airplanes must have a longer firing cable 
+installed, and the inflation trigger system must be tested. To 
+accommodate this change, Boeing has issued the following service 
+bulletins:
+     Boeing Alert Service Bulletin 767-25A0266, Revision 2, 
+dated September 27, 2007. We referred to Boeing Alert Service Bulletin 
+767-25-0266, dated September 14, 2000, as the appropriate source of 
+service information for accomplishing the required actions in the 
+original NPRM. In addition to the existing actions, Revision 2 of the 
+service bulletin specifies procedures to adjust the door counterbalance 
+systems for Group 1 and 2 airplanes (procedures were added in Boeing 
+Alert Service Bulletin 767-25A0266, Revision 1, dated December 4, 
+2006). Revision 2 of the service bulletin also specifies that more work 
+is necessary on airplanes changed in accordance with the procedures 
+specified in the original release of the service bulletin. Revision 2 
+also includes a reference to the procedures in Boeing Alert Service 
+Bulletin 767-25A0395, Revision 1, adds instructions for adjusting the 
+door counterbalance system for certain airplanes, and corrects certain 
+part numbers (P/Ns), among other changes.
+     Boeing Alert Service Bulletin 767-25A0395, Revision 1, 
+dated January 25, 2007. This service bulletin describes procedures for 
+determining if a slide-raft with supplier P/N 5A3294-1, 5A3294-2, 
+5A3295-1, or 5A3295-3 (Boeing P/N S416T214-3, S416T214-4, S416T214-2, 
+and S416T214-1, respectively), is installed. If those P/Ns are not 
+installed, the service bulletin specifies that no further action is 
+necessary. If any of those P/Ns are installed, the service bulletin 
+provides procedures for lengthening the firing cable and testing the 
+valve of the inflation trigger system of the escape slide-raft.
+    Boeing Alert Service Bulletin 767-25A0395, Revision 1, refers to 
+Goodrich Service Bulletin 5A3294/5A3295-25-362, dated July 25, 2006, as 
+an additional source of service information for lengthening the firing 
+cable and testing the valve of the inflation trigger system of the 
+escape slide-raft.
+
+Comments
+
+    Due consideration has been given to the comments received in 
+response to the original NPRM:
+
+Support for the Original NPRM
+
+    Airline Pilots Association, International (ALPA) concurs with the 
+corrective actions in the original NPRM.
+
+Support for Replacement Parts
+
+    Goodrich Aircraft Interior Products states that it is prepared to 
+support the need for replacement parts within the compliance time 
+specified in the original NPRM.
+
+Request To Clarify the Unsafe Condition
+
+    Boeing requests a change to the wording of the unsafe condition in 
+the Summary and Discussion sections of the NPRM. Boeing states that the 
+existing slide-rafts are not ``too short to reach the ground'' as 
+stated in the NPRM, but that the extreme tip-back condition results in 
+a steeper sliding angle than the original design intent. Boeing 
+requests that we instead specify, among other suggested wording, that 
+``In the extreme tip-back condition, the forward and mid-cabin exits on 
+one side of the airplane could result in steeper sliding angles. * * 
+*''
+    We partially agree with the requested changes. We disagree with 
+using the words ``one side of the airplane''
+
+[[Page 34235]]
+
+because they imply that passengers and crewmembers could safely 
+evacuate from the side of the airplane with the lower sliding angles. 
+Damage associated with a landing gear failure on the lower side of the 
+airplane could cause passengers and crewmembers to perceive that only 
+the side of the airplane with the sliding angle that is ``too steep for 
+evacuation'' would be available for emergency evacuation. In addition, 
+this type of failure could render the exits on the lower, damaged side 
+to be unusable and/or unsafe. We agree with the other requested changes 
+because they clarify the unsafe condition. We have revised the Summary 
+section accordingly. However, we have not revised the Discussion 
+section since that section of the preamble does not reappear in the 
+same form in the supplemental NPRM. Instead, the Discussion section in 
+the supplemental NPRM restates the wording of the original NPRM for 
+reference.
+
+Requests To Revise Cost Impact Section
+
+    Goodrich Aircraft Interior Products, All Nippon Airways (ANA), 
+Boeing, and Air Transport Association (ATA), on behalf of its member 
+American Airlines, all request that we revise the Cost Impact section 
+of the NPRM. All commenters state that the costs shown in the NPRM are 
+incomplete and should be revised.
+    We agree with the commenters. The Cost Impact section of the NPRM 
+did not include the cost of the slide-rafts. We have revised the Cost 
+Impact section of the supplemental NPRM to include those costs.
+
+Requests To Extend Compliance Time
+
+    Boeing, ANA, and Air New Zealand request that we extend the 
+compliance time. The commenters suggest extending the compliance time 
+from the proposed 5 years to between 8 and 15 years. The commenters 
+make their requests to extend the compliance time for numerous reasons, 
+including:
+     The proposed rule has a high economic impact on the 
+operators, with small benefit to safety. Data are missing from the Cost 
+Impact section of the proposed rule.
+     The established replacement program (useful service life) 
+of the life-limited slides and slide rafts is 15 years.
+     There have been no reports of airplanes tipping back 
+beyond the certified sill height.
+     The exit slides and slide-rafts on the opposite side of 
+the airplane would remain within the certified sill heights and 
+corresponding sliding angles due to the roll of the airplane associated 
+with the extreme tip-back condition. The existing slides are not too 
+short to reach the ground (as stated in the proposed rule).
+     The slide and slide-raft manufacturer will likely have 
+trouble producing the number of slides and slide-raft units necessary 
+to modify every affected airplane in the worldwide fleet.
+     We need to take into consideration low-cycle, high-hour 
+operations.
+    We partially agree with the commenters' statements. Given the 
+combination of an updated Cost Impact estimate for this supplemental 
+NPRM (see ``Request To Revise Cost Impact Section'' above), and the 
+risk of exposure to the situation addressed in this supplemental NPRM, 
+we acknowledge that there is merit in revising the compliance time. It 
+is our intent to allow operators to offset, partially, the costs 
+associated with the supplemental NPRM by integrating the compliance 
+time somewhat with the costs associated with normal slide replacement. 
+Therefore, we have changed paragraph (a) of this supplemental NPRM to 
+propose a compliance time of within 72 months after the effective date 
+of the AD.
+    We have also considered the other reasons commenters gave for 
+extending the compliance time, as discussed below.
+     We have determined that an interval based on the ``useful 
+service life'' of the slides, which is 15 years, would not address the 
+unsafe condition in a timely manner.
+     We do not agree that having no reported incidents of 
+airplanes tipping back beyond the certified sill heights is sufficient 
+justification for extending the proposed compliance time. While the 
+specific condition addressed in this supplemental NPRM has not been 
+encountered in service, we have received reports of similar, but less 
+severe, accidents and incidents that could have been more severe given 
+slightly different conditions.
+     We do not agree that the exit slides and slide-rafts on 
+the opposite side of the airplane would remain within the certified 
+sill heights and provide a means of safe exit. The gear failure may be 
+associated with or may have caused other damage that would not only 
+raise the exit heights on the far side of the airplane, but also could 
+render the exits on the near side of the airplane unsafe and/or 
+unusable.
+     The slide manufacturer has indicated that it is prepared 
+to support operators with sufficient supplies of replacement slides and 
+slide-rafts for the worldwide fleet within the compliance time 
+specified in this supplemental NPRM.
+    Therefore, although we have extended the compliance time for other 
+reasons, we do not agree that these comments give adequate 
+justification for extending the compliance time any further.
+
+Requests To Withdraw Proposed Rule
+
+    ANA, and ATA on behalf of its member American Airlines, suggest 
+that we withdraw the proposed rule because it represents a significant 
+cost and addresses a scenario that is a remote possibility and, 
+therefore, should not be considered an unsafe condition.
+    American Airlines explains that, with one main landing gear out, 
+the engine would remain attached at ``very low speeds'' that are 
+associated with taxiing, and would not shear off due to the weight of 
+the airplane, as explained in the ``Discussion'' section of the 
+proposed rule. American Airlines also explains that the extreme tip-
+back condition would occur only at extreme aft center-of-gravity (CG) 
+conditions and that there is a low probability of this scenario 
+resulting in a ``time limited'' (90-second) evacuation. American 
+Airlines further states that there is a low probability of encountering 
+the extreme tip-back position, based on no such occurrences having been 
+encountered over the course of the fleet's high number of flight 
+cycles.
+    We do not agree with the commenters' requests to withdraw the 
+original NPRM. We consider this to be an unsafe condition for the 
+reasons already given in the original NPRM and for the following 
+reasons.
+    While we have received information from the airplane manufacturer 
+that indicates that engines could not necessarily shear off the 
+airplane at speeds experienced during taxi, takeoff, landing, or even 
+under some emergency landing situations, further information from the 
+manufacturer indicates that the CG associated with this condition is 
+well within the current accepted operating parameters and is not an 
+extreme condition. However, operators may consider CG restrictions and 
+may make proposals for alternative methods of compliance (AMOC) 
+consideration under the provisions of paragraph (d) of the supplemental 
+NPRM. We will consider requests for approval of an AMOC if sufficient 
+data are submitted to substantiate that the proposal would provide an 
+acceptable level of safety.
+    In addition, although the specific conditions addressed in the 
+proposed rule have not been encountered in service, we have received 
+reports of partial tip-back during accidents/incidents that could have 
+resulted in
+
+[[Page 34236]]
+
+extreme tip-back given slightly different conditions, making this type 
+of event foreseeable. During at least one of these partial tip-back 
+events, the slides were deployed to facilitate evacuation. We do not 
+agree that the low probability of encountering such a foreseeable event 
+is justification to withdraw the original NPRM.
+
+Request To Limit the Applicability of the Original NPRM
+
+    UPS and ABX Air request that we revise the applicability of the 
+original NPRM. UPS requests that we remove certain Model 767-300F 
+series airplanes from the applicability of the proposed rule because 
+they have a different egress system. ABX Air requests that the 
+applicability of the proposed rule be limited to those airplanes that 
+are required to be equipped with the affected escape slides. For 
+example, the Model 767-300F (freighter) and Model 767-200 or 767-300 
+series airplanes that have been modified from a passenger configuration 
+to a cargo configuration are not subject to the unsafe condition 
+addressed by the proposed rule.
+    We agree that airplanes that are not required to be equipped with 
+slides and slide-rafts are not subject to this unsafe condition. The 
+applicability statement of the original NPRM currently includes only 
+Model 767-200 and 767-300 series airplanes and does not include Model 
+767-300F series airplanes; therefore, no change to the supplemental 
+NPRM is necessary to exclude these airplanes from the applicability. 
+However, we have revised the applicability statement of the 
+supplemental NPRM to state that only Boeing Model 767-200 and -300 
+series airplanes that are equipped with door-mounted escape slide 
+systems are affected.
+
+Request To Remove Paragraph (b) of the Original NPRM
+
+    ABX Air recommends that we remove paragraph (b) of the original 
+NPRM because the second sentence in the proposed rule, ``Compliance: 
+Required as indicated, unless accomplished previously,'' already gives 
+operators credit for accomplishing the actions before the effective 
+date of the AD.
+    We agree with the request to remove paragraph (b) of the original 
+NPRM. Paragraph (b) was intended to give operators credit for 
+accomplishing actions in accordance with an earlier version of the 
+referenced service bulletin. However, in this case, there is no earlier 
+version of the service bulletin, and paragraph (b) was included 
+inadvertently in the original NPRM. We have revised the supplemental 
+NPRM accordingly.
+
+Removal of Table 1 of the Original NPRM
+
+    We have removed Table 1 of the original NPRM. That table contains 
+information about specific replacement procedures in Boeing Alert 
+Service Bulletin 767-25-0266 that are necessary for each airplane 
+group. We find that information is readily available in any revision of 
+the service bulletin and therefore not necessary to include in the 
+supplemental NPRM.
+
+Conclusion
+
+    Certain changes described above expand the scope of the original 
+NPRM. As a result, we have determined that it is necessary to reopen 
+the comment period to provide additional opportunity for the public to 
+comment on this supplemental NPRM.
+
+Cost Impact
+
+    There are approximately 745 airplanes of the affected design in the 
+worldwide fleet. The FAA estimates that 261 airplanes of U.S. registry 
+would be affected by this supplemental NPRM. The work hours and 
+required parts per airplane vary according to the configuration group 
+to which the affected airplane belongs. The average labor rate is $80 
+per work hour. The ``Cost Impact Per Airplane Configuration Group'' 
+table shows the estimated costs.
+
+                                                      Cost Impact per Airplane Configuration Group
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                               U.S.-                                                                      Fleet cost, by
+              Airplane configuration group                  registered      Work hours       Kit cost       Slide cost       Cost per      configuration
+                                                             airplanes                                                       airplane          group
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+1.......................................................             208               6          $1,236        $174,400        $176,116     $36,632,128
+2.......................................................              12              12           2,472         354,264         357,696       4,292,352
+3.......................................................              41              11          98,858         174,400         274,138      11,239,658
+4.......................................................               0              11          34,012         174,400         209,292               0
+5.......................................................               0              17          35,248         354,264         390,872               0
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    Based on the figures in the ``Cost Impact Per Airplane 
+Configuration Group'' table, the cost impact of this supplemental NPRM 
+on U.S. operators is estimated to be $52,164,138.
+    The cost impact figures discussed above are based on assumptions 
+that no operator has yet accomplished any of the proposed requirements 
+of this AD action, and that no operator would accomplish those actions 
+in the future if this AD were not adopted. The cost impact figures 
+discussed in AD rulemaking actions represent only the time necessary to 
+perform the specific actions actually required by the AD. These figures 
+typically do not include incidental costs, such as the time required to 
+gain access and close up, planning time, or time necessitated by other 
+administrative actions.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Impact
+
+    The regulations proposed herein would not have a substantial direct 
+effect on the States, on the relationship between the national 
+Government and the States, or on the distribution of power and 
+responsibilities among the various levels of government. Therefore, it 
+is determined that this proposal
+
+[[Page 34237]]
+
+would not have federalism implications under Executive Order 13132.
+    For the reasons discussed above, I certify that this proposed 
+regulation (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under the DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979); 
+and (3) if promulgated, will not have a significant economic impact, 
+positive or negative, on a substantial number of small entities under 
+the criteria of the Regulatory Flexibility Act. A copy of the draft 
+regulatory evaluation prepared for this action is contained in the 
+Rules Docket. A copy of it may be obtained by contacting the Rules 
+Docket at the location provided under the caption ``ADDRESSES.''
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by adding the following new 
+airworthiness directive:
+
+Boeing: Docket 2001-NM-237-AD.
+
+    Applicability: Model 767-200 and -300 series airplanes, line 
+numbers 1 through 793 inclusive, certificated in any category; 
+equipped with door-mounted escape slide systems.
+    Compliance: Required as indicated, unless accomplished 
+previously.
+    To prevent the escape slides and slide-rafts of the forward and 
+mid-cabin entry and service doors from being too steep for 
+evacuation in the event that the airplane rotates onto the aft 
+fuselage into the extreme tip-back condition, accomplish the 
+following:
+
+Replacement of Slide-Rafts
+
+    (a) Within 72 months after the effective date of this AD, 
+replace the applicable slide-rafts at the applicable door or doors, 
+and do all other applicable actions including, but not limited to, 
+changing the latches, and replacing or modifying the counterbalance 
+assemblies, by accomplishing all applicable actions specified in the 
+Accomplishment Instructions in Boeing Service Bulletin 767-25A0266, 
+Revision 2, dated September 27, 2007.
+
+Modification of the Firing Cable
+
+    (b) Within 72 months after the effective date of this AD, do a 
+general visual inspection of the slide-raft(s) to determine if 
+supplier part number (P/N) 5A3294-1, 5A3294-2, 5A3295-1, or 5A3295-3 
+is installed (Boeing P/N S416T214-3, S416T214-4, S416T214-2, and 
+S416T214-1, respectively). Do the inspection in accordance with the 
+Accomplishment Instructions of Boeing Alert Service Bulletin 767-
+25A0395, Revision 1, dated January 25, 2007. A review of airplane 
+maintenance records is acceptable in lieu of this inspection if the 
+P/N of the slide-raft can be conclusively determined from that 
+review.
+    (1) If no affected P/N is installed, no further action is 
+required by this paragraph.
+    (2) If any affected P/N is installed, before further flight, 
+lengthen the firing cable and test the valve of the inflation 
+trigger system of the escape slide-raft in accordance with the 
+Accomplishment Instructions of Boeing Alert Service Bulletin 767-
+25A0395, Revision 1, dated January 25, 2007.
+
+    Note 1: Boeing Alert Service Bulletin 767-25A0395, Revision 1, 
+refers to Goodrich Service Bulletin 5A3294/5A3295-25-362, dated July 
+25, 2006, as an additional source of service information for 
+lengthening the firing cable and testing the valve of the inflation 
+trigger system of the escape slide-raft.
+
+Credit for Actions Accomplished Previously
+
+    (c) Actions done before the effective date of this AD in 
+accordance with the service bulletins listed in Table 1 of this AD 
+are acceptable for compliance with the corresponding requirements of 
+this AD.
+
+                                Table 1.--Previous Revisions of Service Bulletins
+----------------------------------------------------------------------------------------------------------------
+      Boeing Alert Service Bulletin               Revision level                           Date
+----------------------------------------------------------------------------------------------------------------
+767-25A0266..............................  1...........................  December 4, 2006.
+767-25A0395..............................  Original....................  August 31, 2006.
+----------------------------------------------------------------------------------------------------------------
+
+Alternative Methods of Compliance
+
+    (d)(1) The Manager, Seattle Aircraft Certification Office (ACO), 
+FAA, has the authority to approve AMOCs for this AD, if requested in 
+accordance with the procedures found in 14 CFR 39.19.
+    (2) To request a different method of compliance or a different 
+compliance time for this AD, follow the procedures in 14 CFR 39.19. 
+Before using any approved AMOC on any airplane to which the AMOC 
+applies, notify your appropriate principal inspector (PI) in the FAA 
+Flight Standards District Office (FSDO), or lacking a PI, your local 
+FSDO.
+
+    Issued in Renton, Washington, on June 5, 2008.
+Michael J. Kaszycki,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+ [FR Doc. E8-13579 Filed 6-16-08; 8:45 am]
+BILLING CODE 4910-13-P
+
+

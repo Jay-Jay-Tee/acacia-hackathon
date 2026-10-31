@@ -1,0 +1,174 @@
+
+[Federal Register Volume 86, Number 62 (Friday, April 2, 2021)]
+[Proposed Rules]
+[Pages 17329-17330]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2021-06768]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2020-0985; Project Identifier 2018-SW-064-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Airbus Helicopters Deutschland GmbH
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM) 
+that proposed to adopt a new airworthiness directive (AD) that would 
+have applied to certain Airbus Helicopters Deutschland GmbH Model 
+EC135P1, EC135T1, EC135P2, EC135T2, EC135P2+, EC135T2+, EC135P3, and 
+EC135T3 helicopters. The NPRM was prompted by a deviation from a new 
+manufacturing process and a determination that the deviation resulted 
+in a reduced life limit (service life limit) for certain tail rotor 
+(TR) blades. The NPRM would have required a reduced life limit for 
+those TR blades and require a new life limit for certain other TR 
+blades. Since issuance of the NPRM, the FAA has determined that the 
+deviation from the new manufacturing process does not reduce the life 
+limit of certain TR blades and that a new life limit is not needed for 
+certain other blades. Accordingly, the NPRM is withdrawn.
+
+DATES: As of April 2, 2021, the proposed rule, which was published in 
+the Federal Register on November 9, 2020 (85 FR 71286), is withdrawn.
+
+ADDRESSES:
+
+Examining the AD Docket
+
+    You may examine the AD docket on the internet at https://www.regulations.gov by searching for and locating Docket No. FAA-2020-
+0985; or in person at Docket Operations between 9 a.m. and 5 p.m., 
+Monday through Friday, except Federal holidays. The AD docket contains 
+this AD action, any comments received, and other information. The 
+street address for Docket Operations is U.S. Department of 
+Transportation, Docket Operations, M-30, West Building Ground Floor, 
+Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Kristin Bradley, Aerospace Engineer, 
+General Aviation & Rotorcraft Section, International Validation Branch, 
+Compliance & Airworthiness Division, FAA, 10101 Hillwood Pkwy., Fort 
+Worth, TX 76177; telephone 817-222-5110; email [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Discussion
+
+    The FAA has issued an NPRM that proposed to amend 14 CFR part 39 by 
+adding an AD that would apply to the specified products. The NPRM was 
+published in the Federal Register on November 9, 2020 (85 FR 71286). 
+The NPRM was prompted by a deviation from a new manufacturing process 
+and a determination that the deviation resulted in a reduced life limit 
+(service life limit) for certain TR blades.
+    The NPRM proposed to require a reduced life limit for those TR 
+blades and require a new life limit for certain other TR blades.
+
+Actions Since the NPRM was Issued
+
+    Since issuance of the NPRM, the FAA determined that the deviation 
+from the new manufacturing process does not reduce the life limit of 
+certain TR blades and that a new life limit is not needed for certain 
+other blades. Affected parts can continue operation until the normal 
+life limit with no compensation factor applied to reduce the life of 
+the part. Therefore, the FAA has determined that AD action is not 
+appropriate.
+    Withdrawal of the NPRM constitutes only such action and does not 
+preclude the FAA from further rulemaking on this issue, nor does it 
+commit the FAA to any course of action in the future.
+
+Comments
+
+    The FAA gave the public the opportunity to comment on the NPRM. The 
+following presents the comments received on the NPRM and the FAA's 
+response to each comment.
+
+Request To Withdraw NPRM
+
+    Airbus Helicopters requested that the NPRM be withdrawn. The 
+commenter stated that EASA would be cancelling EASA AD 2018-0168, dated 
+July 27, 2018, which prompted this NPRM. The commenter also noted that 
+Airbus Helicopters service information was revised to remove the 
+reduced life limit for the TR blades.
+    The FAA agrees with the commenter's request. Since publication of 
+the NPRM, EASA has issued EASA AD 2018-0168R1, dated December 18, 2020 
+(EASA AD 2018-0168R1). EASA has determined, and the FAA concurs, that 
+the deviation in the new manufacturing process does not affect the life 
+limit of the TR blades. Airbus Helicopters has revised the 
+corresponding service information accordingly. The revised EASA AD 
+allows continued operation of
+
+[[Page 17330]]
+
+the affected parts until the normal life limit. The FAA has determined 
+that this NPRM is unnecessary and will withdraw this NPRM.
+
+Request To Delay Issuance of the AD
+
+    One commenter requested that the FAA delay issuance of the final 
+rule because Airbus Helicopters had revised its service information to 
+restore the original life limits of the TR blades, and based on the 
+revised service information it would appear that EASA will issue a 
+revised AD to revise the life limits accordingly. The commenter asked 
+that the revised EASA AD be taken into account in the final rule.
+    The FAA acknowledges the commenter's request. As previously stated, 
+the FAA has determined that this NPRM is unnecessary and will withdraw 
+this NPRM.
+
+Request To Include Link To Document Referenced in the NPRM
+
+    One commenter requested that the FAA provide a link in the NPRM to 
+the EASA AD that is referred to in the NPRM. The commenter stated that 
+if it is the FAA's new policy to refer to another Civil Aviation 
+Authority's AD it would be more convenient for operators to have a link 
+instead of having to search another website.
+    The FAA acknowledges the commenter's request. If the FAA would have 
+issued a final rule, the EASA AD would have been incorporated by 
+reference. The material that is incorporated by reference in an FAA AD 
+is available in the AD docket on the internet at https://www.regulations.gov by searching for and locating the applicable AD 
+docket. The AD docket contains the NPRM, any comments received, 
+material that is incorporated by reference, and other information. As 
+previously stated, the FAA has determined that this NPRM is unnecessary 
+and will withdraw this NPRM.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that the NPRM is 
+unnecessary. Accordingly, the NPRM is withdrawn.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule. This action therefore is not covered under Executive 
+Order 12866, the Regulatory Flexibility Act, or DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+0
+Accordingly, the notice of proposed rulemaking, Docket No. FAA-2020-
+0985, which was published in the Federal Register on November 9, 2020 
+(85 FR 71286), is withdrawn.
+
+    Issued on March 25, 2021.
+Gaetano A. Sciortino,
+Deputy Director for Strategic Initiatives, Compliance & Airworthiness 
+Division, Aircraft Certification Service.
+[FR Doc. 2021-06768 Filed 4-1-21; 8:45 am]
+BILLING CODE 4910-13-P
+
+

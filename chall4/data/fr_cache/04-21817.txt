@@ -1,0 +1,109 @@
+
+[Federal Register Volume 69, Number 188 (Wednesday, September 29, 2004)]
+[Proposed Rules]
+[Pages 58111-58112]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 04-21817]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2002-NM-257-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Airbus Model A319, A320, and A321 
+Series Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to certain 
+Airbus Model A319, A320, and A321 series airplanes. That action would 
+have required replacement of the lightweight tailpipes of the auxiliary 
+power units (APU). Since the issuance of the NPRM, the Federal Aviation 
+Administration (FAA) has received additional information, based on 
+which we have determined that the tailpipes are very light, and that 
+the chances of any injury to persons or damage to equipment from the 
+part being ejected from the APU exhaust duct are minimal. Also, we have 
+determined that 100 percent of the U.S. operators have done the 
+proposed replacement. Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Gary Lium, Aerospace Engineer; 
+International Branch, ANM-116, FAA, Transport Airplane Directorate, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+227-1112; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to certain Airbus Model A319, A320, and A321 
+series airplanes, was published in the Federal Register as a Notice of 
+Proposed Rulemaking (NPRM) on June 18, 2004 (69 FR 34096). The proposed 
+rule would have required replacement of the lightweight tailpipes of 
+the APU. That action was prompted by reports that stress cracking 
+stemming from design issues had been discovered in the inner liners of 
+the lightweight tailpipes of certain APUs. The proposed actions were 
+intended to prevent stress cracking of the tailpipe inner liner from 
+possibly causing the tailpipe to become separated from the APU during 
+operation, which could have posed a hazard to persons on the ground.
+
+Actions that Occurred Since the NPRM Was Issued
+
+    Since the issuance of that NPRM, we have received additional 
+information. The failed part, a sheet metal ring that forms a portion 
+of the tailpipe, weighs less than one pound. If the part does fail and 
+come off, it will blow out the back and not interfere with continued 
+APU or airplane operation. We have determined that the probability of 
+any injury to persons or damage to equipment from the part being 
+ejected from the APU exhaust duct is minimal. Also, we have determined 
+that 100 percent of the U.S. operators have done the proposed 
+replacement.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that the 
+identified unsafe condition does not exist on the affected airplanes. 
+Accordingly, the proposed rule is hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility
+
+[[Page 58112]]
+
+Act, or DOT Regulatory Policies and Procedures (44 FR 11034, February 
+26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 2002-NM-257-
+AD, published in the Federal Register on June 18, 2004 (69 FR 34096), 
+is withdrawn.
+
+    Issued in Renton, Washington, on September 20, 2004.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 04-21817 Filed 9-28-04; 8:45 am]
+BILLING CODE 4910-13-P
+
+

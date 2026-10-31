@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+openpyxl
+anthropic
+httpx
+pytest

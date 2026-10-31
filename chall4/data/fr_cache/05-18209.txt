@@ -1,0 +1,460 @@
+
+[Federal Register Volume 70, Number 177 (Wednesday, September 14, 2005)]
+[Proposed Rules]
+[Pages 54318-54321]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-18209]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2005-20402; Directorate Identifier 2005-NM-133-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Sabreliner Model NA-265, NA-265-20, NA-
+265-30, NA-265-40, NA-265-50, NA-265-60, NA-265-65, NA-265-70, and NA-
+265-80 Series Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to supersede an existing airworthiness 
+directive (AD) that applies to certain Sabreliner Model NA-265-40, NA-
+265-50, NA-265-60, NA-265-70, and NA-265-80 series airplanes. The 
+existing AD currently requires repetitive inspections for discrepancies 
+in the front and rear spars of the wing in the area of the wing center 
+section, and in the lugs on the rear spar and wing trailing edge panel 
+rib, and corrective actions if necessary. This proposed AD would expand 
+the applicability of the existing AD and require new repetitive 
+inspections for fuel leaks of the front
+
+[[Page 54319]]
+
+and rear spars of the wing, and for discrepancies in the front and rear 
+spars of the wing in the area of the wing center section, and in the 
+lugs on the rear spar and wing trailing edge panel rib. This proposed 
+AD would also require related investigative and corrective actions, if 
+necessary. This proposed AD results from reports of cracking in the 
+upper and lower flanges of the front and rear spars of the wing near 
+the wing center section, and in the lugs on the rear spar. We are 
+proposing this AD to detect and correct cracking or other discrepancies 
+in these areas, which could result in structural failure of the wing.
+
+DATES: We must receive comments on this proposed AD by October 31, 
+2005.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility; U.S. Department of 
+Transportation, 400 Seventh Street, SW., Nassif Building, Room PL-401, 
+Washington, DC 20590.
+     Fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street, SW., Washington, DC, between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    Contact Sabreliner Corporation, 18118 Chesterfield Airport Road, 
+Chesterfield, Missouri 63005-1121, for service information identified 
+in this proposed AD.
+
+FOR FURTHER INFORMATION CONTACT: T.N. Baktha, Aerospace Engineer, 
+Airframe Branch, ACE-118W, FAA, Wichita Aircraft Certification Office, 
+1801 Airport Road, Room 100, Mid-Continent Airport, Wichita, Kansas 
+67209; telephone (316) 946-4155; fax (316) 946-4407.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to submit any relevant written data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed in the ADDRESSES section. Include the docket number ``Docket No. 
+FAA-2005-20402; Directorate Identifier 2005-NM-133-AD'' at the 
+beginning of your comments. We specifically invite comments on the 
+overall regulatory, economic, environmental, and energy aspects of the 
+proposed AD. We will consider all comments received by the closing date 
+and may amend the proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed AD. Using the search function of 
+that Web site, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You may review the DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or may 
+visit http://dms.dot.gov.
+
+Examining the Docket
+
+    You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the DOT 
+street address stated in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after the Docket Management System 
+receives them.
+
+Discussion
+
+    We previously issued AD 73-18-03, amendment 39-3201 (43 FR 19208, 
+May 4, 1978), for certain Rockwell International Model NA-265-40, NA-
+265-50, NA-265-60, NA-265-70, and NA-265-80 series airplanes. That AD 
+requires repetitive inspections for discrepancies in the front and rear 
+spars of the wing in the area of the wing center section, and in the 
+lugs on the rear spar and wing trailing edge panel rib, and corrective 
+actions if necessary. That AD resulted from reports of cracking in the 
+upper and lower flanges of the front and rear spars of the wing near 
+the wing center section, and in the lugs on the rear spar. We issued 
+that AD to detect possible cracks, corrosion, or breaks in the surface 
+finish in the wing spars and related areas.
+
+Actions Since Existing AD Was Issued
+
+    Since we issued AD 73-18-03, we have determined that Sabreliner 
+Model NA-265, NA-265-20, NA-265-30, and NA-265-65 series airplanes may 
+also be subject to the unsafe condition addressed by AD 73-18-03. These 
+models were not listed in the applicability statement of AD 73-18-03.
+
+Relevant Service Information
+
+    We have reviewed Sabreliner NA-265 Service Bulletin 83-2, revised 
+January 31, 2005. Sabreliner NA-265 Service Bulletin 83-2 supersedes 
+Sabreliner Service Bulletin 73-11, revised June 1, 1978. (AD 73-18-03 
+refers to the original issue of Sabreliner Service Bulletin 73-11, 
+dated June 18, 1973 (or later FAA-approved revisions), as the 
+appropriate source of service information for the actions required by 
+that AD.)
+    The procedures in Sabreliner NA-265 Service Bulletin 83-2 are 
+substantially similar to those in Sabreliner Service Bulletin 73-11 and 
+specify the following actions:
+     Performing repetitive inspections of the front and rear 
+spars of the wing for fuel leaks.
+     Performing repetitive inspections using a borescope to 
+detect breaks in the surface finish, cracking, or corrosion in the 
+upper and lower flanges of the front spar of the wing, in the area of 
+the wing center section.
+     Performing repetitive inspections using a borescope to 
+detect breaks in the surface finish, cracking, or corrosion in the 
+upper and lower flanges and the splice plates of the rear spar of the 
+wing, in the area of the wing center section.
+     Performing related investigative action, consisting of a 
+penetrant inspection for cracking, if a break in the surface finish or 
+corrosion is found during any inspection of the rear spar in the area 
+of the wing center section.
+     Performing repetitive inspections to detect cracking in 
+the lugs of the outboard rear spar and in the fittings on the wing 
+trailing edge panel rib.
+     Contacting Sabreliner for an engineering analysis if any 
+crack, corrosion, or break in the surface finish is found.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    We have evaluated all pertinent information and identified an 
+unsafe condition that is likely to develop on other airplanes of the 
+same type design. For this reason, we are proposing this AD, which 
+would supersede AD 73-18-03 and would retain the requirements of the 
+existing AD. This proposed AD would also expand the applicability to 
+include additional airplanes, and would require accomplishing the 
+actions specified in Sabreliner NA-265 Service Bulletin 83-2, revised 
+January 31, 2005, except as discussed under ``Differences Between the 
+Proposed AD and Service Information.''
+
+[[Page 54320]]
+
+Differences Between the Proposed AD and Service Information
+
+    Sabreliner NA-265 Service Bulletin 83-2, revised January 31, 2005, 
+specifies that operators may contact the manufacturer for disposition 
+of certain repair conditions. This proposed AD would require operators 
+to repair those conditions in accordance with a method approved by the 
+FAA.
+    Sabreliner NA-265 Service Bulletin 83-2, revised January 31, 2005, 
+specifies an inspection for fuel leaks, and another inspection for 
+cracking of the lugs on the rear spar and wing trailing edge panel rib. 
+We have determined that these inspections can be done using a general 
+visual inspection method. Note 1 of this proposed AD defines a general 
+visual inspection.
+    Sabreliner NA-265 Service Bulletin 83-2, revised January 31, 2005, 
+describes procedures for submitting a sheet recording compliance with 
+the service bulletin. This proposed AD does not require that action.
+    These differences have been coordinated with the manufacturer.
+
+Changes to Existing AD
+
+    The FAA has revised the applicability of the existing AD to 
+identify model designations as published in the most recent type 
+certificate data sheet for the affected models.
+    Also, we removed all references to ``later FAA-approved revision'' 
+from the requirements of the existing AD, to be consistent with the 
+policy of the Office of the Federal Register. This change will not 
+increase the economic burden on any operator, nor will it increase the 
+scope of the AD, since we may decide to approve later revisions of the 
+service bulletin as an alternative method of compliance with this AD, 
+as provided by paragraph (n) of this AD.
+    Also, we have revised references to inspecting and doing repairs in 
+accordance with a method ``approved by the Chief, Aircraft Engineering 
+Division, FAA Western Region.'' This office no longer exists. 
+Accordingly, we have revised paragraphs (f), (g), and (h) of this AD to 
+refer to inspecting and doing repairs, as applicable, in accordance 
+with a method approved by the Manager, Wichita Aircraft Certification 
+Office, FAA. We have also included paragraph (i) in this proposed AD to 
+give credit for inspecting or doing repairs before the effective date 
+of this AD in accordance with a method approved by the Chief, Aircraft 
+Engineering Division, FAA Western Region.
+
+Costs of Compliance
+
+    There are about 77 airplanes of the affected design in the 
+worldwide fleet. This proposed AD would affect about 43 airplanes of 
+U.S. registry.
+    The inspection specified in this proposed AD would take about 12 
+work hours per airplane, per inspection cycle, at an average labor rate 
+of $65 per work hour. Based on these figures, the estimated cost of the 
+new actions specified in this proposed AD for U.S. operators is 
+$33,540, or $780 per airplane, per inspection cycle.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD and placed it in the AD docket. See the 
+ADDRESSES section for a location to examine the regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The Federal Aviation Administration (FAA) amends Sec.  39.13 by 
+removing amendment 39-3201 (43 FR 19208, May 4, 1978) and adding the 
+following new airworthiness directive (AD):
+
+Sabreliner Corporation: Docket No. FAA-2005-20402; Directorate 
+Identifier 2005-NM-133-AD.
+
+Comments Due Date
+
+    (a) The FAA must receive comments on this AD action by October 
+31, 2005.
+
+Affected ADs
+
+    (b) This AD supersedes AD 73-18-03.
+
+Applicability
+
+    (c) This AD applies to Sabreliner Model NA-265, NA-265-20, NA-
+265-30, NA-265-40, NA-265-50, NA-265-60, NA-265-65, NA-265-70, and 
+NA-265-80 series airplanes; certificated in any category; as 
+identified in Sabreliner NA-265 Service Bulletin 83-2, revised 
+January 31, 2005.
+
+Unsafe Condition
+
+    (d) This AD results from reports of cracking in the upper and 
+lower flanges of the front and rear spars of the wing near the wing 
+center section, and in the lugs on the rear spar. The FAA is issuing 
+this AD to detect and correct cracking or other discrepancies in 
+these areas, which could result in structural failure of the wing.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Requirements of AD 73-18-03
+
+Repetitive Inspections
+
+    (f) For the airplanes listed in Table 1 of this AD: On or before 
+June 18, 1974, unless previously accomplished within 1 year, and at 
+intervals not to exceed 2 years thereafter until the first 
+inspection in accordance with paragraph (j) of this AD has been 
+done, inspect the upper and lower flanges of the front and rear 
+spars in the area of the wing center section, and the lugs on the 
+rear spar and wing trailing edge panel rib, per the instructions of 
+Sabreliner Service Bulletin
+
+[[Page 54321]]
+
+73-11, revised June 1, 1978; or an equivalent inspection approved by 
+the Manager, Wichita Aircraft Certification Office (ACO), FAA. 
+Inspections done before the effective date of this AD in accordance 
+with Sabreliner Service Bulletin 73-11, dated June 15, 1973, are 
+acceptable for compliance with this paragraph.
+
+  Table 1.--Airplanes Subject to Paragraph (f), (g), and (h) of this AD
+------------------------------------------------------------------------
+                   Model                       Affected serial numbers
+------------------------------------------------------------------------
+NA-265-40.................................  282-1 and subsequent.
+NA-265-50.................................  287-1.
+NA-265-60.................................  306-1 through 306-139
+                                             inclusive.
+NA-265-70.................................  370-1 through 370-9
+                                             inclusive.
+NA-265-80.................................  380-1 through 380-61
+                                             inclusive.
+------------------------------------------------------------------------
+
+Corrective Actions
+
+    (g) For the airplanes listed in Table 1 of this AD: Prior to 
+further flight, if cracks, corrosion, or breaks in the surface 
+finish are found, during any inspection in accordance with paragraph 
+(f) of this AD, in the front or rear spars in the area of the wing 
+center section, replace with like serviceable parts, or repair in a 
+manner approved by the Manager, Wichita ACO.
+    (h) For the airplanes listed in Table 1 of this AD: Prior to 
+further flight, if cracks are found, during any inspection in 
+accordance with paragraph (f) of this AD, in the lugs on the rear 
+spar and wing trailing edge rib, replace the cracked parts with like 
+serviceable parts, or repair in a manner approved by the Manager, 
+Wichita ACO.
+
+New Requirements of This AD
+
+Inspections/Repairs Accomplished Previously
+
+    (i) Inspections and repairs accomplished before the effective 
+date of this AD in accordance with a method approved by the Chief, 
+Aircraft Engineering Division, FAA Western Region, are acceptable 
+for compliance with paragraphs (f), (g), and (h) of this AD, as 
+applicable.
+
+New Repetitive Inspections
+
+    (j) Within 90 days after the effective date of this AD, except 
+as provided by paragraph (j)(1) of this AD: Perform a general visual 
+inspection for fuel leaks; an inspection using a borescope to detect 
+any break in the surface finish, corrosion, or cracking of the upper 
+and lower flanges on the front and rear spars of the wing in the 
+area of the wing center section; a general visual inspection to 
+detect cracking of the lugs on the rear spar and wing trailing edge 
+panel rib; and related investigative actions, as applicable; by 
+doing all applicable actions in accordance with the instructions of 
+Sabreliner NA-265 Service Bulletin 83-2, revised January 31, 2005. 
+Repeat the inspection thereafter at intervals not to exceed 24 
+months.
+    (1) If the inspection required by paragraph (j) of this AD has 
+been accomplished within 12 months before the effective date of this 
+AD, the inspection required by paragraph (j) of this AD is not 
+required until 24 months after the most recent inspection in 
+accordance with the requirements of paragraph (j) of this AD.
+    (2) For airplanes subject to paragraph (f) of this AD: 
+Accomplishing of the initial inspection required by paragraph (j) of 
+this AD terminates the requirements of paragraph (f) of this AD.
+
+    Note 1: For the purposes of this AD, a general visual inspection 
+is: ``A visual examination of an interior or exterior area, 
+installation, or assembly to detect obvious damage, failure, or 
+irregularity. This level of inspection is made from within touching 
+distance unless otherwise specified. A mirror may be necessary to 
+ensure visual access to all surfaces in the inspection area. This 
+level of inspection is made under normally available lighting 
+conditions such as daylight, hangar lighting, flashlight, or 
+droplight and may require removal or opening of access panels or 
+doors. Stands, ladders, or platforms may be required to gain 
+proximity to the area being checked.''
+
+
+Corrective Actions
+
+    (k) If any fuel leak, break in the surface finish, corrosion, or 
+cracking is found during any inspection required by paragraph (j) of 
+this AD: Before further flight, replace the subject part with a new 
+or serviceable part, or repair the subject part in accordance with a 
+method approved by the Manager, Wichita ACO. Where Sabreliner NA-265 
+Service Bulletin 83-2 specifies contacting Sabreliner for an 
+engineering analysis: Before further flight, repair in accordance 
+with a method approved by the Manager, Wichita ACO. For a repair 
+method to be approved by the Manager, Wichita ACO, as required by 
+this paragraph, the Manager's approval letter must specifically 
+refer to this AD.
+
+Actions Accomplished Previously
+
+    (l) Inspections and corrective actions accomplished before the 
+effective date of this AD in accordance with the original issue of 
+Sabreliner NA-265 Service Bulletin 83-2, dated March 4, 1983; or 
+Sabreliner NA-265 Service Bulletin 83-2, revised February 29, 1996; 
+are acceptable for compliance with the corresponding actions 
+required by paragraphs (j) and (k) of this AD.
+
+No Reporting Requirement
+
+    (m) Although the service bulletin referenced in this AD 
+specifies to submit certain information to the manufacturer, this AD 
+does not include that requirement.
+
+Alternative Methods of Compliance (AMOCs)
+
+    (n) The Manager, Wichita ACO, has the authority to approve AMOCs 
+for this AD, if requested in accordance with the procedures found in 
+14 CFR 39.19.
+
+    Issued in Renton, Washington, on September 6, 2005.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 05-18209 Filed 9-13-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

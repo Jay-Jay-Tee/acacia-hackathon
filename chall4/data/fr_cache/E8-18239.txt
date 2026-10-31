@@ -1,0 +1,433 @@
+
+[Federal Register Volume 73, Number 153 (Thursday, August 7, 2008)]
+[Proposed Rules]
+[Pages 45905-45908]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E8-18239]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 61
+
+[Docket No. FAA-2002-13744; Notice No. 08-09]
+RIN 2120-AJ25
+
+
+Robinson R-22/R-44 Special Training and Experience Requirements
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action proposes to continue the existing special training 
+and experience requirements in Special Federal Aviation Regulation 
+(SFAR) No. 73 and eliminate the termination date for SFAR 73. 
+Currently, SFAR No. 73 is a final rule that will expire on June 30, 
+2009. Since 1998, the FAA has extended SFAR 73 for two 5-year periods. 
+The FAA recently re-issued SFAR No. 73 and extended the rule's 
+expiration date to June 30, 2009. SFAR No. 73 requires special training 
+and experience for pilots operating the Robinson model R-22 or R-44 
+helicopters in order to maintain the safe operation of Robinson 
+helicopters. It also requires special training and experience for 
+certified flight instructors conducting student instruction or flight 
+reviews in R-22 or R-44 helicopters.
+
+DATES: Send your comments to reach us on or before November 5, 2008.
+
+ADDRESSES: You may send comments identified by Docket Number FAA-2002-
+13744 using any of the following methods:
+     Federal eRulemaking Portal: Go to http://www.regulations.gov and follow
+
+[[Page 45906]]
+
+the online instructions for sending your comments electronically.
+     Mail: Send comments to Docket Operations, M-30; U.S. 
+Department of Transportation, 1200 New Jersey Avenue, SE., Room W12-
+140, West Building Ground Floor, Washington, DC 20590-0001.
+     Hand Delivery or Courier: Bring comments to Docket 
+Operations in Room W12-140 of the West Building Ground Floor at 1200 
+New Jersey Avenue, SE., Washington, DC, between 9 a.m. and 5 p.m., 
+Monday through Friday, except Federal holidays.
+     Fax: Fax comments to Docket Operations at 202-493-2251.
+For more information on the rulemaking process, see the SUPPLEMENTARY 
+INFORMATION section of this document.
+    Privacy: We will post all comments we receive, without change, to 
+http://www.regulations.gov, including any personal information you 
+provide. Using the search function of our docket web site, anyone can 
+find and read the electronic form of all comments received into any of 
+our dockets, including the name of the individual sending the comment 
+(or signing the comment for an association, business, labor union, 
+etc.). You may review DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78) or you 
+may visit http://DocketsInfo.dot.gov.
+    Docket: To read background documents or comments received, go to 
+http://www.regulations.gov at any time and follow the online 
+instructions for accessing the docket. Or, go to the Docket Management 
+Facility in Room W12-140 of the West Building Ground Floor at 1200 New 
+Jersey Avenue, SE., Washington, DC, between 9 a.m. and 5 p.m., Monday 
+through Friday, except Federal holidays.
+
+FOR FURTHER INFORMATION CONTACT: John Lynch, Certification and General 
+Aviation Operations Branch, AFS-810, General Aviation and Commercial 
+Division, 800 Independence Ave., SW., Washington, DC 20591; Telephone: 
+(202) 267-8212.
+
+SUPPLEMENTARY INFORMATION: Later in this preamble under the Additional 
+Information section, we discuss how you can comment on this proposal 
+and how we will handle your comments. Included in this discussion is 
+related information about the docket, privacy, and the handling of 
+proprietary or confidential business information. We also discuss how 
+you can get a copy of this proposal and related rulemaking documents.
+
+I. Authority for This Rulemaking
+
+    The FAA's authority to issue rules regarding aviation safety is 
+found in Title 49 of the United States Code. Subtitle I, section 106, 
+describes the authority of the FAA Administrator, including the 
+authority to issue, rescind, and revise regulations. Subtitle VII, 
+Aviation Programs, describes in more detail the scope of the agency's 
+authority.
+    This rulemaking is promulgated under the authority described in 
+Subtitle VII, Part A, Chapter 447--Safety Regulation. Under section 
+44701, the FAA is charged with promoting safe flight of civil aircraft 
+in air commerce by prescribing regulations necessary for safety. Under 
+section 44703, the FAA issues an airman certificate to an individual 
+when we find, after investigation, that the individual is qualified 
+for, and physically able to perform the duties related to, the position 
+authorized by the certificate. In this NPRM, we are proposing to 
+continue the existing special training and experience requirements in 
+Special Federal Aviation Regulation (SFAR) No. 73 and to extend the 
+termination date for SFAR 73 until further notice. The proposed changes 
+are intended to ensure pilots have the training and experience 
+necessary to operate these models of Robinson helicopters safely. For 
+this reason, the proposed changes are within the scope of our authority 
+and are a reasonable and necessary exercise of our statutory 
+obligations.
+
+II. Background
+
+    Part 61 of Title 14 of the Code of Federal Regulations (14 CFR part 
+61) details the certification requirements for pilots and flight 
+instructors. Particular requirements for pilots and flight instructors 
+in rotorcraft are found in Subparts C through G, and Appendix B of part 
+61. These requirements do not address any specific type or model of 
+rotorcraft. However, in 1995 the Federal Aviation Administration 
+(referred to as ``we'') determined that specific training and 
+experience requirements are necessary for the safe operation of 
+Robinson R-22 and R-44 model helicopters.
+    The R-22 is a 2-seat, reciprocating engine powered helicopter that 
+is frequently used as a low-cost initial student training aircraft. The 
+R-44 is a 4-seat helicopter with operating characteristics and design 
+features that are similar to the R-22. The R-22 is the smallest 
+helicopter in its class and incorporates a unique cyclic control and 
+rotor system. Certain aerodynamic and design features of the aircraft 
+cause specific flight characteristics that require particular pilot 
+awareness and responsiveness.
+    We found that the R-22 met 14 CFR part 27 certification 
+requirements and issued a type certificate in 1979. The small size and 
+relatively low operating costs of this helicopter made it popular as a 
+training or small utility aircraft. Thus, a significant number of the 
+pilots operating R-22 helicopters were relatively inexperienced. Prior 
+to issuance of SFAR No. 73, the Robinson R-22 experienced a higher 
+number of fatal accidents due to main rotor/airframe contact than other 
+piston-powered helicopters. Many of these accidents were caused by low 
+rotor revolutions per minute (RPM) or low ``G'' conditions that 
+resulted in mast bumping or main rotor-airframe contact accidents. 
+Aviation safety authorities attributed these accidents to pilot error 
+by inexperienced pilots. In our analysis of accident data prior to the 
+first issuance of SFAR No. 73, we found that apparently qualified 
+pilots may not be properly prepared to safely operate the R-22 and R-44 
+helicopters in certain flight conditions.
+    A recent analysis of approximately 100 R-22 accidents that occurred 
+between 2005 and 2008 indicated that none of them involved mast 
+bumping, low rotor RPM (blade stall) or low ``G'' hazards. Because the 
+training required by this SFAR addressed these hazards, the FAA 
+believes that the training has been effective. Therefore, we have 
+determined that additional pilot training, originally established by 
+SFAR No. 73, as modified in SFAR No. 73-1, continues to be needed for 
+the safe operation of these helicopters.
+
+III. Previous Regulatory Action
+
+    On March 1, 1995, the FAA published SFAR No. 73 (60 FR 11256). This 
+SFAR required certain experience and training to perform pilot-in-
+command (PIC) and/or certified flight instructor (CFI) duties. SFAR No. 
+73 was issued on an emergency basis, with an expiration date of 
+December 31, 1997. On November 21, 1997 (62 FR 62486), the FAA 
+published an NPRM to extend SFAR No. 73 to December 31, 2002, with a 
+minor amendment. The final rule extending SFAR No. 73 to December 31, 
+2002 was published on January 7, 1998 (63 FR 660). On November 14, 
+2002, the FAA published an NPRM (67 FR 69106) proposing to extend SFAR 
+No. 73 an additional 5 years. On January 2, 2003, the FAA again re-
+issued SFAR No. 73 (68 FR 39-43) and extended the rule's expiration 
+date to March 31, 2008. On March 31, 2008, we extended the SFAR
+
+[[Page 45907]]
+
+No. 73 until June 30, 2009 (73 FR 17243).
+
+Regulatory Evaluation, Regulatory Flexibility Determination, 
+International Trade Impact Assessment, and Unfunded Mandates Assessment
+
+    Changes to Federal regulations must undergo several economic 
+analyses. First, Executive Order 12866 directs that each Federal agency 
+shall propose or adopt a regulation only upon a reasoned determination 
+that the benefits of the intended regulation justify its costs. Second, 
+the Regulatory Flexibility Act of 1980 (Pub. L. 96-354) requires 
+agencies to analyze the economic impact of regulatory changes on small 
+entities. Third, the Trade Agreements Act (Public Law 96-39) prohibits 
+agencies from setting standards that create unnecessary obstacles to 
+the foreign commerce of the United States. In developing U.S. 
+standards, this Trade Act requires agencies to consider international 
+standards and, where appropriate, that they be the basis of U.S. 
+standards. Fourth, the Unfunded Mandates Reform Act of 1995 (Pub. L. 
+104-4) requires agencies to prepare a written assessment of the costs, 
+benefits, and other effects of proposed or final rules that include a 
+Federal mandate likely to result in the expenditure by State, local, or 
+tribal governments, in the aggregate, or by the private sector, of $100 
+million or more annually (adjusted for inflation with base year of 
+1995). This portion of the preamble summarizes the FAA's analysis of 
+the economic impacts of this proposed rule. We suggest readers seeking 
+greater detail read the full regulatory evaluation, a copy of which we 
+have placed in the docket for this rulemaking.
+    In conducting these analyses, FAA has determined that this proposed 
+rule: (1) Has benefits that justify its costs, (2) is not an 
+economically ``significant regulatory action'' as defined in section 
+3(f) of Executive Order 12866, (3) is not ``significant'' as defined in 
+DOT's Regulatory Policies and Procedures; (4) would not have a 
+significant economic impact on a substantial number of small entities; 
+(5) would not create unnecessary obstacles to the foreign commerce of 
+the United States; and (6) would not impose an unfunded mandate on 
+state, local, or tribal governments, or on the private sector by 
+exceeding the threshold identified above. These analyses are summarized 
+below.
+
+Total Benefits and Costs of This Rule
+
+    The proposed rule would cause those who receive or provide 
+instruction in a Robinson R-22 or R-44 helicopter to incur additional 
+costs related to specific flight training and awareness training. These 
+proposed requirements would impose costs of approximately $8 million 
+(present value, $5.6 million) over ten years in 2007 dollars. The 
+potential safety benefits from the final rule would be a reduction in 
+the number of fatal accidents that occur in Robinson helicopters 
+associated with low ``G'' maneuvers that may result in main rotor/
+airframe contact. The reduction in the number of accidents would be due 
+to the increased level of safety due to specific flight training and 
+awareness training requirements for all individuals operating Robinson 
+R-22 and R-44 aircraft. Since the net reduction in accidents as a 
+result of SFAR 73 would be 22 fatalities associated with low ``G'' 
+maneuvers, the FAA estimates the expected safety benefits to be 
+approximately $129 million (present value, $90.6 million) over ten 
+years, in 2007 dollars. Since benefits exceed costs, the FAA concludes 
+that this rule would be cost-beneficial.
+
+Regulatory Flexibility Determination
+
+    The Regulatory Flexibility Act of 1980 establishes ``as a principle 
+of regulatory issuance that agencies shall endeavor, consistent with 
+the objective of the rule and of applicable statutes, to fit regulatory 
+and informational requirements to the scale of the business, 
+organizations, and governmental jurisdictions subject to regulation.'' 
+To achieve that principle, the Act requires agencies to solicit and 
+consider flexible regulatory proposals and to explain the rationale for 
+their actions. The Act covers a wide-range of small entities, including 
+small businesses, not-for-profit organizations and small governmental 
+jurisdictions.
+    Agencies must perform a review to determine whether a proposed or 
+final rule will have a significant economic impact on a substantial 
+number of small entities. If the determination is that it will, the 
+agency must prepare a regulatory flexibility analysis (RFA) as 
+described in the Act.
+    However, if an agency determines that a proposed or final rule is 
+not expected to have a significant economic impact on a substantial 
+number of small entities, section 605(b) of the 1980 Act provides that 
+the head of the agency may so certify and an RFA is not required. The 
+certification must include a statement providing the factual basis for 
+this determination, and the reasoning should be clear.
+    This proposed rule will indefinitely extend SFAR 73, initially 
+published on March 1, 1995, and extended three times since. The SFAR is 
+limited to experience and training requirements to perform pilot-in-
+command and certified flight instructor duties, thereby impacting 
+individuals rather than entities. Therefore, the FAA concludes that 
+this proposed rule would not have a significant economic impact on any 
+small entities.
+
+International Trade Impact Statement
+
+    The Trade Agreements Act of 1979 prohibits Federal agencies from 
+engaging in any standards or related activities that create unnecessary 
+obstacles to the foreign commerce of the United States. Legitimate 
+domestic objectives, such as safety, are not considered unnecessary 
+obstacles. The statute also requires consideration of international 
+standards and where appropriate, that they be the basis for U.S. 
+standards.
+    In accordance with the above statute, the FAA has assessed the 
+potential effect of this proposed rule and has determined that it would 
+have only a domestic impact and therefore create no obstacles to the 
+foreign commerce of the United States.
+
+Unfunded Mandates Assessment
+
+    Title II of the Unfunded Mandates Reform Act of 1995 requires each 
+Federal agency to prepare a written statement assessing the effects of 
+any Federal mandate in a proposed or final agency rule that may result 
+in an expenditure of $100 million or more (adjusted annually for 
+inflation) in any one year by State, local, and tribal governments, in 
+the aggregate, or by the private sector; such a mandate is deemed to be 
+a ``significant regulatory action.'' The FAA currently uses an 
+inflation-adjusted value of $136.1 million in lieu of $100 million.
+    This proposed rule does not contain such a mandate. The 
+requirements of Title II do not apply.
+
+Executive Order 13132, Federalism
+
+    The FAA has analyzed this proposed rule under the principles and 
+criteria of Executive Order 13132, Federalism. We determined that this 
+action will not have a substantial direct effect on the States, or the 
+relationship between the national Government and the States, or on the 
+distribution of power and responsibilities among the various levels of 
+government. Therefore, we determined that this proposed rule does not 
+have federalism implications.
+
+International Civil Aviation Organization (ICAO) and Joint Aviation 
+Regulations
+
+    In keeping with U.S. obligations under the Convention on 
+International
+
+[[Page 45908]]
+
+Civil Aviation, it is FAA policy to comply with ICAO Standards and 
+Recommended Practices to the maximum extent practicable. The FAA has 
+determined that this proposed rule does not conflict with any 
+international agreement of the United States.
+
+Paperwork Reduction Act
+
+    The OMB control number assigned to the collection of information 
+for this proposed rule is 2120-0021.
+
+Plain Language
+
+    In response to the June 1, 1998 Presidential Memorandum regarding 
+the use of plain language, the FAA re-examined the writing style 
+currently used in the development of regulations. The memorandum 
+requires federal agencies to communicate clearly with the public. We 
+are interested in your comments on whether the style of this document 
+is clear, and in any other suggestions you might have to improve the 
+clarity of FAA communications that affect you.
+    You can get more information about the Presidential memorandum and 
+the plain language initiative at http://www.plainlanguage.gov.
+
+Regulations That Significantly Affect Energy Supply, Distribution, or 
+Use
+
+    The FAA has analyzed this NPRM under Executive Order 13211, Actions 
+Concerning Regulations that Significantly Affect Energy Supply, 
+Distribution, or Use (May 18, 2001). We have determined that it is not 
+a ``significant energy action'' under the executive order because it is 
+not a ``significant regulatory action'' under Executive Order 12866, 
+and it is not likely to have a significant adverse effect on the 
+supply, distribution, or use of energy.
+
+IV. Additional Information
+
+Comments Invited
+
+    The FAA invites interested persons to participate in this 
+rulemaking by submitting written comments, data, or views. We also 
+invite comments relating to the economic, environmental, energy, or 
+federalism impacts that might result from adopting the proposals in 
+this document. The most helpful comments reference a specific portion 
+of the proposal, explain the reason for any recommended change, and 
+include supporting data. To ensure the docket does not contain 
+duplicate comments, please send only one copy of written comments, or 
+if you are filing comments electronically, please submit your comments 
+one time.
+    We will file in the docket all comments we receive, as well as a 
+report summarizing each substantive public contact with FAA personnel 
+concerning this proposed rulemaking. Before acting on this proposal, we 
+will consider all comments we receive on or before the closing date for 
+comments. We will consider comments filed after the comment period has 
+closed if it is possible to do so without incurring expense or delay. 
+We may change this proposal in light of the comments we receive.
+
+Proprietary or Confidential Business Information
+
+    Do not file in the docket information that you consider to be 
+proprietary or confidential business information. Send or deliver this 
+information directly to the person identified in the FOR FURTHER 
+INFORMATION CONTACT section of this document. You must mark the 
+information that you consider proprietary or confidential. If you send 
+the information on a disk or CD-ROM, mark the outside of the disk or 
+CD-ROM and also identify electronically within the disk or CD-ROM the 
+specific information that is proprietary or confidential.
+    Under Sec.  11.35(b), when we are aware of proprietary information 
+filed with a comment, we do not place it in the docket. We hold it in a 
+separate file to which the public does not have access, and place a 
+note in the docket that we have received it. If we receive a request to 
+examine or copy this information, we treat it as any other request 
+under the Freedom of Information Act (5 U.S.C. 552). We process such a 
+request under the DOT procedures found in 49 CFR part 7.
+
+Availability of Rulemaking Documents
+
+    You can get an electronic copy using the Internet by--
+    (1) Searching the Federal eRulemaking Portal (http://www.regulations.gov);
+    (2) Visiting the FAA's Regulations and Policies web page at: http://www.faa.gov/regulations_policies; or
+    (3) Accessing the Government Printing Office's web page at: http://www.gpoaccess.gov/fr/index.html.
+    You can also get a copy by sending a request to the Federal 
+Aviation Administration, Office of Rulemaking, ARM-1, 800 Independence 
+Avenue, SW., Washington, DC 20591, or by calling (202) 267-9680. Make 
+sure to identify the docket number, notice number, or amendment number 
+of this rulemaking.
+    You may access all documents the FAA considered in developing this 
+proposed rule, including economic analyses and technical reports, from 
+the internet through the Federal eRulemaking Portal referenced in 
+paragraph (1).
+
+List of Subjects in 14 CFR Part 61
+
+    Aircraft, Aircraft pilots, Airmen, Airplanes, Air safety, Air 
+transportation, Aviation safety, Balloons, Helicopters, Rotorcraft, 
+Students.
+
+The Proposed Amendment
+
+    In consideration of the foregoing, the Federal Aviation 
+Administration proposes to amend part 61 of Title 14 of the Code of 
+Federal Regulations (14 CFR part 61) as follows:
+
+PART 61--CERTIFICATION: PILOTS, FLIGHT INSTRUCTORS, AND GROUND 
+INSTRUCTORS
+
+    1. The authority citation for part 61 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701-44703, 44707, 44709-
+44711, 45102-45103, 45301-45302.
+
+    2. Revise section 3 of SFAR No. 73 to read as follows:
+
+Special Federal Aviation Regulation No. 73--Robinson R-22/R-44 Special 
+Training and Experience Requirements
+
+* * * * *
+    3. Expiration date. This SFAR number 73 shall remain in effect 
+until further notice.
+
+    Issued in Washington, DC on July 30, 2008.
+James J. Ballough,
+Director, Flight Standards Service.
+[FR Doc. E8-18239 Filed 8-6-08; 8:45 am]
+BILLING CODE 4910-13-P
+
+

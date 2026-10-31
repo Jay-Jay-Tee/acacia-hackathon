@@ -1,0 +1,312 @@
+
+[Federal Register Volume 76, Number 40 (Tuesday, March 1, 2011)]
+[Proposed Rules]
+[Pages 11174-11176]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2011-4477]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2011-0099; Directorate Identifier 2010-SW-085-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Sikorsky Aircraft Corporation Model S-
+76A, S-76B, and S-76C Helicopters Modified by Supplemental Type 
+Certificate SR09211RC
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: We propose to adopt a new airworthiness directive (AD) for all 
+Sikorsky Aircraft Corporation (Sikorsky) S-76 model helicopters with a 
+certain life raft deployment system (LRDS) installed per Supplemental 
+Type Certificate (STC) SR09211RC. This proposed AD would require 
+removing and replacing the pilot or co-pilot life raft deployment 
+handle (handle) located on the left side of the ``broom closet'' of the 
+helicopter. This proposed AD is prompted by an incident that occurred 
+where the handle bent prior to the life raft deploying, and this 
+prohibited the crew from successfully deploying and using the life 
+raft. It was determined that the handle in this incident was not 
+manufactured to the approved Type Design. We are proposing this AD to 
+prevent the bending of the handle, which could result in failure of the 
+life raft to deploy. This failure could lead to loss of access to the 
+life raft after an emergency ditching on water.
+
+DATES: We must receive comments on this proposed AD by May 2, 2011.
+
+ADDRESSES: Use one of the following addresses to comment on this 
+proposed AD:
+     Federal eRulemaking Portal: Go to http://www.regulations.gov. Follow the instructions for submitting comments.
+     Fax: (202) 493-2251.
+     Mail: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue, SE., Washington, DC 20590.
+     Hand Delivery: U.S. Department of Transportation, Docket 
+Operations, M-30, West Building Ground Floor, Room W12-140, 1200 New 
+Jersey Avenue, SE., Washington, DC 20590, between 9 a.m. and 5 p.m., 
+Monday through Friday, except Federal holidays.
+    You may get the service information identified in this proposed AD 
+from Aero Seats and Systems, Inc., 340 Thomas Place, Everman, Texas 
+76140, telephone (817) 551-0818, fax (817) 551-0838, e-mail 
+[email protected].
+    You may examine the comments to this proposed AD in the AD docket 
+on the Internet at http://www.regulations.gov.
+
+FOR FURTHER INFORMATION CONTACT: Martin Crane, Aviation Safety 
+Engineer, FAA, Rotorcraft Directorate, Rotorcraft Certification Office, 
+2601 Meacham Blvd., Fort Worth, Texas 76137, telephone (817) 222-5170, 
+fax (817) 222-5783.
+
+SUPPLEMENTARY INFORMATION: 
+
+Comments Invited
+
+    We invite you to send any written relevant data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed under the ADDRESSES section. Include ``Docket No. FAA-2011-0099, 
+Directorate Identifier 2010-SW-085-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments received by the closing date and may amend the 
+proposed AD in light of those comments.
+
+[[Page 11175]]
+
+    We will post all comments we receive, without change, to http://www.regulations.gov, including any personal information you provide. We 
+will also post a report summarizing each substantive verbal contact we 
+receive concerning this proposed AD. Using the search function of our 
+docket Web site, you can find and read the comments to any of our 
+dockets, including the name of the individual who sent or signed the 
+comment. You may review the DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78).
+
+Examining the Docket
+
+    You may examine the docket that contains the proposed AD, any 
+comments, and other information in person at the Docket Operations 
+office between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Operations office (telephone (800) 647-5527) is 
+located in Room W12-140 on the ground floor of the West Building at the 
+street address stated in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after receipt.
+
+Discussion
+
+    We propose to adopt a new AD for the Sikorsky S-76A, S-76B, and S-
+76C model helicopters with an Aero Seats and Systems, Inc. (ASI) ASI-
+500 LRDS installed per STC SR09211RC. This proposed AD would require 
+removing and replacing the handle located on the left side of the broom 
+closet. This proposed AD is prompted by an incident that occurred in 
+the United Kingdom (UK), and was reported under the UK Civil Aviation 
+Authority's Mandatory Occurrence Reporting System (MOR ref 200800658). 
+Investigation of this incident determined that the handle bent prior to 
+the life raft deploying, and this prohibited the crew from successfully 
+deploying and using the life raft. It was determined that the installed 
+handle was not manufactured to the approved Type Design, resulting in 
+the handle being under-strength for its intended purpose. The installed 
+handle was a tube handle welded to a machined cam. This condition, if 
+not corrected, could result in failure of the life raft to deploy, 
+which could lead to loss of access to the life raft after an emergency 
+ditching on water.
+    We have reviewed ASI's Alert Service Bulletin No. 76-500-02, 
+Revision C, dated September 16, 2010 (ASB), which describes procedures 
+for removing the handle (tube handle welded to a machined cam), part 
+number (P/N) ASI-700-45, and replacing it with the handle assembly, P/N 
+ASI-700-49A, which is a one piece machined handle and cam, designed to 
+provide more strength.
+    We are proposing this AD because we have evaluated all the relevant 
+information and determined the unsafe condition described previously is 
+likely to exist or develop on other helicopters of the same type 
+design. Therefore, this proposed AD would require the following actions 
+within the next 100 hours time-in-service (TIS), unless previously 
+accomplished:
+     Install the safety pins, P/N ASI-625-14, to lock out the 
+raft deployment pods.
+     Remove the pad, P/N BA7601.
+     Remove the top cover, P/N ASI-700-73.
+     Remove the cotter pin, P/N AN381-2-8, from the clevis pin, 
+P/N MS 20392-2C9, located at the crew release handle assembly.
+     Remove the washer, P/N AN960-10L, and clevis pin from the 
+cable, P/N 2604750-90.
+     Disconnect the cable from the handle, P/N ASI-700-45, and 
+secure the cable to the broom closet to prevent it from falling into 
+the lower cover.
+     Remove the handle by removing the bolt, P/N AN4-11; nut, 
+P/N MS20364-428A; and washers, P/N AN960-416L, from the raft deployment 
+handle assembly (handle assembly), P/N ASI-700-41A.
+     Remove the safety pin, P/N ASI-700-80.
+     Remove and discard any ball bearings, and clean all 
+surfaces of the remaining handle assembly.
+     Install the handle, P/N ASI-700-49A.
+     Reinstall the bolt, nut, and washers, P/N AN960-416L, and 
+install the washer, P/N ASI-700-44, between the handle and the mount, 
+P/N ASI-700-43, on the left side of the broom closet, and torque to 20 
+in-lb maximum.
+     Reinstall the safety pin.
+     Release the cable from the broom closet.
+     Reinstall the cable to the handle with the clevis pin.
+     Reinstall the washer, P/N AN960-10L, and the cotter pin on 
+to the clevis pin.
+     Reinstall the top cover.
+     Reinstall the pad.
+     Remove the raft deployment pod lock out safety pins.
+    These proposed actions are intended to prevent the handle from 
+bending during raft deployment, which could lead to loss of access to 
+the life raft after an emergency ditching on water.
+
+Differences Between This Proposed AD and Service Information
+
+    This proposed AD differs from the manufacturer's service bulletin 
+by requiring compliance to the actions specified in this AD within 100 
+hours TIS, unless accomplished previously. The manufacturer's service 
+bulletin states that compliance must occur immediately upon receipt of 
+a new design handle.
+
+Costs of Compliance
+
+    We estimate that this proposed AD would affect 65 helicopters on 
+the U.S. registry. We estimate it will take about 4 work-hours per 
+helicopter to accomplish the proposed requirements. The average labor 
+rate is $85 per work-hour. In addition, we estimate the cost of the 
+required parts to be $1,500 per helicopter. Based on these figures, we 
+estimate the cost of the proposed AD to be approximately $1,840 per 
+helicopter and $119,600 total cost for U.S. operators.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. Additionally, this proposed 
+AD would not have a substantial direct effect on the States, on the 
+relationship between the national Government and the States, or on the 
+distribution of power and responsibilities among the various levels of 
+government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a draft economic evaluation of the estimated costs to 
+comply with this proposed AD. See the AD docket to examine the draft 
+economic evaluation.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that
+
+[[Page 11176]]
+
+section, Congress charges the FAA with promoting safe flight of civil 
+aircraft in air commerce by prescribing regulations for practices, 
+methods, and procedures the Administrator finds necessary for safety in 
+air commerce. This regulation is within the scope of that authority 
+because it addresses an unsafe condition that is likely to exist or 
+develop on products identified in this rulemaking action.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR Part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority:  49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The FAA amends Sec.  39.13 by adding the following new AD:
+
+Sikorsky Aircraft Corporation: Docket No. FAA-2011-0099; Directorate 
+Identifier 2010-SW-085-AD.
+
+    Applicability: S-76A, S-76B, and S-76C model helicopters with 
+Aero Seats and Systems, Inc. (ASI) ASI-500 Life Raft Deployment 
+System (LRDS) installed per FAA Supplemental Type Certificate 
+SR09211RC, pilot or co-pilot life raft deployment handle (handle), 
+part number (P/N) ASI-700-45, certificated in any category.
+    Compliance: Required within 100 hours time-in-service, unless 
+accomplished previously.
+    To prevent the bending of the handle, which could result in 
+failure of the life raft to deploy, resulting in the loss of access 
+to the life raft after an emergency ditching on water, accomplish 
+the following:
+    (a) Install the safety pins, P/N ASI-625-14, to lock out the 
+raft deployment pods.
+    (b) Remove the pad, P/N BA7601.
+    (c) Remove the top cover, P/N ASI-700-73.
+    (d) Remove the cotter pin, P/N AN381-2-8, from the clevis pin, 
+P/N MS 20392-2C9, located at the crew release handle assembly.
+    (e) Remove the washer, P/N AN960-10L, and clevis pin from the 
+cable, P/N 2604750-90.
+    (f) Disconnect the cable from the handle, and secure the cable 
+to the broom closet to prevent it from falling into the lower cover.
+    (g) Remove the handle by removing the bolt, P/N AN4-11, nut, P/N 
+MS20364-428A, and washers, P/N AN960-416L, from the raft deployment 
+handle assembly (handle assembly), P/N ASI-700-41A.
+    (h) Remove the safety pin, P/N ASI-700-80.
+    (i) Remove and discard any ball bearings, and clean all surfaces 
+of the remaining handle assembly.
+    (j) Install the handle, P/N ASI-700-49A.
+    (k) Reinstall the bolt, nut, and washers, P/N AN960-416L, and 
+install the washer, P/N ASI-700-44, between the handle and the 
+mount, P/N ASI-700-43, on the left side of the broom closet, and 
+torque to 20 in-lb maximum.
+    (l) Reinstall the safety pin.
+    (m) Release the cable from the broom closet.
+    (n) Reinstall the cable to the handle with the clevis pin.
+    (o) Reinstall the washer, P/N AN960-10L, and the cotter pin on 
+to the clevis pin.
+    (p) Reinstall the top cover.
+    (q) Reinstall the pad.
+    (r) Remove the raft deployment pod lock out safety pins.
+
+    Note:  Aero Seats and Systems, Inc., Alert Service Bulletin No. 
+76-500-02, Revision C, dated September 16, 2010, which is not 
+incorporated by reference, contains additional information about the 
+subject of this airworthiness directive.
+
+    (s) To request a different method of compliance or a different 
+compliance time for this AD, follow the procedures in 14 CFR 39.19. 
+Contact the Manager, Rotorcraft Certification Office, FAA, Attn: 
+Martin Crane, Aerospace Engineer, FAA, Rotorcraft Directorate, 
+Rotorcraft Certification Office, 2601 Meacham Blvd., Fort Worth, 
+Texas 76137, telephone (817) 222-5170, fax (817) 222-5783, e-mail 
+[email protected] for information about previously approved 
+alternative methods of compliance.
+    (t) The Joint Aircraft System/Component (JASC) Code 2564: is: 
+Life raft.
+
+    Issued in Fort Worth, Texas, on January 27, 2011.
+Kim Smith,
+Manager, Rotorcraft Directorate, Aircraft Certification Service.
+[FR Doc. 2011-4477 Filed 2-28-11; 8:45 am]
+BILLING CODE 4910-13-P
+
+

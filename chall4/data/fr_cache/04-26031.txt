@@ -1,0 +1,342 @@
+
+[Federal Register Volume 69, Number 226 (Wednesday, November 24, 2004)]
+[Proposed Rules]
+[Pages 68268-68270]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 04-26031]
+
+
+
+[[Page 68268]]
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2004-19682; Directorate Identifier 2004-NM-88-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Boeing Model 737-600, -700, -700C, -800 
+Series Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) 
+for certain Boeing Model 737-600, -700, -700C, and -800 series 
+airplanes. This proposed AD would require inspecting/measuring the 
+length of the attachment fasteners between the nacelle support fittings 
+and the lower wing skin panels, and related investigative/corrective 
+actions if necessary. This proposed AD is prompted by a report from the 
+manufacturer that in production, during the installation of certain 
+attachment fasteners for the nacelle support fittings, only one washer 
+was installed instead of two. We are proposing this AD to prevent 
+inadequate fastener clamp-up, which could result in cracking of the 
+fastener holes, cracking along the lower wing skin panels, fuel leaking 
+from the wing fuel tanks onto the engines, and possible fire.
+
+DATES: We must receive comments on this proposed AD by January 10, 
+2005.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility, U.S. Department of 
+Transportation, 400 Seventh Street SW., Nassif Building, Room PL-401, 
+Washington, DC 20590.
+     By fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street SW., Washington, DC, between 9 a.m. 
+and 5 p.m., Monday through Friday, except Federal holidays.
+    For service information identified in this proposed AD, contact 
+Boeing Commercial Airplanes, P.O. Box 3707, Seattle, Washington 98124-
+2207.
+    You can examine the contents of this AD docket on the Internet at 
+http://dms.dot.gov, or at the Docket Management Facility, U.S. 
+Department of Transportation, 400 Seventh Street SW., room PL-401, on 
+the plaza level of the Nassif Building, Washington, DC.
+
+FOR FURTHER INFORMATION CONTACT: Robert Hardwick, Aerospace Engineer, 
+Airframe Branch, ANM-120S, FAA, Seattle Aircraft Certification Office, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+917-6457; fax (425) 917-6590.
+
+SUPPLEMENTARY INFORMATION:
+
+Docket Management System (DMS)
+
+    The FAA has implemented new procedures for maintaining AD dockets 
+electronically. As of May 17, 2004, new AD actions are posted on DMS 
+and assigned a docket number. We track each action and assign a 
+corresponding directorate identifier. The DMS AD docket number is in 
+the form ``Docket No. FAA-2004-99999.'' The Transport Airplane 
+Directorate identifier is in the form ``Directorate Identifier 2004-NM-
+999-AD.'' Each DMS AD docket also lists the directorate identifier 
+(``Old Docket Number'') as a cross-reference for searching purposes.
+
+Comments Invited
+
+    We invite you to submit any written relevant data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed under ADDRESSES. Include ``Docket No. FAA-2004-19682; 
+Directorate Identifier 2004-NM-88-AD'' in the subject line of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments submitted by the closing date and may amend the 
+proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed AD. Using the search function of 
+that website, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You may review DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or you 
+may visit http://dms.dot.gov.
+    We are reviewing the writing style we currently use in regulatory 
+documents. We are interested in your comments on whether the style of 
+this document is clear, and your suggestions to improve the clarity of 
+our communications that affect you. You can get more information about 
+plain language at http://www.faa.gov/language and http://www.plainlanguage.gov.
+
+Examining the Docket
+
+    You may examine the AD docket in person at the Docket Management 
+Facility office between 9 a.m. and 5 p.m., Monday through Friday, 
+except Federal holidays. The Docket Management Facility office 
+(telephone (800) 647-5227) is located on the plaza level of the Nassif 
+Building at the DOT street address stated in the ADDRESSES section. 
+Comments will be available in the AD docket shortly after the DMS 
+receives them.
+
+Discussion
+
+    We have received a report indicating that, during the production of 
+certain Boeing Model 737-600, -700, -700C, and -800 series airplanes, 
+it was discovered that certain attachment fasteners that attach the 
+nacelle support fittings to the lower wing skin panels were improperly 
+installed. The affected fasteners were installed during production with 
+only one washer instead of two, which could cause the nut to tighten 
+against the thread runout on the fastener shank rather than clamping 
+the joint. This condition can be identified by checking the thread 
+protrusion between the top of the nut and the end of the fastener to 
+determine if the thread protrusion is outside of the limits specified 
+by the manufacturer. Discrepant thread protrusion could indicate 
+inadequate clamp-up between the nacelle support fittings and the lower 
+wing skin panels. Adequate clamp-up compresses the components together, 
+which assists in preventing cracking. Inadequate clamp-up, if not 
+corrected, could result in cracking of the fastener holes, cracking 
+along the lower wing skin panels, fuel leaking from the wing fuel tanks 
+onto the engines, and possible fire.
+
+Relevant Service Information
+
+    We have reviewed Boeing Service Bulletin 737-57-1275, dated 
+September 4, 2003. The service bulletin describes procedures for 
+inspecting/measuring the thread protrusion of certain attachment 
+fasteners between the lower wing skin panels and the nacelle support 
+fittings, marking fasteners with measurements outside of the specified 
+thread protrusion limits, and related investigative and corrective 
+actions. For fasteners with measurements outside of
+
+[[Page 68269]]
+
+the specified limits, the related investigative actions include reaming 
+the affected fastener holes and doing a high frequency eddy current 
+inspection of the complete fastener hole stack-up for cracking. If no 
+cracking is found, the corrective actions include reaming the holes to 
+the next nominal diameter and installing new fasteners. If cracking is 
+found, the service bulletin specifies contacting Boeing for repair 
+information. For repaired areas, the service bulletin also specifies 
+doing fuel leak inspections. Accomplishing the actions specified in the 
+service bulletin will adequately address the unsafe condition.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    We have evaluated all pertinent information and identified an 
+unsafe condition that is likely to exist or develop on other airplanes 
+of this same type design. Therefore, we are proposing this AD, which 
+would require inspecting/measuring the length of the attachment 
+fasteners between the nacelle support fittings and the lower wing skin 
+panels, and related investigative/corrective actions if necessary. The 
+proposed AD would require you to use the service information described 
+previously to perform these actions, except as discussed under 
+``Differences Between the Proposed AD and Service Information.''
+
+Differences Between the Proposed AD and Service Information
+
+    The service bulletin states that the inspection/measurement should 
+be done within 30,000 flight cycles or 30,000 flight hours from 
+airplane delivery, whichever is first. For airplanes not modified by 
+Supplemental Type Certificate (STC) ST00830SE, this proposed AD 
+specifies doing the inspection/measurement prior to the accumulation of 
+30,000 total flight cycles or 30,000 total flight hours, whichever is 
+first. For airplanes modified by that STC, the proposed AD specifies 
+doing the inspection/measurement prior to the accumulation of 25,000 
+total flight cycles or 25,000 total flight hours, whichever is first. 
+The STC is an airplane modification that installs winglets. We have 
+determined that airplanes with winglets have increased wing loads, 
+which could result in cracking at a lower threshold than airplanes 
+without winglets.
+    The service bulletin also specifies that you may contact the 
+manufacturer for instructions on how to repair certain conditions, but 
+this proposed AD would require you to repair those conditions in one of 
+the following ways:
+     Using a method that we approve; or
+     Using data that meet the type certification basis of the 
+airplane, and that have been approved by a Boeing Company Designated 
+Engineering Representative who has been authorized by the FAA to make 
+such findings.
+
+Costs of Compliance
+
+    This proposed AD would affect about 751 airplanes worldwide. The 
+following table provides the estimated costs for U.S. operators to 
+comply with this proposed AD.
+
+                                                                     Estimated Costs
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        Number of U.S.-
+                Action                    Work hours     Average labor               Parts                 Cost per        registered       Fleet cost
+                                                         rate per hour                                     airplane        airplanes
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Inspection/Measurement...............              12              $65   Nominal.....................            $780              302         $235,560
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD. See the ADDRESSES section for a location 
+to examine the regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The FAA amends Sec.  39.13 by adding the following new 
+airworthiness directive (AD):
+
+Boeing: Docket No. FAA-2004-19682; Directorate Identifier 2004-NM-
+88-AD.
+
+Comments Due Date
+
+    (a) The Federal Aviation Administration (FAA) must receive 
+comments on this AD action by January 10, 2005.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to Boeing Model 737-600, -700, -700C, and -
+800 series airplanes; line numbers 1 through 761 inclusive, except 
+for line numbers 596, 683, 742, 749, 750, 751, 754, 755, 759, and 
+760; certificated in any category;
+
+Unsafe Condition
+
+    (d) This AD was prompted by a report from the manufacturer that 
+in production, during installation of certain attachment fasteners 
+for the nacelle support fittings, only one washer was installed 
+instead of two. We are issuing this AD to prevent inadequate 
+fastener clamp-up, which could result in cracking of the fastener 
+holes, cracking along the lower wing skin panels, fuel leaking from 
+the wing fuel tanks onto the engines, and possible fire.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Inspection/Measurement and Related Investigative and Corrective Actions
+
+    (f) At the applicable time specified in paragraph (f)(1) or 
+(f)(2) of this AD: Inspect/measure the length of certain attachment 
+fasteners between the lower wing skin panels and the nacelle support 
+fittings. Do the inspection/measurement, and all applicable
+
+[[Page 68270]]
+
+related investigative and corrective actions, in accordance with the 
+Accomplishment Instructions of Boeing Service Bulletin 737-57-1275, 
+dated September 4, 2003, except as provided by paragraph (g) of this 
+AD.
+    (1) For airplanes modified by Supplemental Type Certificate 
+(STC) ST00830SE as of the effective date of this AD: Prior to the 
+accumulation of 25,000 total flight hours or 25,000 total flight 
+cycles, whichever is first.
+    (2) For airplanes not modified by STC ST00830SE as of the 
+effective date of this AD: Prior to the accumulation of 30,000 total 
+flight hours or 30,000 total flight cycles, whichever is first.
+    (g) If accomplishing a corrective action as required by 
+paragraph (f) of this AD, and the service bulletin specifies to 
+contact Boeing for repair information: Before further flight, do the 
+repair in accordance with a method approved by the Manager, Seattle 
+Aircraft Certification Office (ACO), FAA; or in accordance with data 
+meeting the type certification basis of the airplane approved by a 
+Boeing Company Designated Engineering Representative (DER) who has 
+been authorized by the Manager, Seattle ACO, to make such findings. 
+For a repair method to be approved, the approval must specifically 
+reference this AD.
+
+Alternative Methods of Compliance (AMOCs)
+
+    (h)(1) The Manager, Seattle ACO, FAA, has the authority to 
+approve AMOCs for this AD, if requested using the procedures found 
+in 14 CFR 39.19.
+    (2) An AMOC that provides an acceptable level of safety may be 
+used for any repair required by this AD, if it is approved by a 
+Boeing Company DER who has been authorized by the Manager, Seattle 
+ACO, to make such findings. For a repair method to be approved, the 
+approval must specifically refer to this AD.
+
+    Issued in Renton, Washington, on November 10, 2004.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 04-26031 Filed 11-23-04; 8:45 am]
+BILLING CODE 4910-13-P
+
+

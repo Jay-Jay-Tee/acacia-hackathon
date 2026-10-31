@@ -1,0 +1,523 @@
+
+[Federal Register Volume 70, Number 20 (Tuesday, February 1, 2005)]
+[Proposed Rules]
+[Pages 5070-5073]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-1795]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2000-NM-120-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Empresa Brasileira de Aeronautica S.A. 
+(EMBRAER) Model EMB-120 Series Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Supplemental notice of proposed rulemaking; reopening of 
+comment period.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document revises an earlier proposed airworthiness 
+directive (AD), applicable to certain EMBRAER Model EMB-120 series 
+airplanes that would have required initial and repetitive calibration 
+testing of potentiometers to detect noisy signals and replacement of 
+only those with noisy signals. This new action revises the proposed AD 
+by reducing the compliance time for the repetitive calibration testing 
+of the potentiometers and adding the requirement for reporting results 
+of the calibration tests of the potentiometers and the readouts of the 
+flight data recorder (FDR) to the airplane manufacturer. The actions 
+specified by this new proposed AD are intended to prevent the 
+potentiometers that provide information on the positions of the primary 
+flight controls to the FDR from transmitting noisy signals or becoming 
+improperly calibrated, resulting in the transmission of incomplete or 
+inaccurate data to the FDR. This lack of reliable data could hamper 
+discovery of the unsafe condition that caused an accident or incident 
+and prevent the FAA from developing and mandating actions to prevent 
+additional accidents or incidents caused by that same unsafe condition. 
+This action is intended to address the identified unsafe condition.
+
+DATES: Comments must be received by February 28, 2005.
+
+ADDRESSES: Submit comments in triplicate to the Federal Aviation 
+Administration (FAA), Transport Airplane Directorate, ANM-114, 
+Attention: Rules Docket No. 2000-NM-120-AD, 1601 Lind Avenue, SW., 
+Renton, Washington 98055-4056. Comments may be inspected at this 
+location between 9 a.m. and 3 p.m., Monday through Friday, except 
+Federal holidays. Comments may be submitted via fax to (425) 227-1232. 
+Comments may also be sent via the Internet using the following address: 
+[email protected]. Comments sent via fax or the Internet must 
+contain ``Docket No. 2000-NM-120-AD'' in the subject line and need not 
+be submitted in triplicate. Comments sent via the Internet as attached 
+electronic files must be formatted in Microsoft Word 97 or 2000 or 
+ASCII text.
+    The service information referenced in the proposed rule may be 
+obtained from Empresa Brasileira de Aeronautica S.A. (EMBRAER), P.O. 
+Box 343-CEP 12.225, Sao Jose dos Campos-SP, Brazil. This information 
+may be examined at the Federal Aviation Administration (FAA), Transport 
+Airplane Directorate, Rules Docket, 1601 Lind Avenue, SW., Renton, 
+Washington.
+
+FOR FURTHER INFORMATION CONTACT: Todd Thompson, Aerospace Engineer, 
+International Branch, ANM-116, Transport Airplane Directorate, 1601 
+Lind Avenue, S.W., Renton, Washington, 98055-4056; telephone (425) 227-
+1175; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    Interested persons are invited to participate in the making of the 
+proposed rule by submitting such written data, views, or arguments, as 
+they may desire. Communications shall identify the Rules Docket number 
+and be submitted in triplicate to the address specified above. All 
+communications received on or before the closing date for comments, 
+specified above, will be considered before taking action on the 
+proposed rule. The proposals contained in this action may be changed in 
+light of the comments received.
+    Submit comments using the following format:
+     Organize comments issue-by-issue. For example, discuss a 
+request to change the compliance time and a request to change the 
+service bulletin reference as two separate issues.
+     For each issue, state what specific change to the proposed 
+AD is being requested.
+     Include justification (e.g., reasons or data) for each 
+request.
+    Comments are specifically invited on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed rule. All 
+comments submitted will be available, both before and after the closing 
+date for comments, in the Rules Docket for examination by interested 
+persons. A report summarizing each FAA-public contact concerned with 
+the substance of this proposal will be filed in the Rules Docket.
+    Commenters wishing the FAA to acknowledge receipt of their comments 
+submitted in response to this action must submit a self-addressed, 
+stamped postcard on which the following statement is made: ``Comments 
+to Docket Number 2000-NM-120-AD.'' The postcard will be date stamped 
+and returned to the commenter.
+
+Availability of NPRMs
+
+    Any person may obtain a copy of this NPRM by submitting a request 
+to the FAA, Transport Airplane Directorate, ANM-114, Attention: Rules 
+Docket No. 2000-NM-120-AD, 1601 Lind Avenue, SW., Renton, Washington 
+98055-4056.
+
+Discussion
+
+    A proposal to amend part 39 of the Federal Aviation Regulations (14 
+CFR part 39) to add an airworthiness directive (AD), applicable to 
+certain EMBRAER Model EMB-120 series airplanes, was published as a 
+supplemental notice of proposed rulemaking (NPRM) in the Federal 
+Register on March 19, 2003 (68 FR 13239), hereafter referred to as the 
+``first supplemental NPRM.'' That supplemental NPRM would have required 
+initial and repetitive calibration testing of the potentiometers to 
+detect noisy signals and replacement of only those with noisy signals. 
+Potentiometers that provide information on the positions of the primary 
+flight controls to the flight data recorder (FDR) transmitting noisy 
+signals or becoming improperly calibrated, if not corrected, could 
+result in the transmission of incomplete or inaccurate data to the FDR. 
+This lack of reliable data could hamper discovery of the unsafe 
+condition that caused an accident or incident and prevent the FAA from 
+developing and mandating actions to prevent additional accidents or 
+incidents caused by that same unsafe condition.
+
+[[Page 5071]]
+
+Comments Received to the First Supplemental NPRM
+
+    Due consideration has been given to the comments received in 
+response to the first supplemental NPRM.
+
+Request To Reduce Compliance Time
+
+    The commenter, the National Transportation Safety Board (NTSB), 
+requests that the compliance time interval for the repetitive 
+calibration tests of the potentiometers and the readouts of the FDR in 
+the first supplemental NPRM be changed from 12 months back to the 6 
+months proposed in the original NPRM. The commenter states that it 
+closed Safety Recommendation A-96-34 in 1998 with an acceptable status, 
+because the original NPRM and the FAA Flight Standards Handbook 
+Bulletin for Airworthiness 97-14 (EMBRAER EMB-120 Flight Data Recorder 
+Test), directed potentiometer calibration testing every 6 months. Since 
+the original NPRM was issued, the commenter points out that the FAA 
+reversed its position on these inspections by proposing to require 
+annual inspections in the first supplemental NPRM. The commenter states 
+it has found sensor failures to be intermittent and believes that, 
+because annual inspections are the typical inspection cycle for FDR 
+systems, they may not reveal a problem and will not provide timely 
+feedback on the effectiveness of the corrective action, possibly 
+resulting in a failed sensor remaining in place for a full year.
+    The FAA agrees. Sensor failures can be intermittent; therefore, we 
+have determined that annual inspections--the typical inspection cycle 
+for FDR systems--may not reveal a problem in a timely manner and could 
+possibly result in a failed sensor remaining in place for up to a year. 
+We have revised paragraph (b) of this second supplemental NPRM to 
+reduce the compliance time interval for the repetitive calibration 
+tests of the potentiometers and the readouts of the FDR from 12 months 
+back to 6 months.
+
+Request To Include Reporting Requirement
+
+    The same commenter states that, if the AD is revised as proposed in 
+the first supplemental NPRM, the only way to properly evaluate the 
+effectiveness of the proposed corrective action is to require an FDR 
+readout and evaluation every 6 months for 2 years, and to submit the 
+results to the FAA for evaluation (as prescribed in the original NPRM). 
+The commenter further asserts that removal of the reporting requirement 
+will eliminate the opportunity for a fleet wide evaluation of the 
+continuing problem.
+    From these statements, we infer that the commenter is requesting 
+that we revise the first supplemental NPRM to again require operators 
+to report results of their calibration tests of the potentiometers and 
+the readouts of the FDR to us every 6 months for 2 years. We partially 
+agree with the commenter's request. As we explained previously, we have 
+reduced the compliance time for the repetitive interval for the 
+calibration tests of the potentiometers and the readouts of the FDR 
+from 12 months to 6 months. We also agree that the calibration testing 
+and readout results will be valuable for determining whether the 
+proposed corrective actions adequately address the noisy signals, loose 
+couplers, and incorrect calibrations that are found, and for 
+determining the extent of these in the affected fleet. Based on the 
+results of these reports, we may determine that further corrective 
+action is warranted. Therefore, we have revised this second 
+supplemental NPRM to add new a paragraph (f) that would require 
+operators to report results of the initial and repetitive calibration 
+tests of the potentiometers and the readouts of the FDR at intervals 
+not to exceed 6 months for 24 months, and reidentified subsequent 
+paragraphs accordingly.
+    However, we do not agree that these results should be submitted to 
+the FAA. The airplane manufacturer, EMBRAER, continually monitors the 
+effectiveness of corrective actions and reviews both the corrective 
+actions and their effectiveness with the Centro Technico Aeroespacial 
+(CTA), which is a division of the airworthiness authority for Brazil, 
+during quarterly service difficulty reviews. Therefore, we have 
+determined that the calibration testing and readouts of the FDR should 
+be reported directly to EMBRAER. We will work closely with EMBRAER and 
+the CTA to monitor the effectiveness of the corrective actions 
+specified in this second supplemental NPRM and will determine if 
+further corrective action is warranted based on the results of these 
+reports. No additional change to the second supplemental NPRM is 
+necessary in this regard.
+
+Request To Revise the Method of Compliance
+
+    The same commenter requests that the first supplemental NPRM be 
+revised to include requirements to conduct the FDR readout and 
+evaluation just before the airplane's scheduled maintenance, with 
+emphasis on observing parameter performance during in-flight and ground 
+operations. The commenter further suggests that the most direct way to 
+detect a sensor failure or out-of-calibration condition would be for a 
+qualified analyst to periodically evaluate the FDR data, conduct a 
+calibration check, and make any necessary sensor replacements during 
+scheduled maintenance. The commenter asserts that the fact that one or 
+more flight control parameters failed in 16 of 17 Model EMB-120 FDR 
+readouts since 1990 suggests that the problem may be systemic and may 
+require a more robust sensor and/or installation. Further, the 
+commenter expresses doubt that all of the failures were caused by 
+storing the sensors for more than 12 months, which the airplane and 
+sensor manufacturers claim caused an oxide film to form on the sensor, 
+resulting in the noisy signals. The commenter supplied no data to 
+support this request.
+    We do not agree with the commenter's request to revise the 
+compliance method. However, as we explained previously, we have reduced 
+the compliance time for the repetitive interval for calibration testing 
+of the potentiometers and readout of the FDR. We find that installation 
+problems with the sensor's compatibility with the installation 
+environment would more likely appear as (hard) sensor failures, not 
+signal quality problems. The commenter itself points out that noisy 
+signals are rare and most service problems are related to poor 
+maintenance or an improperly executed FD replacement. Therefore, 
+because the potentiometers are sealed and require no maintenance, we 
+still consider oxide coating inside the potentiometers a contributing 
+factor to the source of the noisy signals--most likely a result of 
+prolonged disuse of the sensors. Therefore, we find that these proposed 
+corrective actions will purge any faulty sensors and that no change to 
+the second supplemental NPRM is necessary in this regard.
+
+Clarification of Certain Terms
+
+    We have added a new Note 1 to this second supplemental NPRM (and 
+re-numbered subsequent notes accordingly) to clarify our use of the 
+word ``calibration.'' For the purposes of this second supplemental 
+NPRM, we define calibration as the adjustment of the potentiometers, 
+including operational and functional tests of the FDR system, as 
+specified in Section 31-30-00 of the EMBRAER EMB120 Airplane 
+Maintenance Manual (AMM).
+    Paragraph (a) of this second supplemental NPRM provides procedures 
+for a noise ``check'' to detect potentiometers with noisy signals. We 
+have determined that certified
+
+[[Page 5072]]
+
+maintenance personnel must perform the noise check.
+
+Explanation of Additional Changes to the Second Supplemental NPRM
+
+    We have added a new paragraph (e) to this second supplemental NPRM 
+(and reidentified subsequent paragraphs accordingly) to state that 
+modification of the flexible couplings done before the effective date 
+of this AD in accordance with Change 01 of EMBRAER Service Bulletin 
+120-31-0038, dated October 3, 1997, is considered acceptable for 
+compliance with the corresponding action required by paragraph (d) of 
+this second supplemental NPRM.
+    We have also changed paragraphs (a) and (c) of this second 
+supplemental NPRM to specify that the proposed actions shall be done in 
+accordance with a method approved by the Manager, International Branch, 
+ANM-116, Transport Airplane Directorate, FAA. In addition, the 
+following sections of the EMBRAER EMB-120 AMM are identified as 
+approved methods of compliance for accomplishing the proposed actions 
+specified in the applicable paragraphs:
+     Paragraph (a): Section 31-30-00, dated April 10, 2002.
+     Paragraph (c): Section 31-30-05, dated July 17, 1998.
+    Additionally, we have added a new Note 2 to this second 
+supplemental NPRM (and re-numbered subsequent notes accordingly) to 
+clarify that Section 31-30-05 of the EMBRAER EMB120 AMM includes 
+instructions for calibrating the potentiometers (adjusting the 
+potentiometers, including operational and functional tests of the FDR 
+system). The procedures for that calibration are specified in Section 
+31-30-00 of the EMBRAER EMB120 AMM.
+
+Conclusion
+
+    Since some of these changes expand the scope of the first 
+supplemental NPRM, the FAA has determined that it is necessary to 
+reopen the comment period to provide additional opportunity for public 
+comment.
+
+Changes to 14 CFR part 39/Effect on the Proposed AD
+
+    On July 10, 2002, the FAA issued a new version of 14 CFR part 39 
+(67 FR 47997, July 22, 2002), which governs the FAA's airworthiness 
+directives system. The regulation now includes material that relates to 
+altered products, special flight permits, and alternative methods of 
+compliance (AMOC). Because we have now included this material in part 
+39, only the office authorized to approve AMOCs is identified in each 
+individual AD. Therefore, paragraph (g) has been revised and paragraph 
+(h) and Notes 1 and 4 of the first supplemental NPRM have been removed 
+from this supplemental NPRM.
+
+Increase in Labor Rate
+
+    After the first supplemental NPRM was issued, we reviewed the 
+figures we use to calculate the labor rate to do the required actions. 
+To account for various inflationary costs in the airline industry, we 
+find it appropriate to increase the labor rate used in these 
+calculations from $60 per work hour to $65 per work hour. The economic 
+impact information, below, has been revised to reflect this increase in 
+the specified hourly labor rate.
+
+Cost Impact
+
+    The FAA estimates that 587 airplanes of U.S. registry would be 
+affected by this proposed AD. The following table provides the 
+estimated costs for U.S. operators to comply with this proposed AD.
+
+                                                 Estimated Costs
+----------------------------------------------------------------------------------------------------------------
+                                                            Average
+                                                             labor      Cost of parts per
+              Action                      Work hours        rate per        airplane          Cost per airplane
+                                                              hour
+----------------------------------------------------------------------------------------------------------------
+Calibration and FDR readout, per    1 per potentiometer          $65  Negligible..........  $65, potentiometer
+ calibration cycle (3                (for digital-type                                       (for digital-
+ potentiometers per airplane).       FDRs), per                                              calibration type
+                                     calibration cycle;                                      FDRs), per
+                                     or 25 per                                               calibration cycle;
+                                     potentiometer (for                                      or $1,625, per
+                                     tape-type FDRs), per                                    potentiometer (for
+                                     calibration cycle.                                      tape-type FDRs),
+                                                                                             per calibration
+                                                                                             cycle.
+Application of adhesive...........  1....................         65  Negligible..........  $65.
+----------------------------------------------------------------------------------------------------------------
+
+    The cost impact figures discussed above are based on assumptions 
+that no operator has yet accomplished any of the proposed requirements 
+of this AD action, and that no operator would accomplish those actions 
+in the future if this AD were not adopted. The cost impact figures 
+discussed in AD rulemaking actions represent only the time necessary to 
+perform the specific actions actually required by the AD. These figures 
+typically do not include incidental costs, such as the time required to 
+gain access and close up, planning time, or time necessitated by other 
+administrative actions.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities
+
+[[Page 5073]]
+
+under the criteria of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD. See the ADDRESSES section for a location 
+to examine the regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by adding the following new 
+airworthiness directive:
+
+Empresa Brasileira de Aeronautica S.A. (EMBRAER): Docket 2000-NM-
+120-AD.
+
+    Applicability: Model EMB-120 series airplanes), certificated in 
+any category, that are required by 14 CFR 135 to operate with a 
+flight data recorder (FDR).
+    Compliance: Required as indicated, unless accomplished 
+previously.
+    To prevent the potentiometers that provide information on the 
+positions of the primary flight controls to the FDR from 
+transmitting noisy signals or becoming improperly calibrated, 
+resulting in the transmission of incomplete or inaccurate data to 
+the FDR, accomplish the following:
+
+Initial Potentiometer Calibration Testing and FDR Readout
+
+    (a) Within 6 months after the effective date of this AD: 
+Calibrate the potentiometers to the ailerons, elevators, and rudder; 
+perform a noise check of the potentiometers; and obtain a readout of 
+the FDR; in accordance with a method approved by the Manager, 
+International Branch, ANM-116, Transport Airplane Directorate, FAA. 
+Section 31-30-00, dated April 10, 2002, of the EMBRAER EMB-120 
+Airplane Maintenance Manual (AMM) is one approved method. The noise 
+check must be performed by certificated maintenance personnel.
+
+    Note 1: For the purposes of this AD, calibration is defined as 
+the adjustment of the potentiometers, including operational and 
+functional tests of the FDR system, as specified in Section 31-30-00 
+of the EMBRAER EMB120 AMM.
+
+Repetitive Potentiometer Calibration Testing and FDR Readout
+
+    (b) Repeat the calibration and noise check of the potentiometers 
+and obtain a readout of the FDR, as required by paragraph (a) of 
+this AD, at intervals not to exceed 6 months.
+
+Replacement of Potentiometers
+
+    (c) If any readout of the FDR, conducted in accordance with 
+paragraph (a) or (b) of this AD, indicates a potentiometer with a 
+noisy signal: Within 20 days after obtaining the readout, replace 
+the potentiometer with one that has a date of manufacture no greater 
+than 12 months from the date of installation, in accordance with a 
+method approved by the Manager, International Branch, ANM-116, 
+Transport Airplane Directorate, FAA. Section 31-30-05, dated July 
+17, 1998, of the EMBRAER EMB-120 AMM is one approved method.
+
+    Note 2: Section 31-30-05 of the EMBRAER EMB120 AMM includes 
+instructions for calibrating the potentiometers. The procedures for 
+the calibration are specified in Section 31-30-00 of the EMB120 AMM.
+
+Modification of Flexible Couplers
+
+    (d) Prior to further flight, after accomplishing paragraph (a) 
+of this AD: Apply locktite adhesive over the threads of the screws 
+of the flexible couplers that attach the shafts of the 
+potentiometers to the shafts of the primary flight controls, in 
+accordance with EMBRAER Service Bulletin 120-31-0038, dated February 
+22, 1997; or Change 02, dated June 25, 1998.
+
+Modification Accomplished Per Previous Issue of Service Bulletin
+
+    (e) Modification of the flexible couplers done before the 
+effective date of this AD in accordance with EMBRAER Service 
+Bulletin 120-31-0038, Change 01, dated October 3, 1997, is 
+considered acceptable for compliance with the corresponding action 
+specified in paragraph (d) of this AD.
+
+Reporting Requirement
+
+    (f) At the applicable time specified in paragraph (f)(1) or 
+(f)(2) of this AD: Submit a report of the calibration tests of the 
+potentiometers and the readouts of the FDR to Empresa Brasileira de 
+Aeronautica S.A. (EMBRAER), Certification--Continued Airworthiness, 
+Av. Brig. Faria Lima, 2170, P.C. 179, 12227-901, Sao Jose dos 
+Campos--SP, Brazil; fax (12) 3927-1184. Information collection 
+requirements contained in this regulation have been approved by the 
+Office of Management and Budget (OMB) under the provisions of the 
+Paperwork Reduction Act of 1980 (44 U.S.C. 3501 et seq.) and have 
+been assigned OMB Control Number 2120-0056.
+    (1) For calibration tests, noise checks, and FDR readouts done 
+after the effective date of this AD: Submit the report within 30 
+days after performing each test, check, and readout required by 
+paragraphs (a) and (b) of this AD.
+    (2) For calibration tests, noise checks, and FDR readouts done 
+before to the effective date of this AD: Submit the report within 10 
+days after the effective date of this AD.
+
+Alternative Methods of Compliance
+
+    (g) In accordance with 14 CFR 39.19, the Manager, International 
+Branch, ANM-116, Transport Airplane Directorate, FAA, is authorized 
+to approve alternative methods of compliance for this AD.
+
+    Note 3: The subject of this AD is addressed in Brazilian 
+airworthiness directive 97-08-01, dated August 29, 1997.
+
+
+    Issued in Renton, Washington, on January 21, 2005.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. 05-1795 Filed 1-31-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

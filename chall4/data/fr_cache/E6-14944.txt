@@ -1,0 +1,145 @@
+
+[Federal Register Volume 71, Number 175 (Monday, September 11, 2006)]
+[Proposed Rules]
+[Pages 53347-53348]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E6-14944]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 98-NM-200-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Lockheed Model L-1011-385 Series 
+Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to all 
+Lockheed Model L-1011-385 series airplanes. That action would have 
+required repetitive leak tests of the lavatory drain systems and 
+repair, if necessary; installation of a lever lock cap, vacuum breaker 
+check valve or flush/fill line ball valve on the flush/fill line; 
+periodic seal changes; and replacement of ``donut'' type waste drain 
+valves installed in the waste drain system. Since the issuance of the 
+NPRM, the Federal Aviation Administration (FAA) has reviewed existing 
+data and determined that, for airplanes without a history of engine 
+damage resulting from ``blue ice,'' such as Lockheed Model L-1011-385 
+series airplanes, the hazard of ``blue ice'' to persons and property 
+may be more appropriately addressed through means other than AD action. 
+Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Hector Hernandez, Aerospace Engineer, 
+Systems and Equipment Branch, ACE-119A, FAA, Atlanta Aircraft 
+Certification Office, One Crown Center, 1895 Phoenix Boulevard, suite 
+450, Atlanta, Georgia 30349; telephone (770) 703-6069; fax (770) 703-
+6097.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to all Lockheed Model 1011-385 series 
+airplanes, was published in the Federal Register as a Notice of 
+Proposed Rulemaking (NPRM) on September 3, 1998 (63 FR 46927). The 
+proposed rule would have required repetitive leak tests of the lavatory 
+drain systems and repair, if necessary; installation of a lever lock 
+cap, vacuum breaker check valve or flush/fill line ball valve on the 
+flush/fill line; periodic seal changes; and replacement of ``donut'' 
+type waste drain valves installed in the waste drain system. That 
+action was prompted by continuing reports of damage to engines, 
+airframes, and to property on the ground, caused by ``blue ice'' that 
+forms from leaking lavatory drain systems on transport category 
+airplanes and subsequently dislodges from the airplane fuselage. The 
+proposed actions were intended to prevent such damage associated with 
+the problems of ``blue ice.''
+
+Comments Received Regarding the NPRM
+
+    Several commenters request various changes to the NPRM. In light of 
+the fact that we are withdrawing the NPRM, responses to those requests 
+are unnecessary, except as discussed below.
+
+[[Page 53348]]
+
+Request To Withdraw the NPRM
+
+    One commenter, American Trans Air, suggests several reasons why an 
+AD is unnecessary for Lockheed Model L-1011-385 series airplanes. The 
+commenter points out that Model L-1011-385 series airplanes do not have 
+the adverse service history with ``blue ice'' leakage that some other 
+airplane models have. The commenter suggests that this may be due, in 
+part, to certain basic differences between the forward lavatory waste 
+system of Model L-1011-385 series airplanes and certain other airplanes 
+such as Boeing Model 727 and 737 airplanes. In support of this 
+statement, the commenter submitted a drawing showing basic differences 
+between the forward lavatory waste system of Model L-1011-385 series 
+airplanes and Model 727 series airplanes. Additionally, the commenter 
+states that normal preflight inspections for blue streaks on the 
+fuselage are adequate for detecting valve leakage without requiring 
+mandatory action.
+    The FAA infers that the commenter is requesting that the NPRM be 
+withdrawn. We agree with the commenter's statements. In addition, for 
+the reasons stated below, we are withdrawing the NPRM.
+
+Actions That Occurred Since the NPRM Was Issued
+
+    Since the issuance of that NPRM, we have determined that it is 
+unnecessary to regulate the actions proposed in the NPRM for certain 
+airplane models equipped with potable water systems and lavatory fill 
+and drain systems, including Model L1011-385 series airplanes. Based on 
+analysis of various service information and data accumulated in the 
+last several years, we have determined that, for airplanes without a 
+history of engine damage resulting from ``blue ice,'' such as Model L-
+1011-385 series airplanes, the hazards of ``blue ice'' to persons or 
+property on the ground may be more appropriately addressed by the 
+issuance of a special airworthiness information bulletin (SAIB).
+
+FAA's Conclusions
+
+    Upon further consideration, we have issued SAIB NM-06-57, dated 
+July 27, 2006, which contains recommendations for owners and operators 
+of certain transport category airplanes regarding maintenance and 
+ground handling practices and procedures that are intended to 
+adequately address issues involving ``blue ice.'' Accordingly, the 
+proposed rule is hereby withdrawn.
+    Withdrawal of this NPRM constitutes only such action, and does not 
+preclude the agency from issuing another action in the future, nor does 
+it commit the agency to any course of action in the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 98-NM-200-
+AD, published in the Federal Register on September 3, 1998 (63 FR 
+46927), is withdrawn.
+
+    Issued in Renton, Washington, on September 1, 2006.
+Kalene C. Yanamura,
+Acting Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. E6-14944 Filed 9-8-06; 8:45 am]
+BILLING CODE 4910-13-P
+
+

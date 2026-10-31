@@ -1,0 +1,120 @@
+
+[Federal Register Volume 70, Number 157 (Tuesday, August 16, 2005)]
+[Proposed Rules]
+[Pages 48084-48085]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 05-16167]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. 2003-NE-31-AD]
+
+
+Airworthiness Directives: Rolls-Royce plc RB211-535 Turbofan 
+Engines
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM). 
+That NPRM proposed a new airworthiness directive (AD) that applies to 
+certain Rolls-Royce plc (RR) models RB211-535C-37, RB211-535E4-37, 
+RB211-535E4-B-37, and RB211-535E4-B-75 turbofan engines. The NPRM had 
+applied to those engines with radial drive steady bearing part number 
+(P/N) LK76084 installed, with fewer than 3,000 engine operating hours 
+on the bearing. That proposed action would have required initial and 
+repetitive visual inspections of the engine oil scavenge filter for 
+evidence of radial drive steady bearing failure. If after finding 
+evidence, the proposed action would have required a visual inspection 
+of the radial drive steady bearing for damage and evidence of bearing 
+debris. Since we issued that NPRM, RR notified us that all at-risk 
+radial drive steady bearings are removed from service. RR also notified 
+us that remaining bearings in service are now well over the 3,000-
+engine-operating-hour threshold and are no longer at risk. Accordingly, 
+we withdraw the proposed rule.
+
+FOR FURTHER INFORMATION CONTACT: Ian Dargin, Aerospace Engineer, Engine 
+Certification Office, FAA, Engine and Propeller Directorate, 12 New 
+England Executive Park, Burlington, MA 01803-5299; telephone (781) 238-
+7178; fax (781) 238-7199.
+
+SUPPLEMENTARY INFORMATION: The FAA proposed to amend 14 CFR part 39 
+with a proposed airworthiness directive (AD). The proposed AD applies 
+to Rolls-Royce plc (RR) models RB211-535C-37, RB211-535E4-37, RB211-
+535E4-B-37, and RB211-535E4-B-75 turbofan engines. The proposed AD 
+would have applied to those engines with radial drive steady bearing, 
+P/N LK76084 installed, with fewer than 3,000 engine-operating-hours on 
+the bearing. We published the proposed AD in the Federal Register on 
+October 9, 2003, (68 FR 58291). That proposed action would have 
+required initial and repetitive visual inspections of the engine oil 
+scavenge filter for evidence of radial drive steady bearing failure. If 
+evidence was found, that proposed action would have required a visual 
+inspection of the radial drive steady bearing for damage and evidence 
+of bearing debris. That proposed action was prompted by notification 
+from the Civil Aviation Authority (CAA), which is the airworthiness 
+authority for the U.K. The CAA notified us that an unsafe condition may 
+exist on RR models RB211-535C-37, RB211-535E4-37, RB211-535E4-B-37, and 
+RB211-535E4-B-75 turbofan engines. The unsafe condition had applied to 
+those engines with radial drive steady bearing P/N LK76084 installed 
+with fewer than 3,000 engine operating hours on the bearing. The CAA 
+received reports of seven low time failures of radial drive steady 
+bearings within a four-month period. These failures were not detected 
+through routine magnetic chip detector monitoring because the failed 
+bronze bearing cages are nonmagnetic, and the cage failure mode is 
+rapid. The proposed actions intended to prevent a possible dual-engine 
+in-flight shutdown caused by radial drive steady bearing failure.
+    Since the issuance of that NPRM, RR notified us that all at-risk 
+radial drive steady bearings are removed from service. RR also notified 
+us that the remaining bearings in service are now well over the 3,000-
+engine-operating-hour threshold and are no longer at risk.
+    Upon further consideration, we hereby withdraw the proposed rule 
+for the following reasons:
+     After RR notifying us of the removal from service and 
+bearing threshold information, stated previously.
+
+[[Page 48085]]
+
+     AD 2000-09-14 (65 FR 30527, May 12, 2000) and AD 2001-19-
+05 (66 FR 49099, September 26, 2001) currently address the same radial 
+drive steady bearing, P/N LK76084.
+     AD 2000-09-14 and AD 2001-19-05 mandate replacing low-time 
+bearings that are at risk.
+    Withdrawal of this notice of proposed rulemaking constitutes only 
+such action, and does not preclude the agency from issuing another 
+notice in the future, nor does it commit the agency to any course of 
+action in the future.
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule. Therefore, Executive Order 
+12866, the Regulatory Flexibility Act, or DOT Regulatory Policies and 
+Procedures (44 FR 11034, February 26, 1979) do not cover this 
+withdrawal.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket 2003-NE-31-
+AD, published in the Federal Register on October 9, 2003, (68 FR 
+58291), is withdrawn.
+
+    Issued in Burlington, Massachusetts, on August 9, 2005.
+Francis A. Favara,
+Acting Manager, Engine and Propeller Directorate, Aircraft 
+Certification Service.
+[FR Doc. 05-16167 Filed 8-15-05; 8:45 am]
+BILLING CODE 4910-13-P
+
+

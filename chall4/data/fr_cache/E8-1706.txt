@@ -1,0 +1,116 @@
+
+[Federal Register Volume 73, Number 21 (Thursday, January 31, 2008)]
+[Proposed Rules]
+[Pages 5775-5776]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E8-1706]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Directorate Identifier 2000-NM-120-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Empresa Brasileira de Aeronautica S.A. 
+(EMBRAER) Model EMB-120 Series Airplanes
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action withdraws a notice of proposed rulemaking (NPRM) 
+that proposed a new airworthiness directive (AD), applicable to certain 
+EMBRAER Model EMB-120 series airplanes. That action would have required 
+repetitive calibration testing of potentiometers to detect noisy 
+signals, replacement of only those with noisy signals, and reporting 
+results of the
+
+[[Page 5776]]
+
+calibration tests of the potentiometers and the readouts of the flight 
+data recorder (FDR) to the airplane manufacturer. Since the issuance of 
+the NPRM, the Federal Aviation Administration (FAA) has determined that 
+while a noisy or defective potentiometer may hamper the ability to 
+access certain aircraft data in support of either an accident or 
+incident investigation or just general maintenance activities, there is 
+no direct effect on the aircraft's ability to be operated safely. 
+Accordingly, the proposed rule is withdrawn.
+
+FOR FURTHER INFORMATION CONTACT: Todd Thompson, Aerospace Engineer, 
+International Branch, ANM-116, Transport Airplane Directorate, FAA, 
+1601 Lind Avenue, SW., Renton, Washington 98057-3356; telephone (425) 
+227-1175; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION: A proposal to amend part 39 of the Federal 
+Aviation Regulations (14 CFR part 39) to add a new airworthiness 
+directive (AD), applicable to certain EMBRAER Model EMB-120 series 
+airplanes, was published in the Federal Register as a second 
+supplemental Notice of Proposed Rulemaking (NPRM) on February 1, 2005 
+(70 FR 5070). The proposed rule would have required repetitive 
+calibration testing of potentiometers to detect noisy signals, 
+replacement of only those with noisy signals, and reporting results of 
+the calibration tests of the potentiometers and the readouts of the 
+flight data recorder (FDR) to the airplane manufacturer. The proposed 
+actions were intended to prevent the potentiometers that provide 
+information on the positions of the primary flight controls to the FDR 
+from transmitting noisy signals or becoming improperly calibrated, 
+resulting in the transmission of incomplete or inaccurate data to the 
+FDR.
+
+Actions That Occurred Since the Second Supplemental NPRM Was Issued
+
+    Since the issuance of the second supplemental NPRM, the FAA has 
+determined that while a noisy or defective potentiometer may hamper the 
+ability to access certain aircraft data in support of either an 
+accident or incident investigation or just general maintenance 
+activities, there is no direct effect on the aircraft's ability to be 
+operated safely.
+    On December 7, 2007, we issued Special Airworthiness Information 
+Bulletin (SAIB) NM-08/10 to recommend calibrating, testing, and 
+replacing certain potentiometers to the ailerons, elevators, and rudder 
+of the subject airplanes, which is part of the manufacturer's 
+recommended maintenance program.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that no unsafe 
+condition exists. Accordingly, the proposed rule is hereby withdrawn.
+    Withdrawal of this second supplemental NPRM constitutes only such 
+action, and does not preclude the agency from issuing another action in 
+the future, nor does it commit the agency to any course of action in 
+the future.
+
+Regulatory Impact
+
+    Since this action only withdraws a notice of proposed rulemaking, 
+it is neither a proposed nor a final rule and therefore is not covered 
+under Executive Order 12866, the Regulatory Flexibility Act, or DOT 
+Regulatory Policies and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Withdrawal
+
+    Accordingly, the second supplemental notice of proposed rulemaking, 
+Directorate Identifier 2000-NM-120-AD, published in the Federal 
+Register on February 1, 2005 (70 FR 5070), is withdrawn.
+
+    Issued in Renton, Washington, on January 15, 2008.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+ [FR Doc. E8-1706 Filed 1-30-08; 8:45 am]
+BILLING CODE 4910-13-P
+
+

@@ -1,0 +1,285 @@
+
+[Federal Register Volume 72, Number 48 (Tuesday, March 13, 2007)]
+[Proposed Rules]
+[Pages 11297-11300]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 07-1167]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2007-27495; Directorate Identifier 2005-SW-14-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Eurocopter France Model AS350B, BA, B1, 
+B2, B3, C, D, and D1; EC-130B4; and AS355E, F, F1, F2, and N 
+Helicopters
+
+AGENCY: Federal Aviation Administration, DOT.
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document proposes adopting a new airworthiness directive 
+(AD) for the specified Eurocopter France (ECF) model helicopters. This 
+proposal would require, within the next 30 days, modifying the 
+collective hold-down strap (strap) and thereafter inspecting it at 
+specified intervals to ensure the rubber grommet is resting against the 
+console or replacing the strap with an ECF designed strap that has a 
+torsional spring at the lower end of the strap. This proposal is 
+prompted by reports of two accidents occurring while the pilots were 
+performing an autorotation. The pilots were unable to arrest the 
+descent of the helicopter using collective blade pitch due to the 
+collective stick locking in the down position when the collective was 
+lowered during the maneuver. The actions specified by this proposed AD 
+are intended to prevent inadvertent locking of a collective stick in 
+flight and the flight crew not being aware of the locked condition 
+leading to a subsequent loss of control of the helicopter.
+
+DATES: Comments must be received on or before May 14, 2007.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD:
+     DOT Docket Web site: Go to  http://dms.dot.gov and follow 
+the instructions for sending your comments electronically;
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically;
+     Mail: Docket Management Facility; U.S. Department of 
+Transportation, 400 Seventh Street, SW., Nassif Building, Room PL-401, 
+Washington, DC 20590;
+     Fax: 202-493-2251; or
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street, SW., Washington, DC, between 9 
+a.m. and 5 p.m., Monday through Friday, except Federal holidays.
+    You may examine the comments to this proposed AD in the AD docket 
+on the Internet at http://dms.dot.gov.
+
+FOR FURTHER INFORMATION CONTACT: Vince Massey, Aerospace Engineer, FAA, 
+Seattle Aircraft Certification Office, Systems and Equipment Branch, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056, telephone (425) 
+917-6475, fax (425) 917-6590.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to submit any written data, views, or arguments 
+regarding this proposed AD. Send your comments to the address listed 
+under the caption ADDRESSES. Include the docket number ``FAA-2007-
+27495, Directorate Identifier 2005-SW-14AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments received by the closing date and may amend the 
+proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed rulemaking. Using the search 
+function of our docket Web site, you can find and read the comments to 
+any of our dockets, including the name of the individual who sent or 
+signed the comment. You may review the DOT's complete Privacy Act 
+Statement in the Federal Register published on April 11, 2000 (65 FR 
+19477-78), or you may visit http://dms.dot.gov.
+
+[[Page 11298]]
+
+Examining the Docket
+
+    You may examine the docket that contains the proposed AD, any 
+comments, and other information in person at the Docket Management 
+System (DMS) Docket Office between 9 a.m. and 5 p.m., Monday through 
+Friday, except Federal holidays. The Docket Office (telephone 1-800-
+647-5227) is located at the plaza level of the Department of 
+Transportation NASSIF Building in Room PL-401 at 400 Seventh Street, 
+SW., Washington, DC. Comments will be available in the AD docket 
+shortly after the DMS receives them.
+
+Discussion
+
+    This document proposes adopting a new AD for the specified ECF 
+model helicopters. This proposal would require, within the next 30 
+days, modifying the strap and thereafter inspecting it at specified 
+intervals to ensure the rubber grommet is resting against the console 
+or replacing the strap with an ECF strap designed with the torsional 
+spring at the lower end of the strap. This proposal is prompted by 
+reports of two accidents occurring while the pilots were performing an 
+autorotation. The pilots were unable to arrest the descent of the 
+helicopter using collective blade pitch due to the collective control 
+locking in the down position when the collective was lowered during the 
+maneuver. The positive locking feature and the structural integrity of 
+the hold-down strap prevent the pilot from overriding the collective 
+stick control lock by simply pulling up on the collective control 
+stick. Before the collective stick can be raised, it must be held in a 
+position where the button on the end of the collective stick is 
+centered in the hole in the hold-down strap and then pushed forward to 
+disengage the hold-down strap from the button on the end of the 
+collective stick. The actions specified by this proposed AD are 
+intended to prevent inadvertent locking of a collective stick in flight 
+and the flight crew not being aware of the locked condition leading to 
+a subsequent loss of control of the helicopter.
+    This unsafe condition is likely to exist or develop on other 
+helicopters of these same type designs. Therefore, the proposed AD 
+would require you to do the following within the next 30 days:
+     Modify the strap by forming the strap as depicted in 
+Figure 1 of this AD. Install the modified strap so that the rubber 
+grommet rests against the console. Thereafter, at intervals not to 
+exceed 100 hours time-in-service, inspect the strap to ensure the 
+rubber grommet is resting against the console.
+     An alternative approach for complying with this AD is to 
+replace the affected strap with an ECF designed strap that has a 
+torsional spring at the lower end of the strap.
+    Replacing the strap with an ECF designed strap that has a torsional 
+spring at the lower end of the strap would constitute terminating 
+action for the requirements of this AD.
+    We estimate that this proposed AD would affect 475 helicopters of 
+U.S. registry. The proposed actions would take about 10 minutes to 
+inspect a strap, 20 minutes to modify it, and 30 minutes to replace a 
+strap at an average labor rate of $80 per work hour. Required parts 
+would cost about $194.70 per helicopter for the ECF strap designed with 
+the torsional spring at the end of the strap. Based on these figures, 
+we estimate the total cost impact of the AD on U.S. operators would be 
+$111,483 if the ECF strap designed with the torsional spring at the end 
+is installed in the entire fleet.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. Additionally, this proposed 
+AD would not have a substantial direct effect on the States, on the 
+relationship between the national Government and the States, or on the 
+distribution of power and responsibilities among the various levels of 
+government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a draft economic evaluation of the estimated costs to 
+comply with this proposed AD. See the DMS to examine the draft economic 
+evaluation.
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+subtitle VII, part A, subpart III, section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, pursuant to the authority delegated to me by the 
+Administrator, the Federal Aviation Administration proposes to amend 
+part 39 of the Federal Aviation Regulations (14 CFR part 39) as 
+follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. Section 39.13 is amended by adding a new airworthiness directive 
+to read as follows:
+
+Eurocopter France: Docket No. FAA-2007-27495; Directorate Identifier 
+2005-SW-14-AD.
+
+Applicability
+
+    Model AS350B, BA, B1, B2, B3, C, D, and D1; EC-130B4; and 
+AS355E, F, F1, F2, and N helicopters, with a collective hold-down 
+strap (strap), part number (P/N) 350A273107126, installed, 
+certificated in any category.
+
+Compliance
+
+    Required as indicated.
+    To prevent inadvertent locking of a collective stick in the 
+lowered position during flight and the flight crew not being aware 
+of the locked condition leading to a subsequent loss of control of 
+the helicopter, do the following:
+    (a) Within the next 30 days, unless accomplished previously, 
+modify the strap by forming the strap as depicted in Figure 1 of 
+this AD. Install the modified strap so that the rubber grommet rests 
+against the console. Thereafter, at intervals not to exceed 100 
+hours time-in-service, inspect the strap to ensure that the rubber 
+grommet is resting against the console.
+
+    Note: Vertical adjustment of the strap is described in the 
+applicable Eurocopter France maintenance manual.
+
+
+[[Page 11299]]
+
+
+[GRAPHIC] [TIFF OMITTED] TP13MR07.030
+
+BILLING CODE 4910-13-C
+
+[[Page 11300]]
+
+    (b) An alternative approach for complying with paragraph (a) of 
+this AD this AD is to replace the affected strap with an ECF 
+designed strap kit, P/N 350A27-0350-0071,that has a torsional spring 
+at the lower end of the strap. The following Parts List constitutes 
+the required parts of the ECF strap kit designed with the torsional 
+spring at the lower end of the strap:
+
+------------------------------------------------------------------------
+              Item                     Part No.            Quantity
+------------------------------------------------------------------------
+(1) Leaf Assy...................  350A27-1426-03....  1
+(2) Spring......................  350A27-1423-21....  1
+(3) Leaf Support................  350A27-1421-20....  1
+(4) Cotter Pin..................  23310CA015012.....  1
+(5) Shear Pin...................  22719BC050068L....  1
+(6) Screw.......................  22208CM050010.....  2
+(7) Washer......................  23111AG050LE......  3
+(8) Support.....................  350A27-1377-01....  1
+------------------------------------------------------------------------
+
+    (c) Replacing the strap with an ECF designed strap kit as 
+described in paragraph (b) of this AD constitutes terminating action 
+for the requirements of this AD.
+    (d) To request a different method of compliance or a different 
+compliance time for this AD, follow the procedures in 14 CFR 39.19. 
+Contact the Seattle Aircraft Certification Office, FAA, ATTN: Vince 
+Massey, Aerospace Engineer, FAA, Systems and Equipment Branch, 1601 
+Lind Avenue SW., Renton, Washington 98057, telephone (425) 917-6475, 
+fax (425) 917-6590, for information about previously approved 
+alternative methods of compliance.
+
+    Issued in Fort Worth, Texas, on February 26, 2007.
+David A. Downey,
+Manager, Rotorcraft Directorate, Aircraft Certification Service.
+[FR Doc. 07-1167 Filed 3-12-07; 8:45 am]
+BILLING CODE 4910-13-P
+
+

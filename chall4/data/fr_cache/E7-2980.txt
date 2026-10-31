@@ -1,0 +1,353 @@
+
+[Federal Register Volume 72, Number 35 (Thursday, February 22, 2007)]
+[Proposed Rules]
+[Pages 7934-7936]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E7-2980]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2007-27269; Directorate Identifier 2006-NM-207-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Empresa Brasileira de Aeronautica S.A. 
+(EMBRAER) Model ERJ 170 Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) 
+for certain EMBRAER Model ERJ 170 airplanes. This proposed AD would 
+require installing updated software revisions and, as applicable, doing 
+concurrent actions. This proposed AD results from a report of an error 
+in the implementation procedure of the Primus Epic digital software 
+platform, which could result in improper functioning of certain flight 
+systems. Further, current revisions of the Primus Epic software may 
+cause blinking of all cockpit flight displays. We are proposing this AD 
+to prevent improper functioning of certain flight systems and blinking 
+of cockpit flight displays, which could lead to increased pilot 
+workload during critical phases of flight.
+
+DATES: We must receive comments on this proposed AD by March 26, 2007.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility, U.S. Department of 
+Transportation, 400 Seventh Street, SW., Nassif Building, Room PL-401, 
+Washington, DC 20590.
+    Fax: (202) 493-2251.
+    Hand Delivery: Room PL-401 on the plaza level of the Nassif 
+Building, 400 Seventh Street, SW., Washington, DC, between 9 a.m. and 5 
+p.m., Monday through Friday, except Federal holidays.
+    Contact Empresa Brasileira de Aeronautica S.A. (EMBRAER), P.O. Box 
+343--CEP 12.225, Sao Jose dos Campos--SP, Brazil, for service 
+information identified in this proposed AD.
+
+FOR FURTHER INFORMATION CONTACT: Todd Thompson, Aerospace Engineer, 
+International Branch, ANM-116, Transport Airplane Directorate, FAA, 
+1601 Lind Avenue, SW., Renton, Washington 98057-3356; telephone (425) 
+227-1175; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to submit any relevant written data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed in the ADDRESSES section. Include the docket number ``FAA-2007-
+27269; Directorate Identifier 2006-NM-207-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic,
+
+[[Page 7935]]
+
+environmental, and energy aspects of the proposed AD. We will consider 
+all comments received by the closing date and may amend the proposed AD 
+in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed AD. Using the search function of 
+that Web site, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You may review the DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or you 
+may visit http://dms.dot.gov.
+
+Examining the Docket
+
+    You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the DOT 
+street address stated in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after the Docket Management System 
+receives them.
+
+Discussion
+
+    The Ag[ecirc]ncia Nacional de Avia[ccedil][atilde]o Civil (ANAC), 
+which is the airworthiness authority for Brazil, notified us that an 
+unsafe condition may exist on certain EMBRAER Model ERJ 170 airplanes. 
+The ANAC advises of a reported error in the implementation procedure of 
+the Primus Epic digital software platform, which may lead to an 
+ineffective power-up built-in test (PBIT) of certain fly-by-wire (FBW), 
+autoflight, and avionics system functions, which could result in 
+improper functioning of those systems. Further, current Primus Epic 
+software revisions may cause blinking of all cockpit flight displays. 
+This condition, if not corrected, could lead to increased pilot 
+workload during critical phases of flight.
+
+Relevant Service Information
+
+    EMBRAER has issued Service Bulletin 170-31-0013, Revision 01, dated 
+January 13, 2006. The service bulletin describes procedures for 
+installing Primus Epic software part number (P/N) PS7027709-00113 (load 
+version 17.3). For airplanes equipped with a lightning sensor system 
+(LSS) and software load version 15.3 or 15.4, the installation includes 
+doing certain wiring revisions of the LSS connector. For airplanes that 
+have received all described software upgrades in accordance with 
+EMBRAER Service Bulletin 170-31-0013, dated December 17, 2005, an 
+additional action is described by Service Bulletin 170-31-0013, 
+Revision 01. The additional action includes installing a new, upgraded 
+loadable diagnostic information (LDI) database.
+    The ANAC mandated the service information and issued Brazilian 
+airworthiness directive 2006-06-01, effective June 28, 2006, to ensure 
+the continued airworthiness of these airplanes in Brazil.
+    For certain airplanes, EMBRAER Service Bulletin 170-31-0013, 
+Revision 01, specifies prior or concurrent accomplishment of certain 
+actions specified in EMBRAER Service Bulletin 170-73-0001, dated 
+September 13, 2005, and Revision 01, dated September 23, 2005. These 
+actions include installing full-authority digital engine-control 
+(FADEC) software version V5.20.
+
+FAA's Determination and Requirements of the Proposed AD
+
+    These airplane models are manufactured in Brazil and are type 
+certificated for operation in the United States under the provisions of 
+section 21.29 of the Federal Aviation Regulations (14 CFR 21.29) and 
+the applicable bilateral airworthiness agreement. Pursuant to this 
+bilateral airworthiness agreement, the ANAC has kept the FAA informed 
+of the situation described above. We have examined the ANAC's findings, 
+evaluated all pertinent information, and determined that we need to 
+issue an AD for airplanes of this type design that are certificated for 
+operation in the United States.
+    Therefore, we are proposing this AD, which would require 
+accomplishing the actions specified in the service information 
+described previously.
+
+Clarification of Requirements
+
+    The ANAC airworthiness directive 2006-06-01 does not specifically 
+state that prior or concurrent installation of FADEC software version 
+V5.20 is required. However, to ensure proper correction of the unsafe 
+condition, this proposed AD would require accomplishing this concurrent 
+action. EMBRAER Service Bulletin 170-31-0013, Revision 01, describes 
+EMBRAER Service Bulletin 170-73-0001 as the appropriate source of 
+service information for doing the concurrent action. This difference 
+has been coordinated with the ANAC.
+
+Interim Action
+
+    We consider this proposed AD interim action. The manufacturer is 
+developing a modification that will further address the unsafe 
+condition identified in this proposed AD. Once this modification is 
+approved and available, we may consider additional rulemaking.
+
+Costs of Compliance
+
+    This proposed AD would affect about 68 airplanes of U.S. registry. 
+Software upgrades would be provided by the manufacturer at no charge to 
+operators, and parts for wiring changes would be provided from operator 
+stores. The following table provides the estimated costs for U.S. 
+operators to comply with this proposed AD at an average labor rate of 
+$80 per work hour.
+
+                                                 Estimated Costs
+----------------------------------------------------------------------------------------------------------------
+                Action                        Work hours           Cost per airplane            Fleet cost
+----------------------------------------------------------------------------------------------------------------
+Install software.....................  Between 5 and 6........  Between $400 and $480..  Between $27,200 and
+                                                                                          $32,640.
+Revise wiring........................  1......................  $80....................  Up to $5,440.
+----------------------------------------------------------------------------------------------------------------
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, Section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+Subtitle VII, Part A, Subpart III, Section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures
+
+[[Page 7936]]
+
+the Administrator finds necessary for safety in air commerce. This 
+regulation is within the scope of that authority because it addresses 
+an unsafe condition that is likely to exist or develop on products 
+identified in this rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD and placed it in the AD docket. See the 
+ADDRESSES section for a location to examine the regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority: 49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The Federal Aviation Administration (FAA) amends Sec.  39.13 by 
+adding the following new airworthiness directive (AD):
+
+Empresa Brasileira de Aeronautica S.A. (EMBRAER): Docket No. FAA-
+2007-27269; Directorate Identifier 2006-NM-207-AD.
+
+Comments Due Date
+
+    (a) The FAA must receive comments on this AD action by March 26, 
+2007.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to EMBRAER Model ERJ 170-100 LR, -100 STD, -
+100 SE, -100 SU, -200 LR, -200 STD, and -200 SU airplanes, 
+certificated in any category; as identified in EMBRAER Service 
+Bulletin 170-31-0013, Revision 01, dated January 13, 2006.
+
+Unsafe Condition
+
+    (d) This AD results from a report of an error in the 
+implementation procedure of the Primus Epic digital software 
+platform, which could result in improper functioning of certain 
+flight systems. Further, current revisions of the Primus Epic 
+software may possibly cause blinking of all cockpit flight displays. 
+We are issuing this AD to prevent improper functioning of certain 
+flight systems and blinking of cockpit flight displays, which could 
+lead to increased pilot workload during critical phases of flight.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Inspection for Software Identification
+
+    (f) Within 30 days after the effective date of this AD, inspect 
+to determine the part number (P/N) of the Primus Epic software and 
+the upgrade version number of the full-authority digital engine-
+control (FADEC) software installed on the airplane.
+
+Software Installation and Concurrent Actions
+
+    (g) Within the compliance time specified in paragraph (g)(1) or 
+(g)(2) of this AD, as applicable, install Primus Epic P/N PS7027709-
+00113 (load version 17.3) and do applicable wiring revisions; in 
+accordance with the Accomplishment Instructions of EMBRAER Service 
+Bulletin 170-31-0013, Revision 01, dated January 13, 2006.
+    (1) For airplanes equipped with software having P/N PS7027709-
+00108 (load version 15.3), P/N PS7027709-00109 (load version 15.4), 
+or P/N PS7027709-00110 (load version 15.5): Within 30 days after the 
+effective date of this AD.
+    (2) For airplanes equipped with software having P/N PS7027709-
+00106 (load version 17.1) or P/N PS7027709-00112 (load version 
+17.2.02): Within 120 days after the effective date of this AD.
+
+Concurrent Actions
+
+    (h) For airplanes which do not have FADEC software upgrade 
+version V5.20 installed at the time of the inspection required by 
+paragraph (f) of this AD: Prior to or concurrently with the 
+installation required by paragraph (g) of this AD, install FADEC 
+software upgrade version V5.20 as specified in EMBRAER Service 
+Bulletin 170-73-0001, dated September 13, 2005; or Revision 01, 
+dated September 23, 2005.
+
+Actions Accomplished According to Previous Issue of Service Bulletin
+
+    (i) Actions accomplished before the effective date of this AD 
+according to EMBRAER Service Bulletin 170-31-0013, dated December 
+17, 2005, are considered acceptable for compliance with paragraph 
+(g) of this AD; except that, for airplanes identified in paragraph 
+1D., ``Additional Action,'' of EMBRAER Service Bulletin 170-31-0013, 
+Revision 01, dated January 13, 2006, the additional action specified 
+in Service Bulletin 170-31-0013, Revision 01, must be done as 
+required by this AD.
+
+Alternative Methods of Compliance (AMOCs)
+
+    (j)(1) The Manager, International Branch, ANM-116, FAA, has the 
+authority to approve AMOCs for this AD, if requested in accordance 
+with the procedures found in 14 CFR 39.19.
+    (2) Before using any AMOC approved in accordance with Sec.  
+39.19 on any airplane to which the AMOC applies, notify the 
+appropriate principal inspector in the FAA Flight Standards 
+Certificate Holding District Office.
+
+Related Information
+
+    (k) Brazilian airworthiness directive 2006-06-01, effective June 
+28, 2006, also addresses the subject of this AD.
+
+    Issued in Renton, Washington, on February 7, 2007.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+ [FR Doc. E7-2980 Filed 2-21-07; 8:45 am]
+BILLING CODE 4910-13-P
+
+

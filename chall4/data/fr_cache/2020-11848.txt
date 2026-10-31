@@ -1,0 +1,119 @@
+
+[Federal Register Volume 85, Number 107 (Wednesday, June 3, 2020)]
+[Proposed Rules]
+[Page 34136]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2020-11848]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2017-0492; Product Identifier 2016-SW-025-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Honeywell International Inc. 
+(Honeywell) Enhanced Ground Proximity Warning System (EGPWS)
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Proposed rule; withdrawal.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA is withdrawing a notice of proposed rulemaking (NPRM) 
+that proposed to adopt a new airworthiness directive (AD) that would 
+have applied to various normal and transport category rotorcraft with 
+certain Honeywell enhanced ground proximity warning systems (EGPWS) 
+installed. The NPRM was prompted by a software defect that prevents the 
+EGPWS from providing terrain warnings. The NPRM would have required 
+updating the software version of the EGPWS. Since issuance of the NPRM, 
+the FAA has determined that the unsafe condition no longer exists and 
+has confirmed that the majority of operators have updated their 
+software as specified in the NPRM. Accordingly, the NPRM is withdrawn.
+
+DATES: The FAA is withdrawing the proposed rule published June 6, 2017 
+(82 FR 25978), as of June 3, 2020.
+
+ADDRESSES:
+
+Examining the AD Docket
+
+    You may examine the AD docket on the internet at https://www.regulations.gov by searching for and locating Docket No. FAA-2017-
+0492; or in person at Docket Operations between 9 a.m. and 5 p.m., 
+Monday through Friday, except Federal holidays. The AD docket contains 
+this AD action, any comments received, and other information. The 
+street address for Docket Operations is U.S. Department of 
+Transportation, Docket Operations, M-30, West Building Ground Floor, 
+Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 20590.
+
+FOR FURTHER INFORMATION CONTACT: Thanh Tran, Aerospace Engineer, 
+Systems and Equipment Section, FAA, Los Angeles ACO Branch, 3960 
+Paramount Boulevard, Lakewood, CA 90712-4137; phone: 562-627-5304; fax: 
+562-627-5210; email [email protected].
+
+SUPPLEMENTARY INFORMATION: 
+
+Discussion
+
+    The FAA has issued an NPRM that proposed to amend 14 CFR part 39 by 
+adding an AD that would apply to the specified products. The NPRM was 
+published in the Federal Register on June 6, 2017 (82 FR 25978). The 
+NPRM was prompted by a software defect that prevents the EGPWS from 
+providing terrain warnings. The NPRM proposed to require updating the 
+software version of the EGPWS. The proposed actions were intended to 
+address failure of an EGPWS to generate a terrain warning, which could 
+result in flight into terrain.
+
+Actions Since the NPRM Was Issued
+
+    Since issuance of the NPRM, the FAA has determined that the unsafe 
+condition no longer exists and has confirmed that the majority of 
+operators have updated their software as specified in the NPRM. In 
+addition, the FAA confirmed that the software failure related to the 
+potential unsafe condition has occurred only during lab testing; no 
+failures have occurred during operation of the affected helicopters. 
+The FAA completed a new risk assessment based on this data that showed 
+there is an acceptable level of risk. Therefore, the FAA has determined 
+that AD action is not appropriate and the NPRM should be withdrawn.
+    Withdrawal of this NPRM constitutes only such action and does not 
+preclude the FAA from further rulemaking on this issue, nor does it 
+commit the FAA to any course of action in the future.
+
+FAA's Conclusions
+
+    Upon further consideration, the FAA has determined that the NPRM is 
+unnecessary. Accordingly, the NPRM is withdrawn.
+
+Regulatory Findings
+
+    Since this action only withdraws an NPRM, it is neither a proposed 
+nor a final rule. This action therefore is not covered under Executive 
+Order 12866, the Regulatory Flexibility Act, or DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979).
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Incorporation by 
+reference, Safety.
+
+The Withdrawal
+
+    Accordingly, the notice of proposed rulemaking, Docket No. FAA-
+2017-0492, which was published in the Federal Register on June 6, 2017 
+(82 FR 25978), is withdrawn.
+
+    Issued on May 28, 2020.
+Gaetano A. Sciortino,
+Deputy Director for Strategic Initiatives, Compliance & Airworthiness 
+Division, Aircraft Certification Service.
+[FR Doc. 2020-11848 Filed 6-2-20; 8:45 am]
+ BILLING CODE 4910-13-P
+
+

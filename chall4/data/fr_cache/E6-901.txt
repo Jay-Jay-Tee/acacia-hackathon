@@ -1,0 +1,341 @@
+
+[Federal Register Volume 71, Number 16 (Wednesday, January 25, 2006)]
+[Proposed Rules]
+[Pages 4067-4069]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: E6-901]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 39
+
+[Docket No. FAA-2006-23673; Directorate Identifier 2005-NM-233-AD]
+RIN 2120-AA64
+
+
+Airworthiness Directives; Empresa Brasileira de Aeronautica S.A. 
+(EMBRAER) Model EMB-135 and EMB-145, -145ER, -145MR, -145LR, -145XR, -
+145MP, and -145EP Airplanes
+
+AGENCY: Federal Aviation Administration (FAA), Department of 
+Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+-----------------------------------------------------------------------
+
+SUMMARY: The FAA proposes to adopt a new airworthiness directive (AD) 
+for all EMBRAER Model EMB-135 and EMB-145, -145ER, -145MR, -145LR, -
+145XR, -145MP, and -145EP airplanes. This proposed AD would require 
+inspecting to determine the part number of the ailerons. For airplanes 
+with affected aileron part numbers, this proposed AD would require 
+reworking the aileron damper fitting. For certain airplanes, this 
+proposed AD would also require replacing the rod end of the aileron 
+damper assembly with an improved rod end. This proposed AD results from 
+reports of structural failure of the rod end of the aileron damper, 
+which was caused by insufficient clearance between the lugs of the 
+aileron damper fitting and the rod end of the aileron damper. We are 
+proposing this AD to prevent failure of the aileron damper, which could 
+result in failure of the aileron actuator and consequent reduced 
+controllability of the airplane.
+
+DATES: We must receive comments on this proposed AD by February 24, 
+2006.
+
+ADDRESSES: Use one of the following addresses to submit comments on 
+this proposed AD.
+     DOT Docket Web site: Go to http://dms.dot.gov and follow 
+the instructions for sending your comments electronically.
+     Government-wide rulemaking Web site: Go to http://www.regulations.gov and follow the instructions for sending your 
+comments electronically.
+     Mail: Docket Management Facility, U.S. Department of 
+Transportation, 400 Seventh Street, SW., Nassif Building, room PL-401, 
+Washington, DC 20590.
+     Fax: (202) 493-2251.
+     Hand Delivery: Room PL-401 on the plaza level of the 
+Nassif Building, 400 Seventh Street SW., Washington, DC, between 9 a.m. 
+and 5 p.m., Monday through Friday, except Federal holidays.
+    Contact Empresa Brasileira de Aeronautica S.A. (EMBRAER), P.O. Box 
+343--CEP 12.225, Sao Jose dos Campos--SP, Brazil, for service 
+information identified in this proposed AD.
+
+FOR FURTHER INFORMATION CONTACT: Todd Thompson, Aerospace Engineer, 
+International Branch, ANM-116, FAA, Transport Airplane Directorate, 
+1601 Lind Avenue, SW., Renton, Washington 98055-4056; telephone (425) 
+227-1175; fax (425) 227-1149.
+
+SUPPLEMENTARY INFORMATION:
+
+Comments Invited
+
+    We invite you to submit any relevant written data, views, or 
+arguments regarding this proposed AD. Send your comments to an address 
+listed in the ADDRESSES section. Include the docket number ``FAA-2006-
+23673; Directorate Identifier 2005-NM-233-AD'' at the beginning of your 
+comments. We specifically invite comments on the overall regulatory, 
+economic, environmental, and energy aspects of the proposed AD. We will 
+consider all comments received by the closing date and may amend the 
+proposed AD in light of those comments.
+    We will post all comments we receive, without change, to http://dms.dot.gov, including any personal information you provide. We will 
+also post a report summarizing each substantive verbal contact with FAA 
+personnel concerning this proposed AD. Using the search function of 
+that Web site, anyone can find and read the comments in any of our 
+dockets, including the name of the individual who sent the comment (or 
+signed the comment on behalf of an association, business, labor union, 
+etc.). You may review the DOT's complete Privacy Act Statement in the 
+Federal Register published on April 11, 2000 (65 FR 19477-78), or you 
+may visit http://dms.dot.gov.
+
+Examining the Docket
+
+    You may examine the AD docket on the Internet at http://dms.dot.gov, or in person at the Docket Management Facility office 
+between 9 a.m. and 5 p.m., Monday through Friday, except Federal 
+holidays. The Docket Management Facility office (telephone (800) 647-
+5227) is located on the plaza level of the Nassif Building at the DOT 
+street address stated in the ADDRESSES section. Comments will be 
+available in the AD docket shortly after the Docket Management System 
+receives them.
+
+Discussion
+
+    The Departmento de Aviacao Civil (DAC), which is the airworthiness 
+authority for Brazil, notified us that an unsafe condition may exist on 
+all EMBRAER Model EMB-135 and EMB-145, -145ER, -145MR, -145LR, -145XR, 
+-145MP, and -145EP airplanes. The DAC advises of reports indicating 
+structural failure of the rod ends of the aileron damper. This failure 
+has been attributed to insufficient clearance between the lugs of the 
+aileron damper fitting and the rod end of the aileron damper. The 
+insufficient clearance is associated with improper clearance between 
+the rod end and its bearing race. A failed rod end is a hidden failure 
+of the aileron damper. Flutter caused by failure of the aileron damper 
+could result in failure of the aileron actuator. This condition, if not 
+corrected, could result in reduced controllability of the airplane.
+
+Relevant Service Information
+
+    EMBRAER has issued Service Bulletin 145-27-0108, Revision 01, dated 
+April 28, 2005, which is effective for airplanes that are equipped with 
+an affected aileron. The service bulletin describes procedures for 
+reworking the aileron damper fitting on the left- and right-hand sides 
+of the airplane. For aileron dampers with certain part numbers and 
+serial numbers, the service bulletin also describes procedures for 
+replacing the rod end of the aileron damper assembly with an improved 
+rod end on the left- and right-hand sides of the airplane. 
+Accomplishing the actions specified in the service information is 
+intended to adequately address the unsafe condition. The DAC mandated 
+the service information and issued Brazilian airworthiness directive 
+2005-10-04, dated November 17, 2005, to ensure the continued 
+airworthiness of these airplanes in Brazil.
+    The EMBRAER service bulletin refers to Textron Service Bulletin 
+41012130-27-02, dated July 12, 2004, as an additional source of service 
+information for replacing the rod end of the aileron damper assembly. 
+The Textron service bulletin is included within the pages of the 
+EMBRAER service bulletin.
+
+[[Page 4068]]
+
+FAA's Determination and Requirements of the Proposed AD
+
+    These airplane models are manufactured in Brazil and are type 
+certificated for operation in the United States under the provisions of 
+section 21.29 of the Federal Aviation Regulations (14 CFR 21.29) and 
+the applicable bilateral airworthiness agreement. Pursuant to this 
+bilateral airworthiness agreement, the DAC has kept the FAA informed of 
+the situation described above. We have examined the DAC's findings, 
+evaluated all pertinent information, and determined that we need to 
+issue an AD for airplanes of this type design that are certificated for 
+operation in the United States.
+    Therefore, we are proposing this AD, which would require 
+accomplishing the actions specified in the service information 
+described previously.
+
+Costs of Compliance
+
+    The following table provides the estimated costs for U.S. operators 
+to comply with this proposed AD.
+
+                                                                     Estimated Costs
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                      Average
+                Action                  Work hours   labor rate        Parts          Cost per    Number of U.S.-registered           Fleet cost
+                                                      per hour                        airplane            airplanes
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Inspection for Part Number...........            1          $65  None.............          $65  680........................  $44,200.
+Rework...............................            2           65  Free.............          130  680........................  $88,400.
+Replacement..........................            2           65  Free.............          130  Up to 680..................  Up to $88,400.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Authority for This Rulemaking
+
+    Title 49 of the United States Code specifies the FAA's authority to 
+issue rules on aviation safety. Subtitle I, section 106, describes the 
+authority of the FAA Administrator. Subtitle VII, Aviation Programs, 
+describes in more detail the scope of the Agency's authority.
+    We are issuing this rulemaking under the authority described in 
+subtitle VII, part A, subpart III, section 44701, ``General 
+requirements.'' Under that section, Congress charges the FAA with 
+promoting safe flight of civil aircraft in air commerce by prescribing 
+regulations for practices, methods, and procedures the Administrator 
+finds necessary for safety in air commerce. This regulation is within 
+the scope of that authority because it addresses an unsafe condition 
+that is likely to exist or develop on products identified in this 
+rulemaking action.
+
+Regulatory Findings
+
+    We have determined that this proposed AD would not have federalism 
+implications under Executive Order 13132. This proposed AD would not 
+have a substantial direct effect on the States, on the relationship 
+between the national Government and the States, or on the distribution 
+of power and responsibilities among the various levels of government.
+    For the reasons discussed above, I certify that the proposed 
+regulation:
+    1. Is not a ``significant regulatory action'' under Executive Order 
+12866;
+    2. Is not a ``significant rule'' under the DOT Regulatory Policies 
+and Procedures (44 FR 11034, February 26, 1979); and
+    3. Will not have a significant economic impact, positive or 
+negative, on a substantial number of small entities under the criteria 
+of the Regulatory Flexibility Act.
+    We prepared a regulatory evaluation of the estimated costs to 
+comply with this proposed AD and placed it in the AD docket. See the 
+ADDRESSES section for a location to examine the regulatory evaluation.
+
+List of Subjects in 14 CFR Part 39
+
+    Air transportation, Aircraft, Aviation safety, Safety.
+
+The Proposed Amendment
+
+    Accordingly, under the authority delegated to me by the 
+Administrator, the FAA proposes to amend 14 CFR part 39 as follows:
+
+PART 39--AIRWORTHINESS DIRECTIVES
+
+    1. The authority citation for part 39 continues to read as follows:
+
+    Authority:  49 U.S.C. 106(g), 40113, 44701.
+
+
+Sec.  39.13  [Amended]
+
+    2. The Federal Aviation Administration (FAA) amends Sec.  39.13 by 
+adding the following new airworthiness directive (AD):
+
+Empresa Brasileira de Aeronautica S.A. (EMBRAER): Docket No. FAA-
+2006-23673; Directorate Identifier 2005-NM-233-AD.
+
+Comments Due Date
+
+    (a) The FAA must receive comments on this AD action by February 
+24, 2006.
+
+Affected ADs
+
+    (b) None.
+
+Applicability
+
+    (c) This AD applies to all EMBRAER Model EMB-135BJ, -135ER, -
+135KE, -135KL, and -135LR airplanes; and Model EMB-145, -145ER, -
+145MR, -145LR, -145XR, -145MP, and -145EP airplanes; certificated in 
+any category.
+
+Unsafe Condition
+
+    (d) This AD results from reports of structural failure of the 
+rod end of the aileron damper, which was caused by insufficient 
+clearance between the lugs of the aileron damper fitting and the rod 
+end of the aileron damper. We are issuing this AD to prevent failure 
+of the aileron damper, which could result in failure of the aileron 
+actuator and consequent reduced controllability of the airplane.
+
+Compliance
+
+    (e) You are responsible for having the actions required by this 
+AD performed within the compliance times specified, unless the 
+actions have already been done.
+
+Part Number Determination
+
+    (f) Within 400 flight hours after the effective date of this AD: 
+Inspect the ailerons on the left- and right-hand sides of the 
+airplane to determine the part number (P/N). A review of airplane 
+maintenance records is acceptable in lieu of this inspection if the 
+P/N of the ailerons can be conclusively determined from that review.
+    (1) If the P/N of the aileron is not listed under ``Affected 
+components'' in paragraph 1.A.(1) of EMBRAER Service Bulletin 145-
+27-0108, Revision 01, dated April 28, 2005: No further action is 
+required by this AD for that aileron.
+    (2) If the P/N of the aileron is listed under ``Affected 
+components'' in paragraph 1.A.(1) of EMBRAER Service Bulletin 145-
+27-0108, Revision 01, dated April 28, 2005: Do paragraph (g) of this 
+AD.
+
+Rework of Aileron Damper Fitting
+
+    (g) For any airplane equipped with an aileron having a P/N 
+listed under ``Affected components'' in paragraph 1.A.(1) of EMBRAER 
+Service Bulletin 145-27-0108, Revision 01, dated April 28, 2005: 
+Within 400 flight hours after the effective date of this AD, rework 
+the aileron damper fitting on the left- and right-hand sides of the 
+airplane, in accordance with the Accomplishment Instructions of 
+EMBRAER Service Bulletin 145-27-0108, Revision 01, dated April 28, 
+2005.
+
+[[Page 4069]]
+
+Replacement of the Rod End of the Aileron Damper Assembly
+
+    (h) For airplanes equipped with an aileron damper assembly 
+having P/N 41012130-102, -103, or -104, and serial number 001 
+through 0712 inclusive: Within 400 flight hours after the effective 
+date of this AD, replace the rod end of the aileron damper assembly, 
+P/N 41011486-101, with an improved rod end, P/N 41011486-102, on the 
+left- and right-hand sides of the airplane, in accordance with the 
+Accomplishment Instructions of EMBRAER Service Bulletin 145-27-0108, 
+Revision 01, dated April 28, 2005.
+
+    Note 1:  EMBRAER Service Bulletin 145-27-0108, Revision 01, 
+refers to Textron Service Bulletin 41012130-27-02, dated July 12, 
+2004, as an additional source of service information for replacing 
+the rod end of the aileron damper assembly. The Textron service 
+bulletin is included within the pages of the EMBRAER service 
+bulletin.
+
+Actions Accomplished Previously
+
+    (i) Actions accomplished before the effective date of this AD in 
+accordance with EMBRAER Service Bulletin 145-27-0108, dated July 28, 
+2004, are acceptable for compliance with the corresponding actions 
+required by this AD.
+
+Alternative Methods of Compliance (AMOCs)
+
+    (j)(1) The Manager, International Branch, ANM-116, Transport 
+Airplane Directorate, FAA, has the authority to approve AMOCs for 
+this AD, if requested in accordance with the procedures found in 14 
+CFR 39.19.
+    (2) Before using any AMOC approved in accordance with Sec.  
+39.19 on any airplane to which the AMOC applies, notify the 
+appropriate principal inspector in the FAA Flight Standards 
+Certificate Holding District Office.
+
+Related Information
+
+    (k) Brazilian airworthiness directive 2005-10-04, dated November 
+17, 2005, also addresses the subject of this AD.
+
+    Issued in Renton, Washington, on January 17, 2006.
+Ali Bahrami,
+Manager, Transport Airplane Directorate, Aircraft Certification 
+Service.
+[FR Doc. E6-901 Filed 1-24-06; 8:45 am]
+BILLING CODE 4910-13-P
+
+
