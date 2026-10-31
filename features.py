@@ -1,7 +1,9 @@
 """P4 feature endpoints. Mounted in app.py with one line: app.include_router(features.router)"""
+import re
 import sqlite3
+from datetime import datetime, timezone
 from functools import lru_cache
-from typing import Annotated
+from typing import Annotated, Literal
 
 from fastapi import APIRouter, Body, HTTPException
 from pydantic import BaseModel, Field
@@ -168,3 +170,139 @@ def ad_timeline(ad_id: int):
             "supersedes": [_supersession(n) for n in ad["supersedes"]]})
     return {"docket": docket, "requested_ad_id": ad_id, "current_id": rev["latest_id"], "count": rev["count"],
             "headline": _headline(ads[rev["latest_id"]]), "events": events}
+
+
+# ---------- compliance note ----------
+
+NOTE_REVIEW_LINE = "For review by certifying staff: decision support only."
+NOTE_FOOTER = ("Document details, applicability verdicts and source checks were recomputed from the indexed Federal "
+               "Register text when this note was generated. The question and answer text are as displayed to the user. "
+               "Verify every citation against the cited Federal Register notice before acting; certifying staff make "
+               "the final applicability and compliance decision.")
+
+
+def locate(text, cited):
+    """Span of `cited` inside `text`, or None. Words are matched with flexible whitespace, and the "..." that
+    extractive mode appends to a cut quote is ignored. Mirrors frontend/src/features/highlight.ts."""
+    words = re.sub(r"(\.{3}|\u2026)\s*$", "", cited).split()
+    m = re.search(r"\s+".join(re.escape(w) for w in words), text) if words else None
+    return m.span() if m else None
+
+
+class NoteCitation(BaseModel):
+    ad_id: int
+    chunk_id: int
+    cited_text: str = Field(max_length=2000)
+
+
+class NoteBlock(BaseModel):
+    text: str = Field(max_length=4000)
+    citations: list[NoteCitation] = Field(default_factory=list, max_length=20)
+
+
+class NoteRequest(BaseModel):
+    query: str = Field(max_length=engine.MAX_QUERY)
+    model: str | None = Field(default=None, max_length=40)
+    serial: str | None = Field(default=None, max_length=40)
+    status: Literal["answered", "refused", "needs_clarification"]
+    mode: str | None = Field(default=None, max_length=20)
+    refusal_reason: str = Field(default="", max_length=1000)
+    answer_blocks: list[NoteBlock] = Field(default_factory=list, max_length=30)
+
+
+def _line(s):
+    """One line of plain text: collapse whitespace so user text can't start new Markdown blocks."""
+    return " ".join(str(s or "").split())
+
+
+def render_note(req, now=None):
+    now = now or datetime.now(timezone.utc)
+    ads, chunks = engine.all_ads(), {}
+    model, serial = _line(req.model), _line(req.serial)
+
+    refs, cites, answer = {}, [], []  # refs: (ad_id, chunk_id) -> citation number
+    for i, block in enumerate(req.answer_blocks, 1):
+        marks = ""
+        for c in block.citations:
+            key = (c.ad_id, c.chunk_id)
+            if key not in refs:
+                refs[key] = len(refs) + 1
+                cites.append(c)
+            marks += f"[{refs[key]}]"
+        answer.append(f"{i}. {_line(block.text)} {marks}".rstrip())
+
+    out = ["# Compliance note", "", f"> **{NOTE_REVIEW_LINE}**", "",
+           f"- **Generated:** {now.strftime('%Y-%m-%d %H:%M:%S')} UTC",
+           f"- **Question:** {_line(req.query)}",
+           f"- **Aircraft:** {('model ' + model) if model else 'model not given'}"
+           f"{(', serial ' + serial) if serial else ''}",
+           f"- **Outcome:** {req.status}{(' (' + _line(req.mode) + ')') if req.mode else ''}", ""]
+
+    out += ["## Answer", ""]
+    if answer:
+        out += answer
+    else:
+        out.append(f"No answer was produced. {_line(req.refusal_reason)}".strip())
+    out.append("")
+
+    if cites:
+        out += ["## Citations", ""]
+    for c in cites:
+        n, card, ad = refs[(c.ad_id, c.chunk_id)], engine.ad_card(c.ad_id), ads[c.ad_id]
+        if c.ad_id not in chunks:
+            chunks[c.ad_id] = {cid: (section, page, text) for cid, section, page, text in _chunks(c.ad_id)}
+        passage = chunks[c.ad_id].get(c.chunk_id)
+        rev = card["revision"]
+        if engine.docket_withdrawn(ad):
+            revision = "docket withdrawn: no action required"
+        elif rev["is_latest"]:
+            revision = f"latest of {rev['count']} notice(s) in this docket"
+        else:
+            newest = ads[rev["latest_id"]]
+            revision = (f"OUTDATED: superseded by {newest.get('record_id')} (published {newest.get('publish_date')}); "
+                        "check the newer notice")
+        out += [f"**[{n}] {card['record_id'] or card['docket']}** ({card['status_label']})", "",
+                f"- Docket: {card['docket']}" + (f" · AD {card['ad_number']}" if card["ad_number"] else ""),
+                f"- Revision: published {card['publish_date']}; {revision}"]
+        if passage:
+            section, page, text = passage
+            out.append(f"- Section: {_line(section)} · Federal Register page {page} (notice pages {card['pages']})")
+        out += [f"- Citation: {_line(card['citation'])}", f"- URL: {card['url']}"]
+        out.append("- Quote:")
+        out += [f"  > {ln}" for ln in (c.cited_text.strip().splitlines() or [""])]
+        if passage and locate(passage[2], c.cited_text):
+            out.append("- Source check: ✓ quote found in the indexed passage")
+        elif passage:
+            out.append("- Source check: ⚠ quote NOT found in the indexed passage; verify manually")
+        else:
+            out.append("- Source check: ⚠ passage not found in the indexed document; verify manually")
+        out.append("")
+
+    if cites:
+        out += ["## Applicability", ""]
+        if not model:
+            out.append("No aircraft model was given, so applicability was not assessed.")
+        for ad_id in dict.fromkeys(c.ad_id for c in cites if model):
+            card, appl = engine.ad_card(ad_id), engine.check_applicability(ads[ad_id], model, serial or None)
+            out += [f"### {card['record_id'] or card['docket']}: {appl['result'].replace('_', ' ')}", ""]
+            out += [f"{i}. {_line(t)}" for i, t in enumerate(appl["trace"], 1)]
+            if appl.get("candidates"):
+                out.append(f"Specify one of: {', '.join(appl['candidates'])}")
+            out.append("")
+
+    out += ["---", "", f"**{NOTE_REVIEW_LINE}**", "", NOTE_FOOTER, ""]
+    return "\n".join(out)
+
+
+@router.post("/note")
+def note(body: NoteRequest):
+    """Markdown compliance note for an answer: question, answer, every citation (docket, revision, section, page,
+    URL, quote with a source check), the applicability trace, a timestamp and the certifying-staff line."""
+    ads = engine.all_ads()
+    for b in body.answer_blocks:
+        for c in b.citations:
+            if c.ad_id not in ads:
+                raise HTTPException(422, f"unknown ad_id {c.ad_id}")
+    now = datetime.now(timezone.utc)
+    return {"markdown": render_note(body, now), "filename": f"compliance-note-{now.strftime('%Y%m%d-%H%M%S')}.md",
+            "generated_at": now.isoformat(timespec="seconds")}

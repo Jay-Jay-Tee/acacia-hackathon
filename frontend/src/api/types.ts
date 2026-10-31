@@ -123,7 +123,7 @@ export interface CorpusStats {
   records_with_full_text: number;
   federal_register_pages: number;
   passages: number;
-  status: Partial<Record<DocStatus, number>>;
+  status: Record<DocStatus, number>;
   embeddings: boolean;
 }
 
