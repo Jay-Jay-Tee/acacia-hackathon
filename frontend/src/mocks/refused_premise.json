@@ -10,14 +10,20 @@
     "answer_blocks": [],
     "mode": null,
     "note": "",
+    "notices": [],
+    "candidates": [],
     "documents": [
       {
         "ad_id": 17,
+        "record_id": "NPRM-018",
         "docket": "FAA-2026-11794",
         "subject": "Airworthiness Directives; Vulcanair S.p.A. Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2026-09-25",
+        "publish_date": "2026-09-30",
+        "pages": "61797-61799",
         "make": "Vulcanair S.p.A.",
         "models": [
           "P.68",
@@ -35,6 +41,8 @@
           "versions": [
             {
               "id": 17,
+              "record_id": "NPRM-018",
+              "publish_date": "2026-09-30",
               "issue_date": "2026-09-25",
               "status": "proposed",
               "citation": "Federal Register, Volume 91 Number 188 (Wednesday, September 30, 2026)",
@@ -53,8 +61,8 @@
         }
       }
     ],
-    "retrieval_ms": 44.1,
+    "retrieval_ms": 32.6,
     "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
-    "total_ms": 48.3
+    "total_ms": 34.1
   }
 }

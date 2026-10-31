@@ -1,43 +1,67 @@
-import { useState, type FormEvent } from "react";
-import { ask } from "./api/client";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { ask, getCorpus } from "./api/client";
 import { mocks } from "./api/mocks";
-import type { AskResponse, Citation } from "./api/types";
+import type { Citation, CorpusStats } from "./api/types";
+import { Composer } from "./components/Composer";
+import { EmptyState, type Example } from "./components/EmptyState";
 import { SidePanel, SidePanelProvider, useSidePanel } from "./components/SidePanel";
+import { Thread, type Turn } from "./components/Thread";
 import { features } from "./features";
+import { useProfile, type Profile } from "./lib/profile";
 import { safeUrl } from "./lib/safeUrl";
-
-// Scaffold shell (#2): proves the client, types, mocks and side-panel slot work end to end.
-// The chat layout (#3), answer bubble (#4) and documents rail (#5) replace the body below.
+import { useTheme, type Theme } from "./lib/theme";
 
 export default function App() {
   return (
     <SidePanelProvider>
-      <Shell />
+      <Chat />
       <SidePanel />
     </SidePanelProvider>
   );
 }
 
-function Shell() {
-  const [query, setQuery] = useState("");
-  const [model, setModel] = useState("");
-  const [serial, setSerial] = useState("");
-  const [res, setRes] = useState<AskResponse | null>(null);
-  const [error, setError] = useState("");
-  const [loading, setLoading] = useState(false);
+function Chat() {
+  const [turns, setTurns] = useState<Turn[]>([]);
+  const [profile, setProfile] = useProfile();
+  const [corpus, setCorpus] = useState<CorpusStats | null>(null);
+  const [theme, cycleTheme] = useTheme();
+  const nextId = useRef(1);
+  const input = useRef<HTMLTextAreaElement>(null);
   const panel = useSidePanel();
+  const busy = turns.some((t) => t.state === "loading");
 
-  async function submit(e: FormEvent) {
-    e.preventDefault();
-    setLoading(true);
-    setError("");
+  useEffect(() => {
+    const ctl = new AbortController();
+    getCorpus(ctl.signal).then(setCorpus, () => setCorpus(null)); // the header just omits the stats if this fails
+    return () => ctl.abort();
+  }, []);
+
+  const run = useCallback(async (id: number, query: string, p: Profile) => {
+    const patch = (t: Partial<Turn>) => setTurns((ts) => ts.map((x) => (x.id === id ? { ...x, ...t } : x)));
     try {
-      setRes(await ask({ query, model, serial }));
+      patch({ state: "done", response: await ask({ query, model: p.model, serial: p.serial }) });
     } catch (err) {
-      setError(err instanceof Error ? err.message : String(err));
-    } finally {
-      setLoading(false);
+      patch({ state: "error", error: err instanceof Error ? err.message : String(err) });
     }
+  }, []);
+
+  const send = useCallback(
+    (query: string, p: Profile = profile) => {
+      const id = nextId.current++;
+      setTurns((ts) => [...ts, { id, query, profile: p, state: "loading" }]);
+      void run(id, query, p);
+    },
+    [profile, run],
+  );
+
+  function retry(t: Turn) {
+    setTurns((ts) => ts.map((x) => (x.id === t.id ? { ...x, state: "loading", error: undefined } : x)));
+    void run(t.id, t.query, t.profile);
+  }
+
+  function runExample(ex: Example) {
+    setProfile(ex.profile);
+    send(ex.query, ex.profile);
   }
 
   function openCitation(c: Citation) {
@@ -46,67 +70,67 @@ function Shell() {
     if (url) window.open(url, "_blank", "noopener,noreferrer");
   }
 
-  let n = 0;
+  function newChat() {
+    setTurns([]);
+    input.current?.focus();
+  }
+
   return (
-    <main className="mx-auto max-w-3xl px-4 py-8 text-stone-900 dark:text-stone-100">
-      <h1 className="text-xl font-semibold">AD Finder</h1>
-      <p className="text-sm text-stone-500">Frontend scaffold. Chat layout lands in #3.</p>
+    <div className="flex h-dvh flex-col">
+      <header className="border-b border-stone-200 bg-stone-50/80 backdrop-blur dark:border-stone-800 dark:bg-stone-950/80">
+        <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3">
+          <div className="min-w-0">
+            <h1 className="flex items-center gap-2 text-[15px] font-semibold tracking-tight">
+              <span aria-hidden className="grid size-6 place-items-center rounded-md bg-stone-900 text-[11px] text-white dark:bg-stone-100 dark:text-stone-900">AD</span>
+              AD Finder
+            </h1>
+            {corpus && (
+              <p className="truncate text-xs text-stone-500 tabular-nums dark:text-stone-400">
+                {corpus.records} FAA notices · {corpus.federal_register_pages.toLocaleString()} pages · cited answers only
+              </p>
+            )}
+          </div>
+          <div className="flex shrink-0 items-center gap-1">
+            {turns.length > 0 && (
+              <button type="button" onClick={newChat} className={iconBtn}>
+                New chat
+              </button>
+            )}
+            <button type="button" onClick={cycleTheme} className={iconBtn} aria-label={`Theme: ${theme}. Click to change.`} title={`Theme: ${theme}`}>
+              <ThemeIcon theme={theme} />
+            </button>
+          </div>
+        </div>
+        {import.meta.env.DEV && <MockPicker />}
+      </header>
 
-      {import.meta.env.DEV && <MockPicker />}
+      <main className="min-h-0 flex-1 overflow-y-auto">
+        <div className="mx-auto max-w-3xl px-4">
+          {turns.length === 0 ? (
+            <EmptyState corpus={corpus} onExample={runExample} />
+          ) : (
+            <Thread turns={turns} onCitationClick={openCitation} onRetry={retry} />
+          )}
+        </div>
+      </main>
 
-      <form onSubmit={submit} className="my-4 grid gap-2 sm:grid-cols-[1fr_9rem_7rem_auto]">
-        <input className={input} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Ask about an AD" maxLength={500} required />
-        <input className={input} value={model} onChange={(e) => setModel(e.target.value)} placeholder="Model" maxLength={40} />
-        <input className={input} value={serial} onChange={(e) => setSerial(e.target.value)} placeholder="Serial" maxLength={40} />
-        <button className="rounded-md bg-blue-700 px-4 py-2 text-white disabled:opacity-50" disabled={loading}>
-          {loading ? "…" : "Ask"}
-        </button>
-      </form>
-
-      {error && <p className="text-red-700 dark:text-red-400">{error}</p>}
-
-      {res && (
-        <section className="space-y-3 rounded-lg border border-stone-200 p-4 dark:border-stone-700">
-          <p className="text-sm">
-            <b>{res.status}</b> · mode {res.mode ?? "none"} · {res.retrieval_ms} ms / {res.total_ms} ms
-          </p>
-          {res.refusal_reason && <p>{res.refusal_reason}</p>}
-          {res.note && <p className="text-sm text-stone-500">{res.note}</p>}
-          {res.answer_blocks.map((b, i) => (
-            <p key={i}>
-              {b.text}
-              {b.citations.map((c) => {
-                n += 1;
-                return (
-                  <button key={n} type="button" onClick={() => openCitation(c)} title={c.cited_text} className="ml-1 text-xs text-blue-700 dark:text-blue-300">
-                    [{n}]
-                  </button>
-                );
-              })}
-            </p>
-          ))}
-          <ul className="text-sm text-stone-500">
-            {res.documents.map((d) => (
-              <li key={d.ad_id}>
-                {d.docket} · {d.status} · {d.applicability?.result ?? "no applicability check"}
-              </li>
-            ))}
-          </ul>
-          <p className="text-xs text-stone-500">{res.disclaimer}</p>
-        </section>
-      )}
-    </main>
+      <footer className="bg-linear-to-t from-stone-50 from-60% to-transparent pt-2 dark:from-stone-950">
+        <div className="mx-auto max-w-3xl px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+          <Composer profile={profile} onProfileChange={setProfile} onSend={(q) => send(q)} busy={busy} inputRef={input} />
+        </div>
+      </footer>
+    </div>
   );
 }
 
 function MockPicker() {
   const current = new URLSearchParams(window.location.search).get("mock");
   return (
-    <p className="mt-2 flex flex-wrap gap-2 text-xs">
-      <span className="text-stone-500">Dev mocks:</span>
-      <a href="?" className={current ? "underline" : "font-semibold"}>live backend</a>
+    <p className="mx-auto flex max-w-3xl flex-wrap gap-x-3 gap-y-1 px-4 pb-2 text-[11px] text-stone-400">
+      <span>dev mocks:</span>
+      <a href="?" className={current ? "hover:underline" : "font-semibold text-stone-600 dark:text-stone-300"}>live</a>
       {Object.keys(mocks).map((name) => (
-        <a key={name} href={`?mock=${name}`} className={current === name ? "font-semibold" : "underline"}>
+        <a key={name} href={`?mock=${name}`} className={current === name ? "font-semibold text-stone-600 dark:text-stone-300" : "hover:underline"}>
           {name}
         </a>
       ))}
@@ -114,4 +138,28 @@ function MockPicker() {
   );
 }
 
-const input = "rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-800";
+function ThemeIcon({ theme }: { theme: Theme }) {
+  const common = { "aria-hidden": true, viewBox: "0 0 24 24", className: "size-4", fill: "none", stroke: "currentColor", strokeWidth: 2, strokeLinecap: "round", strokeLinejoin: "round" } as const;
+  if (theme === "light")
+    return (
+      <svg {...common}>
+        <circle cx="12" cy="12" r="4" />
+        <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+      </svg>
+    );
+  if (theme === "dark")
+    return (
+      <svg {...common}>
+        <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+      </svg>
+    );
+  return (
+    <svg {...common}>
+      <rect x="3" y="4" width="18" height="12" rx="2" />
+      <path d="M8 20h8M12 16v4" />
+    </svg>
+  );
+}
+
+const iconBtn =
+  "rounded-md px-2 py-1.5 text-xs text-stone-600 hover:bg-stone-200/60 dark:text-stone-300 dark:hover:bg-stone-800";

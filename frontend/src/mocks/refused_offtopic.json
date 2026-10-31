@@ -8,14 +8,20 @@
     "answer_blocks": [],
     "mode": null,
     "note": "",
+    "notices": [],
+    "candidates": [],
     "documents": [
       {
         "ad_id": 391,
+        "record_id": "NPRM-392",
         "docket": "2002-CE-57-AD",
         "subject": "Airworthiness Directives; Cessna Aircraft Company Models 402C and 414A Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2003-09-26",
+        "publish_date": "2003-10-02",
+        "pages": "57392-57394",
         "make": "Cessna",
         "models": [
           "402C",
@@ -35,6 +41,8 @@
           "versions": [
             {
               "id": 391,
+              "record_id": "NPRM-392",
+              "publish_date": "2003-10-02",
               "issue_date": "2003-09-26",
               "status": "proposed",
               "citation": "Federal Register: October 3, 2003 (Volume 68, Number 192)",
@@ -42,6 +50,8 @@
             },
             {
               "id": 396,
+              "record_id": "NPRM-397",
+              "publish_date": "2003-07-31",
               "issue_date": "2003-07-28",
               "status": "proposed",
               "citation": "Federal Register: August 1, 2003 (Volume 68, Number 148)",
@@ -49,6 +59,8 @@
             },
             {
               "id": 400,
+              "record_id": "NPRM-401",
+              "publish_date": "2003-05-14",
               "issue_date": "2003-05-09",
               "status": "proposed",
               "citation": "Federal Register: May 15, 2003 (Volume 68, Number 94)",
@@ -60,11 +72,15 @@
       },
       {
         "ad_id": 400,
+        "record_id": "NPRM-401",
         "docket": "2002-CE-57-AD",
         "subject": "Airworthiness Directives; Cessna Aircraft Company Models 402C and 414A Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2003-05-09",
+        "publish_date": "2003-05-14",
+        "pages": "26244-26247",
         "make": "Cessna",
         "models": [
           "402C",
@@ -84,6 +100,8 @@
           "versions": [
             {
               "id": 391,
+              "record_id": "NPRM-392",
+              "publish_date": "2003-10-02",
               "issue_date": "2003-09-26",
               "status": "proposed",
               "citation": "Federal Register: October 3, 2003 (Volume 68, Number 192)",
@@ -91,6 +109,8 @@
             },
             {
               "id": 396,
+              "record_id": "NPRM-397",
+              "publish_date": "2003-07-31",
               "issue_date": "2003-07-28",
               "status": "proposed",
               "citation": "Federal Register: August 1, 2003 (Volume 68, Number 148)",
@@ -98,6 +118,8 @@
             },
             {
               "id": 400,
+              "record_id": "NPRM-401",
+              "publish_date": "2003-05-14",
               "issue_date": "2003-05-09",
               "status": "proposed",
               "citation": "Federal Register: May 15, 2003 (Volume 68, Number 94)",
@@ -109,11 +131,15 @@
       },
       {
         "ad_id": 390,
+        "record_id": "NPRM-391",
         "docket": "2002-CE-05-AD",
         "subject": "Airworthiness Directives; Cessna Aircraft Company Models 401, 401A, 401B, 402, 402A, 402B, 411, and 411A Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2003-09-26",
+        "publish_date": "2003-10-02",
+        "pages": "57394-57398",
         "make": "Cessna",
         "models": [
           "401",
@@ -137,6 +163,8 @@
           "versions": [
             {
               "id": 390,
+              "record_id": "NPRM-391",
+              "publish_date": "2003-10-02",
               "issue_date": "2003-09-26",
               "status": "proposed",
               "citation": "Federal Register: October 3, 2003 (Volume 68, Number 192)",
@@ -144,6 +172,8 @@
             },
             {
               "id": 397,
+              "record_id": "NPRM-398",
+              "publish_date": "2003-07-31",
               "issue_date": "2003-07-28",
               "status": "proposed",
               "citation": "Federal Register: August 1, 2003 (Volume 68, Number 148)",
@@ -151,6 +181,8 @@
             },
             {
               "id": 401,
+              "record_id": "NPRM-402",
+              "publish_date": "2003-05-14",
               "issue_date": "2003-05-09",
               "status": "proposed",
               "citation": "Federal Register: May 15, 2003 (Volume 68, Number 94)",
@@ -162,11 +194,15 @@
       },
       {
         "ad_id": 401,
+        "record_id": "NPRM-402",
         "docket": "2002-CE-05-AD",
         "subject": "Airworthiness Directives; Cessna Aircraft Company Models 401, 401A, 401B, 402, 402A, 402B, 411, and 411A Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2003-05-09",
+        "publish_date": "2003-05-14",
+        "pages": "26239-26242",
         "make": "Cessna",
         "models": [
           "401",
@@ -190,6 +226,8 @@
           "versions": [
             {
               "id": 390,
+              "record_id": "NPRM-391",
+              "publish_date": "2003-10-02",
               "issue_date": "2003-09-26",
               "status": "proposed",
               "citation": "Federal Register: October 3, 2003 (Volume 68, Number 192)",
@@ -197,6 +235,8 @@
             },
             {
               "id": 397,
+              "record_id": "NPRM-398",
+              "publish_date": "2003-07-31",
               "issue_date": "2003-07-28",
               "status": "proposed",
               "citation": "Federal Register: August 1, 2003 (Volume 68, Number 148)",
@@ -204,6 +244,8 @@
             },
             {
               "id": 401,
+              "record_id": "NPRM-402",
+              "publish_date": "2003-05-14",
               "issue_date": "2003-05-09",
               "status": "proposed",
               "citation": "Federal Register: May 15, 2003 (Volume 68, Number 94)",
@@ -215,11 +257,15 @@
       },
       {
         "ad_id": 396,
+        "record_id": "NPRM-397",
         "docket": "2002-CE-57-AD",
         "subject": "Extension of Comment Period; Cessna Aircraft Company Models 402C and 414A Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2003-07-28",
+        "publish_date": "2003-07-31",
+        "pages": "45176-45177",
         "make": "Cessna",
         "models": [
           "402C",
@@ -239,6 +285,8 @@
           "versions": [
             {
               "id": 391,
+              "record_id": "NPRM-392",
+              "publish_date": "2003-10-02",
               "issue_date": "2003-09-26",
               "status": "proposed",
               "citation": "Federal Register: October 3, 2003 (Volume 68, Number 192)",
@@ -246,6 +294,8 @@
             },
             {
               "id": 396,
+              "record_id": "NPRM-397",
+              "publish_date": "2003-07-31",
               "issue_date": "2003-07-28",
               "status": "proposed",
               "citation": "Federal Register: August 1, 2003 (Volume 68, Number 148)",
@@ -253,6 +303,8 @@
             },
             {
               "id": 400,
+              "record_id": "NPRM-401",
+              "publish_date": "2003-05-14",
               "issue_date": "2003-05-09",
               "status": "proposed",
               "citation": "Federal Register: May 15, 2003 (Volume 68, Number 94)",
@@ -264,11 +316,15 @@
       },
       {
         "ad_id": 332,
+        "record_id": "NPRM-333",
         "docket": "FAA-2005-20402",
         "subject": "Airworthiness Directives; Sabreliner Model NA-265, NA-265-20, NA- 265-30, NA-265-40, NA-265-50, NA-265-60, NA-265-65, NA-265-70, and NA- 265-80 Series Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2005-09-06",
+        "publish_date": "2005-09-13",
+        "pages": "54318-54321",
         "make": "Sabreliner",
         "models": [
           "NA-265-40",
@@ -289,6 +345,8 @@
           "versions": [
             {
               "id": 332,
+              "record_id": "NPRM-333",
+              "publish_date": "2005-09-13",
               "issue_date": "2005-09-06",
               "status": "proposed",
               "citation": "Federal Register: September 14, 2005 (Volume 70, Number 177)",
@@ -300,11 +358,15 @@
       },
       {
         "ad_id": 101,
+        "record_id": "NPRM-102",
         "docket": "FAA-2026-3868",
         "subject": "Airworthiness Directives; The Boeing Company Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2026-04-23",
+        "publish_date": "2026-04-27",
+        "pages": "22485-22487",
         "make": "The Boeing Company",
         "models": [
           "737-600",
@@ -326,6 +388,8 @@
           "versions": [
             {
               "id": 101,
+              "record_id": "NPRM-102",
+              "publish_date": "2026-04-27",
               "issue_date": "2026-04-23",
               "status": "proposed",
               "citation": "Federal Register, Volume 91 Number 80 (Monday, April 27, 2026)",
@@ -337,11 +401,15 @@
       },
       {
         "ad_id": 99,
+        "record_id": "NPRM-100",
         "docket": "FAA-2026-3870",
         "subject": "Airworthiness Directives; Textron Aviation Inc. Airplanes",
         "ad_number": "",
         "status": "proposed",
+        "status_label": "Proposed rule (NPRM), not in effect",
         "issue_date": "2026-04-24",
+        "publish_date": "2026-04-29",
+        "pages": "23023-23025",
         "make": "Textron Aviation Inc.",
         "models": [
           "408"
@@ -358,6 +426,8 @@
           "versions": [
             {
               "id": 99,
+              "record_id": "NPRM-100",
+              "publish_date": "2026-04-29",
               "issue_date": "2026-04-24",
               "status": "proposed",
               "citation": "Federal Register, Volume 91 Number 82 (Wednesday, April 29, 2026)",
@@ -368,8 +438,8 @@
         "applicability": null
       }
     ],
-    "retrieval_ms": 6.1,
+    "retrieval_ms": 6.0,
     "disclaimer": "Decision support only. Verify against the cited Federal Register text; certifying staff make the final applicability and compliance decision.",
-    "total_ms": 6.7
+    "total_ms": 6.6
   }
 }
