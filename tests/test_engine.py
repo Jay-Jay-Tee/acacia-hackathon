@@ -119,3 +119,25 @@ def test_section_headings_vs_subparagraph_lines():
     assert ingest.is_heading("Alternative Methods of Compliance (AMOCs)")
     assert not ingest.is_heading("Modify and calibrate each affected fuel level indicator in")
     assert not ingest.is_heading("You are responsible for having the actions required by this")
+
+
+def test_docket_number_is_a_lookup():
+    status, _, res, _ = engine.gate("what's the latest version of FAA-2026-1338?")
+    assert status == "ok" and {engine.all_ads()[h["ad_id"]]["docket"] for h in res["hits"]} == {"FAA-2026-1338"}
+
+
+def test_more_ways_of_asking_to_skip_a_mandatory_action():
+    for q in ["We would like to postpone the elevator bearing inspection on the 737-8 past the compliance time",
+              "Is it OK to not do the fire switch check on the A318?"]:
+        assert engine.gate(q)[0] == "refused", q
+
+
+def test_non_lookup_tasks_and_foreign_ads_are_refused():
+    for q in ["Translate 'airworthiness directive' into German", "Explain how a turbofan engine produces thrust",
+              "Summarise the EASA AD on ATR 72 propeller blades"]:
+        status, reason, res, _ = engine.gate(q)
+        assert status == "refused" and res is None, q
+
+
+def test_filler_and_meta_words_do_not_count_against_a_match():
+    assert engine.content_tokens("is the Piper PA-23 fuel tank proposal still pending") == ["piper", "pa-23", "fuel", "tank"]
